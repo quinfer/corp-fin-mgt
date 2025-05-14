@@ -1,0 +1,60 @@
+---
+title: "Resources"
+subtitle: "Corporate Financial Management"
+format: 
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+---
+
+# Course Resources
+
+This page provides access to all resources for the Corporate Financial Management module.
+
+## Module Handbook
+
+The module handbook contains comprehensive information about the course structure, learning outcomes, assessment details, and policies.
+
+<div class="resource-card">
+  <h3>Module Handbook</h3>
+  <p>Complete reference guide for the Corporate Financial Management module.</p>
+  <div class="button-group">
+    <a href="resources/module-handbook.html" class="btn btn-primary">View Online</a>
+    <a href="resources/module-handbook.docx" class="btn btn-secondary">Download DOCX</a>
+  </div>
+</div>
+
+## Assignment Materials
+
+<div class="resource-card">
+  <h3>Assignment Brief</h3>
+  <p>Detailed information about the coursework assignment worth 50% of your final grade.</p>
+  <div class="button-group">
+    <a href="resources/ACF838_CFM_assignment_detail.docx" class="btn btn-secondary">Download DOCX</a>
+  </div>
+</div>
+
+## Recommended Readings
+
+### Core Textbook
+- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
+
+### Supplementary Reading
+- Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
+- Brealey, R., Myers, S. and Allen, F. (2019) *The Principles of Corporate Finance*. 13th ed.
+- Watson, D. and Head, A. (2019) *Corporate Finance Principles and Practice*. 8th ed.
+
+## Online Resources
+
+- [Financial Times](https://www.ft.com/) - Articles on corporate finance (University subscription required)
+- [Harvard Business Review](https://hbr.org/) - Case studies and articles
+- Module materials on Blackboard
+- Financial databases available through the library
+
+## Contact Information
+
+**Module Coordinator**: Prof. Barry Quinn  
+**Email**: b.quinn1@ulster.ac.uk  
+**Office Hours**: By appointment during the block delivery  
+**Location**: Belfast Campus, Room MC-204 

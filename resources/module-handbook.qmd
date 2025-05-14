@@ -4,6 +4,12 @@ subtitle: "Module Handbook 2024/25"
 author: "Module Code: ACF838"
 date: "January 2025"
 format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    highlight-style: github
+    css: ../styles.css
   docx:
     toc: true
     toc-depth: 1

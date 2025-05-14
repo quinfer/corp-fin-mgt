@@ -44,7 +44,7 @@ website:
           - text: "Afternoon Session"
             href: days/day4-afternoon.html
       - text: "Resources"
-        href: resources.html
+        href: resources.qmd
 
 format:
   html:
