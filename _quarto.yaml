@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Corporate Financial Management"
+  site-url: https://quinfer.github.io/corp-fin-mgt/
   navbar:
     background: primary
     search: true
@@ -51,3 +52,4 @@ format:
     css: styles.css
     toc: true
     page-layout: full
+    self-contained: false
