@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Corporate Financial Management"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Day 1"
+        menu:
+          - text: "Overview"
+            href: days/day1.html
+          - text: "Morning Session"
+            href: days/day1-morning.html
+          - text: "Afternoon Session"
+            href: days/day1-afternoon.html
+      - text: "Day 2"
+        menu:
+          - text: "Overview"
+            href: days/day2.html
+          - text: "Morning Session"
+            href: days/day2-morning.html
+          - text: "Afternoon Session"
+            href: days/day2-afternoon.html
+      - text: "Day 3"
+        menu:
+          - text: "Overview"
+            href: days/day3.html
+          - text: "Morning Session"
+            href: days/day3-morning.html
+          - text: "Afternoon Session"
+            href: days/day3-afternoon.html
+      - text: "Day 4"
+        menu:
+          - text: "Overview"
+            href: days/day4.html
+          - text: "Morning Session"
+            href: days/day4-morning.html
+          - text: "Afternoon Session"
+            href: days/day4-afternoon.html
+      - text: "Resources"
+        href: resources.html
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full

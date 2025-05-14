@@ -1,0 +1,55 @@
+# Corporate Financial Management (ACF838)
+
+## Project Overview
+This repository contains course materials for the Corporate Financial Management module (ACF838) at Ulster University Business School, structured as a Quarto-based website for delivering a 4-day intensive block course.
+
+![Ulster University Logo](https://www.ulster.ac.uk/__data/assets/image/0006/1365849/Ulster-University-Logo.png)
+
+## Course Details
+- **Module Code**: ACF838
+- **Program**: MSc Management and Corporate Governance
+- **Institution**: Ulster University Business School
+- **Delivery Format**: Intensive 4-day block format (condensed from 12-week structure)
+- **Assessment**: 50% coursework (case study), 50% examination (3-hour exam)
+
+## 4-Day Course Structure
+
+### Day 1: Introduction and Financial Information
+- Module introduction and rationale
+- Financial information for decision making
+- Corporate objectives and governance
+- Shareholder wealth maximization
+- Agency theory and corporate governance
+- Financial statement analysis basics
+- Introduction to ratio analysis
+- Investment appraisal fundamentals
+
+### Day 2: Investment Decision Making
+- Investment cash flow profiles
+- Payback Period (PP) and Discounted Payback Period (DPP)
+- Net Present Value (NPV) method
+- Internal Rate of Return (IRR)
+- Relationship between NPV and IRR
+- Issues with different investment appraisal methods
+- Investment appraisal in practice
+- Post-completion audits
+
+### Day 3: Financing Decisions
+- Sources of finance
+- Cost of capital concepts
+- Capital structure decisions
+- Dividend policy considerations
+- Working capital management
+
+### Day 4: Applied Financial Management
+- Case study applications
+- Practical financial analysis
+- Advanced ratio analysis topics
+- Business failure prediction
+- Z-score models
+- Exam preparation
+- Revision of key concepts
+
+## Technical Implementation
+
+The course website is built using Quarto, with the following structure:

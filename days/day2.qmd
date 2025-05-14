@@ -1,0 +1,108 @@
+# Corporate Financial Management (ACF838)
+
+## Day 2: Sources of Finance and Cost of Capital
+
+![Ulster University Logo](https://www.ulster.ac.uk/__data/assets/image/0006/1365849/Ulster-University-Logo.png)
+
+## Morning Session: Sources of Finance
+
+### Overview
+The morning session examines the various sources of finance available to businesses for both short-term and long-term funding needs, along with their advantages and disadvantages.
+
+### Key Topics
+- **Long-term Financing Sources**
+  - Equity capital
+  - Preference shares
+  - Long-term debt
+  - Bonds and debentures
+  - Lease financing
+  - Venture capital
+
+- **Short-term Financing Sources**
+  - Bank overdrafts
+  - Trade credit
+  - Factoring and invoice discounting
+  - Short-term loans
+
+- **Characteristics of Different Financing Sources**
+  - Cost implications
+  - Flexibility considerations
+  - Risk profiles
+  - Impact on corporate governance
+  - Gearing effects
+  - Tax implications
+
+- **Matching Finance to Business Needs**
+  - Financing the business lifecycle
+  - Project-specific financing
+  - International sources of finance
+  - Sustainable financing options
+
+### Learning Activities
+- Group analysis of financing cases
+- Financing decision scenarios
+- Evaluation of gearing levels for different business types
+
+## Afternoon Session: Cost of Capital
+
+### Overview
+The afternoon session focuses on calculating the cost of various capital components and the weighted average cost of capital (WACC) as a key tool for investment appraisal.
+
+### Key Topics
+- **Cost of Equity**
+  - Dividend valuation model
+  - Dividend growth model
+  - Capital Asset Pricing Model (CAPM)
+  - Risk and return relationships
+
+- **Cost of Debt**
+  - Cost of bank loans
+  - Cost of bonds and redeemable debentures
+  - Tax implications of debt
+  - Market value calculations
+
+- **Weighted Average Cost of Capital (WACC)**
+  - Formula and applications
+  - Calculation methods
+  - WACC limitations
+  - Use in investment appraisal
+
+- **Capital Structure Theory**
+  - Modigliani and Miller propositions
+  - Trade-off theory
+  - Pecking order theory
+  - Optimal capital structure
+
+### Practical Applications
+- Calculating cost of equity using multiple methods
+- Determining cost of debt for different debt instruments
+- Computing firm-wide WACC
+- Evaluating capital structure decisions
+
+## Assessment Preparation
+The content covered in Day 2 directly relates to both the coursework case study analysis and the examination. Students should focus on:
+
+1. Understanding the advantages and disadvantages of different financing sources
+2. Developing proficiency in calculating costs of various capital components
+3. Applying WACC in investment decisions
+4. Evaluating optimal capital structure for different business scenarios
+
+## Resources and Readings
+
+### Core Reading
+- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall. (Chapters 6, 7, and 8)
+
+### Supplementary Reading
+- Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed. (Chapters on financing and cost of capital)
+- Brealey, R., Myers, S. and Allen, F. (2019) *The Principles of Corporate Finance*. 13th ed. (Chapters on capital structure and cost of capital)
+
+### Online Resources
+- Financial Times articles on corporate financing (links provided in class)
+- Bank of England statistical releases on corporate borrowing
+- Interactive WACC calculators (demonstration in practical sessions)
+
+## Session Materials
+- [Morning Session Slides: Sources of Finance](morning/sources-finance.pdf)
+- [Afternoon Session Notes: Cost of Capital](afternoon/cost-capital.pdf)
+- [Practical Worksheets](worksheets/day2-exercises.pdf)
+- [Case Study Materials](cases/day2-cases.pdf)
