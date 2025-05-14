@@ -182,6 +182,13 @@ footer {
   list-style: none;
 }
 
+.nav-pills li,
+.nav-pills p {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-pills a,
 .nav-pills li a {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -192,6 +199,7 @@ footer {
   transition: background-color 0.3s ease;
 }
 
+.nav-pills a:hover,
 .nav-pills li a:hover {
   background-color: #005EB8;
   color: white;
@@ -244,33 +252,47 @@ footer {
   margin-top: 1rem;
 }
 
-.btn {
+.btn,
+a.btn {
   display: inline-block;
   padding: 0.5rem 1.25rem;
   border-radius: 0.25rem;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
-}
-
-.btn-primary {
   background-color: #005EB8;
   color: white;
 }
 
-.btn-primary:hover {
+.btn:hover,
+a.btn:hover {
   background-color: #004a92;
   color: white;
   text-decoration: none;
 }
 
-.btn-secondary {
+.btn-primary,
+a.btn-primary {
+  background-color: #005EB8;
+  color: white;
+}
+
+.btn-primary:hover,
+a.btn-primary:hover {
+  background-color: #004a92;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-secondary,
+a.btn-secondary {
   background-color: #f2f2f2;
   color: #333;
   border: 1px solid #ddd;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+a.btn-secondary:hover {
   background-color: #e6e6e6;
   color: #333;
   text-decoration: none;
