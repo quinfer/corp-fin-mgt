@@ -9,6 +9,9 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    preserve-tabs: true
+    html-math-method: katex
+    self-contained: false
 ---
 
 # Corporate Financial Management (ACF838)
@@ -23,35 +26,45 @@ This module integrates financial management concepts with managerial decision-ma
 
 The course is organised into four intensive days:
 
-<div class="day-cards">
-  <div class="day-card">
-    <h3>Day 1: Financial Framework & Investment Decisions</h3>
-    <p><strong>Morning:</strong> Financial framework, business objectives, agency theory, and ratio analysis</p>
-    <p><strong>Afternoon:</strong> Capital investment decisions, appraisal techniques, and risk assessment</p>
-    <p><a href="days/day1.html" class="btn">View Day 1 Materials</a></p>
-  </div>
-  
-  <div class="day-card">
-    <h3>Day 2: Sources of Finance & Cost of Capital</h3>
-    <p><strong>Morning:</strong> Long and short-term financing sources, equity and debt characteristics</p>
-    <p><strong>Afternoon:</strong> Cost of capital, WACC, and capital structure decisions</p>
-    <p><a href="days/day2.html" class="btn">View Day 2 Materials</a></p>
-  </div>
-  
-  <div class="day-card">
-    <h3>Day 3: Dividend Policy & Working Capital</h3>
-    <p><strong>Morning:</strong> Dividend theories, policy decisions, and practical considerations</p>
-    <p><strong>Afternoon:</strong> Working capital management, cash, inventory, and credit management</p>
-    <p><a href="days/day3.html" class="btn">View Day 3 Materials</a></p>
-  </div>
-  
-  <div class="day-card">
-    <h3>Day 4: Applied Financial Management</h3>
-    <p><strong>Morning:</strong> Integrated case studies and financial analysis applications</p>
-    <p><strong>Afternoon:</strong> Exam preparation, key concept revision, and practice questions</p>
-    <p><a href="days/day4.html" class="btn">View Day 4 Materials</a></p>
-  </div>
-</div>
+::: {.day-cards}
+
+::: {.day-card}
+### Day 1: Financial Framework & Investment Decisions
+**Morning:** Financial framework, business objectives, agency theory, and ratio analysis
+
+**Afternoon:** Capital investment decisions, appraisal techniques, and risk assessment
+
+[View Day 1 Materials](days/day1.html){.btn}
+:::
+
+::: {.day-card}
+### Day 2: Sources of Finance & Cost of Capital
+**Morning:** Long and short-term financing sources, equity and debt characteristics
+
+**Afternoon:** Cost of capital, WACC, and capital structure decisions
+
+[View Day 2 Materials](days/day2.html){.btn}
+:::
+
+::: {.day-card}
+### Day 3: Dividend Policy & Working Capital
+**Morning:** Dividend theories, policy decisions, and practical considerations
+
+**Afternoon:** Working capital management, cash, inventory, and credit management
+
+[View Day 3 Materials](days/day3.html){.btn}
+:::
+
+::: {.day-card}
+### Day 4: Applied Financial Management
+**Morning:** Integrated case studies and financial analysis applications
+
+**Afternoon:** Exam preparation, key concept revision, and practice questions
+
+[View Day 4 Materials](days/day4.html){.btn}
+:::
+
+:::
 
 ## Learning Outcomes
 
@@ -71,38 +84,37 @@ This module is assessed through **two components**:
 
 ## Key Resources
 
-<div class="course-materials">
-  <div class="material-card">
-    <i class="fa-solid fa-book"></i>
-    <h4>Required Reading</h4>
-    <p>Atrill, P. (2019) <em>Financial Management for Decision Makers</em>. 9th ed. London: FT Prentice Hall.</p>
-  </div>
-  
-  <div class="material-card">
-    <i class="fa-solid fa-file-lines"></i>
-    <h4>Module Handbook</h4>
-    <p><a href="resources/ACF838_Module_HB_202425.docx">Download the Module Handbook</a></p>
-  </div>
-  
-  <div class="material-card">
-    <i class="fa-solid fa-tasks"></i>
-    <h4>Assignment Details</h4>
-    <p><a href="resources/ACF838_CFM_assignment_detail.docx">Download the Assignment Brief</a></p>
-  </div>
-</div>
+::: {.course-materials}
+
+::: {.material-card}
+#### Required Reading
+Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
+:::
+
+::: {.material-card}
+#### Module Handbook
+[Download the Module Handbook](resources/module-handbook.html)
+:::
+
+::: {.material-card}
+#### Assignment Details
+[Download the Assignment Brief](resources/ACF838_CFM_assignment_detail.docx)
+:::
+
+:::
 
 ## Daily Navigation
 
-<ul class="nav-pills">
-  <li><a href="days/day1-morning.html">Day 1 Morning</a></li>
-  <li><a href="days/day1-afternoon.html">Day 1 Afternoon</a></li>
-  <li><a href="days/day2-morning.html">Day 2 Morning</a></li>
-  <li><a href="days/day2-afternoon.html">Day 2 Afternoon</a></li>
-  <li><a href="days/day3-morning.html">Day 3 Morning</a></li>
-  <li><a href="days/day3-afternoon.html">Day 3 Afternoon</a></li>
-  <li><a href="days/day4-morning.html">Day 4 Morning</a></li>
-  <li><a href="days/day4-afternoon.html">Day 4 Afternoon</a></li>
-</ul>
+::: {.nav-pills}
+- [Day 1 Morning](days/day1-morning.html)
+- [Day 1 Afternoon](days/day1-afternoon.html)
+- [Day 2 Morning](days/day2-morning.html)
+- [Day 2 Afternoon](days/day2-afternoon.html)
+- [Day 3 Morning](days/day3-morning.html)
+- [Day 3 Afternoon](days/day3-afternoon.html)
+- [Day 4 Morning](days/day4-morning.html)
+- [Day 4 Afternoon](days/day4-afternoon.html)
+:::
 
 ## Recommended Reading
 
@@ -112,6 +124,6 @@ This module is assessed through **two components**:
 
 ---
 
-<footer>
-  <p>© 2025 Ulster University Business School | Prof. Barry Quinn | b.quinn1@ulster.ac.uk</p>
-</footer>
+::: {.footer}
+© 2025 Ulster University Business School | Prof. Barry Quinn | b.quinn1@ulster.ac.uk
+:::

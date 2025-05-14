@@ -16,24 +16,26 @@ This page provides access to all resources for the Corporate Financial Managemen
 
 The module handbook contains comprehensive information about the course structure, learning outcomes, assessment details, and policies.
 
-<div class="resource-card">
-  <h3>Module Handbook</h3>
-  <p>Complete reference guide for the Corporate Financial Management module.</p>
-  <div class="button-group">
-    <a href="resources/module-handbook.html" class="btn btn-primary">View Online</a>
-    <a href="resources/module-handbook.docx" class="btn btn-secondary">Download DOCX</a>
-  </div>
-</div>
+::: {.resource-card}
+### Module Handbook
+Complete reference guide for the Corporate Financial Management module.
+
+::: {.button-group}
+[View Online](resources/module-handbook.html){.btn .btn-primary}
+[Download DOCX](resources/module-handbook.docx){.btn .btn-secondary}
+:::
+:::
 
 ## Assignment Materials
 
-<div class="resource-card">
-  <h3>Assignment Brief</h3>
-  <p>Detailed information about the coursework assignment worth 50% of your final grade.</p>
-  <div class="button-group">
-    <a href="resources/ACF838_CFM_assignment_detail.docx" class="btn btn-secondary">Download DOCX</a>
-  </div>
-</div>
+::: {.resource-card}
+### Assignment Brief
+Detailed information about the coursework assignment worth 50% of your final grade.
+
+::: {.button-group}
+[Download DOCX](resources/ACF838_CFM_assignment_detail.docx){.btn .btn-secondary}
+:::
+:::
 
 ## Recommended Readings
 
