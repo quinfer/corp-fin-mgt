@@ -44,51 +44,58 @@
   {
     "objectID": "days/day2.html",
     "href": "days/day2.html",
-    "title": "Corporate Financial Management (ACF838)",
+    "title": "Corporate Financial Management",
     "section": "",
-    "text": "Ulster University Logo\n\n\n\n\n\n\n\nThe morning session examines the various sources of finance available to businesses for both short-term and long-term funding needs, along with their advantages and disadvantages.\n\n\n\n\nLong-term Financing Sources\n\nEquity capital\nPreference shares\nLong-term debt\nBonds and debentures\nLease financing\nVenture capital\n\nShort-term Financing Sources\n\nBank overdrafts\nTrade credit\nFactoring and invoice discounting\nShort-term loans\n\nCharacteristics of Different Financing Sources\n\nCost implications\nFlexibility considerations\nRisk profiles\nImpact on corporate governance\nGearing effects\nTax implications\n\nMatching Finance to Business Needs\n\nFinancing the business lifecycle\nProject-specific financing\nInternational sources of finance\nSustainable financing options\n\n\n\n\n\n\nGroup analysis of financing cases\nFinancing decision scenarios\nEvaluation of gearing levels for different business types\n\n\n\n\n\n\n\nThe afternoon session focuses on calculating the cost of various capital components and the weighted average cost of capital (WACC) as a key tool for investment appraisal.\n\n\n\n\nCost of Equity\n\nDividend valuation model\nDividend growth model\nCapital Asset Pricing Model (CAPM)\nRisk and return relationships\n\nCost of Debt\n\nCost of bank loans\nCost of bonds and redeemable debentures\nTax implications of debt\nMarket value calculations\n\nWeighted Average Cost of Capital (WACC)\n\nFormula and applications\nCalculation methods\nWACC limitations\nUse in investment appraisal\n\nCapital Structure Theory\n\nModigliani and Miller propositions\nTrade-off theory\nPecking order theory\nOptimal capital structure\n\n\n\n\n\n\nCalculating cost of equity using multiple methods\nDetermining cost of debt for different debt instruments\nComputing firm-wide WACC\nEvaluating capital structure decisions\n\n\n\n\n\nThe content covered in Day 2 directly relates to both the coursework case study analysis and the examination. Students should focus on:\n\nUnderstanding the advantages and disadvantages of different financing sources\nDeveloping proficiency in calculating costs of various capital components\nApplying WACC in investment decisions\nEvaluating optimal capital structure for different business scenarios\n\n\n\n\n\n\n\nAtrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. (Chapters 6, 7, and 8)\n\n\n\n\n\nArnold, G. and Lewis, D. (2019) Corporate Financial Management. 6th ed. (Chapters on financing and cost of capital)\nBrealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance. 13th ed. (Chapters on capital structure and cost of capital)\n\n\n\n\n\nFinancial Times articles on corporate financing (links provided in class)\nBank of England statistical releases on corporate borrowing\nInteractive WACC calculators (demonstration in practical sessions)\n\n\n\n\n\n\nMorning Session Slides: Sources of Finance\nAfternoon Session Notes: Cost of Capital\nPractical Worksheets\nCase Study Materials"
+    "text": "Welcome to Day 2 of the Corporate Financial Management module. Today explores how organizations source and cost the capital needed to fund investment opportunities. The day is structured into two complementary sessions:\n\nMorning Session: Sources of Finance - Examines various financing options for both short-term and long-term needs\nAfternoon Session: Cost of Capital - Explores methods to calculate financing costs and determine optimal capital structure"
   },
   {
-    "objectID": "days/day2.html#day-2-sources-of-finance-and-cost-of-capital",
-    "href": "days/day2.html#day-2-sources-of-finance-and-cost-of-capital",
-    "title": "Corporate Financial Management (ACF838)",
+    "objectID": "days/day2.html#day-2-overview",
+    "href": "days/day2.html#day-2-overview",
+    "title": "Corporate Financial Management",
     "section": "",
-    "text": "Ulster University Logo"
+    "text": "Welcome to Day 2 of the Corporate Financial Management module. Today explores how organizations source and cost the capital needed to fund investment opportunities. The day is structured into two complementary sessions:\n\nMorning Session: Sources of Finance - Examines various financing options for both short-term and long-term needs\nAfternoon Session: Cost of Capital - Explores methods to calculate financing costs and determine optimal capital structure"
   },
   {
-    "objectID": "days/day2.html#morning-session-sources-of-finance",
-    "href": "days/day2.html#morning-session-sources-of-finance",
-    "title": "Corporate Financial Management (ACF838)",
-    "section": "",
-    "text": "The morning session examines the various sources of finance available to businesses for both short-term and long-term funding needs, along with their advantages and disadvantages.\n\n\n\n\nLong-term Financing Sources\n\nEquity capital\nPreference shares\nLong-term debt\nBonds and debentures\nLease financing\nVenture capital\n\nShort-term Financing Sources\n\nBank overdrafts\nTrade credit\nFactoring and invoice discounting\nShort-term loans\n\nCharacteristics of Different Financing Sources\n\nCost implications\nFlexibility considerations\nRisk profiles\nImpact on corporate governance\nGearing effects\nTax implications\n\nMatching Finance to Business Needs\n\nFinancing the business lifecycle\nProject-specific financing\nInternational sources of finance\nSustainable financing options\n\n\n\n\n\n\nGroup analysis of financing cases\nFinancing decision scenarios\nEvaluation of gearing levels for different business types"
+    "objectID": "days/day2.html#morning-session-summary",
+    "href": "days/day2.html#morning-session-summary",
+    "title": "Corporate Financial Management",
+    "section": "1 Morning Session Summary",
+    "text": "1 Morning Session Summary\nThe morning session explores the range of financing options available to organizations:\n\n\n\n\n\n\nKey Topics - Morning\n\n\n\n\nThe financing decision context and its relationship to investment decisions\nInternal vs. external sources of finance\nShort-term financing options (overdrafts, factoring, invoice discounting)\nMedium-term financing options (term loans, hire purchase, leasing)\nLong-term debt financing (corporate bonds)\nMezzanine finance and preference shares\nEquity financing and rights issues\nThe finance gap and venture capital\nEmerging and innovative financing sources\n\n\n\n\n1.1 Learning Outcomes\nBy the end of the morning session, you will be able to:\n\nIdentify and evaluate major internal and external sources of finance\nAssess the benefits and drawbacks of different financing methods\nExplain intermediation and disintermediation approaches to obtaining finance\nApply knowledge to determine appropriate financing strategies for different types of organizations\nEvaluate how bank lending decisions are made\n\n\n\n1.2 Featured Framework: Sources of Finance\n\n\n\n\n\nflowchart TD\n    A[Sources of Finance] --&gt; B[Internal Sources]\n    A --&gt; C[External Sources]\n    B --&gt; D[Retained Earnings]\n    B --&gt; E[Working Capital Management]\n    C --&gt; F[Short-term: &lt; 1 year]\n    C --&gt; G[Medium-term: 1-7 years]\n    C --&gt; H[Long-term: &gt; 7 years]\n    F --&gt; I[Bank overdrafts]\n    F --&gt; J[Factoring]\n    G --&gt; K[Term loans]\n    G --&gt; L[Leasing]\n    H --&gt; M[Bonds]\n    H --&gt; N[Equity]"
   },
   {
-    "objectID": "days/day2.html#afternoon-session-cost-of-capital",
-    "href": "days/day2.html#afternoon-session-cost-of-capital",
-    "title": "Corporate Financial Management (ACF838)",
-    "section": "",
-    "text": "The afternoon session focuses on calculating the cost of various capital components and the weighted average cost of capital (WACC) as a key tool for investment appraisal.\n\n\n\n\nCost of Equity\n\nDividend valuation model\nDividend growth model\nCapital Asset Pricing Model (CAPM)\nRisk and return relationships\n\nCost of Debt\n\nCost of bank loans\nCost of bonds and redeemable debentures\nTax implications of debt\nMarket value calculations\n\nWeighted Average Cost of Capital (WACC)\n\nFormula and applications\nCalculation methods\nWACC limitations\nUse in investment appraisal\n\nCapital Structure Theory\n\nModigliani and Miller propositions\nTrade-off theory\nPecking order theory\nOptimal capital structure\n\n\n\n\n\n\nCalculating cost of equity using multiple methods\nDetermining cost of debt for different debt instruments\nComputing firm-wide WACC\nEvaluating capital structure decisions"
+    "objectID": "days/day2.html#afternoon-session-summary",
+    "href": "days/day2.html#afternoon-session-summary",
+    "title": "Corporate Financial Management",
+    "section": "2 Afternoon Session Summary",
+    "text": "2 Afternoon Session Summary\nThe afternoon session focuses on calculating the cost of various sources of finance and determining optimal capital structure:\n\n\n\n\n\n\nKey Topics - Afternoon\n\n\n\n\nIntroduction to cost of capital concept\nThe cost of equity calculation methods:\n\nDividend valuation model (no growth)\nDividend growth model\nCapital Asset Pricing Model (CAPM)\n\nThe cost of debt calculation:\n\nBank loans\nRedeemable bonds\n\nWeighted Average Cost of Capital (WACC)\nCapital structure theory\nModigliani and Miller propositions\n\n\n\n\n2.1 Learning Outcomes\nBy the end of the afternoon session, you will be able to:\n\nCalculate the cost of equity using multiple methods\nDetermine the cost of debt for different debt instruments\nCompute a firm’s Weighted Average Cost of Capital (WACC)\nExplain how the cost of capital impacts investment decisions\nDiscuss theories of optimal capital structure\n\n\n\n2.2 Featured Framework: WACC Calculation\n\n\n\n\n\nflowchart TD\n    A[Cost of Capital Components] --&gt; B[Cost of Equity]\n    A --&gt; C[Cost of Debt]\n    B --&gt; D[Dividend Models]\n    B --&gt; E[CAPM]\n    D --&gt; F[No-Growth Model]\n    D --&gt; G[Dividend Growth Model]\n    C --&gt; H[Untraded Debt]\n    C --&gt; I[Traded Debt]\n    F --&gt; J[WACC Calculation]\n    G --&gt; J\n    E --&gt; J\n    H --&gt; J\n    I --&gt; J"
   },
   {
-    "objectID": "days/day2.html#assessment-preparation",
-    "href": "days/day2.html#assessment-preparation",
-    "title": "Corporate Financial Management (ACF838)",
-    "section": "",
-    "text": "The content covered in Day 2 directly relates to both the coursework case study analysis and the examination. Students should focus on:\n\nUnderstanding the advantages and disadvantages of different financing sources\nDeveloping proficiency in calculating costs of various capital components\nApplying WACC in investment decisions\nEvaluating optimal capital structure for different business scenarios"
+    "objectID": "days/day2.html#todays-integrated-learning",
+    "href": "days/day2.html#todays-integrated-learning",
+    "title": "Corporate Financial Management",
+    "section": "3 Today’s Integrated Learning",
+    "text": "3 Today’s Integrated Learning\nThe day’s sessions are designed to provide a comprehensive understanding of how organizations fund investments:\n\nMorning focus: Exploring what sources of finance are available to fund investments\nAfternoon focus: Determining how much each source of finance costs\n\nThis integrated approach connects the investment decisions covered on Day 1 with the practical aspects of financing those investments."
   },
   {
-    "objectID": "days/day2.html#resources-and-readings",
-    "href": "days/day2.html#resources-and-readings",
-    "title": "Corporate Financial Management (ACF838)",
-    "section": "",
-    "text": "Atrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. (Chapters 6, 7, and 8)\n\n\n\n\n\nArnold, G. and Lewis, D. (2019) Corporate Financial Management. 6th ed. (Chapters on financing and cost of capital)\nBrealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance. 13th ed. (Chapters on capital structure and cost of capital)\n\n\n\n\n\nFinancial Times articles on corporate financing (links provided in class)\nBank of England statistical releases on corporate borrowing\nInteractive WACC calculators (demonstration in practical sessions)"
+    "objectID": "days/day2.html#key-takeaways",
+    "href": "days/day2.html#key-takeaways",
+    "title": "Corporate Financial Management",
+    "section": "4 Key Takeaways",
+    "text": "4 Key Takeaways\n\n\n\n\n\n\nDay 2 Essential Concepts\n\n\n\n\nSources of Finance:\n\nOrganizations should match the type of finance to the term of the investment (matching principle)\nA hierarchy of financing preferences typically exists: internal sources, then debt, then equity\nCost, control implications, and risk profiles differ significantly across financing sources\n\nCost of Capital:\n\nCost of capital represents both the minimum required return on investments and the opportunity cost for investors\nThe WACC provides a framework for investment appraisal by establishing a discount rate\nCapital structure decisions can impact overall cost of capital\nTheoretical frameworks suggest varying perspectives on optimal capital structure"
   },
   {
-    "objectID": "days/day2.html#session-materials",
-    "href": "days/day2.html#session-materials",
-    "title": "Corporate Financial Management (ACF838)",
-    "section": "",
-    "text": "Morning Session Slides: Sources of Finance\nAfternoon Session Notes: Cost of Capital\nPractical Worksheets\nCase Study Materials"
+    "objectID": "days/day2.html#preparation-for-next-session",
+    "href": "days/day2.html#preparation-for-next-session",
+    "title": "Corporate Financial Management",
+    "section": "5 Preparation for Next Session",
+    "text": "5 Preparation for Next Session\nBuilding on the investment and financing discussions of Days 1-2, future sessions will explore:\n\nWorking capital management\nDividend policy considerations\nFinancial risk management\nInternational financial management\n\nPlease review the practice exercises at the end of both today’s sessions and prepare any questions for discussion."
+  },
+  {
+    "objectID": "days/day2.html#additional-resources",
+    "href": "days/day2.html#additional-resources",
+    "title": "Corporate Financial Management",
+    "section": "6 Additional Resources",
+    "text": "6 Additional Resources\n\n6.1 Core Reading\n\nAtrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall, Chapters 6-8\nArnold, G. (2020) Corporate Financial Management (6th ed.), Chapters 8-10\n\n\n\n6.2 Online Resources\n\nBank of England Monetary Policy Reports\nUK Finance\nBritish Business Bank"
   },
   {
     "objectID": "days/day1-morning.html",
@@ -814,36 +821,57 @@
   {
     "objectID": "days/day1.html",
     "href": "days/day1.html",
-    "title": "Corporate Financial Management (ACF838)",
+    "title": "Corporate Financial Management",
     "section": "",
-    "text": "This repository contains course materials for the Corporate Financial Management module (ACF838) at Ulster University Business School, structured as a Quarto-based website for delivering a 4-day intensive block course.\n\n\n\n\nModule Code: ACF838\nProgram: MSc Management and Corporate Governance\nInstitution: Ulster University Business School\nDelivery Format: Intensive 4-day block format (condensed from 12-week structure)\nAssessment: 50% coursework (case study), 50% examination (3-hour exam)\n\n\n\n\n\n\n\nModule introduction and rationale\nFinancial information for decision making\nCorporate objectives and governance\nShareholder wealth maximization\nAgency theory and corporate governance\nFinancial statement analysis basics\nIntroduction to ratio analysis\nInvestment appraisal fundamentals\n\n\n\n\n\nInvestment cash flow profiles\nPayback Period (PP) and Discounted Payback Period (DPP)\nNet Present Value (NPV) method\nInternal Rate of Return (IRR)\nRelationship between NPV and IRR\nIssues with different investment appraisal methods\nInvestment appraisal in practice\nPost-completion audits\n\n\n\n\n\nSources of finance\nCost of capital concepts\nCapital structure decisions\nDividend policy considerations\nWorking capital management\n\n\n\n\n\nCase study applications\nPractical financial analysis\nAdvanced ratio analysis topics\nBusiness failure prediction\nZ-score models\nExam preparation\nRevision of key concepts\n\n\n\n\n\nThe course website is built using Quarto, with the following structure:"
+    "text": "Welcome to Day 1 of the Corporate Financial Management module. Today focuses on establishing the financial framework and introducing capital investment decision-making techniques. The day is divided into two complementary sessions:\n\nMorning Session: Financial Framework & Analysis - Introduces corporate financial objectives, governance, and analytical frameworks\nAfternoon Session: Capital Investment Decisions - Explores techniques for evaluating investment opportunities"
   },
   {
-    "objectID": "days/day1.html#project-overview",
-    "href": "days/day1.html#project-overview",
-    "title": "Corporate Financial Management (ACF838)",
+    "objectID": "days/day1.html#day-1-overview",
+    "href": "days/day1.html#day-1-overview",
+    "title": "Corporate Financial Management",
     "section": "",
-    "text": "This repository contains course materials for the Corporate Financial Management module (ACF838) at Ulster University Business School, structured as a Quarto-based website for delivering a 4-day intensive block course."
+    "text": "Welcome to Day 1 of the Corporate Financial Management module. Today focuses on establishing the financial framework and introducing capital investment decision-making techniques. The day is divided into two complementary sessions:\n\nMorning Session: Financial Framework & Analysis - Introduces corporate financial objectives, governance, and analytical frameworks\nAfternoon Session: Capital Investment Decisions - Explores techniques for evaluating investment opportunities"
   },
   {
-    "objectID": "days/day1.html#course-details",
-    "href": "days/day1.html#course-details",
-    "title": "Corporate Financial Management (ACF838)",
-    "section": "",
-    "text": "Module Code: ACF838\nProgram: MSc Management and Corporate Governance\nInstitution: Ulster University Business School\nDelivery Format: Intensive 4-day block format (condensed from 12-week structure)\nAssessment: 50% coursework (case study), 50% examination (3-hour exam)"
+    "objectID": "days/day1.html#morning-session-summary",
+    "href": "days/day1.html#morning-session-summary",
+    "title": "Corporate Financial Management",
+    "section": "1 Morning Session Summary",
+    "text": "1 Morning Session Summary\nThe morning session establishes fundamental concepts that form the basis of corporate financial management:\n\n\n\n\n\n\nKey Topics - Morning\n\n\n\n\nCorporate objectives and the finance function\nShareholder wealth maximization as a primary objective\nAgency theory and corporate governance frameworks\nFinancial information for decision making\nFinancial statement analysis using ratios\nProfitability, efficiency, liquidity, gearing, and investment ratios\nBusiness failure prediction techniques\n\n\n\n\n1.1 Learning Outcomes\nBy the end of the morning session, you will be able to:\n\nExplain the finance function’s role in organizations\nArticulate the case for shareholder wealth maximization\nDescribe the principal-agent relationship and governance controls\nApply ratio analysis to evaluate financial health\nInterpret financial performance using appropriate benchmarks\n\n\n\n1.2 Featured Framework: Financial Ratio Analysis\n\n\n\n\n\nflowchart TD\n    A[Financial ratios] --&gt; B[Profitability]\n    A --&gt; C[Efficiency]\n    A --&gt; D[Liquidity]\n    A --&gt; E[Financial gearing]\n    A --&gt; F[Investment]\n    B --&gt; G[ROCE, GPM, etc.]\n    C --&gt; H[Inventory turnover, etc.]\n    D --&gt; I[Current ratio, etc.]\n    E --&gt; J[Gearing ratio, etc.]\n    F --&gt; K[P/E ratio, etc.]"
   },
   {
-    "objectID": "days/day1.html#day-course-structure",
-    "href": "days/day1.html#day-course-structure",
-    "title": "Corporate Financial Management (ACF838)",
-    "section": "",
-    "text": "Module introduction and rationale\nFinancial information for decision making\nCorporate objectives and governance\nShareholder wealth maximization\nAgency theory and corporate governance\nFinancial statement analysis basics\nIntroduction to ratio analysis\nInvestment appraisal fundamentals\n\n\n\n\n\nInvestment cash flow profiles\nPayback Period (PP) and Discounted Payback Period (DPP)\nNet Present Value (NPV) method\nInternal Rate of Return (IRR)\nRelationship between NPV and IRR\nIssues with different investment appraisal methods\nInvestment appraisal in practice\nPost-completion audits\n\n\n\n\n\nSources of finance\nCost of capital concepts\nCapital structure decisions\nDividend policy considerations\nWorking capital management\n\n\n\n\n\nCase study applications\nPractical financial analysis\nAdvanced ratio analysis topics\nBusiness failure prediction\nZ-score models\nExam preparation\nRevision of key concepts"
+    "objectID": "days/day1.html#afternoon-session-summary",
+    "href": "days/day1.html#afternoon-session-summary",
+    "title": "Corporate Financial Management",
+    "section": "2 Afternoon Session Summary",
+    "text": "2 Afternoon Session Summary\nThe afternoon session builds on the financial framework to explore how organizations make capital investment decisions:\n\n\n\n\n\n\nKey Topics - Afternoon\n\n\n\n\nNature and importance of investment decision-making\nDistinction between cash flows and accounting profits\nInvestment appraisal methods overview\nPayback Period (PP) and Discounted Payback Period (DPP)\nNet Present Value (NPV) method\nInternal Rate of Return (IRR)\nAccounting Rate of Return (ARR)\nRisk assessment in investment decisions\nPost-completion audits\n\n\n\n\n2.1 Learning Outcomes\nBy the end of the afternoon session, you will be able to:\n\nExplain the importance of focusing on cash flows rather than accounting profits\nApply the five main investment appraisal methods\nEvaluate the strengths and limitations of each method\nIncorporate risk assessment into investment decisions\nDescribe the investment decision-making process, including post-completion review\n\n\n\n2.2 Featured Framework: Investment Appraisal Methods\n\n\n\n\n\nflowchart TD\n    A[Investment Appraisal Methods] --&gt; B[Discounted Cash Flow Methods]\n    A --&gt; C[Non-Discounted Cash Flow Methods]\n    A --&gt; D[Accounting Profit-Based]\n    B --&gt; E[Net Present Value]\n    B --&gt; F[Internal Rate of Return]\n    B --&gt; G[Discounted Payback]\n    C --&gt; H[Payback Period]\n    D --&gt; I[Accounting Rate of Return]"
   },
   {
-    "objectID": "days/day1.html#technical-implementation",
-    "href": "days/day1.html#technical-implementation",
-    "title": "Corporate Financial Management (ACF838)",
-    "section": "",
-    "text": "The course website is built using Quarto, with the following structure:"
+    "objectID": "days/day1.html#todays-integrated-learning",
+    "href": "days/day1.html#todays-integrated-learning",
+    "title": "Corporate Financial Management",
+    "section": "3 Today’s Integrated Learning",
+    "text": "3 Today’s Integrated Learning\nThe day’s sessions are designed to provide a coherent understanding of how financial objectives drive investment decisions:\n\nMorning focus: Establishing why corporations make financial decisions (objectives, governance)\nAfternoon focus: Exploring how corporations evaluate investment opportunities\n\nThis integrated approach helps you understand both the purpose and techniques of financial management."
+  },
+  {
+    "objectID": "days/day1.html#key-takeaways",
+    "href": "days/day1.html#key-takeaways",
+    "title": "Corporate Financial Management",
+    "section": "4 Key Takeaways",
+    "text": "4 Key Takeaways\n\n\n\n\n\n\nDay 1 Essential Concepts\n\n\n\n\nFinancial Framework:\n\nCorporate finance aims to maximize shareholder wealth within appropriate governance structures\nAgency relationships and governance mechanisms help align actions with objectives\nFinancial ratios provide structured analysis of company performance\n\nInvestment Decisions:\n\nCapital investment decisions focus on cash flows, not accounting profits\nNPV is theoretically the soundest method as it directly links to shareholder value\nMultiple appraisal methods should be used in combination for a complete perspective\nRisk assessment is an essential component of investment decision-making"
+  },
+  {
+    "objectID": "days/day1.html#preparation-for-day-2",
+    "href": "days/day1.html#preparation-for-day-2",
+    "title": "Corporate Financial Management",
+    "section": "5 Preparation for Day 2",
+    "text": "5 Preparation for Day 2\nTomorrow, we will build upon today’s foundation to explore:\n\nMorning: Sources of finance for funding investment opportunities\nAfternoon: Cost of capital and its role in investment appraisal\n\nPlease review the practice exercises at the end of both today’s sessions and prepare any questions you may have for tomorrow’s opening discussion."
+  },
+  {
+    "objectID": "days/day1.html#additional-resources",
+    "href": "days/day1.html#additional-resources",
+    "title": "Corporate Financial Management",
+    "section": "6 Additional Resources",
+    "text": "6 Additional Resources\n\n6.1 Core Reading\n\nBrealey, R., Myers, S., & Allen, F. (2023). Principles of Corporate Finance (14th ed.), Chapters 1-7\nArnold, G. (2020). Corporate Financial Management (6th ed.), Chapters 1-4\n\n\n\n6.2 Online Resources\n\nFinancial Times Market Data\nCorporate Finance Institute"
   }
 ]
