@@ -3,8 +3,6 @@
 ## Project Overview
 This repository contains course materials for the Corporate Financial Management module (ACF838) at Ulster University Business School, structured as a Quarto-based website for delivering a 4-day intensive block course.
 
-![Ulster University Logo](https://www.ulster.ac.uk/__data/assets/image/0006/1365849/Ulster-University-Logo.png)
-
 ## Course Details
 - **Module Code**: ACF838
 - **Program**: MSc Management and Corporate Governance

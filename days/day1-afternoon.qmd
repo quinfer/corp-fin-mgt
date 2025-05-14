@@ -11,6 +11,7 @@ format:
     number-sections: true
     code-fold: true
     self-contained: true
+    css: "../style.css"
 ---
 
 ```{r setup, include=FALSE}

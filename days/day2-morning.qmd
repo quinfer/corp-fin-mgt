@@ -6,6 +6,7 @@ date: last-modified
 format:
   html:
     theme: cosmo
+    css: ../style.css
     toc: true
     toc-depth: 3
     number-sections: true
