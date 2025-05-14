@@ -6,7 +6,7 @@ institute: "Ulster University Business School"
 format: 
   html:
     theme: cosmo
-    css: "../style.css"
+    css: "../styles.css"
     toc: true
 ---
 

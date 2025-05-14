@@ -1,108 +1,170 @@
-# Corporate Financial Management (ACF838)
+---
+title: "Corporate Financial Management"
+subtitle: "Day 2: Sources of Finance & Cost of Capital"
+author: "Your Name"
+date: last-modified
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    self-contained: true
+    css: "../styles.css"
+---
 
-## Day 2: Sources of Finance and Cost of Capital
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+library(ggplot2)
+```
 
-![Ulster University Logo](https://www.ulster.ac.uk/__data/assets/image/0006/1365849/Ulster-University-Logo.png)
+## Day 2 Overview {.unnumbered}
 
-## Morning Session: Sources of Finance
+Welcome to Day 2 of the Corporate Financial Management module. Today explores how organizations source and cost the capital needed to fund investment opportunities. The day is structured into two complementary sessions:
 
-### Overview
-The morning session examines the various sources of finance available to businesses for both short-term and long-term funding needs, along with their advantages and disadvantages.
+- [**Morning Session: Sources of Finance**](day2-morning.qmd) - Examines various financing options for both short-term and long-term needs
+- [**Afternoon Session: Cost of Capital**](day2-afternoon.qmd) - Explores methods to calculate financing costs and determine optimal capital structure
 
-### Key Topics
-- **Long-term Financing Sources**
-  - Equity capital
-  - Preference shares
-  - Long-term debt
-  - Bonds and debentures
-  - Lease financing
-  - Venture capital
+## Morning Session Summary
 
-- **Short-term Financing Sources**
-  - Bank overdrafts
-  - Trade credit
-  - Factoring and invoice discounting
-  - Short-term loans
+The morning session explores the range of financing options available to organizations:
 
-- **Characteristics of Different Financing Sources**
-  - Cost implications
-  - Flexibility considerations
-  - Risk profiles
-  - Impact on corporate governance
-  - Gearing effects
-  - Tax implications
+:::{.callout-note}
+## Key Topics - Morning
+- The financing decision context and its relationship to investment decisions
+- Internal vs. external sources of finance
+- Short-term financing options (overdrafts, factoring, invoice discounting)
+- Medium-term financing options (term loans, hire purchase, leasing)
+- Long-term debt financing (corporate bonds)
+- Mezzanine finance and preference shares
+- Equity financing and rights issues
+- The finance gap and venture capital
+- Emerging and innovative financing sources
+:::
 
-- **Matching Finance to Business Needs**
-  - Financing the business lifecycle
-  - Project-specific financing
-  - International sources of finance
-  - Sustainable financing options
+### Learning Outcomes
 
-### Learning Activities
-- Group analysis of financing cases
-- Financing decision scenarios
-- Evaluation of gearing levels for different business types
+By the end of the morning session, you will be able to:
 
-## Afternoon Session: Cost of Capital
+1. Identify and evaluate major internal and external sources of finance
+2. Assess the benefits and drawbacks of different financing methods
+3. Explain intermediation and disintermediation approaches to obtaining finance
+4. Apply knowledge to determine appropriate financing strategies for different types of organizations
+5. Evaluate how bank lending decisions are made
 
-### Overview
-The afternoon session focuses on calculating the cost of various capital components and the weighted average cost of capital (WACC) as a key tool for investment appraisal.
+### Featured Framework: Sources of Finance
 
-### Key Topics
-- **Cost of Equity**
-  - Dividend valuation model
+```{mermaid}
+flowchart TD
+    A[Sources of Finance] --> B[Internal Sources]
+    A --> C[External Sources]
+    B --> D[Retained Earnings]
+    B --> E[Working Capital Management]
+    C --> F[Short-term: < 1 year]
+    C --> G[Medium-term: 1-7 years]
+    C --> H[Long-term: > 7 years]
+    F --> I[Bank overdrafts]
+    F --> J[Factoring]
+    G --> K[Term loans]
+    G --> L[Leasing]
+    H --> M[Bonds]
+    H --> N[Equity]
+```
+
+## Afternoon Session Summary
+
+The afternoon session focuses on calculating the cost of various sources of finance and determining optimal capital structure:
+
+:::{.callout-note}
+## Key Topics - Afternoon
+- Introduction to cost of capital concept
+- The cost of equity calculation methods:
+  - Dividend valuation model (no growth)
   - Dividend growth model
   - Capital Asset Pricing Model (CAPM)
-  - Risk and return relationships
+- The cost of debt calculation:
+  - Bank loans
+  - Redeemable bonds
+- Weighted Average Cost of Capital (WACC)
+- Capital structure theory
+- Modigliani and Miller propositions
+:::
 
-- **Cost of Debt**
-  - Cost of bank loans
-  - Cost of bonds and redeemable debentures
-  - Tax implications of debt
-  - Market value calculations
+### Learning Outcomes
 
-- **Weighted Average Cost of Capital (WACC)**
-  - Formula and applications
-  - Calculation methods
-  - WACC limitations
-  - Use in investment appraisal
+By the end of the afternoon session, you will be able to:
 
-- **Capital Structure Theory**
-  - Modigliani and Miller propositions
-  - Trade-off theory
-  - Pecking order theory
-  - Optimal capital structure
+1. Calculate the cost of equity using multiple methods
+2. Determine the cost of debt for different debt instruments
+3. Compute a firm's Weighted Average Cost of Capital (WACC)
+4. Explain how the cost of capital impacts investment decisions
+5. Discuss theories of optimal capital structure
 
-### Practical Applications
-- Calculating cost of equity using multiple methods
-- Determining cost of debt for different debt instruments
-- Computing firm-wide WACC
-- Evaluating capital structure decisions
+### Featured Framework: WACC Calculation
 
-## Assessment Preparation
-The content covered in Day 2 directly relates to both the coursework case study analysis and the examination. Students should focus on:
+```{mermaid}
+flowchart TD
+    A[Cost of Capital Components] --> B[Cost of Equity]
+    A --> C[Cost of Debt]
+    B --> D[Dividend Models]
+    B --> E[CAPM]
+    D --> F[No-Growth Model]
+    D --> G[Dividend Growth Model]
+    C --> H[Untraded Debt]
+    C --> I[Traded Debt]
+    F --> J[WACC Calculation]
+    G --> J
+    E --> J
+    H --> J
+    I --> J
+```
 
-1. Understanding the advantages and disadvantages of different financing sources
-2. Developing proficiency in calculating costs of various capital components
-3. Applying WACC in investment decisions
-4. Evaluating optimal capital structure for different business scenarios
+## Today's Integrated Learning
 
-## Resources and Readings
+The day's sessions are designed to provide a comprehensive understanding of how organizations fund investments:
+
+- Morning focus: Exploring **what** sources of finance are available to fund investments
+- Afternoon focus: Determining **how much** each source of finance costs
+
+This integrated approach connects the investment decisions covered on Day 1 with the practical aspects of financing those investments.
+
+## Key Takeaways
+
+:::{.callout-tip}
+## Day 2 Essential Concepts
+
+1. **Sources of Finance**:
+   - Organizations should match the type of finance to the term of the investment (matching principle)
+   - A hierarchy of financing preferences typically exists: internal sources, then debt, then equity
+   - Cost, control implications, and risk profiles differ significantly across financing sources
+
+2. **Cost of Capital**:
+   - Cost of capital represents both the minimum required return on investments and the opportunity cost for investors
+   - The WACC provides a framework for investment appraisal by establishing a discount rate
+   - Capital structure decisions can impact overall cost of capital
+   - Theoretical frameworks suggest varying perspectives on optimal capital structure
+:::
+
+## Preparation for Next Session
+
+Building on the investment and financing discussions of Days 1-2, future sessions will explore:
+
+- Working capital management
+- Dividend policy considerations
+- Financial risk management
+- International financial management
+
+Please review the practice exercises at the end of both today's sessions and prepare any questions for discussion.
+
+## Additional Resources
 
 ### Core Reading
-- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall. (Chapters 6, 7, and 8)
-
-### Supplementary Reading
-- Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed. (Chapters on financing and cost of capital)
-- Brealey, R., Myers, S. and Allen, F. (2019) *The Principles of Corporate Finance*. 13th ed. (Chapters on capital structure and cost of capital)
+- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall, Chapters 6-8
+- Arnold, G. (2020) *Corporate Financial Management* (6th ed.), Chapters 8-10
 
 ### Online Resources
-- Financial Times articles on corporate financing (links provided in class)
-- Bank of England statistical releases on corporate borrowing
-- Interactive WACC calculators (demonstration in practical sessions)
-
-## Session Materials
-- [Morning Session Slides: Sources of Finance](morning/sources-finance.pdf)
-- [Afternoon Session Notes: Cost of Capital](afternoon/cost-capital.pdf)
-- [Practical Worksheets](worksheets/day2-exercises.pdf)
-- [Case Study Materials](cases/day2-cases.pdf)
+- [Bank of England Monetary Policy Reports](https://www.bankofengland.co.uk/monetary-policy-report)
+- [UK Finance](https://www.ukfinance.org.uk/data-and-research)
+- [British Business Bank](https://www.british-business-bank.co.uk/finance-hub/)
