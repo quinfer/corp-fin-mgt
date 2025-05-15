@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "day1-morning-slides.html#course-introduction",
+    "href": "day1-morning-slides.html#course-introduction",
+    "title": "Corporate Financial Management",
+    "section": "Course Introduction",
+    "text": "Course Introduction\nWelcome to the intensive 4-day Corporate Financial Management module. This condensed format covers the essential concepts and techniques needed for effective financial decision-making in modern organizations.\n\n\n\n\n\n\nModule Learning Outcomes\n\n\nBy the end of this module, you will be able to:\n\nDemonstrate knowledge and understanding of the investment, financing and dividend decisions\nAssess the potential and significance of various sources of finance\nCritically examine issues surrounding corporate financing and dividend policy\nRecognize key concepts and theories of financial management"
+  },
+  {
+    "objectID": "day1-morning-slides.html#the-finance-function-in-organizations",
+    "href": "day1-morning-slides.html#the-finance-function-in-organizations",
+    "title": "Corporate Financial Management",
+    "section": "The Finance Function in Organizations",
+    "text": "The Finance Function in Organizations\nFinancial management involves making key decisions about how resources are acquired and utilized within an organization. The finance function serves as the nexus for critical business activities.\n\nThe Finance FrameworkFinance Manager’s RoleYour Experience\n\n\n\n\n\n\n\nflowchart TD\n    A[Financial planning] --&gt; B[Investment project appraisal]\n    A --&gt; C[Finance function]\n    A --&gt; D[Financing and capital market operations]\n    C --&gt; B\n    C --&gt; D\n    C --&gt; E[Financial control]\n    E --&gt; B\n    E --&gt; D\n\n\n\n\n\n\n\n\nThe finance manager’s responsibilities typically include:\n\nFinancial planning and forecasting\nCapital investment decisions\nWorking capital management\nFunding and financing decisions\nFinancial risk management\nStakeholder communication\n\n\n\nDiscussion point: What financial management challenges have you observed or experienced in your organization?"
+  },
+  {
+    "objectID": "day1-morning-slides.html#primary-business-objectives",
+    "href": "day1-morning-slides.html#primary-business-objectives",
+    "title": "Corporate Financial Management",
+    "section": "Primary Business Objectives",
+    "text": "Primary Business Objectives\n\nShareholder Wealth MaximizationShareholder PerspectiveCritical Perspective\n\n\nThe conventional view holds that the primary objective of a business is shareholder wealth maximization. This objective:\n\nIs not the same as profit maximization\nRequires considering the needs of other stakeholders\nOften demands high ethical standards\n\n\n\nShareholders have specific characteristics that justify prioritizing their interests:\n\nThey are the effective owners\nThey have a residual claim and bear risk\nThey drive entrepreneurial activity through seeking returns\n\n\n\nHowever, pursuing shareholder wealth maximization can be problematic:\n\nMay undermine the status of other stakeholders\nCan encourage excessive cost-cutting\nMight promote unethical behavior"
+  },
+  {
+    "objectID": "day1-morning-slides.html#limitations-of-profit-maximization",
+    "href": "day1-morning-slides.html#limitations-of-profit-maximization",
+    "title": "Corporate Financial Management",
+    "section": "Limitations of Profit Maximization",
+    "text": "Limitations of Profit Maximization\nUnlike shareholder wealth maximization, profit maximization as a sole objective has significant limitations:\n\n\n\nProfit is an imprecise term\nProfit cannot be objectively determined\nProfit takes no account of risk\n\n\n\n\nUncertain timeframe (short vs. long-term)\nIgnores opportunity costs\nNeglects stakeholder interests\n\n\n\n\n\n\n\n\n\nKey Insight\n\n\nMaximizing profit in a single period may actually diminish shareholder wealth over the long term due to factors like reduced investment, damage to reputation, or increased risk."
+  },
+  {
+    "objectID": "day1-morning-slides.html#agency-theory-and-corporate-governance",
+    "href": "day1-morning-slides.html#agency-theory-and-corporate-governance",
+    "title": "Corporate Financial Management",
+    "section": "Agency Theory and Corporate Governance",
+    "text": "Agency Theory and Corporate Governance\n\nAgency TheoryCorporate GovernanceKey Governance Areas\n\n\nThe principal-agent relationship creates potential conflicts:\n\nDirectors (agents) act on behalf of shareholders (principals)\nDirectors should make decisions maximizing shareholder benefit\nHowever, their personal interests may lead to sub-optimal decisions\nExample: Prioritizing short-term profitability over long-term value when bonuses are tied to annual profit\n\n\n\nThe UK Corporate Governance Code aims to mitigate these issues by ensuring:\n\nClear delineation of directors’ powers and responsibilities\nAppropriate checks and balances within the organization\n\n\n\nThe code covers five main areas: 1. Board leadership and company purpose 2. Division of responsibilities 3. Composition, succession and evaluation 4. Audit, risk and internal control 5. Remuneration"
+  },
+  {
+    "objectID": "day1-morning-slides.html#financial-information-for-decision-making",
+    "href": "day1-morning-slides.html#financial-information-for-decision-making",
+    "title": "Corporate Financial Management",
+    "section": "Financial Information for Decision Making",
+    "text": "Financial Information for Decision Making\nFinancial statements provide the foundation for all financial analysis and decision-making.\n\nIncome StatementStatement of Financial PositionFinancial Statement Analysis\n\n\n\n\n\n\n£000\n£000\n\n\n\n\nCredit sales revenue\n\n\n\n\nLess Cost of sales:\n\n\n\n\nOpening inventories\n\n\n\n\nAdd Purchases\n\n\n\n\nLess Closing inventories\n\n\n\n\nGross profit\n\n\n\n\nLess:\n\n\n\n\nCredit card discounts\n\n\n\n\nRent and rates\n\n\n\n\nOther costs\n\n\n\n\nDepreciation of fittings\n\n\n\n\nProfit for the period\n\n\n\n\n\n\n\n\n\n\n\n£000\n\n\n\n\nASSETS\n\n\n\nNon-current assets\n\n\n\nFittings\n\n\n\nLess Accumulated depreciation\n\n\n\n\n\n\n\nCurrent assets\n\n\n\nInventories\n\n\n\nTrade receivables\n\n\n\n\n\n\n\nTotal assets\n\n\n\n\n\n\n\nEQUITY AND LIABILITIES\n\n\n\nEquity\n\n\n\nShare capital\n\n\n\nRetained earnings\n\n\n\n\n\n\n\nCurrent liabilities\n\n\n\nTrade payables\n\n\n\nBank overdraft\n\n\n\n\n\n\n\nTotal equity and liabilities\n\n\n\n\n\n\nFinancial statements provide information about:\n\nProfitability and performance\nFinancial position and stability\nCash flow and liquidity\nChanges in financial position\n\nThis information helps stakeholders assess: - Past performance - Current position - Future prospects"
+  },
+  {
+    "objectID": "day1-morning-slides.html#financial-analysis-using-ratios",
+    "href": "day1-morning-slides.html#financial-analysis-using-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Financial Analysis Using Ratios",
+    "text": "Financial Analysis Using Ratios\nFinancial ratio analysis provides a systematic approach to evaluating a company’s financial health. Ratios help transform raw financial data into meaningful insights.\n\n\n\n\n\n\nThe Financial Health Framework\n\n\n\n\n\n\n\nflowchart TD\n    A[Financial ratios] --&gt; B[Profitability]\n    A --&gt; C[Efficiency]\n    A --&gt; D[Liquidity]\n    A --&gt; E[Financial gearing]\n    A --&gt; F[Investment]"
+  },
+  {
+    "objectID": "day1-morning-slides.html#profitability-ratios",
+    "href": "day1-morning-slides.html#profitability-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Profitability Ratios",
+    "text": "Profitability Ratios\nProfitability ratios measure a company’s ability to generate earnings relative to sales, assets, and equity.\n\nKey Profitability RatiosROCE BreakdownROCE Comparison\n\n\n\n\n\n\n\n\n\n\nRatio\nFormula\nPurpose\n\n\n\n\nReturn on Ordinary Shareholders’ Funds (ROSF)\n\\(\\frac{\\text{Profit for the year less preference dividend}}{\\text{Ordinary share capital + Reserves}} \\times 100\\)\nMeasures return earned for ordinary shareholders\n\n\nReturn on Capital Employed (ROCE)\n\\(\\frac{\\text{Operating profit}}{\\text{Share capital + Reserves + Non-current liabilities}} \\times 100\\)\nEvaluates efficiency of all long-term capital\n\n\nOperating Profit Margin\n\\(\\frac{\\text{Operating profit}}{\\text{Sales revenue}} \\times 100\\)\nShows profitability of operations\n\n\nGross Profit Margin\n\\(\\frac{\\text{Gross profit}}{\\text{Sales revenue}} \\times 100\\)\nIndicates basic profitability before other costs\n\n\n\n\n\nROCE can be broken down into its key components:\n\\(\\text{ROCE} = \\frac{\\text{Operating profit}}{\\text{Sales revenue}} \\times \\frac{\\text{Sales revenue}}{\\text{Long-term capital employed}}\\)\nThis demonstrates that ROCE is affected by both: - Profit margin (efficiency of operations) - Asset turnover (efficiency of capital usage)"
+  },
+  {
+    "objectID": "day1-morning-slides.html#efficiency-ratios",
+    "href": "day1-morning-slides.html#efficiency-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Efficiency Ratios",
+    "text": "Efficiency Ratios\nEfficiency ratios evaluate how effectively a company uses its assets and manages its operations.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nAverage inventories turnover period\n\\(\\frac{\\text{Average inventories held}}{\\text{Cost of sales}} \\times 365\\)\n\n\nAverage settlement period for trade receivables\n\\(\\frac{\\text{Average trade receivables}}{\\text{Credit sales revenue}} \\times 365\\)\n\n\nAverage settlement period for trade payables\n\\(\\frac{\\text{Average trade payables}}{\\text{Credit purchases}} \\times 365\\)\n\n\nSales revenue to capital employed\n\\(\\frac{\\text{Sales revenue}}{\\text{Share capital + Reserves + Non-current liabilities}}\\)\n\n\nSales revenue per employee\n\\(\\frac{\\text{Sales revenue}}{\\text{Number of employees}}\\)\n\n\n\n\n\n\n\n\n\nEfficiency Ratio Interpretation\n\n\n\nLower inventory and receivables periods typically indicate better efficiency\nHigher payables period may indicate stronger supplier relationships but could also suggest liquidity problems\nHigher sales to capital employed suggests more efficient use of capital"
+  },
+  {
+    "objectID": "day1-morning-slides.html#liquidity-ratios",
+    "href": "day1-morning-slides.html#liquidity-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Liquidity Ratios",
+    "text": "Liquidity Ratios\nLiquidity ratios assess a company’s ability to meet short-term obligations.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nCurrent ratio\n\\(\\frac{\\text{Current assets}}{\\text{Current liabilities}}\\)\n\n\nAcid test ratio\n\\(\\frac{\\text{Current assets (excluding inventories)}}{\\text{Current liabilities}}\\)\n\n\n\n\nCurrent Ratio TrendsRetail Industry ContextLiquidity Benchmarks\n\n\n\n\n\n\n\n\n\n\n\n\n\nUK supermarkets typically operate with current ratios below 1.0 because:\n\nThey have strong bargaining power with suppliers (longer payment terms)\nInventory turnover is rapid\nCustomers typically pay at point of sale\nThey have predictable cash flows\nThey hold minimal reserves due to efficient operations\n\n\n\nTraditionally, guidelines suggest: - Current ratio: 2:1 - Acid test ratio: 1:1\nHowever, these benchmarks vary significantly by: - Industry - Business model - Market position - Economic conditions"
+  },
+  {
+    "objectID": "day1-morning-slides.html#gearing-ratios",
+    "href": "day1-morning-slides.html#gearing-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Gearing Ratios",
+    "text": "Gearing Ratios\nGearing ratios evaluate the extent to which a company is financed by debt versus equity.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nGearing ratio\n\\(\\frac{\\text{Long-term (non-current) liabilities}}{\\text{Share capital + Reserves + Long-term (non-current) liabilities}} \\times 100\\)\n\n\nInterest cover ratio\n\\(\\frac{\\text{Operating profit}}{\\text{Interest payable}}\\)\n\n\n\n\n\n\n\n\n\nGearing Trade-offs\n\n\nHigh Gearing Benefits: - Potential for higher returns to shareholders - Tax advantages of debt (interest is tax-deductible) - No dilution of ownership\nHigh Gearing Risks: - Increased financial risk - Fixed interest obligations - Potential constraints on future borrowing - More vulnerable during economic downturns"
+  },
+  {
+    "objectID": "day1-morning-slides.html#investment-ratios",
+    "href": "day1-morning-slides.html#investment-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Investment Ratios",
+    "text": "Investment Ratios\nInvestment ratios help investors assess the attractiveness of a company’s shares.\n\nDividend-Based RatiosEarnings-Based RatiosIndustry Comparisons\n\n\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nDividend payout ratio\n\\(\\frac{\\text{Dividends announced for the year}}{\\text{Earnings for the year available for dividends}} \\times 100\\)\n\n\nDividend cover ratio\n\\(\\frac{\\text{Earnings for the year available for dividends}}{\\text{Dividends announced for the year}}\\)\n\n\nDividend yield ratio\n\\(\\frac{\\text{Dividend per share}}{\\text{Market value per share}} \\times 100\\)\n\n\n\n\n\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nEarnings per share\n\\(\\frac{\\text{Earnings available to ordinary shareholders}}{\\text{Number of ordinary shares in issue}}\\)\n\n\nPrice/earnings ratio (P/E)\n\\(\\frac{\\text{Market value per share}}{\\text{Earnings per share}}\\)\n\n\n\n\n\nThe P/E ratio and dividend yield vary significantly across industries:\n\nTechnology firms typically have high P/E ratios (often exceeding 30)\nUtility companies often have lower P/E ratios (around 12-15) but higher dividend yields\nFinancial institutions generally have moderate P/E ratios with above-average dividend yields\nGrowth industries prioritize reinvestment over dividends"
+  },
+  {
+    "objectID": "day1-morning-slides.html#business-failure-prediction",
+    "href": "day1-morning-slides.html#business-failure-prediction",
+    "title": "Corporate Financial Management",
+    "section": "Business Failure Prediction",
+    "text": "Business Failure Prediction\nFinancial ratios can help predict business failure before it occurs.\n\nWarning SignsAltman Z-Score Model\n\n\nKey indicators that may signal potential business failure: - Declining profitability ratios - Deteriorating liquidity ratios - Increasing gearing ratios - Lengthening receivables collection periods - Shortening payables payment periods\n\n\nThe Z-score model combines multiple ratio indicators into a single predictive formula:\n\\(Z = 1.2a + 1.4b + 3.3c + 0.6d + 1.0e\\)\nWhere: - a = Working capital/Total assets - b = Accumulated retained profits/Total assets - c = Operating profit/Total assets - d = Book value of shares/Total liabilities - e = Sales revenue/Total assets\nInterpretation: - Z &gt; 2.99: “Safe” zone - 1.81 &lt; Z &lt; 2.99: “Grey” zone - Z &lt; 1.81: “Distress” zone"
+  },
+  {
+    "objectID": "day1-morning-slides.html#limitations-of-ratio-analysis",
+    "href": "day1-morning-slides.html#limitations-of-ratio-analysis",
+    "title": "Corporate Financial Management",
+    "section": "Limitations of Ratio Analysis",
+    "text": "Limitations of Ratio Analysis\nWhile ratios provide valuable insights, they have important limitations:\n\n\nData-Related Limitations: - Quality of financial statements - Creative accounting - Inflation effects - Statement of financial position timing issues\n\n\nApplication Limitations: - Over-reliance on ratios - Difficulties in finding comparable benchmarks - Industry-specific factors - Non-financial factors are excluded\n\n\n\n\n\n\nCorporate Financial Management - Day 1 Morning"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#capital-investment-decisions",
+    "href": "day1-afternoon-slides.html#capital-investment-decisions",
+    "title": "Corporate Financial Management",
+    "section": "Capital Investment Decisions",
+    "text": "Capital Investment Decisions\nCapital investment decisions are among the most important decisions made by financial managers.\n\nThey involve significant resources\nThey have long-term implications for business performance\nThey are often difficult or impossible to reverse\nThey determine a company’s future competitive position"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#the-capital-investment-process",
+    "href": "day1-afternoon-slides.html#the-capital-investment-process",
+    "title": "Corporate Financial Management",
+    "section": "The Capital Investment Process",
+    "text": "The Capital Investment Process\nCapital investment decisions typically follow a structured process:\n\n\n\n\n\nflowchart TD\n    A[Identify investment opportunities] --&gt; B[Gather relevant data]\n    B --&gt; C[Evaluate using investment appraisal techniques]\n    C --&gt; D[Make decision]\n    D --&gt; E[Implement project]\n    E --&gt; F[Monitor and conduct post-completion audit]"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#types-of-capital-investment-decisions",
+    "href": "day1-afternoon-slides.html#types-of-capital-investment-decisions",
+    "title": "Corporate Financial Management",
+    "section": "Types of Capital Investment Decisions",
+    "text": "Types of Capital Investment Decisions\nCapital investment projects typically fall into one of several categories:\n\nReplacement decisions - Replacing existing assets to maintain operations\nExpansion decisions - Growing existing operations or entering new markets\nImprovement decisions - Enhancing efficiency or quality\nRegulatory/compliance decisions - Meeting legal requirements\nStrategic decisions - Building long-term competitive advantage"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#investment-appraisal-techniques",
+    "href": "day1-afternoon-slides.html#investment-appraisal-techniques",
+    "title": "Corporate Financial Management",
+    "section": "Investment Appraisal Techniques",
+    "text": "Investment Appraisal Techniques\nSeveral techniques can be used to evaluate capital investment proposals:\n\nAccounting Rate of Return (ARR)\nPayback Period\nDiscounted Payback Period\nNet Present Value (NPV)\nInternal Rate of Return (IRR)\nProfitability Index\n\n\n\n\nCorporate Financial Management - Day 1 Afternoon"
+  }
+]
