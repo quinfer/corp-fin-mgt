@@ -29,11 +29,13 @@ Complete reference guide for the Corporate Financial Management module.
 ## Assignment Materials
 
 ::: {.resource-card}
-### Assignment Brief
-Detailed information about the coursework assignment worth 50% of your final grade.
+### Coursework Assignment (50% of final mark)
+Detailed information about the coursework assignment including case studies, requirements, and marking scheme.
 
 ::: {.button-group}
-[Download DOCX](resources/ACF838_CFM_assignment_detail.docx){.btn .btn-secondary}
+[View Online](resources/coursework.html){.btn .btn-primary}
+[Download DOCX](resources/coursework.docx){.btn .btn-secondary}
+[View Source](resources/coursework.qmd){.btn .btn-secondary}
 :::
 :::
 
