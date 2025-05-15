@@ -1,7 +1,7 @@
 ---
 title: "Corporate Financial Management"
 subtitle: "Day 1: Financial Framework & Analysis"
-author: "Your Name"
+author: "Barry Quinn"
 date: last-modified
 format:
   revealjs:
@@ -41,8 +41,7 @@ By the end of this module, you will be able to:
 
 Financial management involves making key decisions about how resources are acquired and utilized within an organization. The finance function serves as the nexus for critical business activities.
 
-:::{.panel-tabset}
-### The Finance Framework
+## The Finance Framework
 
 ```{mermaid}
 flowchart TD
@@ -56,7 +55,7 @@ flowchart TD
     E --> D
 ```
 
-### Finance Manager's Role
+## Finance Manager's Role
 
 The finance manager's responsibilities typically include:
 
@@ -73,8 +72,8 @@ The finance manager's responsibilities typically include:
 
 ## Primary Business Objectives
 
-:::{.panel-tabset}
-### Shareholder Wealth Maximization
+
+## Shareholder Wealth Maximization
 
 The conventional view holds that the primary objective of a business is **shareholder wealth maximization**. This objective:
 
@@ -82,7 +81,7 @@ The conventional view holds that the primary objective of a business is **shareh
 - Requires considering the needs of other stakeholders
 - Often demands high ethical standards
 
-### Shareholder Perspective
+## Shareholder Perspective
 
 Shareholders have specific characteristics that justify prioritizing their interests:
 
@@ -90,7 +89,7 @@ Shareholders have specific characteristics that justify prioritizing their inter
 - They have a residual claim and bear risk
 - They drive entrepreneurial activity through seeking returns
 
-### Critical Perspective
+## Critical Perspective
 
 However, pursuing shareholder wealth maximization can be problematic:
 
@@ -121,10 +120,10 @@ Unlike shareholder wealth maximization, profit maximization as a sole objective 
 Maximizing profit in a single period may actually diminish shareholder wealth over the long term due to factors like reduced investment, damage to reputation, or increased risk.
 :::
 
-## Agency Theory and Corporate Governance
+# Agency Theory and Corporate Governance
 
-:::{.panel-tabset}
-### Agency Theory
+
+## Agency Theory
 The principal-agent relationship creates potential conflicts:
 
 - Directors (agents) act on behalf of shareholders (principals)
@@ -132,14 +131,14 @@ The principal-agent relationship creates potential conflicts:
 - However, their personal interests may lead to sub-optimal decisions
 - Example: Prioritizing short-term profitability over long-term value when bonuses are tied to annual profit
 
-### Corporate Governance
+## Corporate Governance
 
 The UK Corporate Governance Code aims to mitigate these issues by ensuring:
 
 - Clear delineation of directors' powers and responsibilities
 - Appropriate checks and balances within the organization
 
-### Key Governance Areas
+## Key Governance Areas
 
 The code covers five main areas:
 1. Board leadership and company purpose
@@ -153,8 +152,7 @@ The code covers five main areas:
 
 Financial statements provide the foundation for all financial analysis and decision-making.
 
-:::{.panel-tabset}
-### Income Statement
+## Income Statement
 
 ```{r, echo=FALSE, results='asis'}
 income_statement <- data.frame(
@@ -177,7 +175,7 @@ income_statement <- data.frame(
 kable(income_statement, col.names = c("", "£000", "£000"), align = "lrr")
 ```
 
-### Statement of Financial Position
+## Statement of Financial Position
 
 ```{r, echo=FALSE, results='asis'}
 balance_sheet <- data.frame(
@@ -208,7 +206,7 @@ balance_sheet <- data.frame(
 kable(balance_sheet, col.names = c("", "£000"), align = "lr")
 ```
 
-### Financial Statement Analysis
+## Financial Statement Analysis
 
 Financial statements provide information about:
 
@@ -221,7 +219,7 @@ This information helps stakeholders assess:
 - Past performance
 - Current position
 - Future prospects
-:::
+
 
 ## Financial Analysis Using Ratios
 
@@ -243,8 +241,8 @@ flowchart TD
 
 Profitability ratios measure a company's ability to generate earnings relative to sales, assets, and equity.
 
-:::{.panel-tabset}
-### Key Profitability Ratios
+
+## Key Profitability Ratios
 
 | Ratio | Formula | Purpose |
 |-------|---------|---------|
@@ -253,7 +251,7 @@ Profitability ratios measure a company's ability to generate earnings relative t
 | Operating Profit Margin | $\frac{\text{Operating profit}}{\text{Sales revenue}} \times 100$ | Shows profitability of operations |
 | Gross Profit Margin | $\frac{\text{Gross profit}}{\text{Sales revenue}} \times 100$ | Indicates basic profitability before other costs |
 
-### ROCE Breakdown
+## ROCE Breakdown
 
 ROCE can be broken down into its key components:
 
@@ -263,7 +261,7 @@ This demonstrates that ROCE is affected by both:
 - Profit margin (efficiency of operations)
 - Asset turnover (efficiency of capital usage)
 
-### ROCE Comparison
+## ROCE Comparison
 
 ```{r, fig.width=10, fig.height=6}
 years <- 2012:2017
@@ -289,7 +287,6 @@ ggplot(df, aes(x = Year, y = ROCE, color = Country, group = Country)) +
         plot.title = element_text(hjust = 0.5, face = "bold"))
 ```
 
-:::
 
 ## Efficiency Ratios
 
@@ -334,8 +331,8 @@ liquidity_ratios <- data.frame(
 kable(liquidity_ratios, align = "ll")
 ```
 
-:::{.panel-tabset}
-### Current Ratio Trends
+
+## Current Ratio Trends
 
 ```{r, fig.width=10, fig.height=6}
 years <- 2008:2018
@@ -359,7 +356,7 @@ ggplot(df, aes(x = Year, y = CurrentRatio, color = Company, group = Company)) +
         plot.title = element_text(hjust = 0.5, face = "bold"))
 ```
 
-### Retail Industry Context
+## Retail Industry Context
 
 UK supermarkets typically operate with current ratios below 1.0 because:
 
@@ -369,7 +366,7 @@ UK supermarkets typically operate with current ratios below 1.0 because:
 - They have predictable cash flows
 - They hold minimal reserves due to efficient operations
 
-### Liquidity Benchmarks
+## Liquidity Benchmarks
 
 Traditionally, guidelines suggest:
 - Current ratio: 2:1
@@ -380,7 +377,6 @@ However, these benchmarks vary significantly by:
 - Business model
 - Market position
 - Economic conditions
-:::
 
 ## Gearing Ratios
 
@@ -398,7 +394,7 @@ kable(gearing_ratios, align = "ll")
 ```
 
 :::{.callout-tip}
-## Gearing Trade-offs
+### Gearing Trade-offs
 
 **High Gearing Benefits:**
 - Potential for higher returns to shareholders
@@ -416,8 +412,8 @@ kable(gearing_ratios, align = "ll")
 
 Investment ratios help investors assess the attractiveness of a company's shares.
 
-:::{.panel-tabset}
-### Dividend-Based Ratios
+
+## Dividend-Based Ratios
 
 ```{r, echo=FALSE, results='asis'}
 dividend_ratios <- data.frame(
@@ -432,7 +428,7 @@ dividend_ratios <- data.frame(
 kable(dividend_ratios, align = "ll")
 ```
 
-### Earnings-Based Ratios
+## Earnings-Based Ratios
 
 ```{r, echo=FALSE, results='asis'}
 earnings_ratios <- data.frame(
@@ -445,7 +441,7 @@ earnings_ratios <- data.frame(
 kable(earnings_ratios, align = "ll")
 ```
 
-### Industry Comparisons
+## Industry Comparisons
 
 The P/E ratio and dividend yield vary significantly across industries:
 
@@ -453,14 +449,14 @@ The P/E ratio and dividend yield vary significantly across industries:
 - Utility companies often have lower P/E ratios (around 12-15) but higher dividend yields
 - Financial institutions generally have moderate P/E ratios with above-average dividend yields
 - Growth industries prioritize reinvestment over dividends
-:::
+
 
 ## Business Failure Prediction
 
 Financial ratios can help predict business failure before it occurs.
 
-:::{.panel-tabset}
-### Warning Signs
+
+## Warning Signs
 
 Key indicators that may signal potential business failure:
 - Declining profitability ratios
@@ -469,7 +465,7 @@ Key indicators that may signal potential business failure:
 - Lengthening receivables collection periods
 - Shortening payables payment periods
 
-### Altman Z-Score Model
+## Altman Z-Score Model
 
 The Z-score model combines multiple ratio indicators into a single predictive formula:
 
@@ -486,7 +482,6 @@ Where:
 - Z > 2.99: "Safe" zone
 - 1.81 < Z < 2.99: "Grey" zone
 - Z < 1.81: "Distress" zone
-:::
 
 ## Limitations of Ratio Analysis
 
@@ -508,4 +503,84 @@ While ratios provide valuable insights, they have important limitations:
 - Non-financial factors are excluded
 :::
 :::
-</rewritten_file> 
+
+:::{.callout-important}
+Ratios are tools for asking better questions, not providing definitive answers. They should be used as part of a broader analytical framework.
+:::
+
+## Practice Examples {.unnumbered}
+
+Let's apply these concepts to solve practical problems:
+
+## Example 1
+
+For the year just ended, Ditto plc had earnings per share of £0.25 and a dividend payout ratio of 60%. The price earnings ratio is 20 times. What is the dividend yield?
+
+**Solution:**
+```{r, echo=TRUE}
+# Given information
+EPS <- 0.25  # Earnings per share in £
+DPR <- 0.60  # Dividend payout ratio (60%)
+PE <- 20     # Price earnings ratio
+
+# Calculate dividend per share
+DPS <- EPS * DPR
+DPS
+
+# Calculate market value per share
+Market_Value <- EPS * PE
+Market_Value
+
+# Calculate dividend yield
+Dividend_Yield <- (DPS / Market_Value) * 100
+Dividend_Yield
+```
+
+## Example 2
+
+A business has a ROCE of 20% and a sales revenue to long-term capital employed ratio of 5 times. It has an operating profit of £2m. What is the sales revenue of the business?
+
+**Solution:**
+ROCE = Operating profit / Capital employed = 20%
+Capital employed = Operating profit / ROCE = £2m / 0.20 = £10m
+
+Sales revenue / Capital employed = 5
+Therefore, Sales revenue = 5 × £10m = £50m
+
+## Example 3
+
+A business has the following ratios:
+- Gross profit margin: 25%
+- Operating expenses to sales: 10%
+- Interest cover: 3 times
+- Sales for the period: £20m
+
+What is the profit before tax?
+
+**Solution:**
+Gross profit = 25% × £20m = £5m
+Operating expenses = 10% × £20m = £2m
+Operating profit = £5m - £2m = £3m
+Interest cover = Operating profit / Interest expense = 3
+Interest expense = Operating profit / Interest cover = £3m / 3 = £1m
+Profit before tax = Operating profit - Interest expense = £3m - £1m = £2m
+
+
+## Key Takeaways {.unnumbered}
+
+:::{.callout-note appearance="minimal"}
+- Financial management should focus on shareholder wealth maximization rather than short-term profit maximization
+- Agency relationships create potential conflicts between shareholders and managers
+- Ratio analysis provides a structured approach to evaluating financial health
+- Effective financial analysis requires understanding multiple aspects of performance
+- Ratios should be compared against appropriate benchmarks
+- Limitations of ratio analysis must be considered when drawing conclusions
+:::
+
+## Next Session Preview {.unnumbered}
+
+In this afternoon's session, we will explore:
+- Capital investment decisions
+- Investment appraisal techniques
+- Handling risk and uncertainty in investment decisions
+- Real-world application of investment appraisal

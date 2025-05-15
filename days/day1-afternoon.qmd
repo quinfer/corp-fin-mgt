@@ -1,7 +1,7 @@
 ---
 title: "Corporate Financial Management"
 subtitle: "Day 1 Afternoon: Capital Investment Decisions"
-author: "Your Name"
+author: "Barry Quinn"
 date: last-modified
 format:
   revealjs:

@@ -1,7 +1,7 @@
 ---
 title: "Corporate Financial Management"
 subtitle: "Day 1: Financial Framework & Investment Decisions"
-author: "Your Name"
+author: "Barry Quinn"
 date: last-modified
 format:
   html:
@@ -24,8 +24,8 @@ library(ggplot2)
 
 Welcome to Day 1 of the Corporate Financial Management module. Today focuses on establishing the financial framework and introducing capital investment decision-making techniques. The day is divided into two complementary sessions:
 
-- [**Morning Session: Financial Framework & Analysis**](day1-morning.qmd) - Introduces corporate financial objectives, governance, and analytical frameworks
-- [**Afternoon Session: Capital Investment Decisions**](day1-afternoon.qmd) - Explores techniques for evaluating investment opportunities
+- **Morning Session: Financial Framework & Analysis** - Introduces corporate financial objectives, governance, and analytical frameworks ([Slides](../slides/day1-morning-slides.html))
+- **Afternoon Session: Capital Investment Decisions** - Explores techniques for evaluating investment opportunities ([Slides](../slides/day1-afternoon-slides.html))
 
 ## Morning Session Summary
 

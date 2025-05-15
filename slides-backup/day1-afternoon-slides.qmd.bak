@@ -1,0 +1,67 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 1 Afternoon: Capital Investment Decisions"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    theme: simple
+    incremental: true
+    slide-number: true
+    footer: "Corporate Financial Management - Day 1 Afternoon"
+    self-contained: true
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: slide
+    print-pdf-size: letter
+    print-pdf-margin: 1cm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+library(ggplot2)
+```
+
+## Capital Investment Decisions
+
+Capital investment decisions are among the most important decisions made by financial managers.
+
+- They involve significant resources
+- They have long-term implications for business performance
+- They are often difficult or impossible to reverse
+- They determine a company's future competitive position
+
+## The Capital Investment Process
+
+Capital investment decisions typically follow a structured process:
+
+```{mermaid}
+flowchart TD
+    A[Identify investment opportunities] --> B[Gather relevant data]
+    B --> C[Evaluate using investment appraisal techniques]
+    C --> D[Make decision]
+    D --> E[Implement project]
+    E --> F[Monitor and conduct post-completion audit]
+```
+
+## Types of Capital Investment Decisions
+
+Capital investment projects typically fall into one of several categories:
+
+1. **Replacement decisions** - Replacing existing assets to maintain operations
+2. **Expansion decisions** - Growing existing operations or entering new markets
+3. **Improvement decisions** - Enhancing efficiency or quality
+4. **Regulatory/compliance decisions** - Meeting legal requirements
+5. **Strategic decisions** - Building long-term competitive advantage
+
+## Investment Appraisal Techniques
+
+Several techniques can be used to evaluate capital investment proposals:
+
+- Accounting Rate of Return (ARR)
+- Payback Period
+- Discounted Payback Period
+- Net Present Value (NPV)
+- Internal Rate of Return (IRR)
+- Profitability Index 

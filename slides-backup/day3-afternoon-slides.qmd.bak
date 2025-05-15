@@ -1,0 +1,85 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 3 Afternoon: Working Capital Management"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    theme: simple
+    incremental: true
+    slide-number: true
+    footer: "Corporate Financial Management - Day 3 Afternoon"
+    self-contained: true
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: slide
+    print-pdf-size: letter
+    print-pdf-margin: 1cm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+library(ggplot2)
+```
+
+## Working Capital Management
+
+This presentation focuses on managing the day-to-day financial operations of a business.
+
+- Nature and purpose of working capital
+- Inventory management
+- Trade receivables management
+- Trade payables management
+- Cash management
+
+## The Working Capital Cycle
+
+Working capital management involves optimizing the cash operating cycle:
+
+```{mermaid}
+flowchart LR
+    A[Cash] --> B[Inventory]
+    B --> C[Accounts Receivable]
+    C --> D[Cash]
+    E[Accounts Payable] -.-> A
+```
+
+## Working Capital Components
+
+The main components of working capital include:
+
+1. **Current assets**:
+   - Cash and cash equivalents
+   - Accounts receivable
+   - Inventory
+   - Short-term investments
+
+2. **Current liabilities**:
+   - Accounts payable
+   - Short-term borrowings
+   - Current portion of long-term debt
+   - Accrued expenses
+
+## Inventory Management
+
+Effective inventory management balances costs and benefits:
+
+- **Economic Order Quantity (EOQ) model**:
+  - Calculates optimal order quantity
+  - Minimizes total inventory costs
+
+- **Just-in-Time (JIT) approach**:
+  - Reduces inventory holding costs
+  - Requires reliable suppliers
+
+## Receivables Management
+
+Managing trade receivables involves:
+
+- Credit policy decisions
+- Credit terms and discounts
+- Credit evaluation procedures
+- Monitoring outstanding receivables
+- Collection procedures
+- Factoring and invoice discounting 

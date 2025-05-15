@@ -1,0 +1,78 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 2 Afternoon: Cost of Capital"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    theme: simple
+    incremental: true
+    slide-number: true
+    footer: "Corporate Financial Management - Day 2 Afternoon"
+    self-contained: true
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: slide
+    print-pdf-size: letter
+    print-pdf-margin: 1cm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+library(ggplot2)
+```
+
+## Cost of Capital
+
+This presentation covers the methods to calculate financing costs and determine optimal capital structure.
+
+- Understanding cost of capital concepts
+- Calculating costs of different financing sources
+- Determining weighted average cost of capital (WACC)
+- Exploring capital structure theories
+
+## Cost of Capital Concept
+
+The cost of capital represents:
+
+- The return required by providers of capital
+- The minimum return required for new investments
+- A key component in shareholder value creation
+- A benchmark for evaluating investment opportunities
+
+## Cost of Equity Calculation Methods
+
+The cost of equity can be calculated using several methods:
+
+```{mermaid}
+flowchart TD
+    A[Cost of Equity Methods] --> B[Dividend Valuation Models]
+    A --> C[Capital Asset Pricing Model]
+    B --> D[No-Growth Model]
+    B --> E[Dividend Growth Model]
+    C --> F[CAPM Formula: E(Ri) = Rf + β(Rm - Rf)]
+```
+
+## Dividend Valuation Model (No Growth)
+
+The simplest approach for calculating cost of equity:
+
+$$k_e = \frac{D}{P_0}$$
+
+Where:
+- $k_e$ = Cost of equity
+- $D$ = Annual dividend
+- $P_0$ = Current share price
+
+## Dividend Growth Model
+
+For companies with growing dividends:
+
+$$k_e = \frac{D_1}{P_0} + g$$
+
+Where:
+- $k_e$ = Cost of equity
+- $D_1$ = Expected dividend next year
+- $P_0$ = Current share price
+- $g$ = Expected growth rate 

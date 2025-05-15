@@ -1,0 +1,76 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 3 Morning: Dividend Policy"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    theme: simple
+    incremental: true
+    slide-number: true
+    footer: "Corporate Financial Management - Day 3 Morning"
+    self-contained: true
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: slide
+    print-pdf-size: letter
+    print-pdf-margin: 1cm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+library(ggplot2)
+```
+
+## Dividend Policy
+
+This presentation explores how companies return value to shareholders through dividends.
+
+- The nature of dividends and their impact
+- Major theories of dividend policy
+- Practical factors influencing dividend decisions
+- Alternative distribution methods
+
+## The Dividend Decision
+
+The dividend decision represents how companies distribute value to shareholders:
+
+```{mermaid}
+flowchart TD
+    A[Company Profits] --> B[Retained for Reinvestment]
+    A --> C[Distributed to Shareholders]
+    C --> D[Cash Dividends]
+    C --> E[Share Repurchases]
+    C --> F[Scrip Dividends]
+```
+
+## Dividend Theories
+
+Several theories attempt to explain the impact of dividends on shareholder value:
+
+1. **Traditional view** - Dividends increase shareholder value
+2. **MM Theory of dividend irrelevance** - Dividend policy is irrelevant in perfect markets
+3. **Bird-in-hand theory** - Investors prefer certain dividends to uncertain capital gains
+4. **Tax preference theory** - Investors may prefer capital gains due to tax advantages
+5. **Signaling theory** - Dividends signal management's confidence in future earnings
+
+## Dividend Irrelevance Theory
+
+Modigliani and Miller argue that in perfect capital markets:
+
+- Dividend policy does not affect share value
+- Investors can create "homemade dividends" by selling shares
+- Investment policy, not dividend policy, determines value
+
+## Practical Factors Influencing Dividend Policy
+
+In reality, several factors influence dividend decisions:
+
+- Legal restrictions
+- Cash flow and liquidity constraints
+- Access to capital markets
+- Shareholder preferences
+- Industry norms
+- Signaling effects
+- Tax considerations 

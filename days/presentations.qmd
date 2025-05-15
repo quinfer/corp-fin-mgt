@@ -72,7 +72,7 @@ To generate all website content and slide presentations properly:
    quarto render
    ```
 
-2. Then, render each slide presentation individually:
+2. Then, render all the slide presentations:
    ```bash
    quarto render slides/day1-morning-slides.qmd --to revealjs
    quarto render slides/day1-afternoon-slides.qmd --to revealjs

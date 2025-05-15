@@ -1,7 +1,7 @@
 ---
 title: "Corporate Financial Management"
 subtitle: "Day 2: Sources of Finance & Cost of Capital"
-author: "Your Name"
+author: "Barry Quinn"
 date: last-modified
 format:
   html:
@@ -24,8 +24,8 @@ library(ggplot2)
 
 Welcome to Day 2 of the Corporate Financial Management module. Today explores how organizations source and cost the capital needed to fund investment opportunities. The day is structured into two complementary sessions:
 
-- [**Morning Session: Sources of Finance**](day2-morning.qmd) - Examines various financing options for both short-term and long-term needs
-- [**Afternoon Session: Cost of Capital**](day2-afternoon.qmd) - Explores methods to calculate financing costs and determine optimal capital structure
+- **Morning Session: Sources of Finance** - Examines various financing options for both short-term and long-term needs ([Slides](../slides/day2-morning-slides.html))
+- **Afternoon Session: Cost of Capital** - Explores methods to calculate financing costs and determine optimal capital structure ([Slides](../slides/day2-afternoon-slides.html))
 
 ## Morning Session Summary
 
