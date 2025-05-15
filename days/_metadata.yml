@@ -1,0 +1,21 @@
+# Common format settings for all files in this directory
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    self-contained: true
+    css: "../styles.css"
+  revealjs:
+    theme: simple
+    incremental: true
+    slide-number: true
+    footer: "Corporate Financial Management"
+    self-contained: true
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: slide
+    print-pdf-size: letter
+    print-pdf-margin: 1cm 

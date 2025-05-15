@@ -43,6 +43,8 @@ website:
             href: days/day4-morning.html
           - text: "Afternoon Session"
             href: days/day4-afternoon.html
+      - text: "Presentations"
+        href: days/presentations.html
       - text: "Resources"
         href: resources.qmd
 
@@ -53,3 +55,8 @@ format:
     toc: true
     page-layout: full
     self-contained: false
+
+render:
+  - "*.qmd"
+  - "days/*.qmd"
+  - "!days/*-slides.qmd"

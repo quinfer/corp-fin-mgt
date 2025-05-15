@@ -1,137 +1,67 @@
-# Detailed Markdown Summary: Converting Financial Management Slides to Quarto Format
+# Corporate Financial Management Course Website
 
-This conversation revolves around converting corporate financial management course materials (slides and handbook) from a traditional format into a Quarto document structure for delivering a 4-day intensive block course.
+This repository contains the source files for the Corporate Financial Management course website and slide presentations.
 
-## Background
+## Project Structure
 
-- **Course**: ACF838 - Corporate Financial Management (MSc Management and Corporate Governance)
-- **Institution**: Ulster University Business School
-- **Delivery Format**: Intensive 4-day block format (condensed from 12-week structure)
-- **Assessment**: 50% coursework (case study), 50% examination (3-hour exam)
+- `days/` - Contains the main course content QMD files for the website
+- `slides/` - Contains QMD files specifically for RevealJS slide presentations
+- `images/` - Contains images used in the content
+- `styles.css` - CSS styles for the website
+- `custom.css` - CSS styles for the presentations (if used)
 
-## 4-Day Course Structure Plan
+## Building the Website and Presentations
 
-The plan organizes the corporate financial management module into a logical 4-day structure:
+Due to the way Quarto handles file rendering, we use a specialized script to build both the website content and the RevealJS presentations:
 
-### Day 1: Introduction and Financial Information
-- Module introduction and rationale
-- Financial information for decision making
-- Corporate objectives and governance
-- Shareholder wealth maximization
-- Agency theory and corporate governance
-- Financial statement analysis basics
-- Introduction to ratio analysis
+### Complete Build
 
-### Day 2: Investment Decision Making
-- Investment appraisal fundamentals
-- Investment cash flow profiles
-- Payback Period (PP) and Discounted Payback Period (DPP)
-- Net Present Value (NPV) method
-- Internal Rate of Return (IRR)
-- Relationship between NPV and IRR
-- Issues with different investment appraisal methods
-- Investment appraisal in practice
-- Post-completion audits
+To render both the website and slides in one step:
 
-### Day 3: Financing Decisions
-- Sources of finance
-- Cost of capital concepts
-- Capital structure decisions
-- Dividend policy considerations
-- Working capital management
+```bash
+./render-website.sh
+```
 
-### Day 4: Applied Financial Management
-- Case study applications
-- Practical financial analysis
-- Advanced ratio analysis topics
-- Business failure prediction
-- Z-score models
-- Exam preparation
-- Revision of key concepts
+This script will:
+1. Create the necessary directories
+2. Render the main index and resources pages
+3. Copy the days QMD files to the docs directory
+4. Render all the slide presentations to RevealJS
+5. Render all the day files to HTML
+6. Put everything in the proper structure for publishing
 
-## Technical Implementation
+### Publishing
 
-The conversation outlines a detailed technical approach for creating a Quarto-based website:
+Once rendering is complete:
 
-1. **Project Structure**:
-   ```
-   financial-management-website/
-   ├── index.qmd                  # Homepage
-   ├── _quarto.yml               # Site configuration
-   ├── custom.scss               # Custom styling
-   ├── slides/                   # Presentation slides
-   │   └── day1.qmd              # Day 1 content
-   │   └── day2.qmd              # Day 2 content
-   │   └── day3.qmd              # Day 3 content
-   │   └── day4.qmd              # Day 4 content
-   ├── resources/                # Additional resources
-   │   └── assessment.qmd        # Assessment details
-   │   └── reading.qmd           # Reading list
-   └── assets/                   # Images and other assets
-   ```
+```bash
+quarto publish
+```
 
-2. **Quarto Format**: Uses RevealJS for presentations with advanced features:
-   - Interactive diagrams with Mermaid and DiagrammeR
-   - Professional charts using ggplot2
-   - Responsive design with custom CSS
-   - Instructor notes for teaching
+This will publish the entire website, including both the HTML pages and the RevealJS presentations.
 
-3. **Data Visualization**: Convert static charts to interactive visualizations for:
-   - ROCE trends by country
-   - Interest cover ratios by industry
-   - Dividend yield comparisons
-   - Financial ratio analysis examples
+## Creating New Slide Presentations
 
-4. **Mathematical Notation**: Proper formatting of financial formulas using LaTeX notation
+To create a new slide presentation:
 
-5. **Custom Styling**: CSS customization for academic presentation with Ulster University branding
+1. Create a new QMD file in the `slides/` directory (e.g., `slides/day2-morning-slides.qmd`)
+2. Configure it with the RevealJS format
+3. Run the `render-website.sh` script to regenerate everything
 
-## Specific Content Elements
+## Viewing PDF Versions
 
-The proposal includes converting these key content elements:
+You can create PDF versions of the slides directly from the RevealJS presentations:
 
-1. **Conceptual Frameworks**:
-   - The finance function diagram
-   - Shareholder wealth maximization principles
-   - Agency theory and governance relationships
-   - DuPont analysis breakdown of ROCE
+1. Open any presentation in a browser (e.g., `docs/slides/day1-morning-slides.html`)
+2. Press "P" to enter print mode
+3. Use your browser's print function (Ctrl/Cmd+P)
+4. Select "Save as PDF" as the destination
+5. Configure as needed and click "Save"
 
-2. **Financial Ratio Categories**:
-   - Profitability ratios (ROCE, ROSF, margins)
-   - Efficiency ratios (asset utilization)
-   - Liquidity ratios (current ratio, acid test)
-   - Gearing ratios (financial leverage)
-   - Investment ratios (dividend yield, P/E)
+## Troubleshooting
 
-3. **Investment Appraisal Methods**:
-   - Payback Period calculations
-   - Discounted Payback examples
-   - Net Present Value methodology
-   - Internal Rate of Return calculations
-   - Comparison between appraisal methods
+If you encounter any issues with the rendering process:
 
-4. **Practical Applications**:
-   - Case studies with UK retailers
-   - European ROCE comparisons
-   - Industry-specific financial benchmarks
-   - Z-score model for bankruptcy prediction
-
-## Additional Features
-
-The proposed implementation includes:
-
-- **Instructor Notes**: Hidden notes for teaching context
-- **Interactive Calculators**: For financial ratios and investment appraisal
-- **Self-Assessment Components**: For student practice
-- **Publishing Options**: GitHub Pages, Netlify, or university hosting
-- **Responsive Design**: Works across devices/screen sizes
-
-## References
-
-Key textbooks referenced include:
-- Atrill, P. (2019) Financial Management for Decision Makers, 9th ed.
-- Arnold, G. and Lewis, D. (2019) Corporate Financial Management, 6th ed.
-- Brealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance, 13th ed.
-- Watson, D. and Head, A. (2019) Corporate Finance Principles and Practice, 8th ed.
-
-This comprehensive plan provides a solid foundation for developing a high-quality Quarto-based website for teaching the Corporate Financial Management module in an intensive block format.
+1. Make sure all the script files are executable (`chmod +x *.sh`)
+2. Remove the entire docs directory first (`rm -rf docs`)
+3. Run the scripts in order: `./render-website.sh`
