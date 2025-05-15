@@ -1,0 +1,129 @@
+---
+title: "Corporate Financial Management"
+subtitle: "ACF838 - MSc Management and Corporate Governance"
+author: "Prof. Barry Quinn"
+institute: "Ulster University Business School"
+date: "2025"
+format: 
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    preserve-tabs: true
+    html-math-method: katex
+    self-contained: false
+---
+
+# Corporate Financial Management (ACF838)
+
+Welcome to the intensive block delivery of Corporate Financial Management at Ulster University. This website contains all materials for the 4-day course structure.
+
+## Course Overview
+
+This module integrates financial management concepts with managerial decision-making, corporate planning, and interaction with the wider business environment. The course is delivered in an intensive 4-day block format, condensing a full semester of content into a comprehensive, focused learning experience.
+
+## Block Delivery Structure
+
+The course is organised into four intensive days:
+
+::: {.day-cards}
+
+::: {.day-card}
+### Day 1: Financial Framework & Investment Decisions
+**Morning:** Financial framework, business objectives, agency theory, and ratio analysis
+
+**Afternoon:** Capital investment decisions, appraisal techniques, and risk assessment
+
+[View Day 1 Materials](days/day1.html){.btn}
+:::
+
+::: {.day-card}
+### Day 2: Sources of Finance & Cost of Capital
+**Morning:** Long and short-term financing sources, equity and debt characteristics
+
+**Afternoon:** Cost of capital, WACC, and capital structure decisions
+
+[View Day 2 Materials](days/day2.html){.btn}
+:::
+
+::: {.day-card}
+### Day 3: Dividend Policy & Working Capital
+**Morning:** Dividend theories, policy decisions, and practical considerations
+
+**Afternoon:** Working capital management, cash, inventory, and credit management
+
+[View Day 3 Materials](days/day3.html){.btn}
+:::
+
+::: {.day-card}
+### Day 4: Applied Financial Management
+**Morning:** Integrated case studies and financial analysis applications
+
+**Afternoon:** Exam preparation, key concept revision, and practice questions
+
+[View Day 4 Materials](days/day4.html){.btn}
+:::
+
+:::
+
+## Learning Outcomes
+
+By completing this module, you will be able to:
+
+1. **Demonstrate knowledge and understanding** of investment, financing and dividend decisions
+2. **Assess the potential and significance** of various sources of finance available to a business
+3. **Critically examine** issues surrounding corporate financing and dividend policy
+4. **Recognize concepts and theories** of financial management
+
+## Assessment {.assessment-info}
+
+This module is assessed through **two components**:
+
+- **Coursework (50%)**: Case study analysis due 07 June 2025
+- **Examination (50%)**: 3-hour online exam during the exam period (Date TBC)
+
+## Key Resources
+
+::: {.course-materials}
+
+::: {.material-card}
+#### Required Reading
+Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
+:::
+
+::: {.material-card}
+#### Module Handbook
+[Download the Module Handbook](resources/module-handbook.html)
+:::
+
+::: {.material-card}
+#### Assignment Details
+[Download the Assignment Brief](resources/ACF838_CFM_assignment_detail.docx)
+:::
+
+:::
+
+## Daily Navigation
+
+::: {.nav-pills}
+- [Day 1 Morning](days/day1-morning.html)
+- [Day 1 Afternoon](days/day1-afternoon.html)
+- [Day 2 Morning](days/day2-morning.html)
+- [Day 2 Afternoon](days/day2-afternoon.html)
+- [Day 3 Morning](days/day3-morning.html)
+- [Day 3 Afternoon](days/day3-afternoon.html)
+- [Day 4 Morning](days/day4-morning.html)
+- [Day 4 Afternoon](days/day4-afternoon.html)
+:::
+
+## Recommended Reading
+
+- Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
+- Brealey, R., Myers, S. and Allen, F. (2019) *The Principles of Corporate Finance*. 13th ed.
+- Watson, D. and Head, A. (2019) *Corporate Finance Principles and Practice*. 8th ed.
+
+---
+
+::: {.footer}
+© 2025 Ulster University Business School | Prof. Barry Quinn | b.quinn1@ulster.ac.uk
+:::
