@@ -4,8 +4,10 @@ subtitle: "Day 3 - Morning Session"
 author: "Prof. Barry Quinn"
 institute: "Ulster University Business School"
 format:
-  revealjs:
-    footer: "Corporate Financial Management - Day 3 Morning"
+  html:
+    toc: true
+    theme: cosmo
+    css: "../styles.css"
 ---
 
 # Dividend Policy

@@ -4,8 +4,10 @@ subtitle: "Day 2 Morning: Sources of Finance"
 author: "Prof. Barry Quinn"
 date: last-modified
 format:
-  revealjs:
-    footer: "Corporate Financial Management - Day 2 Morning"
+  html:
+    toc: true
+    theme: cosmo
+    css: "../styles.css"
 ---
 
 ```{r setup, include=FALSE}

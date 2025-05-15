@@ -4,8 +4,10 @@ subtitle: "Day 1 Afternoon: Capital Investment Decisions"
 author: "Barry Quinn"
 date: last-modified
 format:
-  revealjs:
-    footer: "Corporate Financial Management - Day 1 Afternoon"
+  html:
+    toc: true
+    theme: cosmo
+    css: "../styles.css"
 ---
 
 ```{r setup, include=FALSE}

@@ -4,8 +4,10 @@ subtitle: "Day 2 - Afternoon Session"
 author: "Prof. Barry Quinn"
 institute: "Ulster University Business School"
 format:
-  revealjs:
-    footer: "Corporate Financial Management - Day 2 Afternoon"
+  html:
+    toc: true
+    theme: cosmo
+    css: "../styles.css"
 ---
 
 # Cost of Capital
