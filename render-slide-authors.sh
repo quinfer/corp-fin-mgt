@@ -11,32 +11,32 @@ mkdir -p docs/slides
 
 # Day 1 Morning
 echo "Rendering Day 1 morning slides..."
-cp slides-src/day1-morning-slides.qmd temp-slides.qmd
+cp slides/day1-morning-slides.qmd temp-slides.qmd
 quarto render temp-slides.qmd --to revealjs --output-dir docs/slides --output day1-morning-slides.html
 
 # Day 1 Afternoon
 echo "Rendering Day 1 afternoon slides..."
-cp slides-src/day1-afternoon-slides.qmd temp-slides.qmd
+cp slides/day1-afternoon-slides.qmd temp-slides.qmd
 quarto render temp-slides.qmd --to revealjs --output-dir docs/slides --output day1-afternoon-slides.html
 
 # Day 2 Morning
 echo "Rendering Day 2 morning slides..."
-cp slides-src/day2-morning-slides.qmd temp-slides.qmd
+cp slides/day2-morning-slides.qmd temp-slides.qmd
 quarto render temp-slides.qmd --to revealjs --output-dir docs/slides --output day2-morning-slides.html
 
 # Day 2 Afternoon
 echo "Rendering Day 2 afternoon slides..."
-cp slides-src/day2-afternoon-slides.qmd temp-slides.qmd
+cp slides/day2-afternoon-slides.qmd temp-slides.qmd
 quarto render temp-slides.qmd --to revealjs --output-dir docs/slides --output day2-afternoon-slides.html
 
 # Day 3 Morning
 echo "Rendering Day 3 morning slides..."
-cp slides-src/day3-morning-slides.qmd temp-slides.qmd
+cp slides/day3-morning-slides.qmd temp-slides.qmd
 quarto render temp-slides.qmd --to revealjs --output-dir docs/slides --output day3-morning-slides.html
 
 # Day 3 Afternoon
 echo "Rendering Day 3 afternoon slides..."
-cp slides-src/day3-afternoon-slides.qmd temp-slides.qmd
+cp slides/day3-afternoon-slides.qmd temp-slides.qmd
 quarto render temp-slides.qmd --to revealjs --output-dir docs/slides --output day3-afternoon-slides.html
 
 # Clean up the temp file

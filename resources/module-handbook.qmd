@@ -360,12 +360,3 @@ Extensions for the coursework submission may be granted in exceptional circumsta
 **Email**: b.quinn1@ulster.ac.uk  
 **Office Hours**: By appointment during the block delivery  
 **Location**: Belfast Campus, Room MC-204
-
-**Programme Director**: [Name]  
-**Email**: [Email address]  
-**Office**: [Location]
-
-For administrative queries:  
-**Course Office**: [Contact details]  
-**Email**: [Email address]  
-**Phone**: [Phone number]
