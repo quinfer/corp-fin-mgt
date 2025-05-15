@@ -30,10 +30,31 @@ To ensure content renders correctly:
    - Keep YAML headers consistent across similar files
    - Use a consistent CSS theme across content of the same type
 
+### Rendering Scripts
+
+The site has three specialized rendering scripts:
+
+1. **`render-website.sh`**: The main script that renders the entire website
+   ```bash
+   ./render-website.sh
+   ```
+
+2. **`render-slides.sh`**: Script to render only the RevealJS presentations
+   ```bash
+   ./render-slides.sh
+   ```
+
+3. **`render-days-html.sh`**: Script to render only the HTML files in the days/ directory
+   ```bash
+   ./render-days-html.sh
+   ```
+
 ### Publishing Workflow
 
 1. **Rendering**
    ```bash
+   ./render-website.sh
+   # or use quarto directly
    quarto render
    ```
 
@@ -53,6 +74,13 @@ To ensure content renders correctly:
    ```bash
    ./safe-publish.sh
    ```
+   This script safely handles the publishing process to GitHub Pages, bypassing Quarto's native publishing mechanism.
+
+### PDF Generation
+
+For PDF versions of slide presentations:
+1. Use the `create-slide-pdfs.sh` script (note: this may require fixing panel-tabsets)
+2. Alternatively, open the HTML presentations in Chrome and print to PDF
 
 ### Common Update Scenarios
 
@@ -60,7 +88,7 @@ To ensure content renders correctly:
 ```bash
 # 1. Edit the slide content in slides/*.qmd files
 # 2. Render and test
-quarto render
+./render-slides.sh
 # 3. Commit changes
 git add .
 git commit -m "Update slide formatting in [specific slides]"
@@ -72,7 +100,7 @@ git commit -m "Update slide formatting in [specific slides]"
 ```bash
 # 1. Edit content in appropriate files
 # 2. Render and test
-quarto render
+./render-website.sh
 # 3. Check both HTML and slide formats
 # 4. Commit and publish
 git add .
@@ -91,6 +119,17 @@ If content is not rendering correctly:
    rm -rf _freeze docs
    quarto render
    ```
+
+If the gh-pages branch becomes corrupted or empty:
+1. Run the `./safe-publish.sh` script to restore proper content
+2. Ensure all QMD files are properly rendered before publishing
+
+## Important Notes
+
+1. Always keep your QMD source files in the `days/` and `slides/` directories
+2. The rendered HTML files will be placed in the `docs/` directory
+3. Never manually edit files in the gh-pages branch
+4. The .nojekyll file is important to ensure proper rendering on GitHub Pages
 
 ## License
 
