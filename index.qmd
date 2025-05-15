@@ -98,7 +98,7 @@ Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT
 
 ::: {.material-card}
 #### Assignment Details
-[Download the Assignment Brief](resources/ACF838_CFM_assignment_detail.docx)
+[Download the Assignment Brief](resources/coursework.html)
 :::
 
 :::
