@@ -54,7 +54,21 @@ format:
     page-layout: full
     self-contained: false
 
+# Define different formats for different file groups
+execute:
+  freeze: auto
+
+# Apply specific format settings for files in the days folder
+format-specific:
+  html:
+    # Default for all HTML files
+    toc: true
+    theme: cosmo
+    css: styles.css
+    page-layout: full
+  
+# Define the rendering for different file groups
 render:
-  - "*.qmd"
-  - "days/*.qmd"
-  - "!days/*-slides.qmd"
+  - "*.qmd"  # Render all QMD files in the root directory
+  - "days/*.qmd:html"  # Render days QMD files specifically as HTML
+  - "!days/*-slides.qmd"  # Don't render any slides files that might be in days
