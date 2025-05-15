@@ -1,0 +1,148 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Coursework Assignment"
+format: 
+  html:
+    theme: cosmo
+    css: ../styles.css
+    toc: true
+---
+
+# ACF838 Corporate Financial Management
+
+## Coursework (50% of final mark)
+
+### Submission date:
+
+This assignment must be submitted electronically through Blackboard Ultra by **12:00 Noon on Friday 7th June 2025**.
+
+Feedback will be available within two weeks of submission.
+
+---
+
+## Assignment description:
+
+### Case 1
+
+The directors of Ribs Co, a listed company in the UK, are reviewing the company's current strategic position. The firm makes high quality garden tools which it sells in its domestic market but not abroad.
+
+Over the last few years, the share price has risen significantly as the firm has expanded organically within its domestic market. Unfortunately, in the last 12 months, the influx of cheaper, foreign tools has adversely impacted the firm's profitability. Consequently, the share price has dropped sharply in recent weeks and the shareholders expressed their displeasure at the recent AGM. 
+
+The directors are evaluating 2 alternative investment projects which they hope will arrest the decline in profitability:
+
+**Project 1**: This would involve closing the firm's domestic factory and switching production to a foreign country where labour rates are 1/4 of those in that domestic market. Sales will continue to be targeted exclusively as the domestic market.
+
+**Project 2**: This would involve a new investment in machinery at the domestic factory to allow production to be increased by 50%. The extra tools would be exported and sold as high quality tools in foreign market places.
+
+Both projects have a positive Net Present Value when discounted at the firm's current cost of capital. 
+
+**Required:** 
+Discuss the strategic and financial issues that this case presents.
+
+(30 marks)
+
+---
+
+### Case 2
+
+For Project 2 mentioned above, the firm's financial manager made the following estimates. 
+
+The new machinery costs £4.5 million, which the supplier requires payment upfront. It would bring annual increase in revenues over the next five years of £2 million.
+
+This project will lead to an increase in wage costs of £0.4 million per year and will also require expenditure of £0.3 million per year to maintain the level of existing machinery to be used on the project.
+
+The following forecasts are made of the rates of inflation each year for the next five years:
+
+| Item | Annual Inflation Rate |
+|------|------------------------|
+| Revenues | No inflation in revenues |
+| Wages | 5% |
+| Asset maintaining expenses | 6% |
+
+The real cost of capital of the firm is 8%. General inflation is 3.5%.
+
+All cash flows are in real terms. Ignore tax.
+
+**Required:**
+
+1. Determine the NPV of this project. (20 marks)
+2. As Project 2 involves selling in foreign markets, analyse the project's sensitivity to annual revenue. What is the minimum revenue figure for the project to breakeven? (10 marks)
+3. On 25 July 2024, the Directive on Corporate Sustainability Due Diligence (Directive 2024/1760) entered into force. Briefly discuss how this Directive impacts Ribs Co's operation if the firm decides to sell their tools in EU countries. (40 marks)
+
+---
+
+## Suggested Report Structure
+
+Your submitted report should be professionally presented and structured as follows:
+
+1. **Title Page**: Include module code, assignment title, student number, and submission date.
+
+2. **Executive Summary**: Brief overview of the report's key findings and conclusions (approx. 200 words).
+
+3. **Table of Contents**: Include page numbers for all sections.
+
+4. **Introduction**: Brief context setting for the assignment.
+
+5. **Case 1 Analysis**:
+   - Strategic considerations (domestic vs. international production)
+   - Financial implications of both projects
+   - Stakeholder impact analysis
+   - Risk assessment
+   - Recommendations
+
+6. **Case 2 Analysis**:
+   - NPV calculation with clear workings
+   - Sensitivity analysis
+   - Corporate sustainability analysis
+   - Critical evaluation of findings
+
+7. **Conclusion**: Summary of key findings and final recommendations.
+
+8. **References**: Harvard referencing style.
+
+9. **Appendices**: Any supplementary calculations or material.
+
+The word limit for this assignment is 3,000 words (±10%), excluding the title page, references, and appendices.
+
+### ATTENTION STUDENTS: A WORD ON WORD COUNTS ⚠️
+
+Regarding this assignment, I'd like to clarify that the 3,000-word limit (excluding references, appendices, and tables) is precisely that—a limit, not a target. 
+
+Think of it as academic headroom, not a volume to fill. I'm far more interested in your concise, well-reasoned arguments than watching you stretch your prose to reach an arbitrary number. Quality thinking expressed clearly will always impress more than verbose padding.
+
+Some of the finest academic work I've assessed over my career has come in well under the maximum word count. Remember that editing is as much a skill as writing.
+
+A particular warning: submissions filled with shallow, verbose text that meanders without depth or precision are rather conspicuous—and often betray the uncritical use of AI assistance without proper intellectual engagement. Such papers stand out like a sore thumb to experienced markers.
+
+As your professor, I'll be looking for your authentic scholarly voice and critical thinking, not an algorithm's ability to generate word count. Substance over length, always.
+
+Write until you've made your point brilliantly—then stop.
+
+---
+
+## Marking Scheme
+
+| Component | Criteria | Marks |
+|-----------|----------|-------|
+| **Case 1 Analysis** (30%) | • Comprehensive strategic analysis<br>• Thorough financial considerations<br>• Well-developed stakeholder analysis<br>• Nuanced risk assessment<br>• Clear recommendations backed by evidence | 30 |
+| **Case 2 - NPV Calculation** (20%) | • Accuracy of calculations<br>• Appropriate adjustment for inflation<br>• Correct application of discounting<br>• Clear presentation of workings<br>• Logical explanation of approach | 20 |
+| **Case 2 - Sensitivity Analysis** (10%) | • Correct application of technique<br>• Accurate determination of threshold value<br>• Critical interpretation of results<br>• Clear presentation of findings | 10 |
+| **Case 2 - Sustainability Analysis** (40%) | • Comprehensive understanding of the Directive<br>• Thorough application to the case<br>• Critical evaluation of implications<br>• Thoughtful discussion of recommendations<br>• Integration with financial considerations | 40 |
+
+**Grade descriptors:**
+
+* **70%+**: Exceptional work demonstrating comprehensive understanding, critical analysis, and insightful application of theory to practice.
+* **60-69%**: Very good work showing thorough understanding and solid analysis with good application of theory.
+* **50-59%**: Satisfactory work with adequate understanding and basic application of concepts.
+* **40-49%**: Basic work showing limited understanding with minimal analysis.
+* **<40%**: Unsatisfactory work with significant gaps in understanding and analysis.
+
+---
+
+## Assignment guidance:
+
+* Please submit your report through the Turnitin link on Blackboard Ultra. A similarity report will be generated on submission.
+* Marks are awarded for content, quality of discussion and effective use of referencing. To achieve high marks, students will be expected to demonstrate a familiarity with the wider literature in the subject area, and not merely an ability to reproduce the lecture notes. Higher marks will also be awarded to students who provide strong evidence of analysis and critical evaluation of the various concepts and techniques identified and their application to real-world situations. A demonstration of understanding of real-world finance development is also recommended.
+* Work should include references to journal articles and other relevant publications, and should be properly laid out using the Harvard referencing system.
+* More detailed guidance is available in the 'Guide to Referencing in the Harvard Style'. We encourage you to avail of the Academic Support via the Library's Support Service, further details in the Library's website.
+* Marks will be deducted for incomplete or inaccurate referencing. 

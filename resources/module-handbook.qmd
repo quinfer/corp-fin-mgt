@@ -1,0 +1,371 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Module Handbook 2024/25"
+author: "Module Code: ACF838"
+date: "January 2025"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    highlight-style: github
+    css: ../styles.css
+  docx:
+    toc: true
+    toc-depth: 1
+    number-sections: false
+    highlight-style: github
+---
+
+# Module Overview
+
+This handbook provides comprehensive information for the Corporate Financial Management module (ACF838) at Ulster University Business School, delivered as a 4-day intensive block course for MSc Management and Corporate Governance students.
+
+## Module Details
+
+- **Module Code**: ACF838
+- **Program**: MSc Management and Corporate Governance
+- **Institution**: Ulster University Business School
+- **Delivery Format**: Intensive 4-day block format
+- **Assessment**: 50% coursework (case study), 50% examination (3-hour exam)
+- **Module Coordinator**: Prof. Barry Quinn (b.quinn1@ulster.ac.uk)
+
+## Learning Outcomes
+
+By the end of this module, students will be able to:
+
+1. **Demonstrate knowledge and understanding** of investment, financing and dividend decisions
+2. **Assess the potential and significance** of various sources of finance available to a business
+3. **Critically examine** issues surrounding corporate financing and dividend policy
+4. **Recognize concepts and theories** of financial management
+5. **Apply financial techniques** to evaluate business investment opportunities
+
+## Module Structure
+
+This module integrates financial management concepts with managerial decision-making, corporate planning, and interaction with the wider business environment. The course is delivered in an intensive 4-day block format, condensing a full semester of content into a comprehensive, focused learning experience.
+
+# Day 1: Financial Framework & Investment Decisions
+
+## Morning Session: Financial Framework
+
+### Overview
+The morning session establishes the foundational concepts of corporate financial management, examining the objectives of business and how financial information supports decision-making.
+
+### Key Topics
+- Module introduction and rationale
+- Financial information for decision making
+- Corporate objectives and governance
+- Shareholder wealth maximization
+- Agency theory and corporate governance
+- Financial statement analysis basics
+
+### Learning Activities
+- Introduction to key financial statements
+- Corporate objective setting exercise
+- Agency theory case discussions
+- Financial information interpretation
+
+## Afternoon Session: Investment Appraisal Fundamentals
+
+### Overview
+The afternoon session introduces the core techniques used to evaluate capital investment decisions, focusing on both theory and practical application.
+
+### Key Topics
+- Introduction to ratio analysis
+- Investment appraisal fundamentals
+- Time value of money concepts
+- Investment decision criteria
+- Risk and uncertainty in investment decisions
+
+### Practical Applications
+- Basic ratio analysis calculations
+- Time value of money problems
+- Simple investment appraisal scenarios
+
+# Day 2: Sources of Finance and Cost of Capital
+
+## Morning Session: Sources of Finance
+
+### Overview
+The morning session examines the various sources of finance available to businesses for both short-term and long-term funding needs, along with their advantages and disadvantages.
+
+### Key Topics
+- **Long-term Financing Sources**
+  - Equity capital
+  - Preference shares
+  - Long-term debt
+  - Bonds and debentures
+  - Lease financing
+  - Venture capital
+
+- **Short-term Financing Sources**
+  - Bank overdrafts
+  - Trade credit
+  - Factoring and invoice discounting
+  - Short-term loans
+
+- **Characteristics of Different Financing Sources**
+  - Cost implications
+  - Flexibility considerations
+  - Risk profiles
+  - Impact on corporate governance
+  - Gearing effects
+  - Tax implications
+
+- **Matching Finance to Business Needs**
+  - Financing the business lifecycle
+  - Project-specific financing
+  - International sources of finance
+  - Sustainable financing options
+
+### Learning Activities
+- Group analysis of financing cases
+- Financing decision scenarios
+- Evaluation of gearing levels for different business types
+
+## Afternoon Session: Cost of Capital
+
+### Overview
+The afternoon session focuses on calculating the cost of various capital components and the weighted average cost of capital (WACC) as a key tool for investment appraisal.
+
+### Key Topics
+- **Cost of Equity**
+  - Dividend valuation model
+  - Dividend growth model
+  - Capital Asset Pricing Model (CAPM)
+  - Risk and return relationships
+
+- **Cost of Debt**
+  - Cost of bank loans
+  - Cost of bonds and redeemable debentures
+  - Tax implications of debt
+  - Market value calculations
+
+- **Weighted Average Cost of Capital (WACC)**
+  - Formula and applications
+  - Calculation methods
+  - WACC limitations
+  - Use in investment appraisal
+
+- **Capital Structure Theory**
+  - Modigliani and Miller propositions
+  - Trade-off theory
+  - Pecking order theory
+  - Optimal capital structure
+
+### Practical Applications
+- Calculating cost of equity using multiple methods
+- Determining cost of debt for different debt instruments
+- Computing firm-wide WACC
+- Evaluating capital structure decisions
+
+# Day 3: Dividend Policy & Working Capital
+
+## Morning Session: Dividend Policy
+
+### Overview
+The morning session explores dividend theory and policy decisions, including factors that influence dividend decisions and practical considerations for businesses.
+
+### Key Topics
+- **Dividend Theories**
+  - Dividend irrelevance theory
+  - Bird-in-hand theory
+  - Tax preference theory
+  - Signaling theory
+  - Clientele effect
+
+- **Dividend Policy Decisions**
+  - Dividend payout ratio
+  - Dividend stability
+  - Legal and contractual constraints
+  - Growth prospects and financing needs
+  - Shareholder preferences
+
+- **Practical Considerations**
+  - Cash vs. stock dividends
+  - Share repurchases
+  - Special dividends
+  - International dividend practices
+
+### Learning Activities
+- Dividend policy case studies
+- Dividend decision role-playing
+- Analysis of corporate dividend announcements
+
+## Afternoon Session: Working Capital Management
+
+### Overview
+The afternoon session focuses on the management of current assets and liabilities to ensure operational efficiency while maintaining liquidity.
+
+### Key Topics
+- **Working Capital Fundamentals**
+  - Working capital cycle
+  - Working capital needs by industry
+  - Operating and cash conversion cycles
+
+- **Cash Management**
+  - Cash forecasting
+  - Cash flow optimization
+  - Short-term investment of surplus cash
+  - Treasury management
+
+- **Inventory Management**
+  - Economic order quantity
+  - Just-in-time inventory
+  - Inventory control systems
+  - Stock valuation
+
+- **Credit Management**
+  - Credit policy decisions
+  - Credit evaluation
+  - Collection procedures
+  - Accounts receivable financing
+
+### Practical Applications
+- Working capital ratio analysis
+  - Current ratio
+  - Quick ratio
+  - Working capital to sales ratio
+- Cash flow forecasting exercises
+- Credit policy evaluation
+
+# Day 4: Applied Financial Management
+
+## Morning Session: Integrated Case Studies
+
+### Overview
+The morning session applies the concepts learned throughout the module to comprehensive case studies, providing an opportunity for integrated financial analysis.
+
+### Key Topics
+- **Comprehensive Financial Analysis**
+  - Strategic financial management
+  - Financial performance evaluation
+  - Investment and financing decisions
+  - Risk assessment
+
+- **Business Failure Prediction**
+  - Financial distress indicators
+  - Z-score models
+  - Industry-specific warning signs
+  - Turnaround strategies
+
+- **Financial Modeling**
+  - Scenario analysis
+  - Sensitivity testing
+  - Monte Carlo simulation
+  - Financial projections
+
+### Learning Activities
+- Team-based case analysis
+- Financial recommendation presentations
+- Peer review and feedback
+
+## Afternoon Session: Exam Preparation
+
+### Overview
+The afternoon session focuses on revision of key concepts and exam techniques to prepare students for the final assessment.
+
+### Key Topics
+- **Review of Key Concepts**
+  - Investment appraisal techniques
+  - Financing decisions
+  - Cost of capital
+  - Dividend policy
+  - Working capital management
+
+- **Exam Techniques**
+  - Understanding question requirements
+  - Time management
+  - Structured answers
+  - Numerical analysis presentation
+  - Critical evaluation skills
+
+- **Practice Questions**
+  - Short answer questions
+  - Numerical problems
+  - Case-based scenarios
+  - Essay-style questions
+
+### Activities
+- Mock exam questions
+- Group revision sessions
+- Q&A on challenging topics
+
+# Assessment Information
+
+## Coursework (50%)
+
+**Case Study Analysis**
+- **Due Date**: 07 June 2025
+- **Word Limit**: 3,000 words
+- **Submission**: Via Blackboard
+- **Format**: Business report with financial analysis and recommendations
+
+The coursework will involve a comprehensive analysis of a case company, requiring students to:
+- Evaluate the financial position of the company
+- Assess an investment opportunity using appropriate techniques
+- Recommend financing options
+- Consider dividend policy implications
+- Propose working capital management improvements
+
+## Examination (50%)
+
+- **Format**: 3-hour written examination
+- **Date**: During exam period (Date TBC)
+- **Coverage**: All module content
+
+The examination will consist of:
+- Section A: Compulsory question based on a case scenario (40 marks)
+- Section B: Choice of 2 questions from 3, each worth 30 marks
+
+# Resources and Readings
+
+## Core Reading
+- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
+
+## Supplementary Reading
+- Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
+- Brealey, R., Myers, S. and Allen, F. (2019) *The Principles of Corporate Finance*. 13th ed.
+- Watson, D. and Head, A. (2019) *Corporate Finance Principles and Practice*. 8th ed.
+
+## Online Resources
+- Financial Times articles on corporate finance
+- Harvard Business Review case studies
+- Module materials on Blackboard
+- Financial databases available through the library
+
+# Module Policies
+
+## Attendance
+
+Attendance at all sessions of this intensive block course is mandatory. Due to the condensed nature of the course, absence from any session will significantly impact your learning experience.
+
+## Late Submissions
+
+Late submissions of the coursework will be penalized according to university policy:
+- Up to 5 working days late: work marked, maximum score 40%
+- More than 5 working days late: zero marks
+
+## Academic Integrity
+
+All work submitted must be your own. Plagiarism and academic misconduct will be treated seriously according to university regulations. Please familiarize yourself with the university's academic integrity policy.
+
+## Extensions
+
+Extensions for the coursework submission may be granted in exceptional circumstances. Requests should be made in writing to the module coordinator at least 7 days before the submission deadline, accompanied by appropriate evidence.
+
+# Contact Information
+
+**Module Coordinator**: Prof. Barry Quinn  
+**Email**: b.quinn1@ulster.ac.uk  
+**Office Hours**: By appointment during the block delivery  
+**Location**: Belfast Campus, Room MC-204
+
+**Programme Director**: [Name]  
+**Email**: [Email address]  
+**Office**: [Location]
+
+For administrative queries:  
+**Course Office**: [Contact details]  
+**Email**: [Email address]  
+**Phone**: [Phone number]
