@@ -1,0 +1,155 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 1: Financial Framework & Investment Decisions"
+author: "Barry Quinn"
+date: last-modified
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    self-contained: true
+    css: "../styles.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+library(ggplot2)
+```
+
+## Day 1 Overview {.unnumbered}
+
+Welcome to Day 1 of the Corporate Financial Management module. Today focuses on establishing the financial framework and introducing capital investment decision-making techniques. The day is divided into two complementary sessions:
+
+- **Morning Session: Financial Framework & Analysis** - Introduces corporate financial objectives, governance, and analytical frameworks ([Slides](../slides/day1-morning-slides.html))
+- **Afternoon Session: Capital Investment Decisions** - Explores techniques for evaluating investment opportunities ([Slides](../slides/day1-afternoon-slides.html))
+
+## Morning Session Summary
+
+The morning session establishes fundamental concepts that form the basis of corporate financial management:
+
+:::{.callout-note}
+## Key Topics - Morning
+- Corporate objectives and the finance function
+- Shareholder wealth maximization as a primary objective
+- Agency theory and corporate governance frameworks
+- Financial information for decision making
+- Financial statement analysis using ratios
+- Profitability, efficiency, liquidity, gearing, and investment ratios
+- Business failure prediction techniques
+:::
+
+### Learning Outcomes
+
+By the end of the morning session, you will be able to:
+
+1. Explain the finance function's role in organizations
+2. Articulate the case for shareholder wealth maximization
+3. Describe the principal-agent relationship and governance controls
+4. Apply ratio analysis to evaluate financial health
+5. Interpret financial performance using appropriate benchmarks
+
+### Featured Framework: Financial Ratio Analysis
+
+```{mermaid}
+flowchart TD
+    A[Financial ratios] --> B[Profitability]
+    A --> C[Efficiency]
+    A --> D[Liquidity]
+    A --> E[Financial gearing]
+    A --> F[Investment]
+    B --> G[ROCE, GPM, etc.]
+    C --> H[Inventory turnover, etc.]
+    D --> I[Current ratio, etc.]
+    E --> J[Gearing ratio, etc.]
+    F --> K[P/E ratio, etc.]
+```
+
+## Afternoon Session Summary
+
+The afternoon session builds on the financial framework to explore how organizations make capital investment decisions:
+
+:::{.callout-note}
+## Key Topics - Afternoon
+- Nature and importance of investment decision-making
+- Distinction between cash flows and accounting profits
+- Investment appraisal methods overview
+- Payback Period (PP) and Discounted Payback Period (DPP)
+- Net Present Value (NPV) method
+- Internal Rate of Return (IRR)
+- Accounting Rate of Return (ARR)
+- Risk assessment in investment decisions
+- Post-completion audits
+:::
+
+### Learning Outcomes
+
+By the end of the afternoon session, you will be able to:
+
+1. Explain the importance of focusing on cash flows rather than accounting profits
+2. Apply the five main investment appraisal methods
+3. Evaluate the strengths and limitations of each method
+4. Incorporate risk assessment into investment decisions
+5. Describe the investment decision-making process, including post-completion review
+
+### Featured Framework: Investment Appraisal Methods
+
+```{mermaid}
+flowchart TD
+    A[Investment Appraisal Methods] --> B[Discounted Cash Flow Methods]
+    A --> C[Non-Discounted Cash Flow Methods]
+    A --> D[Accounting Profit-Based]
+    B --> E[Net Present Value]
+    B --> F[Internal Rate of Return]
+    B --> G[Discounted Payback]
+    C --> H[Payback Period]
+    D --> I[Accounting Rate of Return]
+```
+
+## Today's Integrated Learning
+
+The day's sessions are designed to provide a coherent understanding of how financial objectives drive investment decisions:
+
+- Morning focus: Establishing **why** corporations make financial decisions (objectives, governance)
+- Afternoon focus: Exploring **how** corporations evaluate investment opportunities
+
+This integrated approach helps you understand both the purpose and techniques of financial management.
+
+## Key Takeaways
+
+:::{.callout-tip}
+## Day 1 Essential Concepts
+
+1. **Financial Framework**:
+   - Corporate finance aims to maximize shareholder wealth within appropriate governance structures
+   - Agency relationships and governance mechanisms help align actions with objectives
+   - Financial ratios provide structured analysis of company performance
+
+2. **Investment Decisions**:
+   - Capital investment decisions focus on cash flows, not accounting profits
+   - NPV is theoretically the soundest method as it directly links to shareholder value
+   - Multiple appraisal methods should be used in combination for a complete perspective
+   - Risk assessment is an essential component of investment decision-making
+:::
+
+## Preparation for Day 2
+
+Tomorrow, we will build upon today's foundation to explore:
+
+- **Morning**: Sources of finance for funding investment opportunities
+- **Afternoon**: Cost of capital and its role in investment appraisal
+
+Please review the practice exercises at the end of both today's sessions and prepare any questions you may have for tomorrow's opening discussion.
+
+## Additional Resources
+
+### Core Reading
+- Brealey, R., Myers, S., & Allen, F. (2023). *Principles of Corporate Finance* (14th ed.), Chapters 1-7
+- Arnold, G. (2020). *Corporate Financial Management* (6th ed.), Chapters 1-4
+
+### Online Resources
+- [Financial Times Market Data](https://markets.ft.com/)
+- [Corporate Finance Institute](https://corporatefinanceinstitute.com/resources/knowledge/)
