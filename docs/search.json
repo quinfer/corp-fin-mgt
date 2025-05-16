@@ -1544,7 +1544,7 @@
     "href": "slides/day1-afternoon-slides.html#the-nature-of-investment-decisions",
     "title": "Corporate Financial Management",
     "section": "The Nature of Investment Decisions",
-    "text": "The Nature of Investment Decisions\nInvestment decisions represent long-term commitments of substantial resources with uncertain returns. They are among the most consequential decisions finance managers must make.\n\nKey CharacteristicsInvestment Decision FrameworkReal-World Example\n\n\nCapital investment decisions typically involve:\n\nLarge amounts of resources\nRelatively long timescales\nDifficulty or expense in reversing the investment once undertaken\nStrategic implications for the organisation’s future direction\nComplex risk considerations\n\n\n\n\n\n\n\n\nflowchart TD\n    A[Identify investment opportunity] --&gt; B[Gather relevant information]\n    B --&gt; C[Evaluate using appraisal techniques]\n    C --&gt; D[Consider risk factors]\n    D --&gt; E[Make investment decision]\n    E --&gt; F[Implement and monitor]\n    F --&gt; G[Post-implementation review]\n\n\n\n\n\n\n\n\nThe pharmaceutical industry provides a classic example of the capital investment decision challenge:\n\nInitial R&D investment: £500m+\nDevelopment timeline: 10-15 years\nSuccess rate: Only 1 in 10 compounds receives regulatory approval\nStrategic importance: Defines company product pipeline for decades\nHigh uncertainty: Market conditions may change substantially before launch"
+    "text": "The Nature of Investment Decisions\nInvestment decisions represent long-term commitments of substantial resources with uncertain returns. They are among the most consequential decisions finance managers must make."
   },
   {
     "objectID": "slides/day1-afternoon-slides.html#cash-flows-vs.-accounting-profits",
@@ -1978,7 +1978,7 @@
     "href": "slides/day1-afternoon-slides.html#value-at-risk-var",
     "title": "Corporate Financial Management",
     "section": "Value at Risk (VaR)",
-    "text": "Value at Risk (VaR)\nFor a confidence level α, VaR represents the maximum loss within the α-confidence interval:\n\n\n\nValue at Risk at different confidence levels\n\n\nConfidence\nVaR_Amount\nInterpretation\n\n\n\n\n90%\n£220,000\n10% chance of losing more than £220,000\n\n\n95%\n£285,000\n5% chance of losing more than £285,000\n\n\n99%\n£390,000\n1% chance of losing more than £390,000"
+    "text": "Value at Risk (VaR)\nFor a confidence level α, VaR represents the maximum loss within the α-confidence interval:\n\n\n\nValue at Risk at different confidence levels\n\n\nConfidence\nVaR_Amount\nInterpretation\n\n\n\n\n90%\n£220,000\n10% chance of losing more than £220,000\n\n\n95%\n£285,000\n5% chance of losing more than £285,000\n\n\n99%\n£390,000\n1% chance of losing more than £390,000\n\n\n\n\n\n:::"
   },
   {
     "objectID": "slides/day1-afternoon-slides.html#post-implementation-review-framework",
@@ -3218,5 +3218,54 @@
     "title": "Corporate Financial Management",
     "section": "6 Additional Resources",
     "text": "6 Additional Resources\n\n6.1 Core Reading\n\nBrealey, R., Myers, S., & Allen, F. (2023). Principles of Corporate Finance (14th ed.), Chapters 1-7\nArnold, G. (2020). Corporate Financial Management (6th ed.), Chapters 1-4\n\n\n\n6.2 Online Resources\n\nFinancial Times Market Data\nCorporate Finance Institute"
+  },
+  {
+    "objectID": "slides/day1-afternoon-slides.html#key-characteristics",
+    "href": "slides/day1-afternoon-slides.html#key-characteristics",
+    "title": "Corporate Financial Management",
+    "section": "Key Characteristics",
+    "text": "Key Characteristics\nCapital investment decisions typically involve:\n\nLarge amounts of resources\nRelatively long timescales\nDifficulty or expense in reversing the investment once undertaken\nStrategic implications for the organisation’s future direction\nComplex risk considerations"
+  },
+  {
+    "objectID": "slides/day1-afternoon-slides.html#investment-decision-framework",
+    "href": "slides/day1-afternoon-slides.html#investment-decision-framework",
+    "title": "Corporate Financial Management",
+    "section": "Investment Decision Framework",
+    "text": "Investment Decision Framework\n\n\n\n\n\nflowchart TD\n    A[Identify investment opportunity] --&gt; B[Gather relevant information]\n    B --&gt; C[Evaluate using appraisal techniques]\n    C --&gt; D[Consider risk factors]\n    D --&gt; E[Make investment decision]\n    E --&gt; F[Implement and monitor]\n    F --&gt; G[Post-implementation review]"
+  },
+  {
+    "objectID": "slides/day1-afternoon-slides.html#real-world-example",
+    "href": "slides/day1-afternoon-slides.html#real-world-example",
+    "title": "Corporate Financial Management",
+    "section": "Real-World Example",
+    "text": "Real-World Example\nThe pharmaceutical industry provides a classic example of the capital investment decision challenge:\n\nInitial R&D investment: £500m+\nDevelopment timeline: 10-15 years\nSuccess rate: Only 1 in 10 compounds receives regulatory approval\nStrategic importance: Defines company product pipeline for decades\nHigh uncertainty: Market conditions may change substantially before launch"
+  },
+  {
+    "objectID": "slides/day1-afternoon-slides.html#classification-framework",
+    "href": "slides/day1-afternoon-slides.html#classification-framework",
+    "title": "Corporate Financial Management",
+    "section": "Classification Framework",
+    "text": "Classification Framework\n\n\n\n\n\nflowchart TD\n    A[Investment Appraisal Methods] --&gt; B[Discounted Cash Flow Methods]\n    A --&gt; C[Non-Discounted Cash Flow Methods]\n    A --&gt; D[Accounting Profit-Based]\n    B --&gt; E[Net Present Value]\n    B --&gt; F[Internal Rate of Return]\n    B --&gt; G[Discounted Payback]\n    C --&gt; H[Payback Period]\n    D --&gt; I[Accounting Rate of Return]"
+  },
+  {
+    "objectID": "slides/day1-afternoon-slides.html#discounted-cash-flow-methods",
+    "href": "slides/day1-afternoon-slides.html#discounted-cash-flow-methods",
+    "title": "Corporate Financial Management",
+    "section": "Discounted Cash Flow Methods",
+    "text": "Discounted Cash Flow Methods\nTime Value of Money Principle:\nFuture cash flows are worth less than immediate cash flows due to:\n\nOpportunity cost of capital\nInflation\nRisk\n\nDCF methods explicitly account for this through discounting."
+  },
+  {
+    "objectID": "slides/day1-afternoon-slides.html#selection-in-practice",
+    "href": "slides/day1-afternoon-slides.html#selection-in-practice",
+    "title": "Corporate Financial Management",
+    "section": "Selection in Practice",
+    "text": "Selection in Practice"
+  },
+  {
+    "objectID": "slides/day1-afternoon-slides.html#risk-analysis-spectrum",
+    "href": "slides/day1-afternoon-slides.html#risk-analysis-spectrum",
+    "title": "Corporate Financial Management",
+    "section": "Risk Analysis Spectrum",
+    "text": "Risk Analysis Spectrum\n\n\n\n\n\nflowchart LR\n    A[Simple] --&gt; B[Sensitivity Analysis]\n    B --&gt; C[Scenario Analysis]\n    C --&gt; D[Decision Trees]\n    D --&gt; E[Monte Carlo Simulation]\n    E --&gt; F[Complex]"
   }
 ]

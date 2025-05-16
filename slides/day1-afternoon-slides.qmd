@@ -38,8 +38,7 @@ By the end of this afternoon, you will be able to:
 
 Investment decisions represent long-term commitments of substantial resources with uncertain returns. They are among the most consequential decisions finance managers must make.
 
-:::{.panel-tabset}
-### Key Characteristics
+## Key Characteristics
 
 Capital investment decisions typically involve:
 
@@ -49,7 +48,7 @@ Capital investment decisions typically involve:
 - Strategic implications for the organisation's future direction
 - Complex risk considerations
 
-### Investment Decision Framework
+## Investment Decision Framework
 
 ```{mermaid}
 flowchart TD
@@ -61,7 +60,7 @@ flowchart TD
     F --> G[Post-implementation review]
 ```
 
-### Real-World Example
+## Real-World Example
 
 The pharmaceutical industry provides a classic example of the capital investment decision challenge:
 
@@ -70,7 +69,7 @@ The pharmaceutical industry provides a classic example of the capital investment
 - Success rate: Only 1 in 10 compounds receives regulatory approval
 - Strategic importance: Defines company product pipeline for decades
 - High uncertainty: Market conditions may change substantially before launch
-:::
+
 
 ## Cash Flows vs. Accounting Profits
 
@@ -144,12 +143,12 @@ Income statement to cash flow adjustments:
 - Exclude financing costs (captured in the discount rate)
 :::
 
-## Investment Appraisal Methods Overview
+# Investment Appraisal Methods Overview
 
 Five main methods are used in practice to evaluate investment projects:
 
-:::{.panel-tabset}
-### Classification Framework
+
+## Classification Framework
 
 ```{mermaid}
 flowchart TD
@@ -163,7 +162,7 @@ flowchart TD
     D --> I[Accounting Rate of Return]
 ```
 
-### Discounted Cash Flow Methods
+## Discounted Cash Flow Methods
 
 **Time Value of Money Principle:**
 
@@ -175,7 +174,7 @@ Future cash flows are worth less than immediate cash flows due to:
 
 DCF methods explicitly account for this through discounting.
 
-### Selection in Practice
+## Selection in Practice
 
 ```{r, fig.width=10, fig.height=6}
 years <- 2000:2020
@@ -200,7 +199,6 @@ ggplot(df, aes(x = Year, y = Usage, color = Method, group = Method)) +
   theme(legend.position = "right",
         plot.title = element_text(hjust = 0.5, face = "bold"))
 ```
-:::
 
 ## Payback Period (PP)
 
@@ -1016,12 +1014,12 @@ kable(renewable_factors, align = "lrrrr", caption = "Multi-criteria comparison o
 ```
 :::
 
-## Advanced Risk Analysis Techniques
+# Advanced Risk Analysis Techniques
 
 Beyond sensitivity analysis, several sophisticated approaches help quantify investment risk.
 
-:::{.panel-tabset}
-### Risk Analysis Spectrum
+
+## Risk Analysis Spectrum
 
 ```{mermaid}
 flowchart LR
