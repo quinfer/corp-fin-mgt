@@ -1,0 +1,376 @@
+---
+title: "Dividend Policy"
+subtitle: "Day 3 - Morning Session"
+author: "Prof. Barry Quinn"
+institute: "Ulster University Business School"
+format:
+  html:
+    toc: true
+    theme: cosmo
+    css: "../styles.css"
+---
+
+# Dividend Policy
+
+## Learning Outcomes
+
+After completing this session, you should be able to:
+
+- Describe the nature of dividends and evaluate the arguments concerning their potential impact on shareholder wealth
+- Identify and discuss the factors that influence dividend policy in practice
+- Describe the nature of different dividend policies
+- Discuss the case for and against different forms of distribution
+
+::: {.callout-note}
+These outcomes align with the module's broader learning objectives of critically examining issues surrounding corporate financing and dividend policy.
+:::
+
+## Introduction to Dividends
+
+Dividends represent a return by a business to its shareholders. Key characteristics include:
+
+- Companies rarely make dividend payments based solely on profits available to shareholders
+- The dividend payout ratio = dividend paid / earnings available for dividends
+- In the UK, dividends are often paid twice per year (interim and final)
+- When share prices include accrued dividend payable, they are called "cum-dividend" share prices
+- When dividends are paid out, share prices typically decrease by the same amount to the long-term stable level ("ex-dividend")
+
+::: {.callout-important}
+Understanding the relationship between dividends and share prices is fundamental for evaluating dividend policies and their impact on shareholder wealth.
+:::
+
+## Dividend Payout Patterns
+
+Average dividend payout ratios vary significantly across industries:
+
+::: {.panel-tabset}
+### Industry Variations
+
+```{r}
+#| echo: false
+#| fig-width: 10
+#| fig-height: 6
+#| fig-cap: "Average dividend payout ratios for businesses in selected industries in Western Europe"
+
+library(ggplot2)
+
+# Data for the chart
+industries <- c("Aerospace/Defence", "Auto parts", "Beverage (Soft)", "Drugs", 
+                "Pharmaceutical", "Entertainment", "Healthcare products", 
+                "Household products", "Oil/Gas Distribution", "Publishing & Newspapers", 
+                "Utility (Water)")
+payout_ratios <- c(33.99, 37.91, 56.15, 25.93, 66.93, 324.89, 51.08, 43.26, 113.76, 34.31, 75.86)
+
+# Create a data frame
+df <- data.frame(Industry = industries, Payout = payout_ratios)
+
+# Sort by payout ratio for better visualization
+df <- df[order(df$Payout), ]
+
+# Plot
+ggplot(df, aes(x = reorder(Industry, Payout), y = Payout)) +
+  geom_bar(stat = "identity", fill = "#4472C4") +
+  coord_flip() +
+  labs(x = "", y = "Dividend payout (%)") +
+  theme_minimal() +
+  theme(
+    axis.text = element_text(size = 12),
+    axis.title = element_text(size = 14, face = "bold"),
+    plot.title = element_text(size = 16, face = "bold")
+  ) +
+  geom_text(aes(label = sprintf("%.1f", Payout)), hjust = -0.2, size = 3.5) +
+  ylim(0, max(payout_ratios) * 1.1)  # Add some space for labels
+```
+
+### Key Observations
+
+- Entertainment sector shows extremely high payout ratios (324.89%)
+- Publishing & Newspapers also demonstrate high ratios (113.76%)
+- Most sectors maintain payout ratios between 30-70%
+- Pharmaceutical and technology sectors tend to have lower ratios
+:::
+
+## Dividend Policy: Two Major Schools of Thought
+
+The fundamental question in dividend policy: **Does the pattern of dividends affect shareholder wealth?**
+
+::: {.panel-tabset}
+### Traditional View
+
+- Shareholders prefer dividends now because amounts are more certain
+- The implications for managers: adopt as generous a dividend policy as possible
+- Based on the dividend valuation model - share price is determined by future streams of dividend receivable
+
+### Modernist View (M&M)
+
+- In perfect and efficient markets, dividend policy doesn't affect shareholder wealth
+- Companies should invest in all projects with positive NPVs
+- Only investment decisions affect shareholder wealth
+- Investors can create "home-made" dividends by selling shares if needed
+:::
+
+## Modigliani-Miller Dividend Irrelevance Theory
+
+The MM theory is based on four key assumptions:
+
+1. No share issue costs
+2. No share transaction costs  
+3. No taxation
+4. Rational behaviour among managers and investors
+
+::: {.callout-note}
+Under these assumptions, MM argue that dividend policy is irrelevant to shareholder wealth. The value of a firm depends solely on its investment decisions, not on how it distributes earnings.
+:::
+
+## MM Theory - Dividend Irrelevancy
+
+- Given perfect and efficient markets, dividend policy doesn't affect shareholder wealth
+- Companies should invest in all projects with positive NPVs, as only investment decisions affect shareholder wealth
+- If a company doesn't pay dividends, shareholders can create "home-made" dividends by selling some shares
+- Assumes shareholders have all information about a company and interpret it correctly
+
+::: {.callout-tip}
+The MM theory provides a theoretical baseline, but real-world imperfections (taxes, transaction costs, information asymmetry) may cause dividends to matter.
+:::
+
+## Dividend Relevancy Theory
+
+- The dividend valuation model suggests share price is determined by future streams of dividend receivable
+- Higher retention of earnings for investment is considered to result in higher future earnings, leading to higher dividends
+- Higher dividends should lead to higher share prices
+- Therefore, an optimum dividend policy exists
+
+::: {.callout-important}
+This view directly contradicts the MM position by suggesting that the pattern of dividends does impact shareholder wealth.
+:::
+
+## Residual Dividend Theory
+
+- Raising external finance is costly, so retentions should be the first source of funds a company uses
+- All positive NPV projects should be invested in before dividends are paid out
+- If retained funds are not invested to earn returns greater than investors' required rate of return, shareholder wealth will diminish over time
+
+### Case Study: Microsoft and Apple
+
+::: {.panel-tabset}
+### Microsoft
+
+Microsoft used to follow the ethos of the residual dividend theory:
+- For 17 years, it did not pay dividends, retaining funds for research and development
+- However, as cash balances increased, shareholder pressure led to dividend payments starting in 2003
+- The first dividend was 8¢ per share, increasing to 51¢ by December 2019
+
+### Apple
+
+- From 1990 to 1995, Apple paid a constant quarterly dividend of $0.12 per share
+- Stopped dividends from 1995 to 2012 to retain funds for reinvestment
+- Under shareholder pressure due to large cash reserves, resumed dividend payments in 2012
+- By April 2020, the quarterly dividend was $0.82 per share
+:::
+
+## Importance of Dividends
+
+Despite the MM arguments, dividends are considered important in practice for several reasons:
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-cap: "Importance of dividends to shareholders"
+flowchart TB
+    A[Importance\nof dividends] --> B[Clientele\neffect]
+    A --> C[Catering\neffect]
+    A --> D[Signalling\neffect]
+    A --> E[Reducing\nagency costs]
+    
+    style A fill:#D32F2F,stroke:#D32F2F,color:white,stroke-width:2px
+    style B fill:#F9A825,stroke:#F9A825,stroke-width:1px
+    style C fill:#F9A825,stroke:#F9A825,stroke-width:1px
+    style D fill:#F9A825,stroke:#F9A825,stroke-width:1px
+    style E fill:#F9A825,stroke:#F9A825,stroke-width:1px
+```
+
+1. **Clientele effect**: Dividend policy attracts different types of investors
+2. **Catering effect**: Managers try to cater to the wishes of investors
+3. **Signalling effect**: Dividends convey information to shareholders due to information asymmetry
+4. **Reducing agency costs**: Paying dividends reduces cash available for managers to spend
+
+## Factors Influencing Dividend Levels
+
+```{mermaid}
+%%| fig-width: 10
+%%| fig-cap: "Factors influencing dividend levels"
+flowchart LR
+    subgraph Factors["Factors influencing the level of dividends"]
+        A1[Loan\ncommitments] --> C[Level of\ndividends\npaid]
+        A2[Threat of\ntakeover] --> C
+        A3[Profit\nstability] --> C
+        A4[Market\nexpectations] --> C
+        A5[Investing and\nfinancing\nopportunities] --> C
+        A6[Inside\ninformation] --> C
+        A7[Legal\nrequirements] --> C
+        A8[Control] --> C
+    end
+    
+    style C fill:#D32F2F,stroke:#D32F2F,color:white,stroke-width:2px
+    style A1 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style A2 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style A3 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style A4 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style A5 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style A6 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style A7 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style A8 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+```
+
+Dividend decisions are influenced by multiple factors including:
+
+- Profit stability
+- Investment and financing opportunities
+- Legal requirements
+- Loan commitments
+- Market expectations
+- Inside information
+- Control issues
+- Threat of takeover
+
+## Management Attitudes Towards Dividends
+
+Research by Baker et al. (2002) found that managers generally:
+
+- Are committed to long-term dividend payout ratios (93.1% agree)
+- Are more concerned with dividend variations than absolute dividend amounts (95.2% agree)
+- Believe dividends should follow a smoother path than earnings (92.0% agree)
+- Are reluctant to increase dividends from short-term profit increases (93.1% agree)
+
+::: {.callout-note}
+These findings align with Lintner's classic study on dividend policy, suggesting managers are highly concerned with dividend stability and consistency.
+:::
+
+## What Should Managers Do?
+
+- Each business has unique characteristics - no 'one size fits all' approach
+- Dividend policy is intertwined with investment and financing decisions
+- Dividend policy should be clear to shareholders and consistently applied
+- Shareholders dislike 'surprises' in dividend policy
+- If dividends must be cut, managers should prepare shareholders and clearly explain reasons
+
+::: {.callout-important}
+Consistency in dividend policy is crucial for building shareholder confidence and managing market expectations.
+:::
+
+## Alternatives to Cash Dividends
+
+Two main alternatives exist to traditional cash dividends:
+
+::: {.panel-tabset}
+### Scrip Dividends
+
+- A company issues new bonus shares to existing shareholders instead of cash dividends
+- The number of shares issued is proportional to shares held (e.g., 1-for-20)
+- Involves transferring reserves to ordinary share capital
+- Allows shareholders to increase investment without transaction costs
+- Market typically responds positively to scrip dividend announcements
+
+### Share Buybacks
+
+- A business repurchases its own shares
+- Can occur through open market operations, tender offers, or agreements with specific shareholders
+- May be used to support share price, alter capital structure, defend against takeovers, or return surplus funds
+- In perfect markets, shareholders would be indifferent between dividends and share buybacks
+:::
+
+## Reasons for Share Buybacks
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-cap: "Main reasons for share buybacks"
+flowchart TB
+    A[Share\nbuyback] --> B[Support the share\nprice]
+    A --> C[Return surplus\nfunds]
+    A --> D[Alter the capital\nstructure]
+    A --> E[Defend against\ntakeover]
+    
+    style A fill:#6A1B9A,stroke:#6A1B9A,color:white,stroke-width:2px
+    style B fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style C fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style D fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+    style E fill:#B39DDB,stroke:#B39DDB,stroke-width:1px
+```
+
+Share buybacks are commonly used to:
+
+- Support the share price
+- Return surplus funds to shareholders
+- Alter the capital structure
+- Defend against hostile takeovers
+
+## Case Study Example
+
+::: {.panel-tabset}
+### Scenario
+
+Petrolia plc has the following dividend history:
+
+| Year | Dividend per share |
+|------|-------------------|
+| 2020 | £0.24             |
+| 2021 | £0.26             |
+| 2022 | £0.28             |
+| 2023 | £0.30             |
+| 2024 | £0.32             |
+
+The company is debating its dividend policy for the upcoming year.
+
+### Question
+
+1. Calculate the growth rate in Petrolia's dividends.
+2. If the current ex-dividend share price is £4.80, calculate the cost of equity capital using:
+   a) The dividend growth model
+   b) The CAPM (assuming risk-free rate = 4%, market return = 10%, beta = 1.2)
+3. Which model would you recommend for setting dividend policy and why?
+
+### Solution
+
+1. Growth rate calculation:
+   £0.32 = £0.24(1+g)⁴
+   £0.32/£0.24 = (1+g)⁴
+   1.333 = (1+g)⁴
+   (1.333)^(1/4) = 1+g
+   g = 7.47%
+
+2. a) Dividend Growth Model:
+   D₁ = D₀(1+g) = £0.32 × 1.0747 = £0.3439
+   Ke = (D₁/P₀) + g = (£0.3439/£4.80) + 7.47% = 14.63%
+   
+   b) CAPM:
+   Ke = Rf + β(Rm - Rf) = 4% + 1.2(10% - 4%) = 11.2%
+
+3. Analysis of the appropriate model would depend on specific circumstances...
+:::
+
+## Summary: Dividend Policy and Shareholder Wealth
+
+- Two major schools of thought exist on how dividends affect shareholder wealth
+- The traditional school argues that shareholders prefer certain dividends now
+- The modernists (MM) argue that in perfect markets, dividend patterns don't affect shareholder wealth
+- MM assumptions (no costs, no taxes, rational behaviour) weaken but don't destroy their arguments
+- In practice, dividends matter due to clientele effects, signalling, agency costs, and market imperfections
+
+## Summary: Dividends in Practice
+
+- Despite theoretical arguments, dividends are considered important
+- Key factors influencing dividend decisions include profit stability, investment opportunities, legal constraints, market expectations, and control issues
+- Managers prefer smooth, consistent dividend patterns and are reluctant to cut dividends
+- Alternatives to cash dividends include scrip dividends and share buybacks
+- Each business must develop a dividend policy that suits its unique circumstances and communicate it clearly to shareholders
+
+## Practice Questions
+
+1. Explain the key differences between the MM dividend irrelevance theory and the traditional view of dividends.
+
+2. Analyze how the "signalling effect" of dividends might influence management decisions regarding dividend policy.
+
+3. Evaluate the advantages and disadvantages of share buybacks compared to cash dividends from both company and shareholder perspectives.
+
+4. Calculate the dividend growth rate for a company with the following dividend history: 2020: £0.15, 2021: £0.17, 2022: £0.19, 2023: £0.21, 2024: £0.24.
+
+5. Consider a scenario where a company has excess cash. Using both the residual dividend theory and signalling theory, recommend and justify an appropriate dividend policy.
