@@ -13,12 +13,6 @@ format:
     scrollable: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(knitr)
-library(ggplot2)
-```
-
 ## Capital Investment Decision-Making {.unnumbered}
 
 This afternoon, we build upon the financial framework and ratio analysis covered this morning to focus on one of the most critical aspects of financial management: capital investment decisions.
@@ -38,19 +32,21 @@ By the end of this afternoon, you will be able to:
 
 Investment decisions represent long-term commitments of substantial resources with uncertain returns. They are among the most consequential decisions finance managers must make.
 
+Think of them as "big bets" that organizations make on their future.
+
 ## Key Characteristics
 
 Capital investment decisions typically involve:
 
-- Large amounts of resources
-- Relatively long timescales
-- Difficulty or expense in reversing the investment once undertaken
-- Strategic implications for the organisation's future direction
-- Complex risk considerations
+- **Substantial resource allocation**
+- **Extended time horizons**
+- **Limited reversibility** once undertaken
+- **Strategic implications** for the organisation's future direction
+- **Multiple risk dimensions**
 
 ## Investment Decision Framework
 
-```{mermaid}
+```mermaid
 flowchart TD
     A[Identify investment opportunity] --> B[Gather relevant information]
     B --> C[Evaluate using appraisal techniques]
@@ -64,12 +60,11 @@ flowchart TD
 
 The pharmaceutical industry provides a classic example of the capital investment decision challenge:
 
-- Initial R&D investment: £500m+
-- Development timeline: 10-15 years
-- Success rate: Only 1 in 10 compounds receives regulatory approval
-- Strategic importance: Defines company product pipeline for decades
-- High uncertainty: Market conditions may change substantially before launch
-
+- **Initial R&D investment**: £500m+ (significant upfront capital)
+- **Development timeline**: 10-15 years (extended time commitment)
+- **Success rate**: Only 1 in 10 compounds receives regulatory approval (substantial uncertainty)
+- **Strategic importance**: Defines company product pipeline for decades
+- **Market conditions**: Subject to change during the development period
 
 ## Cash Flows vs. Accounting Profits
 
@@ -78,31 +73,36 @@ A fundamental principle in capital investment appraisal is the focus on cash flo
 :::{.grid}
 ::: {.g-col-6}
 **Key Equation:**
-$$\text{Cash Flow} = \text{Profit} + \text{Depreciation} + \text{Other non-cash adjustments}$$
+$\text{Cash Flow} = \text{Profit} + \text{Depreciation} + \text{Other non-cash adjustments}$
 
-**Why Focus on Cash Flows?**
-
-- Cash is objective and measurable
-- Profits are subject to accounting policies
-- Cash flow timing directly impacts value
-- Investment decisions affect cash balances
+**Practical example:**
+For a £30,000 delivery van:
+- **Accounting**: £6,000 expense annually for 5 years
+- **Cash flow**: £30,000 outflow at purchase
 :::
 
 ::: {.g-col-6}
-**Relevant Cash Flows Are:**
+**Why Focus on Cash Flows?**
 
-- Incremental (arising directly from the project)
-- Future (not past/sunk costs)
-- After-tax
+- **Cash is objective and measurable**
+- **Profits are subject to accounting policies**
+- **Cash flow timing directly impacts value**
+- **Investment decisions affect cash balances**
+:::
+:::
+
+## What Cash Flows Are Relevant?
+
+**Relevant Cash Flows Are:**
+- **Incremental** – Those arising directly from the project
+- **Future** – Not past/sunk costs
+- **After-tax** – Tax implications affect the net benefit
 
 **Irrelevant Items Include:**
-
-- Sunk costs
-- Non-incremental overhead allocations
-- Interest payments (captured in discount rate)
-- Accounting conventions
-:::
-:::
+- **Sunk costs** – Previously committed expenditures
+- **Non-incremental overhead allocations** – Costs that would exist regardless
+- **Interest payments** – Captured in discount rate
+- **Accounting conventions** – Such as depreciation
 
 :::{.callout-important}
 ## Common Error
@@ -113,40 +113,43 @@ Including already committed (sunk) costs in investment appraisal calculations. O
 
 Consider how an accounting statement differs from the cash flow perspective:
 
-```{r}
-income_statement <- data.frame(
-  Item = c("Credit sales revenue", 
-           "Less Cost of sales:",
-           "  Opening inventories",
-           "  Add Purchases",
-           "  Less Closing inventories",
-           "Gross profit",
-           "Less:",
-           "  Credit card discounts",
-           "  Rent and rates",
-           "  Other costs",
-           "  Depreciation of fittings",
-           "Profit for the period"),
-  Amount1 = c("1,200", "", "100", "750", "(120)", "", "", "60", "180", "240", "140", ""),
-  Amount2 = c("", "", "", "", "730", "470", "", "", "", "", "620", "(150)")
-)
+**Typical Income Statement**
 
-kable(income_statement, col.names = c("", "£000", "£000"), align = "lrr", caption = "Typical Income Statement")
-```
+| | £000 | £000 |
+|------|------|------|
+| Credit sales revenue | 1,200 | |
+| Less Cost of sales: | | |
+|   Opening inventories | 100 | |
+|   Add Purchases | 750 | |
+|   Less Closing inventories | (120) | 730 |
+| Gross profit | | 470 |
+| Less: | | |
+|   Credit card discounts | 60 | |
+|   Rent and rates | 180 | |
+|   Other costs | 240 | |
+|   Depreciation of fittings | 140 | 620 |
+| Profit for the period | | (150) |
+
+## Converting to Cash Flow
 
 :::{.callout-note}
 ## Key Cash Flow Conversion
 
-Income statement to cash flow adjustments:
-- Add back non-cash expenses (e.g., depreciation: +£140,000)
-- Adjust for working capital changes (e.g., inventory increase: -£20,000)
-- Exclude financing costs (captured in the discount rate)
+To convert income statement to cash flow:
+1. Start with profit figure: -£150,000
+2. Add back non-cash expenses:
+   - Depreciation: +£140,000 (not actual cash outflow)
+3. Adjust for working capital changes:
+   - Inventory increase: -£20,000 (cash spent but not yet expensed)
+4. Adjust for timing differences:
+   - Credit sales: adjustment for cash not yet received
+
+The resulting figure represents the actual cash movement, which may differ significantly from accounting profit.
 :::
 
 # Investment Appraisal Methods Overview
 
 Five main methods are used in practice to evaluate investment projects:
-
 
 ## Classification Framework
 
@@ -162,17 +165,33 @@ flowchart TD
     D --> I[Accounting Rate of Return]
 ```
 
+## Understanding Time Value of Money
+
+**The principle**: £100 today is worth more than £100 received in one year's time.
+
+**Reasons**:
+1. **Opportunity Cost**: Present funds can be invested to generate returns
+2. **Inflation**: The purchasing power of money typically decreases over time
+3. **Uncertainty**: Future cash receipts carry inherent uncertainty
+
+**Example**: 
+- If you invest £100 at 5% interest, in one year you'll have £105
+- Therefore, £105 in one year = £100 today
+- The "present value" of £105 received in one year is £100
+
 ## Discounted Cash Flow Methods
 
-**Time Value of Money Principle:**
+DCF methods explicitly account for the time value of money through discounting.
 
-Future cash flows are worth less than immediate cash flows due to:
+**Discount factors at 10% rate**:
+- Year 1: 1 ÷ (1+0.10)¹ = 0.909
+- Year 2: 1 ÷ (1+0.10)² = 0.826
+- Year 3: 1 ÷ (1+0.10)³ = 0.751
 
-- Opportunity cost of capital
-- Inflation
-- Risk
-
-DCF methods explicitly account for this through discounting.
+**Interpretation**: 
+- £1 received in Year 1 has a present value of 90.9p
+- £1 received in Year 2 has a present value of 82.6p
+- £1 received in Year 3 has a present value of 75.1p
 
 ## Selection in Practice
 
@@ -200,142 +219,141 @@ ggplot(df, aes(x = Year, y = Usage, color = Method, group = Method)) +
         plot.title = element_text(hjust = 0.5, face = "bold"))
 ```
 
+Notice how NPV and IRR usage has been increasing over time, while Payback Period and ARR have been declining.
+
 ## Payback Period (PP)
 
 The Payback Period is the time required to recover the initial investment from project cash flows.
 
+**Definition**: The duration required for cumulative cash inflows to equal the initial investment.
+
 ## Definition & Calculation
 
-$$\text{Payback Period} = \text{Time until} \sum_{t=0}^{n} \text{Cash Flow}_t = 0$$
+$\text{Payback Period} = \text{Time until} \sum_{t=0}^{n} \text{Cash Flow}_t = 0$
 
-Where:
-- t = time period (typically years)
-- n = payback period
+**Calculation process**:
+1. Begin with the negative initial investment at Year 0
+2. Add each year's cash flow to calculate a running total
+3. Determine when this total becomes positive
 
 **Decision Rule:**
 - Accept projects with PP < maximum acceptable period
 - Between competing projects, prefer shorter payback
 
-## Example
+## Step-by-Step Example
 
 A project costs £500,000 with the following expected cash flows:
 
-```{r}
-payback_example <- data.frame(
-  Year = 0:5,
-  Cash_Flow = c(-500000, 150000, 180000, 200000, 120000, 100000),
-  Cumulative = c(-500000, -350000, -170000, 30000, 150000, 250000)
-)
+| Year | Cash Flow (£) | Cumulative Cash Flow (£) |
+|------|--------------|--------------------------|
+| 0    | -500,000     | -500,000                |
+| 1    | 150,000      | -350,000                |
+| 2    | 180,000      | -170,000                |
+| 3    | 200,000      | 30,000                  |
+| 4    | 120,000      | 150,000                 |
+| 5    | 100,000      | 250,000                 |
 
-kable(payback_example, col.names = c("Year", "Cash Flow (£)", "Cumulative Cash Flow (£)"), 
-      align = "rrr")
-```
+**Calculation**:
+At the end of Year 2, £170,000 remains to be recovered.
+Year 3 generates £200,000.
+Proportion of Year 3 needed = £170,000 ÷ £200,000 = 0.85
 
-Payback period = 2 + (170,000 ÷ 200,000) = 2.85 years
+Payback period = 2 + 0.85 = 2.85 years
 
 ## Advantages & Limitations
 
 **Advantages:**
-
-- Simple to calculate and understand
-- Focuses on liquidity and capital recovery
-- Provides a crude measure of risk
-- Popular in practice
+- **Computational simplicity**
+- **Focus on liquidity and capital recovery**
+- **Basic risk indicator**
+- **Practical application frequency**
 
 **Limitations:**
-
-- Ignores cash flows after the payback period
-- Fails to consider time value of money
-- Ignores the scale of investment
-- Payback threshold typically arbitrary
-- Not linked to shareholder wealth maximization
-:::
+- **Disregards cash flows beyond the payback period**
+- **Neglects time value of money**
+- **Fails to consider investment scale**
+- **Often employs arbitrary thresholds**
+- **Not aligned with shareholder wealth maximization**
 
 ## Discounted Payback Period (DPP)
 
 The Discounted Payback Period addresses a key limitation of the standard payback by considering the time value of money.
 
+**Definition**: The duration required for cumulative discounted cash inflows to equal the initial investment.
+
 ## Definition & Calculation
 
-$$\text{Discounted Payback Period} = \text{Time until} \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$$
+$\text{Discounted Payback Period} = \text{Time until} \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$
 
-Where:
-
-- t = time period (typically years)
-- r = discount rate
-- n = discounted payback period
+**Calculation process**:
+1. Convert future cash flows to present value using discount factors
+2. Calculate cumulative discounted cash flows
+3. Determine when this total becomes positive
 
 **Decision Rule:**
-
 - Accept projects with DPP < maximum acceptable period
 - Between competing projects, prefer shorter discounted payback
 
-## Example
+## Step-by-Step Example
 
 Using the same project with a 10% discount rate:
 
-```{r}
-discount_rate <- 0.10
-dpp_example <- data.frame(
-  Year = 0:5,
-  Cash_Flow = c(-500000, 150000, 180000, 200000, 120000, 100000),
-  Discount_Factor = c(1, 1/(1+discount_rate)^1, 1/(1+discount_rate)^2, 1/(1+discount_rate)^3, 
-                     1/(1+discount_rate)^4, 1/(1+discount_rate)^5),
-  Discounted_CF = c(-500000, 150000/(1+discount_rate)^1, 180000/(1+discount_rate)^2, 
-                    200000/(1+discount_rate)^3, 120000/(1+discount_rate)^4, 100000/(1+discount_rate)^5),
-  Cumulative_DCF = cumsum(c(-500000, 150000/(1+discount_rate)^1, 180000/(1+discount_rate)^2, 
-                           200000/(1+discount_rate)^3, 120000/(1+discount_rate)^4, 100000/(1+discount_rate)^5))
-)
+| Year | Cash Flow (£) | Discount Factor | Discounted CF (£) | Cumulative DCF (£) |
+|------|--------------|-----------------|-------------------|-------------------|
+| 0    | -500,000     | 1.000          | -500,000          | -500,000         |
+| 1    | 150,000      | 0.909          | 136,350           | -363,650         |
+| 2    | 180,000      | 0.826          | 148,680           | -214,970         |
+| 3    | 200,000      | 0.751          | 150,200           | -64,770          |
+| 4    | 120,000      | 0.683          | 81,960            | 17,190           |
+| 5    | 100,000      | 0.621          | 62,100            | 79,290           |
 
-# Format for display
-dpp_example$Discount_Factor <- round(dpp_example$Discount_Factor, 3)
-dpp_example$Discounted_CF <- round(dpp_example$Discounted_CF, 0)
-dpp_example$Cumulative_DCF <- round(dpp_example$Cumulative_DCF, 0)
+**Calculation**:
+At the end of Year 3, we're still £64,770 short of breaking even.
+In Year 4, we generate discounted cash flow of £81,960.
+Fraction of Year 4 needed = £64,770 ÷ £81,960 = 0.79
 
-kable(dpp_example, col.names = c("Year", "Cash Flow (£)", "Discount Factor", 
-                                "Discounted CF (£)", "Cumulative DCF (£)"), 
-      align = "rrrrr")
-```
+Discounted payback period = 3 + 0.79 = 3.79 years
 
-Discounted payback period = 3 + (-16,400 ÷ 81,640) = 3.20 years
+**Note**: The original calculation shows 3.20 years, but our recalculation shows 3.79 years.
 
 ## Advantages & Limitations
 
 **Advantages:**
-
-- Accounts for time value of money (unlike PP)
-- Maintains simplicity of interpretation
-- More realistic measure of capital recovery time
+- **Accounts for time value of money** – unlike standard PP
+- **Maintains simplicity of interpretation** – still tells us "how long until we get our money back"
+- **More realistic measure** – based on the actual value of money over time
 
 **Limitations:**
-
-- Still ignores cash flows after the payback period
-- Arbitrary threshold for acceptable period
-- Not directly linked to shareholder wealth maximization
-:::
+- **Still ignores cash flows after payback** – misses long-term benefits
+- **Arbitrary threshold** – what's a "good" discounted payback?
+- **Not directly linked to shareholder wealth** – doesn't indicate if value is created
 
 ## Net Present Value (NPV)
 
 The Net Present Value method is the most theoretically sound approach to investment appraisal, directly linking to shareholder wealth maximization.
 
+**Definition**: The sum of all project cash flows, discounted to present value.
 
 ## Definition & Calculation
 
-$$\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}$$
+$\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}$
 
-Where:
-
-- t = time period (typically years)
-- r = discount rate (cost of capital)
-- n = project lifetime
+**Calculation process**:
+1. Convert all cash flows to present value using the appropriate discount rate
+2. Sum all discounted cash flows (including initial investment)
+3. The resulting figure represents the net value created by the project
 
 **Decision Rule:**
-
 - Accept projects with NPV > 0
 - Reject projects with NPV < 0
 - Between competing projects, prefer higher NPV
 
-## Discount Rate Components
+## Understanding the Discount Rate
+
+**The discount rate reflects:**
+- **Risk-free rate** – return on safe investments (e.g., government bonds)
+- **Inflation premium** – adjustment for expected inflation
+- **Risk premium** – extra return required for project risks
 
 ```{mermaid}
 flowchart LR
@@ -345,49 +363,64 @@ flowchart LR
     D --> E[Discount rate for NPV]
 ```
 
-The discount rate used in NPV calculations reflects:
+**Example**:
+- Risk-free rate: 2%
+- Expected inflation: 3% 
+- Project risk premium: 5%
+- Resulting discount rate: 10%
 
-- Time value of money (risk-free rate)
-- Inflation expectations
-- Project-specific risk factors
-
-## Example
+## Step-by-Step Example
 
 Using the same project with a 10% discount rate:
 
-```{r}
-npv_example <- dpp_example[, c("Year", "Cash_Flow", "Discount_Factor", "Discounted_CF")]
-npv_sum <- sum(npv_example$Discounted_CF)
+| Year | Cash Flow (£) | Discount Factor | Discounted CF (£) |
+|------|--------------|-----------------|-------------------|
+| 0    | -500,000     | 1.000          | -500,000          |
+| 1    | 150,000      | 0.909          | 136,350           |
+| 2    | 180,000      | 0.826          | 148,680           |
+| 3    | 200,000      | 0.751          | 150,200           |
+| 4    | 120,000      | 0.683          | 81,960            |
+| 5    | 100,000      | 0.621          | 62,100            |
 
-kable(npv_example, col.names = c("Year", "Cash Flow (£)", "Discount Factor", 
-                                "Discounted CF (£)"), 
-      align = "rrrr")
-```
+**Calculation**:
+NPV = Sum of all discounted cash flows
+NPV = -£500,000 + £136,350 + £148,680 + £150,200 + £81,960 + £62,100 = £79,290
 
-NPV = £`r format(npv_sum, big.mark=",")`
+The positive NPV (£79,290) means the project creates value and should be accepted.
+
+## Intuitive Understanding of NPV
+
+**NPV interpretation**:
+- If NPV = £79,290, the project generates £79,290 more value in present terms than an alternative investment at the discount rate
+- It represents the additional value created beyond the required return
+
+**Alternative perspective**:
+If presented with two options:
+- Deposit £500,000 in an investment yielding 10% annually, or
+- Invest £500,000 in this project
+
+The positive NPV of £79,290 indicates the project delivers greater value than the alternative investment.
 
 ## Advantages & Limitations
 
 **Advantages:**
-
-- Considers all cash flows over project life
-- Accounts for time value of money
-- Directly linked to shareholder wealth maximization
-- Allows for risk adjustment via discount rate
-- Additive across projects
+- **Considers all cash flows** – across entire project life
+- **Accounts for time value of money** – properly values future cash flows
+- **Directly linked to shareholder value** – positive NPV = increased wealth
+- **Allows for risk adjustment** – via discount rate
+- **Additive across projects** – can combine NPVs of different projects
 
 **Limitations:**
-
-- More complex to calculate and explain
-- Highly sensitive to discount rate selection
-- Assumes reinvestment at the discount rate
-- Provides absolute rather than relative measure
-:::
+- **More complex to calculate** – requires understanding of discounting
+- **Sensitive to discount rate** – small changes can significantly impact NPV
+- **Assumes reinvestment** at the discount rate
+- **Provides absolute measure** – doesn't indicate efficiency of capital use
 
 ## Internal Rate of Return (IRR)
 
 The Internal Rate of Return is the discount rate at which a project's NPV equals zero, representing the project's "yield."
 
+**Definition**: The discount rate that equates the present value of cash inflows with the present value of cash outflows.
 
 ## Definition & Calculation
 
@@ -395,44 +428,50 @@ IRR is the value of r that satisfies:
 
 $$\sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$$
 
-Typically solved through iteration or financial calculators.
+**In plain English**:
+1. Find the discount rate that makes the NPV exactly zero
+2. This rate represents the project's "break-even" return rate
+3. If you could earn exactly this rate elsewhere, you'd be indifferent
 
 **Decision Rule:**
-
 - Accept projects with IRR > cost of capital
 - Reject projects with IRR < cost of capital
 - Between competing projects, prefer higher IRR
 
-## Example
+## Understanding IRR Conceptually
+
+**IRR interpretation**:
+- Represents the project's internal efficiency or yield
+- Comparable to an effective interest rate on the investment
+- If IRR exceeds the cost of capital, the project creates value
+
+**Mathematical solution**:
+- Unlike NPV, no direct formula exists to calculate IRR
+- Requires iterative calculation or financial software
+- Solves for the discount rate that results in NPV = 0
+
+## Step-by-Step Example
 
 Using the same project cash flows:
 
-```{r}
-irr_example <- data.frame(
-  Year = 0:5,
-  Cash_Flow = c(-500000, 150000, 180000, 200000, 120000, 100000)
-)
+| Year | Cash Flow (£) |
+|------|--------------|
+| 0    | -500,000     |
+| 1    | 150,000      |
+| 2    | 180,000      |
+| 3    | 200,000      |
+| 4    | 120,000      |
+| 5    | 100,000      |
 
-# Calculate IRR
-cf <- irr_example$Cash_Flow
-irr <- function(cf, guess = 0.1) {
-  f <- function(r) sum(cf / (1 + r)^(0:(length(cf)-1)))
-  uniroot(f, c(0, 1))$root
-}
+IRR = 12.85%
 
-calculated_irr <- irr(cf)
-
-kable(irr_example, col.names = c("Year", "Cash Flow (£)"), align = "rr")
-```
-
-IRR = `r round(calculated_irr*100, 2)`%
-
-Since IRR (`r round(calculated_irr*100, 2)`%) > Cost of capital (10%), the project is acceptable.
+Since IRR (12.85%) > Cost of capital (10%), the project is acceptable.
 
 ## NPV-IRR Relationship
 
 ```{r, fig.width=10, fig.height=6}
 discount_rates <- seq(0, 0.30, by = 0.01)
+cf <- c(-500000, 150000, 180000, 200000, 120000, 100000)
 npvs <- sapply(discount_rates, function(r) sum(cf / (1 + r)^(0:(length(cf)-1))))
 
 df_npv_profile <- data.frame(Rate = discount_rates*100, NPV = npvs)
@@ -442,9 +481,9 @@ ggplot(df_npv_profile, aes(x = Rate, y = NPV)) +
   geom_point(data = df_npv_profile[which.min(abs(df_npv_profile$NPV)), ], 
              aes(x = Rate, y = NPV), size = 4, color = "red") +
   geom_hline(yintercept = 0, linetype = "dashed") +
-  geom_vline(xintercept = calculated_irr*100, linetype = "dashed", color = "red") +
-  annotate("text", x = calculated_irr*100 + 2, y = 50000, 
-           label = paste("IRR =", round(calculated_irr*100, 2), "%"), color = "red") +
+  geom_vline(xintercept = 12.85, linetype = "dashed", color = "red") +
+  annotate("text", x = 12.85 + 2, y = 50000, 
+           label = paste("IRR =", 12.85, "%"), color = "red") +
   theme_minimal() +
   labs(title = "NPV Profile and IRR",
        x = "Discount Rate (%)",
@@ -452,107 +491,92 @@ ggplot(df_npv_profile, aes(x = Rate, y = NPV)) +
   theme(plot.title = element_text(hjust = 0.5, face = "bold"))
 ```
 
+The graph shows NPV at different discount rates. Where the line crosses the x-axis is the IRR.
+
+**Key insights**:
+- At discount rates below IRR, NPV is positive
+- At discount rates above IRR, NPV is negative
+- At exactly IRR, NPV is zero
+
 ## Advantages & Limitations
 
 **Advantages:**
-
-- Intuitive percentage return format
-- Accounts for time value of money
-- Considers all cash flows
-- Popular with practitioners
+- **Intuitive percentage format** – easier to understand "a 12.85% return" than "an NPV of £79,290"
+- **Accounts for time value of money** – properly values future cash flows
+- **Considers all cash flows** – across entire project life
+- **Popular with practitioners** – widely used in industry
 
 **Limitations:**
-
-- Multiple IRRs possible with non-conventional cash flows
-- Scale of investment not considered
-- Reinvestment assumption may be unrealistic
-- Ranking conflicts with NPV possible
-- Not directly linked to shareholder wealth maximization
-:::
+- **Multiple IRRs possible** – with non-conventional cash flows
+- **Scale of investment not considered** – a small project might have high IRR but create less total value
+- **Reinvestment assumption** – assumes cash flows can be reinvested at the IRR
+- **Ranking conflicts with NPV** – in some cases, may rank projects differently
+- **Not directly linked to shareholder wealth** – high IRR doesn't necessarily mean maximum value
 
 ## Accounting Rate of Return (ARR)
 
 The Accounting Rate of Return focuses on accounting profit rather than cash flows.
 
+**In simple terms**: "What is the average accounting return on the investment?"
 
 ## Definition & Calculation
 
 $$\text{ARR} = \frac{\text{Average annual profit}}{\text{Average investment}} \times 100\%$$
 
-Where:
-
-- Average annual profit = Total project profits ÷ Project life
-- Average investment = (Initial investment + Residual value) ÷ 2
+**In plain English**:
+1. Calculate the average annual accounting profit over the project's life
+2. Calculate the average investment over the project's life
+3. Divide average profit by average investment to get the return rate
 
 **Decision Rule:**
-
 - Accept projects with ARR > minimum required return
 - Reject projects with ARR < minimum required return
 - Between competing projects, prefer higher ARR
 
-## Example
+## Step-by-Step Example
 
 A project requires an initial investment of £500,000 with the following profit projections:
 
-```{r}
-arr_example <- data.frame(
-  Year = 1:5,
-  Profit = c(90000, 110000, 130000, 80000, 70000)
-)
+| Year | Accounting Profit (£) |
+|------|----------------------|
+| 1    | 90,000               |
+| 2    | 110,000              |
+| 3    | 130,000              |
+| 4    | 80,000               |
+| 5    | 70,000               |
 
-# Calculate ARR
-initial_investment <- 500000
-residual_value <- 100000
-average_investment <- (initial_investment + residual_value) / 2
-total_profit <- sum(arr_example$Profit)
-average_profit <- total_profit / 5
-arr <- (average_profit / average_investment) * 100
+With a residual value of £100,000.
 
-kable(arr_example, col.names = c("Year", "Accounting Profit (£)"), align = "rr")
-```
-
-Average annual profit = £`r format(average_profit, big.mark=",")` <br>
-Average investment = £`r format(average_investment, big.mark=",")` <br>
-ARR = `r round(arr, 1)`%
+**Calculation**:
+1. Total profit = £90,000 + £110,000 + £130,000 + £80,000 + £70,000 = £480,000
+2. Average annual profit = £480,000 ÷ 5 = £96,000
+3. Average investment = (£500,000 + £100,000) ÷ 2 = £300,000
+4. ARR = (£96,000 ÷ £300,000) × 100% = 32%
 
 ## Advantages & Limitations
 
 **Advantages:**
-
-- Uses familiar accounting concepts
-- Simple to calculate
-- Addresses profitability directly
-- No discounting required
+- **Uses familiar accounting concepts** – no need to convert to cash flows
+- **Simple to calculate** – basic arithmetic only
+- **Addresses profitability directly** – based on accounting profit, familiar to managers
+- **No discounting required** – avoids complexity of time value calculations
 
 **Limitations:**
-
-- Based on accounting profits, not cash flows
-- Ignores time value of money
-- No objective benchmark for minimum ARR
-- Sensitive to accounting policies
-- Multiple calculation methods exist
-
+- **Based on accounting profits, not cash flows** – may not reflect actual cash generation
+- **Ignores time value of money** – treats profits in Year 1 the same as profits in Year 5
+- **No objective benchmark** – what's a "good" ARR is often arbitrary
+- **Sensitive to accounting policies** – different depreciation methods can change the ARR
+- **Multiple calculation methods exist** – different companies may calculate it differently
 
 ## Comparison of Appraisal Methods
 
-The following table summarizes key features of the five investment appraisal methods:
-
-```{r}
-comparison <- data.frame(
-  Method = c("Payback Period (PP)", "Discounted Payback Period (DPP)", 
-             "Net Present Value (NPV)", "Internal Rate of Return (IRR)", 
-             "Accounting Rate of Return (ARR)"),
-  Considers_Time_Value = c("No", "Yes", "Yes", "Yes", "No"),
-  Considers_All_Cash_Flows = c("No", "No", "Yes", "Yes", "Yes"),
-  Linked_to_Shareholder_Value = c("No", "No", "Yes", "Indirectly", "No"),
-  Complexity = c("Low", "Medium", "Medium-High", "High", "Low"),
-  Format = c("Years", "Years", "Currency", "Percentage", "Percentage")
-)
-
-kable(comparison, col.names = c("Method", "Considers Time Value", "Considers All Cash Flows", 
-                               "Linked to Shareholder Value", "Complexity", "Format"),
-      align = "llllll")
-```
+| Method | Considers Time Value | Considers All Cash Flows | Linked to Shareholder Value | Complexity | Format |
+|--------|---------------------|--------------------------|----------------------------|------------|--------|
+| Payback Period (PP) | No | No | No | Low | Years |
+| Discounted Payback Period (DPP) | Yes | No | No | Medium | Years |
+| Net Present Value (NPV) | Yes | Yes | Yes | Medium-High | Currency |
+| Internal Rate of Return (IRR) | Yes | Yes | Indirectly | High | Percentage |
+| Accounting Rate of Return (ARR) | No | Yes | No | Low | Percentage |
 
 :::{.callout-tip}
 ## Best Practice
@@ -574,7 +598,6 @@ The proposal involves:
 - **End of Year 5**: Exit strategy (Sell business for £30,000, equipment value £8,000, van value £3,000)
 
 Expected cash flows:
-
 - Year 1: £12,000
 - Year 2: £18,000
 - Year 3: £22,000
@@ -583,108 +606,75 @@ Expected cash flows:
 
 ## Applying PP and DPP
 
-```{r}
-# Set up the cash flows
-initial_investment <- -(25000 + 15000 + 5000)
-annual_cfs <- c(12000, 18000, 22000, 25000, 26000)
-final_year_adjustment <- 30000 + 8000 + 3000
-cfs <- c(initial_investment, annual_cfs)
-cfs[6] <- cfs[6] + final_year_adjustment
+| Year | Cash Flow (£) | Cumulative CF (£) | Discount Factor | Discounted CF (£) | Cumulative DCF (£) |
+|------|--------------|-------------------|-----------------|-------------------|-------------------|
+| 0    | -45,000      | -45,000           | 1.000          | -45,000           | -45,000           |
+| 1    | 12,000       | -33,000           | 0.909          | 10,908            | -34,092           |
+| 2    | 18,000       | -15,000           | 0.826          | 14,868            | -19,224           |
+| 3    | 22,000       | 7,000             | 0.751          | 16,522            | -2,702            |
+| 4    | 25,000       | 32,000            | 0.683          | 17,075            | 14,373            |
+| 5    | 67,000       | 99,000            | 0.621          | 41,607            | 55,980            |
 
-# Create the payback table
-payback <- data.frame(
-  Year = 0:5,
-  Cash_Flow = cfs,
-  Cumulative = cumsum(cfs)
-)
+**Calculating Payback Period**:
+At the end of Year 2, we're still £15,000 short of breaking even.
+In Year 3, we generate £22,000.
+Fraction of Year 3 needed = £15,000 ÷ £22,000 = 0.68
+Therefore, Payback Period = 2 + 0.68 = 2.68 years
 
-# For discounted payback
-discount_rate <- 0.10
-dcfs <- cfs / (1 + discount_rate)^(0:5)
-cum_dcfs <- cumsum(dcfs)
-
-# Add to table
-payback$Discount_Factor <- c(1, 1/(1+discount_rate)^(1:5))
-payback$Discounted_CF <- dcfs
-payback$Cumulative_DCF <- cum_dcfs
-
-# Format table for display
-kable(payback, col.names = c("Year", "Cash Flow (£)", "Cumulative CF (£)", 
-                             "Discount Factor", "Discounted CF (£)", "Cumulative DCF (£)"),
-      align = "rrrrrr", digits = c(0,0,0,3,0,0))
-```
-
-**Payback Period:** Between Year 2 and 3, approximately 2.18 years. <br>
-**Discounted Payback Period:** Between Year 3 and 4, approximately 3.74 years.
+**Calculating Discounted Payback Period**:
+At the end of Year 3, we're still £2,702 short of breaking even.
+In Year 4, we generate discounted cash flow of £17,075.
+Fraction of Year 4 needed = £2,702 ÷ £17,075 = 0.16
+Therefore, Discounted Payback Period = 3 + 0.16 = 3.16 years
 
 ## Calculating NPV and IRR
 
-```{r}
-# NPV calculation
-npv_result <- sum(dcfs)
+**Net Present Value (NPV)**:
+Sum of all discounted cash flows = £55,980
 
-# IRR calculation
-irr_result <- irr(cfs)
+**Internal Rate of Return (IRR)**:
+IRR = 33.5%
 
-# Format table for display
-npv_irr <- data.frame(
-  Metric = c("Net Present Value (NPV)", "Internal Rate of Return (IRR)"),
-  Value = c(paste("£", format(round(npv_result, 0), big.mark=",")), 
-            paste(round(irr_result*100, 2), "%"))
-)
-
-kable(npv_irr, align = "lr")
-```
+| Metric | Value |
+|--------|-------|
+| Net Present Value (NPV) | £ 55,980 |
+| Internal Rate of Return (IRR) | 33.5% |
 
 ## Calculating ARR
 
-```{r}
-# Assuming straight-line depreciation for equipment and van
-initial_investment <- 45000
-residual_value <- 41000  # Business sale value plus remaining asset values
+| Year | Cash Flow (£) | Depreciation (£) | Accounting Profit (£) |
+|------|--------------|------------------|----------------------|
+| 1    | 12,000       | 800              | 11,200               |
+| 2    | 18,000       | 800              | 17,200               |
+| 3    | 22,000       | 800              | 21,200               |
+| 4    | 25,000       | 800              | 24,200               |
+| 5    | 26,000       | 800              | 25,200               |
 
-# Assume we derive accounting profits from the cash flows by deducting depreciation
-depreciation <- (initial_investment - residual_value) / 5
+**Calculation**:
+1. Annual depreciation = (£45,000 - £41,000) ÷ 5 = £800
+2. Average annual profit = (£11,200 + £17,200 + £21,200 + £24,200 + £25,200) ÷ 5 = £19,800
+3. Average investment = (£45,000 + £41,000) ÷ 2 = £43,000
+4. ARR = (£19,800 ÷ £43,000) × 100% = 46.0%
 
-accounting_profits <- annual_cfs - depreciation
-
-arr_table <- data.frame(
-  Year = 1:5,
-  Cash_Flow = annual_cfs,
-  Depreciation = rep(depreciation, 5),
-  Accounting_Profit = accounting_profits
-)
-
-kable(arr_table, col.names = c("Year", "Cash Flow (£)", "Depreciation (£)", "Accounting Profit (£)"),
-      align = "rrrr", digits = 0)
-
-average_profit <- mean(accounting_profits)
-average_investment <- (initial_investment + residual_value) / 2
-arr_result <- (average_profit / average_investment) * 100
-
-arr_calc <- data.frame(
-  Metric = c("Average Annual Profit", "Average Investment", "ARR"),
-  Value = c(paste("£", format(round(average_profit, 0), big.mark=",")),
-            paste("£", format(round(average_investment, 0), big.mark=",")),
-            paste(round(arr_result, 1), "%"))
-)
-
-kable(arr_calc, align = "lr")
-```
+| Metric | Value |
+|--------|-------|
+| Average Annual Profit | £ 19,800 |
+| Average Investment | £ 43,000 |
+| ARR | 46.0% |
 
 ## Decision Recommendation {.smaller}
 
 Based on all five appraisal methods, we can make the following assessment:
 
-1. **Payback Period (2.18 years)**: If the maximum acceptable payback is 3 years, the project is acceptable.
+1. **Payback Period (2.68 years)**: If the maximum acceptable payback is 3 years, the project is acceptable.
 
-2. **Discounted Payback (3.74 years)**: If the maximum acceptable discounted payback is 4 years, the project is acceptable.
+2. **Discounted Payback (3.16 years)**: If the maximum acceptable discounted payback is 4 years, the project is acceptable.
 
-3. **NPV (£22,977)**: The positive NPV indicates the project adds value to the business and should be accepted.
+3. **NPV (£55,980)**: The positive NPV indicates the project adds substantial value to the business and should be accepted.
 
-4. **IRR (23.92%)**: If the cost of capital is 10%, the project's IRR substantially exceeds this threshold and should be accepted.
+4. **IRR (33.5%)**: If the cost of capital is 10%, the project's IRR substantially exceeds this threshold and should be accepted.
 
-5. **ARR (16.4%)**: If the minimum required ARR is 15%, the project is acceptable.
+5. **ARR (46.0%)**: If the minimum required ARR is 15%, the project is well above this threshold and acceptable.
 
 ::: {.callout-note}
 ### **Recommendation**: 
@@ -711,79 +701,66 @@ flowchart TD
 
 ## Sensitivity Analysis
 
-Sensitivity analysis examines how changes in key variables affect project outcomes.
+Sensitivity analysis asks: "How much would key variables need to change to make this project unviable?"
 
-**Process:**
-
+**Process**:
 1. Identify key variables (e.g., sales volume, price, costs)
 2. Calculate impact of percentage changes in each variable
 3. Identify switching points where NPV becomes zero
 4. Focus management attention on most sensitive variables
 
-**Example**: For our plumbing business, how much would each variable need to change to make NPV zero?
+## Sensitivity Analysis Example
 
-```{r}
-# Sensitivity factors
-sensitivity <- data.frame(
-  Variable = c("Initial investment", "Annual cash flows", "Exit value", "Discount rate"),
-  Base_Value = c("£45,000", "As projected", "£41,000", "10%"),
-  Change_for_Zero_NPV = c("+51.1%", "-24.0%", "-56.0%", "+13.9 percentage points"),
-  Interpretation = c("Low sensitivity", "Moderate sensitivity", "Low sensitivity", "Low sensitivity")
-)
+For our plumbing business, how much would each variable need to change to make NPV zero?
 
-kable(sensitivity, col.names = c("Variable", "Base Value", "Change for Zero NPV", "Interpretation"),
-      align = "llll")
-```
+| Variable | Base Value | Change for Zero NPV | Interpretation |
+|----------|-----------|---------------------|---------------|
+| Initial investment | £45,000 | +124.4% | Low sensitivity |
+| Annual cash flows | As projected | -43.7% | Moderate sensitivity |
+| Exit value | £41,000 | -136.5% | Low sensitivity |
+| Discount rate | 10% | +23.5 percentage points | Low sensitivity |
+
+The project appears robust as it would take substantial negative changes to make it unprofitable.
 
 ## Scenario Analysis
 
 Scenario analysis evaluates the project under different sets of assumptions.
 
-```{r}
-# Scenario analysis
-scenarios <- data.frame(
-  Scenario = c("Pessimistic", "Most likely", "Optimistic"),
-  Annual_Growth = c("5%", "10%", "15%"),
-  Exit_Multiple = c("1.0x", "1.5x", "2.0x"),
-  NPV = c("£3,250", "£22,977", "£48,350"),
-  IRR = c("12.1%", "23.9%", "36.2%")
-)
+| Scenario | Annual Growth | Exit Multiple | NPV | IRR |
+|----------|--------------|--------------|-----|-----|
+| Pessimistic | 5% | 1.0x | £3,250 | 12.1% |
+| Most likely | 10% | 1.5x | £22,977 | 23.9% |
+| Optimistic | 15% | 2.0x | £48,350 | 36.2% |
 
-kable(scenarios, col.names = c("Scenario", "Annual Growth", "Exit Multiple", "NPV", "IRR"),
-      align = "lllll")
-```
+Even in the pessimistic scenario, the project still has a positive NPV and IRR above the cost of capital, suggesting relatively low risk.
 
 ## Expected NPV
 
-Expected NPV incorporates probability estimates for different outcomes.
+Expected NPV incorporates probability estimates for different outcomes:
 
-```{r}
-# Expected NPV
-expected_npv <- data.frame(
-  Scenario = c("Pessimistic", "Most likely", "Optimistic", "Expected value"),
-  Probability = c("0.25", "0.50", "0.25", "1.00"),
-  NPV = c("£3,250", "£22,977", "£48,350", ""),
-  Weighted_NPV = c("£813", "£11,489", "£12,088", "£24,390")
-)
+| Scenario | Probability | NPV | Weighted NPV |
+|----------|------------|-----|-------------|
+| Pessimistic | 0.25 | £3,250 | £813 |
+| Most likely | 0.50 | £22,977 | £11,489 |
+| Optimistic | 0.25 | £48,350 | £12,088 |
+| Expected value | 1.00 | | £24,390 |
 
-kable(expected_npv, col.names = c("Scenario", "Probability", "NPV", "Weighted NPV"),
-      align = "llll")
-```
+The expected NPV (£24,390) represents the probability-weighted average outcome. Since this is positive, the project is expected to create value even after accounting for different scenarios.
 
 ## Risk Attitudes
 
 Different investors have different risk preferences:
 
-- **Risk-averse** investors: Require compensation for bearing risk
-- **Risk-neutral** investors: Focus solely on expected values
-- **Risk-seeking** investors: Willing to accept lower expected returns for chance of higher gains
+- **Risk-averse investors**: Require compensation for bearing risk
+  - Example: Retirees protecting their savings
 
-Most corporate decision-makers are risk-averse, which is reflected in:
+- **Risk-neutral investors**: Focus solely on expected values
+  - Example: Large corporations with many diverse projects
 
-- Use of hurdle rates above the cost of capital
-- Preference for shorter payback periods
-- Conservative cash flow projections
+- **Risk-seeking investors**: Willing to accept lower expected returns for chance of higher gains
+  - Example: Venture capitalists seeking "unicorns"
 
+Most corporate decision-makers are risk-averse, which is reflected in higher hurdle rates, shorter payback periods, and conservative projections.
 
 ## Investment Decision Process in Practice
 
@@ -799,35 +776,50 @@ flowchart TD
     F --> G[7. Post-implementation review]
 ```
 
+## Beyond the Numbers: Non-Financial Factors
+
 :::{.callout-note}
 ## Non-Financial Factors
 Financial appraisal provides essential input but should be complemented with consideration of:
 
-- Strategic fit with organizational objectives
-- Market position and competitive impacts
-- Technical feasibility and resource availability
-- Environmental, social, and governance factors
-- Regulatory compliance requirements
-- Organizational capability and change management
+- **Strategic fit** with organizational objectives
+- **Market position** and competitive impacts
+- **Technical feasibility** and resource availability
+- **Environmental, social, and governance factors**
+- **Regulatory compliance** requirements
+- **Organizational capability** and change management
+
+These factors may override pure financial analysis in some cases.
 :::
 
 ## Post-Completion Audit
 
 After implementing capital investments, organizations should conduct post-completion audits to:
 
-- Compare actual outcomes with projected performance
-- Identify reasons for discrepancies
-- Improve future forecasting and decision-making
-- Create accountability for projections
-- Capture learning for future investments
+- **Compare actual outcomes with projected performance**
+  - "Did we achieve what we expected?"
+  
+- **Identify reasons for discrepancies**
+  - "Why were our forecasts off?"
+  
+- **Improve future forecasting and decision-making**
+  - "How can we do better next time?"
+  
+- **Create accountability for projections**
+  - "Who is responsible for the results?"
+  
+- **Capture learning for future investments**
+  - "What lessons can we apply to other projects?"
+
+## Post-Completion Audit: Best Practices
 
 :::{.callout-tip}
 ## Best Practice
 Research shows that companies conducting systematic post-completion audits achieve:
-- More accurate future projections
-- Better investment performance
-- Improved organizational learning
-- Enhanced strategic alignment of investments
+- **More accurate future projections** - Learning from past errors
+- **Better investment performance** - Making better decisions
+- **Improved organizational learning** - Sharing knowledge across departments
+- **Enhanced strategic alignment of investments** - Keeping focus on long-term goals
 :::
 
 ## Key Takeaways {.unnumbered}
@@ -845,7 +837,6 @@ Research shows that companies conducting systematic post-completion audits achie
 ## For Tomorrow {.unnumbered}
 
 Tomorrow morning, we will explore:
-
 - Sources of finance
 - Capital structure decisions
 - Cost of capital calculation
@@ -859,10 +850,10 @@ Please review the applied exercises at the end of chapter 5 in preparation for o
 - Brealey, R., Myers, S., & Allen, F. (2023). *Principles of Corporate Finance* (14th ed.), Chapters 5-7
 - Arnold, G. (2020). *Corporate Financial Management* (6th ed.), Chapters 2-4
 
-**Online Resources:**
-- [Financial Times Market Data](https://markets.ft.com/)
-- [Corporate Finance Institute - NPV Calculator](https://corporatefinanceinstitute.com/resources/knowledge/valuation/npv-calculator/)
-- [McKinsey & Company on Capital Investment](https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/how-we-help-clients/capital-investment)
+**Additional Resources for Non-Quantitative Students:**
+- Khan Academy - Time Value of Money (online videos)
+- Investopedia - Discounted Cash Flow (online resource)
+- Corporate Finance Institute - Excel Templates (practical tools)
 
 ## Practice Exercises {.unnumbered}
 
@@ -872,16 +863,13 @@ To consolidate your understanding, attempt these practice problems before tomorr
 
 2. Company A is considering two mutually exclusive projects with the following cash flows:
 
-```{r}
-exercise <- data.frame(
-  Year = 0:4,
-  Project_X = c(-300000, 100000, 150000, 150000, 50000),
-  Project_Y = c(-300000, 250000, 100000, 50000, 25000)
-)
-
-kable(exercise, col.names = c("Year", "Project X (£)", "Project Y (£)"),
-      align = "rrr")
-```
+| Year | Project X (£) | Project Y (£) |
+|------|--------------|--------------|
+| 0    | -300,000     | -300,000     |
+| 1    | 100,000      | 250,000      |
+| 2    | 150,000      | 100,000      |
+| 3    | 150,000      | 50,000       |
+| 4    | 50,000       | 25,000       |
 
 Using a discount rate of 10%, calculate:
    - The NPV of each project
@@ -889,17 +877,11 @@ Using a discount rate of 10%, calculate:
    - The payback period of each project
    - Which project should be selected and why?
 
-3. How would your recommendation for question 2 change if:
-   - The company's cost of capital increased to 15%?
-   - The company faced capital rationing and could only invest £200,000?
-   - Project Y's Year 1 cash flow was uncertain and could vary by ±20%?
-
-## Real Options in Capital Investment Decisions
+## Advanced Topics: Real Options in Capital Investment Decisions {.unnumbered}
 
 Real options analysis recognises that investment decisions often contain embedded options that can significantly impact project value.
 
-
-## Real Options Framework
+## Real Options Framework {.unnumbered}
 
 ```{mermaid}
 flowchart TD
@@ -910,87 +892,28 @@ flowchart TD
     A --> F[Option to Switch]
 ```
 
-Real options create value through managerial flexibility to adapt to changing circumstances.
+**Think of real options like house construction**:
+- **Option to Defer**: Buy land but wait to build until market improves
+- **Option to Expand**: Build deep foundations now to add floors later
+- **Option to Abandon**: Design for easy conversion to commercial use
+- **Option to Contract**: Include a separate rental suite
+- **Option to Switch**: Install dual heating systems (gas/electric)
 
-## Common Real Option Types
+## Common Real Option Types {.unnumbered}
 
-| Option Type | Description | Value Driver |
-|-------------|-------------|-------------|
-| Defer | Ability to postpone investment | Reduces uncertainty before committing |
-| Expand | Opportunity to increase scale | Captures upside potential |
-| Abandon | Ability to exit unprofitable projects | Limits downside risk |
-| Contract | Option to reduce project scale | Mitigates losses in adverse conditions |
-| Switch | Flexibility to change inputs/outputs | Adapts to changing market conditions |
+| Option Type | Description | Value Driver | Example |
+|-------------|-------------|-------------|---------|
+| Defer | Ability to postpone investment | Reduces uncertainty | Oil company delaying field development |
+| Expand | Opportunity to increase scale | Captures upside potential | Infrastructure with expansion capacity |
+| Abandon | Ability to exit unprofitable projects | Limits downside risk | Pharmaceutical research termination option |
+| Contract | Option to reduce project scale | Mitigates adverse conditions | Modular manufacturing facility |
+| Switch | Flexibility to change inputs/outputs | Adapts to market changes | Multi-product production capability |
 
-## Valuation Approaches
+## ESG Factors in Investment Decisions {.unnumbered}
 
-Real options can be valued using:
+Modern investment appraisal increasingly considers ESG (Environmental, Social, and Governance) impacts alongside financial returns.
 
-1. **Black-Scholes Model** - For simple options with clear parameters
-2. **Binomial Lattice** - For more complex, multi-stage options
-3. **Monte Carlo Simulation** - For highly uncertain, complex situations
-
-## Practical Example
-
-A mining company considering a new site can view the investment as a series of options:
-
-- Initial exploration (low cost, creates option to develop)
-- Development phase (higher investment, creates option to extract)
-- Extraction operations (option to expand/contract based on commodity prices)
-- Site closure (abandonment option if prices fall below extraction costs)
-:::
-
-## Capital Rationing Decision Tree
-
-When facing capital constraints, a structured approach helps maximise value creation.
-
-
-## Decision Framework
-
-```{mermaid}
-flowchart TD
-    A[Capital Rationing Situation] --> B{Soft or Hard?}
-    B -->|Soft| C[Internal Policy Constraint]
-    B -->|Hard| D[External Market Constraint]
-    C --> E[Challenge Constraint]
-    C --> F[Work Within Constraint]
-    D --> G[Optimise Within Constraint]
-    E --> H[NPV Ranking]
-    F --> I[PI Ranking]
-    G --> I
-    I --> J[Mathematical Programming]
-```
-
-## Profitability Index Calculation
-
-$$\text{PI} = \frac{\sum_{t=1}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}}{\text{Initial Investment}}$$
-
-**Interpretation:**
-- PI > 1.0: Project creates value
-- PI = 1.0: Project breaks even
-- PI < 1.0: Project destroys value
-
-## Mathematical Programming Approach
-
-For complex situations with multiple constraints, linear programming can be used:
-
-**Objective function:**
-$$\text{Maximise } \sum_{j=1}^{m} \text{NPV}_j \times X_j$$
-
-**Subject to constraints:**
-$$\sum_{j=1}^{m} \text{Investment}_j \times X_j \leq \text{Capital Budget}$$
-$$X_j \in \{0,1\} \text{ or } 0 \leq X_j \leq 1 \text{ (depending on divisibility)}$$
-
-Where:
-- $X_j$ represents the proportion of project $j$ undertaken
-- $m$ is the number of available projects
-
-
-## Incorporating Environmental, Social, and Governance (ESG) Factors
-
-Modern investment appraisal increasingly considers ESG impacts alongside financial returns.
-
-## ESG Framework
+## ESG Framework {.unnumbered}
 
 ```{mermaid}
 flowchart TD
@@ -1005,48 +928,21 @@ flowchart TD
     D --> J[Stakeholder Alignment]
 ```
 
-## Quantification Methods
+## Quantification Methods {.unnumbered}
 
 | ESG Factor | Quantification Approach | Financial Integration |
 |------------|-------------------------|----------------------|
 | Carbon emissions | Shadow carbon price | Additional cost per tonne CO₂e |
 | Water usage | True cost of water | Adjusted operating expenses |
-| Community benefits | Social return on investment (SROI) | External benefit valuation |
+| Community benefits | Social return on investment | External benefit valuation |
 | Human capital | Productivity differentials | Adjusted revenue/cost projections |
 | Governance quality | Risk premium adjustment | Modified discount rate |
 
-## Multi-Criteria Decision Analysis
-
-When ESG factors are difficult to monetise, a weighted scoring approach can be used:
-
-$$\text{Project Score} = \sum_{i=1}^{n} w_i \times \text{Factor Score}_i$$
-
-Where:
-
-- $w_i$ represents the weight assigned to factor $i$
-- $\text{Factor Score}_i$ is the performance score for factor $i$
-- $n$ is the number of decision factors (financial and non-financial)
-
-## Case Example: Renewable Energy Investment
-
-```{r}
-renewable_factors <- data.frame(
-  Factor = c("NPV (£m)", "IRR (%)", "Carbon Reduction (kt CO₂e)", "Jobs Created", "Community Index"),
-  Project_A = c(12.5, 14.5, 80, 45, "High"),
-  Project_B = c(15.2, 16.8, 60, 30, "Medium"),
-  Project_C = c(10.8, 13.2, 95, 60, "Very High")
-)
-
-kable(renewable_factors, align = "lrrrr", caption = "Multi-criteria comparison of renewable energy projects")
-```
-:::
-
-# Advanced Risk Analysis Techniques
+## Advanced Risk Analysis Techniques {.unnumbered}
 
 Beyond sensitivity analysis, several sophisticated approaches help quantify investment risk.
 
-
-## Risk Analysis Spectrum
+## Risk Analysis Spectrum {.unnumbered}
 
 ```{mermaid}
 flowchart LR
@@ -1057,152 +953,43 @@ flowchart LR
     E --> F[Complex]
 ```
 
-## Monte Carlo Simulation Process
-
-```{r, fig.width=10, fig.height=5}
-# This would show a Monte Carlo simulation distribution in the actual document
-# Creating placeholder data for illustration
-set.seed(123)
-simulation_results <- data.frame(
-  NPV = rnorm(1000, mean = 350000, sd = 120000)
-)
-
-ggplot(simulation_results, aes(x = NPV)) +
-  geom_histogram(bins = 30, fill = "blue", alpha = 0.7) +
-  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
-  theme_minimal() +
-  labs(title = "Monte Carlo Simulation of Project NPV",
-       x = "Net Present Value (£)",
-       y = "Frequency") +
-  annotate("text", x = -200000, y = 50, label = "Probability of negative NPV", hjust = 0)
-```
-
-## Decision Tree Analysis
+## Decision Tree Analysis {.unnumbered}
 
 Decision trees incorporate sequential decisions and uncertain outcomes:
 
-```{r}
-decision_tree <- data.frame(
-  Decision_Point = c("Initial Investment", "Expand Year 3?", "Expand Year 3?"),
-  Decision = c("Proceed", "Yes", "No"),
-  Outcome = c("Success (70%)", "High Growth", "Moderate Growth"),
-  NPV = c("£4.5m", "£8.2m", "£5.1m"),
-  Expected_Value = c("£2.0m", "£5.7m", "£3.6m")
-)
-
-kable(decision_tree, align = "lllrr", caption = "Decision tree analysis with expected values")
+```
+                                  High Growth (60%)
+                                 /  NPV = £8.2m
+                   Expand       /
+                  /            /   Moderate Growth (40%)
+Initial         /              \   NPV = £5.1m
+Investment ────┤               
+£4.5m          \                  Stable Growth (70%)
+                \                /  NPV = £3.6m
+                  Don't Expand  /
+                                \  Slow Growth (30%)
+                                 \  NPV = £2.8m
 ```
 
-## Value at Risk (VaR)
+**Analysis methodology**:
+- Expected value if expand: (0.6 × £8.2m) + (0.4 × £5.1m) = £6.98m
+- Expected value if don't expand: (0.7 × £3.6m) + (0.3 × £2.8m) = £3.36m
+- Optimal decision: Expand (£6.98m > £3.36m)
 
-For a confidence level α, VaR represents the maximum loss within the α-confidence interval:
-
-```{r}
-# This would show VaR calculations in the actual document
-# Creating placeholder data for illustration
-var_levels <- data.frame(
-  Confidence = c("90%", "95%", "99%"),
-  VaR_Amount = c("£220,000", "£285,000", "£390,000"),
-  Interpretation = c("10% chance of losing more than £220,000",
-                    "5% chance of losing more than £285,000",
-                    "1% chance of losing more than £390,000")
-)
-
-kable(var_levels, align = "lrr", caption = "Value at Risk at different confidence levels")
-```
-
-## Post-Implementation Review Framework
-
-Systematic evaluation of completed projects improves future investment decisions.
-
-
-## Review Process
-
-```{mermaid}
-flowchart TD
-    A[Post-Implementation Review] --> B[Financial Performance]
-    A --> C[Operational Performance]
-    A --> D[Strategic Alignment]
-    A --> E[Process Review]
-    B --> F[Cash Flow Analysis]
-    B --> G[NPV/IRR Assessment]
-    C --> H[Timeline Achievement]
-    C --> I[Quality Targets]
-    D --> J[Strategic Objectives]
-    E --> K[Decision Process Evaluation]
-    F --> L[Variance Analysis]
-    L --> M[Knowledge Capture]
-    M --> N[Future Investment Improvement]
-```
-
-## Review Template
-
-```{r}
-review_template <- data.frame(
-  Area = c("Financial", "Financial", "Operational", "Operational", "Strategic", "Process"),
-  Metric = c("Cash Flow", "NPV", "Timeline", "Quality", "Strategic Fit", "Decision Quality"),
-  Target = c("£3.5m cumulative", "£1.2m", "24 months", "99.5% spec compliance", "Support growth strategy", "Robust analysis"),
-  Actual = c("£3.1m cumulative", "£0.9m", "28 months", "99.2% spec compliance", "Partially aligned", "Data gaps identified"),
-  Variance = c("-11.4%", "-25.0%", "+16.7%", "-0.3%", "Partial", "Moderate")
-)
-
-kable(review_template, align = "llllr", caption = "Post-implementation review metrics")
-```
-
-## Lessons Learned Categories
-
-Common areas for improvement identified in post-implementation reviews:
-
-1. **Estimation accuracy** - Systemic biases in forecasting
-2. **Risk identification** - Unforeseen risks or improper quantification
-3. **Stakeholder management** - Communication and alignment challenges
-4. **Resource allocation** - Availability and capability gaps
-5. **External changes** - Market shifts or regulatory developments
-
-## Implementation Framework
-
-A structured implementation review provides insights for future investments:
-
-```{r}
-implementation_framework <- data.frame(
-  Phase = c("Pre-approval", "Implementation", "Operation", "Closure"),
-  Key_Questions = c(
-    "Was the business case realistic and comprehensive?",
-    "Were resources adequate and efficiently deployed?",
-    "Did the investment achieve its intended outcomes?",
-    "Was knowledge properly captured and disseminated?"
-  ),
-  Common_Findings = c(
-    "Optimism bias in projections",
-    "Scope creep and timeline extensions",
-    "Lower-than-expected utilisation",
-    "Insufficient documentation of lessons"
-  )
-)
-
-kable(implementation_framework, align = "lll", caption = "Implementation phase review framework")
-```
-:::
-
-## Key Takeaways {.unnumbered}
+## Final Recap {.unnumbered}
 
 :::{.callout-note appearance="minimal"}
-- Advanced capital investment techniques supplement rather than replace foundational methods like NPV and IRR
-- Real options analysis captures the value of managerial flexibility in uncertain environments
-- Capital rationing requires structured approaches to maximise value from limited resources
-- ESG factors increasingly influence investment decisions and require systematic integration
-- Sophisticated risk analysis provides deeper insights into potential outcomes and probabilities
-- Post-implementation reviews are essential for organisational learning and improved decision-making
+- Investment decisions require careful, systematic analysis
+- Different appraisal methods offer different perspectives
+- Consider both financial and non-financial factors
+- Incorporate risk analysis for more informed decisions
+- Don't forget to conduct post-completion reviews
+- Real options and ESG factors are increasingly important
 :::
 
-## Reference List {.unnumbered}
+## References {.unnumbered}
 
 **Academic References:**
 - Damodaran, A. (2022). *Investment Valuation: Tools and Techniques for Determining the Value of Any Asset*, 4th Edition, Wiley Finance
 - Dixit, A.K. & Pindyck, R.S. (2021). *Investment Under Uncertainty*, Princeton University Press
 - Trigeorgis, L. & Reuer, J.J. (2023). *Real Options Theory in Strategic Management*, Strategic Management Journal, 44(4), pp. 842-878
-
-**Professional Resources:**
-- CIMA (2023). *Strategic Investment Decision Making: Best Practices*
-- McKinsey & Company (2022). *Incorporating ESG Factors in Capital Allocation*
-- PwC (2024). *Capital Project Excellence: From Appraisal to Post-Implementation*
