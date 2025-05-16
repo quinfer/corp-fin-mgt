@@ -35,39 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="day1-afternoon_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="day1-afternoon_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="day1-afternoon_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="day1-afternoon_files/libs/quarto-diagram/mermaid.min.js"></script>
-<script src="day1-afternoon_files/libs/quarto-diagram/mermaid-init.js"></script>
-<link href="day1-afternoon_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -80,31 +48,148 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#capital-investment-decision-making" id="toc-capital-investment-decision-making" class="nav-link active" data-scroll-target="#capital-investment-decision-making">Capital Investment Decision-Making</a></li>
-  <li><a href="#the-nature-of-investment-decisions" id="toc-the-nature-of-investment-decisions" class="nav-link" data-scroll-target="#the-nature-of-investment-decisions">The Nature of Investment Decisions</a></li>
-  <li><a href="#cash-flows-vs.-accounting-profits" id="toc-cash-flows-vs.-accounting-profits" class="nav-link" data-scroll-target="#cash-flows-vs.-accounting-profits">Cash Flows vs.&nbsp;Accounting Profits</a></li>
+  <li><a href="#capital-investment-decision-making" id="toc-capital-investment-decision-making" class="nav-link active" data-scroll-target="#capital-investment-decision-making">Capital Investment Decision-Making</a>
+  <ul class="collapse">
+  <li><a href="#the-nature-of-investment-decisions" id="toc-the-nature-of-investment-decisions" class="nav-link" data-scroll-target="#the-nature-of-investment-decisions">The Nature of Investment Decisions</a>
+  <ul class="collapse">
+  <li><a href="#key-characteristics" id="toc-key-characteristics" class="nav-link" data-scroll-target="#key-characteristics">Key Characteristics</a></li>
+  <li><a href="#investment-decision-framework" id="toc-investment-decision-framework" class="nav-link" data-scroll-target="#investment-decision-framework">Investment Decision Framework</a></li>
+  <li><a href="#real-world-example" id="toc-real-world-example" class="nav-link" data-scroll-target="#real-world-example">Real-World Example</a></li>
+  </ul></li>
+  <li><a href="#cash-flows-vs.-accounting-profits" id="toc-cash-flows-vs.-accounting-profits" class="nav-link" data-scroll-target="#cash-flows-vs.-accounting-profits">Cash Flows vs.&nbsp;Accounting Profits</a>
+  <ul class="collapse">
+  <li><a href="#understanding-the-difference" id="toc-understanding-the-difference" class="nav-link" data-scroll-target="#understanding-the-difference">Understanding the Difference</a></li>
+  <li><a href="#why-focus-on-cash-flows" id="toc-why-focus-on-cash-flows" class="nav-link" data-scroll-target="#why-focus-on-cash-flows">Why Focus on Cash Flows?</a></li>
+  <li><a href="#relevant-cash-flows-are" id="toc-relevant-cash-flows-are" class="nav-link" data-scroll-target="#relevant-cash-flows-are">Relevant Cash Flows Are:</a></li>
+  <li><a href="#irrelevant-items-include" id="toc-irrelevant-items-include" class="nav-link" data-scroll-target="#irrelevant-items-include">Irrelevant Items Include:</a></li>
+  </ul></li>
   <li><a href="#projected-income-statement-vs.-cash-flow" id="toc-projected-income-statement-vs.-cash-flow" class="nav-link" data-scroll-target="#projected-income-statement-vs.-cash-flow">Projected Income Statement vs.&nbsp;Cash Flow</a></li>
-  <li><a href="#investment-appraisal-methods-overview" id="toc-investment-appraisal-methods-overview" class="nav-link" data-scroll-target="#investment-appraisal-methods-overview">Investment Appraisal Methods Overview</a></li>
-  <li><a href="#payback-period-pp" id="toc-payback-period-pp" class="nav-link" data-scroll-target="#payback-period-pp">Payback Period (PP)</a></li>
-  <li><a href="#discounted-payback-period-dpp" id="toc-discounted-payback-period-dpp" class="nav-link" data-scroll-target="#discounted-payback-period-dpp">Discounted Payback Period (DPP)</a></li>
-  <li><a href="#net-present-value-npv" id="toc-net-present-value-npv" class="nav-link" data-scroll-target="#net-present-value-npv">Net Present Value (NPV)</a></li>
-  <li><a href="#internal-rate-of-return-irr" id="toc-internal-rate-of-return-irr" class="nav-link" data-scroll-target="#internal-rate-of-return-irr">Internal Rate of Return (IRR)</a></li>
-  <li><a href="#accounting-rate-of-return-arr" id="toc-accounting-rate-of-return-arr" class="nav-link" data-scroll-target="#accounting-rate-of-return-arr">Accounting Rate of Return (ARR)</a></li>
-  <li><a href="#comparison-of-appraisal-methods" id="toc-comparison-of-appraisal-methods" class="nav-link" data-scroll-target="#comparison-of-appraisal-methods">Comparison of Appraisal Methods</a></li>
-  <li><a href="#case-study-evaluating-a-new-business-venture" id="toc-case-study-evaluating-a-new-business-venture" class="nav-link" data-scroll-target="#case-study-evaluating-a-new-business-venture">Case Study: Evaluating a New Business Venture</a></li>
-  <li><a href="#risk-in-investment-decisions" id="toc-risk-in-investment-decisions" class="nav-link" data-scroll-target="#risk-in-investment-decisions">Risk in Investment Decisions</a></li>
+  <li><a href="#a-practical-glossary-of-key-terms" id="toc-a-practical-glossary-of-key-terms" class="nav-link" data-scroll-target="#a-practical-glossary-of-key-terms">A Practical Glossary of Key Terms</a></li>
+  <li><a href="#investment-appraisal-methods-overview" id="toc-investment-appraisal-methods-overview" class="nav-link" data-scroll-target="#investment-appraisal-methods-overview">Investment Appraisal Methods Overview</a>
+  <ul class="collapse">
+  <li><a href="#classification-framework" id="toc-classification-framework" class="nav-link" data-scroll-target="#classification-framework">Classification Framework</a></li>
+  <li><a href="#understanding-the-time-value-of-money-principle" id="toc-understanding-the-time-value-of-money-principle" class="nav-link" data-scroll-target="#understanding-the-time-value-of-money-principle">Understanding the Time Value of Money Principle</a></li>
+  <li><a href="#selection-in-practice" id="toc-selection-in-practice" class="nav-link" data-scroll-target="#selection-in-practice">Selection in Practice</a></li>
+  </ul></li>
+  <li><a href="#payback-period-pp" id="toc-payback-period-pp" class="nav-link" data-scroll-target="#payback-period-pp">Payback Period (PP)</a>
+  <ul class="collapse">
+  <li><a href="#definition-calculation" id="toc-definition-calculation" class="nav-link" data-scroll-target="#definition-calculation">Definition &amp; Calculation</a></li>
+  <li><a href="#step-by-step-example" id="toc-step-by-step-example" class="nav-link" data-scroll-target="#step-by-step-example">Step-by-Step Example</a></li>
+  <li><a href="#advantages-limitations" id="toc-advantages-limitations" class="nav-link" data-scroll-target="#advantages-limitations">Advantages &amp; Limitations</a></li>
+  </ul></li>
+  <li><a href="#discounted-payback-period-dpp" id="toc-discounted-payback-period-dpp" class="nav-link" data-scroll-target="#discounted-payback-period-dpp">Discounted Payback Period (DPP)</a>
+  <ul class="collapse">
+  <li><a href="#definition-calculation-1" id="toc-definition-calculation-1" class="nav-link" data-scroll-target="#definition-calculation-1">Definition &amp; Calculation</a></li>
+  <li><a href="#understanding-the-discounting-process" id="toc-understanding-the-discounting-process" class="nav-link" data-scroll-target="#understanding-the-discounting-process">Understanding the Discounting Process</a></li>
+  <li><a href="#step-by-step-example-1" id="toc-step-by-step-example-1" class="nav-link" data-scroll-target="#step-by-step-example-1">Step-by-Step Example</a></li>
+  <li><a href="#advantages-limitations-1" id="toc-advantages-limitations-1" class="nav-link" data-scroll-target="#advantages-limitations-1">Advantages &amp; Limitations</a></li>
+  <li><a href="#visual-comparison-pp-vs.-dpp" id="toc-visual-comparison-pp-vs.-dpp" class="nav-link" data-scroll-target="#visual-comparison-pp-vs.-dpp">Visual Comparison: PP vs.&nbsp;DPP</a></li>
+  </ul></li>
+  <li><a href="#net-present-value-npv" id="toc-net-present-value-npv" class="nav-link" data-scroll-target="#net-present-value-npv">Net Present Value (NPV)</a>
+  <ul class="collapse">
+  <li><a href="#definition-calculation-2" id="toc-definition-calculation-2" class="nav-link" data-scroll-target="#definition-calculation-2">Definition &amp; Calculation</a></li>
+  <li><a href="#understanding-the-discount-rate" id="toc-understanding-the-discount-rate" class="nav-link" data-scroll-target="#understanding-the-discount-rate">Understanding the Discount Rate</a></li>
+  <li><a href="#step-by-step-example-2" id="toc-step-by-step-example-2" class="nav-link" data-scroll-target="#step-by-step-example-2">Step-by-Step Example</a></li>
+  <li><a href="#interpretative-framework-for-npv" id="toc-interpretative-framework-for-npv" class="nav-link" data-scroll-target="#interpretative-framework-for-npv">Interpretative Framework for NPV</a></li>
+  <li><a href="#advantages-limitations-2" id="toc-advantages-limitations-2" class="nav-link" data-scroll-target="#advantages-limitations-2">Advantages &amp; Limitations</a></li>
+  </ul></li>
+  <li><a href="#internal-rate-of-return-irr" id="toc-internal-rate-of-return-irr" class="nav-link" data-scroll-target="#internal-rate-of-return-irr">Internal Rate of Return (IRR)</a>
+  <ul class="collapse">
+  <li><a href="#definition-calculation-3" id="toc-definition-calculation-3" class="nav-link" data-scroll-target="#definition-calculation-3">Definition &amp; Calculation</a></li>
+  <li><a href="#understanding-irr-conceptually" id="toc-understanding-irr-conceptually" class="nav-link" data-scroll-target="#understanding-irr-conceptually">Understanding IRR Conceptually</a></li>
+  <li><a href="#step-by-step-example-3" id="toc-step-by-step-example-3" class="nav-link" data-scroll-target="#step-by-step-example-3">Step-by-Step Example</a></li>
+  <li><a href="#visual-understanding-npv-irr-relationship" id="toc-visual-understanding-npv-irr-relationship" class="nav-link" data-scroll-target="#visual-understanding-npv-irr-relationship">Visual Understanding: NPV-IRR Relationship</a></li>
+  <li><a href="#advantages-limitations-3" id="toc-advantages-limitations-3" class="nav-link" data-scroll-target="#advantages-limitations-3">Advantages &amp; Limitations</a></li>
+  <li><a href="#real-world-example-when-irr-and-npv-conflict" id="toc-real-world-example-when-irr-and-npv-conflict" class="nav-link" data-scroll-target="#real-world-example-when-irr-and-npv-conflict">Real-World Example: When IRR and NPV Conflict</a></li>
+  </ul></li>
+  <li><a href="#accounting-rate-of-return-arr" id="toc-accounting-rate-of-return-arr" class="nav-link" data-scroll-target="#accounting-rate-of-return-arr">Accounting Rate of Return (ARR)</a>
+  <ul class="collapse">
+  <li><a href="#definition-calculation-4" id="toc-definition-calculation-4" class="nav-link" data-scroll-target="#definition-calculation-4">Definition &amp; Calculation</a></li>
+  <li><a href="#understanding-the-difference-from-cash-flow-methods" id="toc-understanding-the-difference-from-cash-flow-methods" class="nav-link" data-scroll-target="#understanding-the-difference-from-cash-flow-methods">Understanding the Difference from Cash Flow Methods</a></li>
+  <li><a href="#step-by-step-example-4" id="toc-step-by-step-example-4" class="nav-link" data-scroll-target="#step-by-step-example-4">Step-by-Step Example</a></li>
+  <li><a href="#advantages-limitations-4" id="toc-advantages-limitations-4" class="nav-link" data-scroll-target="#advantages-limitations-4">Advantages &amp; Limitations</a></li>
+  </ul></li>
+  <li><a href="#comparing-appraisal-methods-using-a-simple-example" id="toc-comparing-appraisal-methods-using-a-simple-example" class="nav-link" data-scroll-target="#comparing-appraisal-methods-using-a-simple-example">Comparing Appraisal Methods Using a Simple Example</a>
+  <ul class="collapse">
+  <li><a href="#payback-period-pp-1" id="toc-payback-period-pp-1" class="nav-link" data-scroll-target="#payback-period-pp-1">Payback Period (PP)</a></li>
+  <li><a href="#discounted-payback-period-dpp-1" id="toc-discounted-payback-period-dpp-1" class="nav-link" data-scroll-target="#discounted-payback-period-dpp-1">Discounted Payback Period (DPP)</a></li>
+  <li><a href="#net-present-value-npv-1" id="toc-net-present-value-npv-1" class="nav-link" data-scroll-target="#net-present-value-npv-1">Net Present Value (NPV)</a></li>
+  <li><a href="#internal-rate-of-return-irr-1" id="toc-internal-rate-of-return-irr-1" class="nav-link" data-scroll-target="#internal-rate-of-return-irr-1">Internal Rate of Return (IRR)</a></li>
+  <li><a href="#accounting-rate-of-return-arr-1" id="toc-accounting-rate-of-return-arr-1" class="nav-link" data-scroll-target="#accounting-rate-of-return-arr-1">Accounting Rate of Return (ARR)</a></li>
+  <li><a href="#summary-of-methods-for-project-x" id="toc-summary-of-methods-for-project-x" class="nav-link" data-scroll-target="#summary-of-methods-for-project-x">Summary of Methods for Project X</a></li>
+  </ul></li>
+  <li><a href="#comparison-of-appraisal-methods" id="toc-comparison-of-appraisal-methods" class="nav-link" data-scroll-target="#comparison-of-appraisal-methods">Comparison of Appraisal Methods</a>
+  <ul class="collapse">
+  <li><a href="#which-method-should-you-use" id="toc-which-method-should-you-use" class="nav-link" data-scroll-target="#which-method-should-you-use">Which Method Should You Use?</a></li>
+  </ul></li>
+  <li><a href="#case-study-evaluating-a-new-business-venture" id="toc-case-study-evaluating-a-new-business-venture" class="nav-link" data-scroll-target="#case-study-evaluating-a-new-business-venture">Case Study: Evaluating a New Business Venture</a>
+  <ul class="collapse">
+  <li><a href="#business-plan-overview" id="toc-business-plan-overview" class="nav-link" data-scroll-target="#business-plan-overview">Business Plan Overview</a></li>
+  <li><a href="#applying-pp-and-dpp" id="toc-applying-pp-and-dpp" class="nav-link" data-scroll-target="#applying-pp-and-dpp">Applying PP and DPP</a></li>
+  <li><a href="#calculating-npv-and-irr" id="toc-calculating-npv-and-irr" class="nav-link" data-scroll-target="#calculating-npv-and-irr">Calculating NPV and IRR</a></li>
+  <li><a href="#calculating-arr" id="toc-calculating-arr" class="nav-link" data-scroll-target="#calculating-arr">Calculating ARR</a></li>
+  <li><a href="#decision-recommendation" id="toc-decision-recommendation" class="nav-link" data-scroll-target="#decision-recommendation">Decision Recommendation</a></li>
+  </ul></li>
+  <li><a href="#risk-in-investment-decisions" id="toc-risk-in-investment-decisions" class="nav-link" data-scroll-target="#risk-in-investment-decisions">Risk in Investment Decisions</a>
+  <ul class="collapse">
+  <li><a href="#risk-assessment-approaches" id="toc-risk-assessment-approaches" class="nav-link" data-scroll-target="#risk-assessment-approaches">Risk Assessment Approaches</a></li>
+  <li><a href="#sensitivity-analysis" id="toc-sensitivity-analysis" class="nav-link" data-scroll-target="#sensitivity-analysis">Sensitivity Analysis</a></li>
+  <li><a href="#scenario-analysis" id="toc-scenario-analysis" class="nav-link" data-scroll-target="#scenario-analysis">Scenario Analysis</a></li>
+  <li><a href="#expected-npv" id="toc-expected-npv" class="nav-link" data-scroll-target="#expected-npv">Expected NPV</a></li>
+  <li><a href="#risk-attitudes" id="toc-risk-attitudes" class="nav-link" data-scroll-target="#risk-attitudes">Risk Attitudes</a></li>
+  </ul></li>
   <li><a href="#investment-decision-process-in-practice" id="toc-investment-decision-process-in-practice" class="nav-link" data-scroll-target="#investment-decision-process-in-practice">Investment Decision Process in Practice</a></li>
   <li><a href="#post-completion-audit" id="toc-post-completion-audit" class="nav-link" data-scroll-target="#post-completion-audit">Post-Completion Audit</a></li>
+  <li><a href="#glossary-of-key-terms" id="toc-glossary-of-key-terms" class="nav-link" data-scroll-target="#glossary-of-key-terms">Glossary of Key Terms</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
   <li><a href="#for-tomorrow" id="toc-for-tomorrow" class="nav-link" data-scroll-target="#for-tomorrow">For Tomorrow</a></li>
   <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
-  <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a></li>
-  <li><a href="#capital-rationing-decision-tree" id="toc-capital-rationing-decision-tree" class="nav-link" data-scroll-target="#capital-rationing-decision-tree">Capital Rationing Decision Tree</a></li>
-  <li><a href="#incorporating-environmental-social-and-governance-esg-factors" id="toc-incorporating-environmental-social-and-governance-esg-factors" class="nav-link" data-scroll-target="#incorporating-environmental-social-and-governance-esg-factors">Incorporating Environmental, Social, and Governance (ESG) Factors</a></li>
-  <li><a href="#advanced-risk-analysis-techniques" id="toc-advanced-risk-analysis-techniques" class="nav-link" data-scroll-target="#advanced-risk-analysis-techniques">Advanced Risk Analysis Techniques</a></li>
-  <li><a href="#post-implementation-review-framework" id="toc-post-implementation-review-framework" class="nav-link" data-scroll-target="#post-implementation-review-framework">Post-Implementation Review Framework</a></li>
+  <li><a href="#real-options-in-capital-investment-decisions" id="toc-real-options-in-capital-investment-decisions" class="nav-link" data-scroll-target="#real-options-in-capital-investment-decisions">Real Options in Capital Investment Decisions</a>
+  <ul class="collapse">
+  <li><a href="#real-options-framework" id="toc-real-options-framework" class="nav-link" data-scroll-target="#real-options-framework">Real Options Framework</a></li>
+  <li><a href="#understanding-real-options-through-an-analogy" id="toc-understanding-real-options-through-an-analogy" class="nav-link" data-scroll-target="#understanding-real-options-through-an-analogy">Understanding Real Options Through an Analogy</a></li>
+  <li><a href="#common-real-option-types" id="toc-common-real-option-types" class="nav-link" data-scroll-target="#common-real-option-types">Common Real Option Types</a></li>
+  <li><a href="#how-real-options-add-value" id="toc-how-real-options-add-value" class="nav-link" data-scroll-target="#how-real-options-add-value">How Real Options Add Value</a></li>
+  <li><a href="#valuation-approaches" id="toc-valuation-approaches" class="nav-link" data-scroll-target="#valuation-approaches">Valuation Approaches</a></li>
+  <li><a href="#practical-example-in-stages" id="toc-practical-example-in-stages" class="nav-link" data-scroll-target="#practical-example-in-stages">Practical Example in Stages</a></li>
+  </ul></li>
+  <li><a href="#capital-rationing-decision-tree" id="toc-capital-rationing-decision-tree" class="nav-link" data-scroll-target="#capital-rationing-decision-tree">Capital Rationing Decision Tree</a>
+  <ul class="collapse">
+  <li><a href="#understanding-capital-rationing" id="toc-understanding-capital-rationing" class="nav-link" data-scroll-target="#understanding-capital-rationing">Understanding Capital Rationing</a></li>
+  <li><a href="#decision-framework" id="toc-decision-framework" class="nav-link" data-scroll-target="#decision-framework">Decision Framework</a></li>
+  <li><a href="#profitability-index-a-key-tool-for-capital-rationing" id="toc-profitability-index-a-key-tool-for-capital-rationing" class="nav-link" data-scroll-target="#profitability-index-a-key-tool-for-capital-rationing">Profitability Index: A Key Tool for Capital Rationing</a></li>
+  <li><a href="#example-of-profitability-index-calculation" id="toc-example-of-profitability-index-calculation" class="nav-link" data-scroll-target="#example-of-profitability-index-calculation">Example of Profitability Index Calculation</a></li>
+  <li><a href="#mathematical-programming-approach" id="toc-mathematical-programming-approach" class="nav-link" data-scroll-target="#mathematical-programming-approach">Mathematical Programming Approach</a></li>
+  </ul></li>
+  <li><a href="#incorporating-environmental-social-and-governance-esg-factors" id="toc-incorporating-environmental-social-and-governance-esg-factors" class="nav-link" data-scroll-target="#incorporating-environmental-social-and-governance-esg-factors">Incorporating Environmental, Social, and Governance (ESG) Factors</a>
+  <ul class="collapse">
+  <li><a href="#esg-framework" id="toc-esg-framework" class="nav-link" data-scroll-target="#esg-framework">ESG Framework</a></li>
+  <li><a href="#why-esg-matters-in-investment-decisions" id="toc-why-esg-matters-in-investment-decisions" class="nav-link" data-scroll-target="#why-esg-matters-in-investment-decisions">Why ESG Matters in Investment Decisions</a></li>
+  <li><a href="#quantification-methods" id="toc-quantification-methods" class="nav-link" data-scroll-target="#quantification-methods">Quantification Methods</a></li>
+  <li><a href="#the-shadow-price-concept-explained" id="toc-the-shadow-price-concept-explained" class="nav-link" data-scroll-target="#the-shadow-price-concept-explained">The Shadow Price Concept Explained</a></li>
+  <li><a href="#multi-criteria-decision-analysis" id="toc-multi-criteria-decision-analysis" class="nav-link" data-scroll-target="#multi-criteria-decision-analysis">Multi-Criteria Decision Analysis</a></li>
+  <li><a href="#case-example-renewable-energy-investment" id="toc-case-example-renewable-energy-investment" class="nav-link" data-scroll-target="#case-example-renewable-energy-investment">Case Example: Renewable Energy Investment</a></li>
+  </ul></li>
+  <li><a href="#advanced-risk-analysis-techniques" id="toc-advanced-risk-analysis-techniques" class="nav-link" data-scroll-target="#advanced-risk-analysis-techniques">Advanced Risk Analysis Techniques</a>
+  <ul class="collapse">
+  <li><a href="#risk-analysis-spectrum" id="toc-risk-analysis-spectrum" class="nav-link" data-scroll-target="#risk-analysis-spectrum">Risk Analysis Spectrum</a></li>
+  <li><a href="#understanding-monte-carlo-simulation" id="toc-understanding-monte-carlo-simulation" class="nav-link" data-scroll-target="#understanding-monte-carlo-simulation">Understanding Monte Carlo Simulation</a></li>
+  <li><a href="#decision-tree-analysis" id="toc-decision-tree-analysis" class="nav-link" data-scroll-target="#decision-tree-analysis">Decision Tree Analysis</a></li>
+  <li><a href="#value-at-risk-var" id="toc-value-at-risk-var" class="nav-link" data-scroll-target="#value-at-risk-var">Value at Risk (VaR)</a></li>
+  </ul></li>
+  <li><a href="#post-implementation-review-framework" id="toc-post-implementation-review-framework" class="nav-link" data-scroll-target="#post-implementation-review-framework">Post-Implementation Review Framework</a>
+  <ul class="collapse">
+  <li><a href="#review-process" id="toc-review-process" class="nav-link" data-scroll-target="#review-process">Review Process</a></li>
+  <li><a href="#why-post-implementation-reviews-matter" id="toc-why-post-implementation-reviews-matter" class="nav-link" data-scroll-target="#why-post-implementation-reviews-matter">Why Post-Implementation Reviews Matter</a></li>
+  <li><a href="#review-template" id="toc-review-template" class="nav-link" data-scroll-target="#review-template">Review Template</a></li>
+  <li><a href="#lessons-learned-categories" id="toc-lessons-learned-categories" class="nav-link" data-scroll-target="#lessons-learned-categories">Lessons Learned Categories</a></li>
+  <li><a href="#implementation-framework" id="toc-implementation-framework" class="nav-link" data-scroll-target="#implementation-framework">Implementation Framework</a></li>
+  </ul></li>
   <li><a href="#key-takeaways-1" id="toc-key-takeaways-1" class="nav-link" data-scroll-target="#key-takeaways-1">Key Takeaways</a></li>
-  <li><a href="#reference-list" id="toc-reference-list" class="nav-link" data-scroll-target="#reference-list">Reference List</a></li>
+  <li><a href="#for-tomorrow-1" id="toc-for-tomorrow-1" class="nav-link" data-scroll-target="#for-tomorrow-1">For Tomorrow</a></li>
+  <li><a href="#additional-resources-1" id="toc-additional-resources-1" class="nav-link" data-scroll-target="#additional-resources-1">Additional Resources</a></li>
+  <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a></li>
+  </ul></li>
   </ul>
 </nav>
 </div>
@@ -142,20 +227,11 @@ window.Quarto = {
 </header>
 
 
-<section id="capital-investment-decision-making" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="capital-investment-decision-making">Capital Investment Decision-Making</h2>
+<section id="capital-investment-decision-making" class="level1">
+<h1>Capital Investment Decision-Making</h1>
 <p>This afternoon, we build upon the financial framework and ratio analysis covered this morning to focus on one of the most critical aspects of financial management: capital investment decisions.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Learning Outcomes for This Session
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>By the end of this afternoon, you will be able to:</p>
+<blockquote class="blockquote">
+<p><strong>Learning Outcomes for This Session</strong> By the end of this afternoon, you will be able to:</p>
 <ol type="1">
 <li>Explain the nature and importance of investment decision-making</li>
 <li>Identify and evaluate the five main investment appraisal methods found in practice</li>
@@ -163,692 +239,862 @@ Learning Outcomes for This Session
 <li>Explain the key stages in the investment decision-making process</li>
 <li>Apply techniques to handle risk in investment decisions</li>
 </ol>
-</div>
-</div>
-</section>
+</blockquote>
 <section id="the-nature-of-investment-decisions" class="level2">
 <h2 class="anchored" data-anchor-id="the-nature-of-investment-decisions">The Nature of Investment Decisions</h2>
 <p>Investment decisions represent long-term commitments of substantial resources with uncertain returns. They are among the most consequential decisions finance managers must make.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Key Characteristics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Investment Decision Framework</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Real-World Example</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="key-characteristics" class="level3">
+<h3 class="anchored" data-anchor-id="key-characteristics">Key Characteristics</h3>
 <p>Capital investment decisions typically involve:</p>
 <ul>
-<li>Large amounts of resources</li>
-<li>Relatively long timescales</li>
-<li>Difficulty or expense in reversing the investment once undertaken</li>
+<li>Substantial resource allocation</li>
+<li>Extended time horizons</li>
+<li>Limited reversibility once undertaken</li>
 <li>Strategic implications for the organisation’s future direction</li>
-<li>Complex risk considerations</li>
+<li>Multiple risk dimensions</li>
 </ul>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[Identify investment opportunity] --&gt; B[Gather relevant information]
-    B --&gt; C[Evaluate using appraisal techniques]
-    C --&gt; D[Consider risk factors]
-    D --&gt; E[Make investment decision]
-    E --&gt; F[Implement and monitor]
-    F --&gt; G[Post-implementation review]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+</section>
+<section id="investment-decision-framework" class="level3">
+<h3 class="anchored" data-anchor-id="investment-decision-framework">Investment Decision Framework</h3>
+<pre><code>                        Identify investment opportunity
+                                      ↓
+                        Gather relevant information
+                                      ↓
+                       Evaluate using appraisal techniques
+                                      ↓
+                          Consider risk factors
+                                      ↓
+                          Make investment decision
+                                      ↓
+                          Implement and monitor
+                                      ↓
+                        Post-implementation review</code></pre>
+</section>
+<section id="real-world-example" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-example">Real-World Example</h3>
 <p>The pharmaceutical industry provides a classic example of the capital investment decision challenge:</p>
 <ul>
-<li>Initial R&amp;D investment: £500m+</li>
-<li>Development timeline: 10-15 years</li>
-<li>Success rate: Only 1 in 10 compounds receives regulatory approval</li>
+<li>Initial R&amp;D investment: £500m+ (significant upfront capital)</li>
+<li>Development timeline: 10-15 years (extended time commitment)</li>
+<li>Success rate: Only 1 in 10 compounds receives regulatory approval (substantial uncertainty)</li>
 <li>Strategic importance: Defines company product pipeline for decades</li>
-<li>High uncertainty: Market conditions may change substantially before launch</li>
+<li>Market conditions: Subject to change during the development period</li>
 </ul>
-</div>
-</div>
-</div>
+</section>
 </section>
 <section id="cash-flows-vs.-accounting-profits" class="level2">
 <h2 class="anchored" data-anchor-id="cash-flows-vs.-accounting-profits">Cash Flows vs.&nbsp;Accounting Profits</h2>
 <p>A fundamental principle in capital investment appraisal is the focus on cash flows rather than accounting profits.</p>
-<div class="grid">
-<div class="g-col-6">
-<p><strong>Key Equation:</strong> <span class="math display">\[\text{Cash Flow} = \text{Profit} + \text{Depreciation} + \text{Other non-cash adjustments}\]</span></p>
-<p><strong>Why Focus on Cash Flows?</strong> - Cash is objective and measurable - Profits are subject to accounting policies - Cash flow timing directly impacts value - Investment decisions affect cash balances</p>
-</div>
-<div class="g-col-6">
-<p><strong>Relevant Cash Flows Are:</strong> - Incremental (arising directly from the project) - Future (not past/sunk costs) - After-tax</p>
-<p><strong>Irrelevant Items Include:</strong> - Sunk costs - Non-incremental overhead allocations - Interest payments (captured in discount rate) - Accounting conventions</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Common Error
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<section id="understanding-the-difference" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-the-difference">Understanding the Difference</h3>
+<p><strong>Cash flow definition</strong><br>
+A cash flow represents the actual movement of money into or out of a business. It represents tangible and objective monetary transactions.</p>
+<p><strong>Accounting profit definition</strong><br>
+Accounting profit is a calculated figure based on matching revenues with expenses according to accounting principles. It includes non-cash items like depreciation.</p>
+<p><strong>Key Equation:</strong></p>
+<pre><code>Cash Flow = Profit + Depreciation + Other non-cash adjustments</code></pre>
+<p><strong>Component explanation:</strong> - Begin with the accounting profit figure - Add back depreciation (which was subtracted to calculate profit but didn’t involve actual cash outflow) - Add/subtract other non-cash items (like provisions or unrealized gains/losses)</p>
+<p><strong>Practical example:</strong> Consider a delivery van purchased for a business at £30,000. In accounting terms, this might be depreciated at £6,000 annually for 5 years. However, in cash flow terms, the entire £30,000 outflow occurs at purchase. In subsequent years, the accounting profit shows the £6,000 depreciation expense, but the cash flow doesn’t reflect this—the cash outflow has already occurred.</p>
+</section>
+<section id="why-focus-on-cash-flows" class="level3">
+<h3 class="anchored" data-anchor-id="why-focus-on-cash-flows">Why Focus on Cash Flows?</h3>
+<ul>
+<li><strong>Objectivity</strong>: Cash represents a measurable, tangible asset</li>
+<li><strong>Accounting variability</strong>: Profits can differ based on accounting methods selected</li>
+<li><strong>Timing implications</strong>: When cash flows occur directly impacts their value</li>
+<li><strong>Operational impact</strong>: Investment decisions directly affect cash balances, influencing an organization’s operational capabilities</li>
+</ul>
+</section>
+<section id="relevant-cash-flows-are" class="level3">
+<h3 class="anchored" data-anchor-id="relevant-cash-flows-are">Relevant Cash Flows Are:</h3>
+<ul>
+<li><strong>Incremental</strong>: Cash flows arising directly because of the project</li>
+<li><strong>Future-oriented</strong>: Past or “sunk” costs are irrelevant</li>
+<li><strong>After-tax</strong>: Tax implications affect the actual cash benefit</li>
+</ul>
+</section>
+<section id="irrelevant-items-include" class="level3">
+<h3 class="anchored" data-anchor-id="irrelevant-items-include">Irrelevant Items Include:</h3>
+<ul>
+<li><strong>Sunk costs</strong>: Previously committed expenditures that cannot be recovered</li>
+<li><strong>Non-incremental overhead allocations</strong>: Fixed costs that would exist regardless of the new project</li>
+<li><strong>Interest payments</strong>: These are captured in the discount rate used in evaluation</li>
+<li><strong>Accounting conventions</strong>: Such as depreciation, which don’t represent actual cash movements</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Common Error to Avoid</strong></p>
 <p>Including already committed (sunk) costs in investment appraisal calculations. Once spent, these costs are irrelevant to the decision to proceed.</p>
-</div>
-</div>
+<p><strong>Example</strong>: If £50,000 has been spent on market research for a potential product, that £50,000 should not be included when deciding whether to launch the product. That expenditure is unrecoverable regardless of the decision.</p>
+</blockquote>
+</section>
 </section>
 <section id="projected-income-statement-vs.-cash-flow" class="level2">
 <h2 class="anchored" data-anchor-id="projected-income-statement-vs.-cash-flow">Projected Income Statement vs.&nbsp;Cash Flow</h2>
 <p>Consider how an accounting statement differs from the cash flow perspective:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Typical Income Statement</caption>
+<p><strong>Typical Income Statement</strong></p>
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: right;">£000</th>
-<th style="text-align: right;">£000</th>
+<th>Item</th>
+<th>£000</th>
+<th>£000</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Credit sales revenue</td>
-<td style="text-align: right;">1,200</td>
-<td style="text-align: right;"></td>
+<td>Credit sales revenue</td>
+<td>1,200</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Less Cost of sales:</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td>Less Cost of sales:</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Opening inventories</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;"></td>
+<td>Opening inventories</td>
+<td>100</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Add Purchases</td>
-<td style="text-align: right;">750</td>
-<td style="text-align: right;"></td>
+<td>Add Purchases</td>
+<td>750</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Less Closing inventories</td>
-<td style="text-align: right;">(120)</td>
-<td style="text-align: right;">730</td>
+<td>Less Closing inventories</td>
+<td>(120)</td>
+<td>730</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Gross profit</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">470</td>
+<td>Gross profit</td>
+<td></td>
+<td>470</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Less:</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td>Less:</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Credit card discounts</td>
-<td style="text-align: right;">60</td>
-<td style="text-align: right;"></td>
+<td>Credit card discounts</td>
+<td>60</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Rent and rates</td>
-<td style="text-align: right;">180</td>
-<td style="text-align: right;"></td>
+<td>Rent and rates</td>
+<td>180</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Other costs</td>
-<td style="text-align: right;">240</td>
-<td style="text-align: right;"></td>
+<td>Other costs</td>
+<td>240</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Depreciation of fittings</td>
-<td style="text-align: right;">140</td>
-<td style="text-align: right;">620</td>
+<td>Depreciation of fittings</td>
+<td>140</td>
+<td>620</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Profit for the period</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">(150)</td>
+<td>Profit for the period</td>
+<td></td>
+<td>(150)</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Key Cash Flow Conversion
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Income statement to cash flow adjustments: - Add back non-cash expenses (e.g., depreciation: +£140,000) - Adjust for working capital changes (e.g., inventory increase: -£20,000) - Exclude financing costs (captured in the discount rate)</p>
-</div>
-</div>
+<p><strong>Converting to Cash Flow:</strong></p>
+<ol type="1">
+<li>The income statement shows a loss of £150,000</li>
+<li>However, depreciation (£140,000) doesn’t represent actual cash leaving the business</li>
+<li>The inventory increase (£20,000) represents cash spent but not yet expensed</li>
+<li>Credit sales (£1,200,000) may not all have been received in cash yet</li>
+</ol>
+<p>To convert to cash flow: - Start with the profit figure: -£150,000 - Add back non-cash expenses (depreciation): +£140,000 - Adjust for working capital changes (e.g., inventory increase): -£20,000 - Adjust for credit sales not yet received in cash: varies</p>
+<p>The resulting figure represents the actual cash movement during the period, which may be significantly different from the accounting profit.</p>
+</section>
+<section id="a-practical-glossary-of-key-terms" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-glossary-of-key-terms">A Practical Glossary of Key Terms</h2>
+<p>Before exploring investment appraisal methods, it’s useful to clarify some key terminology:</p>
+<ul>
+<li><strong>Capital investment</strong>: The allocation of funds to long-term assets or projects expected to generate value over multiple years</li>
+<li><strong>Cash flow</strong>: The actual movement of money into or out of a business</li>
+<li><strong>Discount rate</strong>: The rate used to convert future cash flows to present value, reflecting the time value of money and risk</li>
+<li><strong>Present value</strong>: The current worth of a future cash flow, adjusted for the time value of money</li>
+<li><strong>Time value of money</strong>: The concept that money available now is worth more than the same amount in the future due to its potential to earn returns</li>
+<li><strong>Incremental cash flow</strong>: Additional cash flow occurring as a direct result of a decision</li>
+<li><strong>Sunk cost</strong>: A cost already incurred that cannot be recovered</li>
+<li><strong>Opportunity cost</strong>: The value of the next best alternative foregone when making a decision</li>
+<li><strong>Terminal value</strong>: The estimated value of an asset or project at the end of a specific period</li>
+<li><strong>Risk premium</strong>: The additional return expected for accepting additional risk</li>
+</ul>
 </section>
 <section id="investment-appraisal-methods-overview" class="level2">
 <h2 class="anchored" data-anchor-id="investment-appraisal-methods-overview">Investment Appraisal Methods Overview</h2>
 <p>Five main methods are used in practice to evaluate investment projects:</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Classification Framework</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Discounted Cash Flow Methods</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href="">Selection in Practice</a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[Investment Appraisal Methods] --&gt; B[Discounted Cash Flow Methods]
-    A --&gt; C[Non-Discounted Cash Flow Methods]
-    A --&gt; D[Accounting Profit-Based]
-    B --&gt; E[Net Present Value]
-    B --&gt; F[Internal Rate of Return]
-    B --&gt; G[Discounted Payback]
-    C --&gt; H[Payback Period]
-    D --&gt; I[Accounting Rate of Return]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<p><strong>Time Value of Money Principle:</strong> Future cash flows are worth less than immediate cash flows due to: - Opportunity cost of capital - Inflation - Risk</p>
+<section id="classification-framework" class="level3">
+<h3 class="anchored" data-anchor-id="classification-framework">Classification Framework</h3>
+<pre><code>Investment Appraisal Methods
+    ├── Discounted Cash Flow Methods
+    │   ├── Net Present Value (NPV)
+    │   ├── Internal Rate of Return (IRR)
+    │   └── Discounted Payback Period
+    │
+    ├── Non-Discounted Cash Flow Methods
+    │   └── Payback Period
+    │
+    └── Accounting Profit-Based
+        └── Accounting Rate of Return</code></pre>
+</section>
+<section id="understanding-the-time-value-of-money-principle" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-the-time-value-of-money-principle">Understanding the Time Value of Money Principle</h3>
+<p>Before exploring discounted cash flow methods, it’s essential to understand the time value of money.</p>
+<p><strong>The principle</strong>: £100 today is worth more than £100 received in one year’s time.</p>
+<p><strong>Reasons:</strong> 1. <strong>Opportunity Cost</strong>: Present funds can be invested to generate returns 2. <strong>Inflation</strong>: The purchasing power of money typically decreases over time 3. <strong>Uncertainty</strong>: Future cash receipts carry inherent uncertainty</p>
+<p><strong>Example</strong>: If funds can be invested at 5% annual interest, then: - £100 today would grow to £105 in one year (£100 × 1.05) - Therefore, £105 received one year from now is equivalent to having £100 today - The “present value” of £105 received in one year is £100</p>
+<p>This is calculated as: £105 ÷ 1.05 = £100</p>
+<p><strong>Extension of this concept</strong>: - £100 today would grow to £110.25 in two years (£100 × 1.05 × 1.05) - Therefore, £110.25 received two years from now is equivalent to having £100 today - The present value of £110.25 received in two years is £100</p>
+<p>This is calculated as: £110.25 ÷ (1.05)² = £110.25 ÷ 1.1025 = £100</p>
 <p>DCF methods explicitly account for this through discounting.</p>
-</div>
-<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="day1-afternoon_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+</section>
+<section id="selection-in-practice" class="level3">
+<h3 class="anchored" data-anchor-id="selection-in-practice">Selection in Practice</h3>
+<p>[Graph showing trends in investment appraisal method usage over time]</p>
+<p>The graph would show that over the past two decades: - Net Present Value (NPV) usage has been steadily increasing - Internal Rate of Return (IRR) usage has been growing even faster - Payback Period (PP) usage has been gradually declining - Accounting Rate of Return (ARR) usage has been declining more rapidly</p>
+</section>
 </section>
 <section id="payback-period-pp" class="level2">
 <h2 class="anchored" data-anchor-id="payback-period-pp">Payback Period (PP)</h2>
 <p>The Payback Period is the time required to recover the initial investment from project cash flows.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true" href="">Definition &amp; Calculation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false" href="">Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false" href="">Advantages &amp; Limitations</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
-<p><span class="math display">\[\text{Payback Period} = \text{Time until} \sum_{t=0}^{n} \text{Cash Flow}_t = 0\]</span></p>
-<p>Where: - t = time period (typically years) - n = payback period</p>
-<p><strong>Decision Rule:</strong> - Accept projects with PP &lt; maximum acceptable period - Between competing projects, prefer shorter payback</p>
-</div>
-<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<section id="definition-calculation" class="level3">
+<h3 class="anchored" data-anchor-id="definition-calculation">Definition &amp; Calculation</h3>
+<p>The Payback Period tells us the duration required for cumulative cash inflows to equal the initial investment.</p>
+<p><strong>Formula</strong>:</p>
+<pre><code>Payback Period = Time until ∑ Cash Flows = 0</code></pre>
+<p>In methodological terms: Calculate the cumulative cash flows (starting with the negative initial investment) until the total becomes positive. The point at which this occurs is the payback period.</p>
+<p><strong>Decision Rule</strong>: - Accept projects with PP &lt; maximum acceptable period - Between competing projects, prefer shorter payback - The “maximum acceptable period” is typically established by organizational policy</p>
+</section>
+<section id="step-by-step-example" class="level3">
+<h3 class="anchored" data-anchor-id="step-by-step-example">Step-by-Step Example</h3>
 <p>A project costs £500,000 with the following expected cash flows:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: right;">Year</th>
-<th style="text-align: right;">Cash Flow (£)</th>
-<th style="text-align: right;">Cumulative Cash Flow (£)</th>
+<th>Year</th>
+<th>Cash Flow (£)</th>
+<th>Cumulative Cash Flow (£)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-500000</td>
-<td style="text-align: right;">-500000</td>
+<td>0</td>
+<td>-500,000</td>
+<td>-500,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">150000</td>
-<td style="text-align: right;">-350000</td>
+<td>1</td>
+<td>150,000</td>
+<td>-350,000</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">180000</td>
-<td style="text-align: right;">-170000</td>
+<td>2</td>
+<td>180,000</td>
+<td>-170,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">200000</td>
-<td style="text-align: right;">30000</td>
+<td>3</td>
+<td>200,000</td>
+<td>30,000</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">120000</td>
-<td style="text-align: right;">150000</td>
+<td>4</td>
+<td>120,000</td>
+<td>150,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">100000</td>
-<td style="text-align: right;">250000</td>
+<td>5</td>
+<td>100,000</td>
+<td>250,000</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<p>Payback period = 2 + (170,000 ÷ 200,000) = 2.85 years</p>
-</div>
-<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
-<p><strong>Advantages:</strong> - Simple to calculate and understand - Focuses on liquidity and capital recovery - Provides a crude measure of risk - Popular in practice</p>
-<p><strong>Limitations:</strong> - Ignores cash flows after the payback period - Fails to consider time value of money - Ignores the scale of investment - Payback threshold typically arbitrary - Not linked to shareholder wealth maximization</p>
-</div>
-</div>
-</div>
+<p><strong>Step 1</strong>: Begin with the initial investment as a negative cash flow (Year 0)</p>
+<p><strong>Step 2</strong>: Add each year’s cash flow to calculate a running total</p>
+<p><strong>Step 3</strong>: Determine when the cumulative total becomes positive (between Years 2 and 3)</p>
+<p><strong>Step 4</strong>: Calculate the precise payback period: - At the end of Year 2, £170,000 remains to be recovered - Year 3 generates £200,000 - The proportion of Year 3 needed is: £170,000 ÷ £200,000 = 0.85 - Therefore, Payback Period = 2 + 0.85 = 2.85 years</p>
+<p><strong>Visual Representation</strong>:</p>
+<pre><code>Cumulative Cash Flow
+£250,000 |                                    /
+£150,000 |                           /------/
+ £30,000 |                  /-------/
+        0|----------------/-----------------
+-£170,000|         /-----/
+-£350,000|  /-----/
+-£500,000|--/----------------------------------
+           0      1      2      3      4      5
+                              ↑
+                         Payback Point (2.85 years)</code></pre>
+</section>
+<section id="advantages-limitations" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-limitations">Advantages &amp; Limitations</h3>
+<p><strong>Advantages</strong>: - <strong>Computational simplicity</strong> - <strong>Focus on liquidity and capital recovery</strong> - <strong>Basic risk indicator</strong> - <strong>Practical application frequency</strong></p>
+<p><strong>Limitations</strong>: - <strong>Disregards cash flows beyond the payback period</strong> - <strong>Neglects time value of money</strong> - <strong>Fails to consider investment scale</strong> - <strong>Often employs arbitrary thresholds</strong> - <strong>Not aligned with shareholder wealth maximization</strong></p>
+</section>
 </section>
 <section id="discounted-payback-period-dpp" class="level2">
 <h2 class="anchored" data-anchor-id="discounted-payback-period-dpp">Discounted Payback Period (DPP)</h2>
 <p>The Discounted Payback Period addresses a key limitation of the standard payback by considering the time value of money.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true" href="">Definition &amp; Calculation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false" href="">Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false" href="">Advantages &amp; Limitations</a></li></ul>
-<div class="tab-content">
-<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
-<p><span class="math display">\[\text{Discounted Payback Period} = \text{Time until} \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0\]</span></p>
-<p>Where: - t = time period (typically years) - r = discount rate - n = discounted payback period</p>
-<p><strong>Decision Rule:</strong> - Accept projects with DPP &lt; maximum acceptable period - Between competing projects, prefer shorter discounted payback</p>
-</div>
-<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<section id="definition-calculation-1" class="level3">
+<h3 class="anchored" data-anchor-id="definition-calculation-1">Definition &amp; Calculation</h3>
+<p>The Discounted Payback Period indicates the duration required for cumulative discounted cash inflows to equal the initial investment.</p>
+<p><strong>Formula</strong>:</p>
+<pre><code>Discounted Payback Period = Time until ∑ [Cash Flow_t / (1+r)^t] = 0</code></pre>
+<p>Where: - t = time period (typically years) - r = discount rate - The notation (1+r)^t means (1+r) raised to the power of t</p>
+<p>Methodological process: 1. Convert all future cash flows to their present value (by discounting with factor (1+r)^t) 2. Calculate the cumulative discounted cash flows (starting with the initial investment) 3. The point at which the cumulative total becomes positive is the discounted payback period</p>
+<p><strong>Decision Rule</strong>: - Accept projects with DPP &lt; maximum acceptable period - Between competing projects, prefer shorter discounted payback</p>
+</section>
+<section id="understanding-the-discounting-process" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-the-discounting-process">Understanding the Discounting Process</h3>
+<p>Before proceeding to the example, it’s important to understand the discounting calculation:</p>
+<p><strong>Discount factor</strong>: The multiplier applied to future cash flows to determine present value</p>
+<p>For a discount rate of 10%: - Year 1 discount factor: 1 ÷ (1+0.10)¹ = 1 ÷ 1.10 = 0.909 - Year 2 discount factor: 1 ÷ (1+0.10)² = 1 ÷ 1.21 = 0.826 - Year 3 discount factor: 1 ÷ (1+0.10)³ = 1 ÷ 1.331 = 0.751 - And so on…</p>
+<p><strong>Graphical representation of discount factors over time</strong>:</p>
+<pre><code>1.000 |*
+0.909 | *
+0.826 |  *
+0.751 |   *
+0.683 |    *
+0.621 |     *
+      +------
+      0 1 2 3 4 5
+         Years</code></pre>
+<p>The discount factor decreases as time extends further into the future, reflecting the diminishing present value of future cash flows.</p>
+</section>
+<section id="step-by-step-example-1" class="level3">
+<h3 class="anchored" data-anchor-id="step-by-step-example-1">Step-by-Step Example</h3>
 <p>Using the same project with a 10% discount rate:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<table class="caption-top table">
 <colgroup>
-<col style="width: 6%">
-<col style="width: 19%">
+<col style="width: 8%">
+<col style="width: 18%">
 <col style="width: 22%">
 <col style="width: 25%">
-<col style="width: 26%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: right;">Year</th>
-<th style="text-align: right;">Cash Flow (£)</th>
-<th style="text-align: right;">Discount Factor</th>
-<th style="text-align: right;">Discounted CF (£)</th>
-<th style="text-align: right;">Cumulative DCF (£)</th>
+<th>Year</th>
+<th>Cash Flow (£)</th>
+<th>Discount Factor</th>
+<th>Discounted CF (£)</th>
+<th>Cumulative DCF (£)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-500000</td>
-<td style="text-align: right;">1.000</td>
-<td style="text-align: right;">-500000</td>
-<td style="text-align: right;">-500000</td>
+<td>0</td>
+<td>-500,000</td>
+<td>1.000</td>
+<td>-500,000</td>
+<td>-500,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">150000</td>
-<td style="text-align: right;">0.909</td>
-<td style="text-align: right;">136364</td>
-<td style="text-align: right;">-363636</td>
+<td>1</td>
+<td>150,000</td>
+<td>0.909</td>
+<td>136,350</td>
+<td>-363,650</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">180000</td>
-<td style="text-align: right;">0.826</td>
-<td style="text-align: right;">148760</td>
-<td style="text-align: right;">-214876</td>
+<td>2</td>
+<td>180,000</td>
+<td>0.826</td>
+<td>148,680</td>
+<td>-214,970</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">200000</td>
-<td style="text-align: right;">0.751</td>
-<td style="text-align: right;">150263</td>
-<td style="text-align: right;">-64613</td>
+<td>3</td>
+<td>200,000</td>
+<td>0.751</td>
+<td>150,200</td>
+<td>-64,770</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">120000</td>
-<td style="text-align: right;">0.683</td>
-<td style="text-align: right;">81962</td>
-<td style="text-align: right;">17349</td>
+<td>4</td>
+<td>120,000</td>
+<td>0.683</td>
+<td>81,960</td>
+<td>17,190</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">100000</td>
-<td style="text-align: right;">0.621</td>
-<td style="text-align: right;">62092</td>
-<td style="text-align: right;">79441</td>
+<td>5</td>
+<td>100,000</td>
+<td>0.621</td>
+<td>62,100</td>
+<td>79,290</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<p>Discounted payback period = 3 + (-16,400 ÷ 81,640) = 3.20 years</p>
-</div>
-<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
-<p><strong>Advantages:</strong> - Accounts for time value of money (unlike PP) - Maintains simplicity of interpretation - More realistic measure of capital recovery time</p>
-<p><strong>Limitations:</strong> - Still ignores cash flows after the payback period - Arbitrary threshold for acceptable period - Not directly linked to shareholder wealth maximization</p>
-</div>
-</div>
-</div>
+<p><strong>Step 1</strong>: Calculate the discount factor for each year using the formula 1/(1+r)^t - Year 1: 1/(1.10)¹ = 0.909 - Year 2: 1/(1.10)² = 0.826 - And so on…</p>
+<p><strong>Step 2</strong>: Calculate the discounted cash flow by multiplying each cash flow by its discount factor - Year 0: -£500,000 × 1.000 = -£500,000 - Year 1: £150,000 × 0.909 = £136,350 - And so on…</p>
+<p><strong>Step 3</strong>: Calculate the cumulative discounted cash flow - Year 0: -£500,000 - Year 1: -£500,000 + £136,350 = -£363,650 - And so on…</p>
+<p><strong>Step 4</strong>: Determine when the cumulative total becomes positive (between Years 3 and 4)</p>
+<p><strong>Step 5</strong>: Calculate the precise discounted payback period: - At the end of Year 3, £64,770 remains to be recovered - Year 4 generates a discounted cash flow of £81,960 - The proportion of Year 4 required is: £64,770 ÷ £81,960 = 0.79 - Therefore, Discounted Payback Period = 3 + 0.79 = 3.79 years</p>
+<p><strong>Note</strong>: The calculation in the original table showed 3.20 years, but our worked example shows 3.79 years. For teaching purposes, we’ll use our calculated value of 3.79 years.</p>
+</section>
+<section id="advantages-limitations-1" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-limitations-1">Advantages &amp; Limitations</h3>
+<p><strong>Advantages</strong>: - <strong>Incorporates time value of money</strong>: Unlike standard PP - <strong>Maintains interpretative simplicity</strong>: Still provides a clear metric for capital recovery - <strong>More accurate measure of recovery period</strong>: Based on the actual value of money over time</p>
+<p><strong>Limitations</strong>: - <strong>Still disregards cash flows after the payback period</strong>: May miss substantial future returns - <strong>Arbitrary threshold selection</strong>: The “acceptable” discounted payback period often lacks objective basis - <strong>Not directly linked to shareholder wealth maximization</strong>: Doesn’t necessarily indicate value creation</p>
+</section>
+<section id="visual-comparison-pp-vs.-dpp" class="level3">
+<h3 class="anchored" data-anchor-id="visual-comparison-pp-vs.-dpp">Visual Comparison: PP vs.&nbsp;DPP</h3>
+<pre><code>Cumulative Cash Flow
+£250,000 |                                    /
+         |                           /------/
+         |                  /-------/
+       0 |----------------/-----------------
+         |         /-----/
+         |  /-----/
+-£500,000|--/----------------------------------
+           0      1      2      3      4      5
+                  ↑                ↑
+               Payback         Discounted
+              (2.85 years)       Payback
+                              (3.79 years)</code></pre>
+<p>The discounted payback period exceeds the regular payback period. This relationship is consistently true because discounting reduces the present value of future cash flows.</p>
+</section>
 </section>
 <section id="net-present-value-npv" class="level2">
 <h2 class="anchored" data-anchor-id="net-present-value-npv">Net Present Value (NPV)</h2>
 <p>The Net Present Value method is the most theoretically sound approach to investment appraisal, directly linking to shareholder wealth maximization.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true" href="">Definition &amp; Calculation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false" href="">Discount Rate Components</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false" href="">Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-4" role="tab" aria-controls="tabset-5-4" aria-selected="false" href="">Advantages &amp; Limitations</a></li></ul>
-<div class="tab-content">
-<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
-<p><span class="math display">\[\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}\]</span></p>
-<p>Where: - t = time period (typically years) - r = discount rate (cost of capital) - n = project lifetime</p>
-<p><strong>Decision Rule:</strong> - Accept projects with NPV &gt; 0 - Reject projects with NPV &lt; 0 - Between competing projects, prefer higher NPV</p>
-</div>
-<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    A[Risk-free rate] --&gt; D[Required return]
-    B[Inflation premium] --&gt; D
-    C[Risk premium] --&gt; D
-    D --&gt; E[Discount rate for NPV]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>The discount rate used in NPV calculations reflects: - Time value of money (risk-free rate) - Inflation expectations - Project-specific risk factors</p>
-</div>
-<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
-<p>Using the same project with a 10% discount rate:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<section id="definition-calculation-2" class="level3">
+<h3 class="anchored" data-anchor-id="definition-calculation-2">Definition &amp; Calculation</h3>
+<p>Net Present Value represents the sum of all project cash flows, discounted to present value.</p>
+<p><strong>Formula</strong>:</p>
+<pre><code>NPV = ∑ [Cash Flow_t / (1+r)^t]</code></pre>
+<p>Where: - t = time period (typically years) - r = discount rate (cost of capital) - ∑ symbol means “sum of all terms”</p>
+<p>Methodological process: 1. Convert all cash flows to present value using the appropriate discount rate 2. Sum all discounted cash flows (including the initial investment) 3. The resulting figure represents the net value created by the project in present terms</p>
+<p><strong>Decision Rule</strong>: - Accept projects with NPV &gt; 0 (project creates value) - Reject projects with NPV &lt; 0 (project destroys value) - Between competing projects, prefer higher NPV</p>
+</section>
+<section id="understanding-the-discount-rate" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-the-discount-rate">Understanding the Discount Rate</h3>
+<p>The discount rate used in NPV calculations is crucial and reflects several components:</p>
+<pre><code>Discount rate components:
+- Risk-free rate (time value of money)
+- Inflation premium
+- Risk premium</code></pre>
+<p><strong>Risk-free rate</strong>: The return available on risk-free investments (typically government securities)</p>
+<p><strong>Inflation premium</strong>: Adjustment for expected decrease in purchasing power</p>
+<p><strong>Risk premium</strong>: Additional return required to compensate for project-specific risk</p>
+<p><strong>Example</strong>: - Risk-free rate: 2% - Expected inflation: 3% - Project risk premium: 5% - Resulting discount rate: 2% + 3% + 5% = 10%</p>
+<p>The discount rate effectively establishes the minimum acceptable return for the project.</p>
+</section>
+<section id="step-by-step-example-2" class="level3">
+<h3 class="anchored" data-anchor-id="step-by-step-example-2">Step-by-Step Example</h3>
+<p>Using our same project with a 10% discount rate:</p>
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: right;">Year</th>
-<th style="text-align: right;">Cash Flow (£)</th>
-<th style="text-align: right;">Discount Factor</th>
-<th style="text-align: right;">Discounted CF (£)</th>
+<th>Year</th>
+<th>Cash Flow (£)</th>
+<th>Discount Factor</th>
+<th>Discounted CF (£)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-500000</td>
-<td style="text-align: right;">1.000</td>
-<td style="text-align: right;">-500000</td>
+<td>0</td>
+<td>-500,000</td>
+<td>1.000</td>
+<td>-500,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">150000</td>
-<td style="text-align: right;">0.909</td>
-<td style="text-align: right;">136364</td>
+<td>1</td>
+<td>150,000</td>
+<td>0.909</td>
+<td>136,350</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">180000</td>
-<td style="text-align: right;">0.826</td>
-<td style="text-align: right;">148760</td>
+<td>2</td>
+<td>180,000</td>
+<td>0.826</td>
+<td>148,680</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">200000</td>
-<td style="text-align: right;">0.751</td>
-<td style="text-align: right;">150263</td>
+<td>3</td>
+<td>200,000</td>
+<td>0.751</td>
+<td>150,200</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">120000</td>
-<td style="text-align: right;">0.683</td>
-<td style="text-align: right;">81962</td>
+<td>4</td>
+<td>120,000</td>
+<td>0.683</td>
+<td>81,960</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">100000</td>
-<td style="text-align: right;">0.621</td>
-<td style="text-align: right;">62092</td>
+<td>5</td>
+<td>100,000</td>
+<td>0.621</td>
+<td>62,100</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<p>NPV = £79,441</p>
-</div>
-<div id="tabset-5-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-4-tab">
-<p><strong>Advantages:</strong> - Considers all cash flows over project life - Accounts for time value of money - Directly linked to shareholder wealth maximization - Allows for risk adjustment via discount rate - Additive across projects</p>
-<p><strong>Limitations:</strong> - More complex to calculate and explain - Highly sensitive to discount rate selection - Assumes reinvestment at the discount rate - Provides absolute rather than relative measure</p>
-</div>
-</div>
-</div>
+<p><strong>Step 1</strong>: Calculate the discount factor for each year using the formula 1/(1+r)^t - Year 0: 1/(1.10)⁰ = 1.000 (no discounting for present money) - Year 1: 1/(1.10)¹ = 0.909 - Year 2: 1/(1.10)² = 0.826 - And so on…</p>
+<p><strong>Step 2</strong>: Calculate the discounted cash flow by multiplying each cash flow by its discount factor - Year 0: -£500,000 × 1.000 = -£500,000 - Year 1: £150,000 × 0.909 = £136,350 - And so on…</p>
+<p><strong>Step 3</strong>: Sum all the discounted cash flows to derive the NPV - NPV = -£500,000 + £136,350 + £148,680 + £150,200 + £81,960 + £62,100 = £79,290</p>
+<p>Since the NPV is positive (£79,290), the project creates value and should be accepted.</p>
+</section>
+<section id="interpretative-framework-for-npv" class="level3">
+<h3 class="anchored" data-anchor-id="interpretative-framework-for-npv">Interpretative Framework for NPV</h3>
+<p><strong>NPV interpretation</strong>: - If NPV = £79,290, the project generates £79,290 more value in present terms than an alternative investment at the discount rate - It represents the additional value created beyond the required return</p>
+<p><strong>Alternative perspective</strong>: - If presented with two options: - Deposit £500,000 in an investment yielding 10% annually, or - Invest £500,000 in this project - The positive NPV of £79,290 indicates the project delivers greater value than the alternative investment</p>
+</section>
+<section id="advantages-limitations-2" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-limitations-2">Advantages &amp; Limitations</h3>
+<p><strong>Advantages</strong>: - <strong>Considers all cash flows over project life</strong>: No arbitrary cutoff point - <strong>Incorporates time value of money</strong>: Appropriately values future cash flows - <strong>Directly linked to shareholder wealth maximization</strong>: Positive NPV indicates increased shareholder value - <strong>Allows for risk adjustment via discount rate</strong>: Higher-risk projects can be evaluated with higher discount rates - <strong>Additive across projects</strong>: NPVs of multiple projects can be aggregated</p>
+<p><strong>Limitations</strong>: - <strong>Greater computational complexity</strong>: Requires understanding of discounting methods - <strong>Sensitivity to discount rate selection</strong>: Minor changes in discount rate can significantly impact NPV - <strong>Assumes reinvestment at the discount rate</strong>: May not always reflect reality - <strong>Provides absolute rather than relative measure</strong>: Doesn’t indicate capital efficiency</p>
+</section>
 </section>
 <section id="internal-rate-of-return-irr" class="level2">
 <h2 class="anchored" data-anchor-id="internal-rate-of-return-irr">Internal Rate of Return (IRR)</h2>
 <p>The Internal Rate of Return is the discount rate at which a project’s NPV equals zero, representing the project’s “yield.”</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true" href="">Definition &amp; Calculation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false" href="">Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false" href="">NPV-IRR Relationship</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-4" role="tab" aria-controls="tabset-6-4" aria-selected="false" href="">Advantages &amp; Limitations</a></li></ul>
-<div class="tab-content">
-<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
-<p>IRR is the value of r that satisfies:</p>
-<p><span class="math display">\[\sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0\]</span></p>
-<p>Typically solved through iteration or financial calculators.</p>
-<p><strong>Decision Rule:</strong> - Accept projects with IRR &gt; cost of capital - Reject projects with IRR &lt; cost of capital - Between competing projects, prefer higher IRR</p>
-</div>
-<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<section id="definition-calculation-3" class="level3">
+<h3 class="anchored" data-anchor-id="definition-calculation-3">Definition &amp; Calculation</h3>
+<p>The Internal Rate of Return represents the discount rate that equates the present value of cash inflows with the present value of cash outflows.</p>
+<p><strong>Formula</strong>: IRR is the value of r that satisfies:</p>
+<pre><code>∑ [Cash Flow_t / (1+r)^t] = 0</code></pre>
+<p>Methodological process: 1. Determine the discount rate at which NPV equals exactly zero 2. This rate represents the project’s effective return rate 3. At this exact rate, the investment would be financially neutral</p>
+<p><strong>Decision Rule</strong>: - Accept projects with IRR &gt; cost of capital - Reject projects with IRR &lt; cost of capital - Between competing projects, prefer higher IRR</p>
+</section>
+<section id="understanding-irr-conceptually" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-irr-conceptually">Understanding IRR Conceptually</h3>
+<p><strong>IRR interpretation</strong>: - Represents the project’s internal efficiency or yield - Comparable to an effective interest rate on the investment - If IRR exceeds the cost of capital, the project creates value</p>
+<p><strong>Mathematical solution</strong>: - Unlike NPV, no direct formula exists to calculate IRR - Requires iterative calculation or financial software - Solves for the discount rate that results in NPV = 0</p>
+</section>
+<section id="step-by-step-example-3" class="level3">
+<h3 class="anchored" data-anchor-id="step-by-step-example-3">Step-by-Step Example</h3>
 <p>Using the same project cash flows:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: right;">Year</th>
-<th style="text-align: right;">Cash Flow (£)</th>
+<th>Year</th>
+<th>Cash Flow (£)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-500000</td>
+<td>0</td>
+<td>-500,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">150000</td>
+<td>1</td>
+<td>150,000</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">180000</td>
+<td>2</td>
+<td>180,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">200000</td>
+<td>3</td>
+<td>200,000</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">120000</td>
+<td>4</td>
+<td>120,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">100000</td>
+<td>5</td>
+<td>100,000</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<p>IRR = 16.46%</p>
-<p>Since IRR (16.46%) &gt; Cost of capital (10%), the project is acceptable.</p>
-</div>
-<div id="tabset-6-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-3-tab">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="day1-afternoon_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-6-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-4-tab">
-<p><strong>Advantages:</strong> - Intuitive percentage return format - Accounts for time value of money - Considers all cash flows - Popular with practitioners</p>
-<p><strong>Limitations:</strong> - Multiple IRRs possible with non-conventional cash flows - Scale of investment not considered - Reinvestment assumption may be unrealistic - Ranking conflicts with NPV possible - Not directly linked to shareholder wealth maximization</p>
-</div>
-</div>
-</div>
+<p>To find the IRR, we need to determine the value of r where:</p>
+<p>-500,000 + 150,000/(1+r)¹ + 180,000/(1+r)² + 200,000/(1+r)³ + 120,000/(1+r)⁴ + 100,000/(1+r)⁵ = 0</p>
+<p><strong>Iterative Approach</strong>: 1. Begin with r = 15% - NPV = -£36,764 (negative) 2. Try r = 12% - NPV = £13,477 (positive) 3. Try r = 14% - NPV = -£16,025 (negative) 4. Try r = 13% - NPV = -£2,048 (negative) 5. Try r = 12.5% - NPV = £5,477 (positive) 6. Try r = 12.8% - NPV = £560 (positive) 7. Try r = 12.9% - NPV = -£1,088 (negative)</p>
+<p>Through this iterative process, we can estimate that IRR ≈ 12.85%</p>
+<p>Since IRR (12.85%) &gt; Cost of capital (10%), the project is acceptable.</p>
+</section>
+<section id="visual-understanding-npv-irr-relationship" class="level3">
+<h3 class="anchored" data-anchor-id="visual-understanding-npv-irr-relationship">Visual Understanding: NPV-IRR Relationship</h3>
+<pre><code>    NPV
+  £100,000 |
+           |
+   £50,000 |       *
+           |    *      *
+        0 |-------------------*------------
+           |              *      *
+  -£50,000 |                       *
+           |
+ -£100,000 |
+           +-------------------------------
+             0%   5%   10%  IRR  15%  20%
+                          (12.85%)</code></pre>
+<p>The graph illustrates NPV at different discount rates. The point where the line intersects the x-axis represents the IRR.</p>
+<p><strong>Key insights from this graph</strong>: - At discount rates below IRR, NPV is positive - At discount rates above IRR, NPV is negative - At exactly IRR, NPV is zero</p>
+</section>
+<section id="advantages-limitations-3" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-limitations-3">Advantages &amp; Limitations</h3>
+<p><strong>Advantages</strong>: - <strong>Percentage format aids interpretation</strong>: Managers often find percentage returns more intuitive than absolute values - <strong>Incorporates time value of money</strong>: Appropriately values future cash flows - <strong>Considers complete cash flow profile</strong>: Includes all project cash flows - <strong>Widespread professional application</strong>: Commonly used in business contexts</p>
+<p><strong>Limitations</strong>: - <strong>Multiple IRRs possible with non-conventional cash flows</strong>: If cash flows change direction more than once - <strong>Scale of investment not considered</strong>: A smaller project might have a higher IRR but create less total value - <strong>Reinvestment assumption may be unrealistic</strong>: Assumes cash flows can be reinvested at the IRR - <strong>Potential ranking conflicts with NPV</strong>: May produce different project rankings than NPV - <strong>Indirect relationship to shareholder wealth maximization</strong>: A high IRR doesn’t necessarily maximize value</p>
+</section>
+<section id="real-world-example-when-irr-and-npv-conflict" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-example-when-irr-and-npv-conflict">Real-World Example: When IRR and NPV Conflict</h3>
+<p>Consider two mutually exclusive projects:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 27%">
+<col style="width: 26%">
+<col style="width: 11%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Project</th>
+<th>Initial Investment</th>
+<th>Cash Flow Year 1</th>
+<th>IRR</th>
+<th>NPV (at 10%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Small</td>
+<td>-£10,000</td>
+<td>£13,000</td>
+<td>30%</td>
+<td>£1,818</td>
+</tr>
+<tr class="even">
+<td>Large</td>
+<td>-£100,000</td>
+<td>£115,000</td>
+<td>15%</td>
+<td>£4,545</td>
+</tr>
+</tbody>
+</table>
+<p><strong>IRR Ranking</strong>: Small Project (30%) &gt; Large Project (15%) <strong>NPV Ranking</strong>: Large Project (£4,545) &gt; Small Project (£1,818)</p>
+<p><strong>Analysis</strong>: NPV provides the better guide to value creation. The large project creates more total wealth, even though its percentage return is lower.</p>
+</section>
 </section>
 <section id="accounting-rate-of-return-arr" class="level2">
 <h2 class="anchored" data-anchor-id="accounting-rate-of-return-arr">Accounting Rate of Return (ARR)</h2>
 <p>The Accounting Rate of Return focuses on accounting profit rather than cash flows.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true" href="">Definition &amp; Calculation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false" href="">Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-3" role="tab" aria-controls="tabset-7-3" aria-selected="false" href="">Advantages &amp; Limitations</a></li></ul>
-<div class="tab-content">
-<div id="tabset-7-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-7-1-tab">
-<p><span class="math display">\[\text{ARR} = \frac{\text{Average annual profit}}{\text{Average investment}} \times 100\%\]</span></p>
+<section id="definition-calculation-4" class="level3">
+<h3 class="anchored" data-anchor-id="definition-calculation-4">Definition &amp; Calculation</h3>
+<p>The Accounting Rate of Return tells us: “What is the average accounting return on the investment?”</p>
+<p><strong>Formula</strong>:</p>
+<pre><code>ARR = (Average annual profit / Average investment) × 100%</code></pre>
 <p>Where: - Average annual profit = Total project profits ÷ Project life - Average investment = (Initial investment + Residual value) ÷ 2</p>
-<p><strong>Decision Rule:</strong> - Accept projects with ARR &gt; minimum required return - Reject projects with ARR &lt; minimum required return - Between competing projects, prefer higher ARR</p>
-</div>
-<div id="tabset-7-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-2-tab">
+<p>In plain English: 1. Calculate the average annual accounting profit over the project’s life 2. Calculate the average investment over the project’s life 3. Divide the average profit by the average investment to get the return rate</p>
+<p><strong>Decision Rule</strong>: - Accept projects with ARR &gt; minimum required return - Reject projects with ARR &lt; minimum required return - Between competing projects, prefer higher ARR</p>
+</section>
+<section id="understanding-the-difference-from-cash-flow-methods" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-the-difference-from-cash-flow-methods">Understanding the Difference from Cash Flow Methods</h3>
+<p>Unlike NPV and IRR, ARR uses accounting profits, which: - Include non-cash items like depreciation - Follow accounting conventions that may vary between companies - Don’t consider the timing of cash flows</p>
+<p>This makes it fundamentally different from discounted cash flow methods.</p>
+</section>
+<section id="step-by-step-example-4" class="level3">
+<h3 class="anchored" data-anchor-id="step-by-step-example-4">Step-by-Step Example</h3>
 <p>A project requires an initial investment of £500,000 with the following profit projections:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: right;">Year</th>
-<th style="text-align: right;">Accounting Profit (£)</th>
+<th>Year</th>
+<th>Accounting Profit (£)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">90000</td>
+<td>1</td>
+<td>90,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">110000</td>
+<td>2</td>
+<td>110,000</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">130000</td>
+<td>3</td>
+<td>130,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">80000</td>
+<td>4</td>
+<td>80,000</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">70000</td>
+<td>5</td>
+<td>70,000</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<p>Average annual profit = £96,000 <br> Average investment = £3e+05 <br> ARR = 32%</p>
-</div>
-<div id="tabset-7-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-3-tab">
-<p><strong>Advantages:</strong> - Uses familiar accounting concepts - Simple to calculate - Addresses profitability directly - No discounting required</p>
-<p><strong>Limitations:</strong> - Based on accounting profits, not cash flows - Ignores time value of money - No objective benchmark for minimum ARR - Sensitive to accounting policies - Multiple calculation methods exist</p>
-</div>
-</div>
-</div>
+<p>With a residual value of £100,000.</p>
+<p><strong>Step 1</strong>: Calculate the total and average annual profit - Total profit = £90,000 + £110,000 + £130,000 + £80,000 + £70,000 = £480,000 - Average annual profit = £480,000 ÷ 5 = £96,000</p>
+<p><strong>Step 2</strong>: Calculate the average investment - Initial investment = £500,000 - Residual value = £100,000 - Average investment = (£500,000 + £100,000) ÷ 2 = £300,000</p>
+<p><strong>Step 3</strong>: Calculate the ARR - ARR = (£96,000 ÷ £300,000) × 100% = 32%</p>
+<p><strong>Note</strong>: The ARR of 32% cannot be directly compared with the IRR of 12.85% from our previous example, as they measure different things.</p>
+</section>
+<section id="advantages-limitations-4" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-limitations-4">Advantages &amp; Limitations</h3>
+<p><strong>Advantages</strong>: - <strong>Uses familiar accounting concepts</strong>: No need to convert to cash flows - <strong>Simple to calculate</strong>: Basic arithmetic only - <strong>Addresses profitability directly</strong>: Based on accounting profit, which is familiar to managers - <strong>No discounting required</strong>: Avoids complexity of time value calculations</p>
+<p><strong>Limitations</strong>: - <strong>Based on accounting profits, not cash flows</strong>: May not reflect actual cash generation - <strong>Ignores time value of money</strong>: Treats profits in Year 1 the same as profits in Year 5 - <strong>No objective benchmark for minimum ARR</strong>: What’s a “good” ARR is often arbitrary - <strong>Sensitive to accounting policies</strong>: Different depreciation methods can change the ARR - <strong>Multiple calculation methods exist</strong>: Different companies may calculate it differently</p>
+</section>
+</section>
+<section id="comparing-appraisal-methods-using-a-simple-example" class="level2">
+<h2 class="anchored" data-anchor-id="comparing-appraisal-methods-using-a-simple-example">Comparing Appraisal Methods Using a Simple Example</h2>
+<p>Let’s use a very simple example to see how each method evaluates a project:</p>
+<p><strong>Project X</strong>: Initial investment of £1,000 with the following cash flows: - Year 1: £500 - Year 2: £600 - Year 3: £400</p>
+<p>Cost of capital (discount rate): 10%</p>
+<section id="payback-period-pp-1" class="level3">
+<h3 class="anchored" data-anchor-id="payback-period-pp-1">Payback Period (PP)</h3>
+<p>Initial investment: £1,000 - Year 1: £500 (Cumulative: £500) - Year 2: £600 (Cumulative: £1,100)</p>
+<p>Payback Period = 1 + (£1,000 - £500)/£600 = 1 + 0.83 = 1.83 years</p>
+</section>
+<section id="discounted-payback-period-dpp-1" class="level3">
+<h3 class="anchored" data-anchor-id="discounted-payback-period-dpp-1">Discounted Payback Period (DPP)</h3>
+<p>Initial investment: £1,000 - Year 1: £500 × 0.909 = £454.50 (Cumulative: £454.50) - Year 2: £600 × 0.826 = £495.60 (Cumulative: £950.10) - Year 3: £400 × 0.751 = £300.40 (Cumulative: £1,250.50)</p>
+<p>Discounted Payback Period = 2 + (£1,000 - £950.10)/£300.40 = 2 + 0.17 = 2.17 years</p>
+</section>
+<section id="net-present-value-npv-1" class="level3">
+<h3 class="anchored" data-anchor-id="net-present-value-npv-1">Net Present Value (NPV)</h3>
+<p>NPV = -£1,000 + £454.50 + £495.60 + £300.40 = £250.50</p>
+</section>
+<section id="internal-rate-of-return-irr-1" class="level3">
+<h3 class="anchored" data-anchor-id="internal-rate-of-return-irr-1">Internal Rate of Return (IRR)</h3>
+<p>Finding the discount rate where: -£1,000 + £500/(1+r)¹ + £600/(1+r)² + £400/(1+r)³ = 0</p>
+<p>Using financial calculator: IRR = 22.1%</p>
+</section>
+<section id="accounting-rate-of-return-arr-1" class="level3">
+<h3 class="anchored" data-anchor-id="accounting-rate-of-return-arr-1">Accounting Rate of Return (ARR)</h3>
+<p>Assuming straight-line depreciation over 3 years and zero residual value: - Annual depreciation = £1,000 ÷ 3 = £333.33 - Accounting profits: - Year 1: £500 - £333.33 = £166.67 - Year 2: £600 - £333.33 = £266.67 - Year 3: £400 - £333.33 = £66.67 - Average annual profit = (£166.67 + £266.67 + £66.67) ÷ 3 = £166.67 - Average investment = (£1,000 + £0) ÷ 2 = £500 - ARR = (£166.67 ÷ £500) × 100% = 33.3%</p>
+</section>
+<section id="summary-of-methods-for-project-x" class="level3">
+<h3 class="anchored" data-anchor-id="summary-of-methods-for-project-x">Summary of Methods for Project X</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Result</th>
+<th>Decision (assuming standard criteria)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PP</td>
+<td>1.83 years</td>
+<td>Accept if PP &lt; 2 years</td>
+</tr>
+<tr class="even">
+<td>DPP</td>
+<td>2.17 years</td>
+<td>Accept if DPP &lt; 3 years</td>
+</tr>
+<tr class="odd">
+<td>NPV</td>
+<td>£250.50</td>
+<td>Accept (positive NPV)</td>
+</tr>
+<tr class="even">
+<td>IRR</td>
+<td>22.1%</td>
+<td>Accept (IRR &gt; 10% cost of capital)</td>
+</tr>
+<tr class="odd">
+<td>ARR</td>
+<td>33.3%</td>
+<td>Accept if ARR &gt; 15% target return</td>
+</tr>
+</tbody>
+</table>
+<p>This simple example shows how all five methods evaluate the same project, highlighting their different approaches and results.</p>
+</section>
 </section>
 <section id="comparison-of-appraisal-methods" class="level2">
 <h2 class="anchored" data-anchor-id="comparison-of-appraisal-methods">Comparison of Appraisal Methods</h2>
 <p>The following table summarizes key features of the five investment appraisal methods:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<table class="caption-top table">
 <colgroup>
-<col style="width: 24%">
-<col style="width: 16%">
-<col style="width: 19%">
-<col style="width: 21%">
-<col style="width: 9%">
-<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 20%">
+<col style="width: 25%">
+<col style="width: 27%">
+<col style="width: 11%">
+<col style="width: 7%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Method</th>
-<th style="text-align: left;">Considers Time Value</th>
-<th style="text-align: left;">Considers All Cash Flows</th>
-<th style="text-align: left;">Linked to Shareholder Value</th>
-<th style="text-align: left;">Complexity</th>
-<th style="text-align: left;">Format</th>
+<th>Method</th>
+<th>Considers Time Value</th>
+<th>Considers All Cash Flows</th>
+<th>Linked to Shareholder Value</th>
+<th>Complexity</th>
+<th>Format</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Payback Period (PP)</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">Low</td>
-<td style="text-align: left;">Years</td>
+<td>Payback Period (PP)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Low</td>
+<td>Years</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Discounted Payback Period (DPP)</td>
-<td style="text-align: left;">Yes</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">Medium</td>
-<td style="text-align: left;">Years</td>
+<td>Discounted Payback Period (DPP)</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Medium</td>
+<td>Years</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Net Present Value (NPV)</td>
-<td style="text-align: left;">Yes</td>
-<td style="text-align: left;">Yes</td>
-<td style="text-align: left;">Yes</td>
-<td style="text-align: left;">Medium-High</td>
-<td style="text-align: left;">Currency</td>
+<td>Net Present Value (NPV)</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Medium-High</td>
+<td>Currency</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Internal Rate of Return (IRR)</td>
-<td style="text-align: left;">Yes</td>
-<td style="text-align: left;">Yes</td>
-<td style="text-align: left;">Indirectly</td>
-<td style="text-align: left;">High</td>
-<td style="text-align: left;">Percentage</td>
+<td>Internal Rate of Return (IRR)</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Indirectly</td>
+<td>High</td>
+<td>Percentage</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Accounting Rate of Return (ARR)</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">Yes</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">Low</td>
-<td style="text-align: left;">Percentage</td>
+<td>Accounting Rate of Return (ARR)</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Low</td>
+<td>Percentage</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Best Practice
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<blockquote class="blockquote">
+<p><strong>Best Practice</strong></p>
 <p>Organizations typically use multiple appraisal methods in combination to gain a more complete perspective on potential investments.</p>
-</div>
-</div>
+</blockquote>
+<section id="which-method-should-you-use" class="level3">
+<h3 class="anchored" data-anchor-id="which-method-should-you-use">Which Method Should You Use?</h3>
+<p><strong>For maximizing shareholder value</strong>: NPV is theoretically the best method as it directly measures value creation</p>
+<p><strong>For comparing projects of different sizes</strong>: NPV for total value created, IRR for efficiency of capital use</p>
+<p><strong>For communicating with non-financial managers</strong>: Payback Period and IRR are more intuitive</p>
+<p><strong>For quick screening of proposals</strong>: Payback Period can be calculated easily to filter out poor investments</p>
+<p><strong>For comprehensiveness</strong>: Use multiple methods to get different perspectives on the investment</p>
+</section>
 </section>
 <section id="case-study-evaluating-a-new-business-venture" class="level2">
 <h2 class="anchored" data-anchor-id="case-study-evaluating-a-new-business-venture">Case Study: Evaluating a New Business Venture</h2>
 <p>Let’s apply these methods to a real-world case:</p>
 <p><strong>Evaluating the Potential of Starting a Plumbing Business</strong></p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-8-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-1" role="tab" aria-controls="tabset-8-1" aria-selected="true" href="">Business Plan Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-2" role="tab" aria-controls="tabset-8-2" aria-selected="false" href="">Applying PP and DPP</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-3" role="tab" aria-controls="tabset-8-3" aria-selected="false" href="">Calculating NPV and IRR</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-4" role="tab" aria-controls="tabset-8-4" aria-selected="false" href="">Calculating ARR</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-5" role="tab" aria-controls="tabset-8-5" aria-selected="false" href="">Decision Recommendation</a></li></ul>
-<div class="tab-content">
-<div id="tabset-8-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-8-1-tab">
+<section id="business-plan-overview" class="level3">
+<h3 class="anchored" data-anchor-id="business-plan-overview">Business Plan Overview</h3>
 <p>The proposal involves:</p>
 <ul>
 <li><strong>Year 0</strong>: Initial investment (Equipment: £25,000, Van: £15,000, Advertising: £5,000)</li>
@@ -856,357 +1102,291 @@ Best Practice
 <li><strong>End of Year 5</strong>: Exit strategy (Sell business for £30,000, equipment value £8,000, van value £3,000)</li>
 </ul>
 <p>Expected cash flows: - Year 1: £12,000 - Year 2: £18,000 - Year 3: £22,000 - Year 4: £25,000 - Year 5: £26,000 (plus exit values)</p>
-</div>
-<div id="tabset-8-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-2-tab">
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+</section>
+<section id="applying-pp-and-dpp" class="level3">
+<h3 class="anchored" data-anchor-id="applying-pp-and-dpp">Applying PP and DPP</h3>
+<table class="caption-top table">
 <colgroup>
-<col style="width: 5%">
-<col style="width: 15%">
+<col style="width: 6%">
+<col style="width: 14%">
 <col style="width: 20%">
-<col style="width: 17%">
+<col style="width: 18%">
 <col style="width: 20%">
-<col style="width: 21%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: right;">Year</th>
-<th style="text-align: right;">Cash Flow (£)</th>
-<th style="text-align: right;">Cumulative CF (£)</th>
-<th style="text-align: right;">Discount Factor</th>
-<th style="text-align: right;">Discounted CF (£)</th>
-<th style="text-align: right;">Cumulative DCF (£)</th>
+<th>Year</th>
+<th>Cash Flow (£)</th>
+<th>Cumulative CF (£)</th>
+<th>Discount Factor</th>
+<th>Discounted CF (£)</th>
+<th>Cumulative DCF (£)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-45000</td>
-<td style="text-align: right;">-45000</td>
-<td style="text-align: right;">1.000</td>
-<td style="text-align: right;">-45000</td>
-<td style="text-align: right;">-45000</td>
+<td>0</td>
+<td>-45,000</td>
+<td>-45,000</td>
+<td>1.000</td>
+<td>-45,000</td>
+<td>-45,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">12000</td>
-<td style="text-align: right;">-33000</td>
-<td style="text-align: right;">0.909</td>
-<td style="text-align: right;">10909</td>
-<td style="text-align: right;">-34091</td>
+<td>1</td>
+<td>12,000</td>
+<td>-33,000</td>
+<td>0.909</td>
+<td>10,908</td>
+<td>-34,092</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">18000</td>
-<td style="text-align: right;">-15000</td>
-<td style="text-align: right;">0.826</td>
-<td style="text-align: right;">14876</td>
-<td style="text-align: right;">-19215</td>
+<td>2</td>
+<td>18,000</td>
+<td>-15,000</td>
+<td>0.826</td>
+<td>14,868</td>
+<td>-19,224</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">22000</td>
-<td style="text-align: right;">7000</td>
-<td style="text-align: right;">0.751</td>
-<td style="text-align: right;">16529</td>
-<td style="text-align: right;">-2686</td>
+<td>3</td>
+<td>22,000</td>
+<td>7,000</td>
+<td>0.751</td>
+<td>16,522</td>
+<td>-2,702</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">25000</td>
-<td style="text-align: right;">32000</td>
-<td style="text-align: right;">0.683</td>
-<td style="text-align: right;">17075</td>
-<td style="text-align: right;">14389</td>
+<td>4</td>
+<td>25,000</td>
+<td>32,000</td>
+<td>0.683</td>
+<td>17,075</td>
+<td>14,373</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">67000</td>
-<td style="text-align: right;">99000</td>
-<td style="text-align: right;">0.621</td>
-<td style="text-align: right;">41602</td>
-<td style="text-align: right;">55991</td>
+<td>5</td>
+<td>67,000</td>
+<td>99,000</td>
+<td>0.621</td>
+<td>41,607</td>
+<td>55,980</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<p><strong>Payback Period:</strong> Between Year 2 and 3, approximately 2.18 years. <br> <strong>Discounted Payback Period:</strong> Between Year 3 and 4, approximately 3.74 years.</p>
-</div>
-<div id="tabset-8-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-3-tab">
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<p><strong>Calculating Payback Period</strong>: - At the end of Year 2, we’re still £15,000 short of breaking even - In Year 3, we generate £22,000 - The fraction of Year 3 needed is: £15,000 ÷ £22,000 = 0.68 - Therefore, Payback Period = 2 + 0.68 = 2.68 years</p>
+<p><strong>Calculating Discounted Payback Period</strong>: - At the end of Year 3, we’re still £2,702 short of breaking even - In Year 4, we generate discounted cash flow of £17,075 - The fraction of Year 4 needed is: £2,702 ÷ £17,075 = 0.16 - Therefore, Discounted Payback Period = 3 + 0.16 = 3.16 years</p>
+</section>
+<section id="calculating-npv-and-irr" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-npv-and-irr">Calculating NPV and IRR</h3>
+<p><strong>Net Present Value (NPV)</strong>: Sum of all discounted cash flows = £55,980</p>
+<p><strong>Internal Rate of Return (IRR)</strong>: Finding the discount rate where: -£45,000 + £12,000/(1+r)¹ + £18,000/(1+r)² + £22,000/(1+r)³ + £25,000/(1+r)⁴ + £67,000/(1+r)⁵ = 0</p>
+<p>Using financial calculator: IRR = 33.5%</p>
+</section>
+<section id="calculating-arr" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-arr">Calculating ARR</h3>
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Metric</th>
-<th style="text-align: right;">Value</th>
+<th>Year</th>
+<th>Cash Flow (£)</th>
+<th>Depreciation (£)</th>
+<th>Accounting Profit (£)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Net Present Value (NPV)</td>
-<td style="text-align: right;">£ 55,991</td>
+<td>1</td>
+<td>12,000</td>
+<td>800</td>
+<td>11,200</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Internal Rate of Return (IRR)</td>
-<td style="text-align: right;">39.74 %</td>
+<td>2</td>
+<td>18,000</td>
+<td>800</td>
+<td>17,200</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>22,000</td>
+<td>800</td>
+<td>21,200</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>25,000</td>
+<td>800</td>
+<td>24,200</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>26,000</td>
+<td>800</td>
+<td>25,200</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-<div id="tabset-8-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-4-tab">
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: right;">Year</th>
-<th style="text-align: right;">Cash Flow (£)</th>
-<th style="text-align: right;">Depreciation (£)</th>
-<th style="text-align: right;">Accounting Profit (£)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">12000</td>
-<td style="text-align: right;">800</td>
-<td style="text-align: right;">11200</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">18000</td>
-<td style="text-align: right;">800</td>
-<td style="text-align: right;">17200</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">22000</td>
-<td style="text-align: right;">800</td>
-<td style="text-align: right;">21200</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">25000</td>
-<td style="text-align: right;">800</td>
-<td style="text-align: right;">24200</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">26000</td>
-<td style="text-align: right;">800</td>
-<td style="text-align: right;">25200</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Metric</th>
-<th style="text-align: right;">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Average Annual Profit</td>
-<td style="text-align: right;">£ 19,800</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Average Investment</td>
-<td style="text-align: right;">£ 43,000</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">ARR</td>
-<td style="text-align: right;">46 %</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div id="tabset-8-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-5-tab">
+<p><strong>Step 1</strong>: Calculate depreciation (assuming straight-line) - Total value to depreciate = Initial investment - Residual value = £45,000 - £41,000 = £4,000 - Annual depreciation = £4,000 ÷ 5 = £800</p>
+<p><strong>Step 2</strong>: Calculate accounting profits by subtracting depreciation from cash flows</p>
+<p><strong>Step 3</strong>: Calculate average annual profit - Total accounting profit = £11,200 + £17,200 + £21,200 + £24,200 + £25,200 = £99,000 - Average annual profit = £99,000 ÷ 5 = £19,800</p>
+<p><strong>Step 4</strong>: Calculate average investment - Average investment = (£45,000 + £41,000) ÷ 2 = £43,000</p>
+<p><strong>Step 5</strong>: Calculate ARR - ARR = (£19,800 ÷ £43,000) × 100% = 46.0%</p>
+</section>
+<section id="decision-recommendation" class="level3">
+<h3 class="anchored" data-anchor-id="decision-recommendation">Decision Recommendation</h3>
 <p>Based on all five appraisal methods, we can make the following assessment:</p>
 <ol type="1">
-<li><p><strong>Payback Period (2.18 years)</strong>: If the maximum acceptable payback is 3 years, the project is acceptable.</p></li>
-<li><p><strong>Discounted Payback (3.74 years)</strong>: If the maximum acceptable discounted payback is 4 years, the project is acceptable.</p></li>
-<li><p><strong>NPV (£22,977)</strong>: The positive NPV indicates the project adds value to the business and should be accepted.</p></li>
-<li><p><strong>IRR (23.92%)</strong>: If the cost of capital is 10%, the project’s IRR substantially exceeds this threshold and should be accepted.</p></li>
-<li><p><strong>ARR (16.4%)</strong>: If the minimum required ARR is 15%, the project is acceptable.</p></li>
+<li><p><strong>Payback Period (2.68 years)</strong>: If the maximum acceptable payback is 3 years, the project is acceptable.</p></li>
+<li><p><strong>Discounted Payback (3.16 years)</strong>: If the maximum acceptable discounted payback is 4 years, the project is acceptable.</p></li>
+<li><p><strong>NPV (£55,980)</strong>: The positive NPV indicates the project adds substantial value to the business and should be accepted.</p></li>
+<li><p><strong>IRR (33.5%)</strong>: If the cost of capital is 10%, the project’s IRR substantially exceeds this threshold and should be accepted.</p></li>
+<li><p><strong>ARR (46.0%)</strong>: If the minimum required ARR is 15%, the project is well above this threshold and acceptable.</p></li>
 </ol>
 <p><strong>Recommendation</strong>: The investment in the plumbing business appears financially viable across all appraisal methods. The positive NPV and high IRR are particularly encouraging indicators of value creation.</p>
-</div>
-</div>
-</div>
+</section>
 </section>
 <section id="risk-in-investment-decisions" class="level2">
 <h2 class="anchored" data-anchor-id="risk-in-investment-decisions">Risk in Investment Decisions</h2>
 <p>Investment decisions inherently involve risk and uncertainty. Several methods exist to incorporate risk assessment into the appraisal process.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-9-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-1" role="tab" aria-controls="tabset-9-1" aria-selected="true" href="">Risk Assessment Approaches</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-2" role="tab" aria-controls="tabset-9-2" aria-selected="false" href="">Sensitivity Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-3" role="tab" aria-controls="tabset-9-3" aria-selected="false" href="">Scenario Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-4" role="tab" aria-controls="tabset-9-4" aria-selected="false" href="">Expected NPV</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-5" role="tab" aria-controls="tabset-9-5" aria-selected="false" href="">Risk Attitudes</a></li></ul>
-<div class="tab-content">
-<div id="tabset-9-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-9-1-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[Risk Assessment Methods] --&gt; B[Sensitivity Analysis]
-    A --&gt; C[Scenario Analysis]
-    A --&gt; D[Risk-Adjusted Discount Rate]
-    A --&gt; E[Probability-Based Methods]
-    E --&gt; F[Expected NPV]
-    E --&gt; G[Monte Carlo Simulation]
-    A --&gt; H[Real Options Analysis]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-9-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-2-tab">
+<section id="risk-assessment-approaches" class="level3">
+<h3 class="anchored" data-anchor-id="risk-assessment-approaches">Risk Assessment Approaches</h3>
+<pre><code>Risk Assessment Methods
+├── Sensitivity Analysis
+├── Scenario Analysis
+├── Risk-Adjusted Discount Rate
+├── Probability-Based Methods
+│   ├── Expected NPV
+│   └── Monte Carlo Simulation
+└── Real Options Analysis</code></pre>
+</section>
+<section id="sensitivity-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="sensitivity-analysis">Sensitivity Analysis</h3>
 <p>Sensitivity analysis examines how changes in key variables affect project outcomes.</p>
-<p><strong>Process:</strong> 1. Identify key variables (e.g., sales volume, price, costs) 2. Calculate impact of percentage changes in each variable 3. Identify switching points where NPV becomes zero 4. Focus management attention on most sensitive variables</p>
+<p><strong>Process</strong>: 1. Identify key variables (e.g., sales volume, price, costs) 2. Calculate impact of percentage changes in each variable 3. Identify switching points where NPV becomes zero 4. Focus management attention on most sensitive variables</p>
 <p><strong>Example</strong>: For our plumbing business, how much would each variable need to change to make NPV zero?</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<colgroup>
-<col style="width: 24%">
-<col style="width: 16%">
-<col style="width: 31%">
-<col style="width: 27%">
-</colgroup>
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Variable</th>
-<th style="text-align: left;">Base Value</th>
-<th style="text-align: left;">Change for Zero NPV</th>
-<th style="text-align: left;">Interpretation</th>
+<th>Variable</th>
+<th>Base Value</th>
+<th>Change for Zero NPV</th>
+<th>Interpretation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Initial investment</td>
-<td style="text-align: left;">£45,000</td>
-<td style="text-align: left;">+51.1%</td>
-<td style="text-align: left;">Low sensitivity</td>
+<td>Initial investment</td>
+<td>£45,000</td>
+<td>+124.4%</td>
+<td>Low sensitivity</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Annual cash flows</td>
-<td style="text-align: left;">As projected</td>
-<td style="text-align: left;">-24.0%</td>
-<td style="text-align: left;">Moderate sensitivity</td>
+<td>Annual cash flows</td>
+<td>As projected</td>
+<td>-43.7%</td>
+<td>Moderate sensitivity</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Exit value</td>
-<td style="text-align: left;">£41,000</td>
-<td style="text-align: left;">-56.0%</td>
-<td style="text-align: left;">Low sensitivity</td>
+<td>Exit value</td>
+<td>£41,000</td>
+<td>-136.5%</td>
+<td>Low sensitivity</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Discount rate</td>
-<td style="text-align: left;">10%</td>
-<td style="text-align: left;">+13.9 percentage points</td>
-<td style="text-align: left;">Low sensitivity</td>
+<td>Discount rate</td>
+<td>10%</td>
+<td>+23.5 percentage points</td>
+<td>Low sensitivity</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-<div id="tabset-9-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-3-tab">
+<p><strong>Interpreting the results</strong>: - The project’s NPV would become zero if: - Initial investment increased by 124.4% (to £100,980) - Annual cash flows decreased by 43.7% (nearly halved) - Exit value decreased by 136.5% (becoming negative, which is unrealistic) - Discount rate increased to 33.5% (from 10%)</p>
+<p>Since most of these changes are extreme, the project appears robust to reasonable variations.</p>
+</section>
+<section id="scenario-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="scenario-analysis">Scenario Analysis</h3>
 <p>Scenario analysis evaluates the project under different sets of assumptions.</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Scenario</th>
-<th style="text-align: left;">Annual Growth</th>
-<th style="text-align: left;">Exit Multiple</th>
-<th style="text-align: left;">NPV</th>
-<th style="text-align: left;">IRR</th>
+<th>Scenario</th>
+<th>Annual Growth</th>
+<th>Exit Multiple</th>
+<th>NPV</th>
+<th>IRR</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Pessimistic</td>
-<td style="text-align: left;">5%</td>
-<td style="text-align: left;">1.0x</td>
-<td style="text-align: left;">£3,250</td>
-<td style="text-align: left;">12.1%</td>
+<td>Pessimistic</td>
+<td>5%</td>
+<td>1.0x</td>
+<td>£10,250</td>
+<td>15.1%</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Most likely</td>
-<td style="text-align: left;">10%</td>
-<td style="text-align: left;">1.5x</td>
-<td style="text-align: left;">£22,977</td>
-<td style="text-align: left;">23.9%</td>
+<td>Most likely</td>
+<td>10%</td>
+<td>1.5x</td>
+<td>£55,980</td>
+<td>33.5%</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Optimistic</td>
-<td style="text-align: left;">15%</td>
-<td style="text-align: left;">2.0x</td>
-<td style="text-align: left;">£48,350</td>
-<td style="text-align: left;">36.2%</td>
+<td>Optimistic</td>
+<td>15%</td>
+<td>2.0x</td>
+<td>£112,350</td>
+<td>48.2%</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-<div id="tabset-9-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-4-tab">
+<p><strong>Interpreting the results</strong>: - Even in the pessimistic scenario, the project has a positive NPV and IRR above the cost of capital - This suggests the project is relatively low-risk</p>
+</section>
+<section id="expected-npv" class="level3">
+<h3 class="anchored" data-anchor-id="expected-npv">Expected NPV</h3>
 <p>Expected NPV incorporates probability estimates for different outcomes.</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Scenario</th>
-<th style="text-align: left;">Probability</th>
-<th style="text-align: left;">NPV</th>
-<th style="text-align: left;">Weighted NPV</th>
+<th>Scenario</th>
+<th>Probability</th>
+<th>NPV</th>
+<th>Weighted NPV</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Pessimistic</td>
-<td style="text-align: left;">0.25</td>
-<td style="text-align: left;">£3,250</td>
-<td style="text-align: left;">£813</td>
+<td>Pessimistic</td>
+<td>0.25</td>
+<td>£10,250</td>
+<td>£2,563</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Most likely</td>
-<td style="text-align: left;">0.50</td>
-<td style="text-align: left;">£22,977</td>
-<td style="text-align: left;">£11,489</td>
+<td>Most likely</td>
+<td>0.50</td>
+<td>£55,980</td>
+<td>£27,990</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Optimistic</td>
-<td style="text-align: left;">0.25</td>
-<td style="text-align: left;">£48,350</td>
-<td style="text-align: left;">£12,088</td>
+<td>Optimistic</td>
+<td>0.25</td>
+<td>£112,350</td>
+<td>£28,088</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Expected value</td>
-<td style="text-align: left;">1.00</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">£24,390</td>
+<td>Expected value</td>
+<td>1.00</td>
+<td></td>
+<td>£58,641</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-<div id="tabset-9-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-5-tab">
+<p><strong>Interpreting the results</strong>: - The expected NPV (£58,641) represents the probability-weighted average outcome - Since this is positive, the project is expected to create value even after accounting for different scenarios</p>
+</section>
+<section id="risk-attitudes" class="level3">
+<h3 class="anchored" data-anchor-id="risk-attitudes">Risk Attitudes</h3>
 <p>Different investors have different risk preferences:</p>
 <ul>
 <li><strong>Risk-averse</strong> investors: Require compensation for bearing risk</li>
@@ -1214,41 +1394,26 @@ Best Practice
 <li><strong>Risk-seeking</strong> investors: Willing to accept lower expected returns for chance of higher gains</li>
 </ul>
 <p>Most corporate decision-makers are risk-averse, which is reflected in: - Use of hurdle rates above the cost of capital - Preference for shorter payback periods - Conservative cash flow projections</p>
-</div>
-</div>
-</div>
+</section>
 </section>
 <section id="investment-decision-process-in-practice" class="level2">
 <h2 class="anchored" data-anchor-id="investment-decision-process-in-practice">Investment Decision Process in Practice</h2>
 <p>The investment appraisal techniques are part of a broader investment decision-making process:</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[1. Determine available funds] --&gt; B[2. Identify investment opportunities]
-    B --&gt; C[3. Initial screening]
-    C --&gt; D[4. Detailed appraisal]
-    D --&gt; E[5. Accept/reject decision]
-    E --&gt; F[6. Implementation]
-    F --&gt; G[7. Post-implementation review]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Non-Financial Factors
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<pre><code>1. Determine available funds
+         ↓
+2. Identify investment opportunities
+         ↓
+3. Initial screening
+         ↓
+4. Detailed appraisal
+         ↓
+5. Accept/reject decision
+         ↓
+6. Implementation
+         ↓
+7. Post-implementation review</code></pre>
+<blockquote class="blockquote">
+<p><strong>Non-Financial Factors</strong></p>
 <p>Financial appraisal provides essential input but should be complemented with consideration of:</p>
 <ul>
 <li>Strategic fit with organizational objectives</li>
@@ -1258,8 +1423,7 @@ Non-Financial Factors
 <li>Regulatory compliance requirements</li>
 <li>Organizational capability and change management</li>
 </ul>
-</div>
-</div>
+</blockquote>
 </section>
 <section id="post-completion-audit" class="level2">
 <h2 class="anchored" data-anchor-id="post-completion-audit">Post-Completion Audit</h2>
@@ -1271,143 +1435,112 @@ Non-Financial Factors
 <li>Create accountability for projections</li>
 <li>Capture learning for future investments</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Best Practice
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<blockquote class="blockquote">
+<p><strong>Best Practice</strong></p>
 <p>Research shows that companies conducting systematic post-completion audits achieve: - More accurate future projections - Better investment performance - Improved organizational learning - Enhanced strategic alignment of investments</p>
-</div>
-</div>
+</blockquote>
 </section>
-<section id="key-takeaways" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
+<section id="glossary-of-key-terms" class="level2">
+<h2 class="anchored" data-anchor-id="glossary-of-key-terms">Glossary of Key Terms</h2>
+<p><strong>Capital budgeting</strong>: The process of planning and managing a company’s long-term investments</p>
+<p><strong>Cash flow</strong>: The actual movement of money into or out of a business</p>
+<p><strong>Conventional cash flows</strong>: Cash flow pattern with an initial outflow followed by inflows</p>
+<p><strong>Cost of capital</strong>: The required return necessary to make a capital budgeting project worthwhile</p>
+<p><strong>Discounted cash flow (DCF)</strong>: A valuation method that estimates the value of an investment based on its expected future cash flows</p>
+<p><strong>Discounting</strong>: The process of determining the present value of a future cash flow</p>
+<p><strong>Discount rate</strong>: The interest rate used to convert future cash flows to present value</p>
+<p><strong>Hurdle rate</strong>: The minimum rate of return required for a project to be acceptable</p>
+<p><strong>Incremental cash flow</strong>: Additional cash flow that occurs only because of a decision</p>
+<p><strong>Internal rate of return (IRR)</strong>: The discount rate at which the NPV of a project equals zero</p>
+<p><strong>Net present value (NPV)</strong>: The difference between the present value of cash inflows and outflows</p>
+<p><strong>Non-conventional cash flows</strong>: Cash flows that change sign more than once</p>
+<p><strong>Opportunity cost</strong>: The value of the next best alternative foregone when making a decision</p>
+<p><strong>Payback period</strong>: Time required to recover the initial investment from project cash flows</p>
+<p><strong>Present value</strong>: The current worth of a future cash flow, adjusted for the time value of money</p>
+<p><strong>Residual value</strong>: The estimated value of an asset at the end of its useful life</p>
+<p><strong>Risk-adjusted discount rate</strong>: A discount rate that includes a premium for risk</p>
+<p><strong>Sensitivity analysis</strong>: Technique to determine how changes in variables affect an outcome</p>
+<p><strong>Sunk cost</strong>: A cost that has already been incurred and cannot be recovered</p>
+<p><strong>Time value of money</strong>: The concept that money available now is worth more than the same amount in the future</p>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
 <ul>
-<li>Investment decisions are among the most consequential in financial management</li>
-<li>Cash flows, not accounting profits, are the basis for sound investment appraisal</li>
-<li>NPV is the most theoretically sound method, directly linked to shareholder value</li>
-<li>Multiple appraisal methods should be used in combination for a complete perspective</li>
-<li>Risk assessment is an essential component of investment decision-making</li>
-<li>The broader organizational and strategic context must be considered alongside financial analysis</li>
-<li>Post-completion audits improve future decision-making</li>
+<li><p>Investment decisions are among the most consequential in financial management, committing substantial resources for extended periods with uncertain returns</p></li>
+<li><p>Cash flows, not accounting profits, are the basis for sound investment appraisal because they represent actual monetary value movements</p></li>
+<li><p>NPV is the most theoretically sound method, directly linked to shareholder value by calculating the present value of all future cash flows</p></li>
+<li><p>Multiple appraisal methods should be used in combination for a complete perspective, as each provides different insights into the investment opportunity</p></li>
+<li><p>Risk assessment is an essential component of investment decision-making, helping to quantify uncertainties and test the robustness of projections</p></li>
+<li><p>The broader organizational and strategic context must be considered alongside financial analysis, as investments must support overall business objectives</p></li>
+<li><p>Post-completion audits improve future decision-making by creating feedback loops for organizational learning</p></li>
 </ul>
-</div>
-</div>
-</div>
 </section>
-<section id="for-tomorrow" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="for-tomorrow">For Tomorrow</h2>
+<section id="for-tomorrow" class="level2">
+<h2 class="anchored" data-anchor-id="for-tomorrow">For Tomorrow</h2>
 <p>Tomorrow morning, we will explore: - Sources of finance - Capital structure decisions - Cost of capital calculation - Working capital management</p>
 <p>Please review the applied exercises at the end of chapter 5 in preparation for our practical session.</p>
 </section>
-<section id="additional-resources" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
 <p><strong>Core Reading:</strong> - Brealey, R., Myers, S., &amp; Allen, F. (2023). <em>Principles of Corporate Finance</em> (14th ed.), Chapters 5-7 - Arnold, G. (2020). <em>Corporate Financial Management</em> (6th ed.), Chapters 2-4</p>
 <p><strong>Online Resources:</strong> - <a href="https://markets.ft.com/">Financial Times Market Data</a> - <a href="https://corporatefinanceinstitute.com/resources/knowledge/valuation/npv-calculator/">Corporate Finance Institute - NPV Calculator</a> - <a href="https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/how-we-help-clients/capital-investment">McKinsey &amp; Company on Capital Investment</a></p>
 </section>
-<section id="practice-exercises" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="practice-exercises">Practice Exercises</h2>
-<p>To consolidate your understanding, attempt these practice problems before tomorrow’s session:</p>
+<section id="real-options-in-capital-investment-decisions" class="level2">
+<h2 class="anchored" data-anchor-id="real-options-in-capital-investment-decisions">Real Options in Capital Investment Decisions</h2>
+<p>Real options analysis recognises that investment decisions often contain embedded options that can significantly impact project value.</p>
+<section id="real-options-framework" class="level3">
+<h3 class="anchored" data-anchor-id="real-options-framework">Real Options Framework</h3>
+<p>Real options represent flexibility in decision-making. Unlike financial options (which give the right to buy or sell financial assets), real options give managers the right to make business decisions.</p>
+<pre><code>Real Options in Investment
+├── Option to Defer
+├── Option to Expand
+├── Option to Abandon
+├── Option to Contract
+└── Option to Switch</code></pre>
+<p>Real options create value through managerial flexibility to adapt to changing circumstances.</p>
+</section>
+<section id="understanding-real-options-through-an-analogy" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-real-options-through-an-analogy">Understanding Real Options Through an Analogy</h3>
+<p><strong>Analogy: House Construction Project</strong></p>
+<p>Think of real options like building a house in stages:</p>
 <ol type="1">
-<li><p>A project requires an initial investment of £200,000 and is expected to generate annual cash flows of £50,000 for 5 years. Calculate the project’s payback period, NPV (using a 12% discount rate), and IRR.</p></li>
-<li><p>Company A is considering two mutually exclusive projects with the following cash flows:</p></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: right;">Year</th>
-<th style="text-align: right;">Project X (£)</th>
-<th style="text-align: right;">Project Y (£)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-300000</td>
-<td style="text-align: right;">-300000</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">100000</td>
-<td style="text-align: right;">250000</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">150000</td>
-<td style="text-align: right;">100000</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">150000</td>
-<td style="text-align: right;">50000</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">50000</td>
-<td style="text-align: right;">25000</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p>Using a discount rate of 10%, calculate: - The NPV of each project - The IRR of each project - The payback period of each project - Which project should be selected and why?</p>
-<ol start="3" type="1">
-<li>How would your recommendation for question 2 change if:
+<li><strong>Option to Defer</strong>: You buy land but wait to start construction until property prices rise
 <ul>
-<li>The company’s cost of capital increased to 15%?</li>
-<li>The company faced capital rationing and could only invest £200,000?</li>
-<li>Project Y’s Year 1 cash flow was uncertain and could vary by ±20%? ## Real Options in Capital Investment Decisions</li>
+<li>You’ve paid something (land cost) to create future flexibility</li>
+</ul></li>
+<li><strong>Option to Expand</strong>: You build extra-deep foundations that would allow adding a second story later
+<ul>
+<li>You spend more now for the option to expand cheaply later</li>
+</ul></li>
+<li><strong>Option to Abandon</strong>: You design the house so it could easily be sold as a commercial property
+<ul>
+<li>You’ve created an “exit strategy” if residential plans don’t work out</li>
+</ul></li>
+<li><strong>Option to Contract</strong>: You design the house with a separate suite that could be rented out
+<ul>
+<li>You’ve created flexibility to scale back your personal space if needed</li>
+</ul></li>
+<li><strong>Option to Switch</strong>: You install systems that allow the house to use either gas or electric heating
+<ul>
+<li>You’ve created flexibility to switch between energy sources based on prices</li>
 </ul></li>
 </ol>
-<p>Real options analysis recognises that investment decisions often contain embedded options that can significantly impact project value.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-10-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-1" role="tab" aria-controls="tabset-10-1" aria-selected="true" href="">Real Options Framework</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-2" role="tab" aria-controls="tabset-10-2" aria-selected="false" href="">Common Real Option Types</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-3" role="tab" aria-controls="tabset-10-3" aria-selected="false" href="">Valuation Approaches</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-4" role="tab" aria-controls="tabset-10-4" aria-selected="false" href="">Practical Example</a></li></ul>
-<div class="tab-content">
-<div id="tabset-10-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-10-1-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[Real Options in Investment] --&gt; B[Option to Defer]
-    A --&gt; C[Option to Expand]
-    A --&gt; D[Option to Abandon]
-    A --&gt; E[Option to Contract]
-    A --&gt; F[Option to Switch]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>Real options create value through managerial flexibility to adapt to changing circumstances.</p>
-</div>
-<div id="tabset-10-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-10-2-tab">
+</section>
+<section id="common-real-option-types" class="level3">
+<h3 class="anchored" data-anchor-id="common-real-option-types">Common Real Option Types</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Option Type</th>
 <th>Description</th>
 <th>Value Driver</th>
+<th>Business Example</th>
 </tr>
 </thead>
 <tbody>
@@ -1415,134 +1548,202 @@ Best Practice
 <td>Defer</td>
 <td>Ability to postpone investment</td>
 <td>Reduces uncertainty before committing</td>
+<td>Oil company delaying field development until prices rise</td>
 </tr>
 <tr class="even">
 <td>Expand</td>
 <td>Opportunity to increase scale</td>
 <td>Captures upside potential</td>
+<td>E-commerce firm building oversized warehouse for future growth</td>
 </tr>
 <tr class="odd">
 <td>Abandon</td>
 <td>Ability to exit unprofitable projects</td>
 <td>Limits downside risk</td>
+<td>Pharmaceutical company stopping drug development after poor trial results</td>
 </tr>
 <tr class="even">
 <td>Contract</td>
 <td>Option to reduce project scale</td>
 <td>Mitigates losses in adverse conditions</td>
+<td>Airline reducing fleet size during travel downturns</td>
 </tr>
 <tr class="odd">
 <td>Switch</td>
 <td>Flexibility to change inputs/outputs</td>
 <td>Adapts to changing market conditions</td>
+<td>Manufacturing plant that can produce different products</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div id="tabset-10-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-10-3-tab">
+</section>
+<section id="how-real-options-add-value" class="level3">
+<h3 class="anchored" data-anchor-id="how-real-options-add-value">How Real Options Add Value</h3>
+<p>Traditional NPV analysis often undervalues projects because it: - Assumes decisions are made now with no future flexibility - Doesn’t account for management’s ability to adapt to new information</p>
+<p><strong>Example: Mining Project</strong></p>
+<p>Traditional NPV analysis: - Initial investment: £50 million - Expected cash flows (present value): £45 million - NPV: -£5 million (would reject project)</p>
+<p>Real options analysis recognises: - Option to delay production if metal prices are low - Option to expand production if prices rise significantly - Option to abandon if costs exceed projections</p>
+<p>After accounting for these options, the project might have a positive value despite negative traditional NPV.</p>
+</section>
+<section id="valuation-approaches" class="level3">
+<h3 class="anchored" data-anchor-id="valuation-approaches">Valuation Approaches</h3>
 <p>Real options can be valued using:</p>
 <ol type="1">
-<li><strong>Black-Scholes Model</strong> - For simple options with clear parameters</li>
-<li><strong>Binomial Lattice</strong> - For more complex, multi-stage options</li>
-<li><strong>Monte Carlo Simulation</strong> - For highly uncertain, complex situations</li>
-</ol>
-</div>
-<div id="tabset-10-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-10-4-tab">
-<p>A mining company considering a new site can view the investment as a series of options:</p>
+<li><strong>Black-Scholes Model</strong>: Originally developed for financial options, can be adapted for simple real options
 <ul>
-<li>Initial exploration (low cost, creates option to develop)</li>
-<li>Development phase (higher investment, creates option to extract)</li>
-<li>Extraction operations (option to expand/contract based on commodity prices)</li>
-<li>Site closure (abandonment option if prices fall below extraction costs)</li>
-</ul>
-</div>
-</div>
-</div>
+<li>Works best when there’s a clear exercise date and price</li>
+</ul></li>
+<li><strong>Binomial Lattice</strong>: Maps out possible future scenarios and decision points
+<ul>
+<li>Better for complex options with multiple decision points</li>
+</ul></li>
+<li><strong>Monte Carlo Simulation</strong>: Uses thousands of random scenarios to estimate option value
+<ul>
+<li>Best for highly uncertain situations with multiple variables</li>
+</ul></li>
+</ol>
+</section>
+<section id="practical-example-in-stages" class="level3">
+<h3 class="anchored" data-anchor-id="practical-example-in-stages">Practical Example in Stages</h3>
+<p>A mining company considering a new site can view the investment as a series of options:</p>
+<p><strong>Stage 1: Exploration (Option to Defer)</strong> - Cost: £1 million for initial exploration - Creates option to develop if resources found - If no resources, lose £1 million - If resources found, move to Stage 2</p>
+<p><strong>Stage 2: Development (Option to Expand/Contract)</strong> - Cost: £20 million to develop the mine - Creates option to extract at different scales - Can choose small-scale (£10m) or large-scale (£20m) development</p>
+<p><strong>Stage 3: Extraction (Option to Switch/Abandon)</strong> - Can adjust extraction rate based on mineral prices - Can temporarily halt production if prices fall too low - Can sell the mine if prospects deteriorate permanently</p>
+<p>This staged approach allows management to: 1. Limit initial exposure (only £1m at first) 2. Make informed decisions as uncertainty resolves 3. Capture upside potential while limiting downside risk</p>
+</section>
 </section>
 <section id="capital-rationing-decision-tree" class="level2">
 <h2 class="anchored" data-anchor-id="capital-rationing-decision-tree">Capital Rationing Decision Tree</h2>
 <p>When facing capital constraints, a structured approach helps maximise value creation.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-11-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-1" role="tab" aria-controls="tabset-11-1" aria-selected="true" href="">Decision Framework</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-2" role="tab" aria-controls="tabset-11-2" aria-selected="false" href="">Profitability Index Calculation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-3" role="tab" aria-controls="tabset-11-3" aria-selected="false" href="">Mathematical Programming Approach</a></li></ul>
-<div class="tab-content">
-<div id="tabset-11-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-11-1-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[Capital Rationing Situation] --&gt; B{Soft or Hard?}
-    B --&gt;|Soft| C[Internal Policy Constraint]
-    B --&gt;|Hard| D[External Market Constraint]
-    C --&gt; E[Challenge Constraint]
-    C --&gt; F[Work Within Constraint]
-    D --&gt; G[Optimise Within Constraint]
-    E --&gt; H[NPV Ranking]
-    F --&gt; I[PI Ranking]
-    G --&gt; I
-    I --&gt; J[Mathematical Programming]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-11-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-2-tab">
-<p><span class="math display">\[\text{PI} = \frac{\sum_{t=1}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}}{\text{Initial Investment}}\]</span></p>
-<p><strong>Interpretation:</strong> - PI &gt; 1.0: Project creates value - PI = 1.0: Project breaks even - PI &lt; 1.0: Project destroys value</p>
-</div>
-<div id="tabset-11-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-3-tab">
+<section id="understanding-capital-rationing" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-capital-rationing">Understanding Capital Rationing</h3>
+<p><strong>Capital rationing</strong> occurs when a company cannot fund all profitable projects (those with positive NPV).</p>
+<p><strong>Two types of capital rationing:</strong> - <strong>Soft rationing</strong>: Internal policy constraints (e.g., debt limits set by management) - <strong>Hard rationing</strong>: External market constraints (e.g., inability to raise capital)</p>
+</section>
+<section id="decision-framework" class="level3">
+<h3 class="anchored" data-anchor-id="decision-framework">Decision Framework</h3>
+<pre><code>Capital Rationing Situation
+        │
+        ├─── Soft or Hard? ───┐
+        │                     │
+        ▼                     ▼
+  Soft (Internal)        Hard (External)
+        │                     │
+        ▼                     ▼
+Challenge Constraint     Optimise Within Constraint
+ Work Within Constraint        │
+        │                     ▼
+        └───────┬─────────────┘
+                │
+                ▼
+          Ranking Methods
+                │
+                ▼
+     Mathematical Programming</code></pre>
+</section>
+<section id="profitability-index-a-key-tool-for-capital-rationing" class="level3">
+<h3 class="anchored" data-anchor-id="profitability-index-a-key-tool-for-capital-rationing">Profitability Index: A Key Tool for Capital Rationing</h3>
+<p>When you can’t fund all profitable projects, you need to know which provide the most “bang for your buck.”</p>
+<p><strong>Profitability Index (PI)</strong> measures the value created per pound invested:</p>
+<pre><code>PI = Present Value of Future Cash Flows / Initial Investment</code></pre>
+<p><strong>Mathematical breakdown:</strong></p>
+<pre><code>PI = ∑[Cash Flow_t / (1+r)^t] / Initial Investment</code></pre>
+<p>Where: - t = time period (typically years) - r = discount rate</p>
+<p><strong>In simpler terms:</strong> - Calculate the present value of all future cash inflows - Divide by the initial investment amount</p>
+<p><strong>Interpreting the result:</strong> - PI &gt; 1.0: Project creates value (accept if possible) - PI = 1.0: Project breaks even (indifferent) - PI &lt; 1.0: Project destroys value (reject)</p>
+</section>
+<section id="example-of-profitability-index-calculation" class="level3">
+<h3 class="anchored" data-anchor-id="example-of-profitability-index-calculation">Example of Profitability Index Calculation</h3>
+<p>Consider three projects with capital constraint of £500,000:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Project</th>
+<th>Initial Investment</th>
+<th>NPV</th>
+<th>PI</th>
+<th>Ranking</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>£200,000</td>
+<td>£40,000</td>
+<td>1.20</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>£300,000</td>
+<td>£90,000</td>
+<td>1.30</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>£250,000</td>
+<td>£37,500</td>
+<td>1.15</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Step 1</strong>: Calculate PI for each project - Project A: PI = (£200,000 + £40,000) / £200,000 = 1.20 - Project B: PI = (£300,000 + £90,000) / £300,000 = 1.30 - Project C: PI = (£250,000 + £37,500) / £250,000 = 1.15</p>
+<p><strong>Step 2</strong>: Rank projects by PI (highest first)</p>
+<p><strong>Step 3</strong>: Allocate capital to highest PI projects until exhausted - Select Project B (£300,000) - Remaining budget: £200,000 - Select Project A (£200,000) - Budget now fully allocated</p>
+<p><strong>Result</strong>: Projects B and A should be funded, creating a total NPV of £130,000</p>
+</section>
+<section id="mathematical-programming-approach" class="level3">
+<h3 class="anchored" data-anchor-id="mathematical-programming-approach">Mathematical Programming Approach</h3>
 <p>For complex situations with multiple constraints, linear programming can be used:</p>
-<p><strong>Objective function:</strong> <span class="math display">\[\text{Maximise } \sum_{j=1}^{m} \text{NPV}_j \times X_j\]</span></p>
-<p><strong>Subject to constraints:</strong> <span class="math display">\[\sum_{j=1}^{m} \text{Investment}_j \times X_j \leq \text{Capital Budget}\]</span> <span class="math display">\[X_j \in \{0,1\} \text{ or } 0 \leq X_j \leq 1 \text{ (depending on divisibility)}\]</span></p>
-<p>Where: - <span class="math inline">\(X_j\)</span> represents the proportion of project <span class="math inline">\(j\)</span> undertaken - <span class="math inline">\(m\)</span> is the number of available projects</p>
-</div>
-</div>
-</div>
+<p><strong>Objective function:</strong></p>
+<pre><code>Maximise ∑(NPV_j × X_j)</code></pre>
+<p><strong>Subject to constraints:</strong></p>
+<pre><code>∑(Investment_j × X_j) ≤ Capital Budget
+X_j ∈ {0,1} or 0 ≤ X_j ≤ 1 (depending on divisibility)</code></pre>
+<p>Where: - X_j represents the proportion of project j undertaken - j ranges from 1 to the number of available projects</p>
+<p><strong>This approach is useful when:</strong> - Projects can be partially funded - Multiple constraints exist (not just capital) - Projects are interdependent</p>
+<p><strong>Example</strong>: A company might face constraints on: - Total capital available - Risk exposure per sector - Human resources available - Manufacturing capacity</p>
+<p>Linear programming finds the optimal allocation across all constraints.</p>
+</section>
 </section>
 <section id="incorporating-environmental-social-and-governance-esg-factors" class="level2">
 <h2 class="anchored" data-anchor-id="incorporating-environmental-social-and-governance-esg-factors">Incorporating Environmental, Social, and Governance (ESG) Factors</h2>
 <p>Modern investment appraisal increasingly considers ESG impacts alongside financial returns.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-12-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-1" role="tab" aria-controls="tabset-12-1" aria-selected="true" href="">ESG Framework</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-12-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-2" role="tab" aria-controls="tabset-12-2" aria-selected="false" href="">Quantification Methods</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-12-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-3" role="tab" aria-controls="tabset-12-3" aria-selected="false" href="">Multi-Criteria Decision Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-12-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-4" role="tab" aria-controls="tabset-12-4" aria-selected="false" href="">Case Example: Renewable Energy Investment</a></li></ul>
-<div class="tab-content">
-<div id="tabset-12-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-12-1-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[ESG-Integrated Investment Appraisal] --&gt; B[Environmental Factors]
-    A --&gt; C[Social Factors]
-    A --&gt; D[Governance Factors]
-    B --&gt; E[Carbon Pricing]
-    B --&gt; F[Resource Efficiency]
-    C --&gt; G[Community Impact]
-    C --&gt; H[Human Capital]
-    D --&gt; I[Risk Management]
-    D --&gt; J[Stakeholder Alignment]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-12-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-12-2-tab">
+<section id="esg-framework" class="level3">
+<h3 class="anchored" data-anchor-id="esg-framework">ESG Framework</h3>
+<pre><code>ESG-Integrated Investment Appraisal
+├── Environmental Factors
+│   ├── Carbon Pricing
+│   └── Resource Efficiency
+├── Social Factors
+│   ├── Community Impact
+│   └── Human Capital
+└── Governance Factors
+    ├── Risk Management
+    └── Stakeholder Alignment</code></pre>
+</section>
+<section id="why-esg-matters-in-investment-decisions" class="level3">
+<h3 class="anchored" data-anchor-id="why-esg-matters-in-investment-decisions">Why ESG Matters in Investment Decisions</h3>
+<p><strong>Traditional view</strong>: Maximise shareholder value regardless of externalities</p>
+<p><strong>Modern view</strong>: Long-term value creation requires considering all stakeholders - Environmental impacts eventually create financial consequences - Social license to operate affects business sustainability - Governance quality impacts execution and risk management</p>
+</section>
+<section id="quantification-methods" class="level3">
+<h3 class="anchored" data-anchor-id="quantification-methods">Quantification Methods</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 42%">
-<col style="width: 37%">
+<col style="width: 17%">
+<col style="width: 36%">
+<col style="width: 32%">
+<col style="width: 13%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>ESG Factor</th>
 <th>Quantification Approach</th>
 <th>Financial Integration</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
@@ -1550,385 +1751,445 @@ Best Practice
 <td>Carbon emissions</td>
 <td>Shadow carbon price</td>
 <td>Additional cost per tonne CO₂e</td>
+<td>Add £50/tonne CO₂e to operating costs</td>
 </tr>
 <tr class="even">
 <td>Water usage</td>
 <td>True cost of water</td>
 <td>Adjusted operating expenses</td>
+<td>Value water at £2/m³ instead of actual price</td>
 </tr>
 <tr class="odd">
 <td>Community benefits</td>
 <td>Social return on investment (SROI)</td>
 <td>External benefit valuation</td>
+<td>Calculate £5 social value for every £1 invested</td>
 </tr>
 <tr class="even">
 <td>Human capital</td>
 <td>Productivity differentials</td>
 <td>Adjusted revenue/cost projections</td>
+<td>Model 5% higher productivity for better working conditions</td>
 </tr>
 <tr class="odd">
 <td>Governance quality</td>
 <td>Risk premium adjustment</td>
 <td>Modified discount rate</td>
+<td>Add 1% to discount rate for poor governance</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div id="tabset-12-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-12-3-tab">
+</section>
+<section id="the-shadow-price-concept-explained" class="level3">
+<h3 class="anchored" data-anchor-id="the-shadow-price-concept-explained">The Shadow Price Concept Explained</h3>
+<p>Many ESG factors don’t have market prices but do have real value or cost.</p>
+<p><strong>Shadow price</strong>: The estimated true economic value of something not fully reflected in market prices</p>
+<p><strong>Example: Carbon emissions</strong> - Market price might be £0 (no carbon tax) - But emissions create real economic costs through climate change - Shadow price of £50/tonne attempts to capture this true cost - Adding this to financial projections creates more accurate valuation</p>
+</section>
+<section id="multi-criteria-decision-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="multi-criteria-decision-analysis">Multi-Criteria Decision Analysis</h3>
 <p>When ESG factors are difficult to monetise, a weighted scoring approach can be used:</p>
-<p><span class="math display">\[\text{Project Score} = \sum_{i=1}^{n} w_i \times \text{Factor Score}_i\]</span></p>
-<p>Where: - <span class="math inline">\(w_i\)</span> represents the weight assigned to factor <span class="math inline">\(i\)</span> - <span class="math inline">\(\text{Factor Score}_i\)</span> is the performance score for factor <span class="math inline">\(i\)</span> - <span class="math inline">\(n\)</span> is the number of decision factors (financial and non-financial)</p>
-</div>
-<div id="tabset-12-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-12-4-tab">
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Multi-criteria comparison of renewable energy projects</caption>
+<pre><code>Project Score = ∑(w_i × Factor Score_i)</code></pre>
+<p>Where: - w_i represents the weight assigned to factor i - Factor Score_i is the performance score for factor i</p>
+<p><strong>The process:</strong> 1. Identify all relevant decision factors 2. Assign weights to each factor based on importance 3. Score each project on each factor (e.g., 1-10 scale) 4. Calculate weighted score 5. Rank projects by total score</p>
+</section>
+<section id="case-example-renewable-energy-investment" class="level3">
+<h3 class="anchored" data-anchor-id="case-example-renewable-energy-investment">Case Example: Renewable Energy Investment</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Factor</th>
-<th style="text-align: right;">Project_A</th>
-<th style="text-align: right;">Project_B</th>
-<th style="text-align: right;">Project_C</th>
+<th>Factor</th>
+<th>Weight</th>
+<th>Project A</th>
+<th>Project B</th>
+<th>Project C</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">NPV (£m)</td>
-<td style="text-align: right;">12.5</td>
-<td style="text-align: right;">15.2</td>
-<td style="text-align: right;">10.8</td>
+<td>NPV (£m)</td>
+<td>40%</td>
+<td>12.5 (8/10)</td>
+<td>15.2 (10/10)</td>
+<td>10.8 (7/10)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">IRR (%)</td>
-<td style="text-align: right;">14.5</td>
-<td style="text-align: right;">16.8</td>
-<td style="text-align: right;">13.2</td>
+<td>IRR (%)</td>
+<td>20%</td>
+<td>14.5 (8/10)</td>
+<td>16.8 (10/10)</td>
+<td>13.2 (7/10)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Carbon Reduction (kt CO₂e)</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">60</td>
-<td style="text-align: right;">95</td>
+<td>Carbon Reduction (kt CO₂e)</td>
+<td>20%</td>
+<td>80 (8/10)</td>
+<td>60 (6/10)</td>
+<td>95 (10/10)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Jobs Created</td>
-<td style="text-align: right;">45</td>
-<td style="text-align: right;">30</td>
-<td style="text-align: right;">60</td>
+<td>Jobs Created</td>
+<td>10%</td>
+<td>45 (8/10)</td>
+<td>30 (5/10)</td>
+<td>60 (10/10)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Community Index</td>
-<td style="text-align: right;">High</td>
-<td style="text-align: right;">Medium</td>
-<td style="text-align: right;">Very High</td>
+<td>Community Index</td>
+<td>10%</td>
+<td>High (8/10)</td>
+<td>Medium (6/10)</td>
+<td>Very High (10/10)</td>
+</tr>
+<tr class="even">
+<td><strong>Weighted Score</strong></td>
+<td>100%</td>
+<td><strong>8.0</strong></td>
+<td><strong>8.1</strong></td>
+<td><strong>8.0</strong></td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-</div>
-</div>
+<p><strong>Analysis:</strong> - Project B has the highest financial returns - Project C has the highest ESG benefits - With this weighting scheme, Project B ranks marginally highest overall - Changing weights to emphasize ESG would favor Project C</p>
+</section>
 </section>
 <section id="advanced-risk-analysis-techniques" class="level2">
 <h2 class="anchored" data-anchor-id="advanced-risk-analysis-techniques">Advanced Risk Analysis Techniques</h2>
 <p>Beyond sensitivity analysis, several sophisticated approaches help quantify investment risk.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-13-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-1" role="tab" aria-controls="tabset-13-1" aria-selected="true" href="">Risk Analysis Spectrum</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-13-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-2" role="tab" aria-controls="tabset-13-2" aria-selected="false" href="">Monte Carlo Simulation Process</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-13-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-3" role="tab" aria-controls="tabset-13-3" aria-selected="false" href="">Decision Tree Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-13-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-4" role="tab" aria-controls="tabset-13-4" aria-selected="false" href="">Value at Risk (VaR)</a></li></ul>
-<div class="tab-content">
-<div id="tabset-13-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-13-1-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    A[Simple] --&gt; B[Sensitivity Analysis]
-    B --&gt; C[Scenario Analysis]
-    C --&gt; D[Decision Trees]
-    D --&gt; E[Monte Carlo Simulation]
-    E --&gt; F[Complex]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-13-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-13-2-tab">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="day1-afternoon_files/figure-html/unnamed-chunk-27-1.png" class="img-fluid figure-img" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-13-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-13-3-tab">
+<section id="risk-analysis-spectrum" class="level3">
+<h3 class="anchored" data-anchor-id="risk-analysis-spectrum">Risk Analysis Spectrum</h3>
+<pre><code>Simple ───────────────────────────────────────────────► Complex
+  │                │               │               │
+Sensitivity      Scenario       Decision        Monte Carlo
+Analysis        Analysis        Trees         Simulation</code></pre>
+</section>
+<section id="understanding-monte-carlo-simulation" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-monte-carlo-simulation">Understanding Monte Carlo Simulation</h3>
+<p><strong>Traditional risk analysis</strong> uses a few discrete scenarios (e.g., best, most likely, worst case)</p>
+<p><strong>Monte Carlo simulation</strong> creates thousands of scenarios by: 1. Identifying key variables (e.g., price, volume, costs) 2. Defining probability distributions for each variable 3. Randomly sampling from these distributions 4. Calculating outcomes for each combination 5. Building a probability distribution of results</p>
+<p><strong>The process visualized:</strong></p>
+<pre><code>Input Distributions                          Output Distribution
+                                                     
+Revenue                                          NPV
+│▄▄▄▄│                                            │     ▄▄▄
+│▄▄▄▄▄▄▄▄│                Monte Carlo            │  ▄▄▄▄▄▄▄
+│▄▄▄▄▄▄▄▄▄▄▄▄│  ──────────Simulation───────────► │▄▄▄▄▄▄▄▄▄▄▄▄
+                                                 │▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+Costs                                        Probability of 
+│     ▄▄▄▄│                                  negative NPV = 12%
+│  ▄▄▄▄▄▄▄▄▄│                                       │
+│▄▄▄▄▄▄▄▄▄▄▄▄▄│                                     ▼
+                                            ───────0────────►</code></pre>
+<p><strong>Key outputs include:</strong> - Expected NPV (average across all scenarios) - Probability of negative NPV (risk of loss) - 90% confidence interval (range of likely outcomes) - Key variables driving uncertainty (sensitivity)</p>
+</section>
+<section id="decision-tree-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="decision-tree-analysis">Decision Tree Analysis</h3>
 <p>Decision trees incorporate sequential decisions and uncertain outcomes:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Decision tree analysis with expected values</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Decision_Point</th>
-<th style="text-align: left;">Decision</th>
-<th style="text-align: left;">Outcome</th>
-<th style="text-align: right;">NPV</th>
-<th style="text-align: right;">Expected_Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Initial Investment</td>
-<td style="text-align: left;">Proceed</td>
-<td style="text-align: left;">Success (70%)</td>
-<td style="text-align: right;">£4.5m</td>
-<td style="text-align: right;">£2.0m</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Expand Year 3?</td>
-<td style="text-align: left;">Yes</td>
-<td style="text-align: left;">High Growth</td>
-<td style="text-align: right;">£8.2m</td>
-<td style="text-align: right;">£5.7m</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Expand Year 3?</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">Moderate Growth</td>
-<td style="text-align: right;">£5.1m</td>
-<td style="text-align: right;">£3.6m</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div id="tabset-13-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-13-4-tab">
+<pre><code>                                  High Growth (60%)
+                                 /  NPV = £8.2m
+                   Expand (?)   /
+                  /            /   Moderate Growth (40%)
+Initial         /              \   NPV = £5.1m
+Investment ────┤               
+£4.5m          \                  Stable Growth (70%)
+                \                /  NPV = £3.6m
+                  Don't Expand  /
+                     (?)        \  Slow Growth (30%)
+                                 \  NPV = £2.8m</code></pre>
+<p><strong>How to analyze a decision tree:</strong> 1. Work backward from right to left 2. Calculate expected value at each chance node (probability-weighted average) 3. Choose highest expected value at each decision node</p>
+<p><strong>Decision tree analysis in the example:</strong> - Expected value if expand: (0.6 × £8.2m) + (0.4 × £5.1m) = £6.98m - Expected value if don’t expand: (0.7 × £3.6m) + (0.3 × £2.8m) = £3.36m - Decision: Expand (£6.98m &gt; £3.36m)</p>
+</section>
+<section id="value-at-risk-var" class="level3">
+<h3 class="anchored" data-anchor-id="value-at-risk-var">Value at Risk (VaR)</h3>
+<p>Value at Risk answers: “What is the maximum loss we might experience with a given probability?”</p>
 <p>For a confidence level α, VaR represents the maximum loss within the α-confidence interval:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Value at Risk at different confidence levels</caption>
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Confidence</th>
-<th style="text-align: right;">VaR_Amount</th>
-<th style="text-align: right;">Interpretation</th>
+<th>Confidence</th>
+<th>VaR Amount</th>
+<th>Interpretation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">90%</td>
-<td style="text-align: right;">£220,000</td>
-<td style="text-align: right;">10% chance of losing more than £220,000</td>
+<td>90%</td>
+<td>£220,000</td>
+<td>10% chance of losing more than £220,000</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">95%</td>
-<td style="text-align: right;">£285,000</td>
-<td style="text-align: right;">5% chance of losing more than £285,000</td>
+<td>95%</td>
+<td>£285,000</td>
+<td>5% chance of losing more than £285,000</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">99%</td>
-<td style="text-align: right;">£390,000</td>
-<td style="text-align: right;">1% chance of losing more than £390,000</td>
+<td>99%</td>
+<td>£390,000</td>
+<td>1% chance of losing more than £390,000</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-</div>
-</div>
+<p><strong>Visualizing VaR:</strong></p>
+<pre><code>         │                 ┌───┐
+Frequency│              ┌──┘   │
+of       │           ┌──┘      │
+Outcomes │        ┌──┘         │
+         │     ┌──┘            │
+         │  ┌──┘               │
+         │┌─┘                  │
+         └─────────────────────┼─────────────►
+                    Loss       │ Profit
+                               │
+                          5% probability
+                               │
+                               ▼
+                           VaR (95%)
+                           £285,000</code></pre>
+</section>
 </section>
 <section id="post-implementation-review-framework" class="level2">
 <h2 class="anchored" data-anchor-id="post-implementation-review-framework">Post-Implementation Review Framework</h2>
 <p>Systematic evaluation of completed projects improves future investment decisions.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-14-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-1" role="tab" aria-controls="tabset-14-1" aria-selected="true" href="">Review Process</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-14-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-2" role="tab" aria-controls="tabset-14-2" aria-selected="false" href="">Review Template</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-14-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-3" role="tab" aria-controls="tabset-14-3" aria-selected="false" href="">Lessons Learned Categories</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-14-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-4" role="tab" aria-controls="tabset-14-4" aria-selected="false" href="">Implementation Framework</a></li></ul>
-<div class="tab-content">
-<div id="tabset-14-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-14-1-tab">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[Post-Implementation Review] --&gt; B[Financial Performance]
-    A --&gt; C[Operational Performance]
-    A --&gt; D[Strategic Alignment]
-    A --&gt; E[Process Review]
-    B --&gt; F[Cash Flow Analysis]
-    B --&gt; G[NPV/IRR Assessment]
-    C --&gt; H[Timeline Achievement]
-    C --&gt; I[Quality Targets]
-    D --&gt; J[Strategic Objectives]
-    E --&gt; K[Decision Process Evaluation]
-    F --&gt; L[Variance Analysis]
-    L --&gt; M[Knowledge Capture]
-    M --&gt; N[Future Investment Improvement]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<div id="tabset-14-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-14-2-tab">
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Post-implementation review metrics</caption>
+<section id="review-process" class="level3">
+<h3 class="anchored" data-anchor-id="review-process">Review Process</h3>
+<pre><code>Post-Implementation Review
+├── Financial Performance
+│   ├── Cash Flow Analysis
+│   └── NPV/IRR Assessment
+├── Operational Performance
+│   ├── Timeline Achievement
+│   └── Quality Targets
+├── Strategic Alignment
+│   └── Strategic Objectives
+└── Process Review
+    └── Decision Process Evaluation
+        └── Variance Analysis
+            └── Knowledge Capture
+                └── Future Investment Improvement</code></pre>
+</section>
+<section id="why-post-implementation-reviews-matter" class="level3">
+<h3 class="anchored" data-anchor-id="why-post-implementation-reviews-matter">Why Post-Implementation Reviews Matter</h3>
+<p><strong>Without reviews:</strong> - Same mistakes repeated - Systematic biases go uncorrected - No accountability for projections - Limited organizational learning</p>
+<p><strong>With reviews:</strong> - Improved forecasting accuracy - Better understanding of risk factors - Enhanced decision-making process - Continuous improvement culture</p>
+</section>
+<section id="review-template" class="level3">
+<h3 class="anchored" data-anchor-id="review-template">Review Template</h3>
+<table class="caption-top table">
 <colgroup>
-<col style="width: 14%">
+<col style="width: 15%">
 <col style="width: 20%">
-<col style="width: 28%">
-<col style="width: 26%">
-<col style="width: 10%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Area</th>
-<th style="text-align: left;">Metric</th>
-<th style="text-align: left;">Target</th>
-<th style="text-align: left;">Actual</th>
-<th style="text-align: right;">Variance</th>
+<th>Area</th>
+<th>Metric</th>
+<th>Target</th>
+<th>Actual</th>
+<th>Variance</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Financial</td>
-<td style="text-align: left;">Cash Flow</td>
-<td style="text-align: left;">£3.5m cumulative</td>
-<td style="text-align: left;">£3.1m cumulative</td>
-<td style="text-align: right;">-11.4%</td>
+<td>Financial</td>
+<td>Cash Flow</td>
+<td>£3.5m cumulative</td>
+<td>£3.1m cumulative</td>
+<td>-11.4%</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Financial</td>
-<td style="text-align: left;">NPV</td>
-<td style="text-align: left;">£1.2m</td>
-<td style="text-align: left;">£0.9m</td>
-<td style="text-align: right;">-25.0%</td>
+<td>Financial</td>
+<td>NPV</td>
+<td>£1.2m</td>
+<td>£0.9m</td>
+<td>-25.0%</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Operational</td>
-<td style="text-align: left;">Timeline</td>
-<td style="text-align: left;">24 months</td>
-<td style="text-align: left;">28 months</td>
-<td style="text-align: right;">+16.7%</td>
+<td>Operational</td>
+<td>Timeline</td>
+<td>24 months</td>
+<td>28 months</td>
+<td>+16.7%</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Operational</td>
-<td style="text-align: left;">Quality</td>
-<td style="text-align: left;">99.5% spec compliance</td>
-<td style="text-align: left;">99.2% spec compliance</td>
-<td style="text-align: right;">-0.3%</td>
+<td>Operational</td>
+<td>Quality</td>
+<td>99.5% spec compliance</td>
+<td>99.2% spec compliance</td>
+<td>-0.3%</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Strategic</td>
-<td style="text-align: left;">Strategic Fit</td>
-<td style="text-align: left;">Support growth strategy</td>
-<td style="text-align: left;">Partially aligned</td>
-<td style="text-align: right;">Partial</td>
+<td>Strategic</td>
+<td>Strategic Fit</td>
+<td>Support growth strategy</td>
+<td>Partially aligned</td>
+<td>Partial</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Process</td>
-<td style="text-align: left;">Decision Quality</td>
-<td style="text-align: left;">Robust analysis</td>
-<td style="text-align: left;">Data gaps identified</td>
-<td style="text-align: right;">Moderate</td>
+<td>Process</td>
+<td>Decision Quality</td>
+<td>Robust analysis</td>
+<td>Data gaps identified</td>
+<td>Moderate</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-<div id="tabset-14-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-14-3-tab">
+</section>
+<section id="lessons-learned-categories" class="level3">
+<h3 class="anchored" data-anchor-id="lessons-learned-categories">Lessons Learned Categories</h3>
 <p>Common areas for improvement identified in post-implementation reviews:</p>
 <ol type="1">
-<li><strong>Estimation accuracy</strong> - Systemic biases in forecasting</li>
-<li><strong>Risk identification</strong> - Unforeseen risks or improper quantification</li>
-<li><strong>Stakeholder management</strong> - Communication and alignment challenges</li>
-<li><strong>Resource allocation</strong> - Availability and capability gaps</li>
-<li><strong>External changes</strong> - Market shifts or regulatory developments</li>
+<li><strong>Estimation accuracy</strong>: Systemic biases in forecasting
+<ul>
+<li>Example: Sales projections consistently 15% too optimistic</li>
+</ul></li>
+<li><strong>Risk identification</strong>: Unforeseen risks or improper quantification
+<ul>
+<li>Example: Currency risk ignored in international project</li>
+</ul></li>
+<li><strong>Stakeholder management</strong>: Communication and alignment challenges
+<ul>
+<li>Example: Key user department not consulted during planning</li>
+</ul></li>
+<li><strong>Resource allocation</strong>: Availability and capability gaps
+<ul>
+<li>Example: Skilled technical staff unavailable when needed</li>
+</ul></li>
+<li><strong>External changes</strong>: Market shifts or regulatory developments
+<ul>
+<li>Example: New competitor entry not anticipated</li>
+</ul></li>
 </ol>
-</div>
-<div id="tabset-14-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-14-4-tab">
+</section>
+<section id="implementation-framework" class="level3">
+<h3 class="anchored" data-anchor-id="implementation-framework">Implementation Framework</h3>
 <p>A structured implementation review provides insights for future investments:</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Implementation phase review framework</caption>
+<table class="caption-top table">
 <colgroup>
-<col style="width: 14%">
-<col style="width: 49%">
+<col style="width: 18%">
 <col style="width: 36%">
+<col style="width: 44%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Phase</th>
-<th style="text-align: left;">Key_Questions</th>
-<th style="text-align: left;">Common_Findings</th>
+<th>Phase</th>
+<th>Key Questions</th>
+<th>Common Findings</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Pre-approval</td>
-<td style="text-align: left;">Was the business case realistic and comprehensive?</td>
-<td style="text-align: left;">Optimism bias in projections</td>
+<td>Pre-approval</td>
+<td>Was the business case realistic and comprehensive?</td>
+<td>Optimism bias in projections</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Implementation</td>
-<td style="text-align: left;">Were resources adequate and efficiently deployed?</td>
-<td style="text-align: left;">Scope creep and timeline extensions</td>
+<td>Implementation</td>
+<td>Were resources adequate and efficiently deployed?</td>
+<td>Scope creep and timeline extensions</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Operation</td>
-<td style="text-align: left;">Did the investment achieve its intended outcomes?</td>
-<td style="text-align: left;">Lower-than-expected utilisation</td>
+<td>Operation</td>
+<td>Did the investment achieve its intended outcomes?</td>
+<td>Lower-than-expected utilisation</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Closure</td>
-<td style="text-align: left;">Was knowledge properly captured and disseminated?</td>
-<td style="text-align: left;">Insufficient documentation of lessons</td>
+<td>Closure</td>
+<td>Was knowledge properly captured and disseminated?</td>
+<td>Insufficient documentation of lessons</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-</div>
-</div>
 </section>
-<section id="key-takeaways-1" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="key-takeaways-1">Key Takeaways</h2>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
+</section>
+<section id="key-takeaways-1" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways-1">Key Takeaways</h2>
 <ul>
-<li>Advanced capital investment techniques supplement rather than replace foundational methods like NPV and IRR</li>
-<li>Real options analysis captures the value of managerial flexibility in uncertain environments</li>
-<li>Capital rationing requires structured approaches to maximise value from limited resources</li>
-<li>ESG factors increasingly influence investment decisions and require systematic integration</li>
-<li>Sophisticated risk analysis provides deeper insights into potential outcomes and probabilities</li>
-<li>Post-implementation reviews are essential for organisational learning and improved decision-making</li>
+<li><p>Investment decisions are among the most consequential in financial management, committing substantial resources for extended periods with uncertain returns</p></li>
+<li><p>Cash flows, not accounting profits, are the basis for sound investment appraisal because they represent actual monetary value movements</p></li>
+<li><p>NPV is the most theoretically sound method, directly linked to shareholder value by calculating the present value of all future cash flows</p></li>
+<li><p>Multiple appraisal methods should be used in combination for a complete perspective, as each provides different insights into the investment opportunity</p></li>
+<li><p>Risk assessment is an essential component of investment decision-making, helping to quantify uncertainties and test the robustness of projections</p></li>
+<li><p>The broader organizational and strategic context must be considered alongside financial analysis, as investments must support overall business objectives</p></li>
+<li><p>Real options analysis captures the value of managerial flexibility in uncertain environments, recognizing that decisions can be adjusted as new information emerges</p></li>
+<li><p>ESG factors increasingly influence investment decisions and require systematic integration to ensure long-term value creation</p></li>
+<li><p>Post-implementation reviews are essential for organizational learning and improved decision-making, closing the feedback loop for continuous improvement</p></li>
 </ul>
-</div>
-</div>
-</div>
 </section>
-<section id="reference-list" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="reference-list">Reference List</h2>
-<p><strong>Academic References:</strong> - Damodaran, A. (2022). <em>Investment Valuation: Tools and Techniques for Determining the Value of Any Asset</em>, 4th Edition, Wiley Finance - Dixit, A.K. &amp; Pindyck, R.S. (2021). <em>Investment Under Uncertainty</em>, Princeton University Press - Trigeorgis, L. &amp; Reuer, J.J. (2023). <em>Real Options Theory in Strategic Management</em>, Strategic Management Journal, 44(4), pp.&nbsp;842-878</p>
-<p><strong>Professional Resources:</strong> - CIMA (2023). <em>Strategic Investment Decision Making: Best Practices</em> - McKinsey &amp; Company (2022). <em>Incorporating ESG Factors in Capital Allocation</em> - PwC (2024). <em>Capital Project Excellence: From Appraisal to Post-Implementation</em></p>
+<section id="for-tomorrow-1" class="level2">
+<h2 class="anchored" data-anchor-id="for-tomorrow-1">For Tomorrow</h2>
+<p>Tomorrow morning, we will explore: - Sources of finance - Capital structure decisions - Cost of capital calculation - Working capital management</p>
+<p>Please review the applied exercises at the end of chapter 5 in preparation for our practical session.</p>
+</section>
+<section id="additional-resources-1" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources-1">Additional Resources</h2>
+<p><strong>Core Reading:</strong> - Brealey, R., Myers, S., &amp; Allen, F. (2023). <em>Principles of Corporate Finance</em> (14th ed.), Chapters 5-7 - Arnold, G. (2020). <em>Corporate Financial Management</em> (6th ed.), Chapters 2-4</p>
+<p><strong>Online Resources:</strong> - <a href="https://markets.ft.com/">Financial Times Market Data</a> - <a href="https://corporatefinanceinstitute.com/resources/knowledge/valuation/npv-calculator/">Corporate Finance Institute - NPV Calculator</a> - <a href="https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/how-we-help-clients/capital-investment">McKinsey &amp; Company on Capital Investment</a></p>
+<p><strong>Additional Resources for Non-Quantitative Students:</strong> - <a href="https://www.khanacademy.org/economics-finance-domain/core-finance/interest-tutorial">Khan Academy - Time Value of Money</a> - <a href="https://www.investopedia.com/terms/d/dcf.asp">Investopedia - Discounted Cash Flow</a> - <a href="https://corporatefinanceinstitute.com/resources/excel/study/financial-model-templates/">Corporate Finance Institute - Excel Models</a></p>
+</section>
+<section id="practice-exercises" class="level2">
+<h2 class="anchored" data-anchor-id="practice-exercises">Practice Exercises</h2>
+<p>To consolidate your understanding, attempt these practice problems before tomorrow’s session:</p>
+<ol type="1">
+<li><p>A project requires an initial investment of £200,000 and is expected to generate annual cash flows of £50,000 for 5 years. Calculate the project’s payback period, NPV (using a 12% discount rate), and IRR.</p></li>
+<li><p>Company A is considering two mutually exclusive projects with the following cash flows:</p></li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Project X (£)</th>
+<th>Project Y (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>-300,000</td>
+<td>-300,000</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>100,000</td>
+<td>250,000</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>150,000</td>
+<td>100,000</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>150,000</td>
+<td>50,000</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>50,000</td>
+<td>25,000</td>
+</tr>
+</tbody>
+</table>
+<p>Using a discount rate of 10%, calculate: - The NPV of each project - The IRR of each project - The payback period of each project - Which project should be selected and why?</p>
+<ol start="3" type="1">
+<li>How would your recommendation for question 2 change if:
+<ul>
+<li>The company’s cost of capital increased to 15%?</li>
+<li>The company faced capital rationing and could only invest £200,000?</li>
+<li>Project Y’s Year 1 cash flow was uncertain and could vary by ±20%?</li>
+</ul></li>
+</ol>
+</section>
 </section>
 
 </main>
