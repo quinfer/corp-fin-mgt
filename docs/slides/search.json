@@ -361,7 +361,7 @@
     "href": "day1-afternoon-slides.html#advantages-limitations",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages: - Simple to calculate and understand - Focuses on liquidity and capital recovery - Provides a crude measure of risk - Popular in practice\nLimitations: - Ignores cash flows after the payback period - Fails to consider time value of money - Ignores the scale of investment - Payback threshold typically arbitrary - Not linked to shareholder wealth maximization :::"
+    "text": "Advantages & Limitations\nAdvantages:\n\nSimple to calculate and understand\nFocuses on liquidity and capital recovery\nProvides a crude measure of risk\nPopular in practice\n\nLimitations:\n\nIgnores cash flows after the payback period\nFails to consider time value of money\nIgnores the scale of investment\nPayback threshold typically arbitrary\nNot linked to shareholder wealth maximization :::"
   },
   {
     "objectID": "day1-afternoon-slides.html#discounted-payback-period-dpp",
@@ -375,7 +375,7 @@
     "href": "day1-afternoon-slides.html#definition-calculation-1",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\n\\[\\text{Discounted Payback Period} = \\text{Time until} \\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t} = 0\\]\nWhere: - t = time period (typically years) - r = discount rate - n = discounted payback period\nDecision Rule: - Accept projects with DPP &lt; maximum acceptable period - Between competing projects, prefer shorter discounted payback"
+    "text": "Definition & Calculation\n\\[\\text{Discounted Payback Period} = \\text{Time until} \\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t} = 0\\]\nWhere:\n\nt = time period (typically years)\nr = discount rate\nn = discounted payback period\n\nDecision Rule:\n\nAccept projects with DPP &lt; maximum acceptable period\nBetween competing projects, prefer shorter discounted payback"
   },
   {
     "objectID": "day1-afternoon-slides.html#example-1",
@@ -389,7 +389,7 @@
     "href": "day1-afternoon-slides.html#advantages-limitations-1",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages: - Accounts for time value of money (unlike PP) - Maintains simplicity of interpretation - More realistic measure of capital recovery time\nLimitations: - Still ignores cash flows after the payback period - Arbitrary threshold for acceptable period - Not directly linked to shareholder wealth maximization :::"
+    "text": "Advantages & Limitations\nAdvantages:\n\nAccounts for time value of money (unlike PP)\nMaintains simplicity of interpretation\nMore realistic measure of capital recovery time\n\nLimitations:\n\nStill ignores cash flows after the payback period\nArbitrary threshold for acceptable period\nNot directly linked to shareholder wealth maximization :::"
   },
   {
     "objectID": "day1-afternoon-slides.html#net-present-value-npv",
@@ -403,14 +403,14 @@
     "href": "day1-afternoon-slides.html#definition-calculation-2",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\n\\[\\text{NPV} = \\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t}\\]\nWhere: - t = time period (typically years) - r = discount rate (cost of capital) - n = project lifetime\nDecision Rule: - Accept projects with NPV &gt; 0 - Reject projects with NPV &lt; 0 - Between competing projects, prefer higher NPV"
+    "text": "Definition & Calculation\n\\[\\text{NPV} = \\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t}\\]\nWhere:\n\nt = time period (typically years)\nr = discount rate (cost of capital)\nn = project lifetime\n\nDecision Rule:\n\nAccept projects with NPV &gt; 0\nReject projects with NPV &lt; 0\nBetween competing projects, prefer higher NPV"
   },
   {
     "objectID": "day1-afternoon-slides.html#discount-rate-components",
     "href": "day1-afternoon-slides.html#discount-rate-components",
     "title": "Corporate Financial Management",
     "section": "Discount Rate Components",
-    "text": "Discount Rate Components\n\n\n\n\n\nflowchart LR\n    A[Risk-free rate] --&gt; D[Required return]\n    B[Inflation premium] --&gt; D\n    C[Risk premium] --&gt; D\n    D --&gt; E[Discount rate for NPV]\n\n\n\n\n\n\nThe discount rate used in NPV calculations reflects: - Time value of money (risk-free rate) - Inflation expectations - Project-specific risk factors"
+    "text": "Discount Rate Components\n\n\n\n\n\nflowchart LR\n    A[Risk-free rate] --&gt; D[Required return]\n    B[Inflation premium] --&gt; D\n    C[Risk premium] --&gt; D\n    D --&gt; E[Discount rate for NPV]\n\n\n\n\n\n\nThe discount rate used in NPV calculations reflects:\n\nTime value of money (risk-free rate)\nInflation expectations\nProject-specific risk factors"
   },
   {
     "objectID": "day1-afternoon-slides.html#example-2",
@@ -424,7 +424,7 @@
     "href": "day1-afternoon-slides.html#advantages-limitations-2",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages: - Considers all cash flows over project life - Accounts for time value of money - Directly linked to shareholder wealth maximization - Allows for risk adjustment via discount rate - Additive across projects\nLimitations: - More complex to calculate and explain - Highly sensitive to discount rate selection - Assumes reinvestment at the discount rate - Provides absolute rather than relative measure :::"
+    "text": "Advantages & Limitations\nAdvantages:\n\nConsiders all cash flows over project life\nAccounts for time value of money\nDirectly linked to shareholder wealth maximization\nAllows for risk adjustment via discount rate\nAdditive across projects\n\nLimitations:\n\nMore complex to calculate and explain\nHighly sensitive to discount rate selection\nAssumes reinvestment at the discount rate\nProvides absolute rather than relative measure :::"
   },
   {
     "objectID": "day1-afternoon-slides.html#internal-rate-of-return-irr",
@@ -438,7 +438,7 @@
     "href": "day1-afternoon-slides.html#definition-calculation-3",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\nIRR is the value of r that satisfies:\n\\[\\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t} = 0\\]\nTypically solved through iteration or financial calculators.\nDecision Rule: - Accept projects with IRR &gt; cost of capital - Reject projects with IRR &lt; cost of capital - Between competing projects, prefer higher IRR"
+    "text": "Definition & Calculation\nIRR is the value of r that satisfies:\n\\[\\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t} = 0\\]\nTypically solved through iteration or financial calculators.\nDecision Rule:\n\nAccept projects with IRR &gt; cost of capital\nReject projects with IRR &lt; cost of capital\nBetween competing projects, prefer higher IRR"
   },
   {
     "objectID": "day1-afternoon-slides.html#example-3",
@@ -459,7 +459,7 @@
     "href": "day1-afternoon-slides.html#advantages-limitations-3",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages: - Intuitive percentage return format - Accounts for time value of money - Considers all cash flows - Popular with practitioners\nLimitations: - Multiple IRRs possible with non-conventional cash flows - Scale of investment not considered - Reinvestment assumption may be unrealistic - Ranking conflicts with NPV possible - Not directly linked to shareholder wealth maximization :::"
+    "text": "Advantages & Limitations\nAdvantages:\n\nIntuitive percentage return format\nAccounts for time value of money\nConsiders all cash flows\nPopular with practitioners\n\nLimitations:\n\nMultiple IRRs possible with non-conventional cash flows\nScale of investment not considered\nReinvestment assumption may be unrealistic\nRanking conflicts with NPV possible\nNot directly linked to shareholder wealth maximization :::"
   },
   {
     "objectID": "day1-afternoon-slides.html#accounting-rate-of-return-arr",
@@ -473,7 +473,7 @@
     "href": "day1-afternoon-slides.html#definition-calculation-4",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\n\\[\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Average investment}} \\times 100\\%\\]\nWhere: - Average annual profit = Total project profits ÷ Project life - Average investment = (Initial investment + Residual value) ÷ 2\nDecision Rule: - Accept projects with ARR &gt; minimum required return - Reject projects with ARR &lt; minimum required return - Between competing projects, prefer higher ARR"
+    "text": "Definition & Calculation\n\\[\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Average investment}} \\times 100\\%\\]\nWhere:\n\nAverage annual profit = Total project profits ÷ Project life\nAverage investment = (Initial investment + Residual value) ÷ 2\n\nDecision Rule:\n\nAccept projects with ARR &gt; minimum required return\nReject projects with ARR &lt; minimum required return\nBetween competing projects, prefer higher ARR"
   },
   {
     "objectID": "day1-afternoon-slides.html#example-4",
@@ -487,7 +487,7 @@
     "href": "day1-afternoon-slides.html#advantages-limitations-4",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages: - Uses familiar accounting concepts - Simple to calculate - Addresses profitability directly - No discounting required\nLimitations: - Based on accounting profits, not cash flows - Ignores time value of money - No objective benchmark for minimum ARR - Sensitive to accounting policies - Multiple calculation methods exist"
+    "text": "Advantages & Limitations\nAdvantages:\n\nUses familiar accounting concepts\nSimple to calculate\nAddresses profitability directly\nNo discounting required\n\nLimitations:\n\nBased on accounting profits, not cash flows\nIgnores time value of money\nNo objective benchmark for minimum ARR\nSensitive to accounting policies\nMultiple calculation methods exist"
   },
   {
     "objectID": "day1-afternoon-slides.html#comparison-of-appraisal-methods",
@@ -508,7 +508,7 @@
     "href": "day1-afternoon-slides.html#business-plan-overview",
     "title": "Corporate Financial Management",
     "section": "Business Plan Overview",
-    "text": "Business Plan Overview\nThe proposal involves:\n\nYear 0: Initial investment (Equipment: £25,000, Van: £15,000, Advertising: £5,000)\nYears 1-5: Operations (Building customer base, hiring employees)\nEnd of Year 5: Exit strategy (Sell business for £30,000, equipment value £8,000, van value £3,000)\n\nExpected cash flows: - Year 1: £12,000 - Year 2: £18,000 - Year 3: £22,000 - Year 4: £25,000 - Year 5: £26,000 (plus exit values)"
+    "text": "Business Plan Overview\nThe proposal involves:\n\nYear 0: Initial investment (Equipment: £25,000, Van: £15,000, Advertising: £5,000)\nYears 1-5: Operations (Building customer base, hiring employees)\nEnd of Year 5: Exit strategy (Sell business for £30,000, equipment value £8,000, van value £3,000)\n\nExpected cash flows:\n\nYear 1: £12,000\nYear 2: £18,000\nYear 3: £22,000\nYear 4: £25,000\nYear 5: £26,000 (plus exit values)"
   },
   {
     "objectID": "day1-afternoon-slides.html#applying-pp-and-dpp",
@@ -536,7 +536,7 @@
     "href": "day1-afternoon-slides.html#decision-recommendation",
     "title": "Corporate Financial Management",
     "section": "Decision Recommendation",
-    "text": "Decision Recommendation\nBased on all five appraisal methods, we can make the following assessment:\n\nPayback Period (2.18 years): If the maximum acceptable payback is 3 years, the project is acceptable.\nDiscounted Payback (3.74 years): If the maximum acceptable discounted payback is 4 years, the project is acceptable.\nNPV (£22,977): The positive NPV indicates the project adds value to the business and should be accepted.\nIRR (23.92%): If the cost of capital is 10%, the project’s IRR substantially exceeds this threshold and should be accepted.\nARR (16.4%): If the minimum required ARR is 15%, the project is acceptable.\n\nRecommendation: The investment in the plumbing business appears financially viable across all appraisal methods. The positive NPV and high IRR are particularly encouraging indicators of value creation."
+    "text": "Decision Recommendation\nBased on all five appraisal methods, we can make the following assessment:\n\nPayback Period (2.18 years): If the maximum acceptable payback is 3 years, the project is acceptable.\nDiscounted Payback (3.74 years): If the maximum acceptable discounted payback is 4 years, the project is acceptable.\nNPV (£22,977): The positive NPV indicates the project adds value to the business and should be accepted.\nIRR (23.92%): If the cost of capital is 10%, the project’s IRR substantially exceeds this threshold and should be accepted.\nARR (16.4%): If the minimum required ARR is 15%, the project is acceptable.\n\n\n\n\n\n\n\nRecommendation:\n\n\nThe investment in the plumbing business appears financially viable across all appraisal methods. The positive NPV and high IRR are particularly encouraging indicators of value creation."
   },
   {
     "objectID": "day1-afternoon-slides.html#risk-in-investment-decisions",
@@ -557,7 +557,7 @@
     "href": "day1-afternoon-slides.html#sensitivity-analysis",
     "title": "Corporate Financial Management",
     "section": "Sensitivity Analysis",
-    "text": "Sensitivity Analysis\nSensitivity analysis examines how changes in key variables affect project outcomes.\nProcess: 1. Identify key variables (e.g., sales volume, price, costs) 2. Calculate impact of percentage changes in each variable 3. Identify switching points where NPV becomes zero 4. Focus management attention on most sensitive variables\nExample: For our plumbing business, how much would each variable need to change to make NPV zero?\n\n\n\n\n\n\n\n\n\n\n\nVariable\nBase Value\nChange for Zero NPV\nInterpretation\n\n\n\n\nInitial investment\n£45,000\n+51.1%\nLow sensitivity\n\n\nAnnual cash flows\nAs projected\n-24.0%\nModerate sensitivity\n\n\nExit value\n£41,000\n-56.0%\nLow sensitivity\n\n\nDiscount rate\n10%\n+13.9 percentage points\nLow sensitivity"
+    "text": "Sensitivity Analysis\nSensitivity analysis examines how changes in key variables affect project outcomes.\nProcess:\n\nIdentify key variables (e.g., sales volume, price, costs)\nCalculate impact of percentage changes in each variable\nIdentify switching points where NPV becomes zero\nFocus management attention on most sensitive variables\n\nExample: For our plumbing business, how much would each variable need to change to make NPV zero?\n\n\n\n\n\n\n\n\n\n\n\nVariable\nBase Value\nChange for Zero NPV\nInterpretation\n\n\n\n\nInitial investment\n£45,000\n+51.1%\nLow sensitivity\n\n\nAnnual cash flows\nAs projected\n-24.0%\nModerate sensitivity\n\n\nExit value\n£41,000\n-56.0%\nLow sensitivity\n\n\nDiscount rate\n10%\n+13.9 percentage points\nLow sensitivity"
   },
   {
     "objectID": "day1-afternoon-slides.html#scenario-analysis",
@@ -578,7 +578,7 @@
     "href": "day1-afternoon-slides.html#risk-attitudes",
     "title": "Corporate Financial Management",
     "section": "Risk Attitudes",
-    "text": "Risk Attitudes\nDifferent investors have different risk preferences:\n\nRisk-averse investors: Require compensation for bearing risk\nRisk-neutral investors: Focus solely on expected values\nRisk-seeking investors: Willing to accept lower expected returns for chance of higher gains\n\nMost corporate decision-makers are risk-averse, which is reflected in: - Use of hurdle rates above the cost of capital - Preference for shorter payback periods - Conservative cash flow projections :::"
+    "text": "Risk Attitudes\nDifferent investors have different risk preferences:\n\nRisk-averse investors: Require compensation for bearing risk\nRisk-neutral investors: Focus solely on expected values\nRisk-seeking investors: Willing to accept lower expected returns for chance of higher gains\n\nMost corporate decision-makers are risk-averse, which is reflected in:\n\nUse of hurdle rates above the cost of capital\nPreference for shorter payback periods\nConservative cash flow projections"
   },
   {
     "objectID": "day1-afternoon-slides.html#investment-decision-process-in-practice",
@@ -606,7 +606,7 @@
     "href": "day1-afternoon-slides.html#for-tomorrow",
     "title": "Corporate Financial Management",
     "section": "For Tomorrow",
-    "text": "For Tomorrow\nTomorrow morning, we will explore: - Sources of finance - Capital structure decisions - Cost of capital calculation - Working capital management\nPlease review the applied exercises at the end of chapter 5 in preparation for our practical session."
+    "text": "For Tomorrow\nTomorrow morning, we will explore:\n\nSources of finance\nCapital structure decisions\nCost of capital calculation\nWorking capital management\n\nPlease review the applied exercises at the end of chapter 5 in preparation for our practical session."
   },
   {
     "objectID": "day1-afternoon-slides.html#additional-resources",
@@ -711,7 +711,7 @@
     "href": "day1-afternoon-slides.html#multi-criteria-decision-analysis",
     "title": "Corporate Financial Management",
     "section": "Multi-Criteria Decision Analysis",
-    "text": "Multi-Criteria Decision Analysis\nWhen ESG factors are difficult to monetise, a weighted scoring approach can be used:\n\\[\\text{Project Score} = \\sum_{i=1}^{n} w_i \\times \\text{Factor Score}_i\\]\nWhere: - \\(w_i\\) represents the weight assigned to factor \\(i\\) - \\(\\text{Factor Score}_i\\) is the performance score for factor \\(i\\) - \\(n\\) is the number of decision factors (financial and non-financial)"
+    "text": "Multi-Criteria Decision Analysis\nWhen ESG factors are difficult to monetise, a weighted scoring approach can be used:\n\\[\\text{Project Score} = \\sum_{i=1}^{n} w_i \\times \\text{Factor Score}_i\\]\nWhere:\n\n\\(w_i\\) represents the weight assigned to factor \\(i\\)\n\\(\\text{Factor Score}_i\\) is the performance score for factor \\(i\\)\n\\(n\\) is the number of decision factors (financial and non-financial)"
   },
   {
     "objectID": "day1-afternoon-slides.html#case-example-renewable-energy-investment",
@@ -746,7 +746,7 @@
     "href": "day1-afternoon-slides.html#value-at-risk-var",
     "title": "Corporate Financial Management",
     "section": "Value at Risk (VaR)",
-    "text": "Value at Risk (VaR)\nFor a confidence level α, VaR represents the maximum loss within the α-confidence interval:\n\n\n\nValue at Risk at different confidence levels\n\n\nConfidence\nVaR_Amount\nInterpretation\n\n\n\n\n90%\n£220,000\n10% chance of losing more than £220,000\n\n\n95%\n£285,000\n5% chance of losing more than £285,000\n\n\n99%\n£390,000\n1% chance of losing more than £390,000\n\n\n\n\n\n:::"
+    "text": "Value at Risk (VaR)\nFor a confidence level α, VaR represents the maximum loss within the α-confidence interval:\n\n\n\nValue at Risk at different confidence levels\n\n\nConfidence\nVaR_Amount\nInterpretation\n\n\n\n\n90%\n£220,000\n10% chance of losing more than £220,000\n\n\n95%\n£285,000\n5% chance of losing more than £285,000\n\n\n99%\n£390,000\n1% chance of losing more than £390,000"
   },
   {
     "objectID": "day1-afternoon-slides.html#post-implementation-review-framework",

@@ -236,12 +236,14 @@ Payback period = 2 + (170,000 ÷ 200,000) = 2.85 years
 ## Advantages & Limitations
 
 **Advantages:**
+
 - Simple to calculate and understand
 - Focuses on liquidity and capital recovery
 - Provides a crude measure of risk
 - Popular in practice
 
 **Limitations:**
+
 - Ignores cash flows after the payback period
 - Fails to consider time value of money
 - Ignores the scale of investment
@@ -258,11 +260,13 @@ The Discounted Payback Period addresses a key limitation of the standard payback
 $$\text{Discounted Payback Period} = \text{Time until} \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$$
 
 Where:
+
 - t = time period (typically years)
 - r = discount rate
 - n = discounted payback period
 
 **Decision Rule:**
+
 - Accept projects with DPP < maximum acceptable period
 - Between competing projects, prefer shorter discounted payback
 
@@ -298,11 +302,13 @@ Discounted payback period = 3 + (-16,400 ÷ 81,640) = 3.20 years
 ## Advantages & Limitations
 
 **Advantages:**
+
 - Accounts for time value of money (unlike PP)
 - Maintains simplicity of interpretation
 - More realistic measure of capital recovery time
 
 **Limitations:**
+
 - Still ignores cash flows after the payback period
 - Arbitrary threshold for acceptable period
 - Not directly linked to shareholder wealth maximization
@@ -318,11 +324,13 @@ The Net Present Value method is the most theoretically sound approach to investm
 $$\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}$$
 
 Where:
+
 - t = time period (typically years)
 - r = discount rate (cost of capital)
 - n = project lifetime
 
 **Decision Rule:**
+
 - Accept projects with NPV > 0
 - Reject projects with NPV < 0
 - Between competing projects, prefer higher NPV
@@ -338,6 +346,7 @@ flowchart LR
 ```
 
 The discount rate used in NPV calculations reflects:
+
 - Time value of money (risk-free rate)
 - Inflation expectations
 - Project-specific risk factors
@@ -360,6 +369,7 @@ NPV = £`r format(npv_sum, big.mark=",")`
 ## Advantages & Limitations
 
 **Advantages:**
+
 - Considers all cash flows over project life
 - Accounts for time value of money
 - Directly linked to shareholder wealth maximization
@@ -367,6 +377,7 @@ NPV = £`r format(npv_sum, big.mark=",")`
 - Additive across projects
 
 **Limitations:**
+
 - More complex to calculate and explain
 - Highly sensitive to discount rate selection
 - Assumes reinvestment at the discount rate
@@ -387,6 +398,7 @@ $$\sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$$
 Typically solved through iteration or financial calculators.
 
 **Decision Rule:**
+
 - Accept projects with IRR > cost of capital
 - Reject projects with IRR < cost of capital
 - Between competing projects, prefer higher IRR
@@ -443,12 +455,14 @@ ggplot(df_npv_profile, aes(x = Rate, y = NPV)) +
 ## Advantages & Limitations
 
 **Advantages:**
+
 - Intuitive percentage return format
 - Accounts for time value of money
 - Considers all cash flows
 - Popular with practitioners
 
 **Limitations:**
+
 - Multiple IRRs possible with non-conventional cash flows
 - Scale of investment not considered
 - Reinvestment assumption may be unrealistic
@@ -466,10 +480,12 @@ The Accounting Rate of Return focuses on accounting profit rather than cash flow
 $$\text{ARR} = \frac{\text{Average annual profit}}{\text{Average investment}} \times 100\%$$
 
 Where:
+
 - Average annual profit = Total project profits ÷ Project life
 - Average investment = (Initial investment + Residual value) ÷ 2
 
 **Decision Rule:**
+
 - Accept projects with ARR > minimum required return
 - Reject projects with ARR < minimum required return
 - Between competing projects, prefer higher ARR
@@ -502,12 +518,14 @@ ARR = `r round(arr, 1)`%
 ## Advantages & Limitations
 
 **Advantages:**
+
 - Uses familiar accounting concepts
 - Simple to calculate
 - Addresses profitability directly
 - No discounting required
 
 **Limitations:**
+
 - Based on accounting profits, not cash flows
 - Ignores time value of money
 - No objective benchmark for minimum ARR
@@ -556,6 +574,7 @@ The proposal involves:
 - **End of Year 5**: Exit strategy (Sell business for £30,000, equipment value £8,000, van value £3,000)
 
 Expected cash flows:
+
 - Year 1: £12,000
 - Year 2: £18,000
 - Year 3: £22,000
@@ -667,7 +686,11 @@ Based on all five appraisal methods, we can make the following assessment:
 
 5. **ARR (16.4%)**: If the minimum required ARR is 15%, the project is acceptable.
 
-**Recommendation**: The investment in the plumbing business appears financially viable across all appraisal methods. The positive NPV and high IRR are particularly encouraging indicators of value creation.
+::: {.callout-note}
+### **Recommendation**: 
+
+The investment in the plumbing business appears financially viable across all appraisal methods. The positive NPV and high IRR are particularly encouraging indicators of value creation.
+:::
 
 ## Risk in Investment Decisions
 
@@ -691,6 +714,7 @@ flowchart TD
 Sensitivity analysis examines how changes in key variables affect project outcomes.
 
 **Process:**
+
 1. Identify key variables (e.g., sales volume, price, costs)
 2. Calculate impact of percentage changes in each variable
 3. Identify switching points where NPV becomes zero
@@ -755,10 +779,11 @@ Different investors have different risk preferences:
 - **Risk-seeking** investors: Willing to accept lower expected returns for chance of higher gains
 
 Most corporate decision-makers are risk-averse, which is reflected in:
+
 - Use of hurdle rates above the cost of capital
 - Preference for shorter payback periods
 - Conservative cash flow projections
-:::
+
 
 ## Investment Decision Process in Practice
 
@@ -820,6 +845,7 @@ Research shows that companies conducting systematic post-completion audits achie
 ## For Tomorrow {.unnumbered}
 
 Tomorrow morning, we will explore:
+
 - Sources of finance
 - Capital structure decisions
 - Cost of capital calculation
@@ -996,6 +1022,7 @@ When ESG factors are difficult to monetise, a weighted scoring approach can be u
 $$\text{Project Score} = \sum_{i=1}^{n} w_i \times \text{Factor Score}_i$$
 
 Where:
+
 - $w_i$ represents the weight assigned to factor $i$
 - $\text{Factor Score}_i$ is the performance score for factor $i$
 - $n$ is the number of decision factors (financial and non-financial)
@@ -1083,7 +1110,6 @@ var_levels <- data.frame(
 
 kable(var_levels, align = "lrr", caption = "Value at Risk at different confidence levels")
 ```
-:::
 
 ## Post-Implementation Review Framework
 
