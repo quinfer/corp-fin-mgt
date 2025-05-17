@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.52">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Prof.&nbsp;Barry Quinn">
+
+<title>Working Capital Management</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="day3-afternoon_files/libs/clipboard/clipboard.min.js"></script>
+<script src="day3-afternoon_files/libs/quarto-html/quarto.js"></script>
+<script src="day3-afternoon_files/libs/quarto-html/popper.min.js"></script>
+<script src="day3-afternoon_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="day3-afternoon_files/libs/quarto-html/anchor.min.js"></script>
+<link href="day3-afternoon_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="day3-afternoon_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="day3-afternoon_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="day3-afternoon_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="day3-afternoon_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="day3-afternoon_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="day3-afternoon_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="day3-afternoon_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="day3-afternoon.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Working Capital Management</h1>
+<p class="subtitle lead">Day 3 - Afternoon Session</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Prof.&nbsp;Barry Quinn </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Ulster University Business School
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="working-capital-management" class="level1">
+<h1>Working Capital Management</h1>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>After completing this session, you should be able to:</p>
+<ul>
+<li>Identify the main elements of working capital</li>
+<li>Discuss the purpose of working capital and the nature of the working capital cycle</li>
+<li>Explain the importance of establishing policies for the control of working capital</li>
+<li>Explain the factors that have to be taken into account when managing each element of working capital</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Effective working capital management is critical for maintaining liquidity and operational efficiency.</p>
+</div>
+</div>
+</section>
+<section id="the-nature-and-purpose-of-working-capital" class="level2">
+<h2 class="anchored" data-anchor-id="the-nature-and-purpose-of-working-capital">The Nature and Purpose of Working Capital</h2>
+<p>Working capital represents the resources a business needs to fund its day-to-day operations:</p>
+<p><span class="math display">\[\text{Working Capital} = \text{Current Assets} - \text{Current Liabilities}\]</span></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Current Assets</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Current Liabilities</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Major elements include: - Inventories - Trade receivables - Cash (in hand and at bank)</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Major elements include: - Trade payables - Bank overdrafts - Short-term loans</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The management of working capital involves controlling the relationship between short-term assets and liabilities to ensure operational efficiency and financial stability.</p>
+</div>
+</div>
+</section>
+<section id="the-working-capital-cycle" class="level2">
+<h2 class="anchored" data-anchor-id="the-working-capital-cycle">The Working Capital Cycle</h2>
+<p>The working capital cycle illustrates how resources flow through a business:</p>
+<div class="cell" data-fig-width="10" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Cash/\nbank\noverdraft] --&gt; B[Trade\npayables]
+    B --&gt; C[Raw\nmaterials]
+    C --&gt; D[Work in\nprogress]
+    D --&gt; E[Finished\ngoods]
+    E -- "Cash sales" --&gt; A
+    E -- "Credit sales" --&gt; F[Trade\nreceivables]
+    F -- "Cash" --&gt; A
+    
+    style A fill:#81C784,stroke:#81C784,stroke-width:1px
+    style B fill:#81C784,stroke:#81C784,stroke-width:1px
+    style C fill:#81C784,stroke:#81C784,stroke-width:1px
+    style D fill:#81C784,stroke:#81C784,stroke-width:1px
+    style E fill:#81C784,stroke:#81C784,stroke-width:1px
+    style F fill:#81C784,stroke:#81C784,stroke-width:1px
+</pre>
+</div>
+<p></p><figcaption> The working capital cycle</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This cycle shows how cash is converted into various forms of current assets before returning to cash. The length of this cycle affects the amount of working capital required.</p>
+</div>
+</div>
+</section>
+<section id="industry-investment-in-working-capital" class="level2">
+<h2 class="anchored" data-anchor-id="industry-investment-in-working-capital">Industry Investment in Working Capital</h2>
+<p>Average investment (in days) for main working capital elements varies across industries:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="day3-afternoon_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="960"></p>
+<figcaption>Average investment (in days) for the main working capital elements</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="financing-cost-of-inventories" class="level2">
+<h2 class="anchored" data-anchor-id="financing-cost-of-inventories">Financing Cost of Inventories</h2>
+<p>Holding inventory incurs significant costs:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 14%">
+<col style="width: 11%">
+<col style="width: 17%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Business</th>
+<th>Type of Operations</th>
+<th>Cost of Capital</th>
+<th>Average Inventories Held</th>
+<th>Financing Cost</th>
+<th>Operating Profit</th>
+<th>Financing Cost as % of Operating Profit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Associated British Foods</td>
+<td>Food producer</td>
+<td>14.2%</td>
+<td>£2,144m</td>
+<td>£304.4m</td>
+<td>£1,404m</td>
+<td>21.7%</td>
+</tr>
+<tr class="even">
+<td>BT Group</td>
+<td>Telecoms</td>
+<td>8.4%</td>
+<td>£233m</td>
+<td>£19.5m</td>
+<td>£20,342m</td>
+<td>0.1%</td>
+</tr>
+<tr class="odd">
+<td>Go-Ahead</td>
+<td>Transport</td>
+<td>5.2%</td>
+<td>£17m</td>
+<td>£0.9m</td>
+<td>£161m</td>
+<td>0.6%</td>
+</tr>
+<tr class="even">
+<td>Kingfisher</td>
+<td>DIY</td>
+<td>10.1%</td>
+<td>£2,437m</td>
+<td>£246.1m</td>
+<td>£685m</td>
+<td>35.9%</td>
+</tr>
+<tr class="odd">
+<td>Tesco</td>
+<td>Supermarket</td>
+<td>9.5%</td>
+<td>£2,282m</td>
+<td>£216.8m</td>
+<td>£1,837m</td>
+<td>11.8%</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The cost of financing inventory can represent a significant percentage of operating profit, particularly in retail and manufacturing sectors.</p>
+</div>
+</div>
+</section>
+<section id="managing-inventories" class="level2">
+<h2 class="anchored" data-anchor-id="managing-inventories">Managing Inventories</h2>
+<p>Procedures and techniques for effective inventory management include:</p>
+<ol type="1">
+<li>Forecasting future demand</li>
+<li>Using financial ratios to monitor performance</li>
+<li>Implementing recording and reordering systems</li>
+<li>Establishing appropriate control levels</li>
+<li>Applying inventory management models</li>
+<li>Implementing just-in-time (JIT) inventory systems</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The goal is to minimize inventory costs while ensuring sufficient stock to meet customer demand.</p>
+</div>
+</div>
+</section>
+<section id="inventory-turnover-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="inventory-turnover-ratio">Inventory Turnover Ratio</h2>
+<p>A key measure for monitoring inventory performance:</p>
+<p><span class="math display">\[\text{Average Inventories Turnover Period} = \frac{\text{Average Inventories Held}}{\text{Cost of Sales}} \times 365\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This ratio indicates how long inventory is held before sale. A lower figure generally indicates more efficient inventory management.</p>
+</div>
+</div>
+</section>
+<section id="patterns-of-inventory-movements" class="level2">
+<h2 class="anchored" data-anchor-id="patterns-of-inventory-movements">Patterns of Inventory Movements</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.</code></pre>
+</div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="day3-afternoon_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="864"></p>
+<figcaption>Patterns of inventory movements over time</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Following this pattern, average inventory held = Order Quantity in each order/2 Number of orders placed in a year = Annual Demand/Order Quantity</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The sawtooth pattern represents the typical inventory cycle, where stock levels peak when an order is received and gradually decline until the next order arrives.</p>
+</div>
+</div>
+</section>
+<section id="inventory-holding-and-order-costs" class="level2">
+<h2 class="anchored" data-anchor-id="inventory-holding-and-order-costs">Inventory Holding and Order Costs</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in geom_text(aes(x = x[min_point], y = 0, label = "E"), vjust = -0.5, : All aesthetics have length 1, but the data has 300 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.</code></pre>
+</div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="day3-afternoon_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="864"></p>
+<figcaption>Inventory holding and order costs</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Total inventory costs include: - Holding costs (increasing with inventory levels) - Ordering costs (decreasing with larger order quantities) - The optimal inventory level (E) occurs where total costs are minimized</p>
+</section>
+<section id="the-economic-order-quantity-eoq-model" class="level2">
+<h2 class="anchored" data-anchor-id="the-economic-order-quantity-eoq-model">The Economic Order Quantity (EOQ) Model</h2>
+<p>The EOQ model helps determine the optimal order size to minimize total inventory costs:</p>
+<p><span class="math display">\[EOQ = \sqrt{\frac{2DC}{H}}\]</span></p>
+<p>Where: - D = annual demand for the inventory item (units) - C = cost of placing an order - H = cost of holding one unit for one year</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>EOQ balances the costs of ordering against the costs of holding inventory to find the most economical order quantity.</p>
+</div>
+</div>
+</section>
+<section id="eoq-example" class="level2">
+<h2 class="anchored" data-anchor-id="eoq-example">EOQ Example</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Problem</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Solution</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>Petrov plc sells 10,000 tonnes of sand each year and demand is constant over time. The purchase cost of each tonne is £15 and the cost of placing and handling an order is estimated to be £32. The cost of holding 1 tonne of sand for one year is estimated to be £4.</p>
+<p>Calculate the total annual cost of trading in this product.</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>The total annual cost consists of: 1. The cost of purchases 2. The cost of ordering 3. The cost of holding inventory</p>
+<p>Step 1: Calculate EOQ <span class="math inline">\(EOQ = \sqrt{\frac{2 \times 10,000 \times 32}{4}} = \sqrt{160,000} = 400\)</span> tonnes</p>
+<p>Step 2: Calculate number of orders per year <span class="math inline">\(\text{Number of orders} = \frac{10,000}{400} = 25\)</span> orders</p>
+<p>Step 3: Calculate total costs - Purchase cost = 10,000 × £15 = £150,000 - Ordering cost = 25 × £32 = £800 - Holding cost = (400/2) × £4 = £800 - Total annual cost = £150,000 + £800 + £800 = £151,600</p>
+</div>
+</div>
+</div>
+</section>
+<section id="just-in-time-jit-inventory-management" class="level2">
+<h2 class="anchored" data-anchor-id="just-in-time-jit-inventory-management">Just-in-Time (JIT) Inventory Management</h2>
+<p>JIT aims to minimize inventory levels by having materials delivered just as they are needed:</p>
+<ul>
+<li>Requires close relationships with suppliers</li>
+<li>May necessitate re-engineering of production processes</li>
+<li>Can reduce holding costs but may result in other hidden costs</li>
+<li>Often implemented as part of Total Quality Management (TQM)</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>JIT can significantly reduce inventory costs but increases vulnerability to supply chain disruptions.</p>
+</div>
+</div>
+</section>
+<section id="managing-trade-receivables" class="level2">
+<h2 class="anchored" data-anchor-id="managing-trade-receivables">Managing Trade Receivables</h2>
+<p>Effective management of trade receivables involves answering key questions:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true" href="">Key Questions</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false" href="">Credit Assessment</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<ol type="1">
+<li>Which customers should receive credit?</li>
+<li>How much credit should be offered?</li>
+<li>What length of credit should be offered?</li>
+<li>Should discounts be offered for prompt payment?</li>
+<li>What collection policies should be adopted?</li>
+<li>How can the risk of non-payment be reduced?</li>
+</ol>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p>The “Five Cs” of credit: 1. <strong>Capital</strong> - financial resources of the customer 2. <strong>Capacity</strong> - ability to pay (cash flow) 3. <strong>Collateral</strong> - assets that can secure the debt 4. <strong>Conditions</strong> - economic environment 5. <strong>Character</strong> - willingness to pay</p>
+</div>
+</div>
+</div>
+</section>
+<section id="sources-of-credit-information" class="level2">
+<h2 class="anchored" data-anchor-id="sources-of-credit-information">Sources of Credit Information</h2>
+<p>To assess creditworthiness, businesses can use:</p>
+<ul>
+<li>Trade references</li>
+<li>Bank references</li>
+<li>Published financial statements</li>
+<li>Credit agencies</li>
+<li>Register of County Court Judgments</li>
+<li>Information from the customer</li>
+<li>Other suppliers</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using multiple sources provides a more complete picture of creditworthiness.</p>
+</div>
+</div>
+</section>
+<section id="credit-period-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="credit-period-considerations">Credit Period Considerations</h2>
+<p>The length of credit offered may be influenced by:</p>
+<ul>
+<li>Typical credit terms in the industry</li>
+<li>Degree of competition</li>
+<li>Bargaining power of customers</li>
+<li>Risk of non-payment</li>
+<li>Business capacity to offer credit</li>
+<li>Marketing strategy</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The optimal credit period balances the marketing benefits of offering credit against the costs of financing receivables.</p>
+</div>
+</div>
+</section>
+<section id="collection-policies" class="level2">
+<h2 class="anchored" data-anchor-id="collection-policies">Collection Policies</h2>
+<p>Effective collection procedures include:</p>
+<ol type="1">
+<li>Developing customer relationships</li>
+<li>Publicizing credit terms clearly</li>
+<li>Issuing invoices promptly</li>
+<li>Monitoring outstanding debts</li>
+<li>Producing aging schedules of receivables</li>
+<li>Addressing queries quickly</li>
+<li>Following up on slow payers</li>
+</ol>
+</section>
+<section id="monitoring-receivables-performance" class="level2">
+<h2 class="anchored" data-anchor-id="monitoring-receivables-performance">Monitoring Receivables Performance</h2>
+<p>The key ratio for monitoring receivables:</p>
+<p><span class="math display">\[\text{Average settlement period} = \frac{\text{Average trade receivables}}{\text{Credit sales}} \times 365\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This ratio indicates how long customers take to pay. A lower figure suggests more efficient credit management.</p>
+</div>
+</div>
+</section>
+<section id="managing-trade-payables" class="level2">
+<h2 class="anchored" data-anchor-id="managing-trade-payables">Managing Trade Payables</h2>
+<p>Trade payables are an important source of finance. Effective management aims to:</p>
+<ul>
+<li>Minimize administrative costs</li>
+<li>Maximize the benefit from this low-cost form of finance</li>
+<li>Maintain good supplier relationships</li>
+<li>Take advantage of beneficial discounts</li>
+</ul>
+<p>The key monitoring ratio is:</p>
+<p><span class="math display">\[\text{Payables settlement period} = \frac{\text{Trade payables}}{\text{Credit purchases}} \times 365\]</span></p>
+</section>
+<section id="cash-management" class="level2">
+<h2 class="anchored" data-anchor-id="cash-management">Cash Management</h2>
+<section id="reasons-for-holding-cash" class="level3">
+<h3 class="anchored" data-anchor-id="reasons-for-holding-cash">Reasons for Holding Cash</h3>
+<p>Businesses hold cash for three primary reasons:</p>
+<ol type="1">
+<li>To meet day-to-day commitments</li>
+<li>To deal with uncertain cash flows</li>
+<li>To exploit profitable opportunities</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Effective cash management requires balancing liquidity needs against the opportunity cost of holding non-earning assets.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="factors-influencing-cash-holdings" class="level2">
+<h2 class="anchored" data-anchor-id="factors-influencing-cash-holdings">Factors Influencing Cash Holdings</h2>
+<p>Cash holdings are influenced by:</p>
+<ul>
+<li>The nature of the business</li>
+<li>The opportunity cost of holding cash</li>
+<li>Inflation levels</li>
+<li>Availability of near-liquid assets</li>
+<li>Access to borrowing facilities</li>
+<li>Cost of borrowing</li>
+<li>Economic conditions</li>
+<li>Relationships with suppliers</li>
+</ul>
+</section>
+<section id="cash-management-techniques" class="level2">
+<h2 class="anchored" data-anchor-id="cash-management-techniques">Cash Management Techniques</h2>
+<p>The main techniques for managing cash include:</p>
+<ol type="1">
+<li>Controlling the cash balance (using control limits)</li>
+<li>Preparing projected cash flow statements</li>
+<li>Managing the operating cash cycle</li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cash management aims to maintain sufficient liquidity while minimizing idle cash balances.</p>
+</div>
+</div>
+</section>
+<section id="the-operating-cash-cycle-occ" class="level2">
+<h2 class="anchored" data-anchor-id="the-operating-cash-cycle-occ">The Operating Cash Cycle (OCC)</h2>
+<div class="cell" data-fig-width="10" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Purchase\nof goods\non credit] --&gt; B[Payment\nfor goods]
+    B --&gt; C[Sale\nof goods\non credit]
+    C --&gt; D[Cash\nreceived\nfrom credit\ncustomer]
+    
+    subgraph IP["Inventories turnover period"]
+        A --&gt; C
+    end
+    
+    subgraph OCC["Operating cash\ncycle"]
+        B --&gt; D
+    end
+    
+    style A fill:#90CAF9,stroke:#90CAF9,stroke-width:1px
+    style B fill:#90CAF9,stroke:#90CAF9,stroke-width:1px
+    style C fill:#90CAF9,stroke:#90CAF9,stroke-width:1px
+    style D fill:#90CAF9,stroke:#90CAF9,stroke-width:1px
+    style OCC fill:#1976D2,stroke:#1976D2,color:white,stroke-width:2px
+</pre>
+</div>
+<p></p><figcaption> The operating cash cycle</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+<p>The operating cash cycle represents the time between paying suppliers and receiving payment from customers.</p>
+</section>
+<section id="calculating-the-operating-cash-cycle" class="level2">
+<h2 class="anchored" data-anchor-id="calculating-the-operating-cash-cycle">Calculating the Operating Cash Cycle</h2>
+<p>The OCC is calculated as:</p>
+<p><span class="math display">\[\text{OCC} = \text{Inventory Turnover Period} + \text{Receivables Period} - \text{Payables Period}\]</span></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A shorter OCC generally indicates more efficient working capital management, as cash is tied up for less time.</p>
+</div>
+</div>
+</section>
+<section id="the-impact-of-occ-length" class="level2">
+<h2 class="anchored" data-anchor-id="the-impact-of-occ-length">The Impact of OCC Length</h2>
+<ul>
+<li>The longer the OCC, the more expensive it is for the firm - cash is tied up longer</li>
+<li>Cash supplied to the firm has a cost (from shareholders or debt holders)</li>
+<li>Reducing the OCC helps reduce capital costs and improve profitability</li>
+<li>As a general rule, a shorter OCC is preferable to a longer one</li>
+</ul>
+</section>
+<section id="occ-by-company-size" class="level2">
+<h2 class="anchored" data-anchor-id="occ-by-company-size">OCC by Company Size</h2>
+<p>Research shows OCC varies by company size:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true" href="">Small Companies (&lt;€500m)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false" href="">Medium Companies (€500m-€1bn)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false" href="">Large Companies (&gt;€1bn)</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<p>Typically have longer OCCs: - 2013: 80 days - 2015: 85 days - 2017: 88 days</p>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<p>Show moderate OCCs: - 2013: 66 days - 2015: 69 days - 2017: 67 days</p>
+</div>
+<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
+<p>Maintain the shortest OCCs: - 2013: 41 days - 2015: 41 days - 2017: 42 days</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Larger companies typically have more bargaining power with suppliers and customers, allowing them to maintain shorter OCCs.</p>
+</div>
+</div>
+</section>
+<section id="case-study-calculating-occ" class="level2">
+<h2 class="anchored" data-anchor-id="case-study-calculating-occ">Case Study: Calculating OCC</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true" href="">Company Information</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false" href="">Calculation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false" href="">Improvement Strategies</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<p>Orton Ltd, a distributor of frozen foods, reports the following: - Inventory: Opening £142,000, Closing £166,000 - Cost of Sales: £544,000 - Trade Receivables: £264,000 - Sales Revenue: £820,000 - Trade Payables: £159,000 - Purchases: £568,000</p>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<ol type="1">
+<li><p>Inventory Turnover Period: <span class="math inline">\(\frac{(142,000 + 166,000)/2}{544,000} \times 365 = 103\)</span> days</p></li>
+<li><p>Receivables Settlement Period: <span class="math inline">\(\frac{264,000}{820,000} \times 365 = 118\)</span> days</p></li>
+<li><p>Payables Settlement Period: <span class="math inline">\(\frac{159,000}{568,000} \times 365 = 102\)</span> days</p></li>
+<li><p>Operating Cash Cycle: <span class="math inline">\(103 + 118 - 102 = 119\)</span> days</p></li>
+</ol>
+</div>
+<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
+<p>The company could reduce its OCC by:</p>
+<ol type="1">
+<li><strong>Reducing Inventory Holding Period</strong>:
+<ul>
+<li>Implement better inventory forecasting</li>
+<li>Use JIT where possible</li>
+<li>Review product range to eliminate slow-moving items</li>
+</ul></li>
+<li><strong>Reducing Receivables Period</strong>:
+<ul>
+<li>Tighten credit control procedures</li>
+<li>Offer discounts for prompt payment</li>
+<li>Implement more efficient invoicing systems</li>
+</ul></li>
+<li><strong>Extending Payables Period</strong> (carefully):
+<ul>
+<li>Negotiate longer payment terms with suppliers</li>
+<li>Ensure payment terms are fully utilized</li>
+<li>Maintain good supplier relationships</li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<ul>
+<li>Working capital management involves balancing current assets and liabilities</li>
+<li>The working capital cycle shows how resources flow through a business</li>
+<li>Effective inventory management requires balancing holding and ordering costs</li>
+<li>Trade receivables management involves credit assessment and collection policies</li>
+<li>Cash management aims to maintain sufficient liquidity while minimizing idle funds</li>
+<li>The operating cash cycle measures efficiency in working capital management</li>
+<li>Shorter OCCs generally indicate more efficient working capital management</li>
+</ul>
+</section>
+<section id="practice-questions" class="level2">
+<h2 class="anchored" data-anchor-id="practice-questions">Practice Questions</h2>
+<ol type="1">
+<li><p>A company has average inventory of £500,000, annual cost of sales of £4 million, average trade receivables of £800,000, annual credit sales of £6 million, and average trade payables of £600,000 with annual credit purchases of £3.5 million. Calculate:</p>
+<ol type="a">
+<li>The inventory turnover period</li>
+<li>The receivables collection period</li>
+<li>The payables payment period</li>
+<li>The operating cash cycle</li>
+</ol></li>
+<li><p>Using the EOQ model, calculate the optimal order quantity for a product with annual demand of 8,000 units, ordering cost of £50 per order, and holding cost of £5 per unit per year.</p></li>
+<li><p>Critically evaluate the advantages and disadvantages of implementing a Just-in-Time inventory system for a manufacturing business.</p></li>
+<li><p>Discuss how a company might reduce its operating cash cycle and evaluate the potential benefits and risks of such actions.</p></li>
+<li><p>Analyze how the “Five Cs” of credit can be used to assess customer creditworthiness, giving examples of information sources for each criterion.</p></li>
+</ol>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
