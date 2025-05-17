@@ -326,7 +326,7 @@
     "href": "day1-afternoon-slides.html#converting-to-cash-flow",
     "title": "Corporate Financial Management",
     "section": "Converting to Cash Flow",
-    "text": "Converting to Cash Flow\n\n\n\n\n\n\nKey Cash Flow Conversion\n\n\nTo convert income statement to cash flow: 1. Start with profit figure: -£150,000 2. Add back non-cash expenses: - Depreciation: +£140,000 (not actual cash outflow) 3. Adjust for working capital changes: - Inventory increase: -£20,000 (cash spent but not yet expensed) 4. Adjust for timing differences: - Credit sales: adjustment for cash not yet received\nThe resulting figure represents the actual cash movement, which may differ significantly from accounting profit."
+    "text": "Converting to Cash Flow\n\n\n\n\n\n\nKey Cash Flow Conversion\n\n\nTo convert income statement to cash flow:\n\nStart with profit figure: -£150,000\nAdd back non-cash expenses:\n\nDepreciation: +£140,000 (not actual cash outflow)\n\nAdjust for working capital changes:\n\nInventory increase: -£20,000 (cash spent but not yet expensed)\n\nAdjust for timing differences:\n\nCredit sales: adjustment for cash not yet received\n\n\nThe resulting figure represents the actual cash movement, which may differ significantly from accounting profit."
   },
   {
     "objectID": "day1-afternoon-slides.html#classification-framework",
@@ -347,7 +347,7 @@
     "href": "day1-afternoon-slides.html#discounted-cash-flow-methods",
     "title": "Corporate Financial Management",
     "section": "Discounted Cash Flow Methods",
-    "text": "Discounted Cash Flow Methods\nDCF methods explicitly account for the time value of money through discounting.\nDiscount factors at 10% rate: - Year 1: 1 ÷ (1+0.10)¹ = 0.909 - Year 2: 1 ÷ (1+0.10)² = 0.826 - Year 3: 1 ÷ (1+0.10)³ = 0.751\nInterpretation:\n\n£1 received in Year 1 has a present value of 90.9p\n£1 received in Year 2 has a present value of 82.6p\n£1 received in Year 3 has a present value of 75.1p"
+    "text": "Discounted Cash Flow Methods\nDCF methods explicitly account for the time value of money through discounting.\nDiscount factors at 10% rate:\n\nYear 1: 1 ÷ (1+0.10)¹ = 0.909\nYear 2: 1 ÷ (1+0.10)² = 0.826\nYear 3: 1 ÷ (1+0.10)³ = 0.751\n\nInterpretation:\n\n£1 received in Year 1 has a present value of 90.9p\n£1 received in Year 2 has a present value of 82.6p\n£1 received in Year 3 has a present value of 75.1p"
   },
   {
     "objectID": "day1-afternoon-slides.html#selection-in-practice",
@@ -431,7 +431,7 @@
     "href": "day1-afternoon-slides.html#understanding-the-discount-rate",
     "title": "Corporate Financial Management",
     "section": "Understanding the Discount Rate",
-    "text": "Understanding the Discount Rate\nThe discount rate reflects: - Risk-free rate – return on safe investments (e.g., government bonds) - Inflation premium – adjustment for expected inflation - Risk premium – extra return required for project risks\n\n\n\n\n\nflowchart LR\n    A[Risk-free rate] --&gt; D[Required return]\n    B[Inflation premium] --&gt; D\n    C[Risk premium] --&gt; D\n    D --&gt; E[Discount rate for NPV]\n\n\n\n\n\n\nExample:\n\nRisk-free rate: 2%\nExpected inflation: 3%\nProject risk premium: 5%\nResulting discount rate: 10%"
+    "text": "Understanding the Discount Rate\nThe discount rate reflects:\n\nRisk-free rate – return on safe investments (e.g., government bonds)\nInflation premium – adjustment for expected inflation\nRisk premium – extra return required for project risks\n\n\n\n\n\n\nflowchart LR\n    A[Risk-free rate] --&gt; D[Required return]\n    B[Inflation premium] --&gt; D\n    C[Risk premium] --&gt; D\n    D --&gt; E[Discount rate for NPV]\n\n\n\n\n\n\nExample:\n\nRisk-free rate: 2%\nExpected inflation: 3%\nProject risk premium: 5%\nResulting discount rate: 10%"
   },
   {
     "objectID": "day1-afternoon-slides.html#step-by-step-example-2",
