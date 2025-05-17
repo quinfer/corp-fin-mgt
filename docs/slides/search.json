@@ -277,42 +277,42 @@
     "href": "day1-afternoon-slides.html#the-nature-of-investment-decisions",
     "title": "Corporate Financial Management",
     "section": "The Nature of Investment Decisions",
-    "text": "The Nature of Investment Decisions\nInvestment decisions represent long-term commitments of substantial resources with uncertain returns. They are among the most consequential decisions finance managers must make."
+    "text": "The Nature of Investment Decisions\nInvestment decisions represent long-term commitments of substantial resources with uncertain returns. They are among the most consequential decisions finance managers must make.\nThink of them as “big bets” that organizations make on their future."
   },
   {
     "objectID": "day1-afternoon-slides.html#key-characteristics",
     "href": "day1-afternoon-slides.html#key-characteristics",
     "title": "Corporate Financial Management",
     "section": "Key Characteristics",
-    "text": "Key Characteristics\nCapital investment decisions typically involve:\n\nLarge amounts of resources\nRelatively long timescales\nDifficulty or expense in reversing the investment once undertaken\nStrategic implications for the organisation’s future direction\nComplex risk considerations"
+    "text": "Key Characteristics\nCapital investment decisions typically involve:\n\nSubstantial resource allocation\nExtended time horizons\nLimited reversibility once undertaken\nStrategic implications for the organisation’s future direction\nMultiple risk dimensions"
   },
   {
     "objectID": "day1-afternoon-slides.html#investment-decision-framework",
     "href": "day1-afternoon-slides.html#investment-decision-framework",
     "title": "Corporate Financial Management",
     "section": "Investment Decision Framework",
-    "text": "Investment Decision Framework\n\n\n\n\n\nflowchart TD\n    A[Identify investment opportunity] --&gt; B[Gather relevant information]\n    B --&gt; C[Evaluate using appraisal techniques]\n    C --&gt; D[Consider risk factors]\n    D --&gt; E[Make investment decision]\n    E --&gt; F[Implement and monitor]\n    F --&gt; G[Post-implementation review]"
+    "text": "Investment Decision Framework\nflowchart TD\n    A[Identify investment opportunity] --&gt; B[Gather relevant information]\n    B --&gt; C[Evaluate using appraisal techniques]\n    C --&gt; D[Consider risk factors]\n    D --&gt; E[Make investment decision]\n    E --&gt; F[Implement and monitor]\n    F --&gt; G[Post-implementation review]"
   },
   {
     "objectID": "day1-afternoon-slides.html#real-world-example",
     "href": "day1-afternoon-slides.html#real-world-example",
     "title": "Corporate Financial Management",
     "section": "Real-World Example",
-    "text": "Real-World Example\nThe pharmaceutical industry provides a classic example of the capital investment decision challenge:\n\nInitial R&D investment: £500m+\nDevelopment timeline: 10-15 years\nSuccess rate: Only 1 in 10 compounds receives regulatory approval\nStrategic importance: Defines company product pipeline for decades\nHigh uncertainty: Market conditions may change substantially before launch"
+    "text": "Real-World Example\nThe pharmaceutical industry provides a classic example of the capital investment decision challenge:\n\nInitial R&D investment: £500m+ (significant upfront capital)\nDevelopment timeline: 10-15 years (extended time commitment)\nSuccess rate: Only 1 in 10 compounds receives regulatory approval (substantial uncertainty)\nStrategic importance: Defines company product pipeline for decades\nMarket conditions: Subject to change during the development period"
   },
   {
     "objectID": "day1-afternoon-slides.html#cash-flows-vs.-accounting-profits",
     "href": "day1-afternoon-slides.html#cash-flows-vs.-accounting-profits",
     "title": "Corporate Financial Management",
     "section": "Cash Flows vs. Accounting Profits",
-    "text": "Cash Flows vs. Accounting Profits\nA fundamental principle in capital investment appraisal is the focus on cash flows rather than accounting profits.\n\n\nKey Equation: \\[\\text{Cash Flow} = \\text{Profit} + \\text{Depreciation} + \\text{Other non-cash adjustments}\\]\nWhy Focus on Cash Flows?\n\nCash is objective and measurable\nProfits are subject to accounting policies\nCash flow timing directly impacts value\nInvestment decisions affect cash balances\n\n\n\nRelevant Cash Flows Are:\n\nIncremental (arising directly from the project)\nFuture (not past/sunk costs)\nAfter-tax\n\nIrrelevant Items Include:\n\nSunk costs\nNon-incremental overhead allocations\nInterest payments (captured in discount rate)\nAccounting conventions\n\n\n\n\n\n\n\n\n\nCommon Error\n\n\nIncluding already committed (sunk) costs in investment appraisal calculations. Once spent, these costs are irrelevant to the decision to proceed."
+    "text": "Cash Flows vs. Accounting Profits\nA fundamental principle in capital investment appraisal is the focus on cash flows rather than accounting profits.\n\n\nKey Equation: \\(\\text{Cash Flow} = \\text{Profit} + \\text{Depreciation} + \\text{Other non-cash adjustments}\\)\nPractical example:\nFor a £30,000 delivery van:\n\nAccounting: £6,000 expense annually for 5 years\nCash flow: £30,000 outflow at purchase\n\n\n\nWhy Focus on Cash Flows?\n\nCash is objective and measurable\nProfits are subject to accounting policies\nCash flow timing directly impacts value\nInvestment decisions affect cash balances"
   },
   {
     "objectID": "day1-afternoon-slides.html#projected-income-statement-vs.-cash-flow",
     "href": "day1-afternoon-slides.html#projected-income-statement-vs.-cash-flow",
     "title": "Corporate Financial Management",
     "section": "Projected Income Statement vs. Cash Flow",
-    "text": "Projected Income Statement vs. Cash Flow\nConsider how an accounting statement differs from the cash flow perspective:\n\n\n\nTypical Income Statement\n\n\n\n£000\n£000\n\n\n\n\nCredit sales revenue\n1,200\n\n\n\nLess Cost of sales:\n\n\n\n\nOpening inventories\n100\n\n\n\nAdd Purchases\n750\n\n\n\nLess Closing inventories\n(120)\n730\n\n\nGross profit\n\n470\n\n\nLess:\n\n\n\n\nCredit card discounts\n60\n\n\n\nRent and rates\n180\n\n\n\nOther costs\n240\n\n\n\nDepreciation of fittings\n140\n620\n\n\nProfit for the period\n\n(150)\n\n\n\n\n\n\n\n\n\n\n\nKey Cash Flow Conversion\n\n\nIncome statement to cash flow adjustments: - Add back non-cash expenses (e.g., depreciation: +£140,000) - Adjust for working capital changes (e.g., inventory increase: -£20,000) - Exclude financing costs (captured in the discount rate)"
+    "text": "Projected Income Statement vs. Cash Flow\nConsider how an accounting statement differs from the cash flow perspective:\nTypical Income Statement\n\n\n\n\n£000\n£000\n\n\n\n\nCredit sales revenue\n1,200\n\n\n\nLess Cost of sales:\n\n\n\n\nOpening inventories\n100\n\n\n\nAdd Purchases\n750\n\n\n\nLess Closing inventories\n(120)\n730\n\n\nGross profit\n\n470\n\n\nLess:\n\n\n\n\nCredit card discounts\n60\n\n\n\nRent and rates\n180\n\n\n\nOther costs\n240\n\n\n\nDepreciation of fittings\n140\n620\n\n\nProfit for the period\n\n(150)"
   },
   {
     "objectID": "day1-afternoon-slides.html#classification-framework",
@@ -326,28 +326,28 @@
     "href": "day1-afternoon-slides.html#discounted-cash-flow-methods",
     "title": "Corporate Financial Management",
     "section": "Discounted Cash Flow Methods",
-    "text": "Discounted Cash Flow Methods\nTime Value of Money Principle:\nFuture cash flows are worth less than immediate cash flows due to:\n\nOpportunity cost of capital\nInflation\nRisk\n\nDCF methods explicitly account for this through discounting."
+    "text": "Discounted Cash Flow Methods\nDCF methods explicitly account for the time value of money through discounting.\nDiscount factors at 10% rate: - Year 1: 1 ÷ (1+0.10)¹ = 0.909 - Year 2: 1 ÷ (1+0.10)² = 0.826 - Year 3: 1 ÷ (1+0.10)³ = 0.751\nInterpretation:\n\n£1 received in Year 1 has a present value of 90.9p\n£1 received in Year 2 has a present value of 82.6p\n£1 received in Year 3 has a present value of 75.1p"
   },
   {
     "objectID": "day1-afternoon-slides.html#selection-in-practice",
     "href": "day1-afternoon-slides.html#selection-in-practice",
     "title": "Corporate Financial Management",
     "section": "Selection in Practice",
-    "text": "Selection in Practice"
+    "text": "Selection in Practice\n\nNotice how NPV and IRR usage has been increasing over time, while Payback Period and ARR have been declining."
   },
   {
     "objectID": "day1-afternoon-slides.html#payback-period-pp",
     "href": "day1-afternoon-slides.html#payback-period-pp",
     "title": "Corporate Financial Management",
     "section": "Payback Period (PP)",
-    "text": "Payback Period (PP)\nThe Payback Period is the time required to recover the initial investment from project cash flows."
+    "text": "Payback Period (PP)\nThe Payback Period is the time required to recover the initial investment from project cash flows.\nDefinition: The duration required for cumulative cash inflows to equal the initial investment."
   },
   {
     "objectID": "day1-afternoon-slides.html#definition-calculation",
     "href": "day1-afternoon-slides.html#definition-calculation",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\n\\[\\text{Payback Period} = \\text{Time until} \\sum_{t=0}^{n} \\text{Cash Flow}_t = 0\\]\nWhere: - t = time period (typically years) - n = payback period\nDecision Rule: - Accept projects with PP &lt; maximum acceptable period - Between competing projects, prefer shorter payback"
+    "text": "Definition & Calculation\n\\(\\text{Payback Period} = \\text{Time until} \\sum_{t=0}^{n} \\text{Cash Flow}_t = 0\\)\nCalculation process:\n\nBegin with the negative initial investment at Year 0\nAdd each year’s cash flow to calculate a running total\nDetermine when this total becomes positive\n\nDecision Rule:\n\nAccept projects with PP &lt; maximum acceptable period\nBetween competing projects, prefer shorter payback"
   },
   {
     "objectID": "day1-afternoon-slides.html#example",
@@ -361,21 +361,21 @@
     "href": "day1-afternoon-slides.html#advantages-limitations",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages:\n\nSimple to calculate and understand\nFocuses on liquidity and capital recovery\nProvides a crude measure of risk\nPopular in practice\n\nLimitations:\n\nIgnores cash flows after the payback period\nFails to consider time value of money\nIgnores the scale of investment\nPayback threshold typically arbitrary\nNot linked to shareholder wealth maximization :::"
+    "text": "Advantages & Limitations\nAdvantages:\n\nComputational simplicity\nFocus on liquidity and capital recovery\nBasic risk indicator\nPractical application frequency\n\nLimitations:\n\nDisregards cash flows beyond the payback period\nNeglects time value of money\nFails to consider investment scale\nOften employs arbitrary thresholds\nNot aligned with shareholder wealth maximization"
   },
   {
     "objectID": "day1-afternoon-slides.html#discounted-payback-period-dpp",
     "href": "day1-afternoon-slides.html#discounted-payback-period-dpp",
     "title": "Corporate Financial Management",
     "section": "Discounted Payback Period (DPP)",
-    "text": "Discounted Payback Period (DPP)\nThe Discounted Payback Period addresses a key limitation of the standard payback by considering the time value of money."
+    "text": "Discounted Payback Period (DPP)\nThe Discounted Payback Period addresses a key limitation of the standard payback by considering the time value of money.\nDefinition: The duration required for cumulative discounted cash inflows to equal the initial investment."
   },
   {
     "objectID": "day1-afternoon-slides.html#definition-calculation-1",
     "href": "day1-afternoon-slides.html#definition-calculation-1",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\n\\[\\text{Discounted Payback Period} = \\text{Time until} \\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t} = 0\\]\nWhere:\n\nt = time period (typically years)\nr = discount rate\nn = discounted payback period\n\nDecision Rule:\n\nAccept projects with DPP &lt; maximum acceptable period\nBetween competing projects, prefer shorter discounted payback"
+    "text": "Definition & Calculation\n\\(\\text{Discounted Payback Period} = \\text{Time until} \\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t} = 0\\)\nCalculation process:\n\nConvert future cash flows to present value using discount factors\nCalculate cumulative discounted cash flows\nDetermine when this total becomes positive\n\nDecision Rule:\n\nAccept projects with DPP &lt; maximum acceptable period\nBetween competing projects, prefer shorter discounted payback"
   },
   {
     "objectID": "day1-afternoon-slides.html#example-1",
@@ -389,21 +389,21 @@
     "href": "day1-afternoon-slides.html#advantages-limitations-1",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages:\n\nAccounts for time value of money (unlike PP)\nMaintains simplicity of interpretation\nMore realistic measure of capital recovery time\n\nLimitations:\n\nStill ignores cash flows after the payback period\nArbitrary threshold for acceptable period\nNot directly linked to shareholder wealth maximization :::"
+    "text": "Advantages & Limitations\nAdvantages:\n\nAccounts for time value of money – unlike standard PP\nMaintains simplicity of interpretation – still tells us “how long until we get our money back”\nMore realistic measure – based on the actual value of money over time\n\nLimitations:\n\nStill ignores cash flows after payback – misses long-term benefits\nArbitrary threshold – what’s a “good” discounted payback?\nNot directly linked to shareholder wealth – doesn’t indicate if value is created"
   },
   {
     "objectID": "day1-afternoon-slides.html#net-present-value-npv",
     "href": "day1-afternoon-slides.html#net-present-value-npv",
     "title": "Corporate Financial Management",
     "section": "Net Present Value (NPV)",
-    "text": "Net Present Value (NPV)\nThe Net Present Value method is the most theoretically sound approach to investment appraisal, directly linking to shareholder wealth maximization."
+    "text": "Net Present Value (NPV)\nThe Net Present Value method is the most theoretically sound approach to investment appraisal, directly linking to shareholder wealth maximization.\nDefinition: The sum of all project cash flows, discounted to present value."
   },
   {
     "objectID": "day1-afternoon-slides.html#definition-calculation-2",
     "href": "day1-afternoon-slides.html#definition-calculation-2",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\n\\[\\text{NPV} = \\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t}\\]\nWhere:\n\nt = time period (typically years)\nr = discount rate (cost of capital)\nn = project lifetime\n\nDecision Rule:\n\nAccept projects with NPV &gt; 0\nReject projects with NPV &lt; 0\nBetween competing projects, prefer higher NPV"
+    "text": "Definition & Calculation\n\\(\\text{NPV} = \\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t}\\)\nCalculation process:\n\nConvert all cash flows to present value using the appropriate discount rate\nSum all discounted cash flows (including initial investment)\nThe resulting figure represents the net value created by the project\n\nDecision Rule:\n\nAccept projects with NPV &gt; 0\nReject projects with NPV &lt; 0\nBetween competing projects, prefer higher NPV"
   },
   {
     "objectID": "day1-afternoon-slides.html#discount-rate-components",
@@ -424,21 +424,21 @@
     "href": "day1-afternoon-slides.html#advantages-limitations-2",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages:\n\nConsiders all cash flows over project life\nAccounts for time value of money\nDirectly linked to shareholder wealth maximization\nAllows for risk adjustment via discount rate\nAdditive across projects\n\nLimitations:\n\nMore complex to calculate and explain\nHighly sensitive to discount rate selection\nAssumes reinvestment at the discount rate\nProvides absolute rather than relative measure :::"
+    "text": "Advantages & Limitations\nAdvantages:\n\nConsiders all cash flows – across entire project life\nAccounts for time value of money – properly values future cash flows\nDirectly linked to shareholder value – positive NPV = increased wealth\nAllows for risk adjustment – via discount rate\nAdditive across projects – can combine NPVs of different projects\n\nLimitations:\n\nMore complex to calculate – requires understanding of discounting\nSensitive to discount rate – small changes can significantly impact NPV\nAssumes reinvestment at the discount rate\nProvides absolute measure – doesn’t indicate efficiency of capital use"
   },
   {
     "objectID": "day1-afternoon-slides.html#internal-rate-of-return-irr",
     "href": "day1-afternoon-slides.html#internal-rate-of-return-irr",
     "title": "Corporate Financial Management",
     "section": "Internal Rate of Return (IRR)",
-    "text": "Internal Rate of Return (IRR)\nThe Internal Rate of Return is the discount rate at which a project’s NPV equals zero, representing the project’s “yield.”"
+    "text": "Internal Rate of Return (IRR)\nThe Internal Rate of Return is the discount rate at which a project’s NPV equals zero, representing the project’s “yield.”\nDefinition: The discount rate that equates the present value of cash inflows with the present value of cash outflows."
   },
   {
     "objectID": "day1-afternoon-slides.html#definition-calculation-3",
     "href": "day1-afternoon-slides.html#definition-calculation-3",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\nIRR is the value of r that satisfies:\n\\[\\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t} = 0\\]\nTypically solved through iteration or financial calculators.\nDecision Rule:\n\nAccept projects with IRR &gt; cost of capital\nReject projects with IRR &lt; cost of capital\nBetween competing projects, prefer higher IRR"
+    "text": "Definition & Calculation\nIRR is the value of r that satisfies:\n\\[\\sum_{t=0}^{n} \\frac{\\text{Cash Flow}_t}{(1+r)^t} = 0\\]\nIn plain English:\n\nFind the discount rate that makes the NPV exactly zero\nThis rate represents the project’s “break-even” return rate\nIf you could earn exactly this rate elsewhere, you’d be indifferent\n\nDecision Rule:\n\nAccept projects with IRR &gt; cost of capital\nReject projects with IRR &lt; cost of capital\nBetween competing projects, prefer higher IRR"
   },
   {
     "objectID": "day1-afternoon-slides.html#example-3",
@@ -452,28 +452,28 @@
     "href": "day1-afternoon-slides.html#npv-irr-relationship",
     "title": "Corporate Financial Management",
     "section": "NPV-IRR Relationship",
-    "text": "NPV-IRR Relationship"
+    "text": "NPV-IRR Relationship\n\nThe graph shows NPV at different discount rates. Where the line crosses the x-axis is the IRR.\nKey insights:\n\nAt discount rates below IRR, NPV is positive\nAt discount rates above IRR, NPV is negative\nAt exactly IRR, NPV is zero"
   },
   {
     "objectID": "day1-afternoon-slides.html#advantages-limitations-3",
     "href": "day1-afternoon-slides.html#advantages-limitations-3",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages:\n\nIntuitive percentage return format\nAccounts for time value of money\nConsiders all cash flows\nPopular with practitioners\n\nLimitations:\n\nMultiple IRRs possible with non-conventional cash flows\nScale of investment not considered\nReinvestment assumption may be unrealistic\nRanking conflicts with NPV possible\nNot directly linked to shareholder wealth maximization :::"
+    "text": "Advantages & Limitations\nAdvantages:\n\nIntuitive percentage format – easier to understand “a 12.85% return” than “an NPV of £79,290”\nAccounts for time value of money – properly values future cash flows\nConsiders all cash flows – across entire project life\nPopular with practitioners – widely used in industry\n\nLimitations:\n\nMultiple IRRs possible – with non-conventional cash flows\nScale of investment not considered – a small project might have high IRR but create less total value\nReinvestment assumption – assumes cash flows can be reinvested at the IRR\nRanking conflicts with NPV – in some cases, may rank projects differently\nNot directly linked to shareholder wealth – high IRR doesn’t necessarily mean maximum value"
   },
   {
     "objectID": "day1-afternoon-slides.html#accounting-rate-of-return-arr",
     "href": "day1-afternoon-slides.html#accounting-rate-of-return-arr",
     "title": "Corporate Financial Management",
     "section": "Accounting Rate of Return (ARR)",
-    "text": "Accounting Rate of Return (ARR)\nThe Accounting Rate of Return focuses on accounting profit rather than cash flows."
+    "text": "Accounting Rate of Return (ARR)\nThe Accounting Rate of Return focuses on accounting profit rather than cash flows.\nIn simple terms: “What is the average accounting return on the investment?”"
   },
   {
     "objectID": "day1-afternoon-slides.html#definition-calculation-4",
     "href": "day1-afternoon-slides.html#definition-calculation-4",
     "title": "Corporate Financial Management",
     "section": "Definition & Calculation",
-    "text": "Definition & Calculation\n\\[\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Average investment}} \\times 100\\%\\]\nWhere:\n\nAverage annual profit = Total project profits ÷ Project life\nAverage investment = (Initial investment + Residual value) ÷ 2\n\nDecision Rule:\n\nAccept projects with ARR &gt; minimum required return\nReject projects with ARR &lt; minimum required return\nBetween competing projects, prefer higher ARR"
+    "text": "Definition & Calculation\n\\[\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Average investment}} \\times 100\\%\\]\nIn plain English:\n\nCalculate the average annual accounting profit over the project’s life\nCalculate the average investment over the project’s life\nDivide average profit by average investment to get the return rate\n\nDecision Rule:\n\nAccept projects with ARR &gt; minimum required return\nReject projects with ARR &lt; minimum required return\nBetween competing projects, prefer higher ARR"
   },
   {
     "objectID": "day1-afternoon-slides.html#example-4",
@@ -487,14 +487,14 @@
     "href": "day1-afternoon-slides.html#advantages-limitations-4",
     "title": "Corporate Financial Management",
     "section": "Advantages & Limitations",
-    "text": "Advantages & Limitations\nAdvantages:\n\nUses familiar accounting concepts\nSimple to calculate\nAddresses profitability directly\nNo discounting required\n\nLimitations:\n\nBased on accounting profits, not cash flows\nIgnores time value of money\nNo objective benchmark for minimum ARR\nSensitive to accounting policies\nMultiple calculation methods exist"
+    "text": "Advantages & Limitations\nAdvantages:\n\nUses familiar accounting concepts – no need to convert to cash flows\nSimple to calculate – basic arithmetic only\nAddresses profitability directly – based on accounting profit, familiar to managers\nNo discounting required – avoids complexity of time value calculations\n\nLimitations:\n\nBased on accounting profits, not cash flows – may not reflect actual cash generation\nIgnores time value of money – treats profits in Year 1 the same as profits in Year 5\nNo objective benchmark – what’s a “good” ARR is often arbitrary\nSensitive to accounting policies – different depreciation methods can change the ARR\nMultiple calculation methods exist – different companies may calculate it differently"
   },
   {
     "objectID": "day1-afternoon-slides.html#comparison-of-appraisal-methods",
     "href": "day1-afternoon-slides.html#comparison-of-appraisal-methods",
     "title": "Corporate Financial Management",
     "section": "Comparison of Appraisal Methods",
-    "text": "Comparison of Appraisal Methods\nThe following table summarizes key features of the five investment appraisal methods:\n\n\n\n\n\n\n\n\n\n\n\n\n\nMethod\nConsiders Time Value\nConsiders All Cash Flows\nLinked to Shareholder Value\nComplexity\nFormat\n\n\n\n\nPayback Period (PP)\nNo\nNo\nNo\nLow\nYears\n\n\nDiscounted Payback Period (DPP)\nYes\nNo\nNo\nMedium\nYears\n\n\nNet Present Value (NPV)\nYes\nYes\nYes\nMedium-High\nCurrency\n\n\nInternal Rate of Return (IRR)\nYes\nYes\nIndirectly\nHigh\nPercentage\n\n\nAccounting Rate of Return (ARR)\nNo\nYes\nNo\nLow\nPercentage\n\n\n\n\n\n\n\n\n\n\n\nBest Practice\n\n\nOrganizations typically use multiple appraisal methods in combination to gain a more complete perspective on potential investments."
+    "text": "Comparison of Appraisal Methods\n\n\n\n\n\n\n\n\n\n\n\nMethod\nConsiders Time Value\nConsiders All Cash Flows\nLinked to Shareholder Value\nComplexity\nFormat\n\n\n\n\nPayback Period (PP)\nNo\nNo\nNo\nLow\nYears\n\n\nDiscounted Payback Period (DPP)\nYes\nNo\nNo\nMedium\nYears\n\n\nNet Present Value (NPV)\nYes\nYes\nYes\nMedium-High\nCurrency\n\n\nInternal Rate of Return (IRR)\nYes\nYes\nIndirectly\nHigh\nPercentage\n\n\nAccounting Rate of Return (ARR)\nNo\nYes\nNo\nLow\nPercentage\n\n\n\n\n\n\n\n\n\nBest Practice\n\n\nOrganizations typically use multiple appraisal methods in combination to gain a more complete perspective on potential investments."
   },
   {
     "objectID": "day1-afternoon-slides.html#case-study-evaluating-a-new-business-venture",
@@ -515,28 +515,28 @@
     "href": "day1-afternoon-slides.html#applying-pp-and-dpp",
     "title": "Corporate Financial Management",
     "section": "Applying PP and DPP",
-    "text": "Applying PP and DPP\n\n\n\n\n\n\n\n\n\n\n\n\n\nYear\nCash Flow (£)\nCumulative CF (£)\nDiscount Factor\nDiscounted CF (£)\nCumulative DCF (£)\n\n\n\n\n0\n-45000\n-45000\n1.000\n-45000\n-45000\n\n\n1\n12000\n-33000\n0.909\n10909\n-34091\n\n\n2\n18000\n-15000\n0.826\n14876\n-19215\n\n\n3\n22000\n7000\n0.751\n16529\n-2686\n\n\n4\n25000\n32000\n0.683\n17075\n14389\n\n\n5\n67000\n99000\n0.621\n41602\n55991\n\n\n\n\n\nPayback Period: Between Year 2 and 3, approximately 2.18 years.  Discounted Payback Period: Between Year 3 and 4, approximately 3.74 years."
+    "text": "Applying PP and DPP\n\n\n\n\n\n\n\n\n\n\n\nYear\nCash Flow (£)\nCumulative CF (£)\nDiscount Factor\nDiscounted CF (£)\nCumulative DCF (£)\n\n\n\n\n0\n-45,000\n-45,000\n1.000\n-45,000\n-45,000\n\n\n1\n12,000\n-33,000\n0.909\n10,908\n-34,092\n\n\n2\n18,000\n-15,000\n0.826\n14,868\n-19,224\n\n\n3\n22,000\n7,000\n0.751\n16,522\n-2,702\n\n\n4\n25,000\n32,000\n0.683\n17,075\n14,373\n\n\n5\n67,000\n99,000\n0.621\n41,607\n55,980\n\n\n\nCalculating Payback Period:\n\nAt the end of Year 2, we’re still £15,000 short of breaking even.\nIn Year 3, we generate £22,000.\nFraction of Year 3 needed = £15,000 ÷ £22,000 = 0.68\nTherefore, Payback Period = 2 + 0.68 = 2.68 years\n\nCalculating Discounted Payback Period:\n\nAt the end of Year 3, we’re still £2,702 short of breaking even.\nIn Year 4, we generate discounted cash flow of £17,075.\nFraction of Year 4 needed = £2,702 ÷ £17,075 = 0.16\nTherefore, Discounted Payback Period = 3 + 0.16 = 3.16 years"
   },
   {
     "objectID": "day1-afternoon-slides.html#calculating-npv-and-irr",
     "href": "day1-afternoon-slides.html#calculating-npv-and-irr",
     "title": "Corporate Financial Management",
     "section": "Calculating NPV and IRR",
-    "text": "Calculating NPV and IRR\n\n\n\n\n\nMetric\nValue\n\n\n\n\nNet Present Value (NPV)\n£ 55,991\n\n\nInternal Rate of Return (IRR)\n39.74 %"
+    "text": "Calculating NPV and IRR\nNet Present Value (NPV):\nSum of all discounted cash flows = £55,980\nInternal Rate of Return (IRR):\nIRR = 33.5%\n\n\n\nMetric\nValue\n\n\n\n\nNet Present Value (NPV)\n£ 55,980\n\n\nInternal Rate of Return (IRR)\n33.5%"
   },
   {
     "objectID": "day1-afternoon-slides.html#calculating-arr",
     "href": "day1-afternoon-slides.html#calculating-arr",
     "title": "Corporate Financial Management",
     "section": "Calculating ARR",
-    "text": "Calculating ARR\n\n\n\n\n\nYear\nCash Flow (£)\nDepreciation (£)\nAccounting Profit (£)\n\n\n\n\n1\n12000\n800\n11200\n\n\n2\n18000\n800\n17200\n\n\n3\n22000\n800\n21200\n\n\n4\n25000\n800\n24200\n\n\n5\n26000\n800\n25200\n\n\n\n\n\n\n\n\nMetric\nValue\n\n\n\n\nAverage Annual Profit\n£ 19,800\n\n\nAverage Investment\n£ 43,000\n\n\nARR\n46 %"
+    "text": "Calculating ARR\n\n\n\nYear\nCash Flow (£)\nDepreciation (£)\nAccounting Profit (£)\n\n\n\n\n1\n12,000\n800\n11,200\n\n\n2\n18,000\n800\n17,200\n\n\n3\n22,000\n800\n21,200\n\n\n4\n25,000\n800\n24,200\n\n\n5\n26,000\n800\n25,200\n\n\n\nCalculation:\n\nAnnual depreciation = (£45,000 - £41,000) ÷ 5 = £800\nAverage annual profit = (£11,200 + £17,200 + £21,200 + £24,200 + £25,200) ÷ 5 = £19,800\nAverage investment = (£45,000 + £41,000) ÷ 2 = £43,000\nARR = (£19,800 ÷ £43,000) × 100% = 46.0%\n\n\n\n\nMetric\nValue\n\n\n\n\nAverage Annual Profit\n£ 19,800\n\n\nAverage Investment\n£ 43,000\n\n\nARR\n46.0%"
   },
   {
     "objectID": "day1-afternoon-slides.html#decision-recommendation",
     "href": "day1-afternoon-slides.html#decision-recommendation",
     "title": "Corporate Financial Management",
     "section": "Decision Recommendation",
-    "text": "Decision Recommendation\nBased on all five appraisal methods, we can make the following assessment:\n\nPayback Period (2.18 years): If the maximum acceptable payback is 3 years, the project is acceptable.\nDiscounted Payback (3.74 years): If the maximum acceptable discounted payback is 4 years, the project is acceptable.\nNPV (£22,977): The positive NPV indicates the project adds value to the business and should be accepted.\nIRR (23.92%): If the cost of capital is 10%, the project’s IRR substantially exceeds this threshold and should be accepted.\nARR (16.4%): If the minimum required ARR is 15%, the project is acceptable.\n\n\n\n\n\n\n\nRecommendation:\n\n\nThe investment in the plumbing business appears financially viable across all appraisal methods. The positive NPV and high IRR are particularly encouraging indicators of value creation."
+    "text": "Decision Recommendation\nBased on all five appraisal methods, we can make the following assessment:\n\nPayback Period (2.68 years): If the maximum acceptable payback is 3 years, the project is acceptable.\nDiscounted Payback (3.16 years): If the maximum acceptable discounted payback is 4 years, the project is acceptable.\nNPV (£55,980): The positive NPV indicates the project adds substantial value to the business and should be accepted.\nIRR (33.5%): If the cost of capital is 10%, the project’s IRR substantially exceeds this threshold and should be accepted.\nARR (46.0%): If the minimum required ARR is 15%, the project is well above this threshold and acceptable.\n\n\n\n\n\n\n\nRecommendation:\n\n\nThe investment in the plumbing business appears financially viable across all appraisal methods. The positive NPV and high IRR are particularly encouraging indicators of value creation."
   },
   {
     "objectID": "day1-afternoon-slides.html#risk-in-investment-decisions",
@@ -557,42 +557,42 @@
     "href": "day1-afternoon-slides.html#sensitivity-analysis",
     "title": "Corporate Financial Management",
     "section": "Sensitivity Analysis",
-    "text": "Sensitivity Analysis\nSensitivity analysis examines how changes in key variables affect project outcomes.\nProcess:\n\nIdentify key variables (e.g., sales volume, price, costs)\nCalculate impact of percentage changes in each variable\nIdentify switching points where NPV becomes zero\nFocus management attention on most sensitive variables\n\nExample: For our plumbing business, how much would each variable need to change to make NPV zero?\n\n\n\n\n\n\n\n\n\n\n\nVariable\nBase Value\nChange for Zero NPV\nInterpretation\n\n\n\n\nInitial investment\n£45,000\n+51.1%\nLow sensitivity\n\n\nAnnual cash flows\nAs projected\n-24.0%\nModerate sensitivity\n\n\nExit value\n£41,000\n-56.0%\nLow sensitivity\n\n\nDiscount rate\n10%\n+13.9 percentage points\nLow sensitivity"
+    "text": "Sensitivity Analysis\nSensitivity analysis asks: “How much would key variables need to change to make this project unviable?”\nProcess:\n\nIdentify key variables (e.g., sales volume, price, costs)\nCalculate impact of percentage changes in each variable\nIdentify switching points where NPV becomes zero\nFocus management attention on most sensitive variables"
   },
   {
     "objectID": "day1-afternoon-slides.html#scenario-analysis",
     "href": "day1-afternoon-slides.html#scenario-analysis",
     "title": "Corporate Financial Management",
     "section": "Scenario Analysis",
-    "text": "Scenario Analysis\nScenario analysis evaluates the project under different sets of assumptions.\n\n\n\n\n\nScenario\nAnnual Growth\nExit Multiple\nNPV\nIRR\n\n\n\n\nPessimistic\n5%\n1.0x\n£3,250\n12.1%\n\n\nMost likely\n10%\n1.5x\n£22,977\n23.9%\n\n\nOptimistic\n15%\n2.0x\n£48,350\n36.2%"
+    "text": "Scenario Analysis\nScenario analysis evaluates the project under different sets of assumptions.\n\n\n\nScenario\nAnnual Growth\nExit Multiple\nNPV\nIRR\n\n\n\n\nPessimistic\n5%\n1.0x\n£3,250\n12.1%\n\n\nMost likely\n10%\n1.5x\n£22,977\n23.9%\n\n\nOptimistic\n15%\n2.0x\n£48,350\n36.2%\n\n\n\nEven in the pessimistic scenario, the project still has a positive NPV and IRR above the cost of capital, suggesting relatively low risk."
   },
   {
     "objectID": "day1-afternoon-slides.html#expected-npv",
     "href": "day1-afternoon-slides.html#expected-npv",
     "title": "Corporate Financial Management",
     "section": "Expected NPV",
-    "text": "Expected NPV\nExpected NPV incorporates probability estimates for different outcomes.\n\n\n\n\n\nScenario\nProbability\nNPV\nWeighted NPV\n\n\n\n\nPessimistic\n0.25\n£3,250\n£813\n\n\nMost likely\n0.50\n£22,977\n£11,489\n\n\nOptimistic\n0.25\n£48,350\n£12,088\n\n\nExpected value\n1.00\n\n£24,390"
+    "text": "Expected NPV\nExpected NPV incorporates probability estimates for different outcomes:\n\n\n\nScenario\nProbability\nNPV\nWeighted NPV\n\n\n\n\nPessimistic\n0.25\n£3,250\n£813\n\n\nMost likely\n0.50\n£22,977\n£11,489\n\n\nOptimistic\n0.25\n£48,350\n£12,088\n\n\nExpected value\n1.00\n\n£24,390\n\n\n\nThe expected NPV (£24,390) represents the probability-weighted average outcome. Since this is positive, the project is expected to create value even after accounting for different scenarios."
   },
   {
     "objectID": "day1-afternoon-slides.html#risk-attitudes",
     "href": "day1-afternoon-slides.html#risk-attitudes",
     "title": "Corporate Financial Management",
     "section": "Risk Attitudes",
-    "text": "Risk Attitudes\nDifferent investors have different risk preferences:\n\nRisk-averse investors: Require compensation for bearing risk\nRisk-neutral investors: Focus solely on expected values\nRisk-seeking investors: Willing to accept lower expected returns for chance of higher gains\n\nMost corporate decision-makers are risk-averse, which is reflected in:\n\nUse of hurdle rates above the cost of capital\nPreference for shorter payback periods\nConservative cash flow projections"
+    "text": "Risk Attitudes\nDifferent investors have different risk preferences:\n\nRisk-averse investors: Require compensation for bearing risk\n\nExample: Retirees protecting their savings\n\nRisk-neutral investors: Focus solely on expected values\n\nExample: Large corporations with many diverse projects\n\nRisk-seeking investors: Willing to accept lower expected returns for chance of higher gains\n\nExample: Venture capitalists seeking “unicorns”\n\n\nMost corporate decision-makers are risk-averse, which is reflected in higher hurdle rates, shorter payback periods, and conservative projections."
   },
   {
     "objectID": "day1-afternoon-slides.html#investment-decision-process-in-practice",
     "href": "day1-afternoon-slides.html#investment-decision-process-in-practice",
     "title": "Corporate Financial Management",
     "section": "Investment Decision Process in Practice",
-    "text": "Investment Decision Process in Practice\nThe investment appraisal techniques are part of a broader investment decision-making process:\n\n\n\n\n\nflowchart TD\n    A[1. Determine available funds] --&gt; B[2. Identify investment opportunities]\n    B --&gt; C[3. Initial screening]\n    C --&gt; D[4. Detailed appraisal]\n    D --&gt; E[5. Accept/reject decision]\n    E --&gt; F[6. Implementation]\n    F --&gt; G[7. Post-implementation review]\n\n\n\n\n\n\n\n\n\n\n\n\nNon-Financial Factors\n\n\nFinancial appraisal provides essential input but should be complemented with consideration of:\n\nStrategic fit with organizational objectives\nMarket position and competitive impacts\nTechnical feasibility and resource availability\nEnvironmental, social, and governance factors\nRegulatory compliance requirements\nOrganizational capability and change management"
+    "text": "Investment Decision Process in Practice\nThe investment appraisal techniques are part of a broader investment decision-making process:\n\n\n\n\n\nflowchart TD\n    A[1. Determine available funds] --&gt; B[2. Identify investment opportunities]\n    B --&gt; C[3. Initial screening]\n    C --&gt; D[4. Detailed appraisal]\n    D --&gt; E[5. Accept/reject decision]\n    E --&gt; F[6. Implementation]\n    F --&gt; G[7. Post-implementation review]"
   },
   {
     "objectID": "day1-afternoon-slides.html#post-completion-audit",
     "href": "day1-afternoon-slides.html#post-completion-audit",
     "title": "Corporate Financial Management",
     "section": "Post-Completion Audit",
-    "text": "Post-Completion Audit\nAfter implementing capital investments, organizations should conduct post-completion audits to:\n\nCompare actual outcomes with projected performance\nIdentify reasons for discrepancies\nImprove future forecasting and decision-making\nCreate accountability for projections\nCapture learning for future investments\n\n\n\n\n\n\n\nBest Practice\n\n\nResearch shows that companies conducting systematic post-completion audits achieve: - More accurate future projections - Better investment performance - Improved organizational learning - Enhanced strategic alignment of investments"
+    "text": "Post-Completion Audit\nAfter implementing capital investments, organizations should conduct post-completion audits to:\n\nCompare actual outcomes with projected performance\n\n“Did we achieve what we expected?”\n\nIdentify reasons for discrepancies\n\n“Why were our forecasts off?”\n\nImprove future forecasting and decision-making\n\n“How can we do better next time?”\n\nCreate accountability for projections\n\n“Who is responsible for the results?”\n\nCapture learning for future investments\n\n“What lessons can we apply to other projects?”"
   },
   {
     "objectID": "day1-afternoon-slides.html#key-takeaways",
@@ -606,21 +606,21 @@
     "href": "day1-afternoon-slides.html#for-tomorrow",
     "title": "Corporate Financial Management",
     "section": "For Tomorrow",
-    "text": "For Tomorrow\nTomorrow morning, we will explore:\n\nSources of finance\nCapital structure decisions\nCost of capital calculation\nWorking capital management\n\nPlease review the applied exercises at the end of chapter 5 in preparation for our practical session."
+    "text": "For Tomorrow\nTomorrow morning, we will explore: - Sources of finance - Capital structure decisions - Cost of capital calculation - Working capital management\nPlease review the applied exercises at the end of chapter 5 in preparation for our practical session."
   },
   {
     "objectID": "day1-afternoon-slides.html#additional-resources",
     "href": "day1-afternoon-slides.html#additional-resources",
     "title": "Corporate Financial Management",
     "section": "Additional Resources",
-    "text": "Additional Resources\nCore Reading: - Brealey, R., Myers, S., & Allen, F. (2023). Principles of Corporate Finance (14th ed.), Chapters 5-7 - Arnold, G. (2020). Corporate Financial Management (6th ed.), Chapters 2-4\nOnline Resources: - Financial Times Market Data - Corporate Finance Institute - NPV Calculator - McKinsey & Company on Capital Investment"
+    "text": "Additional Resources\nCore Reading: - Brealey, R., Myers, S., & Allen, F. (2023). Principles of Corporate Finance (14th ed.), Chapters 5-7 - Arnold, G. (2020). Corporate Financial Management (6th ed.), Chapters 2-4\nAdditional Resources for Non-Quantitative Students: - Khan Academy - Time Value of Money (online videos) - Investopedia - Discounted Cash Flow (online resource) - Corporate Finance Institute - Excel Templates (practical tools)"
   },
   {
     "objectID": "day1-afternoon-slides.html#practice-exercises",
     "href": "day1-afternoon-slides.html#practice-exercises",
     "title": "Corporate Financial Management",
     "section": "Practice Exercises",
-    "text": "Practice Exercises\nTo consolidate your understanding, attempt these practice problems before tomorrow’s session:\n\nA project requires an initial investment of £200,000 and is expected to generate annual cash flows of £50,000 for 5 years. Calculate the project’s payback period, NPV (using a 12% discount rate), and IRR.\nCompany A is considering two mutually exclusive projects with the following cash flows:\n\n\n\n\n\n\nYear\nProject X (£)\nProject Y (£)\n\n\n\n\n0\n-300000\n-300000\n\n\n1\n100000\n250000\n\n\n2\n150000\n100000\n\n\n3\n150000\n50000\n\n\n4\n50000\n25000\n\n\n\n\n\nUsing a discount rate of 10%, calculate: - The NPV of each project - The IRR of each project - The payback period of each project - Which project should be selected and why?\n\nHow would your recommendation for question 2 change if:\n\nThe company’s cost of capital increased to 15%?\nThe company faced capital rationing and could only invest £200,000?\nProject Y’s Year 1 cash flow was uncertain and could vary by ±20%?"
+    "text": "Practice Exercises\nTo consolidate your understanding, attempt these practice problems before tomorrow’s session:\n\nA project requires an initial investment of £200,000 and is expected to generate annual cash flows of £50,000 for 5 years. Calculate the project’s payback period, NPV (using a 12% discount rate), and IRR.\nCompany A is considering two mutually exclusive projects with the following cash flows:\n\n\n\n\nYear\nProject X (£)\nProject Y (£)\n\n\n\n\n0\n-300,000\n-300,000\n\n\n1\n100,000\n250,000\n\n\n2\n150,000\n100,000\n\n\n3\n150,000\n50,000\n\n\n4\n50,000\n25,000\n\n\n\nUsing a discount rate of 10%, calculate:\n\nThe NPV of each project\nThe IRR of each project\nThe payback period of each project\nWhich project should be selected and why?"
   },
   {
     "objectID": "day1-afternoon-slides.html#real-options-in-capital-investment-decisions",
@@ -634,14 +634,14 @@
     "href": "day1-afternoon-slides.html#real-options-framework",
     "title": "Corporate Financial Management",
     "section": "Real Options Framework",
-    "text": "Real Options Framework\n\n\n\n\n\nflowchart TD\n    A[Real Options in Investment] --&gt; B[Option to Defer]\n    A --&gt; C[Option to Expand]\n    A --&gt; D[Option to Abandon]\n    A --&gt; E[Option to Contract]\n    A --&gt; F[Option to Switch]\n\n\n\n\n\n\nReal options create value through managerial flexibility to adapt to changing circumstances."
+    "text": "Real Options Framework\n\n\n\n\n\nflowchart TD\n    A[Real Options in Investment] --&gt; B[Option to Defer]\n    A --&gt; C[Option to Expand]\n    A --&gt; D[Option to Abandon]\n    A --&gt; E[Option to Contract]\n    A --&gt; F[Option to Switch]\n\n\n\n\n\n\nThink of real options like house construction: - Option to Defer: Buy land but wait to build until market improves - Option to Expand: Build deep foundations now to add floors later - Option to Abandon: Design for easy conversion to commercial use - Option to Contract: Include a separate rental suite - Option to Switch: Install dual heating systems (gas/electric)"
   },
   {
     "objectID": "day1-afternoon-slides.html#common-real-option-types",
     "href": "day1-afternoon-slides.html#common-real-option-types",
     "title": "Corporate Financial Management",
     "section": "Common Real Option Types",
-    "text": "Common Real Option Types\n\n\n\n\n\n\n\n\nOption Type\nDescription\nValue Driver\n\n\n\n\nDefer\nAbility to postpone investment\nReduces uncertainty before committing\n\n\nExpand\nOpportunity to increase scale\nCaptures upside potential\n\n\nAbandon\nAbility to exit unprofitable projects\nLimits downside risk\n\n\nContract\nOption to reduce project scale\nMitigates losses in adverse conditions\n\n\nSwitch\nFlexibility to change inputs/outputs\nAdapts to changing market conditions"
+    "text": "Common Real Option Types\n\n\n\n\n\n\n\n\n\nOption Type\nDescription\nValue Driver\nExample\n\n\n\n\nDefer\nAbility to postpone investment\nReduces uncertainty\nOil company delaying field development\n\n\nExpand\nOpportunity to increase scale\nCaptures upside potential\nInfrastructure with expansion capacity\n\n\nAbandon\nAbility to exit unprofitable projects\nLimits downside risk\nPharmaceutical research termination option\n\n\nContract\nOption to reduce project scale\nMitigates adverse conditions\nModular manufacturing facility\n\n\nSwitch\nFlexibility to change inputs/outputs\nAdapts to market changes\nMulti-product production capability"
   },
   {
     "objectID": "day1-afternoon-slides.html#valuation-approaches",
@@ -704,7 +704,7 @@
     "href": "day1-afternoon-slides.html#quantification-methods",
     "title": "Corporate Financial Management",
     "section": "Quantification Methods",
-    "text": "Quantification Methods\n\n\n\n\n\n\n\n\nESG Factor\nQuantification Approach\nFinancial Integration\n\n\n\n\nCarbon emissions\nShadow carbon price\nAdditional cost per tonne CO₂e\n\n\nWater usage\nTrue cost of water\nAdjusted operating expenses\n\n\nCommunity benefits\nSocial return on investment (SROI)\nExternal benefit valuation\n\n\nHuman capital\nProductivity differentials\nAdjusted revenue/cost projections\n\n\nGovernance quality\nRisk premium adjustment\nModified discount rate"
+    "text": "Quantification Methods\n\n\n\n\n\n\n\n\nESG Factor\nQuantification Approach\nFinancial Integration\n\n\n\n\nCarbon emissions\nShadow carbon price\nAdditional cost per tonne CO₂e\n\n\nWater usage\nTrue cost of water\nAdjusted operating expenses\n\n\nCommunity benefits\nSocial return on investment\nExternal benefit valuation\n\n\nHuman capital\nProductivity differentials\nAdjusted revenue/cost projections\n\n\nGovernance quality\nRisk premium adjustment\nModified discount rate"
   },
   {
     "objectID": "day1-afternoon-slides.html#multi-criteria-decision-analysis",
@@ -739,7 +739,7 @@
     "href": "day1-afternoon-slides.html#decision-tree-analysis",
     "title": "Corporate Financial Management",
     "section": "Decision Tree Analysis",
-    "text": "Decision Tree Analysis\nDecision trees incorporate sequential decisions and uncertain outcomes:\n\n\n\nDecision tree analysis with expected values\n\n\nDecision_Point\nDecision\nOutcome\nNPV\nExpected_Value\n\n\n\n\nInitial Investment\nProceed\nSuccess (70%)\n£4.5m\n£2.0m\n\n\nExpand Year 3?\nYes\nHigh Growth\n£8.2m\n£5.7m\n\n\nExpand Year 3?\nNo\nModerate Growth\n£5.1m\n£3.6m"
+    "text": "Decision Tree Analysis\nDecision trees incorporate sequential decisions and uncertain outcomes:\n                                  High Growth (60%)\n                                 /  NPV = £8.2m\n                   Expand       /\n                  /            /   Moderate Growth (40%)\nInitial         /              \\   NPV = £5.1m\nInvestment ────┤               \n£4.5m          \\                  Stable Growth (70%)\n                \\                /  NPV = £3.6m\n                  Don't Expand  /\n                                \\  Slow Growth (30%)\n                                 \\  NPV = £2.8m\nAnalysis methodology: - Expected value if expand: (0.6 × £8.2m) + (0.4 × £5.1m) = £6.98m - Expected value if don’t expand: (0.7 × £3.6m) + (0.3 × £2.8m) = £3.36m - Optimal decision: Expand (£6.98m &gt; £3.36m)"
   },
   {
     "objectID": "day1-afternoon-slides.html#value-at-risk-var",
@@ -1888,5 +1888,138 @@
     "title": "Working Capital Management",
     "section": "Practice Questions",
     "text": "Practice Questions\n\nA company has average inventory of £500,000, annual cost of sales of £4 million, average trade receivables of £800,000, annual credit sales of £6 million, and average trade payables of £600,000 with annual credit purchases of £3.5 million. Calculate:\n\nThe inventory turnover period\nThe receivables collection period\nThe payables payment period\nThe operating cash cycle\n\nUsing the EOQ model, calculate the optimal order quantity for a product with annual demand of 8,000 units, ordering cost of £50 per order, and holding cost of £5 per unit per year.\nCritically evaluate the advantages and disadvantages of implementing a Just-in-Time inventory system for a manufacturing business.\nDiscuss how a company might reduce its operating cash cycle and evaluate the potential benefits and risks of such actions.\nAnalyze how the “Five Cs” of credit can be used to assess customer creditworthiness, giving examples of information sources for each criterion.\n\n\n\n\nCorporate Financial Management - Day 3 Afternoon"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#what-cash-flows-are-relevant",
+    "href": "day1-afternoon-slides.html#what-cash-flows-are-relevant",
+    "title": "Corporate Financial Management",
+    "section": "What Cash Flows Are Relevant?",
+    "text": "What Cash Flows Are Relevant?\nRelevant Cash Flows Are:\n\nIncremental – Those arising directly from the project\nFuture – Not past/sunk costs\nAfter-tax – Tax implications affect the net benefit\n\nIrrelevant Items Include:\n\nSunk costs – Previously committed expenditures\nNon-incremental overhead allocations – Costs that would exist regardless\nInterest payments – Captured in discount rate\nAccounting conventions – Such as depreciation\n\n\n\n\n\n\n\nCommon Error\n\n\nIncluding already committed (sunk) costs in investment appraisal calculations. Once spent, these costs are irrelevant to the decision to proceed."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#converting-to-cash-flow",
+    "href": "day1-afternoon-slides.html#converting-to-cash-flow",
+    "title": "Corporate Financial Management",
+    "section": "Converting to Cash Flow",
+    "text": "Converting to Cash Flow\n\n\n\n\n\n\nKey Cash Flow Conversion\n\n\nTo convert income statement to cash flow: 1. Start with profit figure: -£150,000 2. Add back non-cash expenses: - Depreciation: +£140,000 (not actual cash outflow) 3. Adjust for working capital changes: - Inventory increase: -£20,000 (cash spent but not yet expensed) 4. Adjust for timing differences: - Credit sales: adjustment for cash not yet received\nThe resulting figure represents the actual cash movement, which may differ significantly from accounting profit."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#understanding-time-value-of-money",
+    "href": "day1-afternoon-slides.html#understanding-time-value-of-money",
+    "title": "Corporate Financial Management",
+    "section": "Understanding Time Value of Money",
+    "text": "Understanding Time Value of Money\nThe principle: £100 today is worth more than £100 received in one year’s time.\nReasons:\n\nOpportunity Cost: Present funds can be invested to generate returns\nInflation: The purchasing power of money typically decreases over time\nUncertainty: Future cash receipts carry inherent uncertainty\n\nExample:\n\nIf you invest £100 at 5% interest, in one year you’ll have £105\nTherefore, £105 in one year = £100 today\nThe “present value” of £105 received in one year is £100"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#step-by-step-example",
+    "href": "day1-afternoon-slides.html#step-by-step-example",
+    "title": "Corporate Financial Management",
+    "section": "Step-by-Step Example",
+    "text": "Step-by-Step Example\nA project costs £500,000 with the following expected cash flows:\n\n\n\nYear\nCash Flow (£)\nCumulative Cash Flow (£)\n\n\n\n\n0\n-500,000\n-500,000\n\n\n1\n150,000\n-350,000\n\n\n2\n180,000\n-170,000\n\n\n3\n200,000\n30,000\n\n\n4\n120,000\n150,000\n\n\n5\n100,000\n250,000\n\n\n\nCalculation:\nAt the end of Year 2, £170,000 remains to be recovered.\nYear 3 generates £200,000.\nProportion of Year 3 needed = £170,000 ÷ £200,000 = 0.85\nPayback period = 2 + 0.85 = 2.85 years"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#step-by-step-example-1",
+    "href": "day1-afternoon-slides.html#step-by-step-example-1",
+    "title": "Corporate Financial Management",
+    "section": "Step-by-Step Example",
+    "text": "Step-by-Step Example\nUsing the same project with a 10% discount rate:\n\n\n\n\n\n\n\n\n\n\nYear\nCash Flow (£)\nDiscount Factor\nDiscounted CF (£)\nCumulative DCF (£)\n\n\n\n\n0\n-500,000\n1.000\n-500,000\n-500,000\n\n\n1\n150,000\n0.909\n136,350\n-363,650\n\n\n2\n180,000\n0.826\n148,680\n-214,970\n\n\n3\n200,000\n0.751\n150,200\n-64,770\n\n\n4\n120,000\n0.683\n81,960\n17,190\n\n\n5\n100,000\n0.621\n62,100\n79,290\n\n\n\nCalculation:\nAt the end of Year 3, we’re still £64,770 short of breaking even.\nIn Year 4, we generate discounted cash flow of £81,960.\nFraction of Year 4 needed = £64,770 ÷ £81,960 = 0.79\nDiscounted payback period = 3 + 0.79 = 3.79 years\nNote: The original calculation shows 3.20 years, but our recalculation shows 3.79 years."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#understanding-the-discount-rate",
+    "href": "day1-afternoon-slides.html#understanding-the-discount-rate",
+    "title": "Corporate Financial Management",
+    "section": "Understanding the Discount Rate",
+    "text": "Understanding the Discount Rate\nThe discount rate reflects: - Risk-free rate – return on safe investments (e.g., government bonds) - Inflation premium – adjustment for expected inflation - Risk premium – extra return required for project risks\n\n\n\n\n\nflowchart LR\n    A[Risk-free rate] --&gt; D[Required return]\n    B[Inflation premium] --&gt; D\n    C[Risk premium] --&gt; D\n    D --&gt; E[Discount rate for NPV]\n\n\n\n\n\n\nExample:\n\nRisk-free rate: 2%\nExpected inflation: 3%\nProject risk premium: 5%\nResulting discount rate: 10%"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#step-by-step-example-2",
+    "href": "day1-afternoon-slides.html#step-by-step-example-2",
+    "title": "Corporate Financial Management",
+    "section": "Step-by-Step Example",
+    "text": "Step-by-Step Example\nUsing the same project with a 10% discount rate:\n\n\n\nYear\nCash Flow (£)\nDiscount Factor\nDiscounted CF (£)\n\n\n\n\n0\n-500,000\n1.000\n-500,000\n\n\n1\n150,000\n0.909\n136,350\n\n\n2\n180,000\n0.826\n148,680\n\n\n3\n200,000\n0.751\n150,200\n\n\n4\n120,000\n0.683\n81,960\n\n\n5\n100,000\n0.621\n62,100\n\n\n\nCalculation:\nNPV = Sum of all discounted cash flows\nNPV = -£500,000 + £136,350 + £148,680 + £150,200 + £81,960 + £62,100 = £79,290\nThe positive NPV (£79,290) means the project creates value and should be accepted."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#intuitive-understanding-of-npv",
+    "href": "day1-afternoon-slides.html#intuitive-understanding-of-npv",
+    "title": "Corporate Financial Management",
+    "section": "Intuitive Understanding of NPV",
+    "text": "Intuitive Understanding of NPV\nNPV interpretation:\n\nIf NPV = £79,290, the project generates £79,290 more value in present terms than an alternative investment at the discount rate\nIt represents the additional value created beyond the required return\n\nAlternative perspective:\nIf presented with two options:\n\nDeposit £500,000 in an investment yielding 10% annually, or\nInvest £500,000 in this project\n\nThe positive NPV of £79,290 indicates the project delivers greater value than the alternative investment."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#understanding-irr-conceptually",
+    "href": "day1-afternoon-slides.html#understanding-irr-conceptually",
+    "title": "Corporate Financial Management",
+    "section": "Understanding IRR Conceptually",
+    "text": "Understanding IRR Conceptually\nIRR interpretation:\n\nRepresents the project’s internal efficiency or yield\nComparable to an effective interest rate on the investment\nIf IRR exceeds the cost of capital, the project creates value\n\nMathematical solution:\n\nUnlike NPV, no direct formula exists to calculate IRR\nRequires iterative calculation or financial software\nSolves for the discount rate that results in NPV = 0"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#step-by-step-example-3",
+    "href": "day1-afternoon-slides.html#step-by-step-example-3",
+    "title": "Corporate Financial Management",
+    "section": "Step-by-Step Example",
+    "text": "Step-by-Step Example\nUsing the same project cash flows:\n\n\n\nYear\nCash Flow (£)\n\n\n\n\n0\n-500,000\n\n\n1\n150,000\n\n\n2\n180,000\n\n\n3\n200,000\n\n\n4\n120,000\n\n\n5\n100,000\n\n\n\nIRR = 12.85%\nSince IRR (12.85%) &gt; Cost of capital (10%), the project is acceptable."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#step-by-step-example-4",
+    "href": "day1-afternoon-slides.html#step-by-step-example-4",
+    "title": "Corporate Financial Management",
+    "section": "Step-by-Step Example",
+    "text": "Step-by-Step Example\nA project requires an initial investment of £500,000 with the following profit projections:\n\n\n\nYear\nAccounting Profit (£)\n\n\n\n\n1\n90,000\n\n\n2\n110,000\n\n\n3\n130,000\n\n\n4\n80,000\n\n\n5\n70,000\n\n\n\nWith a residual value of £100,000.\nCalculation:\n\nTotal profit = £90,000 + £110,000 + £130,000 + £80,000 + £70,000 = £480,000\nAverage annual profit = £480,000 ÷ 5 = £96,000\nAverage investment = (£500,000 + £100,000) ÷ 2 = £300,000\nARR = (£96,000 ÷ £300,000) × 100% = 32%"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#sensitivity-analysis-example",
+    "href": "day1-afternoon-slides.html#sensitivity-analysis-example",
+    "title": "Corporate Financial Management",
+    "section": "Sensitivity Analysis Example",
+    "text": "Sensitivity Analysis Example\nFor our plumbing business, how much would each variable need to change to make NPV zero?\n\n\n\nVariable\nBase Value\nChange for Zero NPV\nInterpretation\n\n\n\n\nInitial investment\n£45,000\n+124.4%\nLow sensitivity\n\n\nAnnual cash flows\nAs projected\n-43.7%\nModerate sensitivity\n\n\nExit value\n£41,000\n-136.5%\nLow sensitivity\n\n\nDiscount rate\n10%\n+23.5 percentage points\nLow sensitivity\n\n\n\nThe project appears robust as it would take substantial negative changes to make it unprofitable."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#beyond-the-numbers-non-financial-factors",
+    "href": "day1-afternoon-slides.html#beyond-the-numbers-non-financial-factors",
+    "title": "Corporate Financial Management",
+    "section": "Beyond the Numbers: Non-Financial Factors",
+    "text": "Beyond the Numbers: Non-Financial Factors\n\n\n\n\n\n\nNon-Financial Factors\n\n\nFinancial appraisal provides essential input but should be complemented with consideration of:\n\nStrategic fit with organizational objectives\nMarket position and competitive impacts\nTechnical feasibility and resource availability\nEnvironmental, social, and governance factors\nRegulatory compliance requirements\nOrganizational capability and change management\n\nThese factors may override pure financial analysis in some cases."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#post-completion-audit-best-practices",
+    "href": "day1-afternoon-slides.html#post-completion-audit-best-practices",
+    "title": "Corporate Financial Management",
+    "section": "Post-Completion Audit: Best Practices",
+    "text": "Post-Completion Audit: Best Practices\n\n\n\n\n\n\nBest Practice\n\n\nResearch shows that companies conducting systematic post-completion audits achieve: - More accurate future projections - Learning from past errors - Better investment performance - Making better decisions - Improved organizational learning - Sharing knowledge across departments - Enhanced strategic alignment of investments - Keeping focus on long-term goals"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#advanced-topics-real-options-in-capital-investment-decisions",
+    "href": "day1-afternoon-slides.html#advanced-topics-real-options-in-capital-investment-decisions",
+    "title": "Corporate Financial Management",
+    "section": "Advanced Topics: Real Options in Capital Investment Decisions",
+    "text": "Advanced Topics: Real Options in Capital Investment Decisions\nReal options analysis recognises that investment decisions often contain embedded options that can significantly impact project value."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#esg-factors-in-investment-decisions",
+    "href": "day1-afternoon-slides.html#esg-factors-in-investment-decisions",
+    "title": "Corporate Financial Management",
+    "section": "ESG Factors in Investment Decisions",
+    "text": "ESG Factors in Investment Decisions\nModern investment appraisal increasingly considers ESG (Environmental, Social, and Governance) impacts alongside financial returns."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#advanced-risk-analysis-techniques",
+    "href": "day1-afternoon-slides.html#advanced-risk-analysis-techniques",
+    "title": "Corporate Financial Management",
+    "section": "Advanced Risk Analysis Techniques",
+    "text": "Advanced Risk Analysis Techniques\nBeyond sensitivity analysis, several sophisticated approaches help quantify investment risk."
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#final-recap",
+    "href": "day1-afternoon-slides.html#final-recap",
+    "title": "Corporate Financial Management",
+    "section": "Final Recap",
+    "text": "Final Recap\n\n\n\n\nInvestment decisions require careful, systematic analysis\nDifferent appraisal methods offer different perspectives\nConsider both financial and non-financial factors\nIncorporate risk analysis for more informed decisions\nDon’t forget to conduct post-completion reviews\nReal options and ESG factors are increasingly important"
+  },
+  {
+    "objectID": "day1-afternoon-slides.html#references",
+    "href": "day1-afternoon-slides.html#references",
+    "title": "Corporate Financial Management",
+    "section": "References",
+    "text": "References\nAcademic References: - Damodaran, A. (2022). Investment Valuation: Tools and Techniques for Determining the Value of Any Asset, 4th Edition, Wiley Finance - Dixit, A.K. & Pindyck, R.S. (2021). Investment Under Uncertainty, Princeton University Press - Trigeorgis, L. & Reuer, J.J. (2023). Real Options Theory in Strategic Management, Strategic Management Journal, 44(4), pp. 842-878\n\n\n\nCorporate Financial Management - Day 1 Afternoon"
   }
 ]

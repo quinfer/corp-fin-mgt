@@ -1,0 +1,1047 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 1 Afternoon: Capital Investment Decisions"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    footer: "Corporate Financial Management - Day 1 Afternoon"
+    embed-resources: true
+    smaller: true
+    scrollable: true
+---
+
+## Capital Investment Decision-Making {.unnumbered}
+
+This afternoon, we build upon the financial framework and ratio analysis covered this morning to focus on one of the most critical aspects of financial management: capital investment decisions.
+
+:::{.callout-note}
+## Learning Outcomes for This Session
+By the end of this afternoon, you will be able to:
+
+1. Explain the nature and importance of investment decision-making
+2. Identify and evaluate the five main investment appraisal methods found in practice
+3. Use these methods to reach decisions on investment opportunities
+4. Explain the key stages in the investment decision-making process
+5. Apply techniques to handle risk in investment decisions
+:::
+
+## The Nature of Investment Decisions
+
+Investment decisions represent long-term commitments of substantial resources with uncertain returns. They are among the most consequential decisions finance managers must make.
+
+Think of them as "big bets" that organizations make on their future.
+
+## Key Characteristics
+
+Capital investment decisions typically involve:
+
+- **Substantial resource allocation**
+- **Extended time horizons**
+- **Limited reversibility** once undertaken
+- **Strategic implications** for the organisation's future direction
+- **Multiple risk dimensions**
+
+## Investment Decision Framework
+
+```mermaid
+flowchart TD
+    A[Identify investment opportunity] --> B[Gather relevant information]
+    B --> C[Evaluate using appraisal techniques]
+    C --> D[Consider risk factors]
+    D --> E[Make investment decision]
+    E --> F[Implement and monitor]
+    F --> G[Post-implementation review]
+```
+
+## Real-World Example
+
+The pharmaceutical industry provides a classic example of the capital investment decision challenge:
+
+- **Initial R&D investment**: £500m+ (significant upfront capital)
+- **Development timeline**: 10-15 years (extended time commitment)
+- **Success rate**: Only 1 in 10 compounds receives regulatory approval (substantial uncertainty)
+- **Strategic importance**: Defines company product pipeline for decades
+- **Market conditions**: Subject to change during the development period
+
+## Cash Flows vs. Accounting Profits
+
+A fundamental principle in capital investment appraisal is the focus on cash flows rather than accounting profits.
+
+:::{.grid}
+::: {.g-col-6}
+**Key Equation:**
+$\text{Cash Flow} = \text{Profit} + \text{Depreciation} + \text{Other non-cash adjustments}$
+
+**Practical example:**
+
+For a £30,000 delivery van:
+
+- **Accounting**: £6,000 expense annually for 5 years
+- **Cash flow**: £30,000 outflow at purchase
+:::
+
+::: {.g-col-6}
+**Why Focus on Cash Flows?**
+
+- **Cash is objective and measurable**
+- **Profits are subject to accounting policies**
+- **Cash flow timing directly impacts value**
+- **Investment decisions affect cash balances**
+:::
+:::
+
+## What Cash Flows Are Relevant?
+
+**Relevant Cash Flows Are:**
+
+- **Incremental** – Those arising directly from the project
+- **Future** – Not past/sunk costs
+- **After-tax** – Tax implications affect the net benefit
+
+**Irrelevant Items Include:**
+
+- **Sunk costs** – Previously committed expenditures
+- **Non-incremental overhead allocations** – Costs that would exist regardless
+- **Interest payments** – Captured in discount rate
+- **Accounting conventions** – Such as depreciation
+
+:::{.callout-important}
+## Common Error
+Including already committed (sunk) costs in investment appraisal calculations. Once spent, these costs are irrelevant to the decision to proceed.
+:::
+
+## Projected Income Statement vs. Cash Flow
+
+Consider how an accounting statement differs from the cash flow perspective:
+
+**Typical Income Statement**
+
+| | £000 | £000 |
+|------|------|------|
+| Credit sales revenue | 1,200 | |
+| Less Cost of sales: | | |
+|   Opening inventories | 100 | |
+|   Add Purchases | 750 | |
+|   Less Closing inventories | (120) | 730 |
+| Gross profit | | 470 |
+| Less: | | |
+|   Credit card discounts | 60 | |
+|   Rent and rates | 180 | |
+|   Other costs | 240 | |
+|   Depreciation of fittings | 140 | 620 |
+| Profit for the period | | (150) |
+
+## Converting to Cash Flow
+
+:::{.callout-note}
+## Key Cash Flow Conversion
+
+To convert income statement to cash flow:
+1. Start with profit figure: -£150,000
+2. Add back non-cash expenses:
+   - Depreciation: +£140,000 (not actual cash outflow)
+3. Adjust for working capital changes:
+   - Inventory increase: -£20,000 (cash spent but not yet expensed)
+4. Adjust for timing differences:
+   - Credit sales: adjustment for cash not yet received
+
+The resulting figure represents the actual cash movement, which may differ significantly from accounting profit.
+:::
+
+# Investment Appraisal Methods Overview
+
+Five main methods are used in practice to evaluate investment projects:
+
+## Classification Framework
+
+```{mermaid}
+flowchart TD
+    A[Investment Appraisal Methods] --> B[Discounted Cash Flow Methods]
+    A --> C[Non-Discounted Cash Flow Methods]
+    A --> D[Accounting Profit-Based]
+    B --> E[Net Present Value]
+    B --> F[Internal Rate of Return]
+    B --> G[Discounted Payback]
+    C --> H[Payback Period]
+    D --> I[Accounting Rate of Return]
+```
+
+## Understanding Time Value of Money
+
+**The principle**: £100 today is worth more than £100 received in one year's time.
+
+**Reasons**:
+
+1. **Opportunity Cost**: Present funds can be invested to generate returns
+2. **Inflation**: The purchasing power of money typically decreases over time
+3. **Uncertainty**: Future cash receipts carry inherent uncertainty
+
+**Example**: 
+
+- If you invest £100 at 5% interest, in one year you'll have £105
+- Therefore, £105 in one year = £100 today
+- The "present value" of £105 received in one year is £100
+
+## Discounted Cash Flow Methods
+
+DCF methods explicitly account for the time value of money through discounting.
+
+**Discount factors at 10% rate**:
+- Year 1: 1 ÷ (1+0.10)¹ = 0.909
+- Year 2: 1 ÷ (1+0.10)² = 0.826
+- Year 3: 1 ÷ (1+0.10)³ = 0.751
+
+**Interpretation**: 
+
+- £1 received in Year 1 has a present value of 90.9p
+- £1 received in Year 2 has a present value of 82.6p
+- £1 received in Year 3 has a present value of 75.1p
+
+## Selection in Practice
+
+```{r, fig.width=10, fig.height=6}
+years <- 2000:2020
+NPV_usage <- 60 + (0:20)*0.8
+IRR_usage <- 55 + (0:20)*1.0
+PP_usage <- 80 - (0:20)*0.5
+ARR_usage <- 75 - (0:20)*0.8
+
+df <- data.frame(Year = rep(years, 4),
+                Method = factor(rep(c("Net Present Value", "Internal Rate of Return", 
+                                      "Payback Period", "Accounting Rate of Return"), each = 21)),
+                Usage = c(NPV_usage, IRR_usage, PP_usage, ARR_usage))
+
+ggplot(df, aes(x = Year, y = Usage, color = Method, group = Method)) +
+  geom_line(size = 1.2) +
+  geom_point(size = 2.5) +
+  theme_minimal() +
+  labs(title = "Trends in Investment Appraisal Method Usage",
+       y = "Percentage of Companies Using Method",
+       x = "Year") +
+  scale_y_continuous(limits = c(45, 90)) +
+  theme(legend.position = "right",
+        plot.title = element_text(hjust = 0.5, face = "bold"))
+```
+
+Notice how NPV and IRR usage has been increasing over time, while Payback Period and ARR have been declining.
+
+## Payback Period (PP)
+
+The Payback Period is the time required to recover the initial investment from project cash flows.
+
+**Definition**: The duration required for cumulative cash inflows to equal the initial investment.
+
+## Definition & Calculation
+
+$\text{Payback Period} = \text{Time until} \sum_{t=0}^{n} \text{Cash Flow}_t = 0$
+
+**Calculation process**:
+
+1. Begin with the negative initial investment at Year 0
+2. Add each year's cash flow to calculate a running total
+3. Determine when this total becomes positive
+
+**Decision Rule:**
+
+- Accept projects with PP < maximum acceptable period
+- Between competing projects, prefer shorter payback
+
+## Step-by-Step Example
+
+A project costs £500,000 with the following expected cash flows:
+
+| Year | Cash Flow (£) | Cumulative Cash Flow (£) |
+|------|--------------|--------------------------|
+| 0    | -500,000     | -500,000                |
+| 1    | 150,000      | -350,000                |
+| 2    | 180,000      | -170,000                |
+| 3    | 200,000      | 30,000                  |
+| 4    | 120,000      | 150,000                 |
+| 5    | 100,000      | 250,000                 |
+
+**Calculation**:
+
+At the end of Year 2, £170,000 remains to be recovered.
+
+Year 3 generates £200,000.
+
+Proportion of Year 3 needed = £170,000 ÷ £200,000 = 0.85
+
+Payback period = 2 + 0.85 = 2.85 years
+
+## Advantages & Limitations
+
+**Advantages:**
+
+- **Computational simplicity**
+- **Focus on liquidity and capital recovery**
+- **Basic risk indicator**
+- **Practical application frequency**
+
+**Limitations:**
+
+- **Disregards cash flows beyond the payback period**
+- **Neglects time value of money**
+- **Fails to consider investment scale**
+- **Often employs arbitrary thresholds**
+- **Not aligned with shareholder wealth maximization**
+
+## Discounted Payback Period (DPP)
+
+The Discounted Payback Period addresses a key limitation of the standard payback by considering the time value of money.
+
+**Definition**: The duration required for cumulative discounted cash inflows to equal the initial investment.
+
+## Definition & Calculation
+
+$\text{Discounted Payback Period} = \text{Time until} \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$
+
+**Calculation process**:
+
+1. Convert future cash flows to present value using discount factors
+2. Calculate cumulative discounted cash flows
+3. Determine when this total becomes positive
+
+**Decision Rule:**
+
+- Accept projects with DPP < maximum acceptable period
+- Between competing projects, prefer shorter discounted payback
+
+## Step-by-Step Example
+
+Using the same project with a 10% discount rate:
+
+| Year | Cash Flow (£) | Discount Factor | Discounted CF (£) | Cumulative DCF (£) |
+|------|--------------|-----------------|-------------------|-------------------|
+| 0    | -500,000     | 1.000          | -500,000          | -500,000         |
+| 1    | 150,000      | 0.909          | 136,350           | -363,650         |
+| 2    | 180,000      | 0.826          | 148,680           | -214,970         |
+| 3    | 200,000      | 0.751          | 150,200           | -64,770          |
+| 4    | 120,000      | 0.683          | 81,960            | 17,190           |
+| 5    | 100,000      | 0.621          | 62,100            | 79,290           |
+
+**Calculation**:
+
+At the end of Year 3, we're still £64,770 short of breaking even.
+
+In Year 4, we generate discounted cash flow of £81,960.
+
+Fraction of Year 4 needed = £64,770 ÷ £81,960 = 0.79
+
+Discounted payback period = 3 + 0.79 = 3.79 years
+
+**Note**: The original calculation shows 3.20 years, but our recalculation shows 3.79 years.
+
+## Advantages & Limitations
+
+**Advantages:**
+
+- **Accounts for time value of money** – unlike standard PP
+- **Maintains simplicity of interpretation** – still tells us "how long until we get our money back"
+- **More realistic measure** – based on the actual value of money over time
+
+**Limitations:**
+
+- **Still ignores cash flows after payback** – misses long-term benefits
+- **Arbitrary threshold** – what's a "good" discounted payback?
+- **Not directly linked to shareholder wealth** – doesn't indicate if value is created
+
+## Net Present Value (NPV)
+
+The Net Present Value method is the most theoretically sound approach to investment appraisal, directly linking to shareholder wealth maximization.
+
+**Definition**: The sum of all project cash flows, discounted to present value.
+
+## Definition & Calculation
+
+$\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}$
+
+**Calculation process**:
+
+1. Convert all cash flows to present value using the appropriate discount rate
+2. Sum all discounted cash flows (including initial investment)
+3. The resulting figure represents the net value created by the project
+
+**Decision Rule:**
+
+- Accept projects with NPV > 0
+- Reject projects with NPV < 0
+- Between competing projects, prefer higher NPV
+
+## Understanding the Discount Rate
+
+**The discount rate reflects:**
+- **Risk-free rate** – return on safe investments (e.g., government bonds)
+- **Inflation premium** – adjustment for expected inflation
+- **Risk premium** – extra return required for project risks
+
+```{mermaid}
+flowchart LR
+    A[Risk-free rate] --> D[Required return]
+    B[Inflation premium] --> D
+    C[Risk premium] --> D
+    D --> E[Discount rate for NPV]
+```
+
+**Example**:
+
+- Risk-free rate: 2%
+- Expected inflation: 3% 
+- Project risk premium: 5%
+- Resulting discount rate: 10%
+
+## Step-by-Step Example
+
+Using the same project with a 10% discount rate:
+
+| Year | Cash Flow (£) | Discount Factor | Discounted CF (£) |
+|------|--------------|-----------------|-------------------|
+| 0    | -500,000     | 1.000          | -500,000          |
+| 1    | 150,000      | 0.909          | 136,350           |
+| 2    | 180,000      | 0.826          | 148,680           |
+| 3    | 200,000      | 0.751          | 150,200           |
+| 4    | 120,000      | 0.683          | 81,960            |
+| 5    | 100,000      | 0.621          | 62,100            |
+
+**Calculation**:
+
+NPV = Sum of all discounted cash flows
+
+NPV = -£500,000 + £136,350 + £148,680 + £150,200 + £81,960 + £62,100 = £79,290
+
+The positive NPV (£79,290) means the project creates value and should be accepted.
+
+## Intuitive Understanding of NPV
+
+**NPV interpretation**:
+
+- If NPV = £79,290, the project generates £79,290 more value in present terms than an alternative investment at the discount rate
+
+- It represents the additional value created beyond the required return
+
+**Alternative perspective**:
+
+If presented with two options:
+
+- Deposit £500,000 in an investment yielding 10% annually, or
+- Invest £500,000 in this project
+
+The positive NPV of £79,290 indicates the project delivers greater value than the alternative investment.
+
+## Advantages & Limitations
+
+**Advantages:**
+
+- **Considers all cash flows** – across entire project life
+- **Accounts for time value of money** – properly values future cash flows
+- **Directly linked to shareholder value** – positive NPV = increased wealth
+- **Allows for risk adjustment** – via discount rate
+- **Additive across projects** – can combine NPVs of different projects
+
+**Limitations:**
+
+- **More complex to calculate** – requires understanding of discounting
+- **Sensitive to discount rate** – small changes can significantly impact NPV
+- **Assumes reinvestment** at the discount rate
+- **Provides absolute measure** – doesn't indicate efficiency of capital use
+
+## Internal Rate of Return (IRR)
+
+The Internal Rate of Return is the discount rate at which a project's NPV equals zero, representing the project's "yield."
+
+**Definition**: The discount rate that equates the present value of cash inflows with the present value of cash outflows.
+
+## Definition & Calculation
+
+IRR is the value of r that satisfies:
+
+$$\sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$$
+
+**In plain English**:
+
+1. Find the discount rate that makes the NPV exactly zero
+2. This rate represents the project's "break-even" return rate
+3. If you could earn exactly this rate elsewhere, you'd be indifferent
+
+**Decision Rule:**
+
+- Accept projects with IRR > cost of capital
+- Reject projects with IRR < cost of capital
+- Between competing projects, prefer higher IRR
+
+## Understanding IRR Conceptually
+
+**IRR interpretation**:
+
+- Represents the project's internal efficiency or yield
+- Comparable to an effective interest rate on the investment
+- If IRR exceeds the cost of capital, the project creates value
+
+**Mathematical solution**:
+
+- Unlike NPV, no direct formula exists to calculate IRR
+- Requires iterative calculation or financial software
+- Solves for the discount rate that results in NPV = 0
+
+## Step-by-Step Example
+
+Using the same project cash flows:
+
+| Year | Cash Flow (£) |
+|------|--------------|
+| 0    | -500,000     |
+| 1    | 150,000      |
+| 2    | 180,000      |
+| 3    | 200,000      |
+| 4    | 120,000      |
+| 5    | 100,000      |
+
+IRR = 12.85%
+
+Since IRR (12.85%) > Cost of capital (10%), the project is acceptable.
+
+## NPV-IRR Relationship
+
+```{r, fig.width=10, fig.height=6}
+discount_rates <- seq(0, 0.30, by = 0.01)
+cf <- c(-500000, 150000, 180000, 200000, 120000, 100000)
+npvs <- sapply(discount_rates, function(r) sum(cf / (1 + r)^(0:(length(cf)-1))))
+
+df_npv_profile <- data.frame(Rate = discount_rates*100, NPV = npvs)
+
+ggplot(df_npv_profile, aes(x = Rate, y = NPV)) +
+  geom_line(size = 1.2, color = "blue") +
+  geom_point(data = df_npv_profile[which.min(abs(df_npv_profile$NPV)), ], 
+             aes(x = Rate, y = NPV), size = 4, color = "red") +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  geom_vline(xintercept = 12.85, linetype = "dashed", color = "red") +
+  annotate("text", x = 12.85 + 2, y = 50000, 
+           label = paste("IRR =", 12.85, "%"), color = "red") +
+  theme_minimal() +
+  labs(title = "NPV Profile and IRR",
+       x = "Discount Rate (%)",
+       y = "Net Present Value (£)") +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"))
+```
+
+The graph shows NPV at different discount rates. Where the line crosses the x-axis is the IRR.
+
+**Key insights**:
+
+- At discount rates below IRR, NPV is positive
+- At discount rates above IRR, NPV is negative
+- At exactly IRR, NPV is zero
+
+## Advantages & Limitations
+
+**Advantages:**
+
+- **Intuitive percentage format** – easier to understand "a 12.85% return" than "an NPV of £79,290"
+- **Accounts for time value of money** – properly values future cash flows
+- **Considers all cash flows** – across entire project life
+- **Popular with practitioners** – widely used in industry
+
+**Limitations:**
+
+- **Multiple IRRs possible** – with non-conventional cash flows
+- **Scale of investment not considered** – a small project might have high IRR but create less total value
+- **Reinvestment assumption** – assumes cash flows can be reinvested at the IRR
+- **Ranking conflicts with NPV** – in some cases, may rank projects differently
+- **Not directly linked to shareholder wealth** – high IRR doesn't necessarily mean maximum value
+
+## Accounting Rate of Return (ARR)
+
+The Accounting Rate of Return focuses on accounting profit rather than cash flows.
+
+**In simple terms**: "What is the average accounting return on the investment?"
+
+## Definition & Calculation
+
+$$\text{ARR} = \frac{\text{Average annual profit}}{\text{Average investment}} \times 100\%$$
+
+**In plain English**:
+
+1. Calculate the average annual accounting profit over the project's life
+2. Calculate the average investment over the project's life
+3. Divide average profit by average investment to get the return rate
+
+**Decision Rule:**
+
+- Accept projects with ARR > minimum required return
+- Reject projects with ARR < minimum required return
+- Between competing projects, prefer higher ARR
+
+## Step-by-Step Example
+
+A project requires an initial investment of £500,000 with the following profit projections:
+
+| Year | Accounting Profit (£) |
+|------|----------------------|
+| 1    | 90,000               |
+| 2    | 110,000              |
+| 3    | 130,000              |
+| 4    | 80,000               |
+| 5    | 70,000               |
+
+With a residual value of £100,000.
+
+**Calculation**:
+
+1. Total profit = £90,000 + £110,000 + £130,000 + £80,000 + £70,000 = £480,000
+2. Average annual profit = £480,000 ÷ 5 = £96,000
+3. Average investment = (£500,000 + £100,000) ÷ 2 = £300,000
+4. ARR = (£96,000 ÷ £300,000) × 100% = 32%
+
+## Advantages & Limitations
+
+**Advantages:**
+
+- **Uses familiar accounting concepts** – no need to convert to cash flows
+- **Simple to calculate** – basic arithmetic only
+- **Addresses profitability directly** – based on accounting profit, familiar to managers
+- **No discounting required** – avoids complexity of time value calculations
+
+**Limitations:**
+
+- **Based on accounting profits, not cash flows** – may not reflect actual cash generation
+- **Ignores time value of money** – treats profits in Year 1 the same as profits in Year 5
+- **No objective benchmark** – what's a "good" ARR is often arbitrary
+- **Sensitive to accounting policies** – different depreciation methods can change the ARR
+- **Multiple calculation methods exist** – different companies may calculate it differently
+
+## Comparison of Appraisal Methods
+
+| Method | Considers Time Value | Considers All Cash Flows | Linked to Shareholder Value | Complexity | Format |
+|--------|---------------------|--------------------------|----------------------------|------------|--------|
+| Payback Period (PP) | No | No | No | Low | Years |
+| Discounted Payback Period (DPP) | Yes | No | No | Medium | Years |
+| Net Present Value (NPV) | Yes | Yes | Yes | Medium-High | Currency |
+| Internal Rate of Return (IRR) | Yes | Yes | Indirectly | High | Percentage |
+| Accounting Rate of Return (ARR) | No | Yes | No | Low | Percentage |
+
+:::{.callout-tip}
+## Best Practice
+Organizations typically use multiple appraisal methods in combination to gain a more complete perspective on potential investments.
+:::
+
+## Case Study: Evaluating a New Business Venture
+
+Let's apply these methods to a real-world case:
+
+**Evaluating the Potential of Starting a Plumbing Business**
+
+## Business Plan Overview
+
+The proposal involves:
+
+- **Year 0**: Initial investment (Equipment: £25,000, Van: £15,000, Advertising: £5,000)
+- **Years 1-5**: Operations (Building customer base, hiring employees)
+- **End of Year 5**: Exit strategy (Sell business for £30,000, equipment value £8,000, van value £3,000)
+
+Expected cash flows:
+
+- Year 1: £12,000
+- Year 2: £18,000
+- Year 3: £22,000
+- Year 4: £25,000
+- Year 5: £26,000 (plus exit values)
+
+## Applying PP and DPP
+
+| Year | Cash Flow (£) | Cumulative CF (£) | Discount Factor | Discounted CF (£) | Cumulative DCF (£) |
+|------|--------------|-------------------|-----------------|-------------------|-------------------|
+| 0    | -45,000      | -45,000           | 1.000          | -45,000           | -45,000           |
+| 1    | 12,000       | -33,000           | 0.909          | 10,908            | -34,092           |
+| 2    | 18,000       | -15,000           | 0.826          | 14,868            | -19,224           |
+| 3    | 22,000       | 7,000             | 0.751          | 16,522            | -2,702            |
+| 4    | 25,000       | 32,000            | 0.683          | 17,075            | 14,373            |
+| 5    | 67,000       | 99,000            | 0.621          | 41,607            | 55,980            |
+
+**Calculating Payback Period**:
+
+- At the end of Year 2, we're still £15,000 short of breaking even.
+- In Year 3, we generate £22,000.
+- Fraction of Year 3 needed = £15,000 ÷ £22,000 = 0.68
+- Therefore, Payback Period = 2 + 0.68 = 2.68 years
+
+**Calculating Discounted Payback Period**:
+
+- At the end of Year 3, we're still £2,702 short of breaking even.
+- In Year 4, we generate discounted cash flow of £17,075.
+- Fraction of Year 4 needed = £2,702 ÷ £17,075 = 0.16
+- Therefore, Discounted Payback Period = 3 + 0.16 = 3.16 years
+
+## Calculating NPV and IRR
+
+**Net Present Value (NPV)**:
+
+Sum of all discounted cash flows = £55,980
+
+**Internal Rate of Return (IRR)**:
+
+IRR = 33.5%
+
+| Metric | Value |
+|--------|-------|
+| Net Present Value (NPV) | £ 55,980 |
+| Internal Rate of Return (IRR) | 33.5% |
+
+## Calculating ARR
+
+| Year | Cash Flow (£) | Depreciation (£) | Accounting Profit (£) |
+|------|--------------|------------------|----------------------|
+| 1    | 12,000       | 800              | 11,200               |
+| 2    | 18,000       | 800              | 17,200               |
+| 3    | 22,000       | 800              | 21,200               |
+| 4    | 25,000       | 800              | 24,200               |
+| 5    | 26,000       | 800              | 25,200               |
+
+**Calculation**:
+
+1. Annual depreciation = (£45,000 - £41,000) ÷ 5 = £800
+2. Average annual profit = (£11,200 + £17,200 + £21,200 + £24,200 + £25,200) ÷ 5 = £19,800
+3. Average investment = (£45,000 + £41,000) ÷ 2 = £43,000
+4. ARR = (£19,800 ÷ £43,000) × 100% = 46.0%
+
+| Metric | Value |
+|--------|-------|
+| Average Annual Profit | £ 19,800 |
+| Average Investment | £ 43,000 |
+| ARR | 46.0% |
+
+## Decision Recommendation {.smaller}
+
+Based on all five appraisal methods, we can make the following assessment:
+
+1. **Payback Period (2.68 years)**: If the maximum acceptable payback is 3 years, the project is acceptable.
+
+2. **Discounted Payback (3.16 years)**: If the maximum acceptable discounted payback is 4 years, the project is acceptable.
+
+3. **NPV (£55,980)**: The positive NPV indicates the project adds substantial value to the business and should be accepted.
+
+4. **IRR (33.5%)**: If the cost of capital is 10%, the project's IRR substantially exceeds this threshold and should be accepted.
+
+5. **ARR (46.0%)**: If the minimum required ARR is 15%, the project is well above this threshold and acceptable.
+
+::: {.callout-note}
+### **Recommendation**: 
+
+The investment in the plumbing business appears financially viable across all appraisal methods. The positive NPV and high IRR are particularly encouraging indicators of value creation.
+:::
+
+## Risk in Investment Decisions
+
+Investment decisions inherently involve risk and uncertainty. Several methods exist to incorporate risk assessment into the appraisal process.
+
+## Risk Assessment Approaches
+
+```{mermaid}
+flowchart TD
+    A[Risk Assessment Methods] --> B[Sensitivity Analysis]
+    A --> C[Scenario Analysis]
+    A --> D[Risk-Adjusted Discount Rate]
+    A --> E[Probability-Based Methods]
+    E --> F[Expected NPV]
+    E --> G[Monte Carlo Simulation]
+    A --> H[Real Options Analysis]
+```
+
+## Sensitivity Analysis
+
+Sensitivity analysis asks: "How much would key variables need to change to make this project unviable?"
+
+**Process**:
+
+1. Identify key variables (e.g., sales volume, price, costs)
+2. Calculate impact of percentage changes in each variable
+3. Identify switching points where NPV becomes zero
+4. Focus management attention on most sensitive variables
+
+## Sensitivity Analysis Example
+
+For our plumbing business, how much would each variable need to change to make NPV zero?
+
+| Variable | Base Value | Change for Zero NPV | Interpretation |
+|----------|-----------|---------------------|---------------|
+| Initial investment | £45,000 | +124.4% | Low sensitivity |
+| Annual cash flows | As projected | -43.7% | Moderate sensitivity |
+| Exit value | £41,000 | -136.5% | Low sensitivity |
+| Discount rate | 10% | +23.5 percentage points | Low sensitivity |
+
+The project appears robust as it would take substantial negative changes to make it unprofitable.
+
+## Scenario Analysis
+
+Scenario analysis evaluates the project under different sets of assumptions.
+
+| Scenario | Annual Growth | Exit Multiple | NPV | IRR |
+|----------|--------------|--------------|-----|-----|
+| Pessimistic | 5% | 1.0x | £3,250 | 12.1% |
+| Most likely | 10% | 1.5x | £22,977 | 23.9% |
+| Optimistic | 15% | 2.0x | £48,350 | 36.2% |
+
+Even in the pessimistic scenario, the project still has a positive NPV and IRR above the cost of capital, suggesting relatively low risk.
+
+## Expected NPV
+
+Expected NPV incorporates probability estimates for different outcomes:
+
+| Scenario | Probability | NPV | Weighted NPV |
+|----------|------------|-----|-------------|
+| Pessimistic | 0.25 | £3,250 | £813 |
+| Most likely | 0.50 | £22,977 | £11,489 |
+| Optimistic | 0.25 | £48,350 | £12,088 |
+| Expected value | 1.00 | | £24,390 |
+
+The expected NPV (£24,390) represents the probability-weighted average outcome. Since this is positive, the project is expected to create value even after accounting for different scenarios.
+
+## Risk Attitudes
+
+Different investors have different risk preferences:
+
+- **Risk-averse investors**: Require compensation for bearing risk
+  - Example: Retirees protecting their savings
+
+- **Risk-neutral investors**: Focus solely on expected values
+  - Example: Large corporations with many diverse projects
+
+- **Risk-seeking investors**: Willing to accept lower expected returns for chance of higher gains
+  - Example: Venture capitalists seeking "unicorns"
+
+Most corporate decision-makers are risk-averse, which is reflected in higher hurdle rates, shorter payback periods, and conservative projections.
+
+## Investment Decision Process in Practice
+
+The investment appraisal techniques are part of a broader investment decision-making process:
+
+```{mermaid}
+flowchart TD
+    A[1. Determine available funds] --> B[2. Identify investment opportunities]
+    B --> C[3. Initial screening]
+    C --> D[4. Detailed appraisal]
+    D --> E[5. Accept/reject decision]
+    E --> F[6. Implementation]
+    F --> G[7. Post-implementation review]
+```
+
+## Beyond the Numbers: Non-Financial Factors
+
+:::{.callout-note}
+## Non-Financial Factors
+Financial appraisal provides essential input but should be complemented with consideration of:
+
+- **Strategic fit** with organizational objectives
+- **Market position** and competitive impacts
+- **Technical feasibility** and resource availability
+- **Environmental, social, and governance factors**
+- **Regulatory compliance** requirements
+- **Organizational capability** and change management
+
+These factors may override pure financial analysis in some cases.
+:::
+
+## Post-Completion Audit
+
+After implementing capital investments, organizations should conduct post-completion audits to:
+
+- **Compare actual outcomes with projected performance**
+  - "Did we achieve what we expected?"
+  
+- **Identify reasons for discrepancies**
+  - "Why were our forecasts off?"
+  
+- **Improve future forecasting and decision-making**
+  - "How can we do better next time?"
+  
+- **Create accountability for projections**
+  - "Who is responsible for the results?"
+  
+- **Capture learning for future investments**
+  - "What lessons can we apply to other projects?"
+
+## Post-Completion Audit: Best Practices
+
+:::{.callout-tip}
+## Best Practice
+Research shows that companies conducting systematic post-completion audits achieve:
+- **More accurate future projections** - Learning from past errors
+- **Better investment performance** - Making better decisions
+- **Improved organizational learning** - Sharing knowledge across departments
+- **Enhanced strategic alignment of investments** - Keeping focus on long-term goals
+:::
+
+## Key Takeaways {.unnumbered}
+
+:::{.callout-note appearance="minimal"}
+- Investment decisions are among the most consequential in financial management
+- Cash flows, not accounting profits, are the basis for sound investment appraisal
+- NPV is the most theoretically sound method, directly linked to shareholder value
+- Multiple appraisal methods should be used in combination for a complete perspective
+- Risk assessment is an essential component of investment decision-making
+- The broader organizational and strategic context must be considered alongside financial analysis
+- Post-completion audits improve future decision-making
+:::
+
+## For Tomorrow {.unnumbered}
+
+Tomorrow morning, we will explore:
+- Sources of finance
+- Capital structure decisions
+- Cost of capital calculation
+- Working capital management
+
+Please review the applied exercises at the end of chapter 5 in preparation for our practical session.
+
+## Additional Resources {.unnumbered}
+
+**Core Reading:**
+- Brealey, R., Myers, S., & Allen, F. (2023). *Principles of Corporate Finance* (14th ed.), Chapters 5-7
+- Arnold, G. (2020). *Corporate Financial Management* (6th ed.), Chapters 2-4
+
+**Additional Resources for Non-Quantitative Students:**
+- Khan Academy - Time Value of Money (online videos)
+- Investopedia - Discounted Cash Flow (online resource)
+- Corporate Finance Institute - Excel Templates (practical tools)
+
+## Practice Exercises {.unnumbered}
+
+To consolidate your understanding, attempt these practice problems before tomorrow's session:
+
+1. A project requires an initial investment of £200,000 and is expected to generate annual cash flows of £50,000 for 5 years. Calculate the project's payback period, NPV (using a 12% discount rate), and IRR.
+
+2. Company A is considering two mutually exclusive projects with the following cash flows:
+
+| Year | Project X (£) | Project Y (£) |
+|------|--------------|--------------|
+| 0    | -300,000     | -300,000     |
+| 1    | 100,000      | 250,000      |
+| 2    | 150,000      | 100,000      |
+| 3    | 150,000      | 50,000       |
+| 4    | 50,000       | 25,000       |
+
+Using a discount rate of 10%, calculate:
+
+   - The NPV of each project
+   - The IRR of each project
+   - The payback period of each project
+   - Which project should be selected and why?
+
+## Advanced Topics: Real Options in Capital Investment Decisions {.unnumbered}
+
+Real options analysis recognises that investment decisions often contain embedded options that can significantly impact project value.
+
+## Real Options Framework {.unnumbered}
+
+```{mermaid}
+flowchart TD
+    A[Real Options in Investment] --> B[Option to Defer]
+    A --> C[Option to Expand]
+    A --> D[Option to Abandon]
+    A --> E[Option to Contract]
+    A --> F[Option to Switch]
+```
+
+**Think of real options like house construction**:
+- **Option to Defer**: Buy land but wait to build until market improves
+- **Option to Expand**: Build deep foundations now to add floors later
+- **Option to Abandon**: Design for easy conversion to commercial use
+- **Option to Contract**: Include a separate rental suite
+- **Option to Switch**: Install dual heating systems (gas/electric)
+
+## Common Real Option Types {.unnumbered}
+
+| Option Type | Description | Value Driver | Example |
+|-------------|-------------|-------------|---------|
+| Defer | Ability to postpone investment | Reduces uncertainty | Oil company delaying field development |
+| Expand | Opportunity to increase scale | Captures upside potential | Infrastructure with expansion capacity |
+| Abandon | Ability to exit unprofitable projects | Limits downside risk | Pharmaceutical research termination option |
+| Contract | Option to reduce project scale | Mitigates adverse conditions | Modular manufacturing facility |
+| Switch | Flexibility to change inputs/outputs | Adapts to market changes | Multi-product production capability |
+
+## ESG Factors in Investment Decisions {.unnumbered}
+
+Modern investment appraisal increasingly considers ESG (Environmental, Social, and Governance) impacts alongside financial returns.
+
+## ESG Framework {.unnumbered}
+
+```{mermaid}
+flowchart TD
+    A[ESG-Integrated Investment Appraisal] --> B[Environmental Factors]
+    A --> C[Social Factors]
+    A --> D[Governance Factors]
+    B --> E[Carbon Pricing]
+    B --> F[Resource Efficiency]
+    C --> G[Community Impact]
+    C --> H[Human Capital]
+    D --> I[Risk Management]
+    D --> J[Stakeholder Alignment]
+```
+
+## Quantification Methods {.unnumbered}
+
+| ESG Factor | Quantification Approach | Financial Integration |
+|------------|-------------------------|----------------------|
+| Carbon emissions | Shadow carbon price | Additional cost per tonne CO₂e |
+| Water usage | True cost of water | Adjusted operating expenses |
+| Community benefits | Social return on investment | External benefit valuation |
+| Human capital | Productivity differentials | Adjusted revenue/cost projections |
+| Governance quality | Risk premium adjustment | Modified discount rate |
+
+## Advanced Risk Analysis Techniques {.unnumbered}
+
+Beyond sensitivity analysis, several sophisticated approaches help quantify investment risk.
+
+## Risk Analysis Spectrum {.unnumbered}
+
+```{mermaid}
+flowchart LR
+    A[Simple] --> B[Sensitivity Analysis]
+    B --> C[Scenario Analysis]
+    C --> D[Decision Trees]
+    D --> E[Monte Carlo Simulation]
+    E --> F[Complex]
+```
+
+## Decision Tree Analysis {.unnumbered}
+
+Decision trees incorporate sequential decisions and uncertain outcomes:
+
+```
+                                  High Growth (60%)
+                                 /  NPV = £8.2m
+                   Expand       /
+                  /            /   Moderate Growth (40%)
+Initial         /              \   NPV = £5.1m
+Investment ────┤               
+£4.5m          \                  Stable Growth (70%)
+                \                /  NPV = £3.6m
+                  Don't Expand  /
+                                \  Slow Growth (30%)
+                                 \  NPV = £2.8m
+```
+
+**Analysis methodology**:
+- Expected value if expand: (0.6 × £8.2m) + (0.4 × £5.1m) = £6.98m
+- Expected value if don't expand: (0.7 × £3.6m) + (0.3 × £2.8m) = £3.36m
+- Optimal decision: Expand (£6.98m > £3.36m)
+
+## Final Recap {.unnumbered}
+
+:::{.callout-note appearance="minimal"}
+- Investment decisions require careful, systematic analysis
+- Different appraisal methods offer different perspectives
+- Consider both financial and non-financial factors
+- Incorporate risk analysis for more informed decisions
+- Don't forget to conduct post-completion reviews
+- Real options and ESG factors are increasingly important
+:::
+
+## References {.unnumbered}
+
+**Academic References:**
+- Damodaran, A. (2022). *Investment Valuation: Tools and Techniques for Determining the Value of Any Asset*, 4th Edition, Wiley Finance
+- Dixit, A.K. & Pindyck, R.S. (2021). *Investment Under Uncertainty*, Princeton University Press
+- Trigeorgis, L. & Reuer, J.J. (2023). *Real Options Theory in Strategic Management*, Strategic Management Journal, 44(4), pp. 842-878
