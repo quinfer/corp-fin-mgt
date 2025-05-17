@@ -144,6 +144,7 @@ Consider how an accounting statement differs from the cash flow perspective:
 ## Key Cash Flow Conversion
 
 To convert income statement to cash flow:
+
 1. Start with profit figure: -£150,000
 2. Add back non-cash expenses:
    - Depreciation: +£140,000 (not actual cash outflow)
@@ -194,6 +195,7 @@ flowchart TD
 DCF methods explicitly account for the time value of money through discounting.
 
 **Discount factors at 10% rate**:
+
 - Year 1: 1 ÷ (1+0.10)¹ = 0.909
 - Year 2: 1 ÷ (1+0.10)² = 0.826
 - Year 3: 1 ÷ (1+0.10)³ = 0.751
@@ -379,6 +381,7 @@ $\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}$
 ## Understanding the Discount Rate
 
 **The discount rate reflects:**
+
 - **Risk-free rate** – return on safe investments (e.g., government bonds)
 - **Inflation premium** – adjustment for expected inflation
 - **Risk premium** – extra return required for project risks
