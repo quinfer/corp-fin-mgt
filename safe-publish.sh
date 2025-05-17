@@ -3,6 +3,13 @@
 # This script safely publishes the docs directory to GitHub Pages
 # With additional safeguards to prevent accidental content loss
 
+# Check for a clean working directory
+if ! git diff-index --quiet HEAD --; then
+  echo "[safe-publish.sh] ERROR: You have uncommitted changes. Please commit or stash your changes before running this script."
+  git status
+  exit 1
+fi
+
 echo "Starting safe publishing process..."
 
 # First, stash any uncommitted changes to prevent conflicts
