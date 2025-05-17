@@ -76,7 +76,9 @@ A fundamental principle in capital investment appraisal is the focus on cash flo
 $\text{Cash Flow} = \text{Profit} + \text{Depreciation} + \text{Other non-cash adjustments}$
 
 **Practical example:**
+
 For a £30,000 delivery van:
+
 - **Accounting**: £6,000 expense annually for 5 years
 - **Cash flow**: £30,000 outflow at purchase
 :::
@@ -94,11 +96,13 @@ For a £30,000 delivery van:
 ## What Cash Flows Are Relevant?
 
 **Relevant Cash Flows Are:**
+
 - **Incremental** – Those arising directly from the project
 - **Future** – Not past/sunk costs
 - **After-tax** – Tax implications affect the net benefit
 
 **Irrelevant Items Include:**
+
 - **Sunk costs** – Previously committed expenditures
 - **Non-incremental overhead allocations** – Costs that would exist regardless
 - **Interest payments** – Captured in discount rate
@@ -170,11 +174,13 @@ flowchart TD
 **The principle**: £100 today is worth more than £100 received in one year's time.
 
 **Reasons**:
+
 1. **Opportunity Cost**: Present funds can be invested to generate returns
 2. **Inflation**: The purchasing power of money typically decreases over time
 3. **Uncertainty**: Future cash receipts carry inherent uncertainty
 
 **Example**: 
+
 - If you invest £100 at 5% interest, in one year you'll have £105
 - Therefore, £105 in one year = £100 today
 - The "present value" of £105 received in one year is £100
@@ -189,6 +195,7 @@ DCF methods explicitly account for the time value of money through discounting.
 - Year 3: 1 ÷ (1+0.10)³ = 0.751
 
 **Interpretation**: 
+
 - £1 received in Year 1 has a present value of 90.9p
 - £1 received in Year 2 has a present value of 82.6p
 - £1 received in Year 3 has a present value of 75.1p
@@ -232,11 +239,13 @@ The Payback Period is the time required to recover the initial investment from p
 $\text{Payback Period} = \text{Time until} \sum_{t=0}^{n} \text{Cash Flow}_t = 0$
 
 **Calculation process**:
+
 1. Begin with the negative initial investment at Year 0
 2. Add each year's cash flow to calculate a running total
 3. Determine when this total becomes positive
 
 **Decision Rule:**
+
 - Accept projects with PP < maximum acceptable period
 - Between competing projects, prefer shorter payback
 
@@ -254,8 +263,11 @@ A project costs £500,000 with the following expected cash flows:
 | 5    | 100,000      | 250,000                 |
 
 **Calculation**:
+
 At the end of Year 2, £170,000 remains to be recovered.
+
 Year 3 generates £200,000.
+
 Proportion of Year 3 needed = £170,000 ÷ £200,000 = 0.85
 
 Payback period = 2 + 0.85 = 2.85 years
@@ -263,12 +275,14 @@ Payback period = 2 + 0.85 = 2.85 years
 ## Advantages & Limitations
 
 **Advantages:**
+
 - **Computational simplicity**
 - **Focus on liquidity and capital recovery**
 - **Basic risk indicator**
 - **Practical application frequency**
 
 **Limitations:**
+
 - **Disregards cash flows beyond the payback period**
 - **Neglects time value of money**
 - **Fails to consider investment scale**
@@ -286,11 +300,13 @@ The Discounted Payback Period addresses a key limitation of the standard payback
 $\text{Discounted Payback Period} = \text{Time until} \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$
 
 **Calculation process**:
+
 1. Convert future cash flows to present value using discount factors
 2. Calculate cumulative discounted cash flows
 3. Determine when this total becomes positive
 
 **Decision Rule:**
+
 - Accept projects with DPP < maximum acceptable period
 - Between competing projects, prefer shorter discounted payback
 
@@ -308,8 +324,11 @@ Using the same project with a 10% discount rate:
 | 5    | 100,000      | 0.621          | 62,100            | 79,290           |
 
 **Calculation**:
+
 At the end of Year 3, we're still £64,770 short of breaking even.
+
 In Year 4, we generate discounted cash flow of £81,960.
+
 Fraction of Year 4 needed = £64,770 ÷ £81,960 = 0.79
 
 Discounted payback period = 3 + 0.79 = 3.79 years
@@ -319,11 +338,13 @@ Discounted payback period = 3 + 0.79 = 3.79 years
 ## Advantages & Limitations
 
 **Advantages:**
+
 - **Accounts for time value of money** – unlike standard PP
 - **Maintains simplicity of interpretation** – still tells us "how long until we get our money back"
 - **More realistic measure** – based on the actual value of money over time
 
 **Limitations:**
+
 - **Still ignores cash flows after payback** – misses long-term benefits
 - **Arbitrary threshold** – what's a "good" discounted payback?
 - **Not directly linked to shareholder wealth** – doesn't indicate if value is created
@@ -339,11 +360,13 @@ The Net Present Value method is the most theoretically sound approach to investm
 $\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}$
 
 **Calculation process**:
+
 1. Convert all cash flows to present value using the appropriate discount rate
 2. Sum all discounted cash flows (including initial investment)
 3. The resulting figure represents the net value created by the project
 
 **Decision Rule:**
+
 - Accept projects with NPV > 0
 - Reject projects with NPV < 0
 - Between competing projects, prefer higher NPV
@@ -364,6 +387,7 @@ flowchart LR
 ```
 
 **Example**:
+
 - Risk-free rate: 2%
 - Expected inflation: 3% 
 - Project risk premium: 5%
@@ -383,7 +407,9 @@ Using the same project with a 10% discount rate:
 | 5    | 100,000      | 0.621          | 62,100            |
 
 **Calculation**:
+
 NPV = Sum of all discounted cash flows
+
 NPV = -£500,000 + £136,350 + £148,680 + £150,200 + £81,960 + £62,100 = £79,290
 
 The positive NPV (£79,290) means the project creates value and should be accepted.
@@ -391,11 +417,15 @@ The positive NPV (£79,290) means the project creates value and should be accept
 ## Intuitive Understanding of NPV
 
 **NPV interpretation**:
+
 - If NPV = £79,290, the project generates £79,290 more value in present terms than an alternative investment at the discount rate
+
 - It represents the additional value created beyond the required return
 
 **Alternative perspective**:
+
 If presented with two options:
+
 - Deposit £500,000 in an investment yielding 10% annually, or
 - Invest £500,000 in this project
 
@@ -404,6 +434,7 @@ The positive NPV of £79,290 indicates the project delivers greater value than t
 ## Advantages & Limitations
 
 **Advantages:**
+
 - **Considers all cash flows** – across entire project life
 - **Accounts for time value of money** – properly values future cash flows
 - **Directly linked to shareholder value** – positive NPV = increased wealth
@@ -411,6 +442,7 @@ The positive NPV of £79,290 indicates the project delivers greater value than t
 - **Additive across projects** – can combine NPVs of different projects
 
 **Limitations:**
+
 - **More complex to calculate** – requires understanding of discounting
 - **Sensitive to discount rate** – small changes can significantly impact NPV
 - **Assumes reinvestment** at the discount rate
@@ -429,11 +461,13 @@ IRR is the value of r that satisfies:
 $$\sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$$
 
 **In plain English**:
+
 1. Find the discount rate that makes the NPV exactly zero
 2. This rate represents the project's "break-even" return rate
 3. If you could earn exactly this rate elsewhere, you'd be indifferent
 
 **Decision Rule:**
+
 - Accept projects with IRR > cost of capital
 - Reject projects with IRR < cost of capital
 - Between competing projects, prefer higher IRR
@@ -441,11 +475,13 @@ $$\sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$$
 ## Understanding IRR Conceptually
 
 **IRR interpretation**:
+
 - Represents the project's internal efficiency or yield
 - Comparable to an effective interest rate on the investment
 - If IRR exceeds the cost of capital, the project creates value
 
 **Mathematical solution**:
+
 - Unlike NPV, no direct formula exists to calculate IRR
 - Requires iterative calculation or financial software
 - Solves for the discount rate that results in NPV = 0
@@ -494,6 +530,7 @@ ggplot(df_npv_profile, aes(x = Rate, y = NPV)) +
 The graph shows NPV at different discount rates. Where the line crosses the x-axis is the IRR.
 
 **Key insights**:
+
 - At discount rates below IRR, NPV is positive
 - At discount rates above IRR, NPV is negative
 - At exactly IRR, NPV is zero
@@ -501,12 +538,14 @@ The graph shows NPV at different discount rates. Where the line crosses the x-ax
 ## Advantages & Limitations
 
 **Advantages:**
+
 - **Intuitive percentage format** – easier to understand "a 12.85% return" than "an NPV of £79,290"
 - **Accounts for time value of money** – properly values future cash flows
 - **Considers all cash flows** – across entire project life
 - **Popular with practitioners** – widely used in industry
 
 **Limitations:**
+
 - **Multiple IRRs possible** – with non-conventional cash flows
 - **Scale of investment not considered** – a small project might have high IRR but create less total value
 - **Reinvestment assumption** – assumes cash flows can be reinvested at the IRR
@@ -524,11 +563,13 @@ The Accounting Rate of Return focuses on accounting profit rather than cash flow
 $$\text{ARR} = \frac{\text{Average annual profit}}{\text{Average investment}} \times 100\%$$
 
 **In plain English**:
+
 1. Calculate the average annual accounting profit over the project's life
 2. Calculate the average investment over the project's life
 3. Divide average profit by average investment to get the return rate
 
 **Decision Rule:**
+
 - Accept projects with ARR > minimum required return
 - Reject projects with ARR < minimum required return
 - Between competing projects, prefer higher ARR
@@ -548,6 +589,7 @@ A project requires an initial investment of £500,000 with the following profit 
 With a residual value of £100,000.
 
 **Calculation**:
+
 1. Total profit = £90,000 + £110,000 + £130,000 + £80,000 + £70,000 = £480,000
 2. Average annual profit = £480,000 ÷ 5 = £96,000
 3. Average investment = (£500,000 + £100,000) ÷ 2 = £300,000
@@ -556,12 +598,14 @@ With a residual value of £100,000.
 ## Advantages & Limitations
 
 **Advantages:**
+
 - **Uses familiar accounting concepts** – no need to convert to cash flows
 - **Simple to calculate** – basic arithmetic only
 - **Addresses profitability directly** – based on accounting profit, familiar to managers
 - **No discounting required** – avoids complexity of time value calculations
 
 **Limitations:**
+
 - **Based on accounting profits, not cash flows** – may not reflect actual cash generation
 - **Ignores time value of money** – treats profits in Year 1 the same as profits in Year 5
 - **No objective benchmark** – what's a "good" ARR is often arbitrary
@@ -598,6 +642,7 @@ The proposal involves:
 - **End of Year 5**: Exit strategy (Sell business for £30,000, equipment value £8,000, van value £3,000)
 
 Expected cash flows:
+
 - Year 1: £12,000
 - Year 2: £18,000
 - Year 3: £22,000
@@ -616,23 +661,27 @@ Expected cash flows:
 | 5    | 67,000       | 99,000            | 0.621          | 41,607            | 55,980            |
 
 **Calculating Payback Period**:
-At the end of Year 2, we're still £15,000 short of breaking even.
-In Year 3, we generate £22,000.
-Fraction of Year 3 needed = £15,000 ÷ £22,000 = 0.68
-Therefore, Payback Period = 2 + 0.68 = 2.68 years
+
+- At the end of Year 2, we're still £15,000 short of breaking even.
+- In Year 3, we generate £22,000.
+- Fraction of Year 3 needed = £15,000 ÷ £22,000 = 0.68
+- Therefore, Payback Period = 2 + 0.68 = 2.68 years
 
 **Calculating Discounted Payback Period**:
-At the end of Year 3, we're still £2,702 short of breaking even.
-In Year 4, we generate discounted cash flow of £17,075.
-Fraction of Year 4 needed = £2,702 ÷ £17,075 = 0.16
-Therefore, Discounted Payback Period = 3 + 0.16 = 3.16 years
+
+- At the end of Year 3, we're still £2,702 short of breaking even.
+- In Year 4, we generate discounted cash flow of £17,075.
+- Fraction of Year 4 needed = £2,702 ÷ £17,075 = 0.16
+- Therefore, Discounted Payback Period = 3 + 0.16 = 3.16 years
 
 ## Calculating NPV and IRR
 
 **Net Present Value (NPV)**:
+
 Sum of all discounted cash flows = £55,980
 
 **Internal Rate of Return (IRR)**:
+
 IRR = 33.5%
 
 | Metric | Value |
@@ -651,6 +700,7 @@ IRR = 33.5%
 | 5    | 26,000       | 800              | 25,200               |
 
 **Calculation**:
+
 1. Annual depreciation = (£45,000 - £41,000) ÷ 5 = £800
 2. Average annual profit = (£11,200 + £17,200 + £21,200 + £24,200 + £25,200) ÷ 5 = £19,800
 3. Average investment = (£45,000 + £41,000) ÷ 2 = £43,000
@@ -704,6 +754,7 @@ flowchart TD
 Sensitivity analysis asks: "How much would key variables need to change to make this project unviable?"
 
 **Process**:
+
 1. Identify key variables (e.g., sales volume, price, costs)
 2. Calculate impact of percentage changes in each variable
 3. Identify switching points where NPV becomes zero
@@ -872,6 +923,7 @@ To consolidate your understanding, attempt these practice problems before tomorr
 | 4    | 50,000       | 25,000       |
 
 Using a discount rate of 10%, calculate:
+
    - The NPV of each project
    - The IRR of each project
    - The payback period of each project
