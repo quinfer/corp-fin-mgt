@@ -65,13 +65,61 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="day2-afternoon.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#cost-of-capital" id="toc-cost-of-capital" class="nav-link active" data-scroll-target="#cost-of-capital">Cost of Capital</a>
+  <ul class="collapse">
+  <li><a href="#introduction-to-cost-of-capital" id="toc-introduction-to-cost-of-capital" class="nav-link" data-scroll-target="#introduction-to-cost-of-capital">Introduction to Cost of Capital</a></li>
+  <li><a href="#forms-of-long-term-capital" id="toc-forms-of-long-term-capital" class="nav-link" data-scroll-target="#forms-of-long-term-capital">Forms of Long-term Capital</a></li>
+  <li><a href="#cost-of-capital-framework" id="toc-cost-of-capital-framework" class="nav-link" data-scroll-target="#cost-of-capital-framework">Cost of Capital Framework</a></li>
+  <li><a href="#the-cost-of-equity" id="toc-the-cost-of-equity" class="nav-link" data-scroll-target="#the-cost-of-equity">The Cost of Equity</a>
+  <ul class="collapse">
+  <li><a href="#market-value-of-equity-p₀" id="toc-market-value-of-equity-p₀" class="nav-link" data-scroll-target="#market-value-of-equity-p₀">Market Value of Equity (P₀)</a></li>
+  <li><a href="#example-calculating-market-value-of-equity" id="toc-example-calculating-market-value-of-equity" class="nav-link" data-scroll-target="#example-calculating-market-value-of-equity">Example: Calculating Market Value of Equity</a></li>
+  </ul></li>
+  <li><a href="#calculating-the-cost-of-equity-ke" id="toc-calculating-the-cost-of-equity-ke" class="nav-link" data-scroll-target="#calculating-the-cost-of-equity-ke">Calculating the Cost of Equity (Ke)</a>
+  <ul class="collapse">
+  <li><a href="#dividend-valuation-model-no-growth" id="toc-dividend-valuation-model-no-growth" class="nav-link" data-scroll-target="#dividend-valuation-model-no-growth">Dividend Valuation Model (No Growth)</a></li>
+  <li><a href="#dividend-growth-model" id="toc-dividend-growth-model" class="nav-link" data-scroll-target="#dividend-growth-model">Dividend Growth Model</a></li>
+  <li><a href="#limitations-of-the-dividend-valuation-model" id="toc-limitations-of-the-dividend-valuation-model" class="nav-link" data-scroll-target="#limitations-of-the-dividend-valuation-model">Limitations of the Dividend Valuation Model</a></li>
+  </ul></li>
+  <li><a href="#capital-asset-pricing-model-capm" id="toc-capital-asset-pricing-model-capm" class="nav-link" data-scroll-target="#capital-asset-pricing-model-capm">Capital Asset Pricing Model (CAPM)</a>
+  <ul class="collapse">
+  <li><a href="#risk-classification" id="toc-risk-classification" class="nav-link" data-scroll-target="#risk-classification">Risk Classification</a></li>
+  <li><a href="#beta-and-systematic-risk" id="toc-beta-and-systematic-risk" class="nav-link" data-scroll-target="#beta-and-systematic-risk">Beta and Systematic Risk</a></li>
+  <li><a href="#the-capm-formula" id="toc-the-capm-formula" class="nav-link" data-scroll-target="#the-capm-formula">The CAPM Formula</a></li>
+  <li><a href="#capm-vs-dividend-growth-model" id="toc-capm-vs-dividend-growth-model" class="nav-link" data-scroll-target="#capm-vs-dividend-growth-model">CAPM vs Dividend Growth Model</a></li>
+  </ul></li>
+  <li><a href="#the-cost-of-debt" id="toc-the-cost-of-debt" class="nav-link" data-scroll-target="#the-cost-of-debt">The Cost of Debt</a>
+  <ul class="collapse">
+  <li><a href="#untraded-debt-bank-loans" id="toc-untraded-debt-bank-loans" class="nav-link" data-scroll-target="#untraded-debt-bank-loans">Untraded Debt (Bank Loans)</a></li>
+  <li><a href="#traded-debt-redeemable-bonds" id="toc-traded-debt-redeemable-bonds" class="nav-link" data-scroll-target="#traded-debt-redeemable-bonds">Traded Debt (Redeemable Bonds)</a></li>
+  </ul></li>
+  <li><a href="#weighted-average-cost-of-capital-wacc" id="toc-weighted-average-cost-of-capital-wacc" class="nav-link" data-scroll-target="#weighted-average-cost-of-capital-wacc">Weighted Average Cost of Capital (WACC)</a>
+  <ul class="collapse">
+  <li><a href="#calculating-wacc" id="toc-calculating-wacc" class="nav-link" data-scroll-target="#calculating-wacc">Calculating WACC</a></li>
+  <li><a href="#limitations-of-using-wacc-for-investment-appraisal" id="toc-limitations-of-using-wacc-for-investment-appraisal" class="nav-link" data-scroll-target="#limitations-of-using-wacc-for-investment-appraisal">Limitations of Using WACC for Investment Appraisal</a></li>
+  </ul></li>
+  <li><a href="#capital-structure-theory" id="toc-capital-structure-theory" class="nav-link" data-scroll-target="#capital-structure-theory">Capital Structure Theory</a>
+  <ul class="collapse">
+  <li><a href="#capital-structure-objective" id="toc-capital-structure-objective" class="nav-link" data-scroll-target="#capital-structure-objective">Capital Structure Objective</a></li>
+  <li><a href="#financial-risk" id="toc-financial-risk" class="nav-link" data-scroll-target="#financial-risk">Financial Risk</a></li>
+  <li><a href="#modigliani-and-miller-theory" id="toc-modigliani-and-miller-theory" class="nav-link" data-scroll-target="#modigliani-and-miller-theory">Modigliani and Miller Theory</a></li>
+  </ul></li>
+  <li><a href="#summary-of-cost-of-capital" id="toc-summary-of-cost-of-capital" class="nav-link" data-scroll-target="#summary-of-cost-of-capital">Summary of Cost of Capital</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
