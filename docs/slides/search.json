@@ -291,7 +291,7 @@
     "href": "day1-afternoon-slides.html#investment-decision-framework",
     "title": "Corporate Financial Management",
     "section": "Investment Decision Framework",
-    "text": "Investment Decision Framework\nflowchart TD\n    A[Identify investment opportunity] --&gt; B[Gather relevant information]\n    B --&gt; C[Evaluate using appraisal techniques]\n    C --&gt; D[Consider risk factors]\n    D --&gt; E[Make investment decision]\n    E --&gt; F[Implement and monitor]\n    F --&gt; G[Post-implementation review]"
+    "text": "Investment Decision Framework\n\n\n\n\n\nflowchart TD\n    A[Identify investment opportunity] --&gt; B[Gather relevant information]\n    B --&gt; C[Evaluate using appraisal techniques]\n    C --&gt; D[Consider risk factors]\n    D --&gt; E[Make investment decision]\n    E --&gt; F[Implement and monitor]\n    F --&gt; G[Post-implementation review]"
   },
   {
     "objectID": "day1-afternoon-slides.html#real-world-example",
