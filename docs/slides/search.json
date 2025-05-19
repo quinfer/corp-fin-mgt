@@ -648,7 +648,7 @@
     "href": "day1-afternoon-slides.html#post-completion-audit-best-practices",
     "title": "Corporate Financial Management",
     "section": "Post-Completion Audit: Best Practices",
-    "text": "Post-Completion Audit: Best Practices\n\n\n\n\n\n\nBest Practice\n\n\nResearch shows that companies conducting systematic post-completion audits achieve: - More accurate future projections - Learning from past errors - Better investment performance - Making better decisions - Improved organizational learning - Sharing knowledge across departments - Enhanced strategic alignment of investments - Keeping focus on long-term goals"
+    "text": "Post-Completion Audit: Best Practices\n\n\n\n\n\n\nBest Practice\n\n\nResearch shows that companies conducting systematic post-completion audits achieve:\n\nMore accurate future projections - Learning from past errors\nBetter investment performance - Making better decisions\nImproved organizational learning - Sharing knowledge across departments\nEnhanced strategic alignment of investments - Keeping focus on long-term goals"
   },
   {
     "objectID": "day1-afternoon-slides.html#key-takeaways",
@@ -662,7 +662,7 @@
     "href": "day1-afternoon-slides.html#for-tomorrow",
     "title": "Corporate Financial Management",
     "section": "For Tomorrow",
-    "text": "For Tomorrow\nTomorrow morning, we will explore: - Sources of finance - Capital structure decisions - Cost of capital calculation - Working capital management\nPlease review the applied exercises at the end of chapter 5 in preparation for our practical session."
+    "text": "For Tomorrow\nTomorrow morning, we will explore:\n\nSources of finance\nCapital structure decisions\nCost of capital calculation\nWorking capital management\n\nPlease review the applied exercises at the end of chapter 5 in preparation for our practical session."
   },
   {
     "objectID": "day1-afternoon-slides.html#additional-resources",
@@ -739,7 +739,7 @@
     "href": "day1-afternoon-slides.html#decision-tree-analysis",
     "title": "Corporate Financial Management",
     "section": "Decision Tree Analysis",
-    "text": "Decision Tree Analysis\nDecision trees incorporate sequential decisions and uncertain outcomes:\n                                  High Growth (60%)\n                                 /  NPV = £8.2m\n                   Expand       /\n                  /            /   Moderate Growth (40%)\nInitial         /              \\   NPV = £5.1m\nInvestment ────┤               \n£4.5m          \\                  Stable Growth (70%)\n                \\                /  NPV = £3.6m\n                  Don't Expand  /\n                                \\  Slow Growth (30%)\n                                 \\  NPV = £2.8m\nAnalysis methodology: - Expected value if expand: (0.6 × £8.2m) + (0.4 × £5.1m) = £6.98m - Expected value if don’t expand: (0.7 × £3.6m) + (0.3 × £2.8m) = £3.36m - Optimal decision: Expand (£6.98m &gt; £3.36m)"
+    "text": "Decision Tree Analysis\nDecision trees incorporate sequential decisions and uncertain outcomes:\n                                  High Growth (60%)\n                                 /  NPV = £8.2m\n                   Expand       /\n                  /            /   Moderate Growth (40%)\nInitial         /              \\   NPV = £5.1m\nInvestment ────┤               \n£4.5m          \\                  Stable Growth (70%)\n                \\                /  NPV = £3.6m\n                  Don't Expand  /\n                                \\  Slow Growth (30%)\n                                 \\  NPV = £2.8m\nAnalysis methodology:\n\nExpected value if expand: (0.6 × £8.2m) + (0.4 × £5.1m) = £6.98m\nExpected value if don’t expand: (0.7 × £3.6m) + (0.3 × £2.8m) = £3.36m\nOptimal decision: Expand (£6.98m &gt; £3.36m)"
   },
   {
     "objectID": "day1-afternoon-slides.html#final-recap",
@@ -753,7 +753,7 @@
     "href": "day1-afternoon-slides.html#references",
     "title": "Corporate Financial Management",
     "section": "References",
-    "text": "References\nAcademic References: - Damodaran, A. (2022). Investment Valuation: Tools and Techniques for Determining the Value of Any Asset, 4th Edition, Wiley Finance - Dixit, A.K. & Pindyck, R.S. (2021). Investment Under Uncertainty, Princeton University Press - Trigeorgis, L. & Reuer, J.J. (2023). Real Options Theory in Strategic Management, Strategic Management Journal, 44(4), pp. 842-878\n\n\n\nCorporate Financial Management - Day 1 Afternoon"
+    "text": "References\nAcademic References:\n\nDamodaran, A. (2022). Investment Valuation: Tools and Techniques for Determining the Value of Any Asset, 4th Edition, Wiley Finance\nDixit, A.K. & Pindyck, R.S. (2021). Investment Under Uncertainty, Princeton University Press\nTrigeorgis, L. & Reuer, J.J. (2023). Real Options Theory in Strategic Management, Strategic Management Journal, 44(4), pp. 842-878\n\n\n\n\nCorporate Financial Management - Day 1 Afternoon"
   },
   {
     "objectID": "day2-morning-slides.html#sources-of-finance-framework",
@@ -767,14 +767,14 @@
     "href": "day2-morning-slides.html#the-financing-decision",
     "title": "Corporate Financial Management",
     "section": "The Financing Decision",
-    "text": "The Financing Decision\nAfter making capital investment decisions using the appraisal techniques covered yesterday, the finance manager must turn attention to the financing decision – finding suitable sources to fund those investments."
+    "text": "The Financing Decision\nAfter making capital investment decisions using the appraisal techniques covered yesterday, the finance manager must determine suitable sources to fund those investments."
   },
   {
     "objectID": "day2-morning-slides.html#the-financing-context",
     "href": "day2-morning-slides.html#the-financing-context",
     "title": "Corporate Financial Management",
     "section": "The Financing Context",
-    "text": "The Financing Context\nThe financing decision follows logically from the investment decision and involves determining:\n\nWhat sources of finance are available (internal vs external)\nWhat term of borrowing the funding is available for\nHow much each potential source of finance costs (cost of capital)"
+    "text": "The Financing Context\nThe financing decision follows logically from the investment decision and involves determining:\n\nAvailable sources of finance (internal vs external)\nTerm of borrowing the funding is available for\nCost of each potential source of finance (cost of capital)"
   },
   {
     "objectID": "day2-morning-slides.html#financing-decision-framework",
@@ -795,21 +795,21 @@
     "href": "day2-morning-slides.html#internal-vs-external-sources-of-finance",
     "title": "Corporate Financial Management",
     "section": "Internal vs External Sources of Finance",
-    "text": "Internal vs External Sources of Finance\nOrganisations can source funding either internally from operations or externally from capital markets and financial institutions.\n\n\nInternal Finance Sources:\nInternal finance comes from the operational activities of the business itself and includes:\n\nRetained earnings (profit ploughback)\nWorking capital management:\n\nTighter credit control\nReduced inventory levels\nDelayed payment to suppliers\n\n\n\n\nExternal Finance Sources:\nExternal finance is raised from outside the business through:\n\nDebt (borrowings)\nEquity (shares)\nHybrid instruments (convertibles, preference shares)\nLeasing and similar arrangements\nFactoring and invoice discounting"
+    "text": "Internal vs External Sources of Finance\nOrganisations can source funding either internally from operations or externally from capital markets and financial institutions.\n\n\nInternal Finance Sources:\nInternal finance comes from the operational activities of the business itself and includes:\n\nRetained earnings (profit ploughback)\nWorking capital management:\n\nImproved receivables collection\nInventory optimization\nExtended payables period\n\n\n\n\nExternal Finance Sources:\nExternal finance is raised from outside the business through:\n\nDebt (borrowings)\nEquity (shares)\nHybrid instruments (convertibles, preference shares)\nLeasing and similar arrangements\nFactoring and invoice discounting"
   },
   {
     "objectID": "day2-morning-slides.html#the-major-internal-sources-of-finance",
     "href": "day2-morning-slides.html#the-major-internal-sources-of-finance",
     "title": "Corporate Financial Management",
     "section": "The Major Internal Sources of Finance",
-    "text": "The Major Internal Sources of Finance\nInternal financing is often preferred as it avoids the costs, formalities, and external scrutiny associated with raising external finance.\n\n\n\n\n\nflowchart LR\n    A[Internal Finance Sources] --&gt; B[Short-term Sources]\n    A --&gt; C[Long-term Sources]\n    B --&gt; D[Tighter credit control]\n    B --&gt; E[Reduced inventory levels]\n    B --&gt; F[Delayed payments to creditors]\n    C --&gt; G[Retained profits]\n\n\n\n\n\n\n\n\n\n\n\n\nWorking Capital Management\n\n\nEffective working capital management can release significant funds from day-to-day operations. However, there are limits to such strategies:\n\nExcessive credit control may alienate customers\nMinimal inventory may lead to stockouts and lost sales\nDelayed supplier payments can damage critical relationships"
+    "text": "The Major Internal Sources of Finance\nInternal financing is often preferred as it avoids the costs, formalities, and external scrutiny associated with raising external finance.\n\n\n\n\n\nflowchart LR\n    A[Internal Finance Sources] --&gt; B[Short-term Sources]\n    A --&gt; C[Long-term Sources]\n    B --&gt; D[Receivables management]\n    B --&gt; E[Inventory optimization]\n    B --&gt; F[Payables extension]\n    C --&gt; G[Retained profits]\n\n\n\n\n\n\n\n\n\n\n\n\nWorking Capital Management\n\n\nEffective working capital management can release significant funds from day-to-day operations. However, there are constraints to such strategies:\n\nExcessive credit control may affect customer relationships\nMinimal inventory may compromise service levels\nExtended supplier payments can strain supply chain relationships"
   },
   {
     "objectID": "day2-morning-slides.html#the-major-external-sources-of-finance",
     "href": "day2-morning-slides.html#the-major-external-sources-of-finance",
     "title": "Corporate Financial Management",
     "section": "The Major External Sources of Finance",
-    "text": "The Major External Sources of Finance\nExternal sources represent a wide spectrum of options ranging from short-term facilities to long-term capital.\n\n\n\n\n\nflowchart TD\n    A[External Finance Sources] --&gt; B[Short-term: &lt; 1 year]\n    A --&gt; C[Medium-term: 1-7 years]\n    A --&gt; D[Long-term: &gt; 7 years]\n    B --&gt; E[Bank overdrafts]\n    B --&gt; F[Invoice discounting]\n    B --&gt; G[Debt factoring]\n    B --&gt; H[Bills of exchange]\n    C --&gt; I[Term loans]\n    C --&gt; J[Hire purchase]\n    C --&gt; K[Leasing]\n    D --&gt; L[Corporate bonds]\n    D --&gt; M[Preference shares]\n    D --&gt; N[Ordinary shares]\n    D --&gt; O[Securitisation]"
+    "text": "The Major External Sources of Finance\nExternal sources represent a spectrum of options ranging from short-term facilities to long-term capital.\n\n\n\n\n\nflowchart TD\n    A[External Finance Sources] --&gt; B[Short-term: &lt; 1 year]\n    A --&gt; C[Medium-term: 1-7 years]\n    A --&gt; D[Long-term: &gt; 7 years]\n    B --&gt; E[Bank overdrafts]\n    B --&gt; F[Invoice discounting]\n    B --&gt; G[Debt factoring]\n    B --&gt; H[Bills of exchange]\n    C --&gt; I[Term loans]\n    C --&gt; J[Hire purchase]\n    C --&gt; K[Leasing]\n    D --&gt; L[Corporate bonds]\n    D --&gt; M[Preference shares]\n    D --&gt; N[Ordinary shares]\n    D --&gt; O[Securitisation]"
   },
   {
     "objectID": "day2-morning-slides.html#approaches-to-obtaining-finance",
@@ -830,7 +830,7 @@
     "href": "day2-morning-slides.html#disintermediation",
     "title": "Corporate Financial Management",
     "section": "Disintermediation",
-    "text": "Disintermediation\nDisintermediation is where the financial intermediary’s role is bypassed, with companies going directly to the money markets or stock exchanges to obtain finance.\nCharacteristics: - Direct access to capital markets - Restricted to large, reputable companies - Used for substantial funding requirements - Often more cost-effective for large sums - Requires substantial disclosure and market reputation\nExamples: - Corporate bond issues - Public share offerings - Commercial paper issuance"
+    "text": "Disintermediation\nDisintermediation is where the financial intermediary’s role is bypassed, with companies accessing money markets or stock exchanges directly to obtain finance.\nCharacteristics: - Direct access to capital markets - Restricted to large, established companies - Used for substantial funding requirements - Often more cost-effective for large sums - Requires substantial disclosure and market reputation\nExamples: - Corporate bond issues - Public share offerings - Commercial paper issuance"
   },
   {
     "objectID": "day2-morning-slides.html#bank-finance-the-lending-decision",
@@ -844,7 +844,7 @@
     "href": "day2-morning-slides.html#the-lending-assessment",
     "title": "Corporate Financial Management",
     "section": "The Lending Assessment",
-    "text": "The Lending Assessment\nBanks typically consider two core aspects when making lending decisions:\n\nGoing concern assessment: Determining whether the borrowing company can afford to make repayments from its ongoing operations.\nLiquidation assessment: Evaluating the recoverability of capital in the event the company goes into liquidation."
+    "text": "The Lending Assessment\nBanks typically consider two core aspects when making lending decisions:\n\nGoing concern assessment: Determining whether the borrowing company can afford to make repayments from its ongoing operations.\nLiquidation assessment: Evaluating the recoverability of capital in the event the company enters liquidation."
   },
   {
     "objectID": "day2-morning-slides.html#the-seven-cs-of-lending",
@@ -865,7 +865,7 @@
     "href": "day2-morning-slides.html#business-plan-requirements",
     "title": "Corporate Financial Management",
     "section": "Business Plan Requirements",
-    "text": "Business Plan Requirements\nA strong business plan for bank finance applications should include:\n\nFunding requirements (amount, term, repayment, interest structure)\nClear purpose of the finance\nBackground information on the company\nCredit worthiness documentation\nBusiness stake and commitment\nAvailable security details\nFinancial projections and scenario analysis\nHistorical and projected financial statements"
+    "text": "Business Plan Requirements\nA comprehensive business plan for bank finance applications should include:\n\nFunding requirements (amount, term, repayment, interest structure)\nClear purpose of the finance\nBackground information on the company\nCredit worthiness documentation\nBusiness stake and commitment\nAvailable security details\nFinancial projections and scenario analysis\nHistorical and projected financial statements"
   },
   {
     "objectID": "day2-morning-slides.html#short-term-sources-of-finance",
@@ -914,7 +914,7 @@
     "href": "day2-morning-slides.html#medium-term-options-overview",
     "title": "Corporate Financial Management",
     "section": "Medium-Term Options Overview",
-    "text": "Medium-Term Options Overview\nKey characteristics of medium-term finance:\n\nCan be utilized by all company sizes\nParticularly important for SMEs\nMore accessible than long-term capital markets\nIncludes term loans, hire purchase, and leasing\nGenerally secured against specific assets"
+    "text": "Medium-Term Options Overview\nKey characteristics of medium-term finance:\n\nUtilized by organizations of all sizes\nParticularly important for SMEs\nMore accessible than long-term capital markets\nIncludes term loans, hire purchase, and leasing\nGenerally secured against specific assets"
   },
   {
     "objectID": "day2-morning-slides.html#term-loans",
@@ -928,7 +928,7 @@
     "href": "day2-morning-slides.html#hire-purchase",
     "title": "Corporate Financial Management",
     "section": "Hire Purchase",
-    "text": "Hire Purchase\n\n\n\n\n\n\n\n\n\n\n\nStage\nDescription\n\n\n\n\n1\nCompany selling asset transfers physical asset to hiree (purchaser)\n\n\n2\nFinance house (hirer) pays full price to selling company\n\n\n3\nHiree makes down-payment and agrees to periodic payments\n\n\n4\nHiree makes regular rental installments to finance house\n\n\n5\nOwnership transfers to hiree upon final payment\n\n\n\n\n\n\nAdvantages of Hire Purchase: - Easy to arrange - Provides quick access to assets - Widely available - Predictable cash flow planning - Not repayable on demand - Tax relief on interest - Ultimate ownership\nDisadvantages of Hire Purchase: - Relatively expensive - Inflexible arrangement - Costly cancellation penalties - Hiree assumes maintenance/insurance responsibilities - Fixed payment obligation regardless of asset utilization"
+    "text": "Hire Purchase\n\n\n\n\n\n\n\n\n\n\n\nStage\nDescription\n\n\n\n\n1\nCompany selling asset transfers physical asset to hiree (purchaser)\n\n\n2\nFinance house (hirer) pays full price to selling company\n\n\n3\nHiree makes down-payment and agrees to periodic payments\n\n\n4\nHiree makes regular rental installments to finance house\n\n\n5\nOwnership transfers to hiree upon final payment\n\n\n\n\n\n\nAdvantages of Hire Purchase:\n\nStraightforward arrangement\nProvides efficient access to assets\nWidely available\nPredictable cash flow planning\nNot repayable on demand\nTax relief on interest\nUltimate ownership\n\nDisadvantages of Hire Purchase:\n\nComparatively expensive\nLimited flexibility\nCostly termination penalties\nHiree assumes maintenance/insurance responsibilities\nFixed payment obligation regardless of asset utilization"
   },
   {
     "objectID": "day2-morning-slides.html#leasing",
@@ -942,7 +942,7 @@
     "href": "day2-morning-slides.html#sale-and-leaseback",
     "title": "Corporate Financial Management",
     "section": "Sale and Leaseback",
-    "text": "Sale and Leaseback\nA sale and leaseback arrangement allows a company to:\n\nSell an existing asset (typically property)\nImmediately lease it back from the buyer\nContinue using the asset while releasing equity capital\nGenerate immediate cash flow improvement\nPotentially achieve favorable accounting treatment\n\nThis approach can be structured either with: - A subsidiary company (lower risk) - An external company (potentially higher risk)"
+    "text": "Sale and Leaseback\nA sale and leaseback arrangement allows a company to:\n\nSell an existing asset (typically property)\nImmediately lease it back from the buyer\nContinue using the asset while releasing equity capital\nGenerate immediate cash flow improvement\nPotentially achieve favorable accounting treatment\n\nThis approach can be structured either with: - A subsidiary company - An external company"
   },
   {
     "objectID": "day2-morning-slides.html#long-term-finance-debt",
@@ -956,14 +956,14 @@
     "href": "day2-morning-slides.html#debt-finance-benefits",
     "title": "Corporate Financial Management",
     "section": "Debt Finance Benefits",
-    "text": "Debt Finance Benefits\nLong-term debt offers several advantages:\n\nCheaper and quicker to obtain than equity\nInterest is tax-deductible\nNo dilution of ownership or control\nCan reduce overall WACC (weighted average cost of capital)\nCan be structured with tailored repayment schedules\nLower risk for investors (but less potential return)"
+    "text": "Debt Finance Benefits\nLong-term debt offers several advantages:\n\nMore cost-effective and expedient than equity\nInterest is tax-deductible\nNo dilution of ownership or control\nCan reduce overall WACC (weighted average cost of capital)\nCan be structured with tailored repayment schedules\nLower risk for investors"
   },
   {
     "objectID": "day2-morning-slides.html#debt-finance-drawbacks",
     "href": "day2-morning-slides.html#debt-finance-drawbacks",
     "title": "Corporate Financial Management",
     "section": "Debt Finance Drawbacks",
-    "text": "Debt Finance Drawbacks\nHowever, debt also poses challenges:\n\nIncreases financial risk for the company\nRequires regular interest payments regardless of profitability\nOften secured against company assets\nMay include restrictive covenants\nCan limit managerial decision-making flexibility\nMay restrict future borrowing capacity"
+    "text": "Debt Finance Drawbacks\nHowever, debt also poses challenges:\n\nIncreases financial risk\nRequires regular interest payments regardless of profitability\nOften secured against company assets\nMay include restrictive covenants\nCan limit managerial flexibility\nMay restrict future borrowing capacity"
   },
   {
     "objectID": "day2-morning-slides.html#restrictive-covenants",
@@ -977,7 +977,7 @@
     "href": "day2-morning-slides.html#corporate-bonds",
     "title": "Corporate Financial Management",
     "section": "Corporate Bonds",
-    "text": "Corporate Bonds\nCorporate bonds represent a formalized debt security that can be traded in financial markets:\n\nTradable loans with defined nominal (par) value\nFeature specified coupon rates for interest payments\nMay be issued with redeemable or irredeemable terms\nTypically have 7-30 year maturities (if redeemable)\nCan be issued publicly or through private placement\nMay be secured or unsecured\n\nKey bond characteristics: - Nominal value (typically £/€100) - Coupon rate (interest payment) - Redemption value (usually par value) - Redemption date (for redeemable bonds)"
+    "text": "Corporate Bonds\nCorporate bonds represent a formalized debt security that can be traded in financial markets:\n\nTradable loans with defined nominal (par) value\nFeature specified coupon rates for interest payments\nMay be issued with redeemable or irredeemable terms\nTypically have 7-30 year maturities (if redeemable)\nCan be issued publicly or through private placement\nMay be secured or unsecured\n\nKey bond characteristics:\n\nNominal value (typically £/€100)\nCoupon rate (interest payment)\nRedemption value (usually par value)\nRedemption date (for redeemable bonds)"
   },
   {
     "objectID": "day2-morning-slides.html#long-term-finance-mezzanine-finance-and-preference-shares",
@@ -991,7 +991,7 @@
     "href": "day2-morning-slides.html#mezzanine-finance-overview",
     "title": "Corporate Financial Management",
     "section": "Mezzanine Finance Overview",
-    "text": "Mezzanine Finance Overview\nMezzanine finance represents higher-risk, higher-return capital that fills the gap between senior debt and equity:\n\nLong-term, subordinated financing\nHigher interest rates reflecting increased risk\nOften includes equity-like features (warrants, conversion rights)\nTypically unsecured\nUsed as a last resort before equity dilution\nMain types include junk bonds, convertible bonds, and preference shares"
+    "text": "Mezzanine Finance Overview\nMezzanine finance represents subordinated capital that fills the gap between senior debt and equity:\n\nLong-term, subordinated financing\nHigher interest rates reflecting increased risk\nOften includes equity-like features (warrants, conversion rights)\nTypically unsecured\nUsed as an alternative to equity dilution\nMain types include high-yield bonds, convertible bonds, and preference shares"
   },
   {
     "objectID": "day2-morning-slides.html#junk-bonds",
@@ -1012,7 +1012,7 @@
     "href": "day2-morning-slides.html#preference-shares",
     "title": "Corporate Financial Management",
     "section": "Preference Shares",
-    "text": "Preference Shares\nPreference shares combine features of both debt and equity:\nKey characteristics: - Part of share capital but typically not considered pure equity - May be issued at premium above nominal value - Usually carry fixed dividends - Generally confer no voting rights - May be redeemable and/or convertible - Higher in capital structure than ordinary shares but below bonds - Dividends are not tax-deductible"
+    "text": "Preference Shares\nPreference shares combine features of both debt and equity:\nKey characteristics:\n\nPart of share capital but typically not considered pure equity\nMay be issued at premium above nominal value\nUsually carry fixed dividends\nGenerally confer no voting rights\nMay be redeemable and/or convertible\nHigher in capital structure than ordinary shares but below bonds\nDividends are not tax-deductible"
   },
   {
     "objectID": "day2-morning-slides.html#types-of-preference-shares",
@@ -1026,7 +1026,7 @@
     "href": "day2-morning-slides.html#preference-shares-characteristics",
     "title": "Corporate Financial Management",
     "section": "Preference shares characteristics",
-    "text": "Preference shares characteristics\nAdvantages of preference shares: - Dividends can be waived in difficult periods - Preserve ownership structure - Can improve gearing after conversion (if convertible) - Easier to obtain than bonds for highly geared companies\nDisadvantages of preference shares: - More expensive than debt - Dividends not tax-deductible - May require redemption or conversion in future"
+    "text": "Preference shares characteristics\nAdvantages of preference shares:\n\nDividends can be deferred in challenging periods\nPreserve ownership structure\nCan improve gearing after conversion (if convertible)\nMore accessible than bonds for highly geared companies\n\nDisadvantages of preference shares:\n\nHigher cost than debt\nDividends not tax-deductible\nMay require redemption or conversion in future"
   },
   {
     "objectID": "day2-morning-slides.html#long-term-finance-equity",
@@ -1054,7 +1054,7 @@
     "href": "day2-morning-slides.html#equity-disadvantages",
     "title": "Corporate Financial Management",
     "section": "Equity Disadvantages",
-    "text": "Equity Disadvantages\nHowever, equity also has significant drawbacks:\n\nExpensive to issue (5-10% of funds raised)\nMinimum fixed costs limit accessibility to larger companies\nSubstantial administrative and regulatory requirements\nDividends not tax-deductible\nDilution of control\nHighest required return of all financing sources"
+    "text": "Equity Disadvantages\nHowever, equity also has significant drawbacks:\n\nSignificant issuance costs (5-10% of funds raised)\nMinimum fixed costs limit accessibility to larger companies\nSubstantial administrative and regulatory requirements\nDividends not tax-deductible\nDilution of control\nHighest required return of all financing sources"
   },
   {
     "objectID": "day2-morning-slides.html#methods-of-issuing-equity",
@@ -1089,7 +1089,7 @@
     "href": "day2-morning-slides.html#venture-capital",
     "title": "Corporate Financial Management",
     "section": "Venture Capital",
-    "text": "Venture Capital\nVenture capital provides specialized equity financing to bridge this gap:\n\nFocuses on high-risk, high-return, high-growth potential companies\nTypically targets 30%+ annual returns\nPortfolio approach with mixed outcomes expected\nGenerally involves deals exceeding £250,000\nRequires equity stake and element of control\nPrefers companies with established track records\nNecessitates clear exit strategy (IPO or trade sale)\n\nBenefits to recipient companies: - Access to capital at crucial growth stage - Business expertise and mentoring - Industry contacts and networks - Strategic guidance - Potential follow-on financing\nDrawbacks for recipient companies: - Dilution of ownership - Loss of some decision-making autonomy - Increased reporting and accountability - Pressure to achieve growth targets - Exit timeline constraints"
+    "text": "Venture Capital\nVenture capital provides specialized equity financing to bridge this gap:\n\nFocuses on companies with strong growth potential\nTypically targets 30%+ annual returns\nPortfolio approach with mixed outcomes expected\nGenerally involves deals exceeding £250,000\nRequires equity stake and element of control\nPrefers companies with established track records\nNecessitates clear exit strategy (IPO or trade sale)\n\nBenefits to recipient companies: - Access to capital at crucial growth stage - Business expertise and mentoring - Industry contacts and networks - Strategic guidance - Potential follow-on financing\nDrawbacks for recipient companies: - Dilution of ownership - Partial loss of decision-making autonomy - Increased reporting and accountability - Performance pressure - Exit timeline constraints"
   },
   {
     "objectID": "day2-morning-slides.html#government-initiatives",
@@ -1131,14 +1131,14 @@
     "href": "day2-morning-slides.html#key-source-of-finance-principles",
     "title": "Corporate Financial Management",
     "section": "Key Source of Finance Principles",
-    "text": "Key Source of Finance Principles\nSeveral fundamental principles should guide financing decisions in practice.\n\n\n\n\nThe type of finance should match the term of the investment (matching principle)\nManagement typically follows a “pecking order”: internal sources first, then debt, then equity\nMarket-sourced finance is primarily viable for larger companies due to transaction costs\nSMEs should prioritize bank financing, medium-term instruments, and venture capital\nCost of each source correlates with the risk borne by investors\nVenture capital targets high-risk, high-return companies in the finance gap\nComprehensive business plans with robust financial projections are essential for external financing\nInnovative financing sources continue to expand options, particularly for early-stage companies"
+    "text": "Key Source of Finance Principles\nSeveral fundamental principles should guide financing decisions in practice.\n\n\n\n\nThe type of finance should match the term of the investment (matching principle)\nManagement typically follows a “pecking order”: internal sources first, then debt, then equity\nMarket-sourced finance is primarily viable for larger companies due to transaction costs\nSMEs should prioritize bank financing, medium-term instruments, and venture capital\nCost of each source correlates with the risk borne by investors\nVenture capital targets growth-oriented companies in the finance gap\nComprehensive business plans with robust financial projections are essential for external financing\nInnovative financing sources continue to expand options, particularly for early-stage companies"
   },
   {
     "objectID": "day2-morning-slides.html#for-this-afternoon",
     "href": "day2-morning-slides.html#for-this-afternoon",
     "title": "Corporate Financial Management",
     "section": "For This Afternoon",
-    "text": "For This Afternoon\nThis afternoon, we will build on this morning’s exploration of financing sources to focus on: - Cost of capital calculations - Weighted Average Cost of Capital (WACC) - Capital structure decisions - Optimal gearing levels - Dividend policy considerations\nPlease review the case studies in the module materials to prepare for our practical session."
+    "text": "For This Afternoon\nThis afternoon, we will build on this morning’s exploration of financing sources to focus on:\n\nCost of capital calculations\nWeighted Average Cost of Capital (WACC)\nCapital structure decisions\nOptimal gearing levels\nDividend policy considerations\n\nPlease review the case studies in the module materials to prepare for our practical session."
   },
   {
     "objectID": "day2-morning-slides.html#additional-resources",
@@ -1846,5 +1846,12 @@
     "title": "Working Capital Management",
     "section": "Practice Questions",
     "text": "Practice Questions\n\nA company has average inventory of £500,000, annual cost of sales of £4 million, average trade receivables of £800,000, annual credit sales of £6 million, and average trade payables of £600,000 with annual credit purchases of £3.5 million. Calculate:\n\nThe inventory turnover period\nThe receivables collection period\nThe payables payment period\nThe operating cash cycle\n\nUsing the EOQ model, calculate the optimal order quantity for a product with annual demand of 8,000 units, ordering cost of £50 per order, and holding cost of £5 per unit per year.\nCritically evaluate the advantages and disadvantages of implementing a Just-in-Time inventory system for a manufacturing business.\nDiscuss how a company might reduce its operating cash cycle and evaluate the potential benefits and risks of such actions.\nAnalyze how the “Five Cs” of credit can be used to assess customer creditworthiness, giving examples of information sources for each criterion.\n\n\n\n\nCorporate Financial Management - Day 3 Afternoon"
+  },
+  {
+    "objectID": "day2-morning-slides.html#high-yield-bonds",
+    "href": "day2-morning-slides.html#high-yield-bonds",
+    "title": "Corporate Financial Management",
+    "section": "High-Yield Bonds",
+    "text": "High-Yield Bonds\nHigh-yield bonds are debt securities with lower credit ratings:\n\nUsed by companies with less robust financial positions\nCarry higher interest rates to compensate for increased risk\nAppeal to investors seeking higher returns\nSubject to higher default probability\nMay include more stringent covenants"
   }
 ]

@@ -1,0 +1,120 @@
+---
+title: "Resources"
+subtitle: "Corporate Financial Management"
+format: 
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+---
+
+# Course Resources
+
+This page provides access to all resources for the Corporate Financial Management module.
+
+## Module Handbook
+
+The module handbook contains comprehensive information about the course structure, learning outcomes, assessment details, and policies.
+
+::: {.resource-card}
+### Module Handbook
+Complete reference guide for the Corporate Financial Management module.
+
+::: {.button-group}
+[View Online](resources/module-handbook.html){.btn .btn-primary}
+[Download DOCX](resources/module-handbook.docx){.btn .btn-secondary}
+:::
+:::
+
+## Assignment Materials
+
+::: {.resource-card}
+### Coursework Assignment (50% of final mark)
+Detailed information about the coursework assignment including case studies, requirements, and marking scheme.
+
+::: {.button-group}
+[View Online](resources/coursework.html){.btn .btn-primary}
+[Download DOCX](resources/coursework.docx){.btn .btn-secondary}
+[View Source](resources/coursework.qmd){.btn .btn-secondary}
+:::
+:::
+
+## Course Presentations
+
+This section provides access to different formats of the course materials for teaching and study purposes.
+
+### Day 1: Financial Framework & Analysis
+
+- [Website Content](days/day1-morning.html) (Full interactive content)
+- [Presentation Slides](slides/day1-morning-slides.html) (For teaching)
+
+### Day 1: Capital Investment Decisions
+
+- [Website Content](days/day1-afternoon.html) (Full interactive content)
+- [Presentation Slides](slides/day1-afternoon-slides.html) (For teaching)
+
+### Day 2: Sources of Finance
+
+- [Website Content](days/day2-morning.html) (Full interactive content)
+- [Presentation Slides](slides/day2-morning-slides.html) (For teaching)
+
+### Day 2: Cost of Capital
+
+- [Website Content](days/day2-afternoon.html) (Full interactive content)
+- [Presentation Slides](slides/day2-afternoon-slides.html) (For teaching)
+
+### Day 3: Dividend Policy
+
+- [Website Content](days/day3-morning.html) (Full interactive content)
+- [Presentation Slides](slides/day3-morning-slides.html) (For teaching)
+
+### Day 3: Working Capital Management
+
+- [Website Content](days/day3-afternoon.html) (Full interactive content)
+- [Presentation Slides](slides/day3-afternoon-slides.html) (For teaching)
+
+### Creating PDF Handouts
+
+You can create PDF handouts directly from the RevealJS presentations:
+
+1. **Using the Print Function**:
+   - Open any presentation slides (e.g., slides/day1-morning-slides.html)
+   - Press "P" to enter print mode
+   - Use your browser's print function (Ctrl/Cmd+P)
+   - Select "Save as PDF" as the destination
+   - Configure as needed (landscape orientation recommended)
+   - Click "Save" or "Print"
+
+2. **Using Export Functions**:
+   - Press "E" to enter speaker view
+   - Look for the export options in the speaker notes panel
+   - Select "Export to PDF"
+
+3. **Customizing PDF Output**:
+   - For handouts with multiple slides per page, use print settings
+   - To include speaker notes, check "Include speaker notes" if available
+   - Adjust margins and scaling as needed
+
+## Recommended Readings
+
+### Core Textbook
+- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
+
+### Supplementary Reading
+- Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
+- Brealey, R., Myers, S. and Allen, F. (2019) *The Principles of Corporate Finance*. 13th ed.
+- Watson, D. and Head, A. (2019) *Corporate Finance Principles and Practice*. 8th ed.
+
+## Online Resources
+
+- [Financial Times](https://www.ft.com/) - Articles on corporate finance (University subscription required)
+- [Harvard Business Review](https://hbr.org/) - Case studies and articles
+- Module materials on Blackboard
+- Financial databases available through the library
+
+## Contact Information
+
+**Module Coordinator**: Prof. Barry Quinn  
+**Email**: b.quinn1@ulster.ac.uk  
+**Office Hours**: By appointment during the block delivery  
+**Location**: Belfast Campus, Room MC-204 

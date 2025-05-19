@@ -1,74 +1,85 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "_assets/**/*"
 
 website:
   title: "Corporate Financial Management"
   site-url: https://quinfer.github.io/corp-fin-mgt/
+  site-path: "/corp-fin-mgt/"
+  repo-url: https://github.com/quinfer/corp-fin-mgt
+  repo-actions: [edit, issue]
+  favicon: "_assets/images/favicon.ico"
   navbar:
     background: primary
     search: true
     left:
       - text: "Home"
-        href: index.html
+        href: index.qmd
       - text: "Day 1"
         menu:
           - text: "Overview"
-            href: days/day1.html
+            href: days/day1.qmd
           - text: "Morning Session"
-            href: days/day1-morning.html
+            href: days/day1-morning.qmd
           - text: "Afternoon Session"
-            href: days/day1-afternoon.html
+            href: days/day1-afternoon.qmd
       - text: "Day 2"
         menu:
           - text: "Overview"
-            href: days/day2.html
+            href: days/day2.qmd
           - text: "Morning Session"
-            href: days/day2-morning.html
+            href: days/day2-morning.qmd
           - text: "Afternoon Session"
-            href: days/day2-afternoon.html
+            href: days/day2-afternoon.qmd
       - text: "Day 3"
         menu:
           - text: "Overview"
-            href: days/day3.html
+            href: days/day3.qmd
           - text: "Morning Session"
-            href: days/day3-morning.html
+            href: days/day3-morning.qmd
           - text: "Afternoon Session"
-            href: days/day3-afternoon.html
+            href: days/day3-afternoon.qmd
       - text: "Day 4"
         menu:
           - text: "Overview"
-            href: days/day4.html
+            href: days/day4.qmd
           - text: "Morning Session"
-            href: days/day4-morning.html
+            href: days/day4-morning.qmd
           - text: "Afternoon Session"
-            href: days/day4-afternoon.html
+            href: days/day4-afternoon.qmd
       - text: "Resources"
-        href: resources.qmd
+        href: resources/index.qmd
 
+# Default format settings
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: _assets/css/styles.css
     toc: true
     page-layout: full
     self-contained: false
 
-# Define different formats for different file groups
+# Define standard revealjs format for slides
+formats:
+  revealjs:
+    theme: simple
+    slide-number: true
+    footer: "Corporate Financial Management"
+    embed-resources: true
+    smaller: true
+    scrollable: true
+
+# Execution settings
 execute:
   freeze: auto
+  cache: true
 
-# Apply specific format settings for files in the days folder
-format-specific:
-  html:
-    # Default for all HTML files
-    toc: true
-    theme: cosmo
-    css: styles.css
-    page-layout: full
-  
 # Define the rendering for different file groups
 render:
-  - "*.qmd"  # Render all QMD files in the root directory
-  - "days/*.qmd:html"  # Render days QMD files specifically as HTML
-  - "!days/*-slides.qmd"  # Don't render any slides files that might be in days
+  - "index.qmd"
+  - "resources/index.qmd"
+  - "days/*.qmd"
+  # Slides are handled separately by the render-slides.sh script
+  - "!slides/*.qmd"

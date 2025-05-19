@@ -11,7 +11,10 @@ format:
     embed-resources: true
     smaller: true
     scrollable: true
+    css: "../_assets/css/slides.css"
+    include-in-header: "../_assets/includes/slides-header.html"
 ---
+
 
 ```{r setup, include=FALSE}
 library(ggplot2)
@@ -875,6 +878,7 @@ After implementing capital investments, organizations should conduct post-comple
 :::{.callout-tip}
 ## Best Practice
 Research shows that companies conducting systematic post-completion audits achieve:
+
 - **More accurate future projections** - Learning from past errors
 - **Better investment performance** - Making better decisions
 - **Improved organizational learning** - Sharing knowledge across departments
@@ -896,6 +900,7 @@ Research shows that companies conducting systematic post-completion audits achie
 ## For Tomorrow {.unnumbered}
 
 Tomorrow morning, we will explore:
+
 - Sources of finance
 - Capital structure decisions
 - Cost of capital calculation
@@ -1032,6 +1037,7 @@ Investment ────┤
 ```
 
 **Analysis methodology**:
+
 - Expected value if expand: (0.6 × £8.2m) + (0.4 × £5.1m) = £6.98m
 - Expected value if don't expand: (0.7 × £3.6m) + (0.3 × £2.8m) = £3.36m
 - Optimal decision: Expand (£6.98m > £3.36m)
@@ -1050,6 +1056,7 @@ Investment ────┤
 ## References {.unnumbered}
 
 **Academic References:**
+
 - Damodaran, A. (2022). *Investment Valuation: Tools and Techniques for Determining the Value of Any Asset*, 4th Edition, Wiley Finance
 - Dixit, A.K. & Pindyck, R.S. (2021). *Investment Under Uncertainty*, Princeton University Press
 - Trigeorgis, L. & Reuer, J.J. (2023). *Real Options Theory in Strategic Management*, Strategic Management Journal, 44(4), pp. 842-878

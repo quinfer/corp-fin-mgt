@@ -7,19 +7,12 @@ date: last-modified
 format:
   revealjs:
     theme: simple
-    incremental: true
     slide-number: true
     footer: "Corporate Financial Management - Day 2 Morning"
     embed-resources: true
     smaller: true
     scrollable: true
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(knitr)
-library(ggplot2)
-```
 
 ## Sources of Finance Framework {.unnumbered}
 
@@ -38,16 +31,15 @@ By the end of this morning, you will be able to:
 
 ## The Financing Decision
 
-After making capital investment decisions using the appraisal techniques covered yesterday, the finance manager must turn attention to the financing decision – finding suitable sources to fund those investments.
-
+After making capital investment decisions using the appraisal techniques covered yesterday, the finance manager must determine suitable sources to fund those investments.
 
 ## The Financing Context
 
 The financing decision follows logically from the investment decision and involves determining:
 
-- What sources of finance are available (internal vs external)
-- What term of borrowing the funding is available for
-- How much each potential source of finance costs (cost of capital)
+- Available sources of finance (internal vs external)
+- Term of borrowing the funding is available for
+- Cost of each potential source of finance (cost of capital)
 
 ## Financing Decision Framework
 
@@ -85,9 +77,9 @@ Internal finance comes from the operational activities of the business itself an
 
 - Retained earnings (profit ploughback)
 - Working capital management:
-  - Tighter credit control
-  - Reduced inventory levels
-  - Delayed payment to suppliers
+  - Improved receivables collection
+  - Inventory optimization
+  - Extended payables period
 :::
 
 ::: {.g-col-6}
@@ -111,24 +103,24 @@ Internal financing is often preferred as it avoids the costs, formalities, and e
 flowchart LR
     A[Internal Finance Sources] --> B[Short-term Sources]
     A --> C[Long-term Sources]
-    B --> D[Tighter credit control]
-    B --> E[Reduced inventory levels]
-    B --> F[Delayed payments to creditors]
+    B --> D[Receivables management]
+    B --> E[Inventory optimization]
+    B --> F[Payables extension]
     C --> G[Retained profits]
 ```
 
 :::{.callout-important}
 ## Working Capital Management
-Effective working capital management can release significant funds from day-to-day operations. However, there are limits to such strategies:
+Effective working capital management can release significant funds from day-to-day operations. However, there are constraints to such strategies:
 
-- Excessive credit control may alienate customers
-- Minimal inventory may lead to stockouts and lost sales
-- Delayed supplier payments can damage critical relationships
+- Excessive credit control may affect customer relationships
+- Minimal inventory may compromise service levels
+- Extended supplier payments can strain supply chain relationships
 :::
 
 ## The Major External Sources of Finance
 
-External sources represent a wide spectrum of options ranging from short-term facilities to long-term capital.
+External sources represent a spectrum of options ranging from short-term facilities to long-term capital.
 
 ```{mermaid}
 flowchart TD
@@ -170,11 +162,11 @@ There are two primary approaches through which organisations can access external
 
 ## Disintermediation
 
-**Disintermediation** is where the financial intermediary's role is bypassed, with companies going directly to the money markets or stock exchanges to obtain finance.
+**Disintermediation** is where the financial intermediary's role is bypassed, with companies accessing money markets or stock exchanges directly to obtain finance.
 
 **Characteristics:**
 - Direct access to capital markets
-- Restricted to large, reputable companies
+- Restricted to large, established companies
 - Used for substantial funding requirements
 - Often more cost-effective for large sums
 - Requires substantial disclosure and market reputation
@@ -184,11 +176,9 @@ There are two primary approaches through which organisations can access external
 - Public share offerings
 - Commercial paper issuance
 
-
 ## Bank Finance: The Lending Decision
 
 Banks are a primary source of external finance for many businesses. Understanding their lending criteria is essential for successful financing applications.
-
 
 ## The Lending Assessment
 
@@ -196,7 +186,7 @@ Banks typically consider two core aspects when making lending decisions:
 
 1. **Going concern assessment**: Determining whether the borrowing company can afford to make repayments from its ongoing operations.
 
-2. **Liquidation assessment**: Evaluating the recoverability of capital in the event the company goes into liquidation.
+2. **Liquidation assessment**: Evaluating the recoverability of capital in the event the company enters liquidation.
 
 ## The Seven C's of Lending
 
@@ -213,6 +203,7 @@ A traditional framework used by banks to evaluate potential borrowers includes:
 ## The Expanded View: 20 C's of Credit
 
 ```{r}
+library(knitr)
 c_categories <- data.frame(
   Category = 1:20,
   Description = c("Character or culture of the borrower",
@@ -242,7 +233,7 @@ kable(c_categories, col.names = c("No.", "Description"), align = "lr")
 
 ## Business Plan Requirements
 
-A strong business plan for bank finance applications should include:
+A comprehensive business plan for bank finance applications should include:
 
 - Funding requirements (amount, term, repayment, interest structure)
 - Clear purpose of the finance
@@ -253,11 +244,9 @@ A strong business plan for bank finance applications should include:
 - Financial projections and scenario analysis
 - Historical and projected financial statements
 
-
 ## Short-Term Sources of Finance
 
 Short-term finance options (less than one year) are typically used to support working capital needs and temporary funding requirements.
-
 
 ## Overview of Short-Term Finance
 
@@ -325,12 +314,11 @@ kable(factoring_comparison, col.names = c("Feature", "Factoring", "Invoice Disco
 
 Medium-term finance options (1-7 years) bridge the gap between short-term borrowing and long-term capital.
 
-
 ## Medium-Term Options Overview
 
 Key characteristics of medium-term finance:
 
-- Can be utilized by all company sizes
+- Utilized by organizations of all sizes
 - Particularly important for SMEs
 - More accessible than long-term capital markets
 - Includes term loans, hire purchase, and leasing
@@ -367,8 +355,9 @@ kable(hp_diagram, col.names = c("Stage", "Description"), align = "lr")
 :::{.column}
 
 **Advantages of Hire Purchase:**
-- Easy to arrange
-- Provides quick access to assets
+
+- Straightforward arrangement
+- Provides efficient access to assets
 - Widely available
 - Predictable cash flow planning
 - Not repayable on demand
@@ -376,9 +365,10 @@ kable(hp_diagram, col.names = c("Stage", "Description"), align = "lr")
 - Ultimate ownership
 
 **Disadvantages of Hire Purchase:**
-- Relatively expensive
-- Inflexible arrangement
-- Costly cancellation penalties
+
+- Comparatively expensive
+- Limited flexibility
+- Costly termination penalties
 - Hiree assumes maintenance/insurance responsibilities
 - Fixed payment obligation regardless of asset utilization
 :::
@@ -414,34 +404,33 @@ A sale and leaseback arrangement allows a company to:
 5. Potentially achieve favorable accounting treatment
 
 This approach can be structured either with:
-- A subsidiary company (lower risk)
-- An external company (potentially higher risk)
+- A subsidiary company
+- An external company
 
 ## Long-Term Finance: Debt
 
 Debt represents a significant source of long-term finance for many businesses.
 
-
 ## Debt Finance Benefits
 
 Long-term debt offers several advantages:
 
-- Cheaper and quicker to obtain than equity
+- More cost-effective and expedient than equity
 - Interest is tax-deductible
 - No dilution of ownership or control
 - Can reduce overall WACC (weighted average cost of capital)
 - Can be structured with tailored repayment schedules
-- Lower risk for investors (but less potential return)
+- Lower risk for investors
 
 ## Debt Finance Drawbacks
 
 However, debt also poses challenges:
 
-- Increases financial risk for the company
+- Increases financial risk
 - Requires regular interest payments regardless of profitability
 - Often secured against company assets
 - May include restrictive covenants
-- Can limit managerial decision-making flexibility
+- Can limit managerial flexibility
 - May restrict future borrowing capacity
 
 ## Restrictive Covenants
@@ -478,6 +467,7 @@ Corporate bonds represent a formalized debt security that can be traded in finan
 - May be secured or unsecured
 
 **Key bond characteristics:**
+
 - Nominal value (typically £/€100)
 - Coupon rate (interest payment)
 - Redemption value (usually par value)
@@ -487,25 +477,24 @@ Corporate bonds represent a formalized debt security that can be traded in finan
 
 Between traditional debt and equity lies a range of hybrid financing instruments.
 
-
 ## Mezzanine Finance Overview
 
-Mezzanine finance represents higher-risk, higher-return capital that fills the gap between senior debt and equity:
+Mezzanine finance represents subordinated capital that fills the gap between senior debt and equity:
 
 - Long-term, subordinated financing
 - Higher interest rates reflecting increased risk
 - Often includes equity-like features (warrants, conversion rights)
 - Typically unsecured
-- Used as a last resort before equity dilution
-- Main types include junk bonds, convertible bonds, and preference shares
+- Used as an alternative to equity dilution
+- Main types include high-yield bonds, convertible bonds, and preference shares
 
-## Junk Bonds
+## High-Yield Bonds
 
-Junk bonds (high-yield bonds) are debt securities with lower credit ratings:
+High-yield bonds are debt securities with lower credit ratings:
 
-- Used by companies with weaker financial positions
+- Used by companies with less robust financial positions
 - Carry higher interest rates to compensate for increased risk
-- Attract risk-taking investors seeking higher returns
+- Appeal to investors seeking higher returns
 - Subject to higher default probability
 - May include more stringent covenants
 
@@ -526,6 +515,7 @@ Convertible bonds combine debt features with an option to convert to equity:
 Preference shares combine features of both debt and equity:
 
 **Key characteristics:**
+
 - Part of share capital but typically not considered pure equity
 - May be issued at premium above nominal value
 - Usually carry fixed dividends
@@ -555,16 +545,17 @@ kable(pref_share_types, col.names = c("Type", "Description"), align = "ll")
 ## Preference shares characteristics
 
 **Advantages of preference shares:**
-- Dividends can be waived in difficult periods
+
+- Dividends can be deferred in challenging periods
 - Preserve ownership structure
 - Can improve gearing after conversion (if convertible)
-- Easier to obtain than bonds for highly geared companies
+- More accessible than bonds for highly geared companies
 
 **Disadvantages of preference shares:**
-- More expensive than debt
+
+- Higher cost than debt
 - Dividends not tax-deductible
 - May require redemption or conversion in future
-
 
 ## Long-Term Finance: Equity
 
@@ -597,7 +588,7 @@ From the company's perspective, equity offers several benefits:
 
 However, equity also has significant drawbacks:
 
-- Expensive to issue (5-10% of funds raised)
+- Significant issuance costs (5-10% of funds raised)
 - Minimum fixed costs limit accessibility to larger companies
 - Substantial administrative and regulatory requirements
 - Dividends not tax-deductible
@@ -628,7 +619,6 @@ For existing listed companies, rights issues provide an efficient mechanism to r
 - Existing shareholders can either subscribe or sell rights
 - Market price adjusts to account for discount
 
-
 ## The Finance Gap and Venture Capital
 
 Many growing businesses face a "finance gap" where conventional financing sources are insufficient.
@@ -648,7 +638,7 @@ The finance gap (or equity gap) typically emerges when:
 
 Venture capital provides specialized equity financing to bridge this gap:
 
-- Focuses on high-risk, high-return, high-growth potential companies
+- Focuses on companies with strong growth potential
 - Typically targets 30%+ annual returns
 - Portfolio approach with mixed outcomes expected
 - Generally involves deals exceeding £250,000
@@ -665,9 +655,9 @@ Venture capital provides specialized equity financing to bridge this gap:
 
 **Drawbacks for recipient companies:**
 - Dilution of ownership
-- Loss of some decision-making autonomy
+- Partial loss of decision-making autonomy
 - Increased reporting and accountability
-- Pressure to achieve growth targets
+- Performance pressure
 - Exit timeline constraints
 
 ## Government Initiatives
@@ -689,7 +679,6 @@ Various government schemes aim to address the finance gap:
 ## New Sources of Finance
 
 The financing landscape continues to evolve with innovative funding mechanisms.
-
 
 ## Crowdfunding
 
@@ -723,7 +712,6 @@ Financial technology is transforming the financing landscape:
 - Artificial intelligence in lending decisions
 - Open banking initiatives
 
-
 ## Key Source of Finance Principles
 
 Several fundamental principles should guide financing decisions in practice.
@@ -734,7 +722,7 @@ Several fundamental principles should guide financing decisions in practice.
 - Market-sourced finance is primarily viable for larger companies due to transaction costs
 - SMEs should prioritize bank financing, medium-term instruments, and venture capital
 - Cost of each source correlates with the risk borne by investors
-- Venture capital targets high-risk, high-return companies in the finance gap
+- Venture capital targets growth-oriented companies in the finance gap
 - Comprehensive business plans with robust financial projections are essential for external financing
 - Innovative financing sources continue to expand options, particularly for early-stage companies
 :::
@@ -742,6 +730,7 @@ Several fundamental principles should guide financing decisions in practice.
 ## For This Afternoon {.unnumbered}
 
 This afternoon, we will build on this morning's exploration of financing sources to focus on:
+
 - Cost of capital calculations
 - Weighted Average Cost of Capital (WACC)
 - Capital structure decisions
