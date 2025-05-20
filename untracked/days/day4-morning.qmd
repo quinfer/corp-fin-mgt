@@ -1,9 +1,0 @@
----
-title: "Corporate Financial Management"
-subtitle: "Day 4: Assignment Preparation"
-author: "Barry Quinn"
-date: last-modified
-format:
-  html:
-    number-sections: true  # Add this format section
----
