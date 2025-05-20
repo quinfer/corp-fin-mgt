@@ -1,0 +1,44 @@
+<!-- Custom header content for RevealJS slides -->
+<!-- This file is included in the <head> section of all slide presentations -->
+
+<!-- Custom fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Additional meta tags -->
+<meta name="author" content="Barry Quinn">
+<meta name="description" content="Corporate Financial Management Course">
+
+<!-- Custom JavaScript for slides -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add any custom JavaScript functionality here
+  // For example, custom keyboard shortcuts, event handlers, etc.
+  
+  // Example: Add a class to all slides with the word "Exercise" in the title
+  const slideHeaders = document.querySelectorAll('.reveal .slides h2');
+  slideHeaders.forEach(header => {
+    if (header.textContent.includes('Exercise')) {
+      header.closest('section').classList.add('exercise-slide');
+    }
+  });
+});
+</script>
+
+<!-- Additional styling -->
+<style>
+/* You can also put this in the slides.css file instead */
+.reveal .slide-number {
+  font-size: 18px !important;
+  color: #333333 !important;
+}
+
+.reveal .footer {
+  font-size: 14px !important;
+  color: #666666 !important;
+}
+
+/* Example of styling for exercise slides */
+.exercise-slide {
+  background-color: rgba(230, 245, 255, 0.2) !important;
+}
+</style>
