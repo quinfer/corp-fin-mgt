@@ -97,6 +97,7 @@ You can create PDF handouts directly from the RevealJS presentations:
 
 ### Core Textbook
 - Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
+- [PDF version](materials/book.pdf)
 
 ### Supplementary Reading
 - Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
