@@ -1,84 +1,30 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - "_assets/**/*"
-
+  
 website:
   title: "Corporate Financial Management"
   site-url: https://quinfer.github.io/corp-fin-mgt/
-  site-path: "/corp-fin-mgt/"
-  repo-url: https://github.com/quinfer/corp-fin-mgt
-  repo-actions: [edit, issue]
-  favicon: "_assets/images/favicon.ico"
   navbar:
     background: primary
-    search: true
     left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Day 1"
-        menu:
-          - text: "Overview"
-            href: days/day1.qmd
-          - text: "Morning Session"
-            href: days/day1-morning.qmd
-          - text: "Afternoon Session"
-            href: days/day1-afternoon.qmd
-      - text: "Day 2"
-        menu:
-          - text: "Overview"
-            href: days/day2.qmd
-          - text: "Morning Session"
-            href: days/day2-morning.qmd
-          - text: "Afternoon Session"
-            href: days/day2-afternoon.qmd
-      - text: "Day 3"
-        menu:
-          - text: "Overview"
-            href: days/day3.qmd
-          - text: "Morning Session"
-            href: days/day3-morning.qmd
-          - text: "Afternoon Session"
-            href: days/day3-afternoon.qmd
-      - text: "Day 4"
-        menu:
-          - text: "Overview"
-            href: days/day4.qmd
-          - text: "Morning Session"
-            href: days/day4-morning.qmd
-          - text: "Afternoon Session"
-            href: days/day4-afternoon.qmd
-      - text: "Resources"
-        href: resources/index.qmd
+      - href: index.qmd
+        text: Home
+      - href: resources.qmd
+        text: Resources
 
-# Default format settings
 format:
   html:
     theme: cosmo
-    css: _assets/css/styles.css
     toc: true
+    embed-resources: true # This embeds all resources
+    self-contained: true  # This ensures files are independent
     page-layout: full
-    embed-resources: true
-# Define standard revealjs format for slides
   revealjs:
     theme: simple
     slide-number: true
+    footer: "Corporate Financial Management"
     embed-resources: true
+    self-contained: true
     smaller: true
-    scrollable: true
-    css: _assets/css/slides.css
-    include-in-header: _assets/includes/slides-header.html
-
-# Execution settings
-execute:
-  freeze: auto
-  cache: true
-
-# Define the rendering for different file groups
-render:
-  - "index.qmd"
-  - "resources/index.qmd"
-  - "days/*.qmd"
-  # Slides are handled separately by the render-slides.sh script
-  - "!slides/*.qmd"
+    scrollable: true 

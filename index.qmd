@@ -24,38 +24,35 @@ The course is organised into four intensive days:
 
 ::: {.day-card}
 ### Day 1: Financial Framework & Investment Decisions
-**Morning:** Financial framework, business objectives, agency theory, and ratio analysis
+**Morning:** [Financial framework, business objectives, agency theory, and ratio analysis](/slides/day1-morning-slides.html)
 
-**Afternoon:** Capital investment decisions, appraisal techniques, and risk assessment
+**Afternoon:** [Capital investment decisions, appraisal techniques, and risk assessment](/slides/day1-afternoon-slides.html)
 
-[View Day 1 Materials](days/day1.html){.btn}
 :::
 
 ::: {.day-card}
 ### Day 2: Sources of Finance & Cost of Capital
-**Morning:** Long and short-term financing sources, equity and debt characteristics
+**Morning:** [Long and short-term financing sources, equity and debt characteristics](/slides/day2-morning-slides.html)
 
-**Afternoon:** Cost of capital, WACC, and capital structure decisions
+**Afternoon:** [Cost of capital, WACC, and capital structure decisions](/slides/day2-afternoon-slides.html)
 
-[View Day 2 Materials](days/day2.html){.btn}
 :::
 
 ::: {.day-card}
 ### Day 3: Dividend Policy & Working Capital
-**Morning:** Dividend theories, policy decisions, and practical considerations
+**Morning:** [Dividend theories, policy decisions, and practical considerations](/slides/day3-morning-slides.html)
 
-**Afternoon:** Working capital management, cash, inventory, and credit management
+**Afternoon:** [Working capital management, cash, inventory, and credit management](/slides/day3-afternoon-slides.html)
 
-[View Day 3 Materials](days/day3.html){.btn}
 :::
 
 ::: {.day-card}
-### Day 4: Applied Financial Management
+### Day 4: Applied Financial Management (Assessment Preparation)
+
 **Morning:** Integrated case studies and financial analysis applications
 
 **Afternoon:** Exam preparation, key concept revision, and practice questions
 
-[View Day 4 Materials](days/day4.html){.btn}
 :::
 
 :::
@@ -97,21 +94,10 @@ Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT
 
 :::
 
-## Daily Navigation
+## Core Reading
+- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
 
-::: {.nav-pills}
-- [Day 1 Morning](days/day1-morning.html)
-- [Day 1 Afternoon](days/day1-afternoon.html)
-- [Day 2 Morning](days/day2-morning.html)
-- [Day 2 Afternoon](days/day2-afternoon.html)
-- [Day 3 Morning](days/day3-morning.html)
-- [Day 3 Afternoon](days/day3-afternoon.html)
-- [Day 4 Morning](days/day4-morning.html)
-- [Day 4 Afternoon](days/day4-afternoon.html)
-:::
-
-## Recommended Reading
-
+## Supplementary Reading
 - Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
 - Brealey, R., Myers, S. and Allen, F. (2019) *The Principles of Corporate Finance*. 13th ed.
 - Watson, D. and Head, A. (2019) *Corporate Finance Principles and Practice*. 8th ed.
