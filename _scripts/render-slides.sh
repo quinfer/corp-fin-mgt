@@ -4,6 +4,11 @@
 
 set -e  # Exit on any error
 
+# Change to the project root directory regardless of where the script is called from
+cd "$(dirname "$0")/.."
+PROJECT_ROOT=$(pwd)
+echo "Running from project root: $PROJECT_ROOT"
+
 echo "Creating slides output directory..."
 mkdir -p docs/slides/
 

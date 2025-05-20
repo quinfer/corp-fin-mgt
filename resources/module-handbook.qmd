@@ -4,12 +4,7 @@ subtitle: "Module Handbook 2024/25"
 author: "Module Code: ACF838"
 date: "January 2025"
 format:
-  html:
-    toc: true
-    toc-depth: 2
-    number-sections: false
-    highlight-style: github
-    css: ../styles.css
+  html: default
   docx:
     toc: true
     toc-depth: 1
@@ -27,7 +22,7 @@ This handbook provides comprehensive information for the Corporate Financial Man
 - **Program**: MSc Management and Corporate Governance
 - **Institution**: Ulster University Business School
 - **Delivery Format**: Intensive 4-day block format
-- **Assessment**: 50% coursework (case study), 50% examination (3-hour exam)
+- **Assessment**: 50% coursework (case study), 50% online take-home examination (3-hour exam)
 - **Module Coordinator**: Prof. Barry Quinn (b.quinn1@ulster.ac.uk)
 
 ## Learning Outcomes
@@ -296,12 +291,14 @@ The afternoon session focuses on revision of key concepts and exam techniques to
 ## Coursework (50%)
 
 **Case Study Analysis**
-- **Due Date**: 07 June 2025
-- **Word Limit**: 3,000 words
+
+- **Due Date**: 09 June 2025 (12 noon)
+- **Word Limit**: 2,000 words
 - **Submission**: Via Blackboard
 - **Format**: Business report with financial analysis and recommendations
 
 The coursework will involve a comprehensive analysis of a case company, requiring students to:
+
 - Evaluate the financial position of the company
 - Assess an investment opportunity using appropriate techniques
 - Recommend financing options
@@ -310,8 +307,9 @@ The coursework will involve a comprehensive analysis of a case company, requirin
 
 ## Examination (50%)
 
-- **Format**: 3-hour written examination
-- **Date**: During exam period (Date TBC)
+- **Format**: 3-hour online take-home examination
+- **Release Date**: 21st June 9:30 (on Blackboard)
+- **Due Date**: 21rd June 12:30 (on Blackboard)
 - **Coverage**: All module content
 
 The examination will consist of:

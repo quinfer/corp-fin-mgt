@@ -5,9 +5,7 @@ author: "Prof. Barry Quinn"
 date: last-modified
 format:
   html:
-    toc: true
-    theme: cosmo
-    css: "../styles.css"
+    number-sections: true
 ---
 
 ```{r setup, include=FALSE}

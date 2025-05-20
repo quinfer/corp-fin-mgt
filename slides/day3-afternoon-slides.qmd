@@ -5,13 +5,7 @@ author: "Prof. Barry Quinn"
 institute: "Ulster University Business School"
 format:
   revealjs:
-    theme: simple
-    incremental: true
-    slide-number: true
     footer: "Corporate Financial Management - Day 3 Afternoon"
-    embed-resources: true
-    smaller: true
-    scrollable: true
 ---
 
 ## Learning Outcomes

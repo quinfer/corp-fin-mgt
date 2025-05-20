@@ -5,14 +5,7 @@ author: "Barry Quinn"
 date: last-modified
 format:
   revealjs:
-    theme: simple
-    slide-number: true
     footer: "Corporate Financial Management - Day 1 Afternoon"
-    embed-resources: true
-    smaller: true
-    scrollable: true
-    css: "../_assets/css/slides.css"
-    include-in-header: "../_assets/includes/slides-header.html"
 ---
 
 

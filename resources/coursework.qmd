@@ -1,11 +1,15 @@
 ---
 title: "Corporate Financial Management"
-subtitle: "Coursework Assignment"
-format: 
-  html:
-    theme: cosmo
-    css: ../styles.css
+subtitle: "Coursework Assignment 2024/25"
+author: "Module Code: ACF838"
+date: "January 2025"
+format:
+  html: default
+  docx:
     toc: true
+    toc-depth: 1
+    number-sections: false
+    highlight-style: github
 ---
 
 # ACF838 Corporate Financial Management
@@ -14,7 +18,7 @@ format:
 
 ### Submission date:
 
-This assignment must be submitted electronically through Blackboard Ultra by **12:00 Noon on Friday 7th June 2025**.
+This assignment must be submitted electronically through Blackboard Ultra by **12:00 Noon on Monday 9th June 2025**.
 
 Feedback will be available within two weeks of submission.
 

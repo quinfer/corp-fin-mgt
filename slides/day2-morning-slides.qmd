@@ -6,12 +6,7 @@ institute: "Ulster University Business School"
 date: last-modified
 format:
   revealjs:
-    theme: simple
-    slide-number: true
     footer: "Corporate Financial Management - Day 2 Morning"
-    embed-resources: true
-    smaller: true
-    scrollable: true
 ---
 
 ## Sources of Finance Framework {.unnumbered}

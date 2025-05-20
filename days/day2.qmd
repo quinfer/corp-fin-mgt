@@ -5,13 +5,7 @@ author: "Barry Quinn"
 date: last-modified
 format:
   html:
-    theme: cosmo
-    toc: true
-    toc-depth: 3
     number-sections: true
-    code-fold: true
-    self-contained: true
-    css: "../styles.css"
 ---
 
 ```{r setup, include=FALSE}

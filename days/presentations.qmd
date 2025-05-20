@@ -1,10 +1,6 @@
 ---
 title: "Course Presentations and Materials"
-format:
-  html:
-    theme: cosmo
-    toc: true
-    css: "../styles.css"
+format: html
 ---
 
 ## Teaching Materials

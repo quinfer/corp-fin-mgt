@@ -5,12 +5,7 @@ author: "Barry Quinn"
 date: last-modified
 format:
   revealjs:
-    theme: simple
-    slide-number: true
     footer: "Corporate Financial Management - Day 1 Morning"
-    embed-resources: true
-    smaller: true
-    scrollable: true
 ---
 
 ```{r setup, include=FALSE}

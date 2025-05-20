@@ -1,269 +1,171 @@
 [
   {
-    "objectID": "day1-morning-slides.html#course-introduction",
-    "href": "day1-morning-slides.html#course-introduction",
-    "title": "Corporate Financial Management",
-    "section": "Course Introduction",
-    "text": "Course Introduction\nWelcome to the intensive 4-day Corporate Financial Management module. This condensed format covers the essential concepts and techniques needed for effective financial decision-making in modern organizations.\n\n\n\n\n\n\nModule Learning Outcomes\n\n\nBy the end of this module, you will be able to:\n\nDemonstrate knowledge and understanding of the investment, financing and dividend decisions\nAssess the potential and significance of various sources of finance\nCritically examine issues surrounding corporate financing and dividend policy\nRecognize key concepts and theories of financial management"
+    "objectID": "day3-morning-slides.html#learning-outcomes",
+    "href": "day3-morning-slides.html#learning-outcomes",
+    "title": "Dividend Policy",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAfter completing this session, you should be able to:\n\nDescribe the nature of dividends and evaluate the arguments concerning their potential impact on shareholder wealth\nIdentify and discuss the factors that influence dividend policy in practice\nDescribe the nature of different dividend policies\nDiscuss the case for and against different forms of distribution\n\n\n\n\n\n\n\nNote\n\n\nThese outcomes align with the module’s broader learning objectives of critically examining issues surrounding corporate financing and dividend policy."
   },
   {
-    "objectID": "day1-morning-slides.html#the-finance-function-in-organizations",
-    "href": "day1-morning-slides.html#the-finance-function-in-organizations",
-    "title": "Corporate Financial Management",
-    "section": "The Finance Function in Organizations",
-    "text": "The Finance Function in Organizations\nFinancial management involves making key decisions about how resources are acquired and utilized within an organization. The finance function serves as the nexus for critical business activities."
+    "objectID": "day3-morning-slides.html#introduction-to-dividends",
+    "href": "day3-morning-slides.html#introduction-to-dividends",
+    "title": "Dividend Policy",
+    "section": "Introduction to Dividends",
+    "text": "Introduction to Dividends\nDividends represent a return by a business to its shareholders. Key characteristics include:\n\nCompanies rarely make dividend payments based solely on profits available to shareholders\nThe dividend payout ratio = dividend paid / earnings available for dividends\nIn the UK, dividends are often paid twice per year (interim and final)\nWhen share prices include accrued dividend payable, they are called “cum-dividend” share prices\nWhen dividends are paid out, share prices typically decrease by the same amount to the long-term stable level (“ex-dividend”)\n\n\n\n\n\n\n\nImportant\n\n\nUnderstanding the relationship between dividends and share prices is fundamental for evaluating dividend policies and their impact on shareholder wealth."
   },
   {
-    "objectID": "day1-morning-slides.html#the-finance-framework",
-    "href": "day1-morning-slides.html#the-finance-framework",
-    "title": "Corporate Financial Management",
-    "section": "The Finance Framework",
-    "text": "The Finance Framework\n\n\n\n\n\nflowchart TD\n    A[Financial planning] --&gt; B[Investment project appraisal]\n    A --&gt; C[Finance function]\n    A --&gt; D[Financing and capital market operations]\n    C --&gt; B\n    C --&gt; D\n    C --&gt; E[Financial control]\n    E --&gt; B\n    E --&gt; D"
+    "objectID": "day3-morning-slides.html#dividend-payout-patterns",
+    "href": "day3-morning-slides.html#dividend-payout-patterns",
+    "title": "Dividend Policy",
+    "section": "Dividend Payout Patterns",
+    "text": "Dividend Payout Patterns\nAverage dividend payout ratios vary significantly across industries:"
   },
   {
-    "objectID": "day1-morning-slides.html#finance-managers-role",
-    "href": "day1-morning-slides.html#finance-managers-role",
-    "title": "Corporate Financial Management",
-    "section": "Finance Manager’s Role",
-    "text": "Finance Manager’s Role\nThe finance manager’s responsibilities typically include:\n\nFinancial planning and forecasting\nCapital investment decisions\nWorking capital management\nFunding and financing decisions\nFinancial risk management\nStakeholder communication\n\n\n\n\n\n\n\nYour Experience\n\n\nDiscussion point: What financial management challenges have you observed or experienced in your organization?"
+    "objectID": "day3-morning-slides.html#industry-variations",
+    "href": "day3-morning-slides.html#industry-variations",
+    "title": "Dividend Policy",
+    "section": "Industry Variations",
+    "text": "Industry Variations\n\nAverage dividend payout ratios for businesses in selected industries in Western Europe"
   },
   {
-    "objectID": "day1-morning-slides.html#shareholder-wealth-maximization",
-    "href": "day1-morning-slides.html#shareholder-wealth-maximization",
-    "title": "Corporate Financial Management",
-    "section": "Shareholder Wealth Maximization",
-    "text": "Shareholder Wealth Maximization\nThe conventional view holds that the primary objective of a business is shareholder wealth maximization. This objective:\n\nIs not the same as profit maximization\nRequires considering the needs of other stakeholders\nOften demands high ethical standards"
+    "objectID": "day3-morning-slides.html#key-observations",
+    "href": "day3-morning-slides.html#key-observations",
+    "title": "Dividend Policy",
+    "section": "Key Observations",
+    "text": "Key Observations\n\nEntertainment sector shows extremely high payout ratios (324.89%)\nPublishing & Newspapers also demonstrate high ratios (113.76%)\nMost sectors maintain payout ratios between 30-70%\nPharmaceutical and technology sectors tend to have lower ratios"
   },
   {
-    "objectID": "day1-morning-slides.html#shareholder-perspective",
-    "href": "day1-morning-slides.html#shareholder-perspective",
-    "title": "Corporate Financial Management",
-    "section": "Shareholder Perspective",
-    "text": "Shareholder Perspective\nShareholders have specific characteristics that justify prioritizing their interests:\n\nThey are the effective owners\nThey have a residual claim and bear risk\nThey drive entrepreneurial activity through seeking returns"
+    "objectID": "day3-morning-slides.html#dividend-policy-two-major-schools-of-thought",
+    "href": "day3-morning-slides.html#dividend-policy-two-major-schools-of-thought",
+    "title": "Dividend Policy",
+    "section": "Dividend Policy: Two Major Schools of Thought",
+    "text": "Dividend Policy: Two Major Schools of Thought\nThe fundamental question in dividend policy: Does the pattern of dividends affect shareholder wealth?"
   },
   {
-    "objectID": "day1-morning-slides.html#critical-perspective",
-    "href": "day1-morning-slides.html#critical-perspective",
-    "title": "Corporate Financial Management",
-    "section": "Critical Perspective",
-    "text": "Critical Perspective\nHowever, pursuing shareholder wealth maximization can be problematic:\n\nMay undermine the status of other stakeholders\nCan encourage excessive cost-cutting\nMight promote unethical behavior"
+    "objectID": "day3-morning-slides.html#traditional-view",
+    "href": "day3-morning-slides.html#traditional-view",
+    "title": "Dividend Policy",
+    "section": "Traditional View",
+    "text": "Traditional View\n\nShareholders prefer dividends now because amounts are more certain\nThe implications for managers: adopt as generous a dividend policy as possible\nBased on the dividend valuation model - share price is determined by future streams of dividend receivable"
   },
   {
-    "objectID": "day1-morning-slides.html#limitations-of-profit-maximization",
-    "href": "day1-morning-slides.html#limitations-of-profit-maximization",
-    "title": "Corporate Financial Management",
-    "section": "Limitations of Profit Maximization",
-    "text": "Limitations of Profit Maximization\nUnlike shareholder wealth maximization, profit maximization as a sole objective has significant limitations:\n\n\n\nProfit is an imprecise term\nProfit cannot be objectively determined\nProfit takes no account of risk\n\n\n\n\nUncertain timeframe (short vs. long-term)\nIgnores opportunity costs\nNeglects stakeholder interests\n\n\n\n\n\n\n\n\n\nKey Insight\n\n\nMaximizing profit in a single period may actually diminish shareholder wealth over the long term due to factors like reduced investment, damage to reputation, or increased risk."
+    "objectID": "day3-morning-slides.html#modernist-view-mm",
+    "href": "day3-morning-slides.html#modernist-view-mm",
+    "title": "Dividend Policy",
+    "section": "Modernist View (M&M)",
+    "text": "Modernist View (M&M)\n\nIn perfect and efficient markets, dividend policy doesn’t affect shareholder wealth\nCompanies should invest in all projects with positive NPVs\nOnly investment decisions affect shareholder wealth\nInvestors can create “home-made” dividends by selling shares if needed :::"
   },
   {
-    "objectID": "day1-morning-slides.html#agency-theory",
-    "href": "day1-morning-slides.html#agency-theory",
-    "title": "Corporate Financial Management",
-    "section": "Agency Theory",
-    "text": "Agency Theory\nThe principal-agent relationship creates potential conflicts:\n\nDirectors (agents) act on behalf of shareholders (principals)\nDirectors should make decisions maximizing shareholder benefit\nHowever, their personal interests may lead to sub-optimal decisions\nExample: Prioritizing short-term profitability over long-term value when bonuses are tied to annual profit"
+    "objectID": "day3-morning-slides.html#modigliani-miller-dividend-irrelevance-theory",
+    "href": "day3-morning-slides.html#modigliani-miller-dividend-irrelevance-theory",
+    "title": "Dividend Policy",
+    "section": "Modigliani-Miller Dividend Irrelevance Theory",
+    "text": "Modigliani-Miller Dividend Irrelevance Theory\nThe MM theory is based on four key assumptions:\n\nNo share issue costs\nNo share transaction costs\n\nNo taxation\nRational behaviour among managers and investors\n\n\n\n\n\n\n\nNote\n\n\nUnder these assumptions, MM argue that dividend policy is irrelevant to shareholder wealth. The value of a firm depends solely on its investment decisions, not on how it distributes earnings."
   },
   {
-    "objectID": "day1-morning-slides.html#corporate-governance",
-    "href": "day1-morning-slides.html#corporate-governance",
-    "title": "Corporate Financial Management",
-    "section": "Corporate Governance",
-    "text": "Corporate Governance\nThe UK Corporate Governance Code aims to mitigate these issues by ensuring:\n\nClear delineation of directors’ powers and responsibilities\nAppropriate checks and balances within the organization\n\nKey Governance Areas\nThe code covers five main areas:\n\nBoard leadership and company purpose\nDivision of responsibilities\nComposition, succession and evaluation\nAudit, risk and internal control\nRemuneration"
+    "objectID": "day3-morning-slides.html#mm-theory---dividend-irrelevancy",
+    "href": "day3-morning-slides.html#mm-theory---dividend-irrelevancy",
+    "title": "Dividend Policy",
+    "section": "MM Theory - Dividend Irrelevancy",
+    "text": "MM Theory - Dividend Irrelevancy\n\nGiven perfect and efficient markets, dividend policy doesn’t affect shareholder wealth\nCompanies should invest in all projects with positive NPVs, as only investment decisions affect shareholder wealth\nIf a company doesn’t pay dividends, shareholders can create “home-made” dividends by selling some shares\nAssumes shareholders have all information about a company and interpret it correctly\n\n\n\n\n\n\n\nTip\n\n\nThe MM theory provides a theoretical baseline, but real-world imperfections (taxes, transaction costs, information asymmetry) may cause dividends to matter."
   },
   {
-    "objectID": "day1-morning-slides.html#financial-information-for-decision-making",
-    "href": "day1-morning-slides.html#financial-information-for-decision-making",
-    "title": "Corporate Financial Management",
-    "section": "Financial Information for Decision Making",
-    "text": "Financial Information for Decision Making\nFinancial statements provide the foundation for all financial analysis and decision-making."
+    "objectID": "day3-morning-slides.html#dividend-relevancy-theory",
+    "href": "day3-morning-slides.html#dividend-relevancy-theory",
+    "title": "Dividend Policy",
+    "section": "Dividend Relevancy Theory",
+    "text": "Dividend Relevancy Theory\n\nThe dividend valuation model suggests share price is determined by future streams of dividend receivable\nHigher retention of earnings for investment is considered to result in higher future earnings, leading to higher dividends\nHigher dividends should lead to higher share prices\nTherefore, an optimum dividend policy exists\n\n\n\n\n\n\n\nImportant\n\n\nThis view directly contradicts the MM position by suggesting that the pattern of dividends does impact shareholder wealth."
   },
   {
-    "objectID": "day1-morning-slides.html#income-statement",
-    "href": "day1-morning-slides.html#income-statement",
-    "title": "Corporate Financial Management",
-    "section": "Income Statement",
-    "text": "Income Statement\n\n\n\n\n£000\n£000\n\n\n\n\nCredit sales revenue\n\n\n\n\nLess Cost of sales:\n\n\n\n\nOpening inventories\n\n\n\n\nAdd Purchases\n\n\n\n\nLess Closing inventories\n\n\n\n\nGross profit\n\n\n\n\nLess:\n\n\n\n\nCredit card discounts\n\n\n\n\nRent and rates\n\n\n\n\nOther costs\n\n\n\n\nDepreciation of fittings\n\n\n\n\nProfit for the period"
+    "objectID": "day3-morning-slides.html#residual-dividend-theory",
+    "href": "day3-morning-slides.html#residual-dividend-theory",
+    "title": "Dividend Policy",
+    "section": "Residual Dividend Theory",
+    "text": "Residual Dividend Theory\n\nRaising external finance is costly, so retentions should be the first source of funds a company uses\nAll positive NPV projects should be invested in before dividends are paid out\nIf retained funds are not invested to earn returns greater than investors’ required rate of return, shareholder wealth will diminish over time"
   },
   {
-    "objectID": "day1-morning-slides.html#statement-of-financial-position",
-    "href": "day1-morning-slides.html#statement-of-financial-position",
-    "title": "Corporate Financial Management",
-    "section": "Statement of Financial Position",
-    "text": "Statement of Financial Position\n\n\n\n\n£000\n\n\n\n\nASSETS\n\n\n\nNon-current assets\n\n\n\nFittings\n\n\n\nLess Accumulated depreciation\n\n\n\n\n\n\n\nCurrent assets\n\n\n\nInventories\n\n\n\nTrade receivables\n\n\n\n\n\n\n\nTotal assets\n\n\n\n\n\n\n\nEQUITY AND LIABILITIES\n\n\n\nEquity\n\n\n\nShare capital\n\n\n\nRetained earnings\n\n\n\n\n\n\n\nCurrent liabilities\n\n\n\nTrade payables\n\n\n\nBank overdraft\n\n\n\n\n\n\n\nTotal equity and liabilities"
+    "objectID": "day3-morning-slides.html#case-study-microsoft-and-apple",
+    "href": "day3-morning-slides.html#case-study-microsoft-and-apple",
+    "title": "Dividend Policy",
+    "section": "Case Study: Microsoft and Apple",
+    "text": "Case Study: Microsoft and Apple\nMicrosoft\nMicrosoft used to follow the ethos of the residual dividend theory: - For 17 years, it did not pay dividends, retaining funds for research and development - However, as cash balances increased, shareholder pressure led to dividend payments starting in 2003 - The first dividend was 8¢ per share, increasing to 51¢ by December 2019\nApple\n\nFrom 1990 to 1995, Apple paid a constant quarterly dividend of $0.12 per share\nStopped dividends from 1995 to 2012 to retain funds for reinvestment\nUnder shareholder pressure due to large cash reserves, resumed dividend payments in 2012\nBy April 2020, the quarterly dividend was $0.82 per share :"
   },
   {
-    "objectID": "day1-morning-slides.html#financial-statement-analysis",
-    "href": "day1-morning-slides.html#financial-statement-analysis",
-    "title": "Corporate Financial Management",
-    "section": "Financial Statement Analysis",
-    "text": "Financial Statement Analysis\nFinancial statements provide information about:\n\nProfitability and performance\nFinancial position and stability\nCash flow and liquidity\nChanges in financial position\n\nThis information helps stakeholders assess:\n\nPast performance\nCurrent position\nFuture prospects"
+    "objectID": "day3-morning-slides.html#importance-of-dividends",
+    "href": "day3-morning-slides.html#importance-of-dividends",
+    "title": "Dividend Policy",
+    "section": "Importance of Dividends",
+    "text": "Importance of Dividends\nDespite the MM arguments, dividends are considered important in practice for several reasons:\n\n\n\n\n\nflowchart TB\n    A[Importance\\nof dividends] --&gt; B[Clientele\\neffect]\n    A --&gt; C[Catering\\neffect]\n    A --&gt; D[Signalling\\neffect]\n    A --&gt; E[Reducing\\nagency costs]\n    \n    style A fill:#D32F2F,stroke:#D32F2F,color:white,stroke-width:2px\n    style B fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style C fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style D fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style E fill:#F9A825,stroke:#F9A825,stroke-width:1px\n\n\n Importance of dividends to shareholders \n\n\n\n\nClientele effect: Dividend policy attracts different types of investors\nCatering effect: Managers try to cater to the wishes of investors\nSignalling effect: Dividends convey information to shareholders due to information asymmetry\nReducing agency costs: Paying dividends reduces cash available for managers to spend"
   },
   {
-    "objectID": "day1-morning-slides.html#financial-analysis-using-ratios",
-    "href": "day1-morning-slides.html#financial-analysis-using-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Financial Analysis Using Ratios",
-    "text": "Financial Analysis Using Ratios\n\nFinancial ratio analysis provides a systematic approach to evaluating a company’s financial health.\nRatios help transform raw financial data into meaningful insights.\n\n\n\n\n\n\n\nThe Financial Health Framework\n\n\n\n\n\n\n\nflowchart TD\n    A[Financial ratios] --&gt; B[Profitability]\n    A --&gt; C[Efficiency]\n    A --&gt; D[Liquidity]\n    A --&gt; E[Financial gearing]\n    A --&gt; F[Investment]"
+    "objectID": "day3-morning-slides.html#factors-influencing-dividend-levels",
+    "href": "day3-morning-slides.html#factors-influencing-dividend-levels",
+    "title": "Dividend Policy",
+    "section": "Factors Influencing Dividend Levels",
+    "text": "Factors Influencing Dividend Levels\n\n\n\n\n\nflowchart LR\n    subgraph Factors[\"Factors influencing the level of dividends\"]\n        A1[Loan\\ncommitments] --&gt; C[Level of\\ndividends\\npaid]\n        A2[Threat of\\ntakeover] --&gt; C\n        A3[Profit\\nstability] --&gt; C\n        A4[Market\\nexpectations] --&gt; C\n        A5[Investing and\\nfinancing\\nopportunities] --&gt; C\n        A6[Inside\\ninformation] --&gt; C\n        A7[Legal\\nrequirements] --&gt; C\n        A8[Control] --&gt; C\n    end\n    \n    style C fill:#D32F2F,stroke:#D32F2F,color:white,stroke-width:2px\n    style A1 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A2 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A3 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A4 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A5 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A6 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A7 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A8 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n\n\n Factors influencing dividend levels \n\n\n\nDividend decisions are influenced by multiple factors including:\n\nProfit stability\nInvestment and financing opportunities\nLegal requirements\nLoan commitments\nMarket expectations\nInside information\nControl issues\nThreat of takeover"
   },
   {
-    "objectID": "day1-morning-slides.html#profitability-ratios",
-    "href": "day1-morning-slides.html#profitability-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Profitability Ratios",
-    "text": "Profitability Ratios\nProfitability ratios measure a company’s ability to generate earnings relative to sales, assets, and equity."
+    "objectID": "day3-morning-slides.html#management-attitudes-towards-dividends",
+    "href": "day3-morning-slides.html#management-attitudes-towards-dividends",
+    "title": "Dividend Policy",
+    "section": "Management Attitudes Towards Dividends",
+    "text": "Management Attitudes Towards Dividends\nResearch by Baker et al. (2002) found that managers generally:\n\nAre committed to long-term dividend payout ratios (93.1% agree)\nAre more concerned with dividend variations than absolute dividend amounts (95.2% agree)\nBelieve dividends should follow a smoother path than earnings (92.0% agree)\nAre reluctant to increase dividends from short-term profit increases (93.1% agree)\n\n\n\n\n\n\n\nNote\n\n\nThese findings align with Lintner’s classic study on dividend policy, suggesting managers are highly concerned with dividend stability and consistency."
   },
   {
-    "objectID": "day1-morning-slides.html#key-profitability-ratios",
-    "href": "day1-morning-slides.html#key-profitability-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Key Profitability Ratios",
-    "text": "Key Profitability Ratios\n\n\n\n\n\n\n\n\nRatio\nFormula\nPurpose\n\n\n\n\nReturn on Ordinary Shareholders’ Funds (ROSF)\n\\(\\frac{\\text{Profit for the year less preference dividend}}{\\text{Ordinary share capital + Reserves}} \\times 100\\)\nMeasures return earned for ordinary shareholders\n\n\nReturn on Capital Employed (ROCE)\n\\(\\frac{\\text{Operating profit}}{\\text{Share capital + Reserves + Non-current liabilities}} \\times 100\\)\nEvaluates efficiency of all long-term capital\n\n\nOperating Profit Margin\n\\(\\frac{\\text{Operating profit}}{\\text{Sales revenue}} \\times 100\\)\nShows profitability of operations\n\n\nGross Profit Margin\n\\(\\frac{\\text{Gross profit}}{\\text{Sales revenue}} \\times 100\\)\nIndicates basic profitability before other costs"
+    "objectID": "day3-morning-slides.html#what-should-managers-do",
+    "href": "day3-morning-slides.html#what-should-managers-do",
+    "title": "Dividend Policy",
+    "section": "What Should Managers Do?",
+    "text": "What Should Managers Do?\n\nEach business has unique characteristics - no ‘one size fits all’ approach\nDividend policy is intertwined with investment and financing decisions\nDividend policy should be clear to shareholders and consistently applied\nShareholders dislike ‘surprises’ in dividend policy\nIf dividends must be cut, managers should prepare shareholders and clearly explain reasons\n\n\n\n\n\n\n\nImportant\n\n\nConsistency in dividend policy is crucial for building shareholder confidence and managing market expectations."
   },
   {
-    "objectID": "day1-morning-slides.html#roce-breakdown",
-    "href": "day1-morning-slides.html#roce-breakdown",
-    "title": "Corporate Financial Management",
-    "section": "ROCE Breakdown",
-    "text": "ROCE Breakdown\nROCE can be broken down into its key components:\n\\(\\text{ROCE} = \\frac{\\text{Operating profit}}{\\text{Sales revenue}} \\times \\frac{\\text{Sales revenue}}{\\text{Long-term capital employed}}\\)\nThis demonstrates that ROCE is affected by both:\n\nProfit margin (efficiency of operations)\nAsset turnover (efficiency of capital usage)"
+    "objectID": "day3-morning-slides.html#alternatives-to-cash-dividends",
+    "href": "day3-morning-slides.html#alternatives-to-cash-dividends",
+    "title": "Dividend Policy",
+    "section": "Alternatives to Cash Dividends",
+    "text": "Alternatives to Cash Dividends\nTwo main alternatives exist to traditional cash dividends:\n\nScrip Dividends\nShare Buybacks"
   },
   {
-    "objectID": "day1-morning-slides.html#roce-comparison",
-    "href": "day1-morning-slides.html#roce-comparison",
-    "title": "Corporate Financial Management",
-    "section": "ROCE Comparison",
-    "text": "ROCE Comparison"
+    "objectID": "day3-morning-slides.html#scrip-dividends",
+    "href": "day3-morning-slides.html#scrip-dividends",
+    "title": "Dividend Policy",
+    "section": "Scrip Dividends",
+    "text": "Scrip Dividends\n\nA company issues new bonus shares to existing shareholders instead of cash dividends\nThe number of shares issued is proportional to shares held (e.g., 1-for-20)\nInvolves transferring reserves to ordinary share capital\nAllows shareholders to increase investment without transaction costs\nMarket typically responds positively to scrip dividend announcements\n\nShare Buybacks\n\nA business repurchases its own shares\nCan occur through open market operations, tender offers, or agreements with specific shareholders\nMay be used to support share price, alter capital structure, defend against takeovers, or return surplus funds\nIn perfect markets, shareholders would be indifferent between dividends and share buybacks"
   },
   {
-    "objectID": "day1-morning-slides.html#efficiency-ratios",
-    "href": "day1-morning-slides.html#efficiency-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Efficiency Ratios",
-    "text": "Efficiency Ratios\nEfficiency ratios evaluate how effectively a company uses its assets and manages its operations.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nAverage inventories turnover period\n\\(\\frac{\\text{Average inventories held}}{\\text{Cost of sales}} \\times 365\\)\n\n\nAverage settlement period for trade receivables\n\\(\\frac{\\text{Average trade receivables}}{\\text{Credit sales revenue}} \\times 365\\)\n\n\nAverage settlement period for trade payables\n\\(\\frac{\\text{Average trade payables}}{\\text{Credit purchases}} \\times 365\\)\n\n\nSales revenue to capital employed\n\\(\\frac{\\text{Sales revenue}}{\\text{Share capital + Reserves + Non-current liabilities}}\\)\n\n\nSales revenue per employee\n\\(\\frac{\\text{Sales revenue}}{\\text{Number of employees}}\\)\n\n\n\n\n\n\n\n\n\nEfficiency Ratio Interpretation\n\n\n\nLower inventory and receivables periods typically indicate better efficiency\nHigher payables period may indicate stronger supplier relationships but could also suggest liquidity problems\nHigher sales to capital employed suggests more efficient use of capital"
+    "objectID": "day3-morning-slides.html#reasons-for-share-buybacks",
+    "href": "day3-morning-slides.html#reasons-for-share-buybacks",
+    "title": "Dividend Policy",
+    "section": "Reasons for Share Buybacks",
+    "text": "Reasons for Share Buybacks\n\n\n\n\n\nflowchart TB\n    A[Share\\nbuyback] --&gt; B[Support the share\\nprice]\n    A --&gt; C[Return surplus\\nfunds]\n    A --&gt; D[Alter the capital\\nstructure]\n    A --&gt; E[Defend against\\ntakeover]\n    \n    style A fill:#6A1B9A,stroke:#6A1B9A,color:white,stroke-width:2px\n    style B fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style C fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style D fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style E fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n\n\n Main reasons for share buybacks \n\n\n\nShare buybacks are commonly used to:\n\nSupport the share price\nReturn surplus funds to shareholders\nAlter the capital structure\nDefend against hostile takeovers"
   },
   {
-    "objectID": "day1-morning-slides.html#liquidity-ratios",
-    "href": "day1-morning-slides.html#liquidity-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Liquidity Ratios",
-    "text": "Liquidity Ratios\nLiquidity ratios assess a company’s ability to meet short-term obligations.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nCurrent ratio\n\\(\\frac{\\text{Current assets}}{\\text{Current liabilities}}\\)\n\n\nAcid test ratio\n\\(\\frac{\\text{Current assets (excluding inventories)}}{\\text{Current liabilities}}\\)"
+    "objectID": "day3-morning-slides.html#case-study-example",
+    "href": "day3-morning-slides.html#case-study-example",
+    "title": "Dividend Policy",
+    "section": "Case Study Example",
+    "text": "Case Study Example\nScenario\nPetrolia plc has the following dividend history:\n\n\n\nYear\nDividend per share\n\n\n\n\n2020\n£0.24\n\n\n2021\n£0.26\n\n\n2022\n£0.28\n\n\n2023\n£0.30\n\n\n2024\n£0.32\n\n\n\nThe company is debating its dividend policy for the upcoming year.\nQuestion\n\nCalculate the growth rate in Petrolia’s dividends.\nIf the current ex-dividend share price is £4.80, calculate the cost of equity capital using:\n\nThe dividend growth model\nThe CAPM (assuming risk-free rate = 4%, market return = 10%, beta = 1.2)\n\nWhich model would you recommend for setting dividend policy and why?\n\nSolution\n\nGrowth rate calculation: £0.32 = £0.24(1+g)⁴ £0.32/£0.24 = (1+g)⁴ 1.333 = (1+g)⁴ (1.333)^(1/4) = 1+g g = 7.47%\n\nDividend Growth Model: D₁ = D₀(1+g) = £0.32 × 1.0747 = £0.3439 Ke = (D₁/P₀) + g = (£0.3439/£4.80) + 7.47% = 14.63%\nCAPM: Ke = Rf + β(Rm - Rf) = 4% + 1.2(10% - 4%) = 11.2%\n\nAnalysis of the appropriate model would depend on specific circumstances…"
   },
   {
-    "objectID": "day1-morning-slides.html#current-ratio-trends",
-    "href": "day1-morning-slides.html#current-ratio-trends",
-    "title": "Corporate Financial Management",
-    "section": "Current Ratio Trends",
-    "text": "Current Ratio Trends"
+    "objectID": "day3-morning-slides.html#summary-dividend-policy-and-shareholder-wealth",
+    "href": "day3-morning-slides.html#summary-dividend-policy-and-shareholder-wealth",
+    "title": "Dividend Policy",
+    "section": "Summary: Dividend Policy and Shareholder Wealth",
+    "text": "Summary: Dividend Policy and Shareholder Wealth\n\nTwo major schools of thought exist on how dividends affect shareholder wealth\nThe traditional school argues that shareholders prefer certain dividends now\nThe modernists (MM) argue that in perfect markets, dividend patterns don’t affect shareholder wealth\nMM assumptions (no costs, no taxes, rational behaviour) weaken but don’t destroy their arguments\nIn practice, dividends matter due to clientele effects, signalling, agency costs, and market imperfections"
   },
   {
-    "objectID": "day1-morning-slides.html#retail-industry-context",
-    "href": "day1-morning-slides.html#retail-industry-context",
-    "title": "Corporate Financial Management",
-    "section": "Retail Industry Context",
-    "text": "Retail Industry Context\nUK supermarkets typically operate with current ratios below 1.0 because:\n\nThey have strong bargaining power with suppliers (longer payment terms)\nInventory turnover is rapid\nCustomers typically pay at point of sale\nThey have predictable cash flows\nThey hold minimal reserves due to efficient operations"
+    "objectID": "day3-morning-slides.html#summary-dividends-in-practice",
+    "href": "day3-morning-slides.html#summary-dividends-in-practice",
+    "title": "Dividend Policy",
+    "section": "Summary: Dividends in Practice",
+    "text": "Summary: Dividends in Practice\n\nDespite theoretical arguments, dividends are considered important\nKey factors influencing dividend decisions include profit stability, investment opportunities, legal constraints, market expectations, and control issues\nManagers prefer smooth, consistent dividend patterns and are reluctant to cut dividends\nAlternatives to cash dividends include scrip dividends and share buybacks\nEach business must develop a dividend policy that suits its unique circumstances and communicate it clearly to shareholders"
   },
   {
-    "objectID": "day1-morning-slides.html#liquidity-benchmarks",
-    "href": "day1-morning-slides.html#liquidity-benchmarks",
-    "title": "Corporate Financial Management",
-    "section": "Liquidity Benchmarks",
-    "text": "Liquidity Benchmarks\nTraditionally, guidelines suggest:\n\nCurrent ratio: 2:1\nAcid test ratio: 1:1\n\nHowever, these benchmarks vary significantly by:\n\nIndustry\nBusiness model\nMarket position\nEconomic conditions"
-  },
-  {
-    "objectID": "day1-morning-slides.html#gearing-ratios",
-    "href": "day1-morning-slides.html#gearing-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Gearing Ratios",
-    "text": "Gearing Ratios\nGearing ratios evaluate the extent to which a company is financed by debt versus equity.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nGearing ratio\n\\(\\frac{\\text{Long-term (non-current) liabilities}}{\\text{Share capital + Reserves + Long-term (non-current) liabilities}} \\times 100\\)\n\n\nInterest cover ratio\n\\(\\frac{\\text{Operating profit}}{\\text{Interest payable}}\\)\n\n\n\n\n\n\n\n\n\nGearing Trade-offs\n\n\nHigh Gearing Benefits:\n\nPotential for higher returns to shareholders\nTax advantages of debt (interest is tax-deductible)\nNo dilution of ownership\n\nHigh Gearing Risks:\n\nIncreased financial risk\nFixed interest obligations\nPotential constraints on future borrowing\nMore vulnerable during economic downturns"
-  },
-  {
-    "objectID": "day1-morning-slides.html#investment-ratios",
-    "href": "day1-morning-slides.html#investment-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Investment Ratios",
-    "text": "Investment Ratios\nInvestment ratios help investors assess the attractiveness of a company’s shares."
-  },
-  {
-    "objectID": "day1-morning-slides.html#dividend-based-ratios",
-    "href": "day1-morning-slides.html#dividend-based-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Dividend-Based Ratios",
-    "text": "Dividend-Based Ratios\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nDividend payout ratio\n\\(\\frac{\\text{Dividends announced for the year}}{\\text{Earnings for the year available for dividends}} \\times 100\\)\n\n\nDividend cover ratio\n\\(\\frac{\\text{Earnings for the year available for dividends}}{\\text{Dividends announced for the year}}\\)\n\n\nDividend yield ratio\n\\(\\frac{\\text{Dividend per share}}{\\text{Market value per share}} \\times 100\\)"
-  },
-  {
-    "objectID": "day1-morning-slides.html#earnings-based-ratios",
-    "href": "day1-morning-slides.html#earnings-based-ratios",
-    "title": "Corporate Financial Management",
-    "section": "Earnings-Based Ratios",
-    "text": "Earnings-Based Ratios\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nEarnings per share\n\\(\\frac{\\text{Earnings available to ordinary shareholders}}{\\text{Number of ordinary shares in issue}}\\)\n\n\nPrice/earnings ratio (P/E)\n\\(\\frac{\\text{Market value per share}}{\\text{Earnings per share}}\\)"
-  },
-  {
-    "objectID": "day1-morning-slides.html#industry-comparisons",
-    "href": "day1-morning-slides.html#industry-comparisons",
-    "title": "Corporate Financial Management",
-    "section": "Industry Comparisons",
-    "text": "Industry Comparisons\nThe P/E ratio and dividend yield vary significantly across industries:\n\nTechnology firms typically have high P/E ratios (often exceeding 30)\nUtility companies often have lower P/E ratios (around 12-15) but higher dividend yields\nFinancial institutions generally have moderate P/E ratios with above-average dividend yields\nGrowth industries prioritize reinvestment over dividends"
-  },
-  {
-    "objectID": "day1-morning-slides.html#warning-signs",
-    "href": "day1-morning-slides.html#warning-signs",
-    "title": "Corporate Financial Management",
-    "section": "Warning Signs",
-    "text": "Warning Signs\nKey indicators that may signal potential business failure: - Declining profitability ratios - Deteriorating liquidity ratios - Increasing gearing ratios - Lengthening receivables collection periods - Shortening payables payment periods"
-  },
-  {
-    "objectID": "day1-morning-slides.html#altman-z-score-model",
-    "href": "day1-morning-slides.html#altman-z-score-model",
-    "title": "Corporate Financial Management",
-    "section": "Altman Z-Score Model",
-    "text": "Altman Z-Score Model\nThe Z-score model combines multiple ratio indicators into a single predictive formula:\n\\(Z = 1.2a + 1.4b + 3.3c + 0.6d + 1.0e\\)\nWhere: - a = Working capital/Total assets - b = Accumulated retained profits/Total assets - c = Operating profit/Total assets - d = Book value of shares/Total liabilities - e = Sales revenue/Total assets\nInterpretation: - Z &gt; 2.99: “Safe” zone - 1.81 &lt; Z &lt; 2.99: “Grey” zone - Z &lt; 1.81: “Distress” zone"
-  },
-  {
-    "objectID": "day1-morning-slides.html#limitations-of-ratio-analysis",
-    "href": "day1-morning-slides.html#limitations-of-ratio-analysis",
-    "title": "Corporate Financial Management",
-    "section": "Limitations of Ratio Analysis",
-    "text": "Limitations of Ratio Analysis\nWhile ratios provide valuable insights, they have important limitations:\n\n\nData-Related Limitations: - Quality of financial statements - Creative accounting - Inflation effects - Statement of financial position timing issues\n\n\nApplication Limitations: - Over-reliance on ratios - Difficulties in finding comparable benchmarks - Industry-specific factors - Non-financial factors are excluded\n\n\n\n\n\n\n\n\nImportant\n\n\nRatios are tools for asking better questions, not providing definitive answers. They should be used as part of a broader analytical framework."
-  },
-  {
-    "objectID": "day1-morning-slides.html#practice-examples",
-    "href": "day1-morning-slides.html#practice-examples",
-    "title": "Corporate Financial Management",
-    "section": "Practice Examples",
-    "text": "Practice Examples\nLet’s apply these concepts to solve practical problems:"
-  },
-  {
-    "objectID": "day1-morning-slides.html#example-1",
-    "href": "day1-morning-slides.html#example-1",
-    "title": "Corporate Financial Management",
-    "section": "Example 1",
-    "text": "Example 1\nFor the year just ended, Ditto plc had earnings per share of £0.25 and a dividend payout ratio of 60%. The price earnings ratio is 20 times. What is the dividend yield?\nSolution:\n\n# Given information\nEPS &lt;- 0.25  # Earnings per share in £\nDPR &lt;- 0.60  # Dividend payout ratio (60%)\nPE &lt;- 20     # Price earnings ratio\n\n# Calculate dividend per share\nDPS &lt;- EPS * DPR\nDPS\n\n[1] 0.15\n\n# Calculate market value per share\nMarket_Value &lt;- EPS * PE\nMarket_Value\n\n[1] 5\n\n# Calculate dividend yield\nDividend_Yield &lt;- (DPS / Market_Value) * 100\nDividend_Yield\n\n[1] 3"
-  },
-  {
-    "objectID": "day1-morning-slides.html#example-2",
-    "href": "day1-morning-slides.html#example-2",
-    "title": "Corporate Financial Management",
-    "section": "Example 2",
-    "text": "Example 2\nA business has a ROCE of 20% and a sales revenue to long-term capital employed ratio of 5 times. It has an operating profit of £2m. What is the sales revenue of the business?\nSolution:\nROCE = Operating profit / Capital employed = 20%\nCapital employed = Operating profit / ROCE = £2m / 0.20 = £10m\nSales revenue / Capital employed = 5\nTherefore, Sales revenue = 5 × £10m = £50m"
-  },
-  {
-    "objectID": "day1-morning-slides.html#example-3",
-    "href": "day1-morning-slides.html#example-3",
-    "title": "Corporate Financial Management",
-    "section": "Example 3",
-    "text": "Example 3\nA business has the following ratios: - Gross profit margin: 25% - Operating expenses to sales: 10% - Interest cover: 3 times - Sales for the period: £20m\nWhat is the profit before tax?\nSolution:\nGross profit = 25% × £20m = £5m Operating expenses = 10% × £20m = £2m Operating profit = £5m - £2m = £3m Interest cover = Operating profit / Interest expense = 3 Interest expense = Operating profit / Interest cover = £3m / 3 = £1m Profit before tax = Operating profit - Interest expense = £3m - £1m = £2m"
-  },
-  {
-    "objectID": "day1-morning-slides.html#key-takeaways",
-    "href": "day1-morning-slides.html#key-takeaways",
-    "title": "Corporate Financial Management",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways\n\n\n\n\nFinancial management should focus on shareholder wealth maximization rather than short-term profit maximization\nAgency relationships create potential conflicts between shareholders and managers\nRatio analysis provides a structured approach to evaluating financial health\nEffective financial analysis requires understanding multiple aspects of performance\nRatios should be compared against appropriate benchmarks\nLimitations of ratio analysis must be considered when drawing conclusions"
-  },
-  {
-    "objectID": "day1-morning-slides.html#next-session-preview",
-    "href": "day1-morning-slides.html#next-session-preview",
-    "title": "Corporate Financial Management",
-    "section": "Next Session Preview",
-    "text": "Next Session Preview\nIn this afternoon’s session, we will explore: - Capital investment decisions - Investment appraisal techniques - Handling risk and uncertainty in investment decisions - Real-world application of investment appraisal\n\n\n\nCorporate Financial Management - Day 1 Morning"
+    "objectID": "day3-morning-slides.html#practice-questions",
+    "href": "day3-morning-slides.html#practice-questions",
+    "title": "Dividend Policy",
+    "section": "Practice Questions",
+    "text": "Practice Questions\n\nExplain the key differences between the MM dividend irrelevance theory and the traditional view of dividends.\nAnalyze how the “signalling effect” of dividends might influence management decisions regarding dividend policy.\nEvaluate the advantages and disadvantages of share buybacks compared to cash dividends from both company and shareholder perspectives.\nCalculate the dividend growth rate for a company with the following dividend history: 2020: £0.15, 2021: £0.17, 2022: £0.19, 2023: £0.21, 2024: £0.24.\nConsider a scenario where a company has excess cash. Using both the residual dividend theory and signalling theory, recommend and justify an appropriate dividend policy.\n\n\n\n\nCorporate Financial Management - Day 3 Morning"
   },
   {
     "objectID": "day1-afternoon-slides.html#capital-investment-decision-making",
@@ -756,405 +658,6 @@
     "text": "References\nAcademic References:\n\nDamodaran, A. (2022). Investment Valuation: Tools and Techniques for Determining the Value of Any Asset, 4th Edition, Wiley Finance\nDixit, A.K. & Pindyck, R.S. (2021). Investment Under Uncertainty, Princeton University Press\nTrigeorgis, L. & Reuer, J.J. (2023). Real Options Theory in Strategic Management, Strategic Management Journal, 44(4), pp. 842-878\n\n\n\n\nCorporate Financial Management - Day 1 Afternoon"
   },
   {
-    "objectID": "day2-morning-slides.html#sources-of-finance-framework",
-    "href": "day2-morning-slides.html#sources-of-finance-framework",
-    "title": "Corporate Financial Management",
-    "section": "Sources of Finance Framework",
-    "text": "Sources of Finance Framework\nThis morning, we build upon the capital investment decisions covered yesterday afternoon to focus on the financing decision - how to source appropriate capital to fund investment opportunities identified through investment appraisal techniques.\n\n\n\n\n\n\nLearning Outcomes for This Session\n\n\nBy the end of this morning, you will be able to:\n\nUnderstand the financing decision context and its relationship to investment decisions\nIdentify and evaluate the major internal and external sources of finance\nAssess the benefits and drawbacks of different financing methods\nExplain the different approaches to obtaining finance through intermediation and disintermediation\nApply knowledge to determine appropriate financing strategies for organisations of different sizes"
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-financing-decision",
-    "href": "day2-morning-slides.html#the-financing-decision",
-    "title": "Corporate Financial Management",
-    "section": "The Financing Decision",
-    "text": "The Financing Decision\nAfter making capital investment decisions using the appraisal techniques covered yesterday, the finance manager must determine suitable sources to fund those investments."
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-financing-context",
-    "href": "day2-morning-slides.html#the-financing-context",
-    "title": "Corporate Financial Management",
-    "section": "The Financing Context",
-    "text": "The Financing Context\nThe financing decision follows logically from the investment decision and involves determining:\n\nAvailable sources of finance (internal vs external)\nTerm of borrowing the funding is available for\nCost of each potential source of finance (cost of capital)"
-  },
-  {
-    "objectID": "day2-morning-slides.html#financing-decision-framework",
-    "href": "day2-morning-slides.html#financing-decision-framework",
-    "title": "Corporate Financial Management",
-    "section": "Financing Decision Framework",
-    "text": "Financing Decision Framework\n\n\n\n\n\nflowchart TD\n    A[Investment Decision Made] --&gt; B[Identify Financing Needs]\n    B --&gt; C[Review Internal Sources]\n    B --&gt; D[Review External Sources]\n    C --&gt; E[Evaluate Cost and Availability]\n    D --&gt; E\n    E --&gt; F[Structure Financing Package]\n    F --&gt; G[Implement Financing Strategy]\n    G --&gt; H[Monitor and Review]"
-  },
-  {
-    "objectID": "day2-morning-slides.html#real-world-context",
-    "href": "day2-morning-slides.html#real-world-context",
-    "title": "Corporate Financial Management",
-    "section": "Real-World Context",
-    "text": "Real-World Context\nFinancing decisions are critical to:\n\nEnterprise sustainability and growth\nRisk management\nShareholder value creation\nCorporate governance\nFinancial flexibility"
-  },
-  {
-    "objectID": "day2-morning-slides.html#internal-vs-external-sources-of-finance",
-    "href": "day2-morning-slides.html#internal-vs-external-sources-of-finance",
-    "title": "Corporate Financial Management",
-    "section": "Internal vs External Sources of Finance",
-    "text": "Internal vs External Sources of Finance\nOrganisations can source funding either internally from operations or externally from capital markets and financial institutions.\n\n\nInternal Finance Sources:\nInternal finance comes from the operational activities of the business itself and includes:\n\nRetained earnings (profit ploughback)\nWorking capital management:\n\nImproved receivables collection\nInventory optimization\nExtended payables period\n\n\n\n\nExternal Finance Sources:\nExternal finance is raised from outside the business through:\n\nDebt (borrowings)\nEquity (shares)\nHybrid instruments (convertibles, preference shares)\nLeasing and similar arrangements\nFactoring and invoice discounting"
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-major-internal-sources-of-finance",
-    "href": "day2-morning-slides.html#the-major-internal-sources-of-finance",
-    "title": "Corporate Financial Management",
-    "section": "The Major Internal Sources of Finance",
-    "text": "The Major Internal Sources of Finance\nInternal financing is often preferred as it avoids the costs, formalities, and external scrutiny associated with raising external finance.\n\n\n\n\n\nflowchart LR\n    A[Internal Finance Sources] --&gt; B[Short-term Sources]\n    A --&gt; C[Long-term Sources]\n    B --&gt; D[Receivables management]\n    B --&gt; E[Inventory optimization]\n    B --&gt; F[Payables extension]\n    C --&gt; G[Retained profits]\n\n\n\n\n\n\n\n\n\n\n\n\nWorking Capital Management\n\n\nEffective working capital management can release significant funds from day-to-day operations. However, there are constraints to such strategies:\n\nExcessive credit control may affect customer relationships\nMinimal inventory may compromise service levels\nExtended supplier payments can strain supply chain relationships"
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-major-external-sources-of-finance",
-    "href": "day2-morning-slides.html#the-major-external-sources-of-finance",
-    "title": "Corporate Financial Management",
-    "section": "The Major External Sources of Finance",
-    "text": "The Major External Sources of Finance\nExternal sources represent a spectrum of options ranging from short-term facilities to long-term capital.\n\n\n\n\n\nflowchart TD\n    A[External Finance Sources] --&gt; B[Short-term: &lt; 1 year]\n    A --&gt; C[Medium-term: 1-7 years]\n    A --&gt; D[Long-term: &gt; 7 years]\n    B --&gt; E[Bank overdrafts]\n    B --&gt; F[Invoice discounting]\n    B --&gt; G[Debt factoring]\n    B --&gt; H[Bills of exchange]\n    C --&gt; I[Term loans]\n    C --&gt; J[Hire purchase]\n    C --&gt; K[Leasing]\n    D --&gt; L[Corporate bonds]\n    D --&gt; M[Preference shares]\n    D --&gt; N[Ordinary shares]\n    D --&gt; O[Securitisation]"
-  },
-  {
-    "objectID": "day2-morning-slides.html#approaches-to-obtaining-finance",
-    "href": "day2-morning-slides.html#approaches-to-obtaining-finance",
-    "title": "Corporate Financial Management",
-    "section": "Approaches to Obtaining Finance",
-    "text": "Approaches to Obtaining Finance\nThere are two primary approaches through which organisations can access external finance."
-  },
-  {
-    "objectID": "day2-morning-slides.html#intermediation",
-    "href": "day2-morning-slides.html#intermediation",
-    "title": "Corporate Financial Management",
-    "section": "Intermediation",
-    "text": "Intermediation\nIntermediation is where finance is arranged through financial institutions such as commercial banks.\nCharacteristics: - Institution acts as intermediary between savers and borrowers - Involves screening and monitoring by the institution - Offers professional expertise and risk assessment - Typically used by businesses of all sizes - Often involves developing ongoing banking relationships\nExamples: - Bank loans and overdrafts - Factoring and invoice discounting - Leasing arrangements through finance companies"
-  },
-  {
-    "objectID": "day2-morning-slides.html#disintermediation",
-    "href": "day2-morning-slides.html#disintermediation",
-    "title": "Corporate Financial Management",
-    "section": "Disintermediation",
-    "text": "Disintermediation\nDisintermediation is where the financial intermediary’s role is bypassed, with companies accessing money markets or stock exchanges directly to obtain finance.\nCharacteristics: - Direct access to capital markets - Restricted to large, established companies - Used for substantial funding requirements - Often more cost-effective for large sums - Requires substantial disclosure and market reputation\nExamples: - Corporate bond issues - Public share offerings - Commercial paper issuance"
-  },
-  {
-    "objectID": "day2-morning-slides.html#bank-finance-the-lending-decision",
-    "href": "day2-morning-slides.html#bank-finance-the-lending-decision",
-    "title": "Corporate Financial Management",
-    "section": "Bank Finance: The Lending Decision",
-    "text": "Bank Finance: The Lending Decision\nBanks are a primary source of external finance for many businesses. Understanding their lending criteria is essential for successful financing applications."
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-lending-assessment",
-    "href": "day2-morning-slides.html#the-lending-assessment",
-    "title": "Corporate Financial Management",
-    "section": "The Lending Assessment",
-    "text": "The Lending Assessment\nBanks typically consider two core aspects when making lending decisions:\n\nGoing concern assessment: Determining whether the borrowing company can afford to make repayments from its ongoing operations.\nLiquidation assessment: Evaluating the recoverability of capital in the event the company enters liquidation."
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-seven-cs-of-lending",
-    "href": "day2-morning-slides.html#the-seven-cs-of-lending",
-    "title": "Corporate Financial Management",
-    "section": "The Seven C’s of Lending",
-    "text": "The Seven C’s of Lending\nA traditional framework used by banks to evaluate potential borrowers includes:\n\nCharacter\nCapacity\nCapital\nConditions\nCustomer relations\nCompetition\nCollateral"
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-expanded-view-20-cs-of-credit",
-    "href": "day2-morning-slides.html#the-expanded-view-20-cs-of-credit",
-    "title": "Corporate Financial Management",
-    "section": "The Expanded View: 20 C’s of Credit",
-    "text": "The Expanded View: 20 C’s of Credit\n\n\n\n\n\nNo.\nDescription\n\n\n\n\n1\nCharacter or culture of the borrower\n\n\n2\nCompetence of borrower\n\n\n3\nContinuity of management\n\n\n4\nCorporate constitution\n\n\n5\nCustomers and competitors\n\n\n6\nControls of costs and cash\n\n\n7\nCapacity to contract\n\n\n8\nCredibility of accounts\n\n\n9\nCause or purpose and term of loan\n\n\n10\nCapital required in total\n\n\n11\nCapital contribution of the bank\n\n\n12\nContribution to bank profits\n\n\n13\nCommitments\n\n\n14\nContingencies\n\n\n15\nComprehensive cash-flow projections\n\n\n16\nCurrent trading\n\n\n17\nCreditor coordination\n\n\n18\nConditions of drawdown\n\n\n19\nContinuing covenants\n\n\n20\nCollateral of security"
-  },
-  {
-    "objectID": "day2-morning-slides.html#business-plan-requirements",
-    "href": "day2-morning-slides.html#business-plan-requirements",
-    "title": "Corporate Financial Management",
-    "section": "Business Plan Requirements",
-    "text": "Business Plan Requirements\nA comprehensive business plan for bank finance applications should include:\n\nFunding requirements (amount, term, repayment, interest structure)\nClear purpose of the finance\nBackground information on the company\nCredit worthiness documentation\nBusiness stake and commitment\nAvailable security details\nFinancial projections and scenario analysis\nHistorical and projected financial statements"
-  },
-  {
-    "objectID": "day2-morning-slides.html#short-term-sources-of-finance",
-    "href": "day2-morning-slides.html#short-term-sources-of-finance",
-    "title": "Corporate Financial Management",
-    "section": "Short-Term Sources of Finance",
-    "text": "Short-Term Sources of Finance\nShort-term finance options (less than one year) are typically used to support working capital needs and temporary funding requirements."
-  },
-  {
-    "objectID": "day2-morning-slides.html#overview-of-short-term-finance",
-    "href": "day2-morning-slides.html#overview-of-short-term-finance",
-    "title": "Corporate Financial Management",
-    "section": "Overview of Short-Term Finance",
-    "text": "Overview of Short-Term Finance\nShort-term funding sources include:\n\nWorking capital management\nRetained earnings\nBank sources (overdrafts, short-term loans)\nMarket sources (commercial paper)\n\nThese are typically less expensive but carry refinancing risk and may be subject to immediate recall."
-  },
-  {
-    "objectID": "day2-morning-slides.html#bank-overdrafts",
-    "href": "day2-morning-slides.html#bank-overdrafts",
-    "title": "Corporate Financial Management",
-    "section": "Bank Overdrafts",
-    "text": "Bank Overdrafts\n\n\n\n\n\n\n\n\n\nFeature\nDescription\n\n\n\n\nDefinition\nFacility allowing withdrawal beyond deposited amount to an agreed limit\n\n\nInterest\nCharged only on negative balance amount\n\n\nSecurity\nTypically unsecured for smaller amounts\n\n\nLegal status\nLegally repayable on demand\n\n\nFlexibility\nHighly flexible form of finance\n\n\nCost structure\nArrangement fees, review fees plus interest\n\n\nRisk factors\nBreaching limits can damage credit rating"
-  },
-  {
-    "objectID": "day2-morning-slides.html#short-term-loans",
-    "href": "day2-morning-slides.html#short-term-loans",
-    "title": "Corporate Financial Management",
-    "section": "Short-Term Loans",
-    "text": "Short-Term Loans\nShort-term bank loans (up to one year) offer more structure than overdrafts:\n\nArrangement fees based on borrower’s credit profile\nPre-determined repayment schedule\nTypically secured against assets\nLower interest rates compared to overdrafts\nEarly repayment usually incurs penalties\nLess flexible than overdrafts but more certain"
-  },
-  {
-    "objectID": "day2-morning-slides.html#factoring-and-invoice-discounting",
-    "href": "day2-morning-slides.html#factoring-and-invoice-discounting",
-    "title": "Corporate Financial Management",
-    "section": "Factoring and Invoice Discounting",
-    "text": "Factoring and Invoice Discounting\n\n\n\n\n\nflowchart TD\n    A[Client business] --&gt;|1. Goods supplied on credit| B[Customer]\n    C[Factor] --&gt;|3. Advances 80% to client| A\n    C --&gt;|2. Invoices customer| B\n    B --&gt;|4. Pays amount owing to factor| C\n    C --&gt;|5. Pays remaining 20% to client| A\n\n\n\n\n\n\nFactoring vs Invoice Discounting compared:\n\n\n\n\n\n\n\n\n\n\nFeature\nFactoring\nInvoice Discounting\n\n\n\n\nService provided\nFull debt administration and collection\nAdvance against invoices only\n\n\nCustomer awareness\nCustomers aware of factor involvement\nCustomers typically unaware\n\n\nAdministration\nFactor handles all administration\nBusiness maintains own records\n\n\nControl over debts\nFactor controls collection process\nBusiness retains control\n\n\nRelative cost\nHigher cost service\nLower cost service\n\n\nConfidentiality\nNot confidential\nConfidential arrangement\n\n\nTypical clientele\nSmaller businesses\nLarger businesses"
-  },
-  {
-    "objectID": "day2-morning-slides.html#medium-term-finance",
-    "href": "day2-morning-slides.html#medium-term-finance",
-    "title": "Corporate Financial Management",
-    "section": "Medium-Term Finance",
-    "text": "Medium-Term Finance\nMedium-term finance options (1-7 years) bridge the gap between short-term borrowing and long-term capital."
-  },
-  {
-    "objectID": "day2-morning-slides.html#medium-term-options-overview",
-    "href": "day2-morning-slides.html#medium-term-options-overview",
-    "title": "Corporate Financial Management",
-    "section": "Medium-Term Options Overview",
-    "text": "Medium-Term Options Overview\nKey characteristics of medium-term finance:\n\nUtilized by organizations of all sizes\nParticularly important for SMEs\nMore accessible than long-term capital markets\nIncludes term loans, hire purchase, and leasing\nGenerally secured against specific assets"
-  },
-  {
-    "objectID": "day2-morning-slides.html#term-loans",
-    "href": "day2-morning-slides.html#term-loans",
-    "title": "Corporate Financial Management",
-    "section": "Term Loans",
-    "text": "Term Loans\nTerm loans represent a formal commitment to lend a specified amount for a defined period:\n\nTypically 1-7 years maturity\nCan feature fixed or variable interest rates\nSecured against business assets\nFormal repayment schedule\nMay include financial covenants\nMore structured than overdrafts but less rigid than bonds"
-  },
-  {
-    "objectID": "day2-morning-slides.html#hire-purchase",
-    "href": "day2-morning-slides.html#hire-purchase",
-    "title": "Corporate Financial Management",
-    "section": "Hire Purchase",
-    "text": "Hire Purchase\n\n\n\n\n\n\n\n\n\n\n\nStage\nDescription\n\n\n\n\n1\nCompany selling asset transfers physical asset to hiree (purchaser)\n\n\n2\nFinance house (hirer) pays full price to selling company\n\n\n3\nHiree makes down-payment and agrees to periodic payments\n\n\n4\nHiree makes regular rental installments to finance house\n\n\n5\nOwnership transfers to hiree upon final payment\n\n\n\n\n\n\nAdvantages of Hire Purchase:\n\nStraightforward arrangement\nProvides efficient access to assets\nWidely available\nPredictable cash flow planning\nNot repayable on demand\nTax relief on interest\nUltimate ownership\n\nDisadvantages of Hire Purchase:\n\nComparatively expensive\nLimited flexibility\nCostly termination penalties\nHiree assumes maintenance/insurance responsibilities\nFixed payment obligation regardless of asset utilization"
-  },
-  {
-    "objectID": "day2-morning-slides.html#leasing",
-    "href": "day2-morning-slides.html#leasing",
-    "title": "Corporate Financial Management",
-    "section": "Leasing",
-    "text": "Leasing\nLeases provide access to assets without necessarily transferring ownership.\nInternational Accounting Standard 17 defines a lease as: &gt; “An agreement whereby the lessor conveys to the lessee, in return for a payment or series of payments, the right to use an asset for an agreed period of time.”\nKey differences between leasing and hire purchase:\n\n\n\n\n\n\n\n\n\n\nFeature\nHire Purchase\nLeasing\n\n\n\n\nOwnership transfer\nAutomatically transfers on final payment\nNo automatic transfer at end of term\n\n\nTax treatment\nHiree claims capital allowances\nLessor claims capital allowances\n\n\nBalance sheet treatment\nAsset recorded on hirer’s balance sheet\nTreatment depends on lease classification\n\n\nMaintenance responsibility\nHiree assumes maintenance responsibility\nVaries according to lease terms"
-  },
-  {
-    "objectID": "day2-morning-slides.html#sale-and-leaseback",
-    "href": "day2-morning-slides.html#sale-and-leaseback",
-    "title": "Corporate Financial Management",
-    "section": "Sale and Leaseback",
-    "text": "Sale and Leaseback\nA sale and leaseback arrangement allows a company to:\n\nSell an existing asset (typically property)\nImmediately lease it back from the buyer\nContinue using the asset while releasing equity capital\nGenerate immediate cash flow improvement\nPotentially achieve favorable accounting treatment\n\nThis approach can be structured either with: - A subsidiary company - An external company"
-  },
-  {
-    "objectID": "day2-morning-slides.html#long-term-finance-debt",
-    "href": "day2-morning-slides.html#long-term-finance-debt",
-    "title": "Corporate Financial Management",
-    "section": "Long-Term Finance: Debt",
-    "text": "Long-Term Finance: Debt\nDebt represents a significant source of long-term finance for many businesses."
-  },
-  {
-    "objectID": "day2-morning-slides.html#debt-finance-benefits",
-    "href": "day2-morning-slides.html#debt-finance-benefits",
-    "title": "Corporate Financial Management",
-    "section": "Debt Finance Benefits",
-    "text": "Debt Finance Benefits\nLong-term debt offers several advantages:\n\nMore cost-effective and expedient than equity\nInterest is tax-deductible\nNo dilution of ownership or control\nCan reduce overall WACC (weighted average cost of capital)\nCan be structured with tailored repayment schedules\nLower risk for investors"
-  },
-  {
-    "objectID": "day2-morning-slides.html#debt-finance-drawbacks",
-    "href": "day2-morning-slides.html#debt-finance-drawbacks",
-    "title": "Corporate Financial Management",
-    "section": "Debt Finance Drawbacks",
-    "text": "Debt Finance Drawbacks\nHowever, debt also poses challenges:\n\nIncreases financial risk\nRequires regular interest payments regardless of profitability\nOften secured against company assets\nMay include restrictive covenants\nCan limit managerial flexibility\nMay restrict future borrowing capacity"
-  },
-  {
-    "objectID": "day2-morning-slides.html#restrictive-covenants",
-    "href": "day2-morning-slides.html#restrictive-covenants",
-    "title": "Corporate Financial Management",
-    "section": "Restrictive Covenants",
-    "text": "Restrictive Covenants\nLenders frequently impose covenants to protect their interests:\n\n\n\n\n\n\n\n\n\nCovenant Type\nDescription\n\n\n\n\nSecurity restrictions\nRestrictions on sale or use of secured assets\n\n\nFinancial ratio requirements\nMinimum interest cover ratio requirements\n\n\nAdditional debt limitations\nGearing ratio constraints (debt/assets, debt/equity)\n\n\nLiquidity requirements\nWorking capital ratio minimums to protect liquidity\n\n\nSinking fund provisions\nRequirements to set aside funds for repayment\n\n\nFuture debt restrictions\nLimitations on additional bond issues\n\n\nDividend limitations\nRestrictions on dividend payments\n\n\nShare redemption restrictions\nConstraints on share buybacks"
-  },
-  {
-    "objectID": "day2-morning-slides.html#corporate-bonds",
-    "href": "day2-morning-slides.html#corporate-bonds",
-    "title": "Corporate Financial Management",
-    "section": "Corporate Bonds",
-    "text": "Corporate Bonds\nCorporate bonds represent a formalized debt security that can be traded in financial markets:\n\nTradable loans with defined nominal (par) value\nFeature specified coupon rates for interest payments\nMay be issued with redeemable or irredeemable terms\nTypically have 7-30 year maturities (if redeemable)\nCan be issued publicly or through private placement\nMay be secured or unsecured\n\nKey bond characteristics:\n\nNominal value (typically £/€100)\nCoupon rate (interest payment)\nRedemption value (usually par value)\nRedemption date (for redeemable bonds)"
-  },
-  {
-    "objectID": "day2-morning-slides.html#long-term-finance-mezzanine-finance-and-preference-shares",
-    "href": "day2-morning-slides.html#long-term-finance-mezzanine-finance-and-preference-shares",
-    "title": "Corporate Financial Management",
-    "section": "Long-Term Finance: Mezzanine Finance and Preference Shares",
-    "text": "Long-Term Finance: Mezzanine Finance and Preference Shares\nBetween traditional debt and equity lies a range of hybrid financing instruments."
-  },
-  {
-    "objectID": "day2-morning-slides.html#mezzanine-finance-overview",
-    "href": "day2-morning-slides.html#mezzanine-finance-overview",
-    "title": "Corporate Financial Management",
-    "section": "Mezzanine Finance Overview",
-    "text": "Mezzanine Finance Overview\nMezzanine finance represents subordinated capital that fills the gap between senior debt and equity:\n\nLong-term, subordinated financing\nHigher interest rates reflecting increased risk\nOften includes equity-like features (warrants, conversion rights)\nTypically unsecured\nUsed as an alternative to equity dilution\nMain types include high-yield bonds, convertible bonds, and preference shares"
-  },
-  {
-    "objectID": "day2-morning-slides.html#junk-bonds",
-    "href": "day2-morning-slides.html#junk-bonds",
-    "title": "Corporate Financial Management",
-    "section": "Junk Bonds",
-    "text": "Junk Bonds\nJunk bonds (high-yield bonds) are debt securities with lower credit ratings:\n\nUsed by companies with weaker financial positions\nCarry higher interest rates to compensate for increased risk\nAttract risk-taking investors seeking higher returns\nSubject to higher default probability\nMay include more stringent covenants"
-  },
-  {
-    "objectID": "day2-morning-slides.html#convertible-bonds",
-    "href": "day2-morning-slides.html#convertible-bonds",
-    "title": "Corporate Financial Management",
-    "section": "Convertible Bonds",
-    "text": "Convertible Bonds\nConvertible bonds combine debt features with an option to convert to equity:\n\nFixed return securities with conversion option\nAllow holders to convert to shares at predetermined dates\nOften issued when share prices appear undervalued\nRepresent a deferred equity sale\nGenerally offer lower interest rates than straight debt\nReduce immediate dilution while providing potential equity upside\nPotentially eliminate cash repayment requirement if converted"
-  },
-  {
-    "objectID": "day2-morning-slides.html#preference-shares",
-    "href": "day2-morning-slides.html#preference-shares",
-    "title": "Corporate Financial Management",
-    "section": "Preference Shares",
-    "text": "Preference Shares\nPreference shares combine features of both debt and equity:\nKey characteristics:\n\nPart of share capital but typically not considered pure equity\nMay be issued at premium above nominal value\nUsually carry fixed dividends\nGenerally confer no voting rights\nMay be redeemable and/or convertible\nHigher in capital structure than ordinary shares but below bonds\nDividends are not tax-deductible"
-  },
-  {
-    "objectID": "day2-morning-slides.html#types-of-preference-shares",
-    "href": "day2-morning-slides.html#types-of-preference-shares",
-    "title": "Corporate Financial Management",
-    "section": "Types of preference shares",
-    "text": "Types of preference shares\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\nIrredeemable preference shares\nFixed dividend with no intended redemption or conversion\n\n\nRedeemable preference shares\nIssued for a predetermined period of time\n\n\nCumulative preference shares\nUnpaid dividends accumulate as an obligation\n\n\nNon-cumulative preference shares\nUnpaid dividends are lost if not declared\n\n\nParticipating preference shares\nHolders can participate in surplus profits\n\n\nConvertible preference shares\nConvertible to ordinary shares under specified conditions"
-  },
-  {
-    "objectID": "day2-morning-slides.html#preference-shares-characteristics",
-    "href": "day2-morning-slides.html#preference-shares-characteristics",
-    "title": "Corporate Financial Management",
-    "section": "Preference shares characteristics",
-    "text": "Preference shares characteristics\nAdvantages of preference shares:\n\nDividends can be deferred in challenging periods\nPreserve ownership structure\nCan improve gearing after conversion (if convertible)\nMore accessible than bonds for highly geared companies\n\nDisadvantages of preference shares:\n\nHigher cost than debt\nDividends not tax-deductible\nMay require redemption or conversion in future"
-  },
-  {
-    "objectID": "day2-morning-slides.html#long-term-finance-equity",
-    "href": "day2-morning-slides.html#long-term-finance-equity",
-    "title": "Corporate Financial Management",
-    "section": "Long-Term Finance: Equity",
-    "text": "Long-Term Finance: Equity\nOrdinary shares (common stock) represent the fundamental risk capital of the business."
-  },
-  {
-    "objectID": "day2-morning-slides.html#equity-fundamentals",
-    "href": "day2-morning-slides.html#equity-fundamentals",
-    "title": "Corporate Financial Management",
-    "section": "Equity Fundamentals",
-    "text": "Equity Fundamentals\nEquity represents ownership interest in a business:\n\nShareholders own a portion of the company\nNominal value assigned but not related to market value\nMay be traded (public companies) or not (private companies)\nUsually entitles holders to dividends from profits\nProvides pre-emptive rights in future share issues\nMost risky form of financing from investor perspective\nLeast risky from company perspective"
-  },
-  {
-    "objectID": "day2-morning-slides.html#equity-advantages",
-    "href": "day2-morning-slides.html#equity-advantages",
-    "title": "Corporate Financial Management",
-    "section": "Equity Advantages",
-    "text": "Equity Advantages\nFrom the company’s perspective, equity offers several benefits:\n\nLowest financial risk of all external finance\nNo obligation to pay dividends\nNo requirement to redeem capital\nNo fixed repayment schedule\nProvides permanent capital base\nIncreases capacity to raise additional debt"
-  },
-  {
-    "objectID": "day2-morning-slides.html#equity-disadvantages",
-    "href": "day2-morning-slides.html#equity-disadvantages",
-    "title": "Corporate Financial Management",
-    "section": "Equity Disadvantages",
-    "text": "Equity Disadvantages\nHowever, equity also has significant drawbacks:\n\nSignificant issuance costs (5-10% of funds raised)\nMinimum fixed costs limit accessibility to larger companies\nSubstantial administrative and regulatory requirements\nDividends not tax-deductible\nDilution of control\nHighest required return of all financing sources"
-  },
-  {
-    "objectID": "day2-morning-slides.html#methods-of-issuing-equity",
-    "href": "day2-morning-slides.html#methods-of-issuing-equity",
-    "title": "Corporate Financial Management",
-    "section": "Methods of Issuing Equity",
-    "text": "Methods of Issuing Equity\n\n\n\n\n\n\n\n\n\nMethod\nDescription\n\n\n\n\nInitial Public Offering (IPO)\nFirst sale of shares to the public with stock exchange listing\n\n\nRights Issues\nOffering of new shares to existing shareholders in proportion to holdings\n\n\nPrivate Placement\nSale of shares directly to specific institutional investors"
-  },
-  {
-    "objectID": "day2-morning-slides.html#rights-issues",
-    "href": "day2-morning-slides.html#rights-issues",
-    "title": "Corporate Financial Management",
-    "section": "Rights Issues",
-    "text": "Rights Issues\nFor existing listed companies, rights issues provide an efficient mechanism to raise additional equity:\n\nOffered to existing shareholders in proportion to holdings\nTypically priced at 15-20% discount to market value\nLower transaction costs than public offerings\nAdministratively simpler with existing shareholder base\nExisting shareholders can either subscribe or sell rights\nMarket price adjusts to account for discount"
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-finance-gap-and-venture-capital",
-    "href": "day2-morning-slides.html#the-finance-gap-and-venture-capital",
-    "title": "Corporate Financial Management",
-    "section": "The Finance Gap and Venture Capital",
-    "text": "The Finance Gap and Venture Capital\nMany growing businesses face a “finance gap” where conventional financing sources are insufficient."
-  },
-  {
-    "objectID": "day2-morning-slides.html#the-finance-gap",
-    "href": "day2-morning-slides.html#the-finance-gap",
-    "title": "Corporate Financial Management",
-    "section": "The Finance Gap",
-    "text": "The Finance Gap\nThe finance gap (or equity gap) typically emerges when:\n\nNew companies require substantial scale of financing\nExisting small companies experience rapid growth\nBank lending reaches prudential limits\nRetained earnings are insufficient\nPrivate equity holders lack capacity for further investment\nCompany is too small for public market access"
-  },
-  {
-    "objectID": "day2-morning-slides.html#venture-capital",
-    "href": "day2-morning-slides.html#venture-capital",
-    "title": "Corporate Financial Management",
-    "section": "Venture Capital",
-    "text": "Venture Capital\nVenture capital provides specialized equity financing to bridge this gap:\n\nFocuses on companies with strong growth potential\nTypically targets 30%+ annual returns\nPortfolio approach with mixed outcomes expected\nGenerally involves deals exceeding £250,000\nRequires equity stake and element of control\nPrefers companies with established track records\nNecessitates clear exit strategy (IPO or trade sale)\n\nBenefits to recipient companies: - Access to capital at crucial growth stage - Business expertise and mentoring - Industry contacts and networks - Strategic guidance - Potential follow-on financing\nDrawbacks for recipient companies: - Dilution of ownership - Partial loss of decision-making autonomy - Increased reporting and accountability - Performance pressure - Exit timeline constraints"
-  },
-  {
-    "objectID": "day2-morning-slides.html#government-initiatives",
-    "href": "day2-morning-slides.html#government-initiatives",
-    "title": "Corporate Financial Management",
-    "section": "Government Initiatives",
-    "text": "Government Initiatives\nVarious government schemes aim to address the finance gap:\nEnterprise Investment Scheme (EIS): - Tax relief (30%) for investors in qualifying companies - Investment limit of £1 million per annum - Companies can raise up to £5 million annually - Aimed at unlisted companies\nVenture Capital Trusts (VCTs): - Similar tax benefits to EIS - Minimum five-year investment period - Professionally managed funds - Diversified portfolio approach"
-  },
-  {
-    "objectID": "day2-morning-slides.html#new-sources-of-finance",
-    "href": "day2-morning-slides.html#new-sources-of-finance",
-    "title": "Corporate Financial Management",
-    "section": "New Sources of Finance",
-    "text": "New Sources of Finance\nThe financing landscape continues to evolve with innovative funding mechanisms."
-  },
-  {
-    "objectID": "day2-morning-slides.html#crowdfunding",
-    "href": "day2-morning-slides.html#crowdfunding",
-    "title": "Corporate Financial Management",
-    "section": "Crowdfunding",
-    "text": "Crowdfunding\nCrowdfunding has emerged as a significant alternative funding source:\n\nPeer-to-peer lending platforms\nEquity-based crowdfunding\nReward-based crowdfunding\nDonation-based funding\nReal estate crowdfunding\n\nThese platforms connect entrepreneurs directly with numerous small investors, bypassing traditional financial intermediaries."
-  },
-  {
-    "objectID": "day2-morning-slides.html#asset-based-finance",
-    "href": "day2-morning-slides.html#asset-based-finance",
-    "title": "Corporate Financial Management",
-    "section": "Asset-Based Finance",
-    "text": "Asset-Based Finance\nAsset-based lending focuses on the value of specific assets:\n\nSupply chain finance\nMarketplace lending\nInvoice trading platforms\nPeer-to-peer secured lending\nAsset refinancing"
-  },
-  {
-    "objectID": "day2-morning-slides.html#fintech-innovations",
-    "href": "day2-morning-slides.html#fintech-innovations",
-    "title": "Corporate Financial Management",
-    "section": "Fintech Innovations",
-    "text": "Fintech Innovations\nFinancial technology is transforming the financing landscape:\n\nBlockchain-based financing\nInitial Coin Offerings (ICOs)\nSecurity Token Offerings (STOs)\nArtificial intelligence in lending decisions\nOpen banking initiatives"
-  },
-  {
-    "objectID": "day2-morning-slides.html#key-source-of-finance-principles",
-    "href": "day2-morning-slides.html#key-source-of-finance-principles",
-    "title": "Corporate Financial Management",
-    "section": "Key Source of Finance Principles",
-    "text": "Key Source of Finance Principles\nSeveral fundamental principles should guide financing decisions in practice.\n\n\n\n\nThe type of finance should match the term of the investment (matching principle)\nManagement typically follows a “pecking order”: internal sources first, then debt, then equity\nMarket-sourced finance is primarily viable for larger companies due to transaction costs\nSMEs should prioritize bank financing, medium-term instruments, and venture capital\nCost of each source correlates with the risk borne by investors\nVenture capital targets growth-oriented companies in the finance gap\nComprehensive business plans with robust financial projections are essential for external financing\nInnovative financing sources continue to expand options, particularly for early-stage companies"
-  },
-  {
-    "objectID": "day2-morning-slides.html#for-this-afternoon",
-    "href": "day2-morning-slides.html#for-this-afternoon",
-    "title": "Corporate Financial Management",
-    "section": "For This Afternoon",
-    "text": "For This Afternoon\nThis afternoon, we will build on this morning’s exploration of financing sources to focus on:\n\nCost of capital calculations\nWeighted Average Cost of Capital (WACC)\nCapital structure decisions\nOptimal gearing levels\nDividend policy considerations\n\nPlease review the case studies in the module materials to prepare for our practical session."
-  },
-  {
-    "objectID": "day2-morning-slides.html#additional-resources",
-    "href": "day2-morning-slides.html#additional-resources",
-    "title": "Corporate Financial Management",
-    "section": "Additional Resources",
-    "text": "Additional Resources\nCore Reading: - Atrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall, Chapters 6-8 - Arnold, G. (2020) Corporate Financial Management (6th ed.), Chapters 8-10\nOnline Resources: - Bank of England Monetary Policy Reports - UK Finance - British Business Bank"
-  },
-  {
-    "objectID": "day2-morning-slides.html#practice-questions",
-    "href": "day2-morning-slides.html#practice-questions",
-    "title": "Corporate Financial Management",
-    "section": "Practice Questions",
-    "text": "Practice Questions\n\nABC Ltd is considering expanding its operations and requires £5 million in financing. Evaluate the most appropriate sources of finance for the company, assuming it is a medium-sized manufacturer with strong but fluctuating cash flows.\nCompare and contrast factoring and invoice discounting as sources of short-term finance. Under what circumstances would you recommend each option?\nXYZ plc is considering issuing either (a) £10 million in 10-year corporate bonds at 4.5% or (b) £10 million in preference shares with a 6% dividend. Discuss the advantages and disadvantages of each option, including their impact on the company’s capital structure.\nDiscuss how the “pecking order theory” explains observed financing behaviors in practice. What factors might cause a company to deviate from this hierarchy?\nA technology startup has exhausted its founders’ personal investments and bank lending capacity but requires an additional £2 million to bring its product to market. Evaluate the potential financing options available to the company.\n\n\n\n\nCorporate Financial Management - Day 2 Morning"
-  },
-  {
     "objectID": "day2-afternoon-slides.html#introduction-to-cost-of-capital",
     "href": "day2-afternoon-slides.html#introduction-to-cost-of-capital",
     "title": "Cost of Capital",
@@ -1463,172 +966,270 @@
     "text": "Summary of Cost of Capital\nThe key components for calculating the cost of capital:\n\nBank loans: Cost and market value\nRedeemable debt: Cost and market value\nPreference shares: Cost and market value\nOrdinary shares: Cost and market value\n\nTwo models to calculate cost:\n\nDividend growth model\nCAPM\n\n\nWACC: Weighted average combining debt and equity costs\n\nThese calculations help determine the appropriate discount rate for investment appraisal, ensuring projects generate sufficient returns to meet financing costs.\n\n\n\nCorporate Financial Management - Day 2 Afternoon"
   },
   {
-    "objectID": "day3-morning-slides.html#learning-outcomes",
-    "href": "day3-morning-slides.html#learning-outcomes",
-    "title": "Dividend Policy",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAfter completing this session, you should be able to:\n\nDescribe the nature of dividends and evaluate the arguments concerning their potential impact on shareholder wealth\nIdentify and discuss the factors that influence dividend policy in practice\nDescribe the nature of different dividend policies\nDiscuss the case for and against different forms of distribution\n\n\n\n\n\n\n\nNote\n\n\nThese outcomes align with the module’s broader learning objectives of critically examining issues surrounding corporate financing and dividend policy."
+    "objectID": "day1-morning-slides.html#course-introduction",
+    "href": "day1-morning-slides.html#course-introduction",
+    "title": "Corporate Financial Management",
+    "section": "Course Introduction",
+    "text": "Course Introduction\nWelcome to the intensive 4-day Corporate Financial Management module. This condensed format covers the essential concepts and techniques needed for effective financial decision-making in modern organizations.\n\n\n\n\n\n\nModule Learning Outcomes\n\n\nBy the end of this module, you will be able to:\n\nDemonstrate knowledge and understanding of the investment, financing and dividend decisions\nAssess the potential and significance of various sources of finance\nCritically examine issues surrounding corporate financing and dividend policy\nRecognize key concepts and theories of financial management"
   },
   {
-    "objectID": "day3-morning-slides.html#introduction-to-dividends",
-    "href": "day3-morning-slides.html#introduction-to-dividends",
-    "title": "Dividend Policy",
-    "section": "Introduction to Dividends",
-    "text": "Introduction to Dividends\nDividends represent a return by a business to its shareholders. Key characteristics include:\n\nCompanies rarely make dividend payments based solely on profits available to shareholders\nThe dividend payout ratio = dividend paid / earnings available for dividends\nIn the UK, dividends are often paid twice per year (interim and final)\nWhen share prices include accrued dividend payable, they are called “cum-dividend” share prices\nWhen dividends are paid out, share prices typically decrease by the same amount to the long-term stable level (“ex-dividend”)\n\n\n\n\n\n\n\nImportant\n\n\nUnderstanding the relationship between dividends and share prices is fundamental for evaluating dividend policies and their impact on shareholder wealth."
+    "objectID": "day1-morning-slides.html#the-finance-function-in-organizations",
+    "href": "day1-morning-slides.html#the-finance-function-in-organizations",
+    "title": "Corporate Financial Management",
+    "section": "The Finance Function in Organizations",
+    "text": "The Finance Function in Organizations\nFinancial management involves making key decisions about how resources are acquired and utilized within an organization. The finance function serves as the nexus for critical business activities."
   },
   {
-    "objectID": "day3-morning-slides.html#dividend-payout-patterns",
-    "href": "day3-morning-slides.html#dividend-payout-patterns",
-    "title": "Dividend Policy",
-    "section": "Dividend Payout Patterns",
-    "text": "Dividend Payout Patterns\nAverage dividend payout ratios vary significantly across industries:"
+    "objectID": "day1-morning-slides.html#the-finance-framework",
+    "href": "day1-morning-slides.html#the-finance-framework",
+    "title": "Corporate Financial Management",
+    "section": "The Finance Framework",
+    "text": "The Finance Framework\n\n\n\n\n\nflowchart TD\n    A[Financial planning] --&gt; B[Investment project appraisal]\n    A --&gt; C[Finance function]\n    A --&gt; D[Financing and capital market operations]\n    C --&gt; B\n    C --&gt; D\n    C --&gt; E[Financial control]\n    E --&gt; B\n    E --&gt; D"
   },
   {
-    "objectID": "day3-morning-slides.html#industry-variations",
-    "href": "day3-morning-slides.html#industry-variations",
-    "title": "Dividend Policy",
-    "section": "Industry Variations",
-    "text": "Industry Variations\n\nAverage dividend payout ratios for businesses in selected industries in Western Europe"
+    "objectID": "day1-morning-slides.html#finance-managers-role",
+    "href": "day1-morning-slides.html#finance-managers-role",
+    "title": "Corporate Financial Management",
+    "section": "Finance Manager’s Role",
+    "text": "Finance Manager’s Role\nThe finance manager’s responsibilities typically include:\n\nFinancial planning and forecasting\nCapital investment decisions\nWorking capital management\nFunding and financing decisions\nFinancial risk management\nStakeholder communication\n\n\n\n\n\n\n\nYour Experience\n\n\nDiscussion point: What financial management challenges have you observed or experienced in your organization?"
   },
   {
-    "objectID": "day3-morning-slides.html#key-observations",
-    "href": "day3-morning-slides.html#key-observations",
-    "title": "Dividend Policy",
-    "section": "Key Observations",
-    "text": "Key Observations\n\nEntertainment sector shows extremely high payout ratios (324.89%)\nPublishing & Newspapers also demonstrate high ratios (113.76%)\nMost sectors maintain payout ratios between 30-70%\nPharmaceutical and technology sectors tend to have lower ratios"
+    "objectID": "day1-morning-slides.html#shareholder-wealth-maximization",
+    "href": "day1-morning-slides.html#shareholder-wealth-maximization",
+    "title": "Corporate Financial Management",
+    "section": "Shareholder Wealth Maximization",
+    "text": "Shareholder Wealth Maximization\nThe conventional view holds that the primary objective of a business is shareholder wealth maximization. This objective:\n\nIs not the same as profit maximization\nRequires considering the needs of other stakeholders\nOften demands high ethical standards"
   },
   {
-    "objectID": "day3-morning-slides.html#dividend-policy-two-major-schools-of-thought",
-    "href": "day3-morning-slides.html#dividend-policy-two-major-schools-of-thought",
-    "title": "Dividend Policy",
-    "section": "Dividend Policy: Two Major Schools of Thought",
-    "text": "Dividend Policy: Two Major Schools of Thought\nThe fundamental question in dividend policy: Does the pattern of dividends affect shareholder wealth?"
+    "objectID": "day1-morning-slides.html#shareholder-perspective",
+    "href": "day1-morning-slides.html#shareholder-perspective",
+    "title": "Corporate Financial Management",
+    "section": "Shareholder Perspective",
+    "text": "Shareholder Perspective\nShareholders have specific characteristics that justify prioritizing their interests:\n\nThey are the effective owners\nThey have a residual claim and bear risk\nThey drive entrepreneurial activity through seeking returns"
   },
   {
-    "objectID": "day3-morning-slides.html#traditional-view",
-    "href": "day3-morning-slides.html#traditional-view",
-    "title": "Dividend Policy",
-    "section": "Traditional View",
-    "text": "Traditional View\n\nShareholders prefer dividends now because amounts are more certain\nThe implications for managers: adopt as generous a dividend policy as possible\nBased on the dividend valuation model - share price is determined by future streams of dividend receivable"
+    "objectID": "day1-morning-slides.html#critical-perspective",
+    "href": "day1-morning-slides.html#critical-perspective",
+    "title": "Corporate Financial Management",
+    "section": "Critical Perspective",
+    "text": "Critical Perspective\nHowever, pursuing shareholder wealth maximization can be problematic:\n\nMay undermine the status of other stakeholders\nCan encourage excessive cost-cutting\nMight promote unethical behavior"
   },
   {
-    "objectID": "day3-morning-slides.html#modernist-view-mm",
-    "href": "day3-morning-slides.html#modernist-view-mm",
-    "title": "Dividend Policy",
-    "section": "Modernist View (M&M)",
-    "text": "Modernist View (M&M)\n\nIn perfect and efficient markets, dividend policy doesn’t affect shareholder wealth\nCompanies should invest in all projects with positive NPVs\nOnly investment decisions affect shareholder wealth\nInvestors can create “home-made” dividends by selling shares if needed :::"
+    "objectID": "day1-morning-slides.html#limitations-of-profit-maximization",
+    "href": "day1-morning-slides.html#limitations-of-profit-maximization",
+    "title": "Corporate Financial Management",
+    "section": "Limitations of Profit Maximization",
+    "text": "Limitations of Profit Maximization\nUnlike shareholder wealth maximization, profit maximization as a sole objective has significant limitations:\n\n\n\nProfit is an imprecise term\nProfit cannot be objectively determined\nProfit takes no account of risk\n\n\n\n\nUncertain timeframe (short vs. long-term)\nIgnores opportunity costs\nNeglects stakeholder interests\n\n\n\n\n\n\n\n\n\nKey Insight\n\n\nMaximizing profit in a single period may actually diminish shareholder wealth over the long term due to factors like reduced investment, damage to reputation, or increased risk."
   },
   {
-    "objectID": "day3-morning-slides.html#modigliani-miller-dividend-irrelevance-theory",
-    "href": "day3-morning-slides.html#modigliani-miller-dividend-irrelevance-theory",
-    "title": "Dividend Policy",
-    "section": "Modigliani-Miller Dividend Irrelevance Theory",
-    "text": "Modigliani-Miller Dividend Irrelevance Theory\nThe MM theory is based on four key assumptions:\n\nNo share issue costs\nNo share transaction costs\n\nNo taxation\nRational behaviour among managers and investors\n\n\n\n\n\n\n\nNote\n\n\nUnder these assumptions, MM argue that dividend policy is irrelevant to shareholder wealth. The value of a firm depends solely on its investment decisions, not on how it distributes earnings."
+    "objectID": "day1-morning-slides.html#agency-theory",
+    "href": "day1-morning-slides.html#agency-theory",
+    "title": "Corporate Financial Management",
+    "section": "Agency Theory",
+    "text": "Agency Theory\nThe principal-agent relationship creates potential conflicts:\n\nDirectors (agents) act on behalf of shareholders (principals)\nDirectors should make decisions maximizing shareholder benefit\nHowever, their personal interests may lead to sub-optimal decisions\nExample: Prioritizing short-term profitability over long-term value when bonuses are tied to annual profit"
   },
   {
-    "objectID": "day3-morning-slides.html#mm-theory---dividend-irrelevancy",
-    "href": "day3-morning-slides.html#mm-theory---dividend-irrelevancy",
-    "title": "Dividend Policy",
-    "section": "MM Theory - Dividend Irrelevancy",
-    "text": "MM Theory - Dividend Irrelevancy\n\nGiven perfect and efficient markets, dividend policy doesn’t affect shareholder wealth\nCompanies should invest in all projects with positive NPVs, as only investment decisions affect shareholder wealth\nIf a company doesn’t pay dividends, shareholders can create “home-made” dividends by selling some shares\nAssumes shareholders have all information about a company and interpret it correctly\n\n\n\n\n\n\n\nTip\n\n\nThe MM theory provides a theoretical baseline, but real-world imperfections (taxes, transaction costs, information asymmetry) may cause dividends to matter."
+    "objectID": "day1-morning-slides.html#corporate-governance",
+    "href": "day1-morning-slides.html#corporate-governance",
+    "title": "Corporate Financial Management",
+    "section": "Corporate Governance",
+    "text": "Corporate Governance\nThe UK Corporate Governance Code aims to mitigate these issues by ensuring:\n\nClear delineation of directors’ powers and responsibilities\nAppropriate checks and balances within the organization\n\nKey Governance Areas\nThe code covers five main areas:\n\nBoard leadership and company purpose\nDivision of responsibilities\nComposition, succession and evaluation\nAudit, risk and internal control\nRemuneration"
   },
   {
-    "objectID": "day3-morning-slides.html#dividend-relevancy-theory",
-    "href": "day3-morning-slides.html#dividend-relevancy-theory",
-    "title": "Dividend Policy",
-    "section": "Dividend Relevancy Theory",
-    "text": "Dividend Relevancy Theory\n\nThe dividend valuation model suggests share price is determined by future streams of dividend receivable\nHigher retention of earnings for investment is considered to result in higher future earnings, leading to higher dividends\nHigher dividends should lead to higher share prices\nTherefore, an optimum dividend policy exists\n\n\n\n\n\n\n\nImportant\n\n\nThis view directly contradicts the MM position by suggesting that the pattern of dividends does impact shareholder wealth."
+    "objectID": "day1-morning-slides.html#financial-information-for-decision-making",
+    "href": "day1-morning-slides.html#financial-information-for-decision-making",
+    "title": "Corporate Financial Management",
+    "section": "Financial Information for Decision Making",
+    "text": "Financial Information for Decision Making\nFinancial statements provide the foundation for all financial analysis and decision-making."
   },
   {
-    "objectID": "day3-morning-slides.html#residual-dividend-theory",
-    "href": "day3-morning-slides.html#residual-dividend-theory",
-    "title": "Dividend Policy",
-    "section": "Residual Dividend Theory",
-    "text": "Residual Dividend Theory\n\nRaising external finance is costly, so retentions should be the first source of funds a company uses\nAll positive NPV projects should be invested in before dividends are paid out\nIf retained funds are not invested to earn returns greater than investors’ required rate of return, shareholder wealth will diminish over time"
+    "objectID": "day1-morning-slides.html#income-statement",
+    "href": "day1-morning-slides.html#income-statement",
+    "title": "Corporate Financial Management",
+    "section": "Income Statement",
+    "text": "Income Statement\n\n\n\n\n£000\n£000\n\n\n\n\nCredit sales revenue\n\n\n\n\nLess Cost of sales:\n\n\n\n\nOpening inventories\n\n\n\n\nAdd Purchases\n\n\n\n\nLess Closing inventories\n\n\n\n\nGross profit\n\n\n\n\nLess:\n\n\n\n\nCredit card discounts\n\n\n\n\nRent and rates\n\n\n\n\nOther costs\n\n\n\n\nDepreciation of fittings\n\n\n\n\nProfit for the period"
   },
   {
-    "objectID": "day3-morning-slides.html#case-study-microsoft-and-apple",
-    "href": "day3-morning-slides.html#case-study-microsoft-and-apple",
-    "title": "Dividend Policy",
-    "section": "Case Study: Microsoft and Apple",
-    "text": "Case Study: Microsoft and Apple\nMicrosoft\nMicrosoft used to follow the ethos of the residual dividend theory: - For 17 years, it did not pay dividends, retaining funds for research and development - However, as cash balances increased, shareholder pressure led to dividend payments starting in 2003 - The first dividend was 8¢ per share, increasing to 51¢ by December 2019\nApple\n\nFrom 1990 to 1995, Apple paid a constant quarterly dividend of $0.12 per share\nStopped dividends from 1995 to 2012 to retain funds for reinvestment\nUnder shareholder pressure due to large cash reserves, resumed dividend payments in 2012\nBy April 2020, the quarterly dividend was $0.82 per share :"
+    "objectID": "day1-morning-slides.html#statement-of-financial-position",
+    "href": "day1-morning-slides.html#statement-of-financial-position",
+    "title": "Corporate Financial Management",
+    "section": "Statement of Financial Position",
+    "text": "Statement of Financial Position\n\n\n\n\n£000\n\n\n\n\nASSETS\n\n\n\nNon-current assets\n\n\n\nFittings\n\n\n\nLess Accumulated depreciation\n\n\n\n\n\n\n\nCurrent assets\n\n\n\nInventories\n\n\n\nTrade receivables\n\n\n\n\n\n\n\nTotal assets\n\n\n\n\n\n\n\nEQUITY AND LIABILITIES\n\n\n\nEquity\n\n\n\nShare capital\n\n\n\nRetained earnings\n\n\n\n\n\n\n\nCurrent liabilities\n\n\n\nTrade payables\n\n\n\nBank overdraft\n\n\n\n\n\n\n\nTotal equity and liabilities"
   },
   {
-    "objectID": "day3-morning-slides.html#importance-of-dividends",
-    "href": "day3-morning-slides.html#importance-of-dividends",
-    "title": "Dividend Policy",
-    "section": "Importance of Dividends",
-    "text": "Importance of Dividends\nDespite the MM arguments, dividends are considered important in practice for several reasons:\n\n\n\n\n\nflowchart TB\n    A[Importance\\nof dividends] --&gt; B[Clientele\\neffect]\n    A --&gt; C[Catering\\neffect]\n    A --&gt; D[Signalling\\neffect]\n    A --&gt; E[Reducing\\nagency costs]\n    \n    style A fill:#D32F2F,stroke:#D32F2F,color:white,stroke-width:2px\n    style B fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style C fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style D fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style E fill:#F9A825,stroke:#F9A825,stroke-width:1px\n\n\n Importance of dividends to shareholders \n\n\n\n\nClientele effect: Dividend policy attracts different types of investors\nCatering effect: Managers try to cater to the wishes of investors\nSignalling effect: Dividends convey information to shareholders due to information asymmetry\nReducing agency costs: Paying dividends reduces cash available for managers to spend"
+    "objectID": "day1-morning-slides.html#financial-statement-analysis",
+    "href": "day1-morning-slides.html#financial-statement-analysis",
+    "title": "Corporate Financial Management",
+    "section": "Financial Statement Analysis",
+    "text": "Financial Statement Analysis\nFinancial statements provide information about:\n\nProfitability and performance\nFinancial position and stability\nCash flow and liquidity\nChanges in financial position\n\nThis information helps stakeholders assess:\n\nPast performance\nCurrent position\nFuture prospects"
   },
   {
-    "objectID": "day3-morning-slides.html#factors-influencing-dividend-levels",
-    "href": "day3-morning-slides.html#factors-influencing-dividend-levels",
-    "title": "Dividend Policy",
-    "section": "Factors Influencing Dividend Levels",
-    "text": "Factors Influencing Dividend Levels\n\n\n\n\n\nflowchart LR\n    subgraph Factors[\"Factors influencing the level of dividends\"]\n        A1[Loan\\ncommitments] --&gt; C[Level of\\ndividends\\npaid]\n        A2[Threat of\\ntakeover] --&gt; C\n        A3[Profit\\nstability] --&gt; C\n        A4[Market\\nexpectations] --&gt; C\n        A5[Investing and\\nfinancing\\nopportunities] --&gt; C\n        A6[Inside\\ninformation] --&gt; C\n        A7[Legal\\nrequirements] --&gt; C\n        A8[Control] --&gt; C\n    end\n    \n    style C fill:#D32F2F,stroke:#D32F2F,color:white,stroke-width:2px\n    style A1 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A2 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A3 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A4 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A5 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A6 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A7 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A8 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n\n\n Factors influencing dividend levels \n\n\n\nDividend decisions are influenced by multiple factors including:\n\nProfit stability\nInvestment and financing opportunities\nLegal requirements\nLoan commitments\nMarket expectations\nInside information\nControl issues\nThreat of takeover"
+    "objectID": "day1-morning-slides.html#financial-analysis-using-ratios",
+    "href": "day1-morning-slides.html#financial-analysis-using-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Financial Analysis Using Ratios",
+    "text": "Financial Analysis Using Ratios\n\nFinancial ratio analysis provides a systematic approach to evaluating a company’s financial health.\nRatios help transform raw financial data into meaningful insights.\n\n\n\n\n\n\n\nThe Financial Health Framework\n\n\n\n\n\n\n\nflowchart TD\n    A[Financial ratios] --&gt; B[Profitability]\n    A --&gt; C[Efficiency]\n    A --&gt; D[Liquidity]\n    A --&gt; E[Financial gearing]\n    A --&gt; F[Investment]"
   },
   {
-    "objectID": "day3-morning-slides.html#management-attitudes-towards-dividends",
-    "href": "day3-morning-slides.html#management-attitudes-towards-dividends",
-    "title": "Dividend Policy",
-    "section": "Management Attitudes Towards Dividends",
-    "text": "Management Attitudes Towards Dividends\nResearch by Baker et al. (2002) found that managers generally:\n\nAre committed to long-term dividend payout ratios (93.1% agree)\nAre more concerned with dividend variations than absolute dividend amounts (95.2% agree)\nBelieve dividends should follow a smoother path than earnings (92.0% agree)\nAre reluctant to increase dividends from short-term profit increases (93.1% agree)\n\n\n\n\n\n\n\nNote\n\n\nThese findings align with Lintner’s classic study on dividend policy, suggesting managers are highly concerned with dividend stability and consistency."
+    "objectID": "day1-morning-slides.html#profitability-ratios",
+    "href": "day1-morning-slides.html#profitability-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Profitability Ratios",
+    "text": "Profitability Ratios\nProfitability ratios measure a company’s ability to generate earnings relative to sales, assets, and equity."
   },
   {
-    "objectID": "day3-morning-slides.html#what-should-managers-do",
-    "href": "day3-morning-slides.html#what-should-managers-do",
-    "title": "Dividend Policy",
-    "section": "What Should Managers Do?",
-    "text": "What Should Managers Do?\n\nEach business has unique characteristics - no ‘one size fits all’ approach\nDividend policy is intertwined with investment and financing decisions\nDividend policy should be clear to shareholders and consistently applied\nShareholders dislike ‘surprises’ in dividend policy\nIf dividends must be cut, managers should prepare shareholders and clearly explain reasons\n\n\n\n\n\n\n\nImportant\n\n\nConsistency in dividend policy is crucial for building shareholder confidence and managing market expectations."
+    "objectID": "day1-morning-slides.html#key-profitability-ratios",
+    "href": "day1-morning-slides.html#key-profitability-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Key Profitability Ratios",
+    "text": "Key Profitability Ratios\n\n\n\n\n\n\n\n\nRatio\nFormula\nPurpose\n\n\n\n\nReturn on Ordinary Shareholders’ Funds (ROSF)\n\\(\\frac{\\text{Profit for the year less preference dividend}}{\\text{Ordinary share capital + Reserves}} \\times 100\\)\nMeasures return earned for ordinary shareholders\n\n\nReturn on Capital Employed (ROCE)\n\\(\\frac{\\text{Operating profit}}{\\text{Share capital + Reserves + Non-current liabilities}} \\times 100\\)\nEvaluates efficiency of all long-term capital\n\n\nOperating Profit Margin\n\\(\\frac{\\text{Operating profit}}{\\text{Sales revenue}} \\times 100\\)\nShows profitability of operations\n\n\nGross Profit Margin\n\\(\\frac{\\text{Gross profit}}{\\text{Sales revenue}} \\times 100\\)\nIndicates basic profitability before other costs"
   },
   {
-    "objectID": "day3-morning-slides.html#alternatives-to-cash-dividends",
-    "href": "day3-morning-slides.html#alternatives-to-cash-dividends",
-    "title": "Dividend Policy",
-    "section": "Alternatives to Cash Dividends",
-    "text": "Alternatives to Cash Dividends\nTwo main alternatives exist to traditional cash dividends:\n\nScrip Dividends\nShare Buybacks"
+    "objectID": "day1-morning-slides.html#roce-breakdown",
+    "href": "day1-morning-slides.html#roce-breakdown",
+    "title": "Corporate Financial Management",
+    "section": "ROCE Breakdown",
+    "text": "ROCE Breakdown\nROCE can be broken down into its key components:\n\\(\\text{ROCE} = \\frac{\\text{Operating profit}}{\\text{Sales revenue}} \\times \\frac{\\text{Sales revenue}}{\\text{Long-term capital employed}}\\)\nThis demonstrates that ROCE is affected by both:\n\nProfit margin (efficiency of operations)\nAsset turnover (efficiency of capital usage)"
   },
   {
-    "objectID": "day3-morning-slides.html#scrip-dividends",
-    "href": "day3-morning-slides.html#scrip-dividends",
-    "title": "Dividend Policy",
-    "section": "Scrip Dividends",
-    "text": "Scrip Dividends\n\nA company issues new bonus shares to existing shareholders instead of cash dividends\nThe number of shares issued is proportional to shares held (e.g., 1-for-20)\nInvolves transferring reserves to ordinary share capital\nAllows shareholders to increase investment without transaction costs\nMarket typically responds positively to scrip dividend announcements\n\nShare Buybacks\n\nA business repurchases its own shares\nCan occur through open market operations, tender offers, or agreements with specific shareholders\nMay be used to support share price, alter capital structure, defend against takeovers, or return surplus funds\nIn perfect markets, shareholders would be indifferent between dividends and share buybacks"
+    "objectID": "day1-morning-slides.html#roce-comparison",
+    "href": "day1-morning-slides.html#roce-comparison",
+    "title": "Corporate Financial Management",
+    "section": "ROCE Comparison",
+    "text": "ROCE Comparison"
   },
   {
-    "objectID": "day3-morning-slides.html#reasons-for-share-buybacks",
-    "href": "day3-morning-slides.html#reasons-for-share-buybacks",
-    "title": "Dividend Policy",
-    "section": "Reasons for Share Buybacks",
-    "text": "Reasons for Share Buybacks\n\n\n\n\n\nflowchart TB\n    A[Share\\nbuyback] --&gt; B[Support the share\\nprice]\n    A --&gt; C[Return surplus\\nfunds]\n    A --&gt; D[Alter the capital\\nstructure]\n    A --&gt; E[Defend against\\ntakeover]\n    \n    style A fill:#6A1B9A,stroke:#6A1B9A,color:white,stroke-width:2px\n    style B fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style C fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style D fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style E fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n\n\n Main reasons for share buybacks \n\n\n\nShare buybacks are commonly used to:\n\nSupport the share price\nReturn surplus funds to shareholders\nAlter the capital structure\nDefend against hostile takeovers"
+    "objectID": "day1-morning-slides.html#efficiency-ratios",
+    "href": "day1-morning-slides.html#efficiency-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Efficiency Ratios",
+    "text": "Efficiency Ratios\nEfficiency ratios evaluate how effectively a company uses its assets and manages its operations.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nAverage inventories turnover period\n\\(\\frac{\\text{Average inventories held}}{\\text{Cost of sales}} \\times 365\\)\n\n\nAverage settlement period for trade receivables\n\\(\\frac{\\text{Average trade receivables}}{\\text{Credit sales revenue}} \\times 365\\)\n\n\nAverage settlement period for trade payables\n\\(\\frac{\\text{Average trade payables}}{\\text{Credit purchases}} \\times 365\\)\n\n\nSales revenue to capital employed\n\\(\\frac{\\text{Sales revenue}}{\\text{Share capital + Reserves + Non-current liabilities}}\\)\n\n\nSales revenue per employee\n\\(\\frac{\\text{Sales revenue}}{\\text{Number of employees}}\\)\n\n\n\n\n\n\n\n\n\nEfficiency Ratio Interpretation\n\n\n\nLower inventory and receivables periods typically indicate better efficiency\nHigher payables period may indicate stronger supplier relationships but could also suggest liquidity problems\nHigher sales to capital employed suggests more efficient use of capital"
   },
   {
-    "objectID": "day3-morning-slides.html#case-study-example",
-    "href": "day3-morning-slides.html#case-study-example",
-    "title": "Dividend Policy",
-    "section": "Case Study Example",
-    "text": "Case Study Example\nScenario\nPetrolia plc has the following dividend history:\n\n\n\nYear\nDividend per share\n\n\n\n\n2020\n£0.24\n\n\n2021\n£0.26\n\n\n2022\n£0.28\n\n\n2023\n£0.30\n\n\n2024\n£0.32\n\n\n\nThe company is debating its dividend policy for the upcoming year.\nQuestion\n\nCalculate the growth rate in Petrolia’s dividends.\nIf the current ex-dividend share price is £4.80, calculate the cost of equity capital using:\n\nThe dividend growth model\nThe CAPM (assuming risk-free rate = 4%, market return = 10%, beta = 1.2)\n\nWhich model would you recommend for setting dividend policy and why?\n\nSolution\n\nGrowth rate calculation: £0.32 = £0.24(1+g)⁴ £0.32/£0.24 = (1+g)⁴ 1.333 = (1+g)⁴ (1.333)^(1/4) = 1+g g = 7.47%\n\nDividend Growth Model: D₁ = D₀(1+g) = £0.32 × 1.0747 = £0.3439 Ke = (D₁/P₀) + g = (£0.3439/£4.80) + 7.47% = 14.63%\nCAPM: Ke = Rf + β(Rm - Rf) = 4% + 1.2(10% - 4%) = 11.2%\n\nAnalysis of the appropriate model would depend on specific circumstances…"
+    "objectID": "day1-morning-slides.html#liquidity-ratios",
+    "href": "day1-morning-slides.html#liquidity-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Liquidity Ratios",
+    "text": "Liquidity Ratios\nLiquidity ratios assess a company’s ability to meet short-term obligations.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nCurrent ratio\n\\(\\frac{\\text{Current assets}}{\\text{Current liabilities}}\\)\n\n\nAcid test ratio\n\\(\\frac{\\text{Current assets (excluding inventories)}}{\\text{Current liabilities}}\\)"
   },
   {
-    "objectID": "day3-morning-slides.html#summary-dividend-policy-and-shareholder-wealth",
-    "href": "day3-morning-slides.html#summary-dividend-policy-and-shareholder-wealth",
-    "title": "Dividend Policy",
-    "section": "Summary: Dividend Policy and Shareholder Wealth",
-    "text": "Summary: Dividend Policy and Shareholder Wealth\n\nTwo major schools of thought exist on how dividends affect shareholder wealth\nThe traditional school argues that shareholders prefer certain dividends now\nThe modernists (MM) argue that in perfect markets, dividend patterns don’t affect shareholder wealth\nMM assumptions (no costs, no taxes, rational behaviour) weaken but don’t destroy their arguments\nIn practice, dividends matter due to clientele effects, signalling, agency costs, and market imperfections"
+    "objectID": "day1-morning-slides.html#current-ratio-trends",
+    "href": "day1-morning-slides.html#current-ratio-trends",
+    "title": "Corporate Financial Management",
+    "section": "Current Ratio Trends",
+    "text": "Current Ratio Trends"
   },
   {
-    "objectID": "day3-morning-slides.html#summary-dividends-in-practice",
-    "href": "day3-morning-slides.html#summary-dividends-in-practice",
-    "title": "Dividend Policy",
-    "section": "Summary: Dividends in Practice",
-    "text": "Summary: Dividends in Practice\n\nDespite theoretical arguments, dividends are considered important\nKey factors influencing dividend decisions include profit stability, investment opportunities, legal constraints, market expectations, and control issues\nManagers prefer smooth, consistent dividend patterns and are reluctant to cut dividends\nAlternatives to cash dividends include scrip dividends and share buybacks\nEach business must develop a dividend policy that suits its unique circumstances and communicate it clearly to shareholders"
+    "objectID": "day1-morning-slides.html#retail-industry-context",
+    "href": "day1-morning-slides.html#retail-industry-context",
+    "title": "Corporate Financial Management",
+    "section": "Retail Industry Context",
+    "text": "Retail Industry Context\nUK supermarkets typically operate with current ratios below 1.0 because:\n\nThey have strong bargaining power with suppliers (longer payment terms)\nInventory turnover is rapid\nCustomers typically pay at point of sale\nThey have predictable cash flows\nThey hold minimal reserves due to efficient operations"
   },
   {
-    "objectID": "day3-morning-slides.html#practice-questions",
-    "href": "day3-morning-slides.html#practice-questions",
-    "title": "Dividend Policy",
-    "section": "Practice Questions",
-    "text": "Practice Questions\n\nExplain the key differences between the MM dividend irrelevance theory and the traditional view of dividends.\nAnalyze how the “signalling effect” of dividends might influence management decisions regarding dividend policy.\nEvaluate the advantages and disadvantages of share buybacks compared to cash dividends from both company and shareholder perspectives.\nCalculate the dividend growth rate for a company with the following dividend history: 2020: £0.15, 2021: £0.17, 2022: £0.19, 2023: £0.21, 2024: £0.24.\nConsider a scenario where a company has excess cash. Using both the residual dividend theory and signalling theory, recommend and justify an appropriate dividend policy.\n\n\n\n\nCorporate Financial Management - Day 3 Morning"
+    "objectID": "day1-morning-slides.html#liquidity-benchmarks",
+    "href": "day1-morning-slides.html#liquidity-benchmarks",
+    "title": "Corporate Financial Management",
+    "section": "Liquidity Benchmarks",
+    "text": "Liquidity Benchmarks\nTraditionally, guidelines suggest:\n\nCurrent ratio: 2:1\nAcid test ratio: 1:1\n\nHowever, these benchmarks vary significantly by:\n\nIndustry\nBusiness model\nMarket position\nEconomic conditions"
+  },
+  {
+    "objectID": "day1-morning-slides.html#gearing-ratios",
+    "href": "day1-morning-slides.html#gearing-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Gearing Ratios",
+    "text": "Gearing Ratios\nGearing ratios evaluate the extent to which a company is financed by debt versus equity.\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nGearing ratio\n\\(\\frac{\\text{Long-term (non-current) liabilities}}{\\text{Share capital + Reserves + Long-term (non-current) liabilities}} \\times 100\\)\n\n\nInterest cover ratio\n\\(\\frac{\\text{Operating profit}}{\\text{Interest payable}}\\)\n\n\n\n\n\n\n\n\n\nGearing Trade-offs\n\n\nHigh Gearing Benefits:\n\nPotential for higher returns to shareholders\nTax advantages of debt (interest is tax-deductible)\nNo dilution of ownership\n\nHigh Gearing Risks:\n\nIncreased financial risk\nFixed interest obligations\nPotential constraints on future borrowing\nMore vulnerable during economic downturns"
+  },
+  {
+    "objectID": "day1-morning-slides.html#investment-ratios",
+    "href": "day1-morning-slides.html#investment-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Investment Ratios",
+    "text": "Investment Ratios\nInvestment ratios help investors assess the attractiveness of a company’s shares."
+  },
+  {
+    "objectID": "day1-morning-slides.html#dividend-based-ratios",
+    "href": "day1-morning-slides.html#dividend-based-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Dividend-Based Ratios",
+    "text": "Dividend-Based Ratios\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nDividend payout ratio\n\\(\\frac{\\text{Dividends announced for the year}}{\\text{Earnings for the year available for dividends}} \\times 100\\)\n\n\nDividend cover ratio\n\\(\\frac{\\text{Earnings for the year available for dividends}}{\\text{Dividends announced for the year}}\\)\n\n\nDividend yield ratio\n\\(\\frac{\\text{Dividend per share}}{\\text{Market value per share}} \\times 100\\)"
+  },
+  {
+    "objectID": "day1-morning-slides.html#earnings-based-ratios",
+    "href": "day1-morning-slides.html#earnings-based-ratios",
+    "title": "Corporate Financial Management",
+    "section": "Earnings-Based Ratios",
+    "text": "Earnings-Based Ratios\n\n\n\n\n\n\n\nRatio\nFormula\n\n\n\n\nEarnings per share\n\\(\\frac{\\text{Earnings available to ordinary shareholders}}{\\text{Number of ordinary shares in issue}}\\)\n\n\nPrice/earnings ratio (P/E)\n\\(\\frac{\\text{Market value per share}}{\\text{Earnings per share}}\\)"
+  },
+  {
+    "objectID": "day1-morning-slides.html#industry-comparisons",
+    "href": "day1-morning-slides.html#industry-comparisons",
+    "title": "Corporate Financial Management",
+    "section": "Industry Comparisons",
+    "text": "Industry Comparisons\nThe P/E ratio and dividend yield vary significantly across industries:\n\nTechnology firms typically have high P/E ratios (often exceeding 30)\nUtility companies often have lower P/E ratios (around 12-15) but higher dividend yields\nFinancial institutions generally have moderate P/E ratios with above-average dividend yields\nGrowth industries prioritize reinvestment over dividends"
+  },
+  {
+    "objectID": "day1-morning-slides.html#warning-signs",
+    "href": "day1-morning-slides.html#warning-signs",
+    "title": "Corporate Financial Management",
+    "section": "Warning Signs",
+    "text": "Warning Signs\nKey indicators that may signal potential business failure: - Declining profitability ratios - Deteriorating liquidity ratios - Increasing gearing ratios - Lengthening receivables collection periods - Shortening payables payment periods"
+  },
+  {
+    "objectID": "day1-morning-slides.html#altman-z-score-model",
+    "href": "day1-morning-slides.html#altman-z-score-model",
+    "title": "Corporate Financial Management",
+    "section": "Altman Z-Score Model",
+    "text": "Altman Z-Score Model\nThe Z-score model combines multiple ratio indicators into a single predictive formula:\n\\(Z = 1.2a + 1.4b + 3.3c + 0.6d + 1.0e\\)\nWhere: - a = Working capital/Total assets - b = Accumulated retained profits/Total assets - c = Operating profit/Total assets - d = Book value of shares/Total liabilities - e = Sales revenue/Total assets\nInterpretation: - Z &gt; 2.99: “Safe” zone - 1.81 &lt; Z &lt; 2.99: “Grey” zone - Z &lt; 1.81: “Distress” zone"
+  },
+  {
+    "objectID": "day1-morning-slides.html#limitations-of-ratio-analysis",
+    "href": "day1-morning-slides.html#limitations-of-ratio-analysis",
+    "title": "Corporate Financial Management",
+    "section": "Limitations of Ratio Analysis",
+    "text": "Limitations of Ratio Analysis\nWhile ratios provide valuable insights, they have important limitations:\n\n\nData-Related Limitations: - Quality of financial statements - Creative accounting - Inflation effects - Statement of financial position timing issues\n\n\nApplication Limitations: - Over-reliance on ratios - Difficulties in finding comparable benchmarks - Industry-specific factors - Non-financial factors are excluded\n\n\n\n\n\n\n\n\nImportant\n\n\nRatios are tools for asking better questions, not providing definitive answers. They should be used as part of a broader analytical framework."
+  },
+  {
+    "objectID": "day1-morning-slides.html#practice-examples",
+    "href": "day1-morning-slides.html#practice-examples",
+    "title": "Corporate Financial Management",
+    "section": "Practice Examples",
+    "text": "Practice Examples\nLet’s apply these concepts to solve practical problems:"
+  },
+  {
+    "objectID": "day1-morning-slides.html#example-1",
+    "href": "day1-morning-slides.html#example-1",
+    "title": "Corporate Financial Management",
+    "section": "Example 1",
+    "text": "Example 1\nFor the year just ended, Ditto plc had earnings per share of £0.25 and a dividend payout ratio of 60%. The price earnings ratio is 20 times. What is the dividend yield?\nSolution:\n\n# Given information\nEPS &lt;- 0.25  # Earnings per share in £\nDPR &lt;- 0.60  # Dividend payout ratio (60%)\nPE &lt;- 20     # Price earnings ratio\n\n# Calculate dividend per share\nDPS &lt;- EPS * DPR\nDPS\n\n[1] 0.15\n\n# Calculate market value per share\nMarket_Value &lt;- EPS * PE\nMarket_Value\n\n[1] 5\n\n# Calculate dividend yield\nDividend_Yield &lt;- (DPS / Market_Value) * 100\nDividend_Yield\n\n[1] 3"
+  },
+  {
+    "objectID": "day1-morning-slides.html#example-2",
+    "href": "day1-morning-slides.html#example-2",
+    "title": "Corporate Financial Management",
+    "section": "Example 2",
+    "text": "Example 2\nA business has a ROCE of 20% and a sales revenue to long-term capital employed ratio of 5 times. It has an operating profit of £2m. What is the sales revenue of the business?\nSolution:\nROCE = Operating profit / Capital employed = 20%\nCapital employed = Operating profit / ROCE = £2m / 0.20 = £10m\nSales revenue / Capital employed = 5\nTherefore, Sales revenue = 5 × £10m = £50m"
+  },
+  {
+    "objectID": "day1-morning-slides.html#example-3",
+    "href": "day1-morning-slides.html#example-3",
+    "title": "Corporate Financial Management",
+    "section": "Example 3",
+    "text": "Example 3\nA business has the following ratios: - Gross profit margin: 25% - Operating expenses to sales: 10% - Interest cover: 3 times - Sales for the period: £20m\nWhat is the profit before tax?\nSolution:\nGross profit = 25% × £20m = £5m Operating expenses = 10% × £20m = £2m Operating profit = £5m - £2m = £3m Interest cover = Operating profit / Interest expense = 3 Interest expense = Operating profit / Interest cover = £3m / 3 = £1m Profit before tax = Operating profit - Interest expense = £3m - £1m = £2m"
+  },
+  {
+    "objectID": "day1-morning-slides.html#key-takeaways",
+    "href": "day1-morning-slides.html#key-takeaways",
+    "title": "Corporate Financial Management",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\n\n\n\nFinancial management should focus on shareholder wealth maximization rather than short-term profit maximization\nAgency relationships create potential conflicts between shareholders and managers\nRatio analysis provides a structured approach to evaluating financial health\nEffective financial analysis requires understanding multiple aspects of performance\nRatios should be compared against appropriate benchmarks\nLimitations of ratio analysis must be considered when drawing conclusions"
+  },
+  {
+    "objectID": "day1-morning-slides.html#next-session-preview",
+    "href": "day1-morning-slides.html#next-session-preview",
+    "title": "Corporate Financial Management",
+    "section": "Next Session Preview",
+    "text": "Next Session Preview\nIn this afternoon’s session, we will explore: - Capital investment decisions - Investment appraisal techniques - Handling risk and uncertainty in investment decisions - Real-world application of investment appraisal\n\n\n\nCorporate Financial Management - Day 1 Morning"
   },
   {
     "objectID": "day3-afternoon-slides.html#learning-outcomes",
@@ -1848,10 +1449,402 @@
     "text": "Practice Questions\n\nA company has average inventory of £500,000, annual cost of sales of £4 million, average trade receivables of £800,000, annual credit sales of £6 million, and average trade payables of £600,000 with annual credit purchases of £3.5 million. Calculate:\n\nThe inventory turnover period\nThe receivables collection period\nThe payables payment period\nThe operating cash cycle\n\nUsing the EOQ model, calculate the optimal order quantity for a product with annual demand of 8,000 units, ordering cost of £50 per order, and holding cost of £5 per unit per year.\nCritically evaluate the advantages and disadvantages of implementing a Just-in-Time inventory system for a manufacturing business.\nDiscuss how a company might reduce its operating cash cycle and evaluate the potential benefits and risks of such actions.\nAnalyze how the “Five Cs” of credit can be used to assess customer creditworthiness, giving examples of information sources for each criterion.\n\n\n\n\nCorporate Financial Management - Day 3 Afternoon"
   },
   {
+    "objectID": "day2-morning-slides.html#sources-of-finance-framework",
+    "href": "day2-morning-slides.html#sources-of-finance-framework",
+    "title": "Corporate Financial Management",
+    "section": "Sources of Finance Framework",
+    "text": "Sources of Finance Framework\nThis morning, we build upon the capital investment decisions covered yesterday afternoon to focus on the financing decision - how to source appropriate capital to fund investment opportunities identified through investment appraisal techniques.\n\n\n\n\n\n\nLearning Outcomes for This Session\n\n\nBy the end of this morning, you will be able to:\n\nUnderstand the financing decision context and its relationship to investment decisions\nIdentify and evaluate the major internal and external sources of finance\nAssess the benefits and drawbacks of different financing methods\nExplain the different approaches to obtaining finance through intermediation and disintermediation\nApply knowledge to determine appropriate financing strategies for organisations of different sizes"
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-financing-decision",
+    "href": "day2-morning-slides.html#the-financing-decision",
+    "title": "Corporate Financial Management",
+    "section": "The Financing Decision",
+    "text": "The Financing Decision\nAfter making capital investment decisions using the appraisal techniques covered yesterday, the finance manager must determine suitable sources to fund those investments."
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-financing-context",
+    "href": "day2-morning-slides.html#the-financing-context",
+    "title": "Corporate Financial Management",
+    "section": "The Financing Context",
+    "text": "The Financing Context\nThe financing decision follows logically from the investment decision and involves determining:\n\nAvailable sources of finance (internal vs external)\nTerm of borrowing the funding is available for\nCost of each potential source of finance (cost of capital)"
+  },
+  {
+    "objectID": "day2-morning-slides.html#financing-decision-framework",
+    "href": "day2-morning-slides.html#financing-decision-framework",
+    "title": "Corporate Financial Management",
+    "section": "Financing Decision Framework",
+    "text": "Financing Decision Framework\n\n\n\n\n\nflowchart TD\n    A[Investment Decision Made] --&gt; B[Identify Financing Needs]\n    B --&gt; C[Review Internal Sources]\n    B --&gt; D[Review External Sources]\n    C --&gt; E[Evaluate Cost and Availability]\n    D --&gt; E\n    E --&gt; F[Structure Financing Package]\n    F --&gt; G[Implement Financing Strategy]\n    G --&gt; H[Monitor and Review]"
+  },
+  {
+    "objectID": "day2-morning-slides.html#real-world-context",
+    "href": "day2-morning-slides.html#real-world-context",
+    "title": "Corporate Financial Management",
+    "section": "Real-World Context",
+    "text": "Real-World Context\nFinancing decisions are critical to:\n\nEnterprise sustainability and growth\nRisk management\nShareholder value creation\nCorporate governance\nFinancial flexibility"
+  },
+  {
+    "objectID": "day2-morning-slides.html#internal-vs-external-sources-of-finance",
+    "href": "day2-morning-slides.html#internal-vs-external-sources-of-finance",
+    "title": "Corporate Financial Management",
+    "section": "Internal vs External Sources of Finance",
+    "text": "Internal vs External Sources of Finance\nOrganisations can source funding either internally from operations or externally from capital markets and financial institutions.\n\n\nInternal Finance Sources:\nInternal finance comes from the operational activities of the business itself and includes:\n\nRetained earnings (profit ploughback)\nWorking capital management:\n\nImproved receivables collection\nInventory optimization\nExtended payables period\n\n\n\n\nExternal Finance Sources:\nExternal finance is raised from outside the business through:\n\nDebt (borrowings)\nEquity (shares)\nHybrid instruments (convertibles, preference shares)\nLeasing and similar arrangements\nFactoring and invoice discounting"
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-major-internal-sources-of-finance",
+    "href": "day2-morning-slides.html#the-major-internal-sources-of-finance",
+    "title": "Corporate Financial Management",
+    "section": "The Major Internal Sources of Finance",
+    "text": "The Major Internal Sources of Finance\nInternal financing is often preferred as it avoids the costs, formalities, and external scrutiny associated with raising external finance.\n\n\n\n\n\nflowchart LR\n    A[Internal Finance Sources] --&gt; B[Short-term Sources]\n    A --&gt; C[Long-term Sources]\n    B --&gt; D[Receivables management]\n    B --&gt; E[Inventory optimization]\n    B --&gt; F[Payables extension]\n    C --&gt; G[Retained profits]\n\n\n\n\n\n\n\n\n\n\n\n\nWorking Capital Management\n\n\nEffective working capital management can release significant funds from day-to-day operations. However, there are constraints to such strategies:\n\nExcessive credit control may affect customer relationships\nMinimal inventory may compromise service levels\nExtended supplier payments can strain supply chain relationships"
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-major-external-sources-of-finance",
+    "href": "day2-morning-slides.html#the-major-external-sources-of-finance",
+    "title": "Corporate Financial Management",
+    "section": "The Major External Sources of Finance",
+    "text": "The Major External Sources of Finance\nExternal sources represent a spectrum of options ranging from short-term facilities to long-term capital.\n\n\n\n\n\nflowchart TD\n    A[External Finance Sources] --&gt; B[Short-term: &lt; 1 year]\n    A --&gt; C[Medium-term: 1-7 years]\n    A --&gt; D[Long-term: &gt; 7 years]\n    B --&gt; E[Bank overdrafts]\n    B --&gt; F[Invoice discounting]\n    B --&gt; G[Debt factoring]\n    B --&gt; H[Bills of exchange]\n    C --&gt; I[Term loans]\n    C --&gt; J[Hire purchase]\n    C --&gt; K[Leasing]\n    D --&gt; L[Corporate bonds]\n    D --&gt; M[Preference shares]\n    D --&gt; N[Ordinary shares]\n    D --&gt; O[Securitisation]"
+  },
+  {
+    "objectID": "day2-morning-slides.html#approaches-to-obtaining-finance",
+    "href": "day2-morning-slides.html#approaches-to-obtaining-finance",
+    "title": "Corporate Financial Management",
+    "section": "Approaches to Obtaining Finance",
+    "text": "Approaches to Obtaining Finance\nThere are two primary approaches through which organisations can access external finance."
+  },
+  {
+    "objectID": "day2-morning-slides.html#intermediation",
+    "href": "day2-morning-slides.html#intermediation",
+    "title": "Corporate Financial Management",
+    "section": "Intermediation",
+    "text": "Intermediation\nIntermediation is where finance is arranged through financial institutions such as commercial banks.\nCharacteristics: - Institution acts as intermediary between savers and borrowers - Involves screening and monitoring by the institution - Offers professional expertise and risk assessment - Typically used by businesses of all sizes - Often involves developing ongoing banking relationships\nExamples: - Bank loans and overdrafts - Factoring and invoice discounting - Leasing arrangements through finance companies"
+  },
+  {
+    "objectID": "day2-morning-slides.html#disintermediation",
+    "href": "day2-morning-slides.html#disintermediation",
+    "title": "Corporate Financial Management",
+    "section": "Disintermediation",
+    "text": "Disintermediation\nDisintermediation is where the financial intermediary’s role is bypassed, with companies accessing money markets or stock exchanges directly to obtain finance.\nCharacteristics: - Direct access to capital markets - Restricted to large, established companies - Used for substantial funding requirements - Often more cost-effective for large sums - Requires substantial disclosure and market reputation\nExamples: - Corporate bond issues - Public share offerings - Commercial paper issuance"
+  },
+  {
+    "objectID": "day2-morning-slides.html#bank-finance-the-lending-decision",
+    "href": "day2-morning-slides.html#bank-finance-the-lending-decision",
+    "title": "Corporate Financial Management",
+    "section": "Bank Finance: The Lending Decision",
+    "text": "Bank Finance: The Lending Decision\nBanks are a primary source of external finance for many businesses. Understanding their lending criteria is essential for successful financing applications."
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-lending-assessment",
+    "href": "day2-morning-slides.html#the-lending-assessment",
+    "title": "Corporate Financial Management",
+    "section": "The Lending Assessment",
+    "text": "The Lending Assessment\nBanks typically consider two core aspects when making lending decisions:\n\nGoing concern assessment: Determining whether the borrowing company can afford to make repayments from its ongoing operations.\nLiquidation assessment: Evaluating the recoverability of capital in the event the company enters liquidation."
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-seven-cs-of-lending",
+    "href": "day2-morning-slides.html#the-seven-cs-of-lending",
+    "title": "Corporate Financial Management",
+    "section": "The Seven C’s of Lending",
+    "text": "The Seven C’s of Lending\nA traditional framework used by banks to evaluate potential borrowers includes:\n\nCharacter\nCapacity\nCapital\nConditions\nCustomer relations\nCompetition\nCollateral"
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-expanded-view-20-cs-of-credit",
+    "href": "day2-morning-slides.html#the-expanded-view-20-cs-of-credit",
+    "title": "Corporate Financial Management",
+    "section": "The Expanded View: 20 C’s of Credit",
+    "text": "The Expanded View: 20 C’s of Credit\n\n\n\n\n\nNo.\nDescription\n\n\n\n\n1\nCharacter or culture of the borrower\n\n\n2\nCompetence of borrower\n\n\n3\nContinuity of management\n\n\n4\nCorporate constitution\n\n\n5\nCustomers and competitors\n\n\n6\nControls of costs and cash\n\n\n7\nCapacity to contract\n\n\n8\nCredibility of accounts\n\n\n9\nCause or purpose and term of loan\n\n\n10\nCapital required in total\n\n\n11\nCapital contribution of the bank\n\n\n12\nContribution to bank profits\n\n\n13\nCommitments\n\n\n14\nContingencies\n\n\n15\nComprehensive cash-flow projections\n\n\n16\nCurrent trading\n\n\n17\nCreditor coordination\n\n\n18\nConditions of drawdown\n\n\n19\nContinuing covenants\n\n\n20\nCollateral of security"
+  },
+  {
+    "objectID": "day2-morning-slides.html#business-plan-requirements",
+    "href": "day2-morning-slides.html#business-plan-requirements",
+    "title": "Corporate Financial Management",
+    "section": "Business Plan Requirements",
+    "text": "Business Plan Requirements\nA comprehensive business plan for bank finance applications should include:\n\nFunding requirements (amount, term, repayment, interest structure)\nClear purpose of the finance\nBackground information on the company\nCredit worthiness documentation\nBusiness stake and commitment\nAvailable security details\nFinancial projections and scenario analysis\nHistorical and projected financial statements"
+  },
+  {
+    "objectID": "day2-morning-slides.html#short-term-sources-of-finance",
+    "href": "day2-morning-slides.html#short-term-sources-of-finance",
+    "title": "Corporate Financial Management",
+    "section": "Short-Term Sources of Finance",
+    "text": "Short-Term Sources of Finance\nShort-term finance options (less than one year) are typically used to support working capital needs and temporary funding requirements."
+  },
+  {
+    "objectID": "day2-morning-slides.html#overview-of-short-term-finance",
+    "href": "day2-morning-slides.html#overview-of-short-term-finance",
+    "title": "Corporate Financial Management",
+    "section": "Overview of Short-Term Finance",
+    "text": "Overview of Short-Term Finance\nShort-term funding sources include:\n\nWorking capital management\nRetained earnings\nBank sources (overdrafts, short-term loans)\nMarket sources (commercial paper)\n\nThese are typically less expensive but carry refinancing risk and may be subject to immediate recall."
+  },
+  {
+    "objectID": "day2-morning-slides.html#bank-overdrafts",
+    "href": "day2-morning-slides.html#bank-overdrafts",
+    "title": "Corporate Financial Management",
+    "section": "Bank Overdrafts",
+    "text": "Bank Overdrafts\n\n\n\n\n\n\n\n\n\nFeature\nDescription\n\n\n\n\nDefinition\nFacility allowing withdrawal beyond deposited amount to an agreed limit\n\n\nInterest\nCharged only on negative balance amount\n\n\nSecurity\nTypically unsecured for smaller amounts\n\n\nLegal status\nLegally repayable on demand\n\n\nFlexibility\nHighly flexible form of finance\n\n\nCost structure\nArrangement fees, review fees plus interest\n\n\nRisk factors\nBreaching limits can damage credit rating"
+  },
+  {
+    "objectID": "day2-morning-slides.html#short-term-loans",
+    "href": "day2-morning-slides.html#short-term-loans",
+    "title": "Corporate Financial Management",
+    "section": "Short-Term Loans",
+    "text": "Short-Term Loans\nShort-term bank loans (up to one year) offer more structure than overdrafts:\n\nArrangement fees based on borrower’s credit profile\nPre-determined repayment schedule\nTypically secured against assets\nLower interest rates compared to overdrafts\nEarly repayment usually incurs penalties\nLess flexible than overdrafts but more certain"
+  },
+  {
+    "objectID": "day2-morning-slides.html#factoring-and-invoice-discounting",
+    "href": "day2-morning-slides.html#factoring-and-invoice-discounting",
+    "title": "Corporate Financial Management",
+    "section": "Factoring and Invoice Discounting",
+    "text": "Factoring and Invoice Discounting\n\n\n\n\n\nflowchart TD\n    A[Client business] --&gt;|1. Goods supplied on credit| B[Customer]\n    C[Factor] --&gt;|3. Advances 80% to client| A\n    C --&gt;|2. Invoices customer| B\n    B --&gt;|4. Pays amount owing to factor| C\n    C --&gt;|5. Pays remaining 20% to client| A\n\n\n\n\n\n\nFactoring vs Invoice Discounting compared:\n\n\n\n\n\n\n\n\n\n\nFeature\nFactoring\nInvoice Discounting\n\n\n\n\nService provided\nFull debt administration and collection\nAdvance against invoices only\n\n\nCustomer awareness\nCustomers aware of factor involvement\nCustomers typically unaware\n\n\nAdministration\nFactor handles all administration\nBusiness maintains own records\n\n\nControl over debts\nFactor controls collection process\nBusiness retains control\n\n\nRelative cost\nHigher cost service\nLower cost service\n\n\nConfidentiality\nNot confidential\nConfidential arrangement\n\n\nTypical clientele\nSmaller businesses\nLarger businesses"
+  },
+  {
+    "objectID": "day2-morning-slides.html#medium-term-finance",
+    "href": "day2-morning-slides.html#medium-term-finance",
+    "title": "Corporate Financial Management",
+    "section": "Medium-Term Finance",
+    "text": "Medium-Term Finance\nMedium-term finance options (1-7 years) bridge the gap between short-term borrowing and long-term capital."
+  },
+  {
+    "objectID": "day2-morning-slides.html#medium-term-options-overview",
+    "href": "day2-morning-slides.html#medium-term-options-overview",
+    "title": "Corporate Financial Management",
+    "section": "Medium-Term Options Overview",
+    "text": "Medium-Term Options Overview\nKey characteristics of medium-term finance:\n\nUtilized by organizations of all sizes\nParticularly important for SMEs\nMore accessible than long-term capital markets\nIncludes term loans, hire purchase, and leasing\nGenerally secured against specific assets"
+  },
+  {
+    "objectID": "day2-morning-slides.html#term-loans",
+    "href": "day2-morning-slides.html#term-loans",
+    "title": "Corporate Financial Management",
+    "section": "Term Loans",
+    "text": "Term Loans\nTerm loans represent a formal commitment to lend a specified amount for a defined period:\n\nTypically 1-7 years maturity\nCan feature fixed or variable interest rates\nSecured against business assets\nFormal repayment schedule\nMay include financial covenants\nMore structured than overdrafts but less rigid than bonds"
+  },
+  {
+    "objectID": "day2-morning-slides.html#hire-purchase",
+    "href": "day2-morning-slides.html#hire-purchase",
+    "title": "Corporate Financial Management",
+    "section": "Hire Purchase",
+    "text": "Hire Purchase\n\n\n\n\n\n\n\n\n\n\n\nStage\nDescription\n\n\n\n\n1\nCompany selling asset transfers physical asset to hiree (purchaser)\n\n\n2\nFinance house (hirer) pays full price to selling company\n\n\n3\nHiree makes down-payment and agrees to periodic payments\n\n\n4\nHiree makes regular rental installments to finance house\n\n\n5\nOwnership transfers to hiree upon final payment\n\n\n\n\n\n\nAdvantages of Hire Purchase:\n\nStraightforward arrangement\nProvides efficient access to assets\nWidely available\nPredictable cash flow planning\nNot repayable on demand\nTax relief on interest\nUltimate ownership\n\nDisadvantages of Hire Purchase:\n\nComparatively expensive\nLimited flexibility\nCostly termination penalties\nHiree assumes maintenance/insurance responsibilities\nFixed payment obligation regardless of asset utilization"
+  },
+  {
+    "objectID": "day2-morning-slides.html#leasing",
+    "href": "day2-morning-slides.html#leasing",
+    "title": "Corporate Financial Management",
+    "section": "Leasing",
+    "text": "Leasing\nLeases provide access to assets without necessarily transferring ownership.\nInternational Accounting Standard 17 defines a lease as: &gt; “An agreement whereby the lessor conveys to the lessee, in return for a payment or series of payments, the right to use an asset for an agreed period of time.”\nKey differences between leasing and hire purchase:\n\n\n\n\n\n\n\n\n\n\nFeature\nHire Purchase\nLeasing\n\n\n\n\nOwnership transfer\nAutomatically transfers on final payment\nNo automatic transfer at end of term\n\n\nTax treatment\nHiree claims capital allowances\nLessor claims capital allowances\n\n\nBalance sheet treatment\nAsset recorded on hirer’s balance sheet\nTreatment depends on lease classification\n\n\nMaintenance responsibility\nHiree assumes maintenance responsibility\nVaries according to lease terms"
+  },
+  {
+    "objectID": "day2-morning-slides.html#sale-and-leaseback",
+    "href": "day2-morning-slides.html#sale-and-leaseback",
+    "title": "Corporate Financial Management",
+    "section": "Sale and Leaseback",
+    "text": "Sale and Leaseback\nA sale and leaseback arrangement allows a company to:\n\nSell an existing asset (typically property)\nImmediately lease it back from the buyer\nContinue using the asset while releasing equity capital\nGenerate immediate cash flow improvement\nPotentially achieve favorable accounting treatment\n\nThis approach can be structured either with: - A subsidiary company - An external company"
+  },
+  {
+    "objectID": "day2-morning-slides.html#long-term-finance-debt",
+    "href": "day2-morning-slides.html#long-term-finance-debt",
+    "title": "Corporate Financial Management",
+    "section": "Long-Term Finance: Debt",
+    "text": "Long-Term Finance: Debt\nDebt represents a significant source of long-term finance for many businesses."
+  },
+  {
+    "objectID": "day2-morning-slides.html#debt-finance-benefits",
+    "href": "day2-morning-slides.html#debt-finance-benefits",
+    "title": "Corporate Financial Management",
+    "section": "Debt Finance Benefits",
+    "text": "Debt Finance Benefits\nLong-term debt offers several advantages:\n\nMore cost-effective and expedient than equity\nInterest is tax-deductible\nNo dilution of ownership or control\nCan reduce overall WACC (weighted average cost of capital)\nCan be structured with tailored repayment schedules\nLower risk for investors"
+  },
+  {
+    "objectID": "day2-morning-slides.html#debt-finance-drawbacks",
+    "href": "day2-morning-slides.html#debt-finance-drawbacks",
+    "title": "Corporate Financial Management",
+    "section": "Debt Finance Drawbacks",
+    "text": "Debt Finance Drawbacks\nHowever, debt also poses challenges:\n\nIncreases financial risk\nRequires regular interest payments regardless of profitability\nOften secured against company assets\nMay include restrictive covenants\nCan limit managerial flexibility\nMay restrict future borrowing capacity"
+  },
+  {
+    "objectID": "day2-morning-slides.html#restrictive-covenants",
+    "href": "day2-morning-slides.html#restrictive-covenants",
+    "title": "Corporate Financial Management",
+    "section": "Restrictive Covenants",
+    "text": "Restrictive Covenants\nLenders frequently impose covenants to protect their interests:\n\n\n\n\n\n\n\n\n\nCovenant Type\nDescription\n\n\n\n\nSecurity restrictions\nRestrictions on sale or use of secured assets\n\n\nFinancial ratio requirements\nMinimum interest cover ratio requirements\n\n\nAdditional debt limitations\nGearing ratio constraints (debt/assets, debt/equity)\n\n\nLiquidity requirements\nWorking capital ratio minimums to protect liquidity\n\n\nSinking fund provisions\nRequirements to set aside funds for repayment\n\n\nFuture debt restrictions\nLimitations on additional bond issues\n\n\nDividend limitations\nRestrictions on dividend payments\n\n\nShare redemption restrictions\nConstraints on share buybacks"
+  },
+  {
+    "objectID": "day2-morning-slides.html#corporate-bonds",
+    "href": "day2-morning-slides.html#corporate-bonds",
+    "title": "Corporate Financial Management",
+    "section": "Corporate Bonds",
+    "text": "Corporate Bonds\nCorporate bonds represent a formalized debt security that can be traded in financial markets:\n\nTradable loans with defined nominal (par) value\nFeature specified coupon rates for interest payments\nMay be issued with redeemable or irredeemable terms\nTypically have 7-30 year maturities (if redeemable)\nCan be issued publicly or through private placement\nMay be secured or unsecured\n\nKey bond characteristics:\n\nNominal value (typically £/€100)\nCoupon rate (interest payment)\nRedemption value (usually par value)\nRedemption date (for redeemable bonds)"
+  },
+  {
+    "objectID": "day2-morning-slides.html#long-term-finance-mezzanine-finance-and-preference-shares",
+    "href": "day2-morning-slides.html#long-term-finance-mezzanine-finance-and-preference-shares",
+    "title": "Corporate Financial Management",
+    "section": "Long-Term Finance: Mezzanine Finance and Preference Shares",
+    "text": "Long-Term Finance: Mezzanine Finance and Preference Shares\nBetween traditional debt and equity lies a range of hybrid financing instruments."
+  },
+  {
+    "objectID": "day2-morning-slides.html#mezzanine-finance-overview",
+    "href": "day2-morning-slides.html#mezzanine-finance-overview",
+    "title": "Corporate Financial Management",
+    "section": "Mezzanine Finance Overview",
+    "text": "Mezzanine Finance Overview\nMezzanine finance represents subordinated capital that fills the gap between senior debt and equity:\n\nLong-term, subordinated financing\nHigher interest rates reflecting increased risk\nOften includes equity-like features (warrants, conversion rights)\nTypically unsecured\nUsed as an alternative to equity dilution\nMain types include high-yield bonds, convertible bonds, and preference shares"
+  },
+  {
     "objectID": "day2-morning-slides.html#high-yield-bonds",
     "href": "day2-morning-slides.html#high-yield-bonds",
     "title": "Corporate Financial Management",
     "section": "High-Yield Bonds",
     "text": "High-Yield Bonds\nHigh-yield bonds are debt securities with lower credit ratings:\n\nUsed by companies with less robust financial positions\nCarry higher interest rates to compensate for increased risk\nAppeal to investors seeking higher returns\nSubject to higher default probability\nMay include more stringent covenants"
+  },
+  {
+    "objectID": "day2-morning-slides.html#convertible-bonds",
+    "href": "day2-morning-slides.html#convertible-bonds",
+    "title": "Corporate Financial Management",
+    "section": "Convertible Bonds",
+    "text": "Convertible Bonds\nConvertible bonds combine debt features with an option to convert to equity:\n\nFixed return securities with conversion option\nAllow holders to convert to shares at predetermined dates\nOften issued when share prices appear undervalued\nRepresent a deferred equity sale\nGenerally offer lower interest rates than straight debt\nReduce immediate dilution while providing potential equity upside\nPotentially eliminate cash repayment requirement if converted"
+  },
+  {
+    "objectID": "day2-morning-slides.html#preference-shares",
+    "href": "day2-morning-slides.html#preference-shares",
+    "title": "Corporate Financial Management",
+    "section": "Preference Shares",
+    "text": "Preference Shares\nPreference shares combine features of both debt and equity:\nKey characteristics:\n\nPart of share capital but typically not considered pure equity\nMay be issued at premium above nominal value\nUsually carry fixed dividends\nGenerally confer no voting rights\nMay be redeemable and/or convertible\nHigher in capital structure than ordinary shares but below bonds\nDividends are not tax-deductible"
+  },
+  {
+    "objectID": "day2-morning-slides.html#types-of-preference-shares",
+    "href": "day2-morning-slides.html#types-of-preference-shares",
+    "title": "Corporate Financial Management",
+    "section": "Types of preference shares",
+    "text": "Types of preference shares\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\nIrredeemable preference shares\nFixed dividend with no intended redemption or conversion\n\n\nRedeemable preference shares\nIssued for a predetermined period of time\n\n\nCumulative preference shares\nUnpaid dividends accumulate as an obligation\n\n\nNon-cumulative preference shares\nUnpaid dividends are lost if not declared\n\n\nParticipating preference shares\nHolders can participate in surplus profits\n\n\nConvertible preference shares\nConvertible to ordinary shares under specified conditions"
+  },
+  {
+    "objectID": "day2-morning-slides.html#preference-shares-characteristics",
+    "href": "day2-morning-slides.html#preference-shares-characteristics",
+    "title": "Corporate Financial Management",
+    "section": "Preference shares characteristics",
+    "text": "Preference shares characteristics\nAdvantages of preference shares:\n\nDividends can be deferred in challenging periods\nPreserve ownership structure\nCan improve gearing after conversion (if convertible)\nMore accessible than bonds for highly geared companies\n\nDisadvantages of preference shares:\n\nHigher cost than debt\nDividends not tax-deductible\nMay require redemption or conversion in future"
+  },
+  {
+    "objectID": "day2-morning-slides.html#long-term-finance-equity",
+    "href": "day2-morning-slides.html#long-term-finance-equity",
+    "title": "Corporate Financial Management",
+    "section": "Long-Term Finance: Equity",
+    "text": "Long-Term Finance: Equity\nOrdinary shares (common stock) represent the fundamental risk capital of the business."
+  },
+  {
+    "objectID": "day2-morning-slides.html#equity-fundamentals",
+    "href": "day2-morning-slides.html#equity-fundamentals",
+    "title": "Corporate Financial Management",
+    "section": "Equity Fundamentals",
+    "text": "Equity Fundamentals\nEquity represents ownership interest in a business:\n\nShareholders own a portion of the company\nNominal value assigned but not related to market value\nMay be traded (public companies) or not (private companies)\nUsually entitles holders to dividends from profits\nProvides pre-emptive rights in future share issues\nMost risky form of financing from investor perspective\nLeast risky from company perspective"
+  },
+  {
+    "objectID": "day2-morning-slides.html#equity-advantages",
+    "href": "day2-morning-slides.html#equity-advantages",
+    "title": "Corporate Financial Management",
+    "section": "Equity Advantages",
+    "text": "Equity Advantages\nFrom the company’s perspective, equity offers several benefits:\n\nLowest financial risk of all external finance\nNo obligation to pay dividends\nNo requirement to redeem capital\nNo fixed repayment schedule\nProvides permanent capital base\nIncreases capacity to raise additional debt"
+  },
+  {
+    "objectID": "day2-morning-slides.html#equity-disadvantages",
+    "href": "day2-morning-slides.html#equity-disadvantages",
+    "title": "Corporate Financial Management",
+    "section": "Equity Disadvantages",
+    "text": "Equity Disadvantages\nHowever, equity also has significant drawbacks:\n\nSignificant issuance costs (5-10% of funds raised)\nMinimum fixed costs limit accessibility to larger companies\nSubstantial administrative and regulatory requirements\nDividends not tax-deductible\nDilution of control\nHighest required return of all financing sources"
+  },
+  {
+    "objectID": "day2-morning-slides.html#methods-of-issuing-equity",
+    "href": "day2-morning-slides.html#methods-of-issuing-equity",
+    "title": "Corporate Financial Management",
+    "section": "Methods of Issuing Equity",
+    "text": "Methods of Issuing Equity\n\n\n\n\n\n\n\n\n\nMethod\nDescription\n\n\n\n\nInitial Public Offering (IPO)\nFirst sale of shares to the public with stock exchange listing\n\n\nRights Issues\nOffering of new shares to existing shareholders in proportion to holdings\n\n\nPrivate Placement\nSale of shares directly to specific institutional investors"
+  },
+  {
+    "objectID": "day2-morning-slides.html#rights-issues",
+    "href": "day2-morning-slides.html#rights-issues",
+    "title": "Corporate Financial Management",
+    "section": "Rights Issues",
+    "text": "Rights Issues\nFor existing listed companies, rights issues provide an efficient mechanism to raise additional equity:\n\nOffered to existing shareholders in proportion to holdings\nTypically priced at 15-20% discount to market value\nLower transaction costs than public offerings\nAdministratively simpler with existing shareholder base\nExisting shareholders can either subscribe or sell rights\nMarket price adjusts to account for discount"
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-finance-gap-and-venture-capital",
+    "href": "day2-morning-slides.html#the-finance-gap-and-venture-capital",
+    "title": "Corporate Financial Management",
+    "section": "The Finance Gap and Venture Capital",
+    "text": "The Finance Gap and Venture Capital\nMany growing businesses face a “finance gap” where conventional financing sources are insufficient."
+  },
+  {
+    "objectID": "day2-morning-slides.html#the-finance-gap",
+    "href": "day2-morning-slides.html#the-finance-gap",
+    "title": "Corporate Financial Management",
+    "section": "The Finance Gap",
+    "text": "The Finance Gap\nThe finance gap (or equity gap) typically emerges when:\n\nNew companies require substantial scale of financing\nExisting small companies experience rapid growth\nBank lending reaches prudential limits\nRetained earnings are insufficient\nPrivate equity holders lack capacity for further investment\nCompany is too small for public market access"
+  },
+  {
+    "objectID": "day2-morning-slides.html#venture-capital",
+    "href": "day2-morning-slides.html#venture-capital",
+    "title": "Corporate Financial Management",
+    "section": "Venture Capital",
+    "text": "Venture Capital\nVenture capital provides specialized equity financing to bridge this gap:\n\nFocuses on companies with strong growth potential\nTypically targets 30%+ annual returns\nPortfolio approach with mixed outcomes expected\nGenerally involves deals exceeding £250,000\nRequires equity stake and element of control\nPrefers companies with established track records\nNecessitates clear exit strategy (IPO or trade sale)\n\nBenefits to recipient companies: - Access to capital at crucial growth stage - Business expertise and mentoring - Industry contacts and networks - Strategic guidance - Potential follow-on financing\nDrawbacks for recipient companies: - Dilution of ownership - Partial loss of decision-making autonomy - Increased reporting and accountability - Performance pressure - Exit timeline constraints"
+  },
+  {
+    "objectID": "day2-morning-slides.html#government-initiatives",
+    "href": "day2-morning-slides.html#government-initiatives",
+    "title": "Corporate Financial Management",
+    "section": "Government Initiatives",
+    "text": "Government Initiatives\nVarious government schemes aim to address the finance gap:\nEnterprise Investment Scheme (EIS): - Tax relief (30%) for investors in qualifying companies - Investment limit of £1 million per annum - Companies can raise up to £5 million annually - Aimed at unlisted companies\nVenture Capital Trusts (VCTs): - Similar tax benefits to EIS - Minimum five-year investment period - Professionally managed funds - Diversified portfolio approach"
+  },
+  {
+    "objectID": "day2-morning-slides.html#new-sources-of-finance",
+    "href": "day2-morning-slides.html#new-sources-of-finance",
+    "title": "Corporate Financial Management",
+    "section": "New Sources of Finance",
+    "text": "New Sources of Finance\nThe financing landscape continues to evolve with innovative funding mechanisms."
+  },
+  {
+    "objectID": "day2-morning-slides.html#crowdfunding",
+    "href": "day2-morning-slides.html#crowdfunding",
+    "title": "Corporate Financial Management",
+    "section": "Crowdfunding",
+    "text": "Crowdfunding\nCrowdfunding has emerged as a significant alternative funding source:\n\nPeer-to-peer lending platforms\nEquity-based crowdfunding\nReward-based crowdfunding\nDonation-based funding\nReal estate crowdfunding\n\nThese platforms connect entrepreneurs directly with numerous small investors, bypassing traditional financial intermediaries."
+  },
+  {
+    "objectID": "day2-morning-slides.html#asset-based-finance",
+    "href": "day2-morning-slides.html#asset-based-finance",
+    "title": "Corporate Financial Management",
+    "section": "Asset-Based Finance",
+    "text": "Asset-Based Finance\nAsset-based lending focuses on the value of specific assets:\n\nSupply chain finance\nMarketplace lending\nInvoice trading platforms\nPeer-to-peer secured lending\nAsset refinancing"
+  },
+  {
+    "objectID": "day2-morning-slides.html#fintech-innovations",
+    "href": "day2-morning-slides.html#fintech-innovations",
+    "title": "Corporate Financial Management",
+    "section": "Fintech Innovations",
+    "text": "Fintech Innovations\nFinancial technology is transforming the financing landscape:\n\nBlockchain-based financing\nInitial Coin Offerings (ICOs)\nSecurity Token Offerings (STOs)\nArtificial intelligence in lending decisions\nOpen banking initiatives"
+  },
+  {
+    "objectID": "day2-morning-slides.html#key-source-of-finance-principles",
+    "href": "day2-morning-slides.html#key-source-of-finance-principles",
+    "title": "Corporate Financial Management",
+    "section": "Key Source of Finance Principles",
+    "text": "Key Source of Finance Principles\nSeveral fundamental principles should guide financing decisions in practice.\n\n\n\n\nThe type of finance should match the term of the investment (matching principle)\nManagement typically follows a “pecking order”: internal sources first, then debt, then equity\nMarket-sourced finance is primarily viable for larger companies due to transaction costs\nSMEs should prioritize bank financing, medium-term instruments, and venture capital\nCost of each source correlates with the risk borne by investors\nVenture capital targets growth-oriented companies in the finance gap\nComprehensive business plans with robust financial projections are essential for external financing\nInnovative financing sources continue to expand options, particularly for early-stage companies"
+  },
+  {
+    "objectID": "day2-morning-slides.html#for-this-afternoon",
+    "href": "day2-morning-slides.html#for-this-afternoon",
+    "title": "Corporate Financial Management",
+    "section": "For This Afternoon",
+    "text": "For This Afternoon\nThis afternoon, we will build on this morning’s exploration of financing sources to focus on:\n\nCost of capital calculations\nWeighted Average Cost of Capital (WACC)\nCapital structure decisions\nOptimal gearing levels\nDividend policy considerations\n\nPlease review the case studies in the module materials to prepare for our practical session."
+  },
+  {
+    "objectID": "day2-morning-slides.html#additional-resources",
+    "href": "day2-morning-slides.html#additional-resources",
+    "title": "Corporate Financial Management",
+    "section": "Additional Resources",
+    "text": "Additional Resources\nCore Reading: - Atrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall, Chapters 6-8 - Arnold, G. (2020) Corporate Financial Management (6th ed.), Chapters 8-10\nOnline Resources: - Bank of England Monetary Policy Reports - UK Finance - British Business Bank"
+  },
+  {
+    "objectID": "day2-morning-slides.html#practice-questions",
+    "href": "day2-morning-slides.html#practice-questions",
+    "title": "Corporate Financial Management",
+    "section": "Practice Questions",
+    "text": "Practice Questions\n\nABC Ltd is considering expanding its operations and requires £5 million in financing. Evaluate the most appropriate sources of finance for the company, assuming it is a medium-sized manufacturer with strong but fluctuating cash flows.\nCompare and contrast factoring and invoice discounting as sources of short-term finance. Under what circumstances would you recommend each option?\nXYZ plc is considering issuing either (a) £10 million in 10-year corporate bonds at 4.5% or (b) £10 million in preference shares with a 6% dividend. Discuss the advantages and disadvantages of each option, including their impact on the company’s capital structure.\nDiscuss how the “pecking order theory” explains observed financing behaviors in practice. What factors might cause a company to deviate from this hierarchy?\nA technology startup has exhausted its founders’ personal investments and bank lending capacity but requires an additional £2 million to bring its product to market. Evaluate the potential financing options available to the company.\n\n\n\n\nCorporate Financial Management - Day 2 Morning"
   }
 ]

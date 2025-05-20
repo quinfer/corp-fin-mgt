@@ -3,11 +3,10 @@ title: "Dividend Policy"
 subtitle: "Day 3 - Morning Session"
 author: "Prof. Barry Quinn"
 institute: "Ulster University Business School"
+date: last-modified
 format:
   html:
-    toc: true
-    theme: cosmo
-    css: "../styles.css"
+    number-sections: true
 ---
 
 # Dividend Policy

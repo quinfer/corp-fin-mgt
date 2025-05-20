@@ -3,15 +3,9 @@ title: "Corporate Financial Management"
 subtitle: "ACF838 - MSc Management and Corporate Governance"
 author: "Prof. Barry Quinn"
 institute: "Ulster University Business School"
-date: "2025"
+date: last-modified
 format: 
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-    preserve-tabs: true
-    html-math-method: katex
-    self-contained: false
+  html: default
 ---
 
 # Corporate Financial Management (ACF838)
@@ -80,7 +74,7 @@ By completing this module, you will be able to:
 This module is assessed through **two components**:
 
 - **Coursework (50%)**: Case study analysis due 07 June 2025
-- **Examination (50%)**: 3-hour online exam during the exam period (Date TBC)
+- **Examination (50%)**: 3-hour online take home exam (Released on 21st June 9am, Due by 23rd June 9am)
 
 ## Key Resources
 

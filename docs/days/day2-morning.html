@@ -6,8 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Prof.&nbsp;Barry Quinn">
-<meta name="dcterms.date" content="2025-05-17">
+<meta name="author" content="Prof. Barry Quinn">
+<meta name="dcterms.date" content="2025-05-20">
 
 <title>Corporate Financial Management</title>
 <style>
@@ -18,61 +18,238 @@ div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
+}
+
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+}
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
 
-<script src="day2-morning_files/libs/clipboard/clipboard.min.js"></script>
-<script src="day2-morning_files/libs/quarto-html/quarto.js"></script>
-<script src="day2-morning_files/libs/quarto-html/popper.min.js"></script>
-<script src="day2-morning_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="day2-morning_files/libs/quarto-html/anchor.min.js"></script>
-<link href="day2-morning_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="day2-morning_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="day2-morning_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="day2-morning_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="day2-morning_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="day2-morning_files/libs/quarto-diagram/mermaid.min.js"></script>
-<script src="day2-morning_files/libs/quarto-diagram/mermaid-init.js"></script>
-<link href="day2-morning_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../_assets/images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../_assets/css/styles.css">
 </head>
 
-<body>
+<body class="nav-fixed">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Corporate Financial Management</span>
+    </a>
+  </div>
+            <div id="quarto-search" class title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-day-1" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Day 1</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-day-1">    
+        <li>
+    <a class="dropdown-item" href="../days/day1.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../days/day1-morning.html">
+ <span class="dropdown-text">Morning Session</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../days/day1-afternoon.html">
+ <span class="dropdown-text">Afternoon Session</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-day-2" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Day 2</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-day-2">    
+        <li>
+    <a class="dropdown-item" href="../days/day2.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../days/day2-morning.html">
+ <span class="dropdown-text">Morning Session</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../days/day2-afternoon.html">
+ <span class="dropdown-text">Afternoon Session</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-day-3" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Day 3</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-day-3">    
+        <li>
+    <a class="dropdown-item" href="../days/day3.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../days/day3-morning.html">
+ <span class="dropdown-text">Morning Session</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../days/day3-afternoon.html">
+ <span class="dropdown-text">Afternoon Session</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-day-4" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Day 4</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-day-4">    
+        <li>
+    <a class="dropdown-item" href="../days/day4.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../days/day4-morning.html">
+ <span class="dropdown-text">Morning Session</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../days/day4-afternoon.html">
+ <span class="dropdown-text">Afternoon Session</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../resources/index.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#sources-of-finance-framework" id="toc-sources-of-finance-framework" class="nav-link active" data-scroll-target="#sources-of-finance-framework">Sources of Finance Framework</a></li>
-  <li><a href="#the-financing-decision" id="toc-the-financing-decision" class="nav-link" data-scroll-target="#the-financing-decision">The Financing Decision</a></li>
-  <li><a href="#internal-vs-external-sources-of-finance" id="toc-internal-vs-external-sources-of-finance" class="nav-link" data-scroll-target="#internal-vs-external-sources-of-finance">Internal vs External Sources of Finance</a></li>
-  <li><a href="#the-major-internal-sources-of-finance" id="toc-the-major-internal-sources-of-finance" class="nav-link" data-scroll-target="#the-major-internal-sources-of-finance">The Major Internal Sources of Finance</a></li>
-  <li><a href="#the-major-external-sources-of-finance" id="toc-the-major-external-sources-of-finance" class="nav-link" data-scroll-target="#the-major-external-sources-of-finance">The Major External Sources of Finance</a></li>
-  <li><a href="#approaches-to-obtaining-finance" id="toc-approaches-to-obtaining-finance" class="nav-link" data-scroll-target="#approaches-to-obtaining-finance">Approaches to Obtaining Finance</a></li>
-  <li><a href="#bank-finance-the-lending-decision" id="toc-bank-finance-the-lending-decision" class="nav-link" data-scroll-target="#bank-finance-the-lending-decision">Bank Finance: The Lending Decision</a></li>
-  <li><a href="#short-term-sources-of-finance" id="toc-short-term-sources-of-finance" class="nav-link" data-scroll-target="#short-term-sources-of-finance">Short-Term Sources of Finance</a></li>
-  <li><a href="#medium-term-finance" id="toc-medium-term-finance" class="nav-link" data-scroll-target="#medium-term-finance">Medium-Term Finance</a></li>
-  <li><a href="#long-term-finance-debt" id="toc-long-term-finance-debt" class="nav-link" data-scroll-target="#long-term-finance-debt">Long-Term Finance: Debt</a></li>
-  <li><a href="#long-term-finance-mezzanine-finance-and-preference-shares" id="toc-long-term-finance-mezzanine-finance-and-preference-shares" class="nav-link" data-scroll-target="#long-term-finance-mezzanine-finance-and-preference-shares">Long-Term Finance: Mezzanine Finance and Preference Shares</a></li>
-  <li><a href="#long-term-finance-equity" id="toc-long-term-finance-equity" class="nav-link" data-scroll-target="#long-term-finance-equity">Long-Term Finance: Equity</a></li>
-  <li><a href="#the-finance-gap-and-venture-capital" id="toc-the-finance-gap-and-venture-capital" class="nav-link" data-scroll-target="#the-finance-gap-and-venture-capital">The Finance Gap and Venture Capital</a></li>
-  <li><a href="#new-sources-of-finance" id="toc-new-sources-of-finance" class="nav-link" data-scroll-target="#new-sources-of-finance">New Sources of Finance</a></li>
-  <li><a href="#key-source-of-finance-principles" id="toc-key-source-of-finance-principles" class="nav-link" data-scroll-target="#key-source-of-finance-principles">Key Source of Finance Principles</a></li>
+  <li><a href="#the-financing-decision" id="toc-the-financing-decision" class="nav-link" data-scroll-target="#the-financing-decision"><span class="header-section-number">1</span> The Financing Decision</a></li>
+  <li><a href="#internal-vs-external-sources-of-finance" id="toc-internal-vs-external-sources-of-finance" class="nav-link" data-scroll-target="#internal-vs-external-sources-of-finance"><span class="header-section-number">2</span> Internal vs External Sources of Finance</a></li>
+  <li><a href="#the-major-internal-sources-of-finance" id="toc-the-major-internal-sources-of-finance" class="nav-link" data-scroll-target="#the-major-internal-sources-of-finance"><span class="header-section-number">3</span> The Major Internal Sources of Finance</a></li>
+  <li><a href="#the-major-external-sources-of-finance" id="toc-the-major-external-sources-of-finance" class="nav-link" data-scroll-target="#the-major-external-sources-of-finance"><span class="header-section-number">4</span> The Major External Sources of Finance</a></li>
+  <li><a href="#approaches-to-obtaining-finance" id="toc-approaches-to-obtaining-finance" class="nav-link" data-scroll-target="#approaches-to-obtaining-finance"><span class="header-section-number">5</span> Approaches to Obtaining Finance</a></li>
+  <li><a href="#bank-finance-the-lending-decision" id="toc-bank-finance-the-lending-decision" class="nav-link" data-scroll-target="#bank-finance-the-lending-decision"><span class="header-section-number">6</span> Bank Finance: The Lending Decision</a></li>
+  <li><a href="#short-term-sources-of-finance" id="toc-short-term-sources-of-finance" class="nav-link" data-scroll-target="#short-term-sources-of-finance"><span class="header-section-number">7</span> Short-Term Sources of Finance</a></li>
+  <li><a href="#medium-term-finance" id="toc-medium-term-finance" class="nav-link" data-scroll-target="#medium-term-finance"><span class="header-section-number">8</span> Medium-Term Finance</a></li>
+  <li><a href="#long-term-finance-debt" id="toc-long-term-finance-debt" class="nav-link" data-scroll-target="#long-term-finance-debt"><span class="header-section-number">9</span> Long-Term Finance: Debt</a></li>
+  <li><a href="#long-term-finance-mezzanine-finance-and-preference-shares" id="toc-long-term-finance-mezzanine-finance-and-preference-shares" class="nav-link" data-scroll-target="#long-term-finance-mezzanine-finance-and-preference-shares"><span class="header-section-number">10</span> Long-Term Finance: Mezzanine Finance and Preference Shares</a></li>
+  <li><a href="#long-term-finance-equity" id="toc-long-term-finance-equity" class="nav-link" data-scroll-target="#long-term-finance-equity"><span class="header-section-number">11</span> Long-Term Finance: Equity</a></li>
+  <li><a href="#the-finance-gap-and-venture-capital" id="toc-the-finance-gap-and-venture-capital" class="nav-link" data-scroll-target="#the-finance-gap-and-venture-capital"><span class="header-section-number">12</span> The Finance Gap and Venture Capital</a></li>
+  <li><a href="#new-sources-of-finance" id="toc-new-sources-of-finance" class="nav-link" data-scroll-target="#new-sources-of-finance"><span class="header-section-number">13</span> New Sources of Finance</a></li>
+  <li><a href="#key-source-of-finance-principles" id="toc-key-source-of-finance-principles" class="nav-link" data-scroll-target="#key-source-of-finance-principles"><span class="header-section-number">14</span> Key Source of Finance Principles</a></li>
   <li><a href="#for-this-afternoon" id="toc-for-this-afternoon" class="nav-link" data-scroll-target="#for-this-afternoon">For This Afternoon</a></li>
   <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
   <li><a href="#practice-questions" id="toc-practice-questions" class="nav-link" data-scroll-target="#practice-questions">Practice Questions</a></li>
   </ul>
-</nav>
-</div>
-<main class="content" id="quarto-document-content">
+<div class="toc-actions"><ul><li><a href="https://github.com/quinfer/corp-fin-mgt/edit/main/days/day2-morning.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/quinfer/corp-fin-mgt/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -82,19 +259,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Prof.&nbsp;Barry Quinn </p>
+             <p>Prof. Barry Quinn </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 17, 2025</p>
+      <p class="date">May 20, 2025</p>
     </div>
   </div>
   
@@ -130,11 +307,11 @@ Learning Outcomes for This Session
 </div>
 </div>
 </section>
-<section id="the-financing-decision" class="level2">
-<h2 class="anchored" data-anchor-id="the-financing-decision">The Financing Decision</h2>
+<section id="the-financing-decision" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="the-financing-decision"><span class="header-section-number">1</span> The Financing Decision</h2>
 <p>After making capital investment decisions using the appraisal techniques covered yesterday, the finance manager must turn attention to the financing decision – finding suitable sources to fund those investments.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">The Financing Context</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Financing Decision Framework</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Real-World Context</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">The Financing Context</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Financing Decision Framework</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Real-World Context</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>The financing decision follows logically from the investment decision and involves determining:</p>
@@ -179,8 +356,8 @@ Learning Outcomes for This Session
 </div>
 </div>
 </section>
-<section id="internal-vs-external-sources-of-finance" class="level2">
-<h2 class="anchored" data-anchor-id="internal-vs-external-sources-of-finance">Internal vs External Sources of Finance</h2>
+<section id="internal-vs-external-sources-of-finance" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="internal-vs-external-sources-of-finance"><span class="header-section-number">2</span> Internal vs External Sources of Finance</h2>
 <p>Organisations can source funding either internally from operations or externally from capital markets and financial institutions.</p>
 <div class="grid">
 <div class="g-col-6">
@@ -209,8 +386,8 @@ Learning Outcomes for This Session
 </div>
 </div>
 </section>
-<section id="the-major-internal-sources-of-finance" class="level2">
-<h2 class="anchored" data-anchor-id="the-major-internal-sources-of-finance">The Major Internal Sources of Finance</h2>
+<section id="the-major-internal-sources-of-finance" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="the-major-internal-sources-of-finance"><span class="header-section-number">3</span> The Major Internal Sources of Finance</h2>
 <p>Internal financing is often preferred as it avoids the costs, formalities, and external scrutiny associated with raising external finance.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -249,8 +426,8 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="the-major-external-sources-of-finance" class="level2">
-<h2 class="anchored" data-anchor-id="the-major-external-sources-of-finance">The Major External Sources of Finance</h2>
+<section id="the-major-external-sources-of-finance" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="the-major-external-sources-of-finance"><span class="header-section-number">4</span> The Major External Sources of Finance</h2>
 <p>External sources represent a wide spectrum of options ranging from short-term facilities to long-term capital.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -279,11 +456,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="approaches-to-obtaining-finance" class="level2">
-<h2 class="anchored" data-anchor-id="approaches-to-obtaining-finance">Approaches to Obtaining Finance</h2>
+<section id="approaches-to-obtaining-finance" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="approaches-to-obtaining-finance"><span class="header-section-number">5</span> Approaches to Obtaining Finance</h2>
 <p>There are two primary approaches through which organisations can access external finance.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Intermediation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Disintermediation</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Intermediation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Disintermediation</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <p><strong>Intermediation</strong> is where finance is arranged through financial institutions such as commercial banks.</p>
@@ -298,11 +475,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="bank-finance-the-lending-decision" class="level2">
-<h2 class="anchored" data-anchor-id="bank-finance-the-lending-decision">Bank Finance: The Lending Decision</h2>
+<section id="bank-finance-the-lending-decision" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="bank-finance-the-lending-decision"><span class="header-section-number">6</span> Bank Finance: The Lending Decision</h2>
 <p>Banks are a primary source of external finance for many businesses. Understanding their lending criteria is essential for successful financing applications.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true" href="">The Lending Assessment</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false" href="">The Seven C’s of Lending</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false" href="">The Expanded View: 20 C’s of Credit</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false" href="">Business Plan Requirements</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">The Lending Assessment</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">The Seven C’s of Lending</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">The Expanded View: 20 C’s of Credit</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false">Business Plan Requirements</a></li></ul>
 <div class="tab-content">
 <div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
 <p>Banks typically consider two core aspects when making lending decisions:</p>
@@ -325,6 +502,31 @@ Working Capital Management
 </div>
 <div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
 <div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>c_categories <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Category =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">20</span>,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Description =</span> <span class="fu">c</span>(<span class="st">&quot;Character or culture of the borrower&quot;</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Competence of borrower&quot;</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Continuity of management&quot;</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Corporate constitution&quot;</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Customers and competitors&quot;</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Controls of costs and cash&quot;</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Capacity to contract&quot;</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Credibility of accounts&quot;</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Cause or purpose and term of loan&quot;</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Capital required in total&quot;</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Capital contribution of the bank&quot;</span>,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Contribution to bank profits&quot;</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Commitments&quot;</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Contingencies&quot;</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Comprehensive cash-flow projections&quot;</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Current trading&quot;</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Creditor coordination&quot;</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Conditions of drawdown&quot;</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Continuing covenants&quot;</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Collateral of security&quot;</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(c_categories, <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">&quot;No.&quot;</span>, <span class="st">&quot;Description&quot;</span>), <span class="at">align =</span> <span class="st">&quot;lr&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <thead>
@@ -435,11 +637,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="short-term-sources-of-finance" class="level2">
-<h2 class="anchored" data-anchor-id="short-term-sources-of-finance">Short-Term Sources of Finance</h2>
+<section id="short-term-sources-of-finance" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="short-term-sources-of-finance"><span class="header-section-number">7</span> Short-Term Sources of Finance</h2>
 <p>Short-term finance options (less than one year) are typically used to support working capital needs and temporary funding requirements.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true" href="">Overview of Short-Term Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false" href="">Bank Overdrafts</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false" href="">Short-Term Loans</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-4" role="tab" aria-controls="tabset-4-4" aria-selected="false" href="">Factoring and Invoice Discounting</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Overview of Short-Term Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Bank Overdrafts</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">Short-Term Loans</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-4" role="tab" aria-controls="tabset-4-4" aria-selected="false">Factoring and Invoice Discounting</a></li></ul>
 <div class="tab-content">
 <div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
 <p>Short-term funding sources include:</p>
@@ -453,6 +655,18 @@ Working Capital Management
 </div>
 <div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
 <div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>overdraft_features <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Feature =</span> <span class="fu">c</span>(<span class="st">&quot;Definition&quot;</span>, <span class="st">&quot;Interest&quot;</span>, <span class="st">&quot;Security&quot;</span>, <span class="st">&quot;Legal status&quot;</span>, <span class="st">&quot;Flexibility&quot;</span>, <span class="st">&quot;Cost structure&quot;</span>, <span class="st">&quot;Risk factors&quot;</span>),</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Description =</span> <span class="fu">c</span>(<span class="st">&quot;Facility allowing withdrawal beyond deposited amount to an agreed limit&quot;</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Charged only on negative balance amount&quot;</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Typically unsecured for smaller amounts&quot;</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Legally repayable on demand&quot;</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Highly flexible form of finance&quot;</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Arrangement fees, review fees plus interest&quot;</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Breaching limits can damage credit rating&quot;</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(overdraft_features, <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">&quot;Feature&quot;</span>, <span class="st">&quot;Description&quot;</span>), <span class="at">align =</span> <span class="st">&quot;lr&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -530,6 +744,13 @@ Working Capital Management
 </div>
 <p><strong>Factoring vs Invoice Discounting compared:</strong></p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>factoring_comparison <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Feature =</span> <span class="fu">c</span>(<span class="st">&quot;Service provided&quot;</span>, <span class="st">&quot;Customer awareness&quot;</span>, <span class="st">&quot;Administration&quot;</span>, <span class="st">&quot;Control over debts&quot;</span>, <span class="st">&quot;Relative cost&quot;</span>, <span class="st">&quot;Confidentiality&quot;</span>, <span class="st">&quot;Typical clientele&quot;</span>),</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Factoring =</span> <span class="fu">c</span>(<span class="st">&quot;Full debt administration and collection&quot;</span>, <span class="st">&quot;Customers aware of factor involvement&quot;</span>, <span class="st">&quot;Factor handles all administration&quot;</span>, <span class="st">&quot;Factor controls collection process&quot;</span>, <span class="st">&quot;Higher cost service&quot;</span>, <span class="st">&quot;Not confidential&quot;</span>, <span class="st">&quot;Smaller businesses&quot;</span>),</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">Discounting =</span> <span class="fu">c</span>(<span class="st">&quot;Advance against invoices only&quot;</span>, <span class="st">&quot;Customers typically unaware&quot;</span>, <span class="st">&quot;Business maintains own records&quot;</span>, <span class="st">&quot;Business retains control&quot;</span>, <span class="st">&quot;Lower cost service&quot;</span>, <span class="st">&quot;Confidential arrangement&quot;</span>, <span class="st">&quot;Larger businesses&quot;</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(factoring_comparison, <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">&quot;Feature&quot;</span>, <span class="st">&quot;Factoring&quot;</span>, <span class="st">&quot;Invoice Discounting&quot;</span>), <span class="at">align =</span> <span class="st">&quot;lll&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -588,11 +809,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="medium-term-finance" class="level2">
-<h2 class="anchored" data-anchor-id="medium-term-finance">Medium-Term Finance</h2>
+<section id="medium-term-finance" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="medium-term-finance"><span class="header-section-number">8</span> Medium-Term Finance</h2>
 <p>Medium-term finance options (1-7 years) bridge the gap between short-term borrowing and long-term capital.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true" href="">Medium-Term Options Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false" href="">Term Loans</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false" href="">Hire Purchase</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-4" role="tab" aria-controls="tabset-5-4" aria-selected="false" href="">Leasing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-5" role="tab" aria-controls="tabset-5-5" aria-selected="false" href="">Sale and Leaseback</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Medium-Term Options Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Term Loans</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false">Hire Purchase</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-4" role="tab" aria-controls="tabset-5-4" aria-selected="false">Leasing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-5" role="tab" aria-controls="tabset-5-5" aria-selected="false">Sale and Leaseback</a></li></ul>
 <div class="tab-content">
 <div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
 <p>Key characteristics of medium-term finance:</p>
@@ -617,6 +838,16 @@ Working Capital Management
 </div>
 <div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
 <div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>hp_diagram <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Stage =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>,</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Description =</span> <span class="fu">c</span>(<span class="st">&quot;Company selling asset transfers physical asset to hiree (purchaser)&quot;</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Finance house (hirer) pays full price to selling company&quot;</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Hiree makes down-payment and agrees to periodic payments&quot;</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Hiree makes regular rental installments to finance house&quot;</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Ownership transfers to hiree upon final payment&quot;</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(hp_diagram, <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">&quot;Stage&quot;</span>, <span class="st">&quot;Description&quot;</span>), <span class="at">align =</span> <span class="st">&quot;lr&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -662,6 +893,13 @@ Working Capital Management
 <p><strong>International Accounting Standard 17 defines a lease as:</strong> &gt; “An agreement whereby the lessor conveys to the lessee, in return for a payment or series of payments, the right to use an asset for an agreed period of time.”</p>
 <p><strong>Key differences between leasing and hire purchase:</strong></p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>lease_hp_diff <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Feature =</span> <span class="fu">c</span>(<span class="st">&quot;Ownership transfer&quot;</span>, <span class="st">&quot;Tax treatment&quot;</span>, <span class="st">&quot;Balance sheet treatment&quot;</span>, <span class="st">&quot;Maintenance responsibility&quot;</span>),</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Hire_Purchase =</span> <span class="fu">c</span>(<span class="st">&quot;Automatically transfers on final payment&quot;</span>, <span class="st">&quot;Hiree claims capital allowances&quot;</span>, <span class="st">&quot;Asset recorded on hirer&#39;s balance sheet&quot;</span>, <span class="st">&quot;Hiree assumes maintenance responsibility&quot;</span>),</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">Leasing =</span> <span class="fu">c</span>(<span class="st">&quot;No automatic transfer at end of term&quot;</span>, <span class="st">&quot;Lessor claims capital allowances&quot;</span>, <span class="st">&quot;Treatment depends on lease classification&quot;</span>, <span class="st">&quot;Varies according to lease terms&quot;</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(lease_hp_diff, <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">&quot;Feature&quot;</span>, <span class="st">&quot;Hire Purchase&quot;</span>, <span class="st">&quot;Leasing&quot;</span>), <span class="at">align =</span> <span class="st">&quot;lll&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -716,11 +954,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="long-term-finance-debt" class="level2">
-<h2 class="anchored" data-anchor-id="long-term-finance-debt">Long-Term Finance: Debt</h2>
+<section id="long-term-finance-debt" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="long-term-finance-debt"><span class="header-section-number">9</span> Long-Term Finance: Debt</h2>
 <p>Debt represents a significant source of long-term finance for many businesses.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true" href="">Debt Finance Benefits</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false" href="">Debt Finance Drawbacks</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false" href="">Restrictive Covenants</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-4" role="tab" aria-controls="tabset-6-4" aria-selected="false" href="">Corporate Bonds</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Debt Finance Benefits</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Debt Finance Drawbacks</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false">Restrictive Covenants</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-4" role="tab" aria-controls="tabset-6-4" aria-selected="false">Corporate Bonds</a></li></ul>
 <div class="tab-content">
 <div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
 <p>Long-term debt offers several advantages:</p>
@@ -747,6 +985,21 @@ Working Capital Management
 <div id="tabset-6-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-3-tab">
 <p>Lenders frequently impose covenants to protect their interests:</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>covenants <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Covenant_Type =</span> <span class="fu">c</span>(<span class="st">&quot;Security restrictions&quot;</span>, <span class="st">&quot;Financial ratio requirements&quot;</span>, <span class="st">&quot;Additional debt limitations&quot;</span>, </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;Liquidity requirements&quot;</span>, <span class="st">&quot;Sinking fund provisions&quot;</span>, <span class="st">&quot;Future debt restrictions&quot;</span>, </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;Dividend limitations&quot;</span>, <span class="st">&quot;Share redemption restrictions&quot;</span>),</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Description =</span> <span class="fu">c</span>(<span class="st">&quot;Restrictions on sale or use of secured assets&quot;</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Minimum interest cover ratio requirements&quot;</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Gearing ratio constraints (debt/assets, debt/equity)&quot;</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Working capital ratio minimums to protect liquidity&quot;</span>,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Requirements to set aside funds for repayment&quot;</span>,</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Limitations on additional bond issues&quot;</span>,</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Restrictions on dividend payments&quot;</span>,</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Constraints on share buybacks&quot;</span>)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(covenants, <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">&quot;Covenant Type&quot;</span>, <span class="st">&quot;Description&quot;</span>), <span class="at">align =</span> <span class="st">&quot;ll&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -812,11 +1065,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="long-term-finance-mezzanine-finance-and-preference-shares" class="level2">
-<h2 class="anchored" data-anchor-id="long-term-finance-mezzanine-finance-and-preference-shares">Long-Term Finance: Mezzanine Finance and Preference Shares</h2>
+<section id="long-term-finance-mezzanine-finance-and-preference-shares" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="long-term-finance-mezzanine-finance-and-preference-shares"><span class="header-section-number">10</span> Long-Term Finance: Mezzanine Finance and Preference Shares</h2>
 <p>Between traditional debt and equity lies a range of hybrid financing instruments.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true" href="">Mezzanine Finance Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false" href="">Junk Bonds</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-3" role="tab" aria-controls="tabset-7-3" aria-selected="false" href="">Convertible Bonds</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-4" role="tab" aria-controls="tabset-7-4" aria-selected="false" href="">Preference Shares</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true">Mezzanine Finance Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false">Junk Bonds</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-3" role="tab" aria-controls="tabset-7-3" aria-selected="false">Convertible Bonds</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-4" role="tab" aria-controls="tabset-7-4" aria-selected="false">Preference Shares</a></li></ul>
 <div class="tab-content">
 <div id="tabset-7-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-7-1-tab">
 <p>Mezzanine finance represents higher-risk, higher-return capital that fills the gap between senior debt and equity:</p>
@@ -856,6 +1109,19 @@ Working Capital Management
 <p><strong>Key characteristics:</strong> - Part of share capital but typically not considered pure equity - May be issued at premium above nominal value - Usually carry fixed dividends - Generally confer no voting rights - May be redeemable and/or convertible - Higher in capital structure than ordinary shares but below bonds - Dividends are not tax-deductible</p>
 <p><strong>Types of preference shares:</strong></p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>pref_share_types <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Type =</span> <span class="fu">c</span>(<span class="st">&quot;Irredeemable preference shares&quot;</span>, <span class="st">&quot;Redeemable preference shares&quot;</span>, <span class="st">&quot;Cumulative preference shares&quot;</span>, </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;Non-cumulative preference shares&quot;</span>, <span class="st">&quot;Participating preference shares&quot;</span>, </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;Convertible preference shares&quot;</span>),</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Description =</span> <span class="fu">c</span>(<span class="st">&quot;Fixed dividend with no intended redemption or conversion&quot;</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Issued for a predetermined period of time&quot;</span>,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Unpaid dividends accumulate as an obligation&quot;</span>,</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Unpaid dividends are lost if not declared&quot;</span>,</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Holders can participate in surplus profits&quot;</span>,</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Convertible to ordinary shares under specified conditions&quot;</span>)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(pref_share_types, <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">&quot;Type&quot;</span>, <span class="st">&quot;Description&quot;</span>), <span class="at">align =</span> <span class="st">&quot;ll&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -903,11 +1169,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="long-term-finance-equity" class="level2">
-<h2 class="anchored" data-anchor-id="long-term-finance-equity">Long-Term Finance: Equity</h2>
+<section id="long-term-finance-equity" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="long-term-finance-equity"><span class="header-section-number">11</span> Long-Term Finance: Equity</h2>
 <p>Ordinary shares (common stock) represent the fundamental risk capital of the business.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-8-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-1" role="tab" aria-controls="tabset-8-1" aria-selected="true" href="">Equity Fundamentals</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-2" role="tab" aria-controls="tabset-8-2" aria-selected="false" href="">Equity Advantages</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-3" role="tab" aria-controls="tabset-8-3" aria-selected="false" href="">Equity Disadvantages</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-4" role="tab" aria-controls="tabset-8-4" aria-selected="false" href="">Methods of Issuing Equity</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-5" role="tab" aria-controls="tabset-8-5" aria-selected="false" href="">Rights Issues</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-8-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-1" role="tab" aria-controls="tabset-8-1" aria-selected="true">Equity Fundamentals</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-2" role="tab" aria-controls="tabset-8-2" aria-selected="false">Equity Advantages</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-3" role="tab" aria-controls="tabset-8-3" aria-selected="false">Equity Disadvantages</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-4" role="tab" aria-controls="tabset-8-4" aria-selected="false">Methods of Issuing Equity</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-5" role="tab" aria-controls="tabset-8-5" aria-selected="false">Rights Issues</a></li></ul>
 <div class="tab-content">
 <div id="tabset-8-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-8-1-tab">
 <p>Equity represents ownership interest in a business:</p>
@@ -945,6 +1211,14 @@ Working Capital Management
 </div>
 <div id="tabset-8-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-4-tab">
 <div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>equity_methods <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Method =</span> <span class="fu">c</span>(<span class="st">&quot;Initial Public Offering (IPO)&quot;</span>, <span class="st">&quot;Rights Issues&quot;</span>, <span class="st">&quot;Private Placement&quot;</span>),</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Description =</span> <span class="fu">c</span>(<span class="st">&quot;First sale of shares to the public with stock exchange listing&quot;</span>,</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Offering of new shares to existing shareholders in proportion to holdings&quot;</span>,</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>                 <span class="st">&quot;Sale of shares directly to specific institutional investors&quot;</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(equity_methods, <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">&quot;Method&quot;</span>, <span class="st">&quot;Description&quot;</span>), <span class="at">align =</span> <span class="st">&quot;ll&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -989,11 +1263,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="the-finance-gap-and-venture-capital" class="level2">
-<h2 class="anchored" data-anchor-id="the-finance-gap-and-venture-capital">The Finance Gap and Venture Capital</h2>
+<section id="the-finance-gap-and-venture-capital" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="the-finance-gap-and-venture-capital"><span class="header-section-number">12</span> The Finance Gap and Venture Capital</h2>
 <p>Many growing businesses face a “finance gap” where conventional financing sources are insufficient.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-9-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-1" role="tab" aria-controls="tabset-9-1" aria-selected="true" href="">The Finance Gap</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-2" role="tab" aria-controls="tabset-9-2" aria-selected="false" href="">Venture Capital</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-3" role="tab" aria-controls="tabset-9-3" aria-selected="false" href="">Government Initiatives</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-9-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-1" role="tab" aria-controls="tabset-9-1" aria-selected="true">The Finance Gap</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-2" role="tab" aria-controls="tabset-9-2" aria-selected="false">Venture Capital</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-3" role="tab" aria-controls="tabset-9-3" aria-selected="false">Government Initiatives</a></li></ul>
 <div class="tab-content">
 <div id="tabset-9-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-9-1-tab">
 <p>The finance gap (or equity gap) typically emerges when:</p>
@@ -1028,11 +1302,11 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="new-sources-of-finance" class="level2">
-<h2 class="anchored" data-anchor-id="new-sources-of-finance">New Sources of Finance</h2>
+<section id="new-sources-of-finance" class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="new-sources-of-finance"><span class="header-section-number">13</span> New Sources of Finance</h2>
 <p>The financing landscape continues to evolve with innovative funding mechanisms.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-10-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-1" role="tab" aria-controls="tabset-10-1" aria-selected="true" href="">Crowdfunding</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-2" role="tab" aria-controls="tabset-10-2" aria-selected="false" href="">Asset-Based Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-3" role="tab" aria-controls="tabset-10-3" aria-selected="false" href="">Fintech Innovations</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-10-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-1" role="tab" aria-controls="tabset-10-1" aria-selected="true">Crowdfunding</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-2" role="tab" aria-controls="tabset-10-2" aria-selected="false">Asset-Based Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-3" role="tab" aria-controls="tabset-10-3" aria-selected="false">Fintech Innovations</a></li></ul>
 <div class="tab-content">
 <div id="tabset-10-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-10-1-tab">
 <p>Crowdfunding has emerged as a significant alternative funding source:</p>
@@ -1068,8 +1342,8 @@ Working Capital Management
 </div>
 </div>
 </section>
-<section id="key-source-of-finance-principles" class="level2">
-<h2 class="anchored" data-anchor-id="key-source-of-finance-principles">Key Source of Finance Principles</h2>
+<section id="key-source-of-finance-principles" class="level2" data-number="14">
+<h2 data-number="14" class="anchored" data-anchor-id="key-source-of-finance-principles"><span class="header-section-number">14</span> Key Source of Finance Principles</h2>
 <p>Several fundamental principles should guide financing decisions in practice.</p>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
@@ -1098,7 +1372,7 @@ Working Capital Management
 </section>
 <section id="additional-resources" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="additional-resources">Additional Resources</h2>
-<p><strong>Core Reading:</strong> - Atrill, P. (2019) <em>Financial Management for Decision Makers</em>. 9th ed.&nbsp;London: FT Prentice Hall, Chapters 6-8 - Arnold, G. (2020) <em>Corporate Financial Management</em> (6th ed.), Chapters 8-10</p>
+<p><strong>Core Reading:</strong> - Atrill, P. (2019) <em>Financial Management for Decision Makers</em>. 9th ed. London: FT Prentice Hall, Chapters 6-8 - Arnold, G. (2020) <em>Corporate Financial Management</em> (6th ed.), Chapters 8-10</p>
 <p><strong>Online Resources:</strong> - <a href="https://www.bankofengland.co.uk/monetary-policy-report">Bank of England Monetary Policy Reports</a> - <a href="https://www.ukfinance.org.uk/data-and-research">UK Finance</a> - <a href="https://www.british-business-bank.co.uk/finance-hub/">British Business Bank</a></p>
 </section>
 <section id="practice-questions" class="level2 unnumbered">
@@ -1110,10 +1384,11 @@ Working Capital Management
 <li><p>Discuss how the “pecking order theory” explains observed financing behaviors in practice. What factors might cause a company to deviate from this hierarchy?</p></li>
 <li><p>A technology startup has exhausted its founders’ personal investments and bank lending capacity but requires an additional £2 million to bring its product to market. Evaluate the potential financing options available to the company.</p></li>
 </ol>
+
+
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1206,12 +1481,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/quinfer\.github\.io\/corp-fin-mgt\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -1539,4 +1814,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/quinfer/corp-fin-mgt/edit/main/days/day2-morning.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/quinfer/corp-fin-mgt/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

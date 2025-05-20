@@ -3,11 +3,10 @@ title: "Cost of Capital"
 subtitle: "Day 2 - Afternoon Session"
 author: "Prof. Barry Quinn"
 institute: "Ulster University Business School"
+date: last-modified
 format:
   html:
-    toc: true
-    theme: cosmo
-    css: "../styles.css"
+    number-sections: true
 ---
 
 # Cost of Capital

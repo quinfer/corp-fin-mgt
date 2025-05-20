@@ -18,6 +18,7 @@ This repository contains the source files for the Corporate Finance Management c
 - Edit source files in `days/`, `slides/`, or `resources/` as needed.
 - Place any images or assets in the `_assets/` directory.
 - Do **not** edit files in `docs/` directly.
+- **IMPORTANT**: Ensure all QMD files have an explicit format section (see format requirements below).
 
 ### 2. Render the Website
 - Use the main render script to build the entire site:
@@ -65,9 +66,64 @@ This repository contains the source files for the Corporate Finance Management c
 - Visit your GitHub Pages URL (e.g., https://quinfer.github.io/corp-fin-mgt/) to confirm your changes are live.
 - It may take a few minutes for updates to appear.
 
+## Format Requirements
+
+### Required YAML Format for All Content Files
+
+Each .qmd file must include an explicit format section in its YAML header:
+
+#### For Day Content Files (in days/ directory):
+```yaml
+---
+title: "Corporate Financial Management"
+subtitle: "Day X: Topic"
+author: "Barry Quinn"
+date: last-modified
+format:
+  html:
+    number-sections: true  # Required format section
+---
+```
+
+#### For Slide Files (in slides/ directory):
+```yaml
+---
+title: "Corporate Financial Management"
+subtitle: "Day X: Topic"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    footer: "Corporate Financial Management"
+    embed-resources: true
+    smaller: true
+    scrollable: true
+---
+```
+
+#### For Resource Files (in resources/ directory):
+```yaml
+---
+title: "Resource Title"
+subtitle: "Corporate Financial Management"
+format:
+  html:
+    toc: true
+---
+```
+
+**IMPORTANT NOTE**: The explicit format section in each file is critical for proper rendering and preview functionality. Files without an explicit format section may cause "No such file or directory" errors during preview.
+
 ## Troubleshooting
 
 ### Common Issues and Solutions
+
+- **"No such file or directory" errors during preview**:
+  - Ensure all .qmd files have an explicit format section in their YAML header
+  - Check that file paths in _quarto.yml and content files use .html extensions (not .qmd)
+  - Use site-root-relative paths (with leading slash) for cross-directory links
 
 - **Broken links in the published site**:
   - Check relative paths in your links
@@ -87,6 +143,17 @@ This repository contains the source files for the Corporate Finance Management c
   ```bash
   ./_scripts/render-website.sh --clean
   ```
+
+## Path Reference Guide
+
+- **In the same directory**: Use just the filename
+  - Example: `[Link](filename.html)`
+  
+- **To a file in another directory**: Use site-root-relative paths (start with /)
+  - Example: `[Link](/days/day1.html)`
+  
+- **Within _quarto.yml navigation**: Always use .html extensions
+  - Example: `href: days/day1.html`
 
 ## Directory Structure Details
 
@@ -128,6 +195,7 @@ project/
 2. Use relative paths consistently for links and assets
 3. Never manually edit files in the `docs/` directory or `gh-pages` branch
 4. The `.nojekyll` file is important to ensure proper rendering on GitHub Pages
+5. Every QMD file must have an explicit format section in its YAML header
 
 ## License
 
