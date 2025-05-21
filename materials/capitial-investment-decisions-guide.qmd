@@ -1,0 +1,189 @@
+---
+title: "Capital Investment Decisions – Learning Workbook Guide"
+subtitle: "Self-Directed Learning Companion for Excel Workbook"
+author: "Prof. Barry Quinn"
+format:
+    html:
+        toc: true
+        number-sections: true
+        theme: cosmo
+    pdf: default
+---
+
+# Welcome
+
+This workbook and guide are designed to help you actively develop your intuition and technical skills in evaluating capital investment decisions. Each worksheet in the Excel file corresponds to a topic introduced in the lecture slides and provides an opportunity to learn by doing.
+
+The activities promote a growth mindset: it’s okay to test, change, break, and fix. Use this guide to support your journey toward confidence with investment appraisal tools and concepts.
+
+---
+
+# Worksheet 1: Introduction and Dashboard
+
+The Dashboard provides an overview of all topics. It links visually and structurally to your Excel workbook.
+
+* **Yellow cells** = inputs you can modify
+* **Blue cells** = formulas – learn by tracing them
+* Navigation is via worksheet tabs – click through them freely
+
+🧠 *Tip: Think of this like a financial control panel – each tab gives you a different tool to assess the quality of an investment.*
+
+---
+
+# Worksheet 2: Payback Period
+
+## What It Measures
+
+Payback Period tells you how long it takes to recover your investment.
+
+## How to Use It
+
+* Trace the **cumulative cash flows**
+* The payback is the point where cumulative CF becomes positive
+
+### Try This:
+
+* Add a sixth year with £15,000 income. What happens to payback?
+* Replace Year 3 with a smaller inflow. Does payback still occur?
+
+🎯 *Learning point: It’s not about total profitability, just time to breakeven.*
+
+---
+
+# Worksheet 3: Discounted Payback Period
+
+## What’s Different?
+
+Same concept as Payback – but now includes time value of money.
+
+* Each cash flow is discounted
+* Still uses cumulative logic
+
+### Learn-by-Doing:
+
+* Change the discount rate to 15%
+* Which projects now fall outside your required DPP window?
+
+🧠 *Use the chart to visualise breakeven under discounting.*
+
+---
+
+# Worksheet 4: Net Present Value (NPV)
+
+## The Gold Standard
+
+NPV shows total value created by a project – in today’s money.
+
+* NPV > 0: worth doing (adds value)
+* NPV < 0: destroys value
+
+### Try This:
+
+* Test discount rates from 5% to 20%
+* Add a £10k outflow in Year 2 – does it still pass?
+
+📌 *Most investors use NPV as their core decision rule.*
+
+---
+
+# Worksheet 5: Internal Rate of Return (IRR)
+
+## What IRR Tells You
+
+IRR is the discount rate where NPV = 0. It reflects the internal profitability.
+
+### Explore:
+
+* How does IRR compare with your cost of capital?
+* Use the NPV profile chart – where does it cross the axis?
+
+⚠️ *Some projects have multiple IRRs – always double-check using NPV too.*
+
+---
+
+# Worksheet 6: Accounting Rate of Return (ARR)
+
+## Why Use ARR?
+
+It’s a simple profitability measure based on accounting averages.
+
+* Average Profit ÷ Average Investment
+* Doesn’t discount – but easy to calculate
+
+### Test Your Assumptions:
+
+* What happens when depreciation changes?
+* How does ARR behave with high Year 5 cash inflows?
+
+💡 *Banks and internal management often still ask for ARR.*
+
+---
+
+# Worksheet 7: Method Comparison
+
+## Bringing It All Together
+
+This worksheet shows each method side-by-side for a single project.
+
+* You can compare Payback, NPV, IRR, ARR decisions in one place
+
+### Practice:
+
+* Test consistency across 3 scenarios
+* If NPV and ARR disagree, which would you trust?
+
+🧠 *Learning is in the contradictions – think critically.*
+
+---
+
+# Worksheet 8: Risk Analysis
+
+## Adding Depth
+
+Risk isn’t just volatility – it’s uncertainty in your inputs.
+
+### Explore:
+
+* Sensitivity Analysis: How far can inputs move before NPV hits 0?
+* Scenario Analysis: Pessimistic vs Optimistic projections
+
+### Activity:
+
+* Adjust probabilities – how does expected NPV change?
+* Add your own worst-case row
+
+🎯 *Learn to stress-test your assumptions.*
+
+---
+
+# Worksheet 9: Case Study – Plumbing Business
+
+## Real-World Synthesis
+
+This ties everything together. You assess a full venture using all tools.
+
+### Use:
+
+* Live inputs for cost, rates, exit value
+* Real-time feedback via NPV/IRR updates
+
+### Try This:
+
+* Change the exit value to £20k
+* Increase upfront investment by £5k
+* What’s your final recommendation?
+
+🧠 *This is the moment to think like an investor.*
+
+---
+
+## Final Reflection
+
+All models are simplifications of reality. As George Box famously said:
+
+"All models are wrong, but some are useful."
+
+In this workbook, you've built useful models that give structure to uncertain decisions. By experimenting, adjusting, and observing how the outcomes respond, you build not just financial insight, but critical thinking.
+
+🚀 Let the spreadsheet be your sandbox for decision-making. Use it to make better guesses, ask better questions, and learn from every simulation.
+
