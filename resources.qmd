@@ -35,18 +35,19 @@ Detailed information about the coursework assignment including case studies, req
 :::
 :::
 
-## Aligned Reading and Slide Materials
+### 📚 Aligned Reading and Slide Materials
 
-The following table aligns the main topic areas of the course with the relevant textbook chapters, linked course presentations, and curated external resources for further study.
+This table links each topic area in the module with the relevant chapters from Atrill (2019), course presentation slides, and curated external resources.
 
 | Topic Area | Atrill (2019) Reference | Linked Course Materials | Related Resources |
 |------------|--------------------------|--------------------------|-------------------|
-| Financial Framework & Introduction | Ch. 1–3 | [Slides](/slides/day1-morning-slides.html) / [PDF](/materials/day1-morning-slides.pdf) | [Damodaran Foundations](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/webcastvaluation2.htm) |
-| Capital Investment Decisions | Ch. 4–5 | [Slides](/slides/day1-afternoon-slides.html) / [PDF](/materials/day1-afternoon-slides.pdf) | [Damodaran DCF Videos](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/valonline.htm), [Coursera: Capital Budgeting](https://www.coursera.org/learn/capital-budgeting) |
-| Sources of Finance | Ch. 3, 6–7 | [Slides](/slides/day2-morning-slides.html) / [PDF](/materials/day2-morning-slides.pdf) | [Investopedia Overview](https://www.investopedia.com/terms/c/corporatefinance.asp) |
-| Cost of Capital & Capital Structure | Ch. 5, 7–8 | [Slides](/slides/day2-afternoon-slides.html) / [PDF](/materials/day2-afternoon-slides.pdf) | [Damodaran WACC Model](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/spreadsh.htm) |
-| Dividend Policy | Ch. 9 | [Slides](/slides/day3-morning-slides.html) / [PDF](/materials/day3-morning-slides.pdf) | [Damodaran Dividend Policy](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/Dividendpolicy/DividendPolicy.htm) |
-| Working Capital Management | Ch. 10 | [Slides](/slides/day3-afternoon-slides.html) / [PDF](/materials/day3-afternoon-slides.pdf) | [CFI: Working Capital Guide](https://corporatefinanceinstitute.com/resources/working-capital/) |
+| **Financial Framework & Introduction** | Chapters 1–3 | [Slides](/slides/day1-morning-slides.html) / [PDF](/materials/day1-morning-slides.pdf) | [Damodaran Online: Corporate Finance](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/cf.html) <br> [YouTube: Valuation 101](https://www.youtube.com/watch?v=RUJ-OvRicEM) |
+| **Capital Investment Decisions** | Chapters 4–5 | [Slides](/slides/day1-afternoon-slides.html) / [PDF](/materials/day1-afternoon-slides.pdf) | [Damodaran: Valuation Class](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/equity.html) <br> [Discounted Cash Flow Notes PDF](https://pages.stern.nyu.edu/~adamodar/pdfiles/eqnotes/dcfallOld.pdf) |
+| **Sources of Finance** | Chapters 3, 6–7 | [Slides](/slides/day2-morning-slides.html) / [PDF](/materials/day2-morning-slides.pdf) | [Damodaran: Corporate Finance](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/cf.html) <br> [Investopedia: Corporate Finance](https://www.investopedia.com/terms/c/corporatefinance.asp) |
+| **Cost of Capital & Capital Structure** | Chapters 5, 7–8 | [Slides](/slides/day2-afternoon-slides.html) / [PDF](/materials/day2-afternoon-slides.pdf) | [Damodaran: WACC Data](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html) <br> [YouTube: DCF Overview](https://www.youtube.com/watch?v=Pj19yJQgId8) |
+| **Dividend Policy** | Chapter 9 | [Slides](/slides/day3-morning-slides.html) / [PDF](/materials/day3-morning-slides.pdf) | [Damodaran: Dividend Policy](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dividends.html) <br> [Investopedia: Dividend Policy](https://www.investopedia.com/terms/d/dividend.asp) |
+| **Working Capital Management** | Chapter 10 | [Slides](/slides/day3-afternoon-slides.html) / [PDF](/materials/day3-afternoon-slides.pdf) | [CFI: Working Capital Guide](https://corporatefinanceinstitute.com/resources/working-capital/) <br> [Investopedia: Working Capital Management](https://www.investopedia.com/terms/w/workingcapital.asp) |
+
 
 ### Creating PDF Handouts
 
@@ -136,9 +137,6 @@ A structured walkthrough of the workbook with learning tasks, tips, and self-ass
 
 - [**Damodaran Excel Spreadsheets**](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/spreadsh.htm)  
   Valuation models for WACC, DCF, and scenario analysis — editable and well-documented.
-
-- [**Excel TVM Template by Corporate Finance Institute**](https://corporatefinanceinstitute.com/resources/excel-templates/time-value-of-money-template/)  
-  Plug-and-play workbook for PV, FV, annuities, and discounting exercises.
 
 ### 🏫 University Resources
 
