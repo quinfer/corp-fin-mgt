@@ -79,7 +79,7 @@ This resource supports learning-by-doing for capital investment decision-making.
 An interactive Excel file covering Payback, NPV, IRR, ARR, Risk Analysis, and a full Case Study.
 
 ::: {.button-group}
-[Download Excel Workbook](/materials/capitial-investment-decisions.xlsx){.btn .btn-primary}
+[Download Excel Workbook](/materials/capital-investment-decisions.xlsx){.btn .btn-primary}
 :::
 :::
 
@@ -88,8 +88,8 @@ An interactive Excel file covering Payback, NPV, IRR, ARR, Risk Analysis, and a 
 A structured walkthrough of the workbook with learning tasks, tips, and self-assessment prompts for each worksheet.
 
 ::: {.button-group}
-[Read Online](/materials/capital-investment-decisions-guide.html){.btn .btn-primary}
-[Download PDF](/materials/capital-investment-decisions-guide.pdf){.btn .btn-secondary}
+[Read Online](/materials/capitial-investment-decisions-guide.html){.btn .btn-primary}
+[Download PDF](/materials/capitial-investment-decisions-guide.pdf){.btn .btn-secondary}
 :::
 :::
 

@@ -3,6 +3,8 @@ project:
   output-dir: docs
   render: 
     - "*.qmd"
+    - "materials/capitial-investment-decisions-guide.qmd"
+    - "!/materials/module-handbook-old.qmd"
   resources:
     - "materials/**/*"
   
