@@ -35,41 +35,18 @@ Detailed information about the coursework assignment including case studies, req
 :::
 :::
 
-## Course Presentations
+## Aligned Reading and Slide Materials
 
-This section provides access to different formats of the course materials for teaching and study purposes.
+The following table aligns the main topic areas of the course with the relevant textbook chapters, linked course presentations, and curated external resources for further study.
 
-### Day 1: Financial Framework & Analysis
-
-- [Presentation Slides](/slides/day1-morning-slides.html) (For teaching)
-- [PDF version](/materials/day1-morning-slides.pdf) (For independent study)
-
-### Day 1: Capital Investment Decisions
-
-- [Presentation Slides](/slides/day1-afternoon-slides.html) (For teaching)
-- [PDF version](/materials/day1-afternoon-slides.pdf) (For independent study)
-
-### Day 2: Sources of Finance
-
-- [Presentation Slides](/slides/day2-morning-slides.html) (For teaching)
-- [PDF version](/materials/day2-morning-slides.pdf) (For independent study)
-
-
-### Day 2: Cost of Capital
-
-- [Presentation Slides](/slides/day2-afternoon-slides.html) (For teaching)
-- [PDF version](/materials/day2-afternoon-slides.pdf) (For independent study)
-
-### Day 3: Dividend Policy
-
-- [Presentation Slides](/slides/day3-morning-slides.html) (For teaching)
-- [PDF version](/materials/day3-morning-slides.pdf) (For independent study)
-
-
-### Day 3: Working Capital Management
-
-- [Presentation Slides](/slides/day3-afternoon-slides.html) (For teaching)
-- [PDF version](/materials/day3-afternoon-slides.pdf) (For independent study)
+| Topic Area | Atrill (2019) Reference | Linked Course Materials | Related Resources |
+|------------|--------------------------|--------------------------|-------------------|
+| Financial Framework & Introduction | Ch. 1–3 | [Slides](/slides/day1-morning-slides.html) / [PDF](/materials/day1-morning-slides.pdf) | [Damodaran Foundations](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/webcastvaluation2.htm) |
+| Capital Investment Decisions | Ch. 4–5 | [Slides](/slides/day1-afternoon-slides.html) / [PDF](/materials/day1-afternoon-slides.pdf) | [Damodaran DCF Videos](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/valonline.htm), [Coursera: Capital Budgeting](https://www.coursera.org/learn/capital-budgeting) |
+| Sources of Finance | Ch. 3, 6–7 | [Slides](/slides/day2-morning-slides.html) / [PDF](/materials/day2-morning-slides.pdf) | [Investopedia Overview](https://www.investopedia.com/terms/c/corporatefinance.asp) |
+| Cost of Capital & Capital Structure | Ch. 5, 7–8 | [Slides](/slides/day2-afternoon-slides.html) / [PDF](/materials/day2-afternoon-slides.pdf) | [Damodaran WACC Model](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/spreadsh.htm) |
+| Dividend Policy | Ch. 9 | [Slides](/slides/day3-morning-slides.html) / [PDF](/materials/day3-morning-slides.pdf) | [Damodaran Dividend Policy](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/Dividendpolicy/DividendPolicy.htm) |
+| Working Capital Management | Ch. 10 | [Slides](/slides/day3-afternoon-slides.html) / [PDF](/materials/day3-afternoon-slides.pdf) | [CFI: Working Capital Guide](https://corporatefinanceinstitute.com/resources/working-capital/) |
 
 ### Creating PDF Handouts
 
@@ -93,11 +70,34 @@ You can create PDF handouts directly from the RevealJS presentations:
    - To include speaker notes, check "Include speaker notes" if available
    - Adjust margins and scaling as needed
 
+## Interactive Learning Workbook
+
+This resource supports learning-by-doing for capital investment decision-making. It includes an Excel workbook with interactive worksheets and a detailed guide to support self-directed exploration, aligned with course slides.
+
+::: {.resource-card}
+### Capital Investment Workbook (.xlsx)
+An interactive Excel file covering Payback, NPV, IRR, ARR, Risk Analysis, and a full Case Study.
+
+::: {.button-group}
+[Download Excel Workbook](/materials/capitial-investment-decisions.xlsx){.btn .btn-primary}
+:::
+:::
+
+::: {.resource-card}
+### Learning Guide (.pdf/.html)
+A structured walkthrough of the workbook with learning tasks, tips, and self-assessment prompts for each worksheet.
+
+::: {.button-group}
+[Read Online](/materials/capital-investment-decisions-guide.html){.btn .btn-primary}
+[Download PDF](/materials/capital-investment-decisions-guide.pdf){.btn .btn-secondary}
+:::
+:::
+
 ## Recommended Readings
 
 ### Core Textbook
 - Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
-- [PDF version](materials/book.pdf)
+- [PDF version](/materials/book.pdf)
 
 ### Supplementary Reading
 - Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
@@ -106,10 +106,44 @@ You can create PDF handouts directly from the RevealJS presentations:
 
 ## Online Resources
 
-- [Financial Times](https://www.ft.com/) - Articles on corporate finance (University subscription required)
-- [Harvard Business Review](https://hbr.org/) - Case studies and articles
-- Module materials on Blackboard
-- Financial databases available through the library
+### 🎓 Core Learning Platforms
+
+- [**Damodaran Online**](http://pages.stern.nyu.edu/~adamodar/)  
+  One of the most respected voices in corporate finance, Prof. Aswath Damodaran shares his full course materials, models, and valuation datasets.  
+  📁 Includes: Lecture videos, spreadsheets, valuation templates, and applied case notes.
+
+- [**Investopedia – Corporate Finance Section**](https://www.investopedia.com/corporate-finance-4689743)  
+  Helpful reference-style definitions and tutorials across capital budgeting, cost of capital, and financing structures.  
+  ✅ Recommended for clarifying terminology and formulas.
+
+- [**Coursera: Financial Management Specialisation (University of Illinois)**](https://www.coursera.org/specializations/financial-management)  
+  A structured online learning programme covering the foundational tools and decisions in corporate finance.  
+  👩‍💻 Ideal for brushing up or getting a second explanation.
+
+### 📈 Markets, Data & Commentary
+
+- [**Financial Times**](https://www.ft.com/)  
+  Market news and analysis. Excellent for linking theory to current practice.  
+  🧾 University access required for full articles.
+
+- [**Yahoo Finance**](https://finance.yahoo.com/)  
+  Free data on share prices, financial statements, beta estimates, and analyst sentiment.
+
+- [**World Bank Open Data**](https://data.worldbank.org/)  
+  Use for macroeconomic indicators in scenario and risk analysis.
+
+### 🧮 Tools & Templates
+
+- [**Damodaran Excel Spreadsheets**](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/spreadsh.htm)  
+  Valuation models for WACC, DCF, and scenario analysis — editable and well-documented.
+
+- [**Excel TVM Template by Corporate Finance Institute**](https://corporatefinanceinstitute.com/resources/excel-templates/time-value-of-money-template/)  
+  Plug-and-play workbook for PV, FV, annuities, and discounting exercises.
+
+### 🏫 University Resources
+
+- Blackboard course page for lecture recordings and assessment rubrics  
+- Reading materials available via Ulster Library digital collections
 
 ## Contact Information
 

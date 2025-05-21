@@ -80,6 +80,7 @@ This module is assessed through **two components**:
 ::: {.material-card}
 #### Required Reading
 Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
+[PDF copy](/materials/book.pdf)
 :::
 
 ::: {.material-card}
@@ -95,7 +96,7 @@ Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT
 :::
 
 ## Core Reading
-- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
+- Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall. [PDF copy](/materials/book.pdf)
 
 ## Supplementary Reading
 - Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.

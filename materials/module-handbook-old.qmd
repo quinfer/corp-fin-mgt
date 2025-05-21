@@ -1,8 +1,8 @@
 ---
 title: "Corporate Financial Management"
-subtitle: "Module Handbook 2024/25 (REVISED)"
+subtitle: "Module Handbook 2024/25"
 author: "Module Code: ACF838"
-date: "May 2025"
+date: "January 2025"
 format:
   html: default
   docx:
@@ -38,8 +38,6 @@ By the end of this module, students will be able to:
 ## Module Structure
 
 This module integrates financial management concepts with managerial decision-making, corporate planning, and interaction with the wider business environment. The course is delivered in an intensive 4-day block format, condensing a full semester of content into a comprehensive, focused learning experience.
-
-The examinable content has been slightly refined to focus on the most essential aspects of corporate financial management. Working capital management will no longer be assessed in the examination, though students are still encouraged to engage with this material for their professional development.
 
 # Day 1: Financial Framework & Investment Decisions
 
@@ -226,75 +224,75 @@ The afternoon session focuses on the management of current assets and liabilitie
 - Cash flow forecasting exercises
 - Credit policy evaluation
 
-> **Note**: While Working Capital Management will be covered in the course, this topic will not be directly examined in the final assessment. However, students are encouraged to understand these concepts for their professional development and for potential application in the coursework.
+# Day 4: Applied Financial Management
 
-# Day 4: Revision and Exam Preparation
-
-## Morning Session: Integrated Case Studies and Application
+## Morning Session: Integrated Case Studies
 
 ### Overview
-The morning session is dedicated to applying key concepts through comprehensive case studies, with a focus on strengthening practical application skills and preparing for assessments.
+The morning session applies the concepts learned throughout the module to comprehensive case studies, providing an opportunity for integrated financial analysis.
 
 ### Key Topics
-- **Applied Financial Analysis**
-  - Integration of investment, financing, and dividend decisions
-  - Critical evaluation of financial strategies
-  - Linking theory to real-world financial management
+- **Comprehensive Financial Analysis**
+  - Strategic financial management
+  - Financial performance evaluation
+  - Investment and financing decisions
+  - Risk assessment
 
-- **Case Study Analysis Techniques**
-  - Approaching the coursework case
-  - Identifying key financial issues
-  - Structuring a comprehensive financial analysis
-  - Developing evidence-based recommendations
+- **Business Failure Prediction**
+  - Financial distress indicators
+  - Z-score models
+  - Industry-specific warning signs
+  - Turnaround strategies
 
-- **Numerical Application Workshop**
-  - Step-by-step approach to financial calculations
-  - Common calculation pitfalls and solutions
-  - Effective presentation of financial analysis
+- **Financial Modeling**
+  - Scenario analysis
+  - Sensitivity testing
+  - Monte Carlo simulation
+  - Financial projections
 
 ### Learning Activities
-- Guided case study walk-throughs
-- Small group problem-solving
-- Calculation workshops with immediate feedback
+- Team-based case analysis
+- Financial recommendation presentations
+- Peer review and feedback
 
-## Afternoon Session: Comprehensive Revision
+## Afternoon Session: Exam Preparation
 
 ### Overview
-The afternoon session provides structured revision of all examinable content, with particular attention to areas students find most challenging.
+The afternoon session focuses on revision of key concepts and exam techniques to prepare students for the final assessment.
 
 ### Key Topics
-- **Systematic Review of Module Content**
+- **Review of Key Concepts**
   - Investment appraisal techniques
   - Financing decisions
   - Cost of capital
   - Dividend policy
-  - Interconnections between topic areas
+  - Working capital management
 
-- **Exam Strategy and Techniques**
+- **Exam Techniques**
   - Understanding question requirements
-  - Time management for take-home examinations
-  - Structured approach to numerical and discursive questions
-  - Critical evaluation in financial contexts
+  - Time management
+  - Structured answers
+  - Numerical analysis presentation
+  - Critical evaluation skills
 
-- **Extended Practice Session**
-  - Exam-style questions with guided solutions
-  - Individual and group problem-solving
-  - Application to varied business scenarios
+- **Practice Questions**
+  - Short answer questions
+  - Numerical problems
+  - Case-based scenarios
+  - Essay-style questions
 
 ### Activities
-- Comprehensive mock exam questions
-- Model answer demonstrations
-- Group revision activities
-- Personalized Q&A on challenging topics
-- Take-home revision pack distribution
+- Mock exam questions
+- Group revision sessions
+- Q&A on challenging topics
 
-# Assessment Information (REVISED)
+# Assessment Information
 
 ## Coursework (50%)
 
 **Case Study Analysis**
 
-- **Due Date**: 30 June 2025 (12 noon) *(revised from 9 June)*
+- **Due Date**: 09 June 2025 (12 noon)
 - **Word Limit**: 2,000 words
 - **Submission**: Via Blackboard
 - **Format**: Business report with financial analysis and recommendations
@@ -310,57 +308,18 @@ The coursework will involve a comprehensive analysis of a case company, requirin
 ## Examination (50%)
 
 - **Format**: 3-hour online take-home examination
-- **Release Date**: 7th June 9:30 (on Blackboard) *(revised from 21st June)*
-- **Due Date**: 9th June 17:00 (on Blackboard) *(revised from 21st June 12:30)*
-- **Coverage**: All module content excluding Working Capital Management *(revised scope)*
-
-**Examination Format Explanation**:
-
-The examination is designed as a 3-hour assessment, meaning the content and expectations are calibrated to what you could reasonably complete in a 3-hour supervised exam setting. However, to accommodate the needs of students from diverse academic backgrounds, particularly those who may require additional time with mathematical problems, the exam will be available as a take-home assessment from Friday morning until Sunday evening.
-
-This extended window allows you to:
-
-- Choose a convenient 3-hour block of time for focused work
-- Take additional time if needed for calculations and review
-- Consult course materials and resources (open-book format)
-- Work in a comfortable environment conducive to your best performance
-
-While you have the entire weekend to submit your work, the examination questions are designed to be completed within approximately 3 hours of focused effort. This approach balances academic rigour with flexibility, ensuring fair assessment for all students regardless of their prior financial or mathematical experience.
+- **Release Date**: 21st June 9:30 (on Blackboard)
+- **Due Date**: 21rd June 12:30 (on Blackboard)
+- **Coverage**: All module content
 
 The examination will consist of:
-
 - Section A: Compulsory question based on a case scenario (40 marks)
 - Section B: Choice of 2 questions from 3, each worth 30 marks
-
-**Additional Exam Support:**
-
-- Comprehensive practice examples will be provided by 31st May
-- Online revision session scheduled for 5th June, 14:00-16:00 (provisional timing)
-- Additional office hours available from 1st-6th June (arrange by appointment)
-
-## Assessment Timeline Rationale
-
-The revised assessment timeline has been implemented to:
-
-1. Allow sufficient time for students to develop and apply financial analysis skills, particularly given the intensive block delivery format
-2. Provide appropriate spacing between major assessments to enable deeper engagement with the material
-3. Support students from non-financial backgrounds in developing the necessary technical competencies
-4. Maintain academic rigour while ensuring fair assessment opportunities
-
-## Additional Learning Support
-
-In recognition of the mathematically complex nature of some module content, the following additional learning supports have been implemented:
-
-- Extended set of practice exercises and solutions (available on Blackboard)
-- Step-by-step guides for key financial calculations
-- Optional drop-in support sessions for mathematical concepts (dates TBC)
-- Dedicated discussion board for technical queries
 
 # Resources and Readings
 
 ## Core Reading
 - Atrill, P. (2019) *Financial Management for Decision Makers*. 9th ed. London: FT Prentice Hall.
-- [PDF copy](/materials/book.pdf)
 
 ## Supplementary Reading
 - Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
@@ -373,13 +332,11 @@ In recognition of the mathematically complex nature of some module content, the 
 - Module materials on Blackboard
 - Financial databases available through the library
 
-## Additional Resources
-- Quick reference guides for financial calculations (available on Blackboard)
-- Simplified worked examples with step-by-step explanations
-- Video tutorials on key financial techniques
-- Interactive spreadsheet templates for investment appraisal
-
 # Module Policies
+
+## Attendance
+
+Attendance at all sessions of this intensive block course is mandatory. Due to the condensed nature of the course, absence from any session will significantly impact your learning experience.
 
 ## Late Submissions
 
@@ -391,11 +348,9 @@ Late submissions of the coursework will be penalized according to university pol
 
 All work submitted must be your own. Plagiarism and academic misconduct will be treated seriously according to university regulations. Please familiarize yourself with the university's academic integrity policy.
 
-## Extensions Policy (REVISED)
+## Extensions
 
 Extensions for the coursework submission may be granted in exceptional circumstances. Requests should be made in writing to the module coordinator at least 7 days before the submission deadline, accompanied by appropriate evidence.
-
-Given the condensed nature of this module, we recognise that some students may require additional flexibility. Individual circumstances affecting your ability to complete the coursework by the deadline will be considered sympathetically. Please contact the module coordinator (and Course Director) as early as possible to discuss any concerns.
 
 # Contact Information
 
@@ -403,7 +358,3 @@ Given the condensed nature of this module, we recognise that some students may r
 **Email**: b.quinn1@ulster.ac.uk  
 **Office Hours**: By appointment during the block delivery  
 **Location**: Belfast Campus, Room MC-204
-
-**Additional Support Hours**: 
-- Drop-in sessions: 1st-6th June, 10:00-12:00 and 14:00-16:00
-- Online office hours: Tuesdays and Thursdays, 19:00-20:00 (via MS Teams)

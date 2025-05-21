@@ -2,7 +2,7 @@
 title: "Corporate Financial Management"
 subtitle: "Coursework Assignment 2024/25"
 author: "Module Code: ACF838"
-date: "January 2025"
+date: last-modified
 format:
   html: default
   docx:
@@ -106,11 +106,11 @@ Your submitted report should be professionally presented and structured as follo
 
 9. **Appendices**: Any supplementary calculations or material.
 
-The word limit for this assignment is 3,000 words (±10%), excluding the title page, references, and appendices.
+The word limit for this assignment is 2,000 words (±10%), excluding the title page, references, and appendices.
 
 ### ATTENTION STUDENTS: A WORD ON WORD COUNTS ⚠️
 
-Regarding this assignment, I'd like to clarify that the 3,000-word limit (excluding references, appendices, and tables) is precisely that—a limit, not a target. 
+Regarding this assignment, I'd like to clarify that the 2,000-word limit (excluding references, appendices, and tables) is precisely that—a limit, not a target. 
 
 Think of it as academic headroom, not a volume to fill. I'm far more interested in your concise, well-reasoned arguments than watching you stretch your prose to reach an arbitrary number. Quality thinking expressed clearly will always impress more than verbose padding.
 
