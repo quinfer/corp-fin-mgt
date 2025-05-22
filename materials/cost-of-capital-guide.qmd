@@ -1,0 +1,154 @@
+---
+title: "Cost of Capital – Learning Workbook Guide"
+subtitle: "Self-Directed Learning Companion for Excel Workbook"
+author: "Prof. Barry Quinn"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+  pdf: default
+---
+
+# Welcome
+
+This workbook and guide help you explore how companies estimate the minimum return they need to justify investments. It breaks down the cost of equity, debt, and blended capital. 
+
+Each worksheet corresponds to an Excel tab and a set of lecture slides. Your task: **learn by doing** — make changes, test ideas, and challenge the assumptions. It’s a safe space to be wrong (and curious).
+
+> 💬 Use yellow cells for input. Blue cells contain formulas. The best way to understand them is to **trace the logic**.
+
+---
+
+# Worksheet 2: Market Value of Equity
+
+## What It Measures
+
+The market value of a company’s equity, based on its current share price and dividend status.
+
+## How to Use It
+
+- Start with the share price (cum or ex-dividend)
+- Subtract dividends if needed to get the ex-div price
+- Multiply by number of shares
+
+### Try This:
+
+- Change a cum-div share price and observe how it affects MV
+- Compare scenarios where a dividend has just been paid vs. one about to be paid
+
+📌 *MV helps us assess the real value of capital raised from equity today, not historically.*
+
+---
+
+# Worksheet 3 & 4: Dividend Valuation Models
+
+## What They Measure
+
+The expected return shareholders demand, based on dividends (and optionally, growth).
+
+- **W3: No Growth Model** – works for preference shares
+- **W4: With Growth** – better for ordinary shares with a dividend trend
+
+## How to Use It
+
+- Enter the annual dividend (D₀ or D₁)
+- For growth models, include an expected g
+- Use share price to calculate Ke
+
+### Try This:
+
+- Increase growth rate from 2% to 8% — what happens to Ke?
+- Reduce share price by 10% — how sensitive is the result?
+
+💡 *High-growth assumptions amplify Ke — but may not be realistic.*
+
+---
+
+# Worksheet 5: Capital Asset Pricing Model (CAPM)
+
+## What It Measures
+
+Expected return for equity holders based on risk (Beta) and market context.
+
+## How to Use It
+
+- Start with a risk-free rate and market return
+- Adjust Beta to simulate different types of firms
+
+### Try This:
+
+- Set Beta to 0.5 (low risk) and then 2.0 (high risk)
+- Watch how Ke changes for different industries
+
+⚠️ *CAPM assumes markets are efficient — but use it as a tool, not a truth.*
+
+---
+
+# Worksheet 6: Cost of Debt
+
+## What It Measures
+
+The cost of borrowing money, net of tax relief. Includes both bank loans and bond finance.
+
+## How to Use It
+
+- Use the simple formula for loans
+- For redeemable debt, calculate IRR across years
+
+### Try This:
+
+- Increase the tax rate from 20% to 40% — what’s the impact on after-tax cost?
+- Reduce the bond’s market price — does that increase or reduce the effective Kd?
+
+🧠 *Debt can be cheaper than equity, but not risk-free.*
+
+---
+
+# Worksheet 7: Weighted Average Cost of Capital (WACC)
+
+## What It Measures
+
+The blended cost of funding a firm, based on the relative weight of equity and debt.
+
+## How to Use It
+
+- Pull in Ke and Kd from previous sheets
+- Input E and D values to reflect a capital structure
+- Watch WACC change as weightings shift
+
+### Try This:
+
+- Run a WACC at 50/50, then 70/30, then 90/10 equity/debt
+- At what point does WACC hit its lowest?
+
+🎯 *This is the number firms often use as the hurdle rate in project appraisal.*
+
+---
+
+# Reflection and Integration
+
+- Does CAPM or DDM give a higher cost of equity? Why?
+- Which model is most sensitive to small changes in inputs?
+- Is there such a thing as an “optimal” capital structure?
+
+💬 *You’re not looking for perfect answers — you're learning to reason under uncertainty.*
+
+---
+
+# Supporting Resources
+
+- 📘 *Atrill (2019)*: Chapters 5, 7, 8  
+- 🎥 [Damodaran: WACC Resource](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html)  
+- 📚 [Investopedia: Cost of Capital](https://www.investopedia.com/terms/c/costofcapital.asp)  
+- 🔗 [Slides: Day 2 Afternoon](/slides/day2-afternoon-slides.html)
+
+---
+
+# Final Reflection
+
+“All models are wrong, but some are useful.” — *George Box*
+
+The Cost of Capital isn’t a single number — it’s a framework for thinking critically about funding and risk. Use this spreadsheet not to *get it right*, but to get insight.  
+
+🚀 Adjust. Break. Reflect. That's how better financial decisions are made.

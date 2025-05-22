@@ -1,503 +1,762 @@
 ---
-title: "Cost of Capital"
-subtitle: "Day 2 - Afternoon Session"
-author: "Prof. Barry Quinn"
-institute: "Ulster University Business School"
+title: "Corporate Financial Management"
+subtitle: "Day 2 Afternoon: Understanding the Cost of Capital"
+author: "Barry Quinn"
+date: last-modified
 format:
   revealjs:
     footer: "Corporate Financial Management - Day 2 Afternoon"
 ---
 
-# Cost of Capital
+## What Is the Cost of Capital? {.unnumbered}
 
-## Introduction to Cost of Capital
+Think of the cost of capital as the "price tag" a company must pay to obtain funding for its operations and investments.
 
-Every investment undertaken by a company requires financing that is either sourced by debt or equity. Each source has a cost.
+:::{.callout-note}
+## Learning Outcomes for This Session
+By the end of this afternoon, you will be able to:
 
-The cost of capital needs to be considered from two perspectives:
-
-- **Investor Perspective**: Cost of capital is the "opportunity cost" - the return that could be gained by investing funds in an alternative investment with similar risk characteristics.
-
-- **Company Perspective**: The "cost of capital" is the minimum return a company must provide to investors to ensure they continue to provide finance for investment and/or additional finance for future projects.
-
-::: {.callout-important}
-The return from a project should at least cover a company's current cost of finance. Therefore, establishing the cost of capital is vital in the evaluation and selection of projects.
+1. Explain what cost of capital means in practical terms
+2. Understand why different sources of finance have different costs
+3. Calculate the overall cost of funding for a business
+4. Apply these concepts to evaluate whether investments make financial sense
+5. Appreciate how capital structure decisions affect business value
 :::
 
-## Forms of Long-term Capital
+Just as you might pay different interest rates on a mortgage versus a credit card, companies face different costs depending on how they choose to finance their activities.
 
-There are four major forms of external long-term capital:
+## Two Perspectives on Cost of Capital
 
-- Ordinary shares
-- Preference shares  
-- Loan capital
-- Redeemable debentures
+**From the Investor's Viewpoint:**
 
-In addition, an important form of internal long-term capital is retained earnings.
+The cost of capital represents the return they could earn by investing their money elsewhere in similarly risky ventures. This is their "opportunity cost."
 
-## Cost of Capital Framework
+**From the Company's Viewpoint:**
 
-The cost of capital serves as the discount rate for investment appraisal and is calculated as the Weighted Average Cost of Capital (WACC), which combines:
+The cost of capital is the minimum return the company must provide to keep investors happy and willing to continue providing funds.
 
-- Cost of debt
-- Cost of equity
-
-The framework involves calculating each component separately:
-
-## Cost of Debt
-
-Two main products of debt:
-- Bank loans
-- Redeemable debt
-
-## Cost of Equity
-
-Two models to calculate the cost of equity (Ke):
-1. Dividend growth model
-2. Capital Asset Pricing Model (CAPM)
-
-
-## The Cost of Equity
-
-Equity represents the owners' investment in a company. This includes:
-
-- Issued share capital (shown in financial statements)
-- Retained earnings (often incorrectly viewed as a "free" source of finance)
-
-::: {.callout-note}
-Retained Earnings have an opportunity cost equal to the cost of equity (without issue costs). The market value of equity shares reflects the value placed on retained earnings by equity holders.
+:::{.callout-important}
+## The Golden Rule
+Any investment project should generate returns that at least cover the company's cost of obtaining the money to fund it. This is why understanding cost of capital is crucial for sound business decisions.
 :::
 
-## Market Value of Equity (P₀)
+## The Funding Menu: Sources of Capital
 
-A company's equity should be valued as though it were being sourced from the markets today. This means:
+Companies can obtain long-term funding from several sources, each with its own characteristics and costs:
 
-- Market price should not include premium to reflect a declared dividend payment
-- Price should be reduced to reflect the costs associated with issuing shares
+**External Sources:**
 
-The market value of equity (MV) is calculated as:
+- **Ordinary Shares** – Selling ownership stakes to investors
+- **Preference Shares** – Shares with fixed dividend payments
+- **Bank Loans** – Borrowed money with agreed interest rates
+- **Corporate Bonds** – IOUs sold to investors with fixed interest payments
 
-MV = Share issue price × Number of shares currently in issue
+**Internal Sources:**
 
-Where 'share issue price' is the current long-run market price for each equity share (ex-dividend) less issue costs.
+- **Retained Earnings** – Profits kept within the business rather than paid as dividends
 
-::: {.callout-tip}
-**Ex-dividend vs Cum-dividend**  
-- **Cum-dividend**: Share price includes a premium for an upcoming dividend payment
-- **Ex-dividend**: Price after the dividend has been paid, without the dividend premium
-:::
+## Understanding the Funding Landscape
 
-# Example: Calculating Market Value of Equity
+```{mermaid}
+flowchart TD
+    A[Company Funding Sources] --> B[Debt Financing]
+    A --> C[Equity Financing]
+    B --> D[Bank Loans]
+    B --> E[Corporate Bonds]
+    C --> F[Ordinary Shares]
+    C --> G[Preference Shares]
+    C --> H[Retained Earnings]
+```
 
-## Example 1
-Invierno plc has two million issued equity shares. The current market price (cum dividend) is 240p per share. The accrued dividend is 22p per share.
+Each funding source comes with different obligations, costs, and risks for the company.
 
-**Required:** Calculate the market value of Invierno plc's shares for WACC calculation.
+## The Cost of Equity: What Shareholders Expect
 
-**Solution:**  
-Ex-div share price = £2.40 - £0.22 = £2.18  
-Market value = ex-div share price × number of shares = £2.18 × 2,000,000 = £4,360,000
+Equity represents ownership in the company. When someone buys shares, they're effectively becoming a part-owner and expect to be compensated for the risks they're taking.
 
-## Example 2
-Alberta has 3 million shares in issue. The ordinary shares currently have a market value of £1.30 per share. Dividend of 5p per share has just been paid.
+**Key Insight:**
 
-**Solution:**  
-MV = ex-div price × no of shares = 3,000,000 × £1.30 = £3,900,000
+Even retained earnings (profits kept in the business) have a cost – shareholders could have received these as dividends and invested them elsewhere.
 
-## Example 3
-Beta has 1 million shares in issue. The ordinary shares have a market value of £1.25 per share. Dividend of 3p per share was just announced and will be paid in a month.
+## Valuing Equity: Market Price Considerations
 
-**Solution:**  
-ex-div price = £1.25 - £0.03 = £1.22  
-MV = £1.22 × 1,000,000 = £1,220,000:
+When calculating the cost of equity, we need to use the current market value of shares, but with some important adjustments:
 
-## Calculating the Cost of Equity (Ke)
+**Ex-Dividend vs Cum-Dividend Pricing:**
 
-The cost of equity is generally calculated using one of two methods:
+- **Cum-dividend:**
+  Share price includes upcoming dividend payment (like buying a house with the fixtures included)
+- **Ex-dividend:**
+  Share price after dividend has been paid (like buying the house without the fixtures)
 
-1. **Dividend Models**: Focus on the returns received by investors
-2. **Capital Asset Pricing Model (CAPM)**: Focus on the returns required to compensate for risk, relative to other investments
+For cost calculations, we use ex-dividend prices because they reflect the true ongoing value without one-off payments.
 
-## Dividend Valuation Model (No Growth)
+## Practical Example: Share Valuation
 
-This model is used to calculate the cost of preference shares which typically maintain a constant dividend.
+**Scenario:**
+Invierno plc has 2 million shares trading at 240p each. A dividend of 22p per share is about to be paid.
 
-$$K_e = \frac{D_1}{P_0}$$
+**For cost of capital purposes:**
 
-Where:
-- P₀ is the market value of equity (ex-dividend)
-- D₁ is the annual dividend (assuming no growth in dividend payout)
-- Ke is the equity holders' required return (company's cost of equity)
+- Current price (cum-dividend): 240p
+- Upcoming dividend: 22p
+- Ex-dividend price: 240p - 22p = 218p
+- Total market value: 218p × 2,000,000 = £4,360,000
 
-# Example: Dividend Valuation Model (No Growth)
+**Why This Matters:**
 
-## Example 1
-Febrero PLC pays an annual dividend of 16p per share. The preference shares are currently trading at 188p. An interim dividend of 8p is about to be paid.
+Using the cum-dividend price would overvalue the equity and underestimate the cost of capital, leading to poor investment decisions.
 
-**Required:** Calculate the cost of equity capital for Febrero PLC.
+## Calculating the Cost of Equity: Two Main Approaches
 
-**Solution:**  
-Annual dividend = £0.16  
-Ex-div = £1.88 - £0.08 = £1.80  
-Using dividend valuation model, Ke = £0.16/£1.80 = 8.89%
+**Method 1: The Dividend Approach**
 
-## Example 2
-Hugo Plc pays an annual dividend of 24p per share. The shares are currently trading at £2.3 per share. Annual dividend has just been paid.
+Focuses on what investors actually receive from their shareholding
 
-**Solution:**  
-Annual div = £0.24  
-Ex-div price = £2.3  
-Ke = £0.24/£2.30 = 10.43%
+**Method 2: The Risk-Based Approach (CAPM)**
 
+Focuses on what return investors require given the risks they're taking
 
-## Dividend Growth Model
+Both methods aim to answer the same question: "What return do shareholders expect for investing in this company?"
 
-When a growth rate is estimated, this is factored into the dividend valuation model to provide a cost of equity that takes future dividend increases into consideration:
+## Method 1: The Dividend Approach - Simple Version
 
-$$K_e = \frac{D_1}{P_0} + g = \frac{D_0(1+g)}{P_0} + g$$
+For investments that pay a constant dividend (like preference shares), the calculation is straightforward:
 
-Where:
-- g is the growth rate
-- D₀ is the dividend that has just been paid
-- P₀ is the market value of equity (ex-dividend)
-- D₁ is the next expected dividend
-- Ke is the cost of equity capital
+**Required Return = Annual Dividend ÷ Current Share Price**
 
-## Calculating Dividend Growth Rate
+**Example:**
 
-The formula for calculating historical dividend growth rate:
+- Annual dividend: 16p per share
+- Current share price (ex-dividend): £1.80
+- Required return: 16p ÷ £1.80 = 8.89%
 
-$$g = \sqrt[y]{\frac{D_{t0}}{D_{t0-y}}} - 1$$
+**Plain English:**
+If you pay £1.80 for a share that pays 16p annually forever, you're earning an 8.89% return on your investment.
 
-Where:
-- g is the growth rate
-- D<sub>t0</sub> is the dividend just paid
-- D<sub>t0-y</sub> is the dividend paid "y" years ago
+## Method 1: The Dividend Approach - Growth Version
 
-# Example: Dividend Growth Model
+When dividends are expected to grow over time, we need to account for this growth:
 
-## Example 1
-Junio PLC had the following dividends over the past 5 years:
+**Required Return = (Next Year's Expected Dividend ÷ Current Price) + Growth Rate**
 
-| Year | Dividends £ |
-|------|------------|
-| 2011 | 195,000     |
-| 2012 | 249,600     |
-| 2013 | 267,800     |
-| 2014 | 318,500     |
-| 2015 | 341,055     |
+**Example:**
 
-**Required:** Calculate the growth in Junio PLC's dividends.
+- Current dividend: 16p per share
+- Expected growth: 7% per year
+- Next year's dividend: 16p × 1.07 = 17.12p
+- Current share price: £1.88
+- Required return: (17.12p ÷ £1.88) + 7% = 9.11% + 7% = 16.11%
 
-**Solution:**
-There are 5 years of dividends provided which means 4 years of dividend growth:
+**The Logic:**
+Investors expect returns from both regular dividend payments AND the capital growth as dividends increase.
 
-341,055 = 195,000(1+g)⁴  
-1.749 = (1+g)⁴  
-(1.749)^0.25 = 1+g  
-g = (1.749)^0.25 – 1 = 15%
+## Calculating Historical Growth Rates
 
-## Example 2
+To estimate future growth, we often look at past dividend patterns:
 
-Febrero PLC pays an annual dividend of 16p per share. The shares are currently trading at 188p. The annual dividend has just been paid.
+**Example: Five Years of Dividends**
 
-**Required:** Calculate the cost of equity capital for Febrero PLC. Assume a growth rate of 7%.
+- 2015: £341,055
+- 2014: £318,500
+- 2013: £267,800
+- 2012: £249,600
+- 2011: £195,000
 
-**Solution:**
-Ex-div P₀ = £1.88  
-g = 7%  
-D₀ = £0.16  
-D₁ = D₀(1+g) = £0.16 × 1.07 = £0.1712  
-Ke = (D₁/P₀) + g = (£0.1712/£1.88) + 7% = 9.11% + 7% = 16.11%
+**The Calculation Process:**
 
-## Example 3
-Whiskey Plc just paid out a total of £300,000 as dividend. The shares are currently trading at £2.33 per share, and there are a total of 3 million shares. Assume there is a growth rate of 5%.
+- Total growth over 4 years: £341,055 ÷ £195,000 = 1.749 (or 74.9% total growth)
+- Annual growth rate: (1.749)^(1/4) - 1 = 15% per year
 
-**Solution:**
-P₀ = £2.33  
-D₀ = £300,000/3,000,000 = £0.10 per share  
-D₁ = D₀(1+g) = £0.10 × 1.05 = £0.105  
-Ke = (D₁/P₀) + g = (£0.105/2.33) + 5% = 4.5% + 5% = 9.5%
+**What This Tells Us:**
+Dividends have been growing at 15% annually, which might continue into the future.
 
-## Limitations of the Dividend Valuation Model
+## Limitations of the Dividend Method
 
-- Assumes dividends grow smoothly, but this may not reflect reality
-- Some companies pay zero dividends and reinvest 100% of earnings
-- Assumes dividends continue to grow at historic rates
-- Ignores that shareholders also receive returns in the form of capital gains
-- Results are very sensitive to values of g and P₀
+**Practical Challenges:**
 
-## Capital Asset Pricing Model (CAPM)
+- Many companies pay irregular dividends or no dividends at all
+- Past growth may not predict future performance
+- Assumes smooth, predictable dividend growth
+- Ignores capital gains (increases in share price)
+- Very sensitive to assumptions about growth rates
 
-The Capital Asset Pricing Model evaluates the risks associated with investing in a company relative to other capital market investments.
+**When It Works Best:**
 
-## Risk Classification
+- Companies with stable, predictable dividend policies
+- Mature businesses with consistent cash generation
+- Preference shares with fixed payments
 
-- **Unsystematic (unique/business) risk**: Specific to a company/industry (e.g., strike action, merger)
-- **Systematic (market) risk**: Affects the whole market (e.g., inflation, interest rates, GDP movements)
+## Method 2: The Capital Asset Pricing Model (CAPM)
 
-::: {.callout-important}
-Portfolio theory suggests that an investor can diversify away unsystematic risk by holding a well-diversified portfolio. The larger the number of differing types of shares held, the more likely that unsystematic risk will be reduced.
-:::
+CAPM takes a different approach by focusing on risk and return relationships in the broader market.
 
-It is generally thought that holding eight to ten carefully chosen shares is sufficient to diversify away unsystematic risk.
+**The Core Idea:**
 
-## Beta and Systematic Risk
+Investors require higher returns for taking higher risks. CAPM quantifies this relationship.
 
-Beta (β) is a measure of the systematic risk of an individual equity share relative to the systematic risk experienced by the market.
+## Understanding Risk in Investment
 
-- Beta = 1: Company has the same risk as the market average
-- Beta > 1: More risky than the market (e.g., β=2 means twice as risky)
-- Beta < 1: Less risky than the market
+**Two Types of Risk:**
 
-A company's beta is obtained by plotting the returns of the company against the returns of the market over time, creating a "securities market line."
+**Unique Risk (Unsystematic Risk):**
 
-## The CAPM Formula
+- Specific to individual companies or industries
+- Examples: Labour strikes, management changes, product recalls
+- Can be eliminated through diversification (holding different types of investments)
 
-The CAPM captures the gradient of the securities market line:
+**Market Risk (Systematic Risk):**
 
-$$r_j = r_f + \beta(r_m - r_f)$$
+- Affects the entire market
+- Examples: Interest rate changes, economic recessions, inflation
+- Cannot be diversified away – everyone faces these risks
 
-Where:
-- r<sub>j</sub> is the return expected from company j (same as Ke)
-- r<sub>f</sub> is the risk-free rate of return
-- β is the level of systematic risk
-- (r<sub>m</sub> – r<sub>f</sub>) is the market risk premium
+**Key Insight:**
+Since investors can eliminate unique risk through diversification, they only require compensation for market risk.
 
-# Example: CAPM Calculations
+## Beta: Measuring Market Risk
 
-## Example 1
-M plc has a beta factor of 1.2. The yield on government bonds is 3% and the return on the market is 8%. 
+Beta (β) measures how sensitive a company's shares are to overall market movements:
 
-**Required:** Calculate M plc's equity cost of capital using CAPM.
+- **Beta = 1:**
+  Company moves in line with the market
+- **Beta > 1:**
+  Company is more volatile than the market (higher risk)
+- **Beta < 1:**
+  Company is less volatile than the market (lower risk)
 
-**Solution:**
-r<sub>f</sub> = 3%  
-r<sub>m</sub> = 8%  
-β = 1.2  
-r<sub>j</sub> = r<sub>f</sub> + β(r<sub>m</sub> - r<sub>f</sub>)  
-r<sub>j</sub> = 3% + 1.2(8% - 3%)  
-r<sub>j</sub> = 3% + 1.2(5%)  
-r<sub>j</sub> = 3% + 6%  
-r<sub>j</sub> = 9%
+**Real-World Examples:**
 
-## Example 2
-L plc has a beta factor of 1.5. The risk-free yield is 5%, and the market premium is 8%.
+- Utility companies often have beta < 1 (stable, defensive businesses)
+- Technology startups often have beta > 1 (highly sensitive to market sentiment)
+- Mining companies might have beta = 2 (twice as volatile as the market)
 
-**Required:** Calculate L plc's Ke using CAPM.
+## The CAPM Formula in Plain English
 
-**Solution:**
-r<sub>f</sub> = 5%  
-Market premium = (r<sub>m</sub> - r<sub>f</sub>) = 8%  
-β = 1.5  
-r<sub>j</sub> = r<sub>f</sub> + β(r<sub>m</sub> - r<sub>f</sub>)  
-r<sub>j</sub> = 5% + 1.5(8%)  
-r<sub>j</sub> = 5% + 12%  
-r<sub>j</sub> = 17%
+**Required Return = Risk-Free Rate + (Beta × Market Risk Premium)**
 
-## Example 3
-N plc is considered to be twice as sensitive to market change. Government bonds currently have a 5% coupon rate, and the average market return is 15%.
+**What Each Component Means:**
 
-**Required:** Calculate N plc's Ke using CAPM.
+- **Risk-Free Rate:**
+  Return on safest investments (government bonds)
+- **Beta:**
+  How much riskier the company is than the market average
+- **Market Risk Premium:**
+  Extra return demanded for investing in shares rather than safe bonds
 
-**Solution:**
-r<sub>f</sub> = 5%  
-r<sub>m</sub> = 15%  
-β = 2 (twice as sensitive)  
-r<sub>j</sub> = r<sub>f</sub> + β(r<sub>m</sub> - r<sub>f</sub>)  
-r<sub>j</sub> = 5% + 2(15% - 5%)  
-r<sub>j</sub> = 5% + 20%  
-r<sub>j</sub> = 25%
-:::
+**Example:**
 
-## CAPM vs Dividend Growth Model
+- Risk-free rate: 3%
+- Company beta: 1.2
+- Market return: 8%
+- Market risk premium: 8% - 3% = 5%
+- Required return: 3% + (1.2 × 5%) = 3% + 6% = 9%
 
-| CAPM | Dividend Growth Model |
-|------|----------------------|
-| Takes into account risk | Does not explicitly account for risk |
-| Assumes no taxation or transaction costs | Incorporates actual market prices |
-| Assumes investors can diversify away unsystematic risk | Requires historical dividend data |
-| Can be applied to all listed companies | Cannot be used for companies without dividend history |
-| Assumes investors can borrow/lend at risk-free rate | Based on actual dividend payments |
+## CAPM Example Walkthrough
 
-## The Cost of Debt
+**Scenario:**
+M plc has a beta of 1.2, government bonds yield 3%, and the stock market average return is 8%.
 
-There are two main types of debt financing:
+**Step-by-Step Calculation:**
 
-1. **Untraded Debt**: Bank loans
-2. **Traded Debt**: Redeemable bonds
+1. Risk-free rate = 3%
+2. Market return = 8%
+3. Market risk premium = 8% - 3% = 5%
+4. Company beta = 1.2
+5. Required return = 3% + 1.2 × 5% = 3% + 6% = 9%
 
-## Untraded Debt (Bank Loans)
+**Interpretation:**
+Because this company is 20% riskier than the market average (beta = 1.2), investors require a 9% return compared to the 8% market average.
 
-When long-term debt is untraded, such as a bank loan:
-- The market value equates to the book value
-- The cost of capital is the post-tax interest rate charged on that debt
+## Comparing the Two Methods
 
-$$K_{dt} = i(1-t)$$
+| Dividend Growth Model | CAPM |
+|----------------------|------|
+| Based on actual dividend payments | Based on risk relationships |
+| Requires dividend history | Can be applied to any listed company |
+| Simple and intuitive | More theoretically robust |
+| Sensitive to growth assumptions | Requires market data and beta calculation |
+| Good for mature, dividend-paying companies | Good for all types of companies |
 
-Where:
-- K<sub>dt</sub> is the cost of debt after taxation
-- i is the interest rate
-- t is the taxation rate
+**Best Practice:**
+Use both methods when possible and compare results for reasonableness.
 
-### Example: Cost of Bank Loan
+## The Cost of Debt: Borrowed Money
 
-If a company has a bank loan of £1m with an interest rate of 8% and corporate tax is 30%:
+Debt financing involves borrowing money with a legal obligation to repay with interest. The cost calculation depends on the type of debt.
 
-K<sub>d</sub> = 8% × (1-30%) = 5.6%
+## Two Main Types of Debt
 
-The market value of this loan is £1m, same as the book value.
+**Untraded Debt (Bank Loans):**
 
-## Traded Debt (Redeemable Bonds)
+- Negotiated directly with banks
+- Interest rate agreed at outset
+- Market value equals the amount borrowed
+- Cost = Interest rate × (1 - Tax Rate)
 
-Traded debt usually takes the form of bonds that can be traded on stock markets:
+**Traded Debt (Corporate Bonds):**
 
-- In the UK, bonds have a nominal value of £100
-- The most common type is a "plain vanilla bond" with a fixed annual interest rate
-- Traders value bonds based on their coupon (interest) compared to returns from similar investments
-- Interest payments on debt are tax-deductible
+- Sold to investors in financial markets
+- Can be bought and sold like shares
+- Market value fluctuates based on interest rates
+- More complex cost calculations required
 
-## Market Value of Redeemable Bonds
+## Why Debt Is Cheaper Than Equity
 
-The market value of bonds should be the cash flows expected by a company on a new issue:
+**Tax Benefits:**
 
-Quoted market value – Ex-interest – Ex-issue costs
+Interest payments on debt are tax-deductible, making debt cheaper for companies.
 
-Redeemable bonds are valued at the present value of:
-- Future stream of income (coupon) for a set period (annuity), plus
-- Final redemption payment
+**Example:**
 
-Both discounted at the required rate of return.
+- Bank loan interest rate: 8%
+- Corporate tax rate: 30%
+- After-tax cost of debt: 8% × (1 - 30%) = 8% × 70% = 5.6%
 
-## Example: Market Value of Redeemable Bonds
+**Lower Risk for Lenders:**
 
-ABC PLC has £2,000,000 of 8% bonds due for redemption at par in 3 years. The expected return for bondholders is 5%.
+- Debt holders have legal priority over shareholders
+- Interest must be paid before dividends
+- Lenders have security/collateral backing
+- Therefore, lenders accept lower returns
 
-**Required:** Calculate the market value of the bond.
+## Corporate Bonds: A Deeper Look
 
-**Solution:**
-MV = £8/1.05 + £8/1.05² + £108/1.05³ = £108.17
+Corporate bonds are essentially IOUs that companies sell to raise money:
 
-Since each bond has a par value of £100, the total market value would be:
-(£108.17/£100) × £2,000,000 = £2,163,400
+**Key Features:**
 
-## Calculating the Cost of Redeemable Debt
+- Face value (usually £100 per bond)
+- Fixed annual interest payment (coupon)
+- Set maturity date for repayment
+- Tradeable on financial markets
 
-The cost of redeemable debt is calculated using an IRR approach:
+**Market Value Calculation:**
 
-1. Determine the current market price of the bond
-2. Identify the after-tax interest payments
-3. Find the discount rate that makes the present value of future cash flows equal to the current market price
+Bond prices fluctuate based on current interest rates and the company's creditworthiness.
 
-## Example: Cost of Redeemable Debt
+## Bond Valuation Example
 
-Derry PLC has £5,000,000 8% debentures (2022 at Par) trading at £92. The interest payment has just been made. The company pays tax at 50%.
+**ABC PLC Bond Details:**
 
-**Required:** Calculate the cost of Derry PLC's debentures.
+- £2,000,000 total bonds
+- 8% annual interest (coupon)
+- Repayable at face value in 3 years
+- Current market interest rate for similar bonds: 5%
 
-**Solution:**
-After-tax interest = £8 × (1-50%) = £4 per £100 bond  
-Redemption time = 4 years  
-Redemption price = £100  
-Current market value = £92  
+**Market Value Logic:**
 
-Using IRR approach to find K<sub>d</sub>:
-92 = 4/(1+k<sub>d</sub>) + 4/(1+k<sub>d</sub>)² + 4/(1+k<sub>d</sub>)³ + 104/(1+k<sub>d</sub>)⁴
+Investors compare the 8% coupon to current 5% rates. Since the bond pays more than current rates, it trades at a premium above face value.
 
-Testing with 5%:
-NPV = 92 - 4×(3.546) - 100×(0.823) = -4.484
+**Calculation Result:**
 
-Testing with 15%:
-NPV = 92 - 4×(2.855) - 100×(0.572) = 23.38
+Each £100 bond is worth approximately £108.17, making the total market value £2,163,400.
 
-K<sub>d</sub> = 5% + (4.484/27.864)×(10%) = 6.61%
+## Calculating the Cost of Traded Debt
+
+The cost of traded debt uses the same logic as calculating a loan's interest rate, but in reverse:
+
+**Given:**
+
+- Current market price of the bond
+- Annual interest payments (after tax)
+- Final repayment amount and timing
+
+**Find:**
+
+The interest rate that makes these future cash flows equal to today's market price.
+
+## Bond Cost Calculation Example
+
+**Derry PLC Bond:**
+
+- £5,000,000 of 8% bonds
+- Currently trading at £92 per £100 bond
+- 4 years until maturity
+- Company tax rate: 50%
+
+**After-tax interest per bond:**
+£8 × (1-50%) = £4
+
+**Annual cash flow per bond:**
+£4 for 4 years, then £100 repayment
+
+**Finding the Cost:**
+
+What interest rate makes £4 annually for 4 years plus £100 final payment worth £92 today? Answer: approximately 6.61%
 
 ## Weighted Average Cost of Capital (WACC)
 
-The weighted average cost of capital (WACC) is the overall cost of long-term funds invested in a company.
+WACC combines the costs of debt and equity based on their relative importance in the company's financing.
 
-## Calculating WACC
+**The Concept:**
 
-The WACC formula:
+If you finance 60% with equity (costing 12%) and 40% with debt (costing 6%), your overall cost is:
+(60% × 12%) + (40% × 6%) = 7.2% + 2.4% = 9.6%
 
-$$\text{WACC} = \frac{E(K_e)}{(D+E)} + \frac{D(K_d(1-t))}{(D+E)}$$
+## WACC Formula in Plain English
 
-Where:
-- E is the market value of equity
-- D is the current market value of debt
-- K<sub>e</sub> is the cost of equity
-- K<sub>d</sub> is the before-tax cost of debt
-- t is the current rate of tax
+**WACC = (Equity Weight × Cost of Equity) + (Debt Weight × After-tax Cost of Debt)**
 
-## Example: WACC Calculation
+**Where the weights are:**
 
-Primavero Plc has equity amounting to £2million and debt capital of £2million. The cost of equity is 16% and the cost of debt (before tax) is 12.5%. The current tax rate is 20%.
+- Equity Weight = Market Value of Equity ÷ Total Value
+- Debt Weight = Market Value of Debt ÷ Total Value
 
-**Required:**
-a) What is the market value of Primavero Plc?
-b) What is Primavero Plc's WACC?
+**Important:**
+Use market values, not book values, as these reflect current investor valuations.
 
-**Solution:**
-a) Market value = £2m + £2m = £4m
+## WACC Calculation Example
 
-b) WACC = 0.5(16%) + 0.5(12.5%)(1-0.2)
-   = 8% + 0.5(10%)
-   = 8% + 5%
-   = 13%
+**Primavero Plc:**
 
-## Limitations of Using WACC for Investment Appraisal
+- Equity market value: £2 million
+- Debt market value: £2 million
+- Cost of equity: 16%
+- Cost of debt (before tax): 12.5%
+- Tax rate: 20%
 
-The WACC is appropriate when:
-- The rate reflects the marginal cost of new capital
-- The company's capital structure is at its optimal level
-- The project being evaluated has the same business risk as the company
-- The finance raised is in similar proportions to the existing capital structure
+**Step-by-Step:**
 
-Other limitations:
-- Some debt instruments are highly complicated and don't fit theoretical models
-- Companies may issue floating-rate debt capital
-- The WACC provides only a framework for estimation
+1. Total value = £2m + £2m = £4m
+2. Equity weight = £2m ÷ £4m = 50%
+3. Debt weight = £2m ÷ £4m = 50%
+4. After-tax cost of debt = 12.5% × (1-20%) = 10%
+5. WACC = (50% × 16%) + (50% × 10%) = 8% + 5% = 13%
 
-## Capital Structure Theory
+## When to Use WACC for Investment Decisions
 
-A company's Capital Structure is the mixture of long-term debt and equity used to finance projects and operations.
+WACC is appropriate as a discount rate when:
 
-The value of a company is the market value of its capital structure:
-MV = D + E
+**The Investment Matches the Business:**
 
-## Capital Structure Objective
+- Similar risk profile to existing operations
+- Financed in same proportions as current capital structure
+- Company's financing mix is optimal
 
-- Debt is generally cheaper than equity
-- However, gearing impacts the required return by existing equity and debt holders due to financial risk
-- A financial manager must find the level of debt and equity that minimizes WACC - the optimum capital structure
+**When WACC May Not Be Suitable:**
 
-## Financial Risk
+- Project is significantly riskier or safer than normal business
+- Different financing arrangement planned
+- Major change in company's risk profile
 
-- Debt has a fixed yearly return that must be paid
-- This creates a constant drain on liquidity and may increase bankruptcy risk
-- Higher fixed costs (interest) increase sensitivity of income available for equity holders
-- Financial risk is the additional sensitivity in returns to equity holders due to debt
+## Capital Structure: The Debt-Equity Mix
 
-## Modigliani and Miller Theory
+Capital structure refers to how a company chooses to finance its operations – the balance between debt and equity funding.
 
-The Modigliani and Miller theory suggests:
+**The Central Question:**
 
-- Company value is not influenced by its capital structure
-- Equity holders require a premium for increased financial risk that exactly offsets the benefit of cheaper debt
-- Therefore, WACC remains constant regardless of capital structure
-- Market value is determined solely by the quality of investments (operating profits/cash flows)
+What mix of debt and equity minimises the overall cost of capital and maximises company value?
 
-## Summary of Cost of Capital
+## The Capital Structure Trade-Off
 
-The key components for calculating the cost of capital:
+**Benefits of Debt:**
 
-1. **Bank loans**: Cost and market value
-2. **Redeemable debt**: Cost and market value
-3. **Preference shares**: Cost and market value
-4. **Ordinary shares**: Cost and market value
-   - Two models to calculate cost:
-     - Dividend growth model
-     - CAPM
-5. **WACC**: Weighted average combining debt and equity costs
+- Lower cost due to tax deductibility
+- No dilution of existing shareholders' control
+- Fixed payment obligations
 
-These calculations help determine the appropriate discount rate for investment appraisal, ensuring projects generate sufficient returns to meet financing costs.
+**Costs of Debt:**
+
+- Increased financial risk and potential bankruptcy
+- Fixed obligations regardless of company performance
+- Restrictive lending covenants
+
+**The Balancing Act:**
+
+Companies must find the optimal level where the benefits of cheaper debt are balanced against the increased financial risk.
+
+## Financial Risk Explained
+
+**Operating Risk:**
+Uncertainty about business performance
+
+**Financial Risk:**
+Additional uncertainty created by debt obligations
+
+**Example:**
+
+Two identical businesses, one financed entirely by equity, one with 50% debt:
+- In good years, the leveraged company's shareholders earn much higher returns
+- In bad years, they may face significant losses or bankruptcy
+- The debt creates amplified volatility in shareholder returns
+
+## The Modigliani-Miller Theory
+
+This influential theory suggests that in perfect markets:
+
+**Key Proposition:**
+
+Company value is determined by its investment opportunities and operating performance, not how it's financed.
+
+**The Logic:**
+
+Any benefit from cheaper debt is exactly offset by shareholders demanding higher returns due to increased financial risk.
+
+**Real-World Implications:**
+
+While perfect markets don't exist, the theory highlights that financing decisions should focus on operational performance and tax considerations rather than attempting to "trick" the market.
+
+## Practical Applications for Legal Professionals
+
+**Due Diligence in M&A:**
+
+- Evaluate target company's cost of capital
+- Assess whether current capital structure is optimal
+- Consider post-acquisition financing implications
+
+**Corporate Restructuring:**
+
+- Understand how capital structure changes affect value
+- Evaluate impact of debt refinancing on shareholders
+- Consider tax implications of different financing arrangements
+
+**Investment Committee Decisions:**
+
+- Ensure proposed investments exceed cost of capital
+- Understand how project risks affect required returns
+- Evaluate financing options for major investments
+
+## Common Cost of Capital Pitfalls
+
+**Mistakes to Avoid:**
+
+- Using book values instead of market values
+- Ignoring tax benefits of debt
+- Applying WACC to projects with different risk profiles
+- Overlooking flotation costs for new financing
+- Using historical data without considering future changes
+
+**Best Practices:**
+
+- Regularly update cost calculations
+- Consider multiple estimation methods
+- Adjust for project-specific risks
+- Consider market conditions and company circumstances
+
+## Final Reflection: Models as Tools for Insight {.unnumbered}
+
+:::{.callout-note appearance="minimal"}
+> **"All models are wrong, but some are useful."** — *George Box*
+
+The cost of capital isn't a single, precise number — it's a framework for thinking critically about funding and risk. The models we've explored today are tools for reasoning under uncertainty, not formulas for absolute truth.
+
+**Key Learning Philosophy:**
+
+- **Experiment confidently:**
+  Use the Excel workbook to test assumptions and break things
+- **Question everything:**
+  Ask why growth rates should continue, whether betas are stable, if markets are truly efficient
+- **Focus on insight over precision:**
+  Understanding the relationships matters more than calculating to the fourth decimal place
+- **Apply contextually:**
+  Every company, industry, and situation has unique factors that models can't fully capture
+
+**For Legal Professionals:**
+
+Your role isn't to become a financial modeller, but to understand these concepts well enough to:
+- Ask the right questions during due diligence
+- Evaluate the reasonableness of financial projections
+- Understand how financing decisions affect client interests
+- Communicate effectively with financial professionals and clients
+
+The confidence to engage with these concepts — not perfect technical mastery — is what will serve you best in practice.
+:::
+
+**Moving Forward:**
+
+Use the interactive workbook not to *get it right*, but to develop intuition. Adjust inputs, break assumptions, reflect on results. That's how better financial decisions — and better legal advice — are made.
+
+🚀 **Next Step:**
+Complete the workbook exercises before tomorrow's session on dividend policy. Pay special attention to how dividend assumptions affect cost of equity calculations.
+
+## Tomorrow's Focus {.unnumbered}
+
+Tomorrow we will explore:
+
+- Dividend policy decisions and their impact on company value
+- Different approaches to dividend payments (regular, special, stock dividends)
+- The relationship between dividend policy and share prices
+- Legal and regulatory considerations in dividend distributions
+- Tax implications of different dividend strategies
+
+**Preparation for Tomorrow:**
+
+Complete the Excel workbook exercises to solidify today's cost of capital concepts. Pay particular attention to the dividend valuation models (Worksheets 3 & 4), as these will directly connect to tomorrow's dividend policy discussions.
+
+Understanding how dividends affect the cost of equity will provide essential foundation for evaluating different dividend policy strategies.
+
+## Hands-On Learning: Excel Workbook Exercises {.unnumbered}
+
+**Interactive Learning Resources:**
+
+Access the **Cost of Capital Learning Workbook** to reinforce today's concepts through practical exercises:
+
+**Worksheet 2: Market Value of Equity**
+
+- Practice calculating market values with different dividend scenarios
+- Understand cum-dividend vs ex-dividend pricing
+- *Try changing share prices and dividend amounts to see immediate impact*
+
+**Worksheets 3 & 4: Dividend Valuation Models**
+
+- Compare no-growth vs growth scenarios for cost of equity
+- Test sensitivity to growth rate assumptions
+- *Experiment: What happens when growth rates change from 2% to 8%?*
+
+**Worksheet 5: CAPM Calculations**
+
+- Adjust beta values for different risk profiles
+- See how market conditions affect required returns
+- *Try beta values of 0.5 (low risk) vs 2.0 (high risk) - observe the impact*
+
+**Worksheet 6: Cost of Debt**
+
+- Calculate after-tax costs with different tax rates
+- Work through bond valuation scenarios
+- *Test: How does changing tax rates from 20% to 40% affect debt costs?*
+
+**Worksheet 7: WACC Integration**
+
+- Combine all components into weighted average calculations
+- Find optimal capital structure through experimentation
+- *Challenge: At what debt/equity mix is WACC minimised?*
+
+:::{.callout-tip}
+## Learning Philosophy
+
+"All models are wrong, but some are useful." The workbook encourages experimentation in a safe environment where being wrong leads to better understanding. Use yellow cells for inputs, trace blue formula cells to understand the logic.
+:::
+
+## Additional Professional Resources {.unnumbered}
+
+**Essential Reading:**
+
+- Financial Times Guide to Corporate Finance by Glen Arnold
+- Corporate Finance: Core Principles and Applications by Ross, Westerfield, and Jordan
+- Investment Valuation by Aswath Damodaran
+
+## Essential Resources for Deeper Learning {.unnumbered}
+
+**Core Academic Resources:**
+
+- 📘 **Atrill (2019):**
+  *Financial Management for Decision Makers* - Chapters 5, 7, 8
+  - Excellent for non-specialists, with practical examples
+- 📘 **Financial Times Guide to Corporate Finance** by Glen Arnold
+  - Bridge between academic theory and practical application
+
+**Online Learning Resources:**
+
+- 🎥 [**Damodaran WACC Resource**](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html)
+  - Professor Aswath Damodaran's comprehensive database and tutorials
+  - Industry-specific cost of capital data
+- 📚 [**Investopedia: Cost of Capital**](https://www.investopedia.com/terms/c/costofcapital.asp)
+  - Clear definitions and worked examples
+  - Regular updates reflecting market conditions
+
+**Market Data Sources:**
+
+- **Bank of England:**
+  Risk-free rate data and monetary policy context
+- **Financial Times:**
+  Market risk premium estimates and industry analysis
+- **Company Annual Reports:**
+  Real-world examples of cost of capital disclosures
+
+**Professional Development:**
+
+- **CFA Institute:**
+  Comprehensive corporate finance curriculum
+- **ICAEW:**
+  Business finance qualifications for non-financial professionals
+- **Financial Times:**
+  Regular articles on capital markets and corporate finance trends
+
+:::{.callout-tip}
+## Recommended Learning Path
+
+1. **Start with Investopedia** for basic concepts and terminology
+2. **Use Damodaran's resources** for detailed calculations and industry data  
+3. **Read Atrill** for comprehensive coverage with practical focus
+4. **Practice with real company data** from annual reports and financial databases
+:::
+
+## Market Data and Practical Tools {.unnumbered}
+
+**Risk-Free Rate Sources:**
+
+- UK Government Gilt yields (10-year benchmark commonly used)
+- Bank of England base rate for short-term reference
+
+**Beta Calculations:**
+
+- Financial data providers (Bloomberg, Refinitiv, Yahoo Finance)
+- Academic databases (WRDS, Datastream)
+- Company-specific analysis in equity research reports
+
+**Industry Benchmarks:**
+
+- Damodaran's industry cost of capital data by sector
+- PWC Annual Corporate Treasury Survey
+- Deloitte Cost of Capital studies
+
+**Regulatory Context:**
+
+- FCA guidance on discount rates for regulated entities
+- EU guidelines on cost of capital for infrastructure projects
+- International accounting standards (IFRS) on fair value measurements
+
+## Practice Through Application: Key Exercises {.unnumbered}
+
+**Immediate Application:**
+
+Work through these guided exercises using the Excel workbook:
+
+**Exercise 1: Market Valuation Scenarios**
+
+Compare three companies with different dividend policies:
+- Company A: Just paid dividend, stable price
+- Company B: Dividend announcement pending, premium in price
+- Company C: No dividend policy, growth-focused
+
+**Exercise 2: Cost of Equity Comparison**
+
+For the same company, calculate cost of equity using:
+- Dividend growth model (assume 5% growth)
+- CAPM (test with β = 0.8, 1.2, and 1.8)
+- Compare results and consider which is more reliable
+
+**Exercise 3: Capital Structure Optimization**
+
+Test different debt/equity mixes:
+- Start with 100% equity financing
+- Gradually increase debt proportion to 10%, 30%, 50%, 70%
+- Identify the point where WACC is minimised
+- Consider practical constraints on high leverage
+
+**Exercise 4: Sensitivity Analysis**
+
+Pick one company and test sensitivity to:
+- ±2% change in risk-free rate
+- ±20% change in market risk premium  
+- ±0.3 change in beta
+- Which variable has the greatest impact on WACC?
+
+**Reflection Questions for Professional Application:**
+
+- How do your calculated costs compare to companies' actual borrowing rates?
+- What practical factors might cause real-world costs to differ from your calculations?
+- How would you explain your findings to a non-financial board member?
+- Which cost of capital components are most critical for different types of legal work?
+
+**Legal Practice Applications:**
+
+- **M&A Due Diligence:**
+  Evaluate target company discount rates and capital structure efficiency
+- **Restructuring Advice:**
+  Understand how cost changes affect stakeholder positions
+- **Project Finance:**
+  Apply appropriate hurdle rates for infrastructure and development projects
+- **Corporate Governance:**
+  Advise on optimal capital structure decisions and their implications

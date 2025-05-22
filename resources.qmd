@@ -71,7 +71,7 @@ You can create PDF handouts directly from the RevealJS presentations:
    - To include speaker notes, check "Include speaker notes" if available
    - Adjust margins and scaling as needed
 
-## Interactive Learning Workbook
+## Capital Investment Decisions Workbook and Guide
 
 This resource supports learning-by-doing for capital investment decision-making. It includes an Excel workbook with interactive worksheets and a detailed guide to support self-directed exploration, aligned with course slides.
 
@@ -91,6 +91,29 @@ A structured walkthrough of the workbook with learning tasks, tips, and self-ass
 ::: {.button-group}
 [Read Online](/materials/capitial-investment-decisions-guide.html){.btn .btn-primary}
 [Download PDF](/materials/capitial-investment-decisions-guide.pdf){.btn .btn-secondary}
+:::
+:::
+
+## Cost of Capital Workbook and Guide
+
+This resource supports interactive learning during and after the Day 2 Afternoon session on Cost of Capital. It includes a hands-on Excel workbook and a structured learning guide aligned with the slide deck and concepts in Atrill (2019).
+
+::: {.resource-card}
+### Cost of Capital Workbook (.xlsx)
+An interactive Excel file covering CAPM, Dividend Valuation Models, Cost of Debt, and WACC, including what-if tools and a summary dashboard.
+
+::: {.button-group}
+[Download Excel Workbook](/materials/cost-of-capital-workbook.xlsx){.btn .btn-primary}
+:::
+:::
+
+::: {.resource-card}
+### Learning Guide (.pdf/.html)
+A topic-by-topic companion to the workbook, providing learning prompts, worked examples, and critical reflection activities.
+
+::: {.button-group}
+[Read Online](/materials/cost-of-capital-guide.html){.btn .btn-primary}
+[Download PDF](/materials/cost-of-capital-guide.pdf){.btn .btn-secondary}
 :::
 :::
 
