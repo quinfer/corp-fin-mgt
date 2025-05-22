@@ -103,7 +103,7 @@ This resource supports interactive learning during and after the Day 2 Afternoon
 An interactive Excel file covering CAPM, Dividend Valuation Models, Cost of Debt, and WACC, including what-if tools and a summary dashboard.
 
 ::: {.button-group}
-[Download Excel Workbook](/materials/cost-of-capital-workbook.xlsx){.btn .btn-primary}
+[Download Excel Workbook](/materials/cost-of-capital.xlsx){.btn .btn-primary}
 :::
 :::
 

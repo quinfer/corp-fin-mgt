@@ -149,6 +149,7 @@ When dividends are expected to grow over time, we need to account for this growt
 - Required return: (17.12p ÷ £1.88) + 7% = 9.11% + 7% = 16.11%
 
 **The Logic:**
+
 Investors expect returns from both regular dividend payments AND the capital growth as dividends increase.
 
 ## Calculating Historical Growth Rates
@@ -169,6 +170,7 @@ To estimate future growth, we often look at past dividend patterns:
 - Annual growth rate: (1.749)^(1/4) - 1 = 15% per year
 
 **What This Tells Us:**
+
 Dividends have been growing at 15% annually, which might continue into the future.
 
 ## Limitations of the Dividend Method
@@ -212,18 +214,16 @@ Investors require higher returns for taking higher risks. CAPM quantifies this r
 - Cannot be diversified away – everyone faces these risks
 
 **Key Insight:**
+
 Since investors can eliminate unique risk through diversification, they only require compensation for market risk.
 
 ## Beta: Measuring Market Risk
 
 Beta (β) measures how sensitive a company's shares are to overall market movements:
 
-- **Beta = 1:**
-  Company moves in line with the market
-- **Beta > 1:**
-  Company is more volatile than the market (higher risk)
-- **Beta < 1:**
-  Company is less volatile than the market (lower risk)
+- **Beta = 1:** Company moves in line with the market
+- **Beta > 1:** Company is more volatile than the market (higher risk)
+- **Beta < 1:** Company is less volatile than the market (lower risk)
 
 **Real-World Examples:**
 
@@ -237,12 +237,9 @@ Beta (β) measures how sensitive a company's shares are to overall market moveme
 
 **What Each Component Means:**
 
-- **Risk-Free Rate:**
-  Return on safest investments (government bonds)
-- **Beta:**
-  How much riskier the company is than the market average
-- **Market Risk Premium:**
-  Extra return demanded for investing in shares rather than safe bonds
+- **Risk-Free Rate:**  Return on safest investments (government bonds)
+- **Beta:**  How much riskier the company is than the market average
+- **Market Risk Premium:** Extra return demanded for investing in shares rather than safe bonds
 
 **Example:**
 
@@ -255,6 +252,7 @@ Beta (β) measures how sensitive a company's shares are to overall market moveme
 ## CAPM Example Walkthrough
 
 **Scenario:**
+
 M plc has a beta of 1.2, government bonds yield 3%, and the stock market average return is 8%.
 
 **Step-by-Step Calculation:**
@@ -266,6 +264,7 @@ M plc has a beta of 1.2, government bonds yield 3%, and the stock market average
 5. Required return = 3% + 1.2 × 5% = 3% + 6% = 9%
 
 **Interpretation:**
+
 Because this company is 20% riskier than the market average (beta = 1.2), investors require a 9% return compared to the 8% market average.
 
 ## Comparing the Two Methods
@@ -279,6 +278,7 @@ Because this company is 20% riskier than the market average (beta = 1.2), invest
 | Good for mature, dividend-paying companies | Good for all types of companies |
 
 **Best Practice:**
+
 Use both methods when possible and compare results for reasonableness.
 
 ## The Cost of Debt: Borrowed Money
@@ -404,6 +404,7 @@ If you finance 60% with equity (costing 12%) and 40% with debt (costing 6%), you
 - Debt Weight = Market Value of Debt ÷ Total Value
 
 **Important:**
+
 Use market values, not book values, as these reflect current investor valuations.
 
 ## WACC Calculation Example
@@ -539,7 +540,7 @@ While perfect markets don't exist, the theory highlights that financing decision
 :::{.callout-note appearance="minimal"}
 > **"All models are wrong, but some are useful."** — *George Box*
 
-The cost of capital isn't a single, precise number — it's a framework for thinking critically about funding and risk. The models we've explored today are tools for reasoning under uncertainty, not formulas for absolute truth.
+**The cost of capital isn't a single, precise number — it's a framework for thinking critically about funding and risk. The models we've explored today are tools for reasoning under uncertainty, not formulas for absolute truth.**
 
 **Key Learning Philosophy:**
 

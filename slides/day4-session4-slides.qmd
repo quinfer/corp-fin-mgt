@@ -1,0 +1,395 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 4 Session 4: Exam Strategy and Final Integration"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    footer: "Day 4 Session 4: Exam Success Strategy"
+    theme: default
+    slide-number: true
+    chalkboard: true
+---
+
+## Final Session Overview {.unnumbered}
+
+**Session Focus**: Exam success strategy and course integration
+
+**Time Remaining**: 15 minutes for maximum impact
+
+**Objectives**:
+- Master time management for exam success
+- Review key concepts and connections
+- Practice rapid problem-solving techniques
+- **Integrate four days of learning into exam performance**
+
+**Goal**: Transform knowledge into exam success and professional capability
+
+## Exam Structure Recap
+
+**Section A - Compulsory (60 marks, 90 minutes)**:
+- **Question 1**: Investment appraisal (NPV, IRR, DPP) - 30 marks
+- **Question 2**: WACC calculation and capital structure - 30 marks
+
+**Section B - Choose 2 from 3 (40 marks, 90 minutes)**:
+- **Question 3**: Small business finance - 20 marks
+- **Question 4**: Dividend policy - 20 marks  
+- **Question 5**: Advanced cost of capital (NEW) - 20 marks
+
+**Total Time**: 3 hours (180 minutes)
+
+## Time Management Strategy
+
+**Section A Time Allocation (90 minutes)**:
+- **Reading and planning**: 10 minutes total
+- **Question 1**: 40 minutes (including 5 minutes checking)
+- **Question 2**: 40 minutes (including 5 minutes checking)
+
+**Section B Time Allocation (90 minutes)**:
+- **Question selection**: 5 minutes maximum
+- **Each chosen question**: 42.5 minutes
+- **Final review**: 5 minutes
+
+**Golden Rule**: Stick to time limits - partial answers better than no answers
+
+## Quick Formula Reference
+
+**Essential Formulas (Memorize These)**:
+
+**Investment Appraisal**:
+- NPV = Σ[CF_t/(1+r)^t] - Initial Investment
+- IRR interpolation: Rate₁ + [NPV₁/(NPV₁-NPV₂)] × (Rate₂-Rate₁)
+
+**Cost of Capital**:
+- CAPM: r_e = r_f + β(r_m - r_f)
+- WACC = (E/V)×r_e + (D/V)×r_d×(1-T)
+- Dividend Model: r_e = (D₁/P₀) + g
+
+**Key Ratios**:
+- Gearing = Debt/(Debt + Equity)
+- Dividend Payout = Dividends/Earnings
+
+## Section A Strategy: Question 1 Type
+
+**Typical Structure** (Based on Oakland Plc example):
+- (a) NPV calculation - 12 marks (20 minutes)
+- (b) IRR evaluation - 5 marks (8 minutes)  
+- (c) DPP analysis - 5 marks (8 minutes)
+- (d) Board memo with non-financial factors - 8 marks (12 minutes)
+
+**Day 1 Connection**: Use systematic approach from investment appraisal session
+
+**Success Tips**:
+- Show all workings clearly
+- State decision criteria explicitly
+- Consider working capital and opportunity costs
+- Use professional memo format for part (d)
+
+## Quick NPV Checklist
+
+**✓ Identify ALL relevant cash flows**:
+- Initial investment (including working capital)
+- Annual operating cash flows (incremental only)
+- Terminal values (working capital recovery, asset disposal)
+- Opportunity costs (foregone rental income, etc.)
+
+**✓ Apply discount rate correctly**:
+- Use given cost of capital
+- Apply consistently to all cash flows
+- Consider whether adjustments needed for project risk
+
+**✓ Present calculations professionally**:
+- Clear tabular format with years, cash flows, PV factors, present values
+- Show NPV calculation and decision clearly
+
+## Section A Strategy: Question 2 Type
+
+**Typical Structure** (Based on Triglass Plc example):
+- (a) Debt vs equity explanation - 5 marks (8 minutes)
+- (b) Beta and CAPM concepts - 5 marks (8 minutes)
+- (c) WACC calculation - 15 marks (20 minutes)
+- (d) Gearing analysis - 5 marks (8 minutes)
+
+**Day 2 Connection**: Apply cost of capital concepts systematically
+
+**Success Tips**:
+- Use market values, not book values
+- Apply tax shields to debt only
+- Show component calculations clearly
+- Explain concepts in practical terms
+
+## Quick WACC Checklist
+
+**✓ Calculate market values correctly**:
+- Ordinary shares: Number × Current market price
+- Preference shares: Number × Current market price
+- Bonds: Book value × (Market price/Par value)
+- Bank loans: Book value = Market value
+
+**✓ Calculate component costs**:
+- Equity: Use CAPM or dividend model
+- Preference shares: Annual dividend/Market price
+- Debt: Yield to maturity × (1 - Tax rate)
+
+**✓ Apply weights correctly**:
+- Use market value weights
+- Ensure weights sum to 100%
+
+## Section B Strategy: Question Selection
+
+**Choose Based on Strength and Time Requirements**:
+
+**Question 3 (Small Business Finance)**:
+- Heavy on discussion and explanation
+- Less calculation-intensive
+- Good if comfortable with descriptive analysis
+
+**Question 4 (Dividend Policy)**:
+- Mix of theory and practical application
+- **Day 3 connection**: Use dividend policy frameworks
+- Moderate calculation requirements
+
+**Question 5 (Advanced WACC)**:
+- High calculation content
+- International business context
+- **Day 2 advanced connection**: Risk-adjusted discount rates
+
+## Rapid Problem-Solving Technique
+
+**For ANY Calculation Question**:
+
+1. **Read and understand** (2 minutes)
+   - What is being asked?
+   - What data is provided?
+   - What method should be used?
+
+2. **Plan approach** (1 minute)  
+   - Identify steps required
+   - Note any assumptions needed
+   - Consider time allocation
+
+3. **Execute calculation** (35 minutes)
+   - Work systematically through steps
+   - Show all workings clearly
+   - Check reasonableness of answers
+
+4. **Review and finalize** (2 minutes)
+   - Check arithmetic
+   - Ensure all parts answered
+   - Verify decision logic
+
+## Integration of Four Days Learning
+
+**Day 1: Investment Appraisal Foundations**
+- ✓ NPV, IRR, payback methods mastered
+- ✓ Cash flow identification and relevance
+- ✓ Decision criteria and risk assessment
+
+**Day 2: Cost of Capital Applications**  
+- ✓ WACC calculation with multiple sources
+- ✓ CAPM and dividend model applications
+- ✓ Risk adjustments and project-specific rates
+
+**Day 3: Dividend Policy Integration**
+- ✓ Factors affecting dividend decisions
+- ✓ Alternative distribution methods
+- ✓ Stakeholder considerations
+
+**Day 4: Advanced Applications**
+- ✓ Strategic analysis frameworks
+- ✓ Complex NPV with inflation
+- ✓ Regulatory compliance integration
+
+## Quick Practice: Investment Appraisal
+
+**Rapid Calculation Exercise (2 minutes)**:
+
+Project costs £50,000, generates £15,000 annually for 5 years, 12% cost of capital.
+
+**Your Answer**:
+- NPV = £15,000 × 3.605 - £50,000 = £4,075
+- Decision: Accept (NPV > 0)
+
+**Key Learning**: Practice standard calculations for speed and accuracy
+
+## Quick Practice: WACC Calculation
+
+**Rapid Calculation Exercise (2 minutes)**:
+
+Company has:
+- £30m equity (cost 14%)
+- £20m debt (cost 8%, tax rate 25%)
+
+**Your Answer**:
+- Total value = £50m
+- WACC = (30/50)×14% + (20/50)×8%×(1-0.25)
+- WACC = 8.4% + 2.4% = 10.8%
+
+**Key Learning**: Master the basic formula and apply consistently
+
+## Professional Writing for Exams
+
+**For Discussion Questions**:
+
+**Use CLEAR Structure**:
+- **C**laim: State your main point clearly
+- **L**ogic: Explain the reasoning
+- **E**vidence: Provide supporting examples
+- **A**nalysis: Discuss implications
+- **R**ecommendation: Conclude with clear guidance
+
+**Professional Language**:
+- Avoid casual expressions
+- Use precise financial terminology
+- Support arguments with specific evidence
+- Write as future legal advisors
+
+## Common Exam Mistakes to Avoid
+
+**Technical Errors**:
+- Mixing real and nominal discount rates
+- Using book values instead of market values
+- Forgetting tax adjustments on debt
+- Poor interpolation technique for IRR
+
+**Time Management Errors**:
+- Spending too long on difficult calculations
+- Poor question selection in Section B
+- Inadequate time for checking answers
+- Running out of time for final questions
+
+**Presentation Errors**:
+- Poor structure and unclear working
+- Missing units (£'000s, percentages)
+- Illegible handwriting or formatting
+- Incomplete answers to multi-part questions
+
+## Final Success Tips
+
+**Before the Exam**:
+- Review formula sheet one final time
+- Ensure calculator is working properly
+- Plan your question selection strategy
+- Get adequate rest and arrive early
+
+**During the Exam**:
+- Read all questions before starting
+- Allocate time proportionally to marks
+- Show all workings clearly
+- Use remaining time for checking
+
+**Answer Quality**:
+- Structure answers with clear headings
+- Support arguments with relevant examples
+- Demonstrate integrated understanding
+- Write professionally throughout
+
+## Professional Development Reflection
+
+**Skills Developed Over Four Days**:
+
+**Technical Competence**:
+- Advanced financial analysis capabilities
+- Strategic decision-making frameworks
+- Regulatory compliance integration
+- Professional presentation standards
+
+**Professional Application**:
+- Legal practice relevance throughout
+- Client advisory skills development
+- Corporate governance understanding
+- Risk assessment and management
+
+**Integrated Thinking**:
+- Connecting theory to practice
+- Multi-stakeholder perspective
+- Long-term value creation focus
+- Ethical and sustainable business practices
+
+## Course Integration Summary
+
+**Core Learning Journey**:
+1. **Investment Decisions**: How to evaluate opportunities (Day 1)
+2. **Financing Decisions**: What investments cost to fund (Day 2)  
+3. **Distribution Decisions**: How to return value to shareholders (Day 3)
+4. **Strategic Integration**: Bringing it all together (Day 4)
+
+**Professional Relevance**: These skills directly support legal advisory roles in M&A, corporate governance, and business strategy
+
+**Ongoing Application**: Use these frameworks throughout your legal careers
+
+## Final Encouragement
+
+**You Are Well Prepared**:
+- Four days of comprehensive learning
+- Practical application throughout
+- Professional presentation skills developed
+- Integration of theory and practice
+
+**Confidence Builders**:
+- Master calculation techniques practiced
+- Strategic thinking frameworks applied
+- Professional writing standards established
+- Real-world relevance demonstrated
+
+**Success Mindset**:
+- Focus on what you know well
+- Apply systematic approaches
+- Present work professionally
+- Demonstrate integrated understanding
+
+## Course Conclusion
+
+**What We've Achieved Together**:
+- Mastered core corporate finance concepts
+- Applied learning to real business scenarios
+- Developed professional analytical skills
+- Prepared comprehensively for assessment success
+
+**Beyond Assessment**:
+- Skills directly applicable to legal practice
+- Confidence to engage with financial professionals
+- Understanding of business strategy integration
+- Foundation for ongoing professional development
+
+**Thank You**:
+- For engagement and participation
+- For commitment to learning
+- For professional approach throughout
+- For making this an excellent learning experience
+
+## Assessment Timeline Reminder
+
+**Coursework Submission**:
+- **Deadline**: Monday 30th June 2025, 12:00 Noon
+- **Submission**: Blackboard Ultra electronic submission
+- **Word Limit**: 2,000 words (±10%)
+- **Feedback**: Available within two weeks
+
+**Final Exam**:
+- **Date**: [To be confirmed in exam timetable]
+- **Duration**: 3 hours
+- **Format**: As practiced today
+- **Preparation**: Continue reviewing and practicing
+
+## Final Questions and Support
+
+**Immediate Questions**: Any final clarifications needed?
+
+**Ongoing Support Available**:
+- Office hours by appointment
+- Email support for technical questions
+- Draft coursework consultation (if time permits)
+- Additional resources in course materials
+
+**Professional Development**:
+- Continue engaging with financial news and analysis
+- Apply frameworks to current business situations
+- Build Excel and analytical skills further
+- Consider advanced corporate finance studies
+
+**Best of luck with your assessments and future careers in law!**
+
+---
+
+**END OF COURSE**

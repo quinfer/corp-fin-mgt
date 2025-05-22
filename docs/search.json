@@ -756,172 +756,298 @@
     "text": "References\nAcademic References:\n\nDamodaran, A. (2022). Investment Valuation: Tools and Techniques for Determining the Value of Any Asset, 4th Edition, Wiley Finance\nDixit, A.K. & Pindyck, R.S. (2021). Investment Under Uncertainty, Princeton University Press\nTrigeorgis, L. & Reuer, J.J. (2023). Real Options Theory in Strategic Management, Strategic Management Journal, 44(4), pp. 842-878\n\n\n\n\nCorporate Financial Management - Day 1 Afternoon"
   },
   {
-    "objectID": "slides/day3-morning-slides.html#learning-outcomes",
-    "href": "slides/day3-morning-slides.html#learning-outcomes",
-    "title": "Dividend Policy",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAfter completing this session, you should be able to:\n\nDescribe the nature of dividends and evaluate the arguments concerning their potential impact on shareholder wealth\nIdentify and discuss the factors that influence dividend policy in practice\nDescribe the nature of different dividend policies\nDiscuss the case for and against different forms of distribution\n\n\n\n\n\n\n\nNote\n\n\nThese outcomes align with the module’s broader learning objectives of critically examining issues surrounding corporate financing and dividend policy."
+    "objectID": "slides/day2-afternoon-slides.html#what-is-the-cost-of-capital",
+    "href": "slides/day2-afternoon-slides.html#what-is-the-cost-of-capital",
+    "title": "Corporate Financial Management",
+    "section": "What Is the Cost of Capital?",
+    "text": "What Is the Cost of Capital?\nThink of the cost of capital as the “price tag” a company must pay to obtain funding for its operations and investments.\n\n\n\n\n\n\nLearning Outcomes for This Session\n\n\nBy the end of this afternoon, you will be able to:\n\nExplain what cost of capital means in practical terms\nUnderstand why different sources of finance have different costs\nCalculate the overall cost of funding for a business\nApply these concepts to evaluate whether investments make financial sense\nAppreciate how capital structure decisions affect business value\n\n\n\n\nJust as you might pay different interest rates on a mortgage versus a credit card, companies face different costs depending on how they choose to finance their activities."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#introduction-to-dividends",
-    "href": "slides/day3-morning-slides.html#introduction-to-dividends",
-    "title": "Dividend Policy",
-    "section": "Introduction to Dividends",
-    "text": "Introduction to Dividends\nDividends represent a return by a business to its shareholders. Key characteristics include:\n\nCompanies rarely make dividend payments based solely on profits available to shareholders\nThe dividend payout ratio = dividend paid / earnings available for dividends\nIn the UK, dividends are often paid twice per year (interim and final)\nWhen share prices include accrued dividend payable, they are called “cum-dividend” share prices\nWhen dividends are paid out, share prices typically decrease by the same amount to the long-term stable level (“ex-dividend”)\n\n\n\n\n\n\n\nImportant\n\n\nUnderstanding the relationship between dividends and share prices is fundamental for evaluating dividend policies and their impact on shareholder wealth."
+    "objectID": "slides/day2-afternoon-slides.html#two-perspectives-on-cost-of-capital",
+    "href": "slides/day2-afternoon-slides.html#two-perspectives-on-cost-of-capital",
+    "title": "Corporate Financial Management",
+    "section": "Two Perspectives on Cost of Capital",
+    "text": "Two Perspectives on Cost of Capital\nFrom the Investor’s Viewpoint:\nThe cost of capital represents the return they could earn by investing their money elsewhere in similarly risky ventures. This is their “opportunity cost.”\nFrom the Company’s Viewpoint:\nThe cost of capital is the minimum return the company must provide to keep investors happy and willing to continue providing funds.\n\n\n\n\n\n\nThe Golden Rule\n\n\nAny investment project should generate returns that at least cover the company’s cost of obtaining the money to fund it. This is why understanding cost of capital is crucial for sound business decisions."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#dividend-payout-patterns",
-    "href": "slides/day3-morning-slides.html#dividend-payout-patterns",
-    "title": "Dividend Policy",
-    "section": "Dividend Payout Patterns",
-    "text": "Dividend Payout Patterns\nAverage dividend payout ratios vary significantly across industries:"
+    "objectID": "slides/day2-afternoon-slides.html#the-funding-menu-sources-of-capital",
+    "href": "slides/day2-afternoon-slides.html#the-funding-menu-sources-of-capital",
+    "title": "Corporate Financial Management",
+    "section": "The Funding Menu: Sources of Capital",
+    "text": "The Funding Menu: Sources of Capital\nCompanies can obtain long-term funding from several sources, each with its own characteristics and costs:\nExternal Sources:\n\nOrdinary Shares – Selling ownership stakes to investors\nPreference Shares – Shares with fixed dividend payments\nBank Loans – Borrowed money with agreed interest rates\nCorporate Bonds – IOUs sold to investors with fixed interest payments\n\nInternal Sources:\n\nRetained Earnings – Profits kept within the business rather than paid as dividends"
   },
   {
-    "objectID": "slides/day3-morning-slides.html#industry-variations",
-    "href": "slides/day3-morning-slides.html#industry-variations",
-    "title": "Dividend Policy",
-    "section": "Industry Variations",
-    "text": "Industry Variations\n\nAverage dividend payout ratios for businesses in selected industries in Western Europe"
+    "objectID": "slides/day2-afternoon-slides.html#understanding-the-funding-landscape",
+    "href": "slides/day2-afternoon-slides.html#understanding-the-funding-landscape",
+    "title": "Corporate Financial Management",
+    "section": "Understanding the Funding Landscape",
+    "text": "Understanding the Funding Landscape\n\n\n\n\n\nflowchart TD\n    A[Company Funding Sources] --&gt; B[Debt Financing]\n    A --&gt; C[Equity Financing]\n    B --&gt; D[Bank Loans]\n    B --&gt; E[Corporate Bonds]\n    C --&gt; F[Ordinary Shares]\n    C --&gt; G[Preference Shares]\n    C --&gt; H[Retained Earnings]\n\n\n\n\n\n\nEach funding source comes with different obligations, costs, and risks for the company."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#key-observations",
-    "href": "slides/day3-morning-slides.html#key-observations",
-    "title": "Dividend Policy",
-    "section": "Key Observations",
-    "text": "Key Observations\n\nEntertainment sector shows extremely high payout ratios (324.89%)\nPublishing & Newspapers also demonstrate high ratios (113.76%)\nMost sectors maintain payout ratios between 30-70%\nPharmaceutical and technology sectors tend to have lower ratios"
+    "objectID": "slides/day2-afternoon-slides.html#the-cost-of-equity-what-shareholders-expect",
+    "href": "slides/day2-afternoon-slides.html#the-cost-of-equity-what-shareholders-expect",
+    "title": "Corporate Financial Management",
+    "section": "The Cost of Equity: What Shareholders Expect",
+    "text": "The Cost of Equity: What Shareholders Expect\nEquity represents ownership in the company. When someone buys shares, they’re effectively becoming a part-owner and expect to be compensated for the risks they’re taking.\nKey Insight:\nEven retained earnings (profits kept in the business) have a cost – shareholders could have received these as dividends and invested them elsewhere."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#dividend-policy-two-major-schools-of-thought",
-    "href": "slides/day3-morning-slides.html#dividend-policy-two-major-schools-of-thought",
-    "title": "Dividend Policy",
-    "section": "Dividend Policy: Two Major Schools of Thought",
-    "text": "Dividend Policy: Two Major Schools of Thought\nThe fundamental question in dividend policy: Does the pattern of dividends affect shareholder wealth?"
+    "objectID": "slides/day2-afternoon-slides.html#valuing-equity-market-price-considerations",
+    "href": "slides/day2-afternoon-slides.html#valuing-equity-market-price-considerations",
+    "title": "Corporate Financial Management",
+    "section": "Valuing Equity: Market Price Considerations",
+    "text": "Valuing Equity: Market Price Considerations\nWhen calculating the cost of equity, we need to use the current market value of shares, but with some important adjustments:\nEx-Dividend vs Cum-Dividend Pricing:\n\nCum-dividend: Share price includes upcoming dividend payment (like buying a house with the fixtures included)\nEx-dividend: Share price after dividend has been paid (like buying the house without the fixtures)\n\nFor cost calculations, we use ex-dividend prices because they reflect the true ongoing value without one-off payments."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#traditional-view",
-    "href": "slides/day3-morning-slides.html#traditional-view",
-    "title": "Dividend Policy",
-    "section": "Traditional View",
-    "text": "Traditional View\n\nShareholders prefer dividends now because amounts are more certain\nThe implications for managers: adopt as generous a dividend policy as possible\nBased on the dividend valuation model - share price is determined by future streams of dividend receivable"
+    "objectID": "slides/day2-afternoon-slides.html#practical-example-share-valuation",
+    "href": "slides/day2-afternoon-slides.html#practical-example-share-valuation",
+    "title": "Corporate Financial Management",
+    "section": "Practical Example: Share Valuation",
+    "text": "Practical Example: Share Valuation\nScenario: Invierno plc has 2 million shares trading at 240p each. A dividend of 22p per share is about to be paid.\nFor cost of capital purposes:\n\nCurrent price (cum-dividend): 240p\nUpcoming dividend: 22p\nEx-dividend price: 240p - 22p = 218p\nTotal market value: 218p × 2,000,000 = £4,360,000\n\nWhy This Matters:\nUsing the cum-dividend price would overvalue the equity and underestimate the cost of capital, leading to poor investment decisions."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#modernist-view-mm",
-    "href": "slides/day3-morning-slides.html#modernist-view-mm",
-    "title": "Dividend Policy",
-    "section": "Modernist View (M&M)",
-    "text": "Modernist View (M&M)\n\nIn perfect and efficient markets, dividend policy doesn’t affect shareholder wealth\nCompanies should invest in all projects with positive NPVs\nOnly investment decisions affect shareholder wealth\nInvestors can create “home-made” dividends by selling shares if needed :::"
+    "objectID": "slides/day2-afternoon-slides.html#calculating-the-cost-of-equity-two-main-approaches",
+    "href": "slides/day2-afternoon-slides.html#calculating-the-cost-of-equity-two-main-approaches",
+    "title": "Corporate Financial Management",
+    "section": "Calculating the Cost of Equity: Two Main Approaches",
+    "text": "Calculating the Cost of Equity: Two Main Approaches\nMethod 1: The Dividend Approach\nFocuses on what investors actually receive from their shareholding\nMethod 2: The Risk-Based Approach (CAPM)\nFocuses on what return investors require given the risks they’re taking\nBoth methods aim to answer the same question: “What return do shareholders expect for investing in this company?”"
   },
   {
-    "objectID": "slides/day3-morning-slides.html#modigliani-miller-dividend-irrelevance-theory",
-    "href": "slides/day3-morning-slides.html#modigliani-miller-dividend-irrelevance-theory",
-    "title": "Dividend Policy",
-    "section": "Modigliani-Miller Dividend Irrelevance Theory",
-    "text": "Modigliani-Miller Dividend Irrelevance Theory\nThe MM theory is based on four key assumptions:\n\nNo share issue costs\nNo share transaction costs\n\nNo taxation\nRational behaviour among managers and investors\n\n\n\n\n\n\n\nNote\n\n\nUnder these assumptions, MM argue that dividend policy is irrelevant to shareholder wealth. The value of a firm depends solely on its investment decisions, not on how it distributes earnings."
+    "objectID": "slides/day2-afternoon-slides.html#method-1-the-dividend-approach---simple-version",
+    "href": "slides/day2-afternoon-slides.html#method-1-the-dividend-approach---simple-version",
+    "title": "Corporate Financial Management",
+    "section": "Method 1: The Dividend Approach - Simple Version",
+    "text": "Method 1: The Dividend Approach - Simple Version\nFor investments that pay a constant dividend (like preference shares), the calculation is straightforward:\nRequired Return = Annual Dividend ÷ Current Share Price\nExample:\n\nAnnual dividend: 16p per share\nCurrent share price (ex-dividend): £1.80\nRequired return: 16p ÷ £1.80 = 8.89%\n\nPlain English: If you pay £1.80 for a share that pays 16p annually forever, you’re earning an 8.89% return on your investment."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#mm-theory---dividend-irrelevancy",
-    "href": "slides/day3-morning-slides.html#mm-theory---dividend-irrelevancy",
-    "title": "Dividend Policy",
-    "section": "MM Theory - Dividend Irrelevancy",
-    "text": "MM Theory - Dividend Irrelevancy\n\nGiven perfect and efficient markets, dividend policy doesn’t affect shareholder wealth\nCompanies should invest in all projects with positive NPVs, as only investment decisions affect shareholder wealth\nIf a company doesn’t pay dividends, shareholders can create “home-made” dividends by selling some shares\nAssumes shareholders have all information about a company and interpret it correctly\n\n\n\n\n\n\n\nTip\n\n\nThe MM theory provides a theoretical baseline, but real-world imperfections (taxes, transaction costs, information asymmetry) may cause dividends to matter."
+    "objectID": "slides/day2-afternoon-slides.html#method-1-the-dividend-approach---growth-version",
+    "href": "slides/day2-afternoon-slides.html#method-1-the-dividend-approach---growth-version",
+    "title": "Corporate Financial Management",
+    "section": "Method 1: The Dividend Approach - Growth Version",
+    "text": "Method 1: The Dividend Approach - Growth Version\nWhen dividends are expected to grow over time, we need to account for this growth:\nRequired Return = (Next Year’s Expected Dividend ÷ Current Price) + Growth Rate\nExample:\n\nCurrent dividend: 16p per share\nExpected growth: 7% per year\nNext year’s dividend: 16p × 1.07 = 17.12p\nCurrent share price: £1.88\nRequired return: (17.12p ÷ £1.88) + 7% = 9.11% + 7% = 16.11%\n\nThe Logic:\nInvestors expect returns from both regular dividend payments AND the capital growth as dividends increase."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#dividend-relevancy-theory",
-    "href": "slides/day3-morning-slides.html#dividend-relevancy-theory",
-    "title": "Dividend Policy",
-    "section": "Dividend Relevancy Theory",
-    "text": "Dividend Relevancy Theory\n\nThe dividend valuation model suggests share price is determined by future streams of dividend receivable\nHigher retention of earnings for investment is considered to result in higher future earnings, leading to higher dividends\nHigher dividends should lead to higher share prices\nTherefore, an optimum dividend policy exists\n\n\n\n\n\n\n\nImportant\n\n\nThis view directly contradicts the MM position by suggesting that the pattern of dividends does impact shareholder wealth."
+    "objectID": "slides/day2-afternoon-slides.html#calculating-historical-growth-rates",
+    "href": "slides/day2-afternoon-slides.html#calculating-historical-growth-rates",
+    "title": "Corporate Financial Management",
+    "section": "Calculating Historical Growth Rates",
+    "text": "Calculating Historical Growth Rates\nTo estimate future growth, we often look at past dividend patterns:\nExample: Five Years of Dividends\n\n2015: £341,055\n2014: £318,500\n2013: £267,800\n2012: £249,600\n2011: £195,000\n\nThe Calculation Process:\n\nTotal growth over 4 years: £341,055 ÷ £195,000 = 1.749 (or 74.9% total growth)\nAnnual growth rate: (1.749)^(1/4) - 1 = 15% per year\n\nWhat This Tells Us:\nDividends have been growing at 15% annually, which might continue into the future."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#residual-dividend-theory",
-    "href": "slides/day3-morning-slides.html#residual-dividend-theory",
-    "title": "Dividend Policy",
-    "section": "Residual Dividend Theory",
-    "text": "Residual Dividend Theory\n\nRaising external finance is costly, so retentions should be the first source of funds a company uses\nAll positive NPV projects should be invested in before dividends are paid out\nIf retained funds are not invested to earn returns greater than investors’ required rate of return, shareholder wealth will diminish over time"
+    "objectID": "slides/day2-afternoon-slides.html#limitations-of-the-dividend-method",
+    "href": "slides/day2-afternoon-slides.html#limitations-of-the-dividend-method",
+    "title": "Corporate Financial Management",
+    "section": "Limitations of the Dividend Method",
+    "text": "Limitations of the Dividend Method\nPractical Challenges:\n\nMany companies pay irregular dividends or no dividends at all\nPast growth may not predict future performance\nAssumes smooth, predictable dividend growth\nIgnores capital gains (increases in share price)\nVery sensitive to assumptions about growth rates\n\nWhen It Works Best:\n\nCompanies with stable, predictable dividend policies\nMature businesses with consistent cash generation\nPreference shares with fixed payments"
   },
   {
-    "objectID": "slides/day3-morning-slides.html#case-study-microsoft-and-apple",
-    "href": "slides/day3-morning-slides.html#case-study-microsoft-and-apple",
-    "title": "Dividend Policy",
-    "section": "Case Study: Microsoft and Apple",
-    "text": "Case Study: Microsoft and Apple\nMicrosoft\nMicrosoft used to follow the ethos of the residual dividend theory: - For 17 years, it did not pay dividends, retaining funds for research and development - However, as cash balances increased, shareholder pressure led to dividend payments starting in 2003 - The first dividend was 8¢ per share, increasing to 51¢ by December 2019\nApple\n\nFrom 1990 to 1995, Apple paid a constant quarterly dividend of $0.12 per share\nStopped dividends from 1995 to 2012 to retain funds for reinvestment\nUnder shareholder pressure due to large cash reserves, resumed dividend payments in 2012\nBy April 2020, the quarterly dividend was $0.82 per share :"
+    "objectID": "slides/day2-afternoon-slides.html#method-2-the-capital-asset-pricing-model-capm",
+    "href": "slides/day2-afternoon-slides.html#method-2-the-capital-asset-pricing-model-capm",
+    "title": "Corporate Financial Management",
+    "section": "Method 2: The Capital Asset Pricing Model (CAPM)",
+    "text": "Method 2: The Capital Asset Pricing Model (CAPM)\nCAPM takes a different approach by focusing on risk and return relationships in the broader market.\nThe Core Idea:\nInvestors require higher returns for taking higher risks. CAPM quantifies this relationship."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#importance-of-dividends",
-    "href": "slides/day3-morning-slides.html#importance-of-dividends",
-    "title": "Dividend Policy",
-    "section": "Importance of Dividends",
-    "text": "Importance of Dividends\nDespite the MM arguments, dividends are considered important in practice for several reasons:\n\n\n\n\n\nflowchart TB\n    A[Importance\\nof dividends] --&gt; B[Clientele\\neffect]\n    A --&gt; C[Catering\\neffect]\n    A --&gt; D[Signalling\\neffect]\n    A --&gt; E[Reducing\\nagency costs]\n    \n    style A fill:#D32F2F,stroke:#D32F2F,color:white,stroke-width:2px\n    style B fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style C fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style D fill:#F9A825,stroke:#F9A825,stroke-width:1px\n    style E fill:#F9A825,stroke:#F9A825,stroke-width:1px\n\n\n Importance of dividends to shareholders \n\n\n\n\nClientele effect: Dividend policy attracts different types of investors\nCatering effect: Managers try to cater to the wishes of investors\nSignalling effect: Dividends convey information to shareholders due to information asymmetry\nReducing agency costs: Paying dividends reduces cash available for managers to spend"
+    "objectID": "slides/day2-afternoon-slides.html#understanding-risk-in-investment",
+    "href": "slides/day2-afternoon-slides.html#understanding-risk-in-investment",
+    "title": "Corporate Financial Management",
+    "section": "Understanding Risk in Investment",
+    "text": "Understanding Risk in Investment\nTwo Types of Risk:\nUnique Risk (Unsystematic Risk):\n\nSpecific to individual companies or industries\nExamples: Labour strikes, management changes, product recalls\nCan be eliminated through diversification (holding different types of investments)\n\nMarket Risk (Systematic Risk):\n\nAffects the entire market\nExamples: Interest rate changes, economic recessions, inflation\nCannot be diversified away – everyone faces these risks\n\nKey Insight:\nSince investors can eliminate unique risk through diversification, they only require compensation for market risk."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#factors-influencing-dividend-levels",
-    "href": "slides/day3-morning-slides.html#factors-influencing-dividend-levels",
-    "title": "Dividend Policy",
-    "section": "Factors Influencing Dividend Levels",
-    "text": "Factors Influencing Dividend Levels\n\n\n\n\n\nflowchart LR\n    subgraph Factors[\"Factors influencing the level of dividends\"]\n        A1[Loan\\ncommitments] --&gt; C[Level of\\ndividends\\npaid]\n        A2[Threat of\\ntakeover] --&gt; C\n        A3[Profit\\nstability] --&gt; C\n        A4[Market\\nexpectations] --&gt; C\n        A5[Investing and\\nfinancing\\nopportunities] --&gt; C\n        A6[Inside\\ninformation] --&gt; C\n        A7[Legal\\nrequirements] --&gt; C\n        A8[Control] --&gt; C\n    end\n    \n    style C fill:#D32F2F,stroke:#D32F2F,color:white,stroke-width:2px\n    style A1 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A2 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A3 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A4 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A5 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A6 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A7 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style A8 fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n\n\n Factors influencing dividend levels \n\n\n\nDividend decisions are influenced by multiple factors including:\n\nProfit stability\nInvestment and financing opportunities\nLegal requirements\nLoan commitments\nMarket expectations\nInside information\nControl issues\nThreat of takeover"
+    "objectID": "slides/day2-afternoon-slides.html#beta-measuring-market-risk",
+    "href": "slides/day2-afternoon-slides.html#beta-measuring-market-risk",
+    "title": "Corporate Financial Management",
+    "section": "Beta: Measuring Market Risk",
+    "text": "Beta: Measuring Market Risk\nBeta (β) measures how sensitive a company’s shares are to overall market movements:\n\nBeta = 1: Company moves in line with the market\nBeta &gt; 1: Company is more volatile than the market (higher risk)\nBeta &lt; 1: Company is less volatile than the market (lower risk)\n\nReal-World Examples:\n\nUtility companies often have beta &lt; 1 (stable, defensive businesses)\nTechnology startups often have beta &gt; 1 (highly sensitive to market sentiment)\nMining companies might have beta = 2 (twice as volatile as the market)"
   },
   {
-    "objectID": "slides/day3-morning-slides.html#management-attitudes-towards-dividends",
-    "href": "slides/day3-morning-slides.html#management-attitudes-towards-dividends",
-    "title": "Dividend Policy",
-    "section": "Management Attitudes Towards Dividends",
-    "text": "Management Attitudes Towards Dividends\nResearch by Baker et al. (2002) found that managers generally:\n\nAre committed to long-term dividend payout ratios (93.1% agree)\nAre more concerned with dividend variations than absolute dividend amounts (95.2% agree)\nBelieve dividends should follow a smoother path than earnings (92.0% agree)\nAre reluctant to increase dividends from short-term profit increases (93.1% agree)\n\n\n\n\n\n\n\nNote\n\n\nThese findings align with Lintner’s classic study on dividend policy, suggesting managers are highly concerned with dividend stability and consistency."
+    "objectID": "slides/day2-afternoon-slides.html#the-capm-formula-in-plain-english",
+    "href": "slides/day2-afternoon-slides.html#the-capm-formula-in-plain-english",
+    "title": "Corporate Financial Management",
+    "section": "The CAPM Formula in Plain English",
+    "text": "The CAPM Formula in Plain English\nRequired Return = Risk-Free Rate + (Beta × Market Risk Premium)\nWhat Each Component Means:\n\nRisk-Free Rate: Return on safest investments (government bonds)\nBeta: How much riskier the company is than the market average\nMarket Risk Premium: Extra return demanded for investing in shares rather than safe bonds\n\nExample:\n\nRisk-free rate: 3%\nCompany beta: 1.2\nMarket return: 8%\nMarket risk premium: 8% - 3% = 5%\nRequired return: 3% + (1.2 × 5%) = 3% + 6% = 9%"
   },
   {
-    "objectID": "slides/day3-morning-slides.html#what-should-managers-do",
-    "href": "slides/day3-morning-slides.html#what-should-managers-do",
-    "title": "Dividend Policy",
-    "section": "What Should Managers Do?",
-    "text": "What Should Managers Do?\n\nEach business has unique characteristics - no ‘one size fits all’ approach\nDividend policy is intertwined with investment and financing decisions\nDividend policy should be clear to shareholders and consistently applied\nShareholders dislike ‘surprises’ in dividend policy\nIf dividends must be cut, managers should prepare shareholders and clearly explain reasons\n\n\n\n\n\n\n\nImportant\n\n\nConsistency in dividend policy is crucial for building shareholder confidence and managing market expectations."
+    "objectID": "slides/day2-afternoon-slides.html#capm-example-walkthrough",
+    "href": "slides/day2-afternoon-slides.html#capm-example-walkthrough",
+    "title": "Corporate Financial Management",
+    "section": "CAPM Example Walkthrough",
+    "text": "CAPM Example Walkthrough\nScenario:\nM plc has a beta of 1.2, government bonds yield 3%, and the stock market average return is 8%.\nStep-by-Step Calculation:\n\nRisk-free rate = 3%\nMarket return = 8%\nMarket risk premium = 8% - 3% = 5%\nCompany beta = 1.2\nRequired return = 3% + 1.2 × 5% = 3% + 6% = 9%\n\nInterpretation:\nBecause this company is 20% riskier than the market average (beta = 1.2), investors require a 9% return compared to the 8% market average."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#alternatives-to-cash-dividends",
-    "href": "slides/day3-morning-slides.html#alternatives-to-cash-dividends",
-    "title": "Dividend Policy",
-    "section": "Alternatives to Cash Dividends",
-    "text": "Alternatives to Cash Dividends\nTwo main alternatives exist to traditional cash dividends:\n\nScrip Dividends\nShare Buybacks"
+    "objectID": "slides/day2-afternoon-slides.html#comparing-the-two-methods",
+    "href": "slides/day2-afternoon-slides.html#comparing-the-two-methods",
+    "title": "Corporate Financial Management",
+    "section": "Comparing the Two Methods",
+    "text": "Comparing the Two Methods\n\n\n\n\n\n\n\nDividend Growth Model\nCAPM\n\n\n\n\nBased on actual dividend payments\nBased on risk relationships\n\n\nRequires dividend history\nCan be applied to any listed company\n\n\nSimple and intuitive\nMore theoretically robust\n\n\nSensitive to growth assumptions\nRequires market data and beta calculation\n\n\nGood for mature, dividend-paying companies\nGood for all types of companies\n\n\n\nBest Practice:\nUse both methods when possible and compare results for reasonableness."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#scrip-dividends",
-    "href": "slides/day3-morning-slides.html#scrip-dividends",
-    "title": "Dividend Policy",
-    "section": "Scrip Dividends",
-    "text": "Scrip Dividends\n\nA company issues new bonus shares to existing shareholders instead of cash dividends\nThe number of shares issued is proportional to shares held (e.g., 1-for-20)\nInvolves transferring reserves to ordinary share capital\nAllows shareholders to increase investment without transaction costs\nMarket typically responds positively to scrip dividend announcements\n\nShare Buybacks\n\nA business repurchases its own shares\nCan occur through open market operations, tender offers, or agreements with specific shareholders\nMay be used to support share price, alter capital structure, defend against takeovers, or return surplus funds\nIn perfect markets, shareholders would be indifferent between dividends and share buybacks"
+    "objectID": "slides/day2-afternoon-slides.html#the-cost-of-debt-borrowed-money",
+    "href": "slides/day2-afternoon-slides.html#the-cost-of-debt-borrowed-money",
+    "title": "Corporate Financial Management",
+    "section": "The Cost of Debt: Borrowed Money",
+    "text": "The Cost of Debt: Borrowed Money\nDebt financing involves borrowing money with a legal obligation to repay with interest. The cost calculation depends on the type of debt."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#reasons-for-share-buybacks",
-    "href": "slides/day3-morning-slides.html#reasons-for-share-buybacks",
-    "title": "Dividend Policy",
-    "section": "Reasons for Share Buybacks",
-    "text": "Reasons for Share Buybacks\n\n\n\n\n\nflowchart TB\n    A[Share\\nbuyback] --&gt; B[Support the share\\nprice]\n    A --&gt; C[Return surplus\\nfunds]\n    A --&gt; D[Alter the capital\\nstructure]\n    A --&gt; E[Defend against\\ntakeover]\n    \n    style A fill:#6A1B9A,stroke:#6A1B9A,color:white,stroke-width:2px\n    style B fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style C fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style D fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n    style E fill:#B39DDB,stroke:#B39DDB,stroke-width:1px\n\n\n Main reasons for share buybacks \n\n\n\nShare buybacks are commonly used to:\n\nSupport the share price\nReturn surplus funds to shareholders\nAlter the capital structure\nDefend against hostile takeovers"
+    "objectID": "slides/day2-afternoon-slides.html#two-main-types-of-debt",
+    "href": "slides/day2-afternoon-slides.html#two-main-types-of-debt",
+    "title": "Corporate Financial Management",
+    "section": "Two Main Types of Debt",
+    "text": "Two Main Types of Debt\nUntraded Debt (Bank Loans):\n\nNegotiated directly with banks\nInterest rate agreed at outset\nMarket value equals the amount borrowed\nCost = Interest rate × (1 - Tax Rate)\n\nTraded Debt (Corporate Bonds):\n\nSold to investors in financial markets\nCan be bought and sold like shares\nMarket value fluctuates based on interest rates\nMore complex cost calculations required"
   },
   {
-    "objectID": "slides/day3-morning-slides.html#case-study-example",
-    "href": "slides/day3-morning-slides.html#case-study-example",
-    "title": "Dividend Policy",
-    "section": "Case Study Example",
-    "text": "Case Study Example\nScenario\nPetrolia plc has the following dividend history:\n\n\n\nYear\nDividend per share\n\n\n\n\n2020\n£0.24\n\n\n2021\n£0.26\n\n\n2022\n£0.28\n\n\n2023\n£0.30\n\n\n2024\n£0.32\n\n\n\nThe company is debating its dividend policy for the upcoming year.\nQuestion\n\nCalculate the growth rate in Petrolia’s dividends.\nIf the current ex-dividend share price is £4.80, calculate the cost of equity capital using:\n\nThe dividend growth model\nThe CAPM (assuming risk-free rate = 4%, market return = 10%, beta = 1.2)\n\nWhich model would you recommend for setting dividend policy and why?\n\nSolution\n\nGrowth rate calculation: £0.32 = £0.24(1+g)⁴ £0.32/£0.24 = (1+g)⁴ 1.333 = (1+g)⁴ (1.333)^(1/4) = 1+g g = 7.47%\n\nDividend Growth Model: D₁ = D₀(1+g) = £0.32 × 1.0747 = £0.3439 Ke = (D₁/P₀) + g = (£0.3439/£4.80) + 7.47% = 14.63%\nCAPM: Ke = Rf + β(Rm - Rf) = 4% + 1.2(10% - 4%) = 11.2%\n\nAnalysis of the appropriate model would depend on specific circumstances…"
+    "objectID": "slides/day2-afternoon-slides.html#why-debt-is-cheaper-than-equity",
+    "href": "slides/day2-afternoon-slides.html#why-debt-is-cheaper-than-equity",
+    "title": "Corporate Financial Management",
+    "section": "Why Debt Is Cheaper Than Equity",
+    "text": "Why Debt Is Cheaper Than Equity\nTax Benefits:\nInterest payments on debt are tax-deductible, making debt cheaper for companies.\nExample:\n\nBank loan interest rate: 8%\nCorporate tax rate: 30%\nAfter-tax cost of debt: 8% × (1 - 30%) = 8% × 70% = 5.6%\n\nLower Risk for Lenders:\n\nDebt holders have legal priority over shareholders\nInterest must be paid before dividends\nLenders have security/collateral backing\nTherefore, lenders accept lower returns"
   },
   {
-    "objectID": "slides/day3-morning-slides.html#summary-dividend-policy-and-shareholder-wealth",
-    "href": "slides/day3-morning-slides.html#summary-dividend-policy-and-shareholder-wealth",
-    "title": "Dividend Policy",
-    "section": "Summary: Dividend Policy and Shareholder Wealth",
-    "text": "Summary: Dividend Policy and Shareholder Wealth\n\nTwo major schools of thought exist on how dividends affect shareholder wealth\nThe traditional school argues that shareholders prefer certain dividends now\nThe modernists (MM) argue that in perfect markets, dividend patterns don’t affect shareholder wealth\nMM assumptions (no costs, no taxes, rational behaviour) weaken but don’t destroy their arguments\nIn practice, dividends matter due to clientele effects, signalling, agency costs, and market imperfections"
+    "objectID": "slides/day2-afternoon-slides.html#corporate-bonds-a-deeper-look",
+    "href": "slides/day2-afternoon-slides.html#corporate-bonds-a-deeper-look",
+    "title": "Corporate Financial Management",
+    "section": "Corporate Bonds: A Deeper Look",
+    "text": "Corporate Bonds: A Deeper Look\nCorporate bonds are essentially IOUs that companies sell to raise money:\nKey Features:\n\nFace value (usually £100 per bond)\nFixed annual interest payment (coupon)\nSet maturity date for repayment\nTradeable on financial markets\n\nMarket Value Calculation:\nBond prices fluctuate based on current interest rates and the company’s creditworthiness."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#summary-dividends-in-practice",
-    "href": "slides/day3-morning-slides.html#summary-dividends-in-practice",
-    "title": "Dividend Policy",
-    "section": "Summary: Dividends in Practice",
-    "text": "Summary: Dividends in Practice\n\nDespite theoretical arguments, dividends are considered important\nKey factors influencing dividend decisions include profit stability, investment opportunities, legal constraints, market expectations, and control issues\nManagers prefer smooth, consistent dividend patterns and are reluctant to cut dividends\nAlternatives to cash dividends include scrip dividends and share buybacks\nEach business must develop a dividend policy that suits its unique circumstances and communicate it clearly to shareholders"
+    "objectID": "slides/day2-afternoon-slides.html#bond-valuation-example",
+    "href": "slides/day2-afternoon-slides.html#bond-valuation-example",
+    "title": "Corporate Financial Management",
+    "section": "Bond Valuation Example",
+    "text": "Bond Valuation Example\nABC PLC Bond Details:\n\n£2,000,000 total bonds\n8% annual interest (coupon)\nRepayable at face value in 3 years\nCurrent market interest rate for similar bonds: 5%\n\nMarket Value Logic:\nInvestors compare the 8% coupon to current 5% rates. Since the bond pays more than current rates, it trades at a premium above face value.\nCalculation Result:\nEach £100 bond is worth approximately £108.17, making the total market value £2,163,400."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#practice-questions",
-    "href": "slides/day3-morning-slides.html#practice-questions",
-    "title": "Dividend Policy",
-    "section": "Practice Questions",
-    "text": "Practice Questions\n\nExplain the key differences between the MM dividend irrelevance theory and the traditional view of dividends.\nAnalyze how the “signalling effect” of dividends might influence management decisions regarding dividend policy.\nEvaluate the advantages and disadvantages of share buybacks compared to cash dividends from both company and shareholder perspectives.\nCalculate the dividend growth rate for a company with the following dividend history: 2020: £0.15, 2021: £0.17, 2022: £0.19, 2023: £0.21, 2024: £0.24.\nConsider a scenario where a company has excess cash. Using both the residual dividend theory and signalling theory, recommend and justify an appropriate dividend policy.\n\n\n\n\nCorporate Financial Management - Day 3 Morning"
+    "objectID": "slides/day2-afternoon-slides.html#calculating-the-cost-of-traded-debt",
+    "href": "slides/day2-afternoon-slides.html#calculating-the-cost-of-traded-debt",
+    "title": "Corporate Financial Management",
+    "section": "Calculating the Cost of Traded Debt",
+    "text": "Calculating the Cost of Traded Debt\nThe cost of traded debt uses the same logic as calculating a loan’s interest rate, but in reverse:\nGiven:\n\nCurrent market price of the bond\nAnnual interest payments (after tax)\nFinal repayment amount and timing\n\nFind:\nThe interest rate that makes these future cash flows equal to today’s market price."
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#bond-cost-calculation-example",
+    "href": "slides/day2-afternoon-slides.html#bond-cost-calculation-example",
+    "title": "Corporate Financial Management",
+    "section": "Bond Cost Calculation Example",
+    "text": "Bond Cost Calculation Example\nDerry PLC Bond:\n\n£5,000,000 of 8% bonds\nCurrently trading at £92 per £100 bond\n4 years until maturity\nCompany tax rate: 50%\n\nAfter-tax interest per bond: £8 × (1-50%) = £4\nAnnual cash flow per bond: £4 for 4 years, then £100 repayment\nFinding the Cost:\nWhat interest rate makes £4 annually for 4 years plus £100 final payment worth £92 today? Answer: approximately 6.61%"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#weighted-average-cost-of-capital-wacc",
+    "href": "slides/day2-afternoon-slides.html#weighted-average-cost-of-capital-wacc",
+    "title": "Corporate Financial Management",
+    "section": "Weighted Average Cost of Capital (WACC)",
+    "text": "Weighted Average Cost of Capital (WACC)\nWACC combines the costs of debt and equity based on their relative importance in the company’s financing.\nThe Concept:\nIf you finance 60% with equity (costing 12%) and 40% with debt (costing 6%), your overall cost is: (60% × 12%) + (40% × 6%) = 7.2% + 2.4% = 9.6%"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#wacc-formula-in-plain-english",
+    "href": "slides/day2-afternoon-slides.html#wacc-formula-in-plain-english",
+    "title": "Corporate Financial Management",
+    "section": "WACC Formula in Plain English",
+    "text": "WACC Formula in Plain English\nWACC = (Equity Weight × Cost of Equity) + (Debt Weight × After-tax Cost of Debt)\nWhere the weights are:\n\nEquity Weight = Market Value of Equity ÷ Total Value\nDebt Weight = Market Value of Debt ÷ Total Value\n\nImportant:\nUse market values, not book values, as these reflect current investor valuations."
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#wacc-calculation-example",
+    "href": "slides/day2-afternoon-slides.html#wacc-calculation-example",
+    "title": "Corporate Financial Management",
+    "section": "WACC Calculation Example",
+    "text": "WACC Calculation Example\nPrimavero Plc:\n\nEquity market value: £2 million\nDebt market value: £2 million\nCost of equity: 16%\nCost of debt (before tax): 12.5%\nTax rate: 20%\n\nStep-by-Step:\n\nTotal value = £2m + £2m = £4m\nEquity weight = £2m ÷ £4m = 50%\nDebt weight = £2m ÷ £4m = 50%\nAfter-tax cost of debt = 12.5% × (1-20%) = 10%\nWACC = (50% × 16%) + (50% × 10%) = 8% + 5% = 13%"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#when-to-use-wacc-for-investment-decisions",
+    "href": "slides/day2-afternoon-slides.html#when-to-use-wacc-for-investment-decisions",
+    "title": "Corporate Financial Management",
+    "section": "When to Use WACC for Investment Decisions",
+    "text": "When to Use WACC for Investment Decisions\nWACC is appropriate as a discount rate when:\nThe Investment Matches the Business:\n\nSimilar risk profile to existing operations\nFinanced in same proportions as current capital structure\nCompany’s financing mix is optimal\n\nWhen WACC May Not Be Suitable:\n\nProject is significantly riskier or safer than normal business\nDifferent financing arrangement planned\nMajor change in company’s risk profile"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#capital-structure-the-debt-equity-mix",
+    "href": "slides/day2-afternoon-slides.html#capital-structure-the-debt-equity-mix",
+    "title": "Corporate Financial Management",
+    "section": "Capital Structure: The Debt-Equity Mix",
+    "text": "Capital Structure: The Debt-Equity Mix\nCapital structure refers to how a company chooses to finance its operations – the balance between debt and equity funding.\nThe Central Question:\nWhat mix of debt and equity minimises the overall cost of capital and maximises company value?"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#the-capital-structure-trade-off",
+    "href": "slides/day2-afternoon-slides.html#the-capital-structure-trade-off",
+    "title": "Corporate Financial Management",
+    "section": "The Capital Structure Trade-Off",
+    "text": "The Capital Structure Trade-Off\nBenefits of Debt:\n\nLower cost due to tax deductibility\nNo dilution of existing shareholders’ control\nFixed payment obligations\n\nCosts of Debt:\n\nIncreased financial risk and potential bankruptcy\nFixed obligations regardless of company performance\nRestrictive lending covenants\n\nThe Balancing Act:\nCompanies must find the optimal level where the benefits of cheaper debt are balanced against the increased financial risk."
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#financial-risk-explained",
+    "href": "slides/day2-afternoon-slides.html#financial-risk-explained",
+    "title": "Corporate Financial Management",
+    "section": "Financial Risk Explained",
+    "text": "Financial Risk Explained\nOperating Risk: Uncertainty about business performance\nFinancial Risk: Additional uncertainty created by debt obligations\nExample:\nTwo identical businesses, one financed entirely by equity, one with 50% debt: - In good years, the leveraged company’s shareholders earn much higher returns - In bad years, they may face significant losses or bankruptcy - The debt creates amplified volatility in shareholder returns"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#the-modigliani-miller-theory",
+    "href": "slides/day2-afternoon-slides.html#the-modigliani-miller-theory",
+    "title": "Corporate Financial Management",
+    "section": "The Modigliani-Miller Theory",
+    "text": "The Modigliani-Miller Theory\nThis influential theory suggests that in perfect markets:\nKey Proposition:\nCompany value is determined by its investment opportunities and operating performance, not how it’s financed.\nThe Logic:\nAny benefit from cheaper debt is exactly offset by shareholders demanding higher returns due to increased financial risk.\nReal-World Implications:\nWhile perfect markets don’t exist, the theory highlights that financing decisions should focus on operational performance and tax considerations rather than attempting to “trick” the market."
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#practical-applications-for-legal-professionals",
+    "href": "slides/day2-afternoon-slides.html#practical-applications-for-legal-professionals",
+    "title": "Corporate Financial Management",
+    "section": "Practical Applications for Legal Professionals",
+    "text": "Practical Applications for Legal Professionals\nDue Diligence in M&A:\n\nEvaluate target company’s cost of capital\nAssess whether current capital structure is optimal\nConsider post-acquisition financing implications\n\nCorporate Restructuring:\n\nUnderstand how capital structure changes affect value\nEvaluate impact of debt refinancing on shareholders\nConsider tax implications of different financing arrangements\n\nInvestment Committee Decisions:\n\nEnsure proposed investments exceed cost of capital\nUnderstand how project risks affect required returns\nEvaluate financing options for major investments"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#common-cost-of-capital-pitfalls",
+    "href": "slides/day2-afternoon-slides.html#common-cost-of-capital-pitfalls",
+    "title": "Corporate Financial Management",
+    "section": "Common Cost of Capital Pitfalls",
+    "text": "Common Cost of Capital Pitfalls\nMistakes to Avoid:\n\nUsing book values instead of market values\nIgnoring tax benefits of debt\nApplying WACC to projects with different risk profiles\nOverlooking flotation costs for new financing\nUsing historical data without considering future changes\n\nBest Practices:\n\nRegularly update cost calculations\nConsider multiple estimation methods\nAdjust for project-specific risks\nConsider market conditions and company circumstances"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#final-reflection-models-as-tools-for-insight",
+    "href": "slides/day2-afternoon-slides.html#final-reflection-models-as-tools-for-insight",
+    "title": "Corporate Financial Management",
+    "section": "Final Reflection: Models as Tools for Insight",
+    "text": "Final Reflection: Models as Tools for Insight\n\n\n\n\n“All models are wrong, but some are useful.” — George Box\n\nThe cost of capital isn’t a single, precise number — it’s a framework for thinking critically about funding and risk. The models we’ve explored today are tools for reasoning under uncertainty, not formulas for absolute truth.\nKey Learning Philosophy:\n\nExperiment confidently: Use the Excel workbook to test assumptions and break things\nQuestion everything: Ask why growth rates should continue, whether betas are stable, if markets are truly efficient\nFocus on insight over precision: Understanding the relationships matters more than calculating to the fourth decimal place\nApply contextually: Every company, industry, and situation has unique factors that models can’t fully capture\n\nFor Legal Professionals:\nYour role isn’t to become a financial modeller, but to understand these concepts well enough to: - Ask the right questions during due diligence - Evaluate the reasonableness of financial projections - Understand how financing decisions affect client interests - Communicate effectively with financial professionals and clients\nThe confidence to engage with these concepts — not perfect technical mastery — is what will serve you best in practice.\n\n\n\nMoving Forward:\nUse the interactive workbook not to get it right, but to develop intuition. Adjust inputs, break assumptions, reflect on results. That’s how better financial decisions — and better legal advice — are made.\n🚀 Next Step: Complete the workbook exercises before tomorrow’s session on dividend policy. Pay special attention to how dividend assumptions affect cost of equity calculations."
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#tomorrows-focus",
+    "href": "slides/day2-afternoon-slides.html#tomorrows-focus",
+    "title": "Corporate Financial Management",
+    "section": "Tomorrow’s Focus",
+    "text": "Tomorrow’s Focus\nTomorrow we will explore:\n\nDividend policy decisions and their impact on company value\nDifferent approaches to dividend payments (regular, special, stock dividends)\nThe relationship between dividend policy and share prices\nLegal and regulatory considerations in dividend distributions\nTax implications of different dividend strategies\n\nPreparation for Tomorrow:\nComplete the Excel workbook exercises to solidify today’s cost of capital concepts. Pay particular attention to the dividend valuation models (Worksheets 3 & 4), as these will directly connect to tomorrow’s dividend policy discussions.\nUnderstanding how dividends affect the cost of equity will provide essential foundation for evaluating different dividend policy strategies."
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#hands-on-learning-excel-workbook-exercises",
+    "href": "slides/day2-afternoon-slides.html#hands-on-learning-excel-workbook-exercises",
+    "title": "Corporate Financial Management",
+    "section": "Hands-On Learning: Excel Workbook Exercises",
+    "text": "Hands-On Learning: Excel Workbook Exercises\nInteractive Learning Resources:\nAccess the Cost of Capital Learning Workbook to reinforce today’s concepts through practical exercises:\nWorksheet 2: Market Value of Equity\n\nPractice calculating market values with different dividend scenarios\nUnderstand cum-dividend vs ex-dividend pricing\nTry changing share prices and dividend amounts to see immediate impact\n\nWorksheets 3 & 4: Dividend Valuation Models\n\nCompare no-growth vs growth scenarios for cost of equity\nTest sensitivity to growth rate assumptions\nExperiment: What happens when growth rates change from 2% to 8%?\n\nWorksheet 5: CAPM Calculations\n\nAdjust beta values for different risk profiles\nSee how market conditions affect required returns\nTry beta values of 0.5 (low risk) vs 2.0 (high risk) - observe the impact\n\nWorksheet 6: Cost of Debt\n\nCalculate after-tax costs with different tax rates\nWork through bond valuation scenarios\nTest: How does changing tax rates from 20% to 40% affect debt costs?\n\nWorksheet 7: WACC Integration\n\nCombine all components into weighted average calculations\nFind optimal capital structure through experimentation\nChallenge: At what debt/equity mix is WACC minimised?\n\n\n\n\n\n\n\nLearning Philosophy\n\n\n“All models are wrong, but some are useful.” The workbook encourages experimentation in a safe environment where being wrong leads to better understanding. Use yellow cells for inputs, trace blue formula cells to understand the logic."
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#additional-professional-resources",
+    "href": "slides/day2-afternoon-slides.html#additional-professional-resources",
+    "title": "Corporate Financial Management",
+    "section": "Additional Professional Resources",
+    "text": "Additional Professional Resources\nEssential Reading:\n\nFinancial Times Guide to Corporate Finance by Glen Arnold\nCorporate Finance: Core Principles and Applications by Ross, Westerfield, and Jordan\nInvestment Valuation by Aswath Damodaran"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#essential-resources-for-deeper-learning",
+    "href": "slides/day2-afternoon-slides.html#essential-resources-for-deeper-learning",
+    "title": "Corporate Financial Management",
+    "section": "Essential Resources for Deeper Learning",
+    "text": "Essential Resources for Deeper Learning\nCore Academic Resources:\n\n📘 Atrill (2019): Financial Management for Decision Makers - Chapters 5, 7, 8\n\nExcellent for non-specialists, with practical examples\n\n📘 Financial Times Guide to Corporate Finance by Glen Arnold\n\nBridge between academic theory and practical application\n\n\nOnline Learning Resources:\n\n🎥 Damodaran WACC Resource\n\nProfessor Aswath Damodaran’s comprehensive database and tutorials\nIndustry-specific cost of capital data\n\n📚 Investopedia: Cost of Capital\n\nClear definitions and worked examples\nRegular updates reflecting market conditions\n\n\nMarket Data Sources:\n\nBank of England: Risk-free rate data and monetary policy context\nFinancial Times: Market risk premium estimates and industry analysis\nCompany Annual Reports: Real-world examples of cost of capital disclosures\n\nProfessional Development:\n\nCFA Institute: Comprehensive corporate finance curriculum\nICAEW: Business finance qualifications for non-financial professionals\nFinancial Times: Regular articles on capital markets and corporate finance trends\n\n\n\n\n\n\n\nRecommended Learning Path\n\n\n\nStart with Investopedia for basic concepts and terminology\nUse Damodaran’s resources for detailed calculations and industry data\n\nRead Atrill for comprehensive coverage with practical focus\nPractice with real company data from annual reports and financial databases"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#market-data-and-practical-tools",
+    "href": "slides/day2-afternoon-slides.html#market-data-and-practical-tools",
+    "title": "Corporate Financial Management",
+    "section": "Market Data and Practical Tools",
+    "text": "Market Data and Practical Tools\nRisk-Free Rate Sources:\n\nUK Government Gilt yields (10-year benchmark commonly used)\nBank of England base rate for short-term reference\n\nBeta Calculations:\n\nFinancial data providers (Bloomberg, Refinitiv, Yahoo Finance)\nAcademic databases (WRDS, Datastream)\nCompany-specific analysis in equity research reports\n\nIndustry Benchmarks:\n\nDamodaran’s industry cost of capital data by sector\nPWC Annual Corporate Treasury Survey\nDeloitte Cost of Capital studies\n\nRegulatory Context:\n\nFCA guidance on discount rates for regulated entities\nEU guidelines on cost of capital for infrastructure projects\nInternational accounting standards (IFRS) on fair value measurements"
+  },
+  {
+    "objectID": "slides/day2-afternoon-slides.html#practice-through-application-key-exercises",
+    "href": "slides/day2-afternoon-slides.html#practice-through-application-key-exercises",
+    "title": "Corporate Financial Management",
+    "section": "Practice Through Application: Key Exercises",
+    "text": "Practice Through Application: Key Exercises\nImmediate Application:\nWork through these guided exercises using the Excel workbook:\nExercise 1: Market Valuation Scenarios\nCompare three companies with different dividend policies: - Company A: Just paid dividend, stable price - Company B: Dividend announcement pending, premium in price - Company C: No dividend policy, growth-focused\nExercise 2: Cost of Equity Comparison\nFor the same company, calculate cost of equity using: - Dividend growth model (assume 5% growth) - CAPM (test with β = 0.8, 1.2, and 1.8) - Compare results and consider which is more reliable\nExercise 3: Capital Structure Optimization\nTest different debt/equity mixes: - Start with 100% equity financing - Gradually increase debt proportion to 10%, 30%, 50%, 70% - Identify the point where WACC is minimised - Consider practical constraints on high leverage\nExercise 4: Sensitivity Analysis\nPick one company and test sensitivity to: - ±2% change in risk-free rate - ±20% change in market risk premium\n- ±0.3 change in beta - Which variable has the greatest impact on WACC?\nReflection Questions for Professional Application:\n\nHow do your calculated costs compare to companies’ actual borrowing rates?\nWhat practical factors might cause real-world costs to differ from your calculations?\nHow would you explain your findings to a non-financial board member?\nWhich cost of capital components are most critical for different types of legal work?\n\nLegal Practice Applications:\n\nM&A Due Diligence: Evaluate target company discount rates and capital structure efficiency\nRestructuring Advice: Understand how cost changes affect stakeholder positions\nProject Finance: Apply appropriate hurdle rates for infrastructure and development projects\nCorporate Governance: Advise on optimal capital structure decisions and their implications\n\n\n\n\nCorporate Financial Management - Day 2 Afternoon"
   },
   {
     "objectID": "resources/module-handbook.html",
@@ -1089,7 +1215,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "This page provides access to all resources for the Corporate Financial Management module.\n\n\nThe module handbook contains comprehensive information about the course structure, learning outcomes, assessment details, and policies.\n\n\nComplete reference guide for the Corporate Financial Management module.\n\nView Online Download DOCX\n\n\n\n\n\n\n\nDetailed information about the coursework assignment including case studies, requirements, and marking scheme.\n\nView Online Download DOCX\n\n\n\n\nThis table links each topic area in the module with the relevant chapters from Atrill (2019), course presentation slides, and curated external resources.\n\n\n\nTopic Area\nAtrill (2019) Reference\nLinked Course Materials\nRelated Resources\n\n\n\n\nFinancial Framework & Introduction\nChapters 1–3\nSlides / PDF\nDamodaran Online: Corporate Finance  YouTube: Valuation 101\n\n\nCapital Investment Decisions\nChapters 4–5\nSlides / PDF\nDamodaran: Valuation Class  Discounted Cash Flow Notes PDF\n\n\nSources of Finance\nChapters 3, 6–7\nSlides / PDF\nDamodaran: Corporate Finance  Investopedia: Corporate Finance\n\n\nCost of Capital & Capital Structure\nChapters 5, 7–8\nSlides / PDF\nDamodaran: WACC Data  YouTube: DCF Overview\n\n\nDividend Policy\nChapter 9\nSlides / PDF\nDamodaran: Dividend Policy  Investopedia: Dividend Policy\n\n\nWorking Capital Management\nChapter 10\nSlides / PDF\nCFI: Working Capital Guide  Investopedia: Working Capital Management\n\n\n\n\n\n\nYou can create PDF handouts directly from the RevealJS presentations:\n\nUsing the Print Function:\n\nOpen any presentation slides (e.g., slides/day1-morning-slides.html)\nPress “P” to enter print mode\nUse your browser’s print function (Ctrl/Cmd+P)\nSelect “Save as PDF” as the destination\nConfigure as needed (landscape orientation recommended)\nClick “Save” or “Print”\n\nUsing Export Functions:\n\nPress “E” to enter speaker view\nLook for the export options in the speaker notes panel\nSelect “Export to PDF”\n\nCustomizing PDF Output:\n\nFor handouts with multiple slides per page, use print settings\nTo include speaker notes, check “Include speaker notes” if available\nAdjust margins and scaling as needed\n\n\n\n\n\n\nThis resource supports learning-by-doing for capital investment decision-making. It includes an Excel workbook with interactive worksheets and a detailed guide to support self-directed exploration, aligned with course slides.\n\n\nAn interactive Excel file covering Payback, NPV, IRR, ARR, Risk Analysis, and a full Case Study.\n\nDownload Excel Workbook\n\n\n\n\nA structured walkthrough of the workbook with learning tasks, tips, and self-assessment prompts for each worksheet.\n\nRead Online Download PDF\n\n\n\n\n\n\n\n\nAtrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall.\nPDF version\n\n\n\n\n\nArnold, G. and Lewis, D. (2019) Corporate Financial Management. 6th ed.\nBrealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance. 13th ed.\nWatson, D. and Head, A. (2019) Corporate Finance Principles and Practice. 8th ed.\n\n\n\n\n\n\n\n\nDamodaran Online\nOne of the most respected voices in corporate finance, Prof. Aswath Damodaran shares his full course materials, models, and valuation datasets.\n📁 Includes: Lecture videos, spreadsheets, valuation templates, and applied case notes.\nInvestopedia – Corporate Finance Section\nHelpful reference-style definitions and tutorials across capital budgeting, cost of capital, and financing structures.\n✅ Recommended for clarifying terminology and formulas.\nCoursera: Financial Management Specialisation (University of Illinois)\nA structured online learning programme covering the foundational tools and decisions in corporate finance.\n👩‍💻 Ideal for brushing up or getting a second explanation.\n\n\n\n\n\nFinancial Times\nMarket news and analysis. Excellent for linking theory to current practice.\n🧾 University access required for full articles.\nYahoo Finance\nFree data on share prices, financial statements, beta estimates, and analyst sentiment.\nWorld Bank Open Data\nUse for macroeconomic indicators in scenario and risk analysis.\n\n\n\n\n\nDamodaran Excel Spreadsheets\nValuation models for WACC, DCF, and scenario analysis — editable and well-documented.\n\n\n\n\n\nBlackboard course page for lecture recordings and assessment rubrics\n\nReading materials available via Ulster Library digital collections\n\n\n\n\n\nModule Coordinator: Prof. Barry Quinn\nEmail: b.quinn1@ulster.ac.uk\nOffice Hours: By appointment during the block delivery\nLocation: Belfast Campus, Room MC-204"
+    "text": "This page provides access to all resources for the Corporate Financial Management module.\n\n\nThe module handbook contains comprehensive information about the course structure, learning outcomes, assessment details, and policies.\n\n\nComplete reference guide for the Corporate Financial Management module.\n\nView Online Download DOCX\n\n\n\n\n\n\n\nDetailed information about the coursework assignment including case studies, requirements, and marking scheme.\n\nView Online Download DOCX\n\n\n\n\nThis table links each topic area in the module with the relevant chapters from Atrill (2019), course presentation slides, and curated external resources.\n\n\n\nTopic Area\nAtrill (2019) Reference\nLinked Course Materials\nRelated Resources\n\n\n\n\nFinancial Framework & Introduction\nChapters 1–3\nSlides / PDF\nDamodaran Online: Corporate Finance  YouTube: Valuation 101\n\n\nCapital Investment Decisions\nChapters 4–5\nSlides / PDF\nDamodaran: Valuation Class  Discounted Cash Flow Notes PDF\n\n\nSources of Finance\nChapters 3, 6–7\nSlides / PDF\nDamodaran: Corporate Finance  Investopedia: Corporate Finance\n\n\nCost of Capital & Capital Structure\nChapters 5, 7–8\nSlides / PDF\nDamodaran: WACC Data  YouTube: DCF Overview\n\n\nDividend Policy\nChapter 9\nSlides / PDF\nDamodaran: Dividend Policy  Investopedia: Dividend Policy\n\n\nWorking Capital Management\nChapter 10\nSlides / PDF\nCFI: Working Capital Guide  Investopedia: Working Capital Management\n\n\n\n\n\n\nYou can create PDF handouts directly from the RevealJS presentations:\n\nUsing the Print Function:\n\nOpen any presentation slides (e.g., slides/day1-morning-slides.html)\nPress “P” to enter print mode\nUse your browser’s print function (Ctrl/Cmd+P)\nSelect “Save as PDF” as the destination\nConfigure as needed (landscape orientation recommended)\nClick “Save” or “Print”\n\nUsing Export Functions:\n\nPress “E” to enter speaker view\nLook for the export options in the speaker notes panel\nSelect “Export to PDF”\n\nCustomizing PDF Output:\n\nFor handouts with multiple slides per page, use print settings\nTo include speaker notes, check “Include speaker notes” if available\nAdjust margins and scaling as needed\n\n\n\n\n\n\nThis resource supports learning-by-doing for capital investment decision-making. It includes an Excel workbook with interactive worksheets and a detailed guide to support self-directed exploration, aligned with course slides.\n\n\nAn interactive Excel file covering Payback, NPV, IRR, ARR, Risk Analysis, and a full Case Study.\n\nDownload Excel Workbook\n\n\n\n\nA structured walkthrough of the workbook with learning tasks, tips, and self-assessment prompts for each worksheet.\n\nRead Online Download PDF\n\n\n\n\n\nThis resource supports interactive learning during and after the Day 2 Afternoon session on Cost of Capital. It includes a hands-on Excel workbook and a structured learning guide aligned with the slide deck and concepts in Atrill (2019).\n\n\nAn interactive Excel file covering CAPM, Dividend Valuation Models, Cost of Debt, and WACC, including what-if tools and a summary dashboard.\n\nDownload Excel Workbook\n\n\n\n\nA topic-by-topic companion to the workbook, providing learning prompts, worked examples, and critical reflection activities.\n\nRead Online Download PDF\n\n\n\n\n\n\n\n\nAtrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall.\nPDF version\n\n\n\n\n\nArnold, G. and Lewis, D. (2019) Corporate Financial Management. 6th ed.\nBrealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance. 13th ed.\nWatson, D. and Head, A. (2019) Corporate Finance Principles and Practice. 8th ed.\n\n\n\n\n\n\n\n\nDamodaran Online\nOne of the most respected voices in corporate finance, Prof. Aswath Damodaran shares his full course materials, models, and valuation datasets.\n📁 Includes: Lecture videos, spreadsheets, valuation templates, and applied case notes.\nInvestopedia – Corporate Finance Section\nHelpful reference-style definitions and tutorials across capital budgeting, cost of capital, and financing structures.\n✅ Recommended for clarifying terminology and formulas.\nCoursera: Financial Management Specialisation (University of Illinois)\nA structured online learning programme covering the foundational tools and decisions in corporate finance.\n👩‍💻 Ideal for brushing up or getting a second explanation.\n\n\n\n\n\nFinancial Times\nMarket news and analysis. Excellent for linking theory to current practice.\n🧾 University access required for full articles.\nYahoo Finance\nFree data on share prices, financial statements, beta estimates, and analyst sentiment.\nWorld Bank Open Data\nUse for macroeconomic indicators in scenario and risk analysis.\n\n\n\n\n\nDamodaran Excel Spreadsheets\nValuation models for WACC, DCF, and scenario analysis — editable and well-documented.\n\n\n\n\n\nBlackboard course page for lecture recordings and assessment rubrics\n\nReading materials available via Ulster Library digital collections\n\n\n\n\n\nModule Coordinator: Prof. Barry Quinn\nEmail: b.quinn1@ulster.ac.uk\nOffice Hours: By appointment during the block delivery\nLocation: Belfast Campus, Room MC-204"
   },
   {
     "objectID": "resources.html#module-handbook",
@@ -1106,11 +1232,18 @@
     "text": "Detailed information about the coursework assignment including case studies, requirements, and marking scheme.\n\nView Online Download DOCX\n\n\n\n\nThis table links each topic area in the module with the relevant chapters from Atrill (2019), course presentation slides, and curated external resources.\n\n\n\nTopic Area\nAtrill (2019) Reference\nLinked Course Materials\nRelated Resources\n\n\n\n\nFinancial Framework & Introduction\nChapters 1–3\nSlides / PDF\nDamodaran Online: Corporate Finance  YouTube: Valuation 101\n\n\nCapital Investment Decisions\nChapters 4–5\nSlides / PDF\nDamodaran: Valuation Class  Discounted Cash Flow Notes PDF\n\n\nSources of Finance\nChapters 3, 6–7\nSlides / PDF\nDamodaran: Corporate Finance  Investopedia: Corporate Finance\n\n\nCost of Capital & Capital Structure\nChapters 5, 7–8\nSlides / PDF\nDamodaran: WACC Data  YouTube: DCF Overview\n\n\nDividend Policy\nChapter 9\nSlides / PDF\nDamodaran: Dividend Policy  Investopedia: Dividend Policy\n\n\nWorking Capital Management\nChapter 10\nSlides / PDF\nCFI: Working Capital Guide  Investopedia: Working Capital Management\n\n\n\n\n\n\nYou can create PDF handouts directly from the RevealJS presentations:\n\nUsing the Print Function:\n\nOpen any presentation slides (e.g., slides/day1-morning-slides.html)\nPress “P” to enter print mode\nUse your browser’s print function (Ctrl/Cmd+P)\nSelect “Save as PDF” as the destination\nConfigure as needed (landscape orientation recommended)\nClick “Save” or “Print”\n\nUsing Export Functions:\n\nPress “E” to enter speaker view\nLook for the export options in the speaker notes panel\nSelect “Export to PDF”\n\nCustomizing PDF Output:\n\nFor handouts with multiple slides per page, use print settings\nTo include speaker notes, check “Include speaker notes” if available\nAdjust margins and scaling as needed"
   },
   {
-    "objectID": "resources.html#interactive-learning-workbook",
-    "href": "resources.html#interactive-learning-workbook",
+    "objectID": "resources.html#capital-investment-decisions-workbook-and-guide",
+    "href": "resources.html#capital-investment-decisions-workbook-and-guide",
     "title": "Resources",
     "section": "",
     "text": "This resource supports learning-by-doing for capital investment decision-making. It includes an Excel workbook with interactive worksheets and a detailed guide to support self-directed exploration, aligned with course slides.\n\n\nAn interactive Excel file covering Payback, NPV, IRR, ARR, Risk Analysis, and a full Case Study.\n\nDownload Excel Workbook\n\n\n\n\nA structured walkthrough of the workbook with learning tasks, tips, and self-assessment prompts for each worksheet.\n\nRead Online Download PDF"
+  },
+  {
+    "objectID": "resources.html#cost-of-capital-workbook-and-guide",
+    "href": "resources.html#cost-of-capital-workbook-and-guide",
+    "title": "Resources",
+    "section": "",
+    "text": "This resource supports interactive learning during and after the Day 2 Afternoon session on Cost of Capital. It includes a hands-on Excel workbook and a structured learning guide aligned with the slide deck and concepts in Atrill (2019).\n\n\nAn interactive Excel file covering CAPM, Dividend Valuation Models, Cost of Debt, and WACC, including what-if tools and a summary dashboard.\n\nDownload Excel Workbook\n\n\n\n\nA topic-by-topic companion to the workbook, providing learning prompts, worked examples, and critical reflection activities.\n\nRead Online Download PDF"
   },
   {
     "objectID": "resources.html#recommended-readings",
@@ -1132,62 +1265,6 @@
     "title": "Resources",
     "section": "",
     "text": "Module Coordinator: Prof. Barry Quinn\nEmail: b.quinn1@ulster.ac.uk\nOffice Hours: By appointment during the block delivery\nLocation: Belfast Campus, Room MC-204"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Corporate Financial Management",
-    "section": "",
-    "text": "Welcome to the intensive block delivery of Corporate Financial Management at Ulster University. This website contains all materials for the 4-day course structure.\n\n\nThis module integrates financial management concepts with managerial decision-making, corporate planning, and interaction with the wider business environment. The course is delivered in an intensive 4-day block format, condensing a full semester of content into a comprehensive, focused learning experience.\n\n\n\nThe course is organised into four intensive days:\n\n\n\nMorning: Financial framework, business objectives, agency theory, and ratio analysis\nAfternoon: Capital investment decisions, appraisal techniques, and risk assessment\n\n\n\nMorning: Long and short-term financing sources, equity and debt characteristics\nAfternoon: Cost of capital, WACC, and capital structure decisions\n\n\n\nMorning: Dividend theories, policy decisions, and practical considerations\nAfternoon: Working capital management, cash, inventory, and credit management\n\n\n\nMorning: Integrated case studies and financial analysis applications\nAfternoon: Exam preparation, key concept revision, and practice questions\n\n\n\n\n\nBy completing this module, you will be able to:\n\nDemonstrate knowledge and understanding of investment, financing and dividend decisions\nAssess the potential and significance of various sources of finance available to a business\nCritically examine issues surrounding corporate financing and dividend policy\nRecognize concepts and theories of financial management\n\n\n\n\nThis module is assessed through two components:\n\nCoursework (50%): Case study analysis due 9th June 2025 (12 noon)\nExamination (50%): 3-hour online take home exam (Released on 21st June 9:30am)\n\n\n\n\n\n\n\nAtrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. PDF copy\n\n\n\nDownload the Module Handbook\n\n\n\nDownload the Assignment Brief\n\n\n\n\n\n\nAtrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. PDF copy\n\n\n\n\n\nArnold, G. and Lewis, D. (2019) Corporate Financial Management. 6th ed.\nBrealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance. 13th ed.\nWatson, D. and Head, A. (2019) Corporate Finance Principles and Practice. 8th ed.\n\n\n\n© 2025 Ulster University Business School | Prof. Barry Quinn | b.quinn1@ulster.ac.uk"
-  },
-  {
-    "objectID": "index.html#course-overview",
-    "href": "index.html#course-overview",
-    "title": "Corporate Financial Management",
-    "section": "",
-    "text": "This module integrates financial management concepts with managerial decision-making, corporate planning, and interaction with the wider business environment. The course is delivered in an intensive 4-day block format, condensing a full semester of content into a comprehensive, focused learning experience."
-  },
-  {
-    "objectID": "index.html#block-delivery-structure",
-    "href": "index.html#block-delivery-structure",
-    "title": "Corporate Financial Management",
-    "section": "",
-    "text": "The course is organised into four intensive days:\n\n\n\nMorning: Financial framework, business objectives, agency theory, and ratio analysis\nAfternoon: Capital investment decisions, appraisal techniques, and risk assessment\n\n\n\nMorning: Long and short-term financing sources, equity and debt characteristics\nAfternoon: Cost of capital, WACC, and capital structure decisions\n\n\n\nMorning: Dividend theories, policy decisions, and practical considerations\nAfternoon: Working capital management, cash, inventory, and credit management\n\n\n\nMorning: Integrated case studies and financial analysis applications\nAfternoon: Exam preparation, key concept revision, and practice questions"
-  },
-  {
-    "objectID": "index.html#learning-outcomes",
-    "href": "index.html#learning-outcomes",
-    "title": "Corporate Financial Management",
-    "section": "",
-    "text": "By completing this module, you will be able to:\n\nDemonstrate knowledge and understanding of investment, financing and dividend decisions\nAssess the potential and significance of various sources of finance available to a business\nCritically examine issues surrounding corporate financing and dividend policy\nRecognize concepts and theories of financial management"
-  },
-  {
-    "objectID": "index.html#assessment",
-    "href": "index.html#assessment",
-    "title": "Corporate Financial Management",
-    "section": "",
-    "text": "This module is assessed through two components:\n\nCoursework (50%): Case study analysis due 9th June 2025 (12 noon)\nExamination (50%): 3-hour online take home exam (Released on 21st June 9:30am)"
-  },
-  {
-    "objectID": "index.html#key-resources",
-    "href": "index.html#key-resources",
-    "title": "Corporate Financial Management",
-    "section": "",
-    "text": "Atrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. PDF copy\n\n\n\nDownload the Module Handbook\n\n\n\nDownload the Assignment Brief"
-  },
-  {
-    "objectID": "index.html#core-reading",
-    "href": "index.html#core-reading",
-    "title": "Corporate Financial Management",
-    "section": "",
-    "text": "Atrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. PDF copy"
-  },
-  {
-    "objectID": "index.html#supplementary-reading",
-    "href": "index.html#supplementary-reading",
-    "title": "Corporate Financial Management",
-    "section": "",
-    "text": "Arnold, G. and Lewis, D. (2019) Corporate Financial Management. 6th ed.\nBrealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance. 13th ed.\nWatson, D. and Head, A. (2019) Corporate Finance Principles and Practice. 8th ed.\n\n\n\n© 2025 Ulster University Business School | Prof. Barry Quinn | b.quinn1@ulster.ac.uk"
   },
   {
     "objectID": "materials/capitial-investment-decisions-guide.html",
@@ -1267,6 +1344,139 @@
     "text": "10.2 Final Reflection\nAll models are simplifications of reality. As George Box famously said:\n“All models are wrong, but some are useful.”\nIn this workbook, you’ve built useful models that give structure to uncertain decisions. By experimenting, adjusting, and observing how the outcomes respond, you build not just financial insight, but critical thinking.\n🚀 Let the spreadsheet be your sandbox for decision-making. Use it to make better guesses, ask better questions, and learn from every simulation."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Corporate Financial Management",
+    "section": "",
+    "text": "Welcome to the intensive block delivery of Corporate Financial Management at Ulster University. This website contains all materials for the 4-day course structure.\n\n\nThis module integrates financial management concepts with managerial decision-making, corporate planning, and interaction with the wider business environment. The course is delivered in an intensive 4-day block format, condensing a full semester of content into a comprehensive, focused learning experience.\n\n\n\nThe course is organised into four intensive days:\n\n\n\nMorning: Financial framework, business objectives, agency theory, and ratio analysis\nAfternoon: Capital investment decisions, appraisal techniques, and risk assessment\n\n\n\nMorning: Long and short-term financing sources, equity and debt characteristics\nAfternoon: Cost of capital, WACC, and capital structure decisions\n\n\n\nMorning: Dividend theories, policy decisions, and practical considerations\nAfternoon: Working capital management, cash, inventory, and credit management\n\n\n\nMorning: Integrated case studies and financial analysis applications\nAfternoon: Exam preparation, key concept revision, and practice questions\n\n\n\n\n\nBy completing this module, you will be able to:\n\nDemonstrate knowledge and understanding of investment, financing and dividend decisions\nAssess the potential and significance of various sources of finance available to a business\nCritically examine issues surrounding corporate financing and dividend policy\nRecognize concepts and theories of financial management\n\n\n\n\nThis module is assessed through two components:\n\nCoursework (50%): Case study analysis due 9th June 2025 (12 noon)\nExamination (50%): 3-hour online take home exam (Released on 21st June 9:30am)\n\n\n\n\n\n\n\nAtrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. PDF copy\n\n\n\nDownload the Module Handbook\n\n\n\nDownload the Assignment Brief\n\n\n\n\n\n\nAtrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. PDF copy\n\n\n\n\n\nArnold, G. and Lewis, D. (2019) Corporate Financial Management. 6th ed.\nBrealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance. 13th ed.\nWatson, D. and Head, A. (2019) Corporate Finance Principles and Practice. 8th ed.\n\n\n\n© 2025 Ulster University Business School | Prof. Barry Quinn | b.quinn1@ulster.ac.uk"
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "Corporate Financial Management",
+    "section": "",
+    "text": "This module integrates financial management concepts with managerial decision-making, corporate planning, and interaction with the wider business environment. The course is delivered in an intensive 4-day block format, condensing a full semester of content into a comprehensive, focused learning experience."
+  },
+  {
+    "objectID": "index.html#block-delivery-structure",
+    "href": "index.html#block-delivery-structure",
+    "title": "Corporate Financial Management",
+    "section": "",
+    "text": "The course is organised into four intensive days:\n\n\n\nMorning: Financial framework, business objectives, agency theory, and ratio analysis\nAfternoon: Capital investment decisions, appraisal techniques, and risk assessment\n\n\n\nMorning: Long and short-term financing sources, equity and debt characteristics\nAfternoon: Cost of capital, WACC, and capital structure decisions\n\n\n\nMorning: Dividend theories, policy decisions, and practical considerations\nAfternoon: Working capital management, cash, inventory, and credit management\n\n\n\nMorning: Integrated case studies and financial analysis applications\nAfternoon: Exam preparation, key concept revision, and practice questions"
+  },
+  {
+    "objectID": "index.html#learning-outcomes",
+    "href": "index.html#learning-outcomes",
+    "title": "Corporate Financial Management",
+    "section": "",
+    "text": "By completing this module, you will be able to:\n\nDemonstrate knowledge and understanding of investment, financing and dividend decisions\nAssess the potential and significance of various sources of finance available to a business\nCritically examine issues surrounding corporate financing and dividend policy\nRecognize concepts and theories of financial management"
+  },
+  {
+    "objectID": "index.html#assessment",
+    "href": "index.html#assessment",
+    "title": "Corporate Financial Management",
+    "section": "",
+    "text": "This module is assessed through two components:\n\nCoursework (50%): Case study analysis due 9th June 2025 (12 noon)\nExamination (50%): 3-hour online take home exam (Released on 21st June 9:30am)"
+  },
+  {
+    "objectID": "index.html#key-resources",
+    "href": "index.html#key-resources",
+    "title": "Corporate Financial Management",
+    "section": "",
+    "text": "Atrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. PDF copy\n\n\n\nDownload the Module Handbook\n\n\n\nDownload the Assignment Brief"
+  },
+  {
+    "objectID": "index.html#core-reading",
+    "href": "index.html#core-reading",
+    "title": "Corporate Financial Management",
+    "section": "",
+    "text": "Atrill, P. (2019) Financial Management for Decision Makers. 9th ed. London: FT Prentice Hall. PDF copy"
+  },
+  {
+    "objectID": "index.html#supplementary-reading",
+    "href": "index.html#supplementary-reading",
+    "title": "Corporate Financial Management",
+    "section": "",
+    "text": "Arnold, G. and Lewis, D. (2019) Corporate Financial Management. 6th ed.\nBrealey, R., Myers, S. and Allen, F. (2019) The Principles of Corporate Finance. 13th ed.\nWatson, D. and Head, A. (2019) Corporate Finance Principles and Practice. 8th ed.\n\n\n\n© 2025 Ulster University Business School | Prof. Barry Quinn | b.quinn1@ulster.ac.uk"
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html",
+    "href": "materials/cost-of-capital-guide.html",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "",
+    "text": "This workbook and guide help you explore how companies estimate the minimum return they need to justify investments. It breaks down the cost of equity, debt, and blended capital.\nEach worksheet corresponds to an Excel tab and a set of lecture slides. Your task: learn by doing — make changes, test ideas, and challenge the assumptions. It’s a safe space to be wrong (and curious).\n\n💬 Use yellow cells for input. Blue cells contain formulas. The best way to understand them is to trace the logic."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#what-it-measures",
+    "href": "materials/cost-of-capital-guide.html#what-it-measures",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "2.1 What It Measures",
+    "text": "2.1 What It Measures\nThe market value of a company’s equity, based on its current share price and dividend status."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#how-to-use-it",
+    "href": "materials/cost-of-capital-guide.html#how-to-use-it",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "2.2 How to Use It",
+    "text": "2.2 How to Use It\n\nStart with the share price (cum or ex-dividend)\nSubtract dividends if needed to get the ex-div price\nMultiply by number of shares\n\n\n2.2.1 Try This:\n\nChange a cum-div share price and observe how it affects MV\nCompare scenarios where a dividend has just been paid vs. one about to be paid\n\n📌 MV helps us assess the real value of capital raised from equity today, not historically."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#what-they-measure",
+    "href": "materials/cost-of-capital-guide.html#what-they-measure",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "3.1 What They Measure",
+    "text": "3.1 What They Measure\nThe expected return shareholders demand, based on dividends (and optionally, growth).\n\nW3: No Growth Model – works for preference shares\nW4: With Growth – better for ordinary shares with a dividend trend"
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#how-to-use-it-1",
+    "href": "materials/cost-of-capital-guide.html#how-to-use-it-1",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "3.2 How to Use It",
+    "text": "3.2 How to Use It\n\nEnter the annual dividend (D₀ or D₁)\nFor growth models, include an expected g\nUse share price to calculate Ke\n\n\n3.2.1 Try This:\n\nIncrease growth rate from 2% to 8% — what happens to Ke?\nReduce share price by 10% — how sensitive is the result?\n\n💡 High-growth assumptions amplify Ke — but may not be realistic."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#what-it-measures-1",
+    "href": "materials/cost-of-capital-guide.html#what-it-measures-1",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "4.1 What It Measures",
+    "text": "4.1 What It Measures\nExpected return for equity holders based on risk (Beta) and market context."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#how-to-use-it-2",
+    "href": "materials/cost-of-capital-guide.html#how-to-use-it-2",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "4.2 How to Use It",
+    "text": "4.2 How to Use It\n\nStart with a risk-free rate and market return\nAdjust Beta to simulate different types of firms\n\n\n4.2.1 Try This:\n\nSet Beta to 0.5 (low risk) and then 2.0 (high risk)\nWatch how Ke changes for different industries\n\n⚠️ CAPM assumes markets are efficient — but use it as a tool, not a truth."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#what-it-measures-2",
+    "href": "materials/cost-of-capital-guide.html#what-it-measures-2",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "5.1 What It Measures",
+    "text": "5.1 What It Measures\nThe cost of borrowing money, net of tax relief. Includes both bank loans and bond finance."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#how-to-use-it-3",
+    "href": "materials/cost-of-capital-guide.html#how-to-use-it-3",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "5.2 How to Use It",
+    "text": "5.2 How to Use It\n\nUse the simple formula for loans\nFor redeemable debt, calculate IRR across years\n\n\n5.2.1 Try This:\n\nIncrease the tax rate from 20% to 40% — what’s the impact on after-tax cost?\nReduce the bond’s market price — does that increase or reduce the effective Kd?\n\n🧠 Debt can be cheaper than equity, but not risk-free."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#what-it-measures-3",
+    "href": "materials/cost-of-capital-guide.html#what-it-measures-3",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "6.1 What It Measures",
+    "text": "6.1 What It Measures\nThe blended cost of funding a firm, based on the relative weight of equity and debt."
+  },
+  {
+    "objectID": "materials/cost-of-capital-guide.html#how-to-use-it-4",
+    "href": "materials/cost-of-capital-guide.html#how-to-use-it-4",
+    "title": "Cost of Capital – Learning Workbook Guide",
+    "section": "6.2 How to Use It",
+    "text": "6.2 How to Use It\n\nPull in Ke and Kd from previous sheets\nInput E and D values to reflect a capital structure\nWatch WACC change as weightings shift\n\n\n6.2.1 Try This:\n\nRun a WACC at 50/50, then 70/30, then 90/10 equity/debt\nAt what point does WACC hit its lowest?\n\n🎯 This is the number firms often use as the hurdle rate in project appraisal."
+  },
+  {
     "objectID": "resources/coursework.html",
     "href": "resources/coursework.html",
     "title": "Corporate Financial Management",
@@ -1309,312 +1519,221 @@
     "text": "Please submit your report through the Turnitin link on Blackboard Ultra. A similarity report will be generated on submission.\nMarks are awarded for content, quality of discussion and effective use of referencing. To achieve high marks, students will be expected to demonstrate a familiarity with the wider literature in the subject area, and not merely an ability to reproduce the lecture notes. Higher marks will also be awarded to students who provide strong evidence of analysis and critical evaluation of the various concepts and techniques identified and their application to real-world situations. A demonstration of understanding of real-world finance development is also recommended.\nWork should include references to journal articles and other relevant publications, and should be properly laid out using the Harvard referencing system.\nMore detailed guidance is available in the ‘Guide to Referencing in the Harvard Style’. We encourage you to avail of the Academic Support via the Library’s Support Service, further details in the Library’s website.\nMarks will be deducted for incomplete or inaccurate referencing."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#introduction-to-cost-of-capital",
-    "href": "slides/day2-afternoon-slides.html#introduction-to-cost-of-capital",
-    "title": "Cost of Capital",
-    "section": "Introduction to Cost of Capital",
-    "text": "Introduction to Cost of Capital\nEvery investment undertaken by a company requires financing that is either sourced by debt or equity. Each source has a cost.\nThe cost of capital needs to be considered from two perspectives:\n\nInvestor Perspective: Cost of capital is the “opportunity cost” - the return that could be gained by investing funds in an alternative investment with similar risk characteristics.\nCompany Perspective: The “cost of capital” is the minimum return a company must provide to investors to ensure they continue to provide finance for investment and/or additional finance for future projects.\n\n\n\n\n\n\n\nImportant\n\n\nThe return from a project should at least cover a company’s current cost of finance. Therefore, establishing the cost of capital is vital in the evaluation and selection of projects."
+    "objectID": "slides/day3-morning-slides.html#what-are-dividends-and-why-do-they-matter",
+    "href": "slides/day3-morning-slides.html#what-are-dividends-and-why-do-they-matter",
+    "title": "Corporate Financial Management",
+    "section": "What Are Dividends and Why Do They Matter?",
+    "text": "What Are Dividends and Why Do They Matter?\nDividends are cash payments that companies make to their shareholders, representing a return on their investment. Think of them as the company sharing its profits with the people who own it.\n\n\n\n\n\n\nLearning Outcomes for This Session\n\n\nBy the end of this morning, you will be able to:\n\nExplain what dividends are and why companies pay them\nUnderstand the key debates about whether dividend policy affects company value\nIdentify the practical factors that influence dividend decisions\nEvaluate different approaches to returning money to shareholders\nApply these concepts to advise clients on dividend-related legal and business issues\n\n\n\n\nKey Insight:\nYesterday we learned how dividends affect the cost of equity. Today we explore how companies decide what dividends to pay and why these decisions matter for shareholders and the business."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#forms-of-long-term-capital",
-    "href": "slides/day2-afternoon-slides.html#forms-of-long-term-capital",
-    "title": "Cost of Capital",
-    "section": "Forms of Long-term Capital",
-    "text": "Forms of Long-term Capital\nThere are four major forms of external long-term capital:\n\nOrdinary shares\nPreference shares\n\nLoan capital\nRedeemable debentures\n\nIn addition, an important form of internal long-term capital is retained earnings."
+    "objectID": "slides/day3-morning-slides.html#the-dividend-landscape-a-companys-choice",
+    "href": "slides/day3-morning-slides.html#the-dividend-landscape-a-companys-choice",
+    "title": "Corporate Financial Management",
+    "section": "The Dividend Landscape: A Company’s Choice",
+    "text": "The Dividend Landscape: A Company’s Choice\nWhen a company makes a profit, management faces a fundamental choice:\nOption 1: Retain the Profits\n\nKeep the money within the business\nInvest in new projects, equipment, or expansion\nBuild cash reserves for future opportunities\n\nOption 2: Return the Profits\n\nPay dividends to shareholders\nBuy back shares from the market\nGive shareholders immediate cash returns\n\nThe Central Question: What combination of retention and distribution maximises shareholder value?"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#cost-of-capital-framework",
-    "href": "slides/day2-afternoon-slides.html#cost-of-capital-framework",
-    "title": "Cost of Capital",
-    "section": "Cost of Capital Framework",
-    "text": "Cost of Capital Framework\nThe cost of capital serves as the discount rate for investment appraisal and is calculated as the Weighted Average Cost of Capital (WACC), which combines:\n\nCost of debt\nCost of equity\n\nThe framework involves calculating each component separately:"
+    "objectID": "slides/day3-morning-slides.html#understanding-dividend-basics",
+    "href": "slides/day3-morning-slides.html#understanding-dividend-basics",
+    "title": "Corporate Financial Management",
+    "section": "Understanding Dividend Basics",
+    "text": "Understanding Dividend Basics\nKey Terminology:\n\nDividend Payout Ratio: The percentage of profits paid as dividends\nCum-Dividend Price: Share price including upcoming dividend payment\nEx-Dividend Price: Share price after dividend has been paid\nInterim Dividend: Mid-year payment (often smaller)\nFinal Dividend: Year-end payment (usually larger)\n\nPractical Example: If a company earns £100 million in profits and pays £40 million in dividends, the payout ratio is 40%."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#cost-of-debt",
-    "href": "slides/day2-afternoon-slides.html#cost-of-debt",
-    "title": "Cost of Capital",
-    "section": "Cost of Debt",
-    "text": "Cost of Debt\nTwo main products of debt: - Bank loans - Redeemable debt"
+    "objectID": "slides/day3-morning-slides.html#how-share-prices-react-to-dividends",
+    "href": "slides/day3-morning-slides.html#how-share-prices-react-to-dividends",
+    "title": "Corporate Financial Management",
+    "section": "How Share Prices React to Dividends",
+    "text": "How Share Prices React to Dividends\nUnderstanding the relationship between dividends and share prices is crucial:\nBefore Dividend Payment (Cum-Dividend):\n\nShare price includes the value of the upcoming dividend\nLike buying a house where the seller leaves all the furniture\n\nAfter Dividend Payment (Ex-Dividend):\n\nShare price typically falls by roughly the dividend amount\nLike buying the same house but without the furniture\n\nExample:\n\nCum-dividend price: £5.00\nDividend payment: £0.20\nExpected ex-dividend price: £4.80\n\nWhy This Matters: Share price movements around dividend dates are normal and expected, not signs of company problems."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#cost-of-equity",
-    "href": "slides/day2-afternoon-slides.html#cost-of-equity",
-    "title": "Cost of Capital",
-    "section": "Cost of Equity",
-    "text": "Cost of Equity\nTwo models to calculate the cost of equity (Ke): 1. Dividend growth model 2. Capital Asset Pricing Model (CAPM)"
+    "objectID": "slides/day3-morning-slides.html#industry-patterns-not-all-sectors-are-equal",
+    "href": "slides/day3-morning-slides.html#industry-patterns-not-all-sectors-are-equal",
+    "title": "Corporate Financial Management",
+    "section": "Industry Patterns: Not All Sectors Are Equal",
+    "text": "Industry Patterns: Not All Sectors Are Equal\nDifferent industries have dramatically different dividend policies:\nHigh Dividend Industries:\n\nUtilities (76% payout): Stable, predictable cash flows\nOil & Gas Distribution (114%): Mature businesses with limited growth opportunities\nPharmaceuticals (67%): Established companies with strong cash generation\n\nLow Dividend Industries:\n\nTechnology (26%): Rapid growth requires reinvestment\nAerospace/Defence (34%): Cyclical businesses with uncertain cash flows\nEntertainment (325%!): Highly variable - some years pay more than they earn\n\nFor Legal Advisors: Understanding industry norms helps evaluate whether a client’s dividend policy is appropriate for their sector."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#the-cost-of-equity",
-    "href": "slides/day2-afternoon-slides.html#the-cost-of-equity",
-    "title": "Cost of Capital",
-    "section": "The Cost of Equity",
-    "text": "The Cost of Equity\nEquity represents the owners’ investment in a company. This includes:\n\nIssued share capital (shown in financial statements)\nRetained earnings (often incorrectly viewed as a “free” source of finance)\n\n\n\n\n\n\n\nNote\n\n\nRetained Earnings have an opportunity cost equal to the cost of equity (without issue costs). The market value of equity shares reflects the value placed on retained earnings by equity holders."
+    "objectID": "slides/day3-morning-slides.html#the-great-dividend-debate-two-schools-of-thought",
+    "href": "slides/day3-morning-slides.html#the-great-dividend-debate-two-schools-of-thought",
+    "title": "Corporate Financial Management",
+    "section": "The Great Dividend Debate: Two Schools of Thought",
+    "text": "The Great Dividend Debate: Two Schools of Thought\nThe financial world is divided on a fundamental question: Do dividends affect how much a company is worth?"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#market-value-of-equity-p₀",
-    "href": "slides/day2-afternoon-slides.html#market-value-of-equity-p₀",
-    "title": "Cost of Capital",
-    "section": "Market Value of Equity (P₀)",
-    "text": "Market Value of Equity (P₀)\nA company’s equity should be valued as though it were being sourced from the markets today. This means:\n\nMarket price should not include premium to reflect a declared dividend payment\nPrice should be reduced to reflect the costs associated with issuing shares\n\nThe market value of equity (MV) is calculated as:\nMV = Share issue price × Number of shares currently in issue\nWhere ‘share issue price’ is the current long-run market price for each equity share (ex-dividend) less issue costs.\n\n\n\n\n\n\nTip\n\n\nEx-dividend vs Cum-dividend\n- Cum-dividend: Share price includes a premium for an upcoming dividend payment - Ex-dividend: Price after the dividend has been paid, without the dividend premium"
+    "objectID": "slides/day3-morning-slides.html#school-1-the-traditional-view---dividends-matter",
+    "href": "slides/day3-morning-slides.html#school-1-the-traditional-view---dividends-matter",
+    "title": "Corporate Financial Management",
+    "section": "School 1: The Traditional View - “Dividends Matter”",
+    "text": "School 1: The Traditional View - “Dividends Matter”\nThe Argument: Shareholders prefer dividends because “a bird in the hand is worth two in the bush.”\nThe Logic:\n\nDividends are certain; future share price increases are uncertain\nCompanies should pay generous dividends to maximise share price\nBased on the dividend valuation model we studied yesterday\n\nReal-World Support:\n\nMany investors specifically seek dividend-paying stocks\nShare prices often rise when companies increase dividends\nPension funds and retirees rely on dividend income\n\nPolicy Implication: Companies should pay the highest sustainable dividends possible."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-1",
-    "href": "slides/day2-afternoon-slides.html#example-1",
-    "title": "Cost of Capital",
-    "section": "Example 1",
-    "text": "Example 1\nInvierno plc has two million issued equity shares. The current market price (cum dividend) is 240p per share. The accrued dividend is 22p per share.\nRequired: Calculate the market value of Invierno plc’s shares for WACC calculation.\nSolution:\nEx-div share price = £2.40 - £0.22 = £2.18\nMarket value = ex-div share price × number of shares = £2.18 × 2,000,000 = £4,360,000"
+    "objectID": "slides/day3-morning-slides.html#school-2-the-modernist-view---dividends-dont-matter",
+    "href": "slides/day3-morning-slides.html#school-2-the-modernist-view---dividends-dont-matter",
+    "title": "Corporate Financial Management",
+    "section": "School 2: The Modernist View - “Dividends Don’t Matter”",
+    "text": "School 2: The Modernist View - “Dividends Don’t Matter”\nThe Theory: Modigliani-Miller (M&M) Dividend Irrelevance Theory\nThe Argument: In perfect markets, dividend policy doesn’t affect company value.\nThe Logic:\n\nCompany value depends on its investment opportunities, not how it distributes cash\nShareholders can create “home-made” dividends by selling shares when they need cash\nWhat matters is generating profits, not how those profits are distributed\n\nThe Assumptions:\n\nNo transaction costs for buying/selling shares\nNo taxes on dividends or capital gains\nAll investors have the same information\nRational decision-making by all parties"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-2",
-    "href": "slides/day2-afternoon-slides.html#example-2",
-    "title": "Cost of Capital",
-    "section": "Example 2",
-    "text": "Example 2\nAlberta has 3 million shares in issue. The ordinary shares currently have a market value of £1.30 per share. Dividend of 5p per share has just been paid.\nSolution:\nMV = ex-div price × no of shares = 3,000,000 × £1.30 = £3,900,000"
+    "objectID": "slides/day3-morning-slides.html#understanding-the-mm-theory-through-examples",
+    "href": "slides/day3-morning-slides.html#understanding-the-mm-theory-through-examples",
+    "title": "Corporate Financial Management",
+    "section": "Understanding the M&M Theory Through Examples",
+    "text": "Understanding the M&M Theory Through Examples\nScenario:\nABC Company has £1 million in excess cash.\nOption 1: Pay £1 Million Dividend\n\nShareholders receive cash immediately\nCompany value decreases by £1 million\nShare price falls by dividend amount\n\nOption 2: Keep the Cash\n\nCompany retains £1 million\nShareholders who need cash can sell shares worth £1 million\nNet effect on shareholder wealth is identical\n\nM&M’s Point:\nIf markets work perfectly, shareholders end up equally well off either way."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-3",
-    "href": "slides/day2-afternoon-slides.html#example-3",
-    "title": "Cost of Capital",
-    "section": "Example 3",
-    "text": "Example 3\nBeta has 1 million shares in issue. The ordinary shares have a market value of £1.25 per share. Dividend of 3p per share was just announced and will be paid in a month.\nSolution:\nex-div price = £1.25 - £0.03 = £1.22\nMV = £1.22 × 1,000,000 = £1,220,000:"
+    "objectID": "slides/day3-morning-slides.html#why-the-debate-continues-real-world-complications",
+    "href": "slides/day3-morning-slides.html#why-the-debate-continues-real-world-complications",
+    "title": "Corporate Financial Management",
+    "section": "Why the Debate Continues: Real-World Complications",
+    "text": "Why the Debate Continues: Real-World Complications\nTax Implications:\n\nDividends and capital gains may be taxed differently\nDifferent shareholders have different tax situations\nThis can make one approach preferable to another\n\nTransaction Costs:\n\nSelling shares costs money (brokerage fees)\nNot all shareholders can easily access markets\nSmall shareholders particularly affected\n\nInformation Differences:\n\nManagement knows more about company prospects than shareholders\nDividend decisions may signal management’s confidence\nMarkets interpret dividend changes as information\n\nMarket Imperfections:\n\nNot all investors are rational\nSome prefer dividends for psychological reasons\nInstitutional constraints (e.g., pension funds needing income)"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#calculating-the-cost-of-equity-ke",
-    "href": "slides/day2-afternoon-slides.html#calculating-the-cost-of-equity-ke",
-    "title": "Cost of Capital",
-    "section": "Calculating the Cost of Equity (Ke)",
-    "text": "Calculating the Cost of Equity (Ke)\nThe cost of equity is generally calculated using one of two methods:\n\nDividend Models: Focus on the returns received by investors\nCapital Asset Pricing Model (CAPM): Focus on the returns required to compensate for risk, relative to other investments"
+    "objectID": "slides/day3-morning-slides.html#the-residual-dividend-theory-a-practical-approach",
+    "href": "slides/day3-morning-slides.html#the-residual-dividend-theory-a-practical-approach",
+    "title": "Corporate Financial Management",
+    "section": "The Residual Dividend Theory: A Practical Approach",
+    "text": "The Residual Dividend Theory: A Practical Approach\nThe Principle:\nPay dividends only after funding all profitable investment opportunities.\nThe Process:\n\nIdentify all projects with positive NPV\nCalculate total funding needed\nUse retained earnings first (cheapest source)\nOnly pay dividends from remaining profits\n\nExample:\n\nAnnual profits: £10 million\nProfitable investment opportunities: £7 million\nRecommended dividend: £3 million\n\nAdvantages:\n\nEnsures growth opportunities aren’t missed\nMinimises expensive external financing\nAligns with shareholder wealth maximisation\n\nDisadvantages:\n\nCreates unpredictable dividend payments\nMay not meet shareholder income expectations\nDifficult to communicate policy to markets"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#dividend-valuation-model-no-growth",
-    "href": "slides/day2-afternoon-slides.html#dividend-valuation-model-no-growth",
-    "title": "Cost of Capital",
-    "section": "Dividend Valuation Model (No Growth)",
-    "text": "Dividend Valuation Model (No Growth)\nThis model is used to calculate the cost of preference shares which typically maintain a constant dividend.\n\\[K_e = \\frac{D_1}{P_0}\\]\nWhere: - P₀ is the market value of equity (ex-dividend) - D₁ is the annual dividend (assuming no growth in dividend payout) - Ke is the equity holders’ required return (company’s cost of equity)"
+    "objectID": "slides/day3-morning-slides.html#real-world-case-studies-learning-from-the-giants",
+    "href": "slides/day3-morning-slides.html#real-world-case-studies-learning-from-the-giants",
+    "title": "Corporate Financial Management",
+    "section": "Real-World Case Studies: Learning from the Giants",
+    "text": "Real-World Case Studies: Learning from the Giants\nMicrosoft: The Conversion\n\n1986-2003: Paid no dividends, retained everything for R&D\nRationale: Technology company with unlimited growth opportunities\nThe Change: By 2003, cash pile became excessive\nResult: Started paying dividends, now paying $0.68 quarterly (as of 2024)\n\nApple: The Cycle\n\n1987-1995: Paid regular dividends\n1995-2012: Stopped dividends to fund comeback\n2012-Present: Resumed dividends with massive cash reserves\nResult: Now pays $0.24 quarterly (as of 2024)\n\nLearning Point:\nEven tech giants adapt their dividend policies as business circumstances change."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-1-1",
-    "href": "slides/day2-afternoon-slides.html#example-1-1",
-    "title": "Cost of Capital",
-    "section": "Example 1",
-    "text": "Example 1\nFebrero PLC pays an annual dividend of 16p per share. The preference shares are currently trading at 188p. An interim dividend of 8p is about to be paid.\nRequired: Calculate the cost of equity capital for Febrero PLC.\nSolution:\nAnnual dividend = £0.16\nEx-div = £1.88 - £0.08 = £1.80\nUsing dividend valuation model, Ke = £0.16/£1.80 = 8.89%"
+    "objectID": "slides/day3-morning-slides.html#why-dividends-matter-in-practice-four-key-effects",
+    "href": "slides/day3-morning-slides.html#why-dividends-matter-in-practice-four-key-effects",
+    "title": "Corporate Financial Management",
+    "section": "Why Dividends Matter in Practice: Four Key Effects",
+    "text": "Why Dividends Matter in Practice: Four Key Effects\nDespite theoretical arguments, dividends remain important for practical reasons:"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-2-1",
-    "href": "slides/day2-afternoon-slides.html#example-2-1",
-    "title": "Cost of Capital",
-    "section": "Example 2",
-    "text": "Example 2\nHugo Plc pays an annual dividend of 24p per share. The shares are currently trading at £2.3 per share. Annual dividend has just been paid.\nSolution:\nAnnual div = £0.24\nEx-div price = £2.3\nKe = £0.24/£2.30 = 10.43%"
+    "objectID": "slides/day3-morning-slides.html#the-clientele-effect",
+    "href": "slides/day3-morning-slides.html#the-clientele-effect",
+    "title": "Corporate Financial Management",
+    "section": "1. The Clientele Effect",
+    "text": "1. The Clientele Effect\nDifferent investors prefer different dividend policies:\nHigh-Dividend Clientele:\n\nRetirees needing regular income\nPension funds with payout obligations\nConservative investors preferring certainty\n\nLow-Dividend Clientele:\n\nYoung investors focused on growth\nTax-sensitive high earners\nGrowth-oriented institutions\n\nImplication: Companies attract different types of shareholders based on their dividend policy."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#dividend-growth-model",
-    "href": "slides/day2-afternoon-slides.html#dividend-growth-model",
-    "title": "Cost of Capital",
-    "section": "Dividend Growth Model",
-    "text": "Dividend Growth Model\nWhen a growth rate is estimated, this is factored into the dividend valuation model to provide a cost of equity that takes future dividend increases into consideration:\n\\[K_e = \\frac{D_1}{P_0} + g = \\frac{D_0(1+g)}{P_0} + g\\]\nWhere: - g is the growth rate - D₀ is the dividend that has just been paid - P₀ is the market value of equity (ex-dividend) - D₁ is the next expected dividend - Ke is the cost of equity capital"
+    "objectID": "slides/day3-morning-slides.html#the-signalling-effect",
+    "href": "slides/day3-morning-slides.html#the-signalling-effect",
+    "title": "Corporate Financial Management",
+    "section": "2. The Signalling Effect",
+    "text": "2. The Signalling Effect\nDividend changes send messages to the market:\nDividend Increase Signals:\n\nManagement confidence in future profits\nBusiness stability and maturity\nCommitment to returning cash to shareholders\n\nDividend Decrease Signals:\n\nPotential financial difficulties\nMajor investment opportunities requiring cash\nUncertainty about future performance\n\nExample: When a company cuts its dividend, share prices often fall more than the dividend amount, suggesting markets read negative signals into the decision."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#calculating-dividend-growth-rate",
-    "href": "slides/day2-afternoon-slides.html#calculating-dividend-growth-rate",
-    "title": "Cost of Capital",
-    "section": "Calculating Dividend Growth Rate",
-    "text": "Calculating Dividend Growth Rate\nThe formula for calculating historical dividend growth rate:\n\\[g = \\sqrt[y]{\\frac{D_{t0}}{D_{t0-y}}} - 1\\]\nWhere: - g is the growth rate - Dt0 is the dividend just paid - Dt0-y is the dividend paid “y” years ago"
+    "objectID": "slides/day3-morning-slides.html#reducing-agency-costs",
+    "href": "slides/day3-morning-slides.html#reducing-agency-costs",
+    "title": "Corporate Financial Management",
+    "section": "3. Reducing Agency Costs",
+    "text": "3. Reducing Agency Costs\nThe Problem: Managers might waste excess cash on: - Unnecessary acquisitions - Luxurious office facilities - Empire-building projects with poor returns\nThe Solution: Paying dividends removes cash from management control, forcing discipline and preventing waste.\nAcademic Evidence: Companies with excess cash and poor investment opportunities often see improved performance when pressured to pay dividends."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-1-2",
-    "href": "slides/day2-afternoon-slides.html#example-1-2",
-    "title": "Cost of Capital",
-    "section": "Example 1",
-    "text": "Example 1\nJunio PLC had the following dividends over the past 5 years:\n\n\n\nYear\nDividends £\n\n\n\n\n2011\n195,000\n\n\n2012\n249,600\n\n\n2013\n267,800\n\n\n2014\n318,500\n\n\n2015\n341,055\n\n\n\nRequired: Calculate the growth in Junio PLC’s dividends.\nSolution: There are 5 years of dividends provided which means 4 years of dividend growth:\n341,055 = 195,000(1+g)⁴\n1.749 = (1+g)⁴\n(1.749)^0.25 = 1+g\ng = (1.749)^0.25 – 1 = 15%"
+    "objectID": "slides/day3-morning-slides.html#the-catering-effect",
+    "href": "slides/day3-morning-slides.html#the-catering-effect",
+    "title": "Corporate Financial Management",
+    "section": "4. The Catering Effect",
+    "text": "4. The Catering Effect\nMarket Preferences Change:\n\nSometimes investors favour dividend-paying stocks\nOther times they prefer growth stocks\nSmart managers adapt their policies to current market preferences\n\nPractical Implication: Dividend policy may be influenced by what type of companies the market currently values most highly."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-2-2",
-    "href": "slides/day2-afternoon-slides.html#example-2-2",
-    "title": "Cost of Capital",
-    "section": "Example 2",
-    "text": "Example 2\nFebrero PLC pays an annual dividend of 16p per share. The shares are currently trading at 188p. The annual dividend has just been paid.\nRequired: Calculate the cost of equity capital for Febrero PLC. Assume a growth rate of 7%.\nSolution: Ex-div P₀ = £1.88\ng = 7%\nD₀ = £0.16\nD₁ = D₀(1+g) = £0.16 × 1.07 = £0.1712\nKe = (D₁/P₀) + g = (£0.1712/£1.88) + 7% = 9.11% + 7% = 16.11%"
+    "objectID": "slides/day3-morning-slides.html#factors-influencing-dividend-decisions-in-practice",
+    "href": "slides/day3-morning-slides.html#factors-influencing-dividend-decisions-in-practice",
+    "title": "Corporate Financial Management",
+    "section": "Factors Influencing Dividend Decisions in Practice",
+    "text": "Factors Influencing Dividend Decisions in Practice\nCompanies consider multiple factors when setting dividend policy:\nFinancial Factors:\n\nProfit Stability: Consistent earnings support consistent dividends\nCash Flow: Actual cash availability (profits ≠ cash)\nInvestment Opportunities: Growth companies typically pay less\nDebt Levels: Loan agreements may restrict dividend payments\n\nMarket Factors:\n\nShareholder Expectations: Market reaction to changes\nIndustry Norms: Following sector patterns\nInstitutional Requirements: Meeting fund manager needs\n\nLegal and Regulatory Factors:\n\nLegal Capital Requirements: Cannot pay dividends from capital\nRegulatory Constraints: Especially relevant for banks, utilities\nTax Considerations: Impact on different shareholder types"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-3-1",
-    "href": "slides/day2-afternoon-slides.html#example-3-1",
-    "title": "Cost of Capital",
-    "section": "Example 3",
-    "text": "Example 3\nWhiskey Plc just paid out a total of £300,000 as dividend. The shares are currently trading at £2.33 per share, and there are a total of 3 million shares. Assume there is a growth rate of 5%.\nSolution: P₀ = £2.33\nD₀ = £300,000/3,000,000 = £0.10 per share\nD₁ = D₀(1+g) = £0.10 × 1.05 = £0.105\nKe = (D₁/P₀) + g = (£0.105/2.33) + 5% = 4.5% + 5% = 9.5%"
+    "objectID": "slides/day3-morning-slides.html#management-philosophy-what-research-reveals",
+    "href": "slides/day3-morning-slides.html#management-philosophy-what-research-reveals",
+    "title": "Corporate Financial Management",
+    "section": "Management Philosophy: What Research Reveals",
+    "text": "Management Philosophy: What Research Reveals\nAcademic studies show managers typically believe:\nDividend Stability Is Crucial (93% agree):\n\nPrefer smooth, predictable dividend streams\nAvoid sharp increases or decreases\nValue consistency over absolute amounts\n\nConservative Approach (95% agree):\n\nMore concerned with dividend cuts than missed opportunities to increase\nReluctant to raise dividends based on temporary profit increases\nPrefer to be certain they can sustain new dividend levels\n\nCommunication Matters:\n\nClear explanation of dividend policy\nAdvance warning of any necessary changes\nConsistent messaging to shareholders"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#limitations-of-the-dividend-valuation-model",
-    "href": "slides/day2-afternoon-slides.html#limitations-of-the-dividend-valuation-model",
-    "title": "Cost of Capital",
-    "section": "Limitations of the Dividend Valuation Model",
-    "text": "Limitations of the Dividend Valuation Model\n\nAssumes dividends grow smoothly, but this may not reflect reality\nSome companies pay zero dividends and reinvest 100% of earnings\nAssumes dividends continue to grow at historic rates\nIgnores that shareholders also receive returns in the form of capital gains\nResults are very sensitive to values of g and P₀"
+    "objectID": "slides/day3-morning-slides.html#alternative-ways-to-return-cash-beyond-dividends",
+    "href": "slides/day3-morning-slides.html#alternative-ways-to-return-cash-beyond-dividends",
+    "title": "Corporate Financial Management",
+    "section": "Alternative Ways to Return Cash: Beyond Dividends",
+    "text": "Alternative Ways to Return Cash: Beyond Dividends\nCompanies have options other than traditional cash dividends:"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#capital-asset-pricing-model-capm",
-    "href": "slides/day2-afternoon-slides.html#capital-asset-pricing-model-capm",
-    "title": "Cost of Capital",
-    "section": "Capital Asset Pricing Model (CAPM)",
-    "text": "Capital Asset Pricing Model (CAPM)\nThe Capital Asset Pricing Model evaluates the risks associated with investing in a company relative to other capital market investments."
+    "objectID": "slides/day3-morning-slides.html#share-buybacks-an-increasingly-popular-alternative",
+    "href": "slides/day3-morning-slides.html#share-buybacks-an-increasingly-popular-alternative",
+    "title": "Corporate Financial Management",
+    "section": "Share Buybacks: An Increasingly Popular Alternative",
+    "text": "Share Buybacks: An Increasingly Popular Alternative\nHow It Works:\n\nCompany repurchases its own shares from the market\nReduces total number of shares outstanding\nRemaining shareholders own larger percentage of company\n\nExample:\n\nCompany has 1 million shares worth £10 each\nBuys back 100,000 shares for £1 million\nRemaining 900,000 shares each represent 1/900,000 of company instead of 1/1,000,000\nEach share should theoretically be worth more\n\nAdvantages of Buybacks:\n\nFlexibility: No ongoing commitment like regular dividends\nTax Efficiency: May be taxed as capital gains rather than income\nEarnings Per Share: Automatically increases due to fewer shares\nMarket Support: Can help maintain share price during difficult periods\n\nWhen Companies Use Buybacks:\n\nTemporary excess cash (don’t want to commit to higher dividends)\nShare price appears undervalued\nWant to increase financial leverage\nDefending against hostile takeover"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#risk-classification",
-    "href": "slides/day2-afternoon-slides.html#risk-classification",
-    "title": "Cost of Capital",
-    "section": "Risk Classification",
-    "text": "Risk Classification\n\nUnsystematic (unique/business) risk: Specific to a company/industry (e.g., strike action, merger)\nSystematic (market) risk: Affects the whole market (e.g., inflation, interest rates, GDP movements)\n\n\n\n\n\n\n\nImportant\n\n\nPortfolio theory suggests that an investor can diversify away unsystematic risk by holding a well-diversified portfolio. The larger the number of differing types of shares held, the more likely that unsystematic risk will be reduced.\n\n\n\nIt is generally thought that holding eight to ten carefully chosen shares is sufficient to diversify away unsystematic risk."
+    "objectID": "slides/day3-morning-slides.html#stock-dividends-scrip-dividends-shares-instead-of-cash",
+    "href": "slides/day3-morning-slides.html#stock-dividends-scrip-dividends-shares-instead-of-cash",
+    "title": "Corporate Financial Management",
+    "section": "Stock Dividends (Scrip Dividends): Shares Instead of Cash",
+    "text": "Stock Dividends (Scrip Dividends): Shares Instead of Cash\nHow It Works:\n\nCompany issues additional shares instead of cash payment\nShareholders receive more shares proportional to their holdings\nNo cash changes hands\n\nExample:\n\nOwn 100 shares\nCompany declares 5% stock dividend\nReceive 5 additional shares\nNow own 105 shares, but each is worth proportionally less\n\nWhen Used:\n\nCompany wants to preserve cash for investments\nShareholders prefer to increase their holdings\nTax advantages in some jurisdictions\n\nLimitation: Stock dividends don’t provide actual cash to shareholders who need income."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#beta-and-systematic-risk",
-    "href": "slides/day2-afternoon-slides.html#beta-and-systematic-risk",
-    "title": "Cost of Capital",
-    "section": "Beta and Systematic Risk",
-    "text": "Beta and Systematic Risk\nBeta (β) is a measure of the systematic risk of an individual equity share relative to the systematic risk experienced by the market.\n\nBeta = 1: Company has the same risk as the market average\nBeta &gt; 1: More risky than the market (e.g., β=2 means twice as risky)\nBeta &lt; 1: Less risky than the market\n\nA company’s beta is obtained by plotting the returns of the company against the returns of the market over time, creating a “securities market line.”"
+    "objectID": "slides/day3-morning-slides.html#legal-considerations-for-dividend-policy",
+    "href": "slides/day3-morning-slides.html#legal-considerations-for-dividend-policy",
+    "title": "Corporate Financial Management",
+    "section": "Legal Considerations for Dividend Policy",
+    "text": "Legal Considerations for Dividend Policy\nKey Legal Constraints:\nDistributable Reserves:\n\nDividends can only be paid from accumulated profits\nCannot return shareholders’ original capital contributions\nMust maintain minimum capital requirements\n\nDirector Duties:\n\nFiduciary duty to act in company’s best interests\nConsider impact on creditors and different shareholder classes\nEnsure company remains solvent after dividend payment\n\nCreditor Protection:\n\nLoan agreements often restrict dividend payments\nMay require maintaining certain financial ratios\nSome loans prohibit dividends during default periods\n\nDisclosure Requirements:\n\nMust announce dividend decisions properly\nProvide adequate information to shareholders\nFollow stock exchange listing rules"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#the-capm-formula",
-    "href": "slides/day2-afternoon-slides.html#the-capm-formula",
-    "title": "Cost of Capital",
-    "section": "The CAPM Formula",
-    "text": "The CAPM Formula\nThe CAPM captures the gradient of the securities market line:\n\\[r_j = r_f + \\beta(r_m - r_f)\\]\nWhere: - rj is the return expected from company j (same as Ke) - rf is the risk-free rate of return - β is the level of systematic risk - (rm – rf) is the market risk premium"
+    "objectID": "slides/day3-morning-slides.html#practical-applications-for-legal-advisors",
+    "href": "slides/day3-morning-slides.html#practical-applications-for-legal-advisors",
+    "title": "Corporate Financial Management",
+    "section": "Practical Applications for Legal Advisors",
+    "text": "Practical Applications for Legal Advisors\nDue Diligence in M&A:\n\nEvaluate target company’s dividend history and sustainability\nUnderstand how dividend policy affects valuation\nConsider post-acquisition dividend strategy\n\nCorporate Restructuring:\n\nAdvise on dividend implications of financial distress\nNavigate creditor restrictions on distributions\nConsider dividend policy in refinancing negotiations\n\nCorporate Governance:\n\nDraft dividend policies for board approval\nEnsure compliance with legal requirements\nBalance different shareholder interests\n\nTax Planning:\n\nUnderstand tax implications of different distribution methods\nAdvise on timing of dividend payments\nConsider international tax implications for multinational companies"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-1-3",
-    "href": "slides/day2-afternoon-slides.html#example-1-3",
-    "title": "Cost of Capital",
-    "section": "Example 1",
-    "text": "Example 1\nM plc has a beta factor of 1.2. The yield on government bonds is 3% and the return on the market is 8%.\nRequired: Calculate M plc’s equity cost of capital using CAPM.\nSolution: rf = 3%\nrm = 8%\nβ = 1.2\nrj = rf + β(rm - rf)\nrj = 3% + 1.2(8% - 3%)\nrj = 3% + 1.2(5%)\nrj = 3% + 6%\nrj = 9%"
+    "objectID": "slides/day3-morning-slides.html#case-study-applying-dividend-theory",
+    "href": "slides/day3-morning-slides.html#case-study-applying-dividend-theory",
+    "title": "Corporate Financial Management",
+    "section": "Case Study: Applying Dividend Theory",
+    "text": "Case Study: Applying Dividend Theory\nScenario: TechStart plc, a 10-year-old software company\nFinancial Position:\n\nAnnual profits: £20 million\nCurrent cash reserves: £50 million\nProfitable growth opportunities requiring: £15 million annually\n10 million shares outstanding\nCurrent share price: £25\n\nShareholder Base:\n\n40% institutional investors (pension funds, insurance companies)\n35% retail investors (mix of ages and income needs)\n25% employees and founders\n\nThe Dilemma:\nWhat dividend policy should TechStart adopt?"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-2-3",
-    "href": "slides/day2-afternoon-slides.html#example-2-3",
-    "title": "Cost of Capital",
-    "section": "Example 2",
-    "text": "Example 2\nL plc has a beta factor of 1.5. The risk-free yield is 5%, and the market premium is 8%.\nRequired: Calculate L plc’s Ke using CAPM.\nSolution: rf = 5%\nMarket premium = (rm - rf) = 8%\nβ = 1.5\nrj = rf + β(rm - rf)\nrj = 5% + 1.5(8%)\nrj = 5% + 12%\nrj = 17%"
+    "objectID": "slides/day3-morning-slides.html#analysing-the-techstart-case",
+    "href": "slides/day3-morning-slides.html#analysing-the-techstart-case",
+    "title": "Corporate Financial Management",
+    "section": "Analysing the TechStart Case",
+    "text": "Analysing the TechStart Case\nOption 1: Residual Dividend Policy\n\nFund £15 million growth opportunities first\nPay £5 million (£0.50 per share) as dividends\nPros: Maximises growth, efficient capital allocation\nCons: Low yield may disappoint income-focused investors\n\nOption 2: Stable Dividend Policy\n\nCommit to £1.00 per share annually (£10 million total)\nFund growth from remaining £10 million plus cash reserves\nPros: Attracts income investors, provides certainty\nCons: May constrain future growth opportunities\n\nOption 3: Share Buyback Program\n\nUse £5 million annually to repurchase shares\nContinue funding all growth opportunities\nPros: Flexibility, tax efficiency, supports share price\nCons: Doesn’t provide income to shareholders needing cash\n\nLegal Considerations:\n\nCheck articles of association for dividend restrictions\nConsider impact on employee share schemes\nEvaluate tax implications for different shareholder types"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#example-3-2",
-    "href": "slides/day2-afternoon-slides.html#example-3-2",
-    "title": "Cost of Capital",
-    "section": "Example 3",
-    "text": "Example 3\nN plc is considered to be twice as sensitive to market change. Government bonds currently have a 5% coupon rate, and the average market return is 15%.\nRequired: Calculate N plc’s Ke using CAPM.\nSolution: rf = 5%\nrm = 15%\nβ = 2 (twice as sensitive)\nrj = rf + β(rm - rf)\nrj = 5% + 2(15% - 5%)\nrj = 5% + 20%\nrj = 25% :::"
+    "objectID": "slides/day3-morning-slides.html#modern-trends-in-dividend-policy",
+    "href": "slides/day3-morning-slides.html#modern-trends-in-dividend-policy",
+    "title": "Corporate Financial Management",
+    "section": "Modern Trends in Dividend Policy",
+    "text": "Modern Trends in Dividend Policy\nDeclining Dividend Payments:\n\nFewer companies pay dividends than historically\nTechnology sector growth has reduced overall dividend yields\nShift towards share buybacks as preferred distribution method\n\nIncreasing Buyback Activity:\n\nS&P 500 companies now spend more on buybacks than dividends\nGreater flexibility appeals to management\nTax advantages drive institutional investor preference\n\nESG Considerations:\n\nEnvironmental, Social, and Governance factors increasingly influence dividend decisions\nStakeholder capitalism may affect traditional shareholder-focused policies\nClimate change investments may reduce available cash for distributions\n\nRegulatory Changes:\n\nCorporate tax reforms affect distribution preferences\nInternational tax coordination impacts multinational companies\nEnhanced disclosure requirements increase transparency"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#capm-vs-dividend-growth-model",
-    "href": "slides/day2-afternoon-slides.html#capm-vs-dividend-growth-model",
-    "title": "Cost of Capital",
-    "section": "CAPM vs Dividend Growth Model",
-    "text": "CAPM vs Dividend Growth Model\n\n\n\n\n\n\n\nCAPM\nDividend Growth Model\n\n\n\n\nTakes into account risk\nDoes not explicitly account for risk\n\n\nAssumes no taxation or transaction costs\nIncorporates actual market prices\n\n\nAssumes investors can diversify away unsystematic risk\nRequires historical dividend data\n\n\nCan be applied to all listed companies\nCannot be used for companies without dividend history\n\n\nAssumes investors can borrow/lend at risk-free rate\nBased on actual dividend payments"
+    "objectID": "slides/day3-morning-slides.html#common-dividend-policy-mistakes",
+    "href": "slides/day3-morning-slides.html#common-dividend-policy-mistakes",
+    "title": "Corporate Financial Management",
+    "section": "Common Dividend Policy Mistakes",
+    "text": "Common Dividend Policy Mistakes\nFor Companies:\n\nMaking dividend commitments they cannot sustain\nCutting dividends without adequate communication\nIgnoring shareholder composition and preferences\nFailing to consider tax implications for shareholders\n\nFor Advisors:\n\nFocusing only on absolute dividend amounts rather than sustainability\nIgnoring the signalling effects of dividend changes\nFailing to consider alternative distribution methods\nNot understanding client’s specific shareholder base\n\nBest Practices:\n\nDevelop clear, communicable dividend policy\nConsider total shareholder return, not just dividends\nMaintain flexibility for changing circumstances\nRegular review and adjustment as business evolves"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#the-cost-of-debt",
-    "href": "slides/day2-afternoon-slides.html#the-cost-of-debt",
-    "title": "Cost of Capital",
-    "section": "The Cost of Debt",
-    "text": "The Cost of Debt\nThere are two main types of debt financing:\n\nUntraded Debt: Bank loans\nTraded Debt: Redeemable bonds"
+    "objectID": "slides/day3-morning-slides.html#key-takeaways",
+    "href": "slides/day3-morning-slides.html#key-takeaways",
+    "title": "Corporate Financial Management",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\n\n\n\nDividend policy involves fundamental trade-offs between immediate returns and future growth\nWhile theory suggests dividends may not matter in perfect markets, practical considerations make them important\nDifferent shareholders have different preferences, creating clientele effects\nDividend decisions signal management confidence and affect market perceptions\nLegal and regulatory constraints significantly influence dividend policy choices\nModern companies increasingly use share buybacks alongside or instead of traditional dividends\nConsistency and clear communication are crucial for successful dividend policy implementation"
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#untraded-debt-bank-loans",
-    "href": "slides/day2-afternoon-slides.html#untraded-debt-bank-loans",
-    "title": "Cost of Capital",
-    "section": "Untraded Debt (Bank Loans)",
-    "text": "Untraded Debt (Bank Loans)\nWhen long-term debt is untraded, such as a bank loan: - The market value equates to the book value - The cost of capital is the post-tax interest rate charged on that debt\n\\[K_{dt} = i(1-t)\\]\nWhere: - Kdt is the cost of debt after taxation - i is the interest rate - t is the taxation rate\nExample: Cost of Bank Loan\nIf a company has a bank loan of £1m with an interest rate of 8% and corporate tax is 30%:\nKd = 8% × (1-30%) = 5.6%\nThe market value of this loan is £1m, same as the book value."
+    "objectID": "slides/day3-morning-slides.html#tomorrows-focus",
+    "href": "slides/day3-morning-slides.html#tomorrows-focus",
+    "title": "Corporate Financial Management",
+    "section": "Tomorrow’s Focus",
+    "text": "Tomorrow’s Focus\nThis afternoon we will explore:\n\nWorking capital management and short-term financing decisions\nCash flow forecasting and liquidity management\nTrade credit and payment terms\nInventory and receivables management\n\nConnection to Today:\nUnderstanding dividend policy helps inform cash flow planning, as dividend commitments represent important cash outflows that must be balanced against operational and investment needs."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#traded-debt-redeemable-bonds",
-    "href": "slides/day2-afternoon-slides.html#traded-debt-redeemable-bonds",
-    "title": "Cost of Capital",
-    "section": "Traded Debt (Redeemable Bonds)",
-    "text": "Traded Debt (Redeemable Bonds)\nTraded debt usually takes the form of bonds that can be traded on stock markets:\n\nIn the UK, bonds have a nominal value of £100\nThe most common type is a “plain vanilla bond” with a fixed annual interest rate\nTraders value bonds based on their coupon (interest) compared to returns from similar investments\nInterest payments on debt are tax-deductible"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#market-value-of-redeemable-bonds",
-    "href": "slides/day2-afternoon-slides.html#market-value-of-redeemable-bonds",
-    "title": "Cost of Capital",
-    "section": "Market Value of Redeemable Bonds",
-    "text": "Market Value of Redeemable Bonds\nThe market value of bonds should be the cash flows expected by a company on a new issue:\nQuoted market value – Ex-interest – Ex-issue costs\nRedeemable bonds are valued at the present value of: - Future stream of income (coupon) for a set period (annuity), plus - Final redemption payment\nBoth discounted at the required rate of return."
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#example-market-value-of-redeemable-bonds",
-    "href": "slides/day2-afternoon-slides.html#example-market-value-of-redeemable-bonds",
-    "title": "Cost of Capital",
-    "section": "Example: Market Value of Redeemable Bonds",
-    "text": "Example: Market Value of Redeemable Bonds\nABC PLC has £2,000,000 of 8% bonds due for redemption at par in 3 years. The expected return for bondholders is 5%.\nRequired: Calculate the market value of the bond.\nSolution: MV = £8/1.05 + £8/1.05² + £108/1.05³ = £108.17\nSince each bond has a par value of £100, the total market value would be: (£108.17/£100) × £2,000,000 = £2,163,400"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#calculating-the-cost-of-redeemable-debt",
-    "href": "slides/day2-afternoon-slides.html#calculating-the-cost-of-redeemable-debt",
-    "title": "Cost of Capital",
-    "section": "Calculating the Cost of Redeemable Debt",
-    "text": "Calculating the Cost of Redeemable Debt\nThe cost of redeemable debt is calculated using an IRR approach:\n\nDetermine the current market price of the bond\nIdentify the after-tax interest payments\nFind the discount rate that makes the present value of future cash flows equal to the current market price"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#example-cost-of-redeemable-debt",
-    "href": "slides/day2-afternoon-slides.html#example-cost-of-redeemable-debt",
-    "title": "Cost of Capital",
-    "section": "Example: Cost of Redeemable Debt",
-    "text": "Example: Cost of Redeemable Debt\nDerry PLC has £5,000,000 8% debentures (2022 at Par) trading at £92. The interest payment has just been made. The company pays tax at 50%.\nRequired: Calculate the cost of Derry PLC’s debentures.\nSolution: After-tax interest = £8 × (1-50%) = £4 per £100 bond\nRedemption time = 4 years\nRedemption price = £100\nCurrent market value = £92\nUsing IRR approach to find Kd: 92 = 4/(1+kd) + 4/(1+kd)² + 4/(1+kd)³ + 104/(1+kd)⁴\nTesting with 5%: NPV = 92 - 4×(3.546) - 100×(0.823) = -4.484\nTesting with 15%: NPV = 92 - 4×(2.855) - 100×(0.572) = 23.38\nKd = 5% + (4.484/27.864)×(10%) = 6.61%"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#weighted-average-cost-of-capital-wacc",
-    "href": "slides/day2-afternoon-slides.html#weighted-average-cost-of-capital-wacc",
-    "title": "Cost of Capital",
-    "section": "Weighted Average Cost of Capital (WACC)",
-    "text": "Weighted Average Cost of Capital (WACC)\nThe weighted average cost of capital (WACC) is the overall cost of long-term funds invested in a company."
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#calculating-wacc",
-    "href": "slides/day2-afternoon-slides.html#calculating-wacc",
-    "title": "Cost of Capital",
-    "section": "Calculating WACC",
-    "text": "Calculating WACC\nThe WACC formula:\n\\[\\text{WACC} = \\frac{E(K_e)}{(D+E)} + \\frac{D(K_d(1-t))}{(D+E)}\\]\nWhere: - E is the market value of equity - D is the current market value of debt - Ke is the cost of equity - Kd is the before-tax cost of debt - t is the current rate of tax"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#example-wacc-calculation",
-    "href": "slides/day2-afternoon-slides.html#example-wacc-calculation",
-    "title": "Cost of Capital",
-    "section": "Example: WACC Calculation",
-    "text": "Example: WACC Calculation\nPrimavero Plc has equity amounting to £2million and debt capital of £2million. The cost of equity is 16% and the cost of debt (before tax) is 12.5%. The current tax rate is 20%.\nRequired: a) What is the market value of Primavero Plc? b) What is Primavero Plc’s WACC?\nSolution: a) Market value = £2m + £2m = £4m\n\nWACC = 0.5(16%) + 0.5(12.5%)(1-0.2) = 8% + 0.5(10%) = 8% + 5% = 13%"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#limitations-of-using-wacc-for-investment-appraisal",
-    "href": "slides/day2-afternoon-slides.html#limitations-of-using-wacc-for-investment-appraisal",
-    "title": "Cost of Capital",
-    "section": "Limitations of Using WACC for Investment Appraisal",
-    "text": "Limitations of Using WACC for Investment Appraisal\nThe WACC is appropriate when: - The rate reflects the marginal cost of new capital - The company’s capital structure is at its optimal level - The project being evaluated has the same business risk as the company - The finance raised is in similar proportions to the existing capital structure\nOther limitations: - Some debt instruments are highly complicated and don’t fit theoretical models - Companies may issue floating-rate debt capital - The WACC provides only a framework for estimation"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#capital-structure-theory",
-    "href": "slides/day2-afternoon-slides.html#capital-structure-theory",
-    "title": "Cost of Capital",
-    "section": "Capital Structure Theory",
-    "text": "Capital Structure Theory\nA company’s Capital Structure is the mixture of long-term debt and equity used to finance projects and operations.\nThe value of a company is the market value of its capital structure: MV = D + E"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#capital-structure-objective",
-    "href": "slides/day2-afternoon-slides.html#capital-structure-objective",
-    "title": "Cost of Capital",
-    "section": "Capital Structure Objective",
-    "text": "Capital Structure Objective\n\nDebt is generally cheaper than equity\nHowever, gearing impacts the required return by existing equity and debt holders due to financial risk\nA financial manager must find the level of debt and equity that minimizes WACC - the optimum capital structure"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#financial-risk",
-    "href": "slides/day2-afternoon-slides.html#financial-risk",
-    "title": "Cost of Capital",
-    "section": "Financial Risk",
-    "text": "Financial Risk\n\nDebt has a fixed yearly return that must be paid\nThis creates a constant drain on liquidity and may increase bankruptcy risk\nHigher fixed costs (interest) increase sensitivity of income available for equity holders\nFinancial risk is the additional sensitivity in returns to equity holders due to debt"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#modigliani-and-miller-theory",
-    "href": "slides/day2-afternoon-slides.html#modigliani-and-miller-theory",
-    "title": "Cost of Capital",
-    "section": "Modigliani and Miller Theory",
-    "text": "Modigliani and Miller Theory\nThe Modigliani and Miller theory suggests:\n\nCompany value is not influenced by its capital structure\nEquity holders require a premium for increased financial risk that exactly offsets the benefit of cheaper debt\nTherefore, WACC remains constant regardless of capital structure\nMarket value is determined solely by the quality of investments (operating profits/cash flows)"
-  },
-  {
-    "objectID": "slides/day2-afternoon-slides.html#summary-of-cost-of-capital",
-    "href": "slides/day2-afternoon-slides.html#summary-of-cost-of-capital",
-    "title": "Cost of Capital",
-    "section": "Summary of Cost of Capital",
-    "text": "Summary of Cost of Capital\nThe key components for calculating the cost of capital:\n\nBank loans: Cost and market value\nRedeemable debt: Cost and market value\nPreference shares: Cost and market value\nOrdinary shares: Cost and market value\n\nTwo models to calculate cost:\n\nDividend growth model\nCAPM\n\n\nWACC: Weighted average combining debt and equity costs\n\nThese calculations help determine the appropriate discount rate for investment appraisal, ensuring projects generate sufficient returns to meet financing costs.\n\n\n\nCorporate Financial Management - Day 2 Afternoon"
+    "objectID": "slides/day3-morning-slides.html#additional-resources-for-dividend-policy",
+    "href": "slides/day3-morning-slides.html#additional-resources-for-dividend-policy",
+    "title": "Corporate Financial Management",
+    "section": "Additional Resources for Dividend Policy",
+    "text": "Additional Resources for Dividend Policy\nEssential Reading:\n\nAtrill (2019): Financial Management for Decision Makers - Chapter 12\nFinancial Times Guide to Corporate Finance by Glen Arnold\n“Catering Theory of Dividends” by Baker & Wurgler (academic paper)\nInvestopedia: Dividend Policy - comprehensive overview\n\nMarket Data and Analysis:\n\nS&P Dividend Aristocrats - Companies with 25+ years of consecutive increases\nFTSE UK Dividend Plus Index - UK dividend-focused tracking\nLondon Stock Exchange: Dividend Calendar - upcoming dividend dates\nMorningstar UK Dividend Research - dividend analysis and forecasts\n\nLegal and Regulatory Resources:\n\nCompanies Act 2006 - UK legal requirements (Part 23: Distributions)\nFCA Listing Rules - Public company disclosure requirements\nHMRC: Dividend Tax Guidance - Current tax treatment\nGov.UK Company Law - Latest regulatory updates\n\nProfessional Development:\n\nCFA Institute: Corporate Finance - Professional curriculum\nLaw Society: Corporate Law Updates - Legal developments\nFinancial Times - Daily corporate finance analysis\nHarvard Business Review: Finance - Strategic perspectives on dividend policy\n\nAcademic and Research Resources:\n\nSSRN Corporate Finance Papers - Latest academic research\nEuropean Central Bank: Corporate Finance Research - Policy implications\nBank of England: Financial Stability Reports - Macroeconomic context\n\nPractical Tools and Databases:\n\nYahoo Finance - Free dividend data and analysis\nBloomberg Professional - Comprehensive financial data (subscription)\nRefinitiv (formerly Thomson Reuters) - Professional financial data\nCompanies House - UK company filings and dividend declarations\n\nThis comprehensive resource list provides both theoretical foundations and practical tools for understanding dividend policy in legal and business contexts. The links are current as of 2024 and provide authoritative sources for continued learning and professional application.\n\n\n\nCorporate Financial Management - Day 3 Morning"
   },
   {
     "objectID": "slides/day3-afternoon-slides.html#learning-outcomes",

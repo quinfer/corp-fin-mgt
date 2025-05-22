@@ -1,0 +1,417 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 4 Session 3: EU Corporate Sustainability Due Diligence"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    footer: "Day 4 Session 3: EU Sustainability Directive"
+    theme: default
+    slide-number: true
+    chalkboard: true
+---
+
+## Session 3 Overview {.unnumbered}
+
+**Focus**: EU Corporate Sustainability Due Diligence Directive 2024/1760
+
+**Critical Importance**: **40% of coursework marks** - largest single component
+
+**Learning Objectives:**
+- Understand key provisions of the EU Directive
+- Apply requirements to Ribs Co's strategic options
+- Integrate legal compliance with financial decision-making
+- Develop practical implementation frameworks
+
+**Connection to Previous Sessions**: Regulatory compliance costs will impact our NPV analysis from Session 2
+
+## Why This Matters for Corporate Finance
+
+**Traditional View**: Sustainability as cost center
+**Modern Reality**: Sustainability as strategic imperative
+
+**Financial Implications:**
+- Compliance costs affect project NPV (Session 2 connection)
+- Risk mitigation reduces cost of capital (Day 2 connection)
+- Market access enables revenue growth (Day 1 investment logic)
+- Stakeholder value creation (Day 3 dividend policy context)
+
+**For Legal Professionals**: ESG compliance is rapidly becoming core business requirement
+
+## EU Directive 2024/1760: Overview
+
+**Official Title**: "Directive on Corporate Sustainability Due Diligence"
+
+**Entry into Force**: 25 July 2024
+
+**Implementation Timeline**:
+- 2027: Large EU companies (>5,000 employees, >€1.5bn turnover)
+- 2028: Large EU companies (>3,000 employees, >€900m turnover)  
+- 2029: Other large companies (>1,000 employees, >€450m turnover)
+
+**Key Principle**: Corporate accountability for human rights and environmental impacts throughout value chains
+
+## Directive Scope and Applicability
+
+**EU Companies Covered**:
+- Large companies meeting size thresholds
+- Publicly listed smaller companies in high-risk sectors
+
+**Non-EU Companies (Including UK post-Brexit)**:
+- >€450m turnover in EU
+- >1,000 employees globally
+- **Key for Ribs Co**: UK company considering EU exports
+
+**High-Risk Sectors** (Lower thresholds):
+- Textiles and leather
+- Agriculture and food
+- **Manufacturing** (Ribs Co's sector!)
+- Mining and minerals
+
+## Core Due Diligence Obligations
+
+**Six-Step Process**:
+
+1. **Integrate due diligence** into company policies and risk management
+2. **Identify and assess** actual and potential adverse impacts
+3. **Prevent and mitigate** potential adverse impacts  
+4. **Bring to an end or minimize** actual adverse impacts
+5. **Monitor effectiveness** of measures and policies
+6. **Communicate publicly** on due diligence matters
+
+**Key Insight**: Not just compliance checking - fundamental business process transformation
+
+## Human Rights Impact Areas
+
+**Labour Rights Focus**:
+- **Child labour elimination**
+- **Forced or compulsory labour prohibition**
+- **Workplace safety and health standards**
+- **Fair wages and working time limits**
+- **Freedom of association and collective bargaining**
+
+**Supply Chain Considerations**:
+- **Supplier assessment and monitoring**
+- **Contractual obligations and standards**
+- **Remediation and grievance mechanisms**
+- **Stakeholder engagement and consultation**
+
+**Ribs Co Application**: Critical for both offshore and domestic options
+
+## Environmental Impact Requirements
+
+**Climate and Environmental Obligations**:
+- **Greenhouse gas emissions reduction**
+- **Pollution prevention and control**
+- **Resource efficiency and circular economy**
+- **Biodiversity protection and restoration**
+- **Waste management and reduction**
+
+**Value Chain Scope**:
+- Direct operations (Tier 1)
+- Upstream suppliers (Tier 2+)
+- Downstream distributors and customers
+
+**Business Integration**: Environmental management becomes competitive advantage
+
+## Applying to Ribs Co: Strategic Option 1
+
+**Option 1: Offshore Production Analysis**
+
+**Compliance Challenges**:
+- **New supply chain complexity**: Foreign production facilities
+- **Labour standards assessment**: Lower-cost country employment practices
+- **Monitoring and control**: Distance and cultural barriers
+- **Remediation capability**: Limited influence over foreign operations
+
+**Due Diligence Requirements**:
+1. **Pre-investment assessment**: Country and facility risk evaluation
+2. **Contractual frameworks**: Sustainability clauses and standards
+3. **Ongoing monitoring**: Regular audits and performance tracking
+4. **Stakeholder engagement**: Worker representatives and civil society
+
+## Option 1: Implementation Costs
+
+**Initial Setup Costs**:
+- **Due diligence assessment**: £150,000-300,000
+- **Legal and consultancy**: £100,000-200,000
+- **System development**: £200,000-400,000
+- **Training and capacity building**: £50,000-100,000
+
+**Annual Ongoing Costs**:
+- **Monitoring and auditing**: £100,000-200,000
+- **Compliance management**: £75,000-150,000
+- **Reporting and disclosure**: £25,000-50,000
+- **Remediation and improvement**: £50,000-100,000
+
+**Total Annual Impact**: £250,000-500,000
+
+## Applying to Ribs Co: Strategic Option 2
+
+**Option 2: Domestic Expansion Analysis**
+
+**Compliance Advantages**:
+- **Familiar regulatory environment**: UK/EU standards alignment
+- **Existing supply chain knowledge**: Current supplier relationships
+- **Direct operational control**: Domestic manufacturing oversight
+- **Established stakeholder relationships**: Employee and community ties
+
+**Due Diligence Requirements**:
+1. **Supply chain mapping**: Raw materials and components sourcing
+2. **Environmental impact assessment**: Manufacturing and distribution
+3. **Export market compliance**: Destination country requirements
+4. **Customer due diligence**: B2B customer sustainability practices
+
+## Option 2: Implementation Costs
+
+**Initial Setup Costs**:
+- **Supply chain assessment**: £75,000-150,000
+- **Environmental impact analysis**: £50,000-100,000
+- **System integration**: £100,000-200,000
+- **Export compliance preparation**: £25,000-75,000
+
+**Annual Ongoing Costs**:
+- **Supply chain monitoring**: £50,000-100,000
+- **Environmental compliance**: £40,000-80,000
+- **Reporting and disclosure**: £25,000-50,000
+- **Continuous improvement**: £35,000-70,000
+
+**Total Annual Impact**: £150,000-300,000
+
+## Financial Impact Analysis
+
+**Connecting to Session 2 NPV Calculation**:
+
+**Option 2 Base Case NPV**: £395,749 (calculated earlier)
+
+**Adjusted NPV with Compliance Costs**:
+- **Additional annual costs**: £225,000 (mid-range estimate)
+- **Present value of costs**: £225,000 × 3.993 (5-year annuity at 8%) = £898,425
+- **Adjusted NPV**: £395,749 - £898,425 = **-£502,676**
+
+**Critical Insight**: Compliance costs can fundamentally change project viability!
+
+## Risk vs Opportunity Framework
+
+**Compliance as Risk Mitigation**:
+- **Reputational protection**: Brand value preservation
+- **Market access assurance**: EU export capability
+- **Operational risk reduction**: Supply chain resilience
+- **Regulatory compliance**: Avoiding penalties and restrictions
+
+**Compliance as Value Creation**:
+- **Premium positioning**: Sustainability differentiation
+- **Customer requirements**: B2B sustainability mandates
+- **Investor attraction**: ESG-focused capital access
+- **Employee engagement**: Purpose-driven workforce
+
+**Strategic Question**: Can compliance costs be offset by premium pricing or market advantages?
+
+## Implementation Framework
+
+**Governance Structure**:
+- **Board oversight**: Director responsible for sustainability
+- **Management integration**: Operational accountability
+- **Cross-functional teams**: Legal, operations, finance, procurement
+- **External expertise**: Consultants, auditors, NGO partnerships
+
+**System Requirements**:
+- **Risk assessment protocols**: Regular impact evaluation
+- **Monitoring and reporting**: KPI tracking and disclosure
+- **Stakeholder engagement**: Community and worker consultation
+- **Continuous improvement**: Learning and adaptation processes
+
+## Stakeholder Engagement Strategy
+
+**Internal Stakeholders**:
+- **Employees**: Training, consultation, and feedback mechanisms
+- **Management**: Responsibility allocation and performance metrics
+- **Board**: Oversight and strategic guidance
+- **Shareholders**: Transparency and progress reporting
+
+**External Stakeholders**:
+- **Suppliers**: Partnership development and capability building
+- **Customers**: Requirements communication and collaboration
+- **Communities**: Impact assessment and dialogue
+- **Civil Society**: NGO engagement and independent monitoring
+
+## Connecting to Day 3: Dividend Policy Implications
+
+**Day 3 Learning**: Dividend policy reflects company strategy and stakeholder priorities
+
+**Sustainability Connection**:
+- **Capital allocation**: Compliance investment vs dividend payments
+- **Stakeholder expectations**: ESG-focused investors prefer sustainable practices
+- **Long-term value**: Sustainability investments may reduce future dividend capacity but increase long-term viability
+- **Risk management**: Better risk profile may support stable dividend policy
+
+**Strategic Integration**: Sustainability compliance affects entire corporate strategy, not just operational compliance
+
+## Cost-Benefit Analysis Framework
+
+**Quantifiable Benefits**:
+- **Market access preservation**: EU export revenue potential
+- **Premium pricing**: Sustainability differentiation (5-15% premium possible)
+- **Risk mitigation**: Reduced operational and reputational risks
+- **Capital cost reduction**: Lower ESG risk premium
+
+**Quantifiable Costs**:
+- **Compliance systems**: Initial and ongoing operational costs
+- **Supply chain upgrades**: Supplier development and monitoring
+- **Human resources**: Training, expertise, and management time
+- **Opportunity costs**: Capital tied up in compliance vs alternative investments
+
+## Interactive Exercise: Compliance Strategy Development
+
+**Group Activity (20 minutes):**
+
+**Teams of 4-5 students** - Mix strategic options
+
+**Your Task**:
+1. **Choose one strategic option** (offshore or domestic expansion)
+2. **Develop compliance strategy** using directive requirements
+3. **Estimate financial impact** on NPV from Session 2
+4. **Identify value creation opportunities** from compliance
+5. **Prepare recommendation** for board consideration
+
+**Resources**: Directive summary, implementation frameworks, cost estimates
+
+## Group Presentation Requirements
+
+**5-Minute Presentation Structure**:
+
+1. **Compliance Requirements Summary** (1 minute)
+   - Key directive obligations for your chosen option
+
+2. **Implementation Strategy** (2 minutes)
+   - Governance, systems, and processes required
+
+3. **Financial Impact Analysis** (1.5 minutes)
+   - Cost estimates and NPV adjustment
+   - Potential value creation opportunities
+
+4. **Strategic Recommendation** (0.5 minutes)
+   - Clear recommendation with risk/opportunity balance
+
+**Evaluation Criteria**: Practical applicability, financial realism, strategic integration
+
+## Professional Application Insights
+
+**For Legal Advisors**:
+
+**Due Diligence Expertise**:
+- **M&A transactions**: Sustainability compliance assessment
+- **Contract drafting**: ESG clauses and supplier agreements
+- **Risk management**: Regulatory compliance frameworks
+- **Dispute resolution**: Stakeholder grievance mechanisms
+
+**Corporate Governance**:
+- **Board advisory**: Sustainability oversight and accountability
+- **Policy development**: Compliance frameworks and procedures
+- **Stakeholder management**: Balancing diverse interests and requirements
+- **Disclosure and reporting**: Transparency and communication standards
+
+## Global Compliance Trend Context
+
+**Beyond EU Requirements**:
+- **UK considerations**: Potential alignment with EU standards
+- **US developments**: SEC climate disclosure rules
+- **Global frameworks**: UN Global Compact, OECD Guidelines
+- **Industry standards**: Sector-specific sustainability requirements
+
+**Business Reality**: Sustainability compliance becoming global business imperative, not just EU requirement
+
+**Strategic Insight**: Early adoption provides competitive advantage and learning curve benefits
+
+## Integration with Financial Decision-Making
+
+**Traditional Financial Analysis**:
+- Focus on cash flows, NPV, and shareholder returns
+- Risk assessment primarily financial and operational
+- Stakeholder consideration limited to shareholders
+
+**Integrated Sustainability Analysis**:
+- **Expanded cash flow analysis**: Including compliance costs and value creation
+- **Enhanced risk assessment**: Environmental, social, and governance risks
+- **Stakeholder value creation**: Multiple stakeholder benefits and impacts
+
+**Professional Evolution**: Financial analysis increasingly requires sustainability integration
+
+## Key Success Factors
+
+**Effective Implementation Requirements**:
+
+1. **Leadership Commitment**: Board and senior management engagement
+2. **System Integration**: Embedding in core business processes
+3. **Stakeholder Partnership**: Collaborative approach with suppliers and communities
+4. **Continuous Learning**: Adaptive management and improvement
+5. **Financial Integration**: Sustainability considerations in all investment decisions
+
+**Critical Success Metrics**: Compliance effectiveness, cost management, value creation, stakeholder satisfaction
+
+## Session 3 Synthesis
+
+**Strategic Decision Framework**:
+
+**Option 1 (Offshore)**: Higher compliance costs and risks, but potentially greater cost savings
+**Option 2 (Domestic)**: Lower compliance costs and risks, but limited cost reduction benefits
+
+**Financial Impact**: Compliance costs significantly affect project viability - must be integrated into NPV analysis
+
+**Strategic Implications**: Sustainability compliance capability becomes competitive differentiator
+
+**Professional Development**: ESG integration essential for modern legal and business advisory roles
+
+## Coursework Application Guidance
+
+**40% of Total Marks - Structure for Success**:
+
+1. **Directive Analysis** (25% of section - 10% total)
+   - Key provisions and requirements explanation
+   - Applicability to Ribs Co's situation
+
+2. **Strategic Application** (50% of section - 20% total)
+   - Detailed application to chosen strategic option
+   - Implementation framework and governance
+   - Stakeholder engagement strategy
+
+3. **Financial Integration** (25% of section - 10% total)
+   - Cost-benefit analysis and NPV impact
+   - Risk assessment and mitigation
+   - Value creation opportunities
+
+**Professional Presentation**: Legal analysis integrated with business strategy
+
+## Key Takeaways for Assessment Success
+
+**Technical Excellence**:
+- Demonstrate thorough understanding of directive requirements
+- Apply systematically to Ribs Co's strategic context
+- Integrate quantitative and qualitative analysis
+
+**Professional Integration**:
+- Connect legal compliance to financial decision-making
+- Balance stakeholder interests and business objectives
+- Develop practical implementation recommendations
+
+**Strategic Thinking**:
+- Consider sustainability as competitive advantage
+- Integrate with Sessions 1-2 analysis coherently
+- Demonstrate forward-thinking professional perspective
+
+## Session 3 Wrap-Up
+
+**What We've Accomplished**:
+- Mastered EU sustainability directive requirements
+- Applied to Ribs Co strategic options systematically
+- Integrated compliance costs with financial analysis
+- Developed professional implementation frameworks
+
+**Final Session Preview**:
+- Exam preparation and strategy
+- Integration of all course content
+- Time management and success techniques
+
+**15-Minute Break**: Process this regulatory complexity and prepare for final exam preparation session
+
+**Return at 3:45 PM for exam success strategies!**
