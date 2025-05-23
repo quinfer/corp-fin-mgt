@@ -847,11 +847,11 @@
     "text": "The Modigliani-Miller Theory\nThis influential theory suggests that in perfect markets:\nKey Proposition:\nCompany value is determined by its investment opportunities and operating performance, not how it’s financed.\nThe Logic:\nAny benefit from cheaper debt is exactly offset by shareholders demanding higher returns due to increased financial risk.\nReal-World Implications:\nWhile perfect markets don’t exist, the theory highlights that financing decisions should focus on operational performance and tax considerations rather than attempting to “trick” the market."
   },
   {
-    "objectID": "slides/day2-afternoon-slides.html#practical-applications-for-legal-professionals",
-    "href": "slides/day2-afternoon-slides.html#practical-applications-for-legal-professionals",
+    "objectID": "slides/day2-afternoon-slides.html#practical-applications-for-non-finance-professionals",
+    "href": "slides/day2-afternoon-slides.html#practical-applications-for-non-finance-professionals",
     "title": "Corporate Financial Management",
-    "section": "Practical Applications for Legal Professionals",
-    "text": "Practical Applications for Legal Professionals\nDue Diligence in M&A:\n\nEvaluate target company’s cost of capital\nAssess whether current capital structure is optimal\nConsider post-acquisition financing implications\n\nCorporate Restructuring:\n\nUnderstand how capital structure changes affect value\nEvaluate impact of debt refinancing on shareholders\nConsider tax implications of different financing arrangements\n\nInvestment Committee Decisions:\n\nEnsure proposed investments exceed cost of capital\nUnderstand how project risks affect required returns\nEvaluate financing options for major investments"
+    "section": "Practical Applications for Non-Finance Professionals",
+    "text": "Practical Applications for Non-Finance Professionals\nDue Diligence in M&A:\n\nEvaluate target company’s cost of capital\nAssess whether current capital structure is optimal\nConsider post-acquisition financing implications\n\nCorporate Restructuring:\n\nUnderstand how capital structure changes affect value\nEvaluate impact of debt refinancing on shareholders\nConsider tax implications of different financing arrangements\n\nInvestment Committee Decisions:\n\nEnsure proposed investments exceed cost of capital\nUnderstand how project risks affect required returns\nEvaluate financing options for major investments"
   },
   {
     "objectID": "slides/day2-afternoon-slides.html#common-cost-of-capital-pitfalls",
@@ -865,7 +865,7 @@
     "href": "slides/day2-afternoon-slides.html#final-reflection-models-as-tools-for-insight",
     "title": "Corporate Financial Management",
     "section": "Final Reflection: Models as Tools for Insight",
-    "text": "Final Reflection: Models as Tools for Insight\n\n\n\n\n“All models are wrong, but some are useful.” — George Box\n\nThe cost of capital isn’t a single, precise number — it’s a framework for thinking critically about funding and risk. The models we’ve explored today are tools for reasoning under uncertainty, not formulas for absolute truth.\nKey Learning Philosophy:\n\nExperiment confidently: Use the Excel workbook to test assumptions and break things\nQuestion everything: Ask why growth rates should continue, whether betas are stable, if markets are truly efficient\nFocus on insight over precision: Understanding the relationships matters more than calculating to the fourth decimal place\nApply contextually: Every company, industry, and situation has unique factors that models can’t fully capture\n\nFor Legal Professionals:\nYour role isn’t to become a financial modeller, but to understand these concepts well enough to: - Ask the right questions during due diligence - Evaluate the reasonableness of financial projections - Understand how financing decisions affect client interests - Communicate effectively with financial professionals and clients\nThe confidence to engage with these concepts — not perfect technical mastery — is what will serve you best in practice.\n\n\n\nMoving Forward:\nUse the interactive workbook not to get it right, but to develop intuition. Adjust inputs, break assumptions, reflect on results. That’s how better financial decisions — and better legal advice — are made.\n🚀 Next Step: Complete the workbook exercises before tomorrow’s session on dividend policy. Pay special attention to how dividend assumptions affect cost of equity calculations."
+    "text": "Final Reflection: Models as Tools for Insight\n\n\n\n\n“All models are wrong, but some are useful.” — George Box\n\nThe cost of capital isn’t a single, precise number — it’s a framework for thinking critically about funding and risk. The models we’ve explored today are tools for reasoning under uncertainty, not formulas for absolute truth.\nKey Learning Philosophy:\n\nExperiment confidently: Use the Excel workbook to test assumptions and break things\nQuestion everything: Ask why growth rates should continue, whether betas are stable, if markets are truly efficient\nFocus on insight over precision: Understanding the relationships matters more than calculating to the fourth decimal place\nApply contextually: Every company, industry, and situation has unique factors that models can’t fully capture\n\nFor Non-Finance Professionals:\nYour role isn’t to become a financial modeller, but to understand these concepts well enough to: - Ask the right questions during due diligence - Evaluate the reasonableness of financial projections - Understand how financing decisions affect client interests - Communicate effectively with financial professionals and clients\nThe confidence to engage with these concepts — not perfect technical mastery — is what will serve you best in practice.\n\n\n\nMoving Forward:\nUse the interactive workbook not to get it right, but to develop intuition. Adjust inputs, break assumptions, reflect on results. That’s how better financial decisions — and better legal advice — are made.\n🚀 Next Step: Complete the workbook exercises before tomorrow’s session on dividend policy. Pay special attention to how dividend assumptions affect cost of equity calculations."
   },
   {
     "objectID": "slides/day2-afternoon-slides.html#tomorrows-focus",
@@ -1901,7 +1901,7 @@
     "href": "slides/day3-morning-slides.html#what-are-dividends-and-why-do-they-matter",
     "title": "Corporate Financial Management",
     "section": "What Are Dividends and Why Do They Matter?",
-    "text": "What Are Dividends and Why Do They Matter?\nDividends are cash payments that companies make to their shareholders, representing a return on their investment. Think of them as the company sharing its profits with the people who own it.\n\n\n\n\n\n\nLearning Outcomes for This Session\n\n\nBy the end of this morning, you will be able to:\n\nExplain what dividends are and why companies pay them\nUnderstand the key debates about whether dividend policy affects company value\nIdentify the practical factors that influence dividend decisions\nEvaluate different approaches to returning money to shareholders\nApply these concepts to advise clients on dividend-related legal and business issues\n\n\n\n\nKey Insight:\nYesterday we learned how dividends affect the cost of equity. Today we explore how companies decide what dividends to pay and why these decisions matter for shareholders and the business."
+    "text": "What Are Dividends and Why Do They Matter?\nDividends are cash payments that companies make to their shareholders, representing a return on their investment. Think of them as the company sharing its profits with the people who own it.\n\n\n\n\n\n\nLearning Outcomes for This Session\n\n\nBy the end of this morning, you will be able to:\n\nExplain what dividends are and why companies pay them\nUnderstand the key debates about whether dividend policy affects company value\nIdentify the practical factors that influence dividend decisions\nEvaluate different approaches to returning money to shareholders\nApply these concepts to financial decision-making and business strategy\n\n\n\n\nKey Insight:\nYesterday we learned how dividends affect the cost of equity. Today we explore how companies decide what dividends to pay and why these decisions matter for shareholders and the business."
   },
   {
     "objectID": "slides/day3-morning-slides.html#the-dividend-landscape-a-companys-choice",
@@ -1925,11 +1925,39 @@
     "text": "How Share Prices React to Dividends\nUnderstanding the relationship between dividends and share prices is crucial:\nBefore Dividend Payment (Cum-Dividend):\n\nShare price includes the value of the upcoming dividend\nLike buying a house where the seller leaves all the furniture\n\nAfter Dividend Payment (Ex-Dividend):\n\nShare price typically falls by roughly the dividend amount\nLike buying the same house but without the furniture\n\nExample:\n\nCum-dividend price: £5.00\nDividend payment: £0.20\nExpected ex-dividend price: £4.80\n\nWhy This Matters: Share price movements around dividend dates are normal and expected, not signs of company problems."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#industry-patterns-not-all-sectors-are-equal",
-    "href": "slides/day3-morning-slides.html#industry-patterns-not-all-sectors-are-equal",
+    "objectID": "slides/day3-morning-slides.html#mature-steady-income-industries",
+    "href": "slides/day3-morning-slides.html#mature-steady-income-industries",
     "title": "Corporate Financial Management",
-    "section": "Industry Patterns: Not All Sectors Are Equal",
-    "text": "Industry Patterns: Not All Sectors Are Equal\nDifferent industries have dramatically different dividend policies:\nHigh Dividend Industries:\n\nUtilities (76% payout): Stable, predictable cash flows\nOil & Gas Distribution (114%): Mature businesses with limited growth opportunities\nPharmaceuticals (67%): Established companies with strong cash generation\n\nLow Dividend Industries:\n\nTechnology (26%): Rapid growth requires reinvestment\nAerospace/Defence (34%): Cyclical businesses with uncertain cash flows\nEntertainment (325%!): Highly variable - some years pay more than they earn\n\nFor Legal Advisors: Understanding industry norms helps evaluate whether a client’s dividend policy is appropriate for their sector."
+    "section": "🏭 Mature “Steady Income” Industries",
+    "text": "🏭 Mature “Steady Income” Industries\nLike a retired person with a pension\nExamples: Utilities, Telecoms, Consumer Staples\n\nDividend approach: High, steady payments (60-80% of profits)\nWhy? Predictable cash flows, limited growth opportunities\nThink: Your electricity company - stable business, shareholders want income"
+  },
+  {
+    "objectID": "slides/day3-morning-slides.html#growth-saving-for-the-future-industries",
+    "href": "slides/day3-morning-slides.html#growth-saving-for-the-future-industries",
+    "title": "Corporate Financial Management",
+    "section": "🚀 Growth “Saving for the Future” Industries",
+    "text": "🚀 Growth “Saving for the Future” Industries\nLike a young professional investing in their career\nExamples: Technology, Biotech, E-commerce\n\nDividend approach: Low or zero dividends (0-30% of profits)\nWhy? Rapid expansion needs all available cash for investment\nThink: Amazon didn’t pay dividends for decades - reinvested everything"
+  },
+  {
+    "objectID": "slides/day3-morning-slides.html#cyclical-feast-or-famine-industries",
+    "href": "slides/day3-morning-slides.html#cyclical-feast-or-famine-industries",
+    "title": "Corporate Financial Management",
+    "section": "🎢 Cyclical “Feast or Famine” Industries",
+    "text": "🎢 Cyclical “Feast or Famine” Industries\nLike a seasonal worker who saves during good times\nExamples: Airlines, Construction, Commodities\n\nDividend approach: Variable payments based on current performance\nWhy? Profits swing dramatically with economic cycles\nThink: Oil companies pay big dividends when oil prices are high, cut when they’re low"
+  },
+  {
+    "objectID": "slides/day3-morning-slides.html#regulated-steady-but-constrained-industries",
+    "href": "slides/day3-morning-slides.html#regulated-steady-but-constrained-industries",
+    "title": "Corporate Financial Management",
+    "section": "🏦 Regulated “Steady but Constrained” Industries",
+    "text": "🏦 Regulated “Steady but Constrained” Industries\nLike someone with a steady job but strict spending rules\nExamples: Banks, Insurance, Pharmaceuticals\n\nDividend approach: Moderate, consistent payments (40-60% of profits)\nWhy? Regulators require capital reserves, but shareholders expect income\nThink: Banks must keep cash for safety, but pension funds rely on their dividends"
+  },
+  {
+    "objectID": "slides/day3-morning-slides.html#the-key-insight",
+    "href": "slides/day3-morning-slides.html#the-key-insight",
+    "title": "Corporate Financial Management",
+    "section": "The Key Insight:",
+    "text": "The Key Insight:\nHigh Dividend Industries = Mature businesses with predictable cash flows Low Dividend Industries = Growth businesses that need cash for expansion\nBusiness Relevance: Industry context determines what dividend policy makes sense and what shareholders will expect."
   },
   {
     "objectID": "slides/day3-morning-slides.html#the-great-dividend-debate-two-schools-of-thought",
@@ -1943,7 +1971,7 @@
     "href": "slides/day3-morning-slides.html#school-1-the-traditional-view---dividends-matter",
     "title": "Corporate Financial Management",
     "section": "School 1: The Traditional View - “Dividends Matter”",
-    "text": "School 1: The Traditional View - “Dividends Matter”\nThe Argument: Shareholders prefer dividends because “a bird in the hand is worth two in the bush.”\nThe Logic:\n\nDividends are certain; future share price increases are uncertain\nCompanies should pay generous dividends to maximise share price\nBased on the dividend valuation model we studied yesterday\n\nReal-World Support:\n\nMany investors specifically seek dividend-paying stocks\nShare prices often rise when companies increase dividends\nPension funds and retirees rely on dividend income\n\nPolicy Implication: Companies should pay the highest sustainable dividends possible."
+    "text": "School 1: The Traditional View - “Dividends Matter”\nThe Argument: Shareholders prefer dividends because “a bird in the hand is worth two in the bush.”\nThe Logic:\n\nDividends are certain; future share price increases are uncertain\nCompanies should pay generous dividends to maximise share price\nBased on the dividend valuation model we studied yesterday\n\nReal-World Support:\n\nMany investors specifically seek dividend-paying stocks\nShare prices often rise when companies increase dividends\nPension funds and retirees rely on dividend income\n\nPolicy Implication:\nCompanies should pay the highest sustainable dividends possible."
   },
   {
     "objectID": "slides/day3-morning-slides.html#school-2-the-modernist-view---dividends-dont-matter",
@@ -1992,28 +2020,28 @@
     "href": "slides/day3-morning-slides.html#the-clientele-effect",
     "title": "Corporate Financial Management",
     "section": "1. The Clientele Effect",
-    "text": "1. The Clientele Effect\nDifferent investors prefer different dividend policies:\nHigh-Dividend Clientele:\n\nRetirees needing regular income\nPension funds with payout obligations\nConservative investors preferring certainty\n\nLow-Dividend Clientele:\n\nYoung investors focused on growth\nTax-sensitive high earners\nGrowth-oriented institutions\n\nImplication: Companies attract different types of shareholders based on their dividend policy."
+    "text": "1. The Clientele Effect\nDifferent investors prefer different dividend policies:\nHigh-Dividend Clientele:\n\nRetirees needing regular income\nPension funds with payout obligations\nConservative investors preferring certainty\n\nLow-Dividend Clientele:\n\nYoung investors focused on growth\nTax-sensitive high earners\nGrowth-oriented institutions\n\nImplication:\nCompanies attract different types of shareholders based on their dividend policy."
   },
   {
     "objectID": "slides/day3-morning-slides.html#the-signalling-effect",
     "href": "slides/day3-morning-slides.html#the-signalling-effect",
     "title": "Corporate Financial Management",
     "section": "2. The Signalling Effect",
-    "text": "2. The Signalling Effect\nDividend changes send messages to the market:\nDividend Increase Signals:\n\nManagement confidence in future profits\nBusiness stability and maturity\nCommitment to returning cash to shareholders\n\nDividend Decrease Signals:\n\nPotential financial difficulties\nMajor investment opportunities requiring cash\nUncertainty about future performance\n\nExample: When a company cuts its dividend, share prices often fall more than the dividend amount, suggesting markets read negative signals into the decision."
+    "text": "2. The Signalling Effect\nDividend changes send messages to the market:\nDividend Increase Signals:\n\nManagement confidence in future profits\nBusiness stability and maturity\nCommitment to returning cash to shareholders\n\nDividend Decrease Signals:\n\nPotential financial difficulties\nMajor investment opportunities requiring cash\nUncertainty about future performance\n\nExample:\nWhen a company cuts its dividend, share prices often fall more than the dividend amount, suggesting markets read negative signals into the decision."
   },
   {
     "objectID": "slides/day3-morning-slides.html#reducing-agency-costs",
     "href": "slides/day3-morning-slides.html#reducing-agency-costs",
     "title": "Corporate Financial Management",
     "section": "3. Reducing Agency Costs",
-    "text": "3. Reducing Agency Costs\nThe Problem: Managers might waste excess cash on: - Unnecessary acquisitions - Luxurious office facilities - Empire-building projects with poor returns\nThe Solution: Paying dividends removes cash from management control, forcing discipline and preventing waste.\nAcademic Evidence: Companies with excess cash and poor investment opportunities often see improved performance when pressured to pay dividends."
+    "text": "3. Reducing Agency Costs\nThe Problem:\nManagers might waste excess cash on:\n\nUnnecessary acquisitions\nLuxurious office facilities\nEmpire-building projects with poor returns\n\nThe Solution:\nPaying dividends removes cash from management control, forcing discipline and preventing waste.\nAcademic Evidence:\nCompanies with excess cash and poor investment opportunities often see improved performance when pressured to pay dividends."
   },
   {
     "objectID": "slides/day3-morning-slides.html#the-catering-effect",
     "href": "slides/day3-morning-slides.html#the-catering-effect",
     "title": "Corporate Financial Management",
     "section": "4. The Catering Effect",
-    "text": "4. The Catering Effect\nMarket Preferences Change:\n\nSometimes investors favour dividend-paying stocks\nOther times they prefer growth stocks\nSmart managers adapt their policies to current market preferences\n\nPractical Implication: Dividend policy may be influenced by what type of companies the market currently values most highly."
+    "text": "4. The Catering Effect\nMarket Preferences Change:\n\nSometimes investors favour dividend-paying stocks\nOther times they prefer growth stocks\nSmart managers adapt their policies to current market preferences\n\nPractical Implication:\nDividend policy may be influenced by what type of companies the market currently values most highly."
   },
   {
     "objectID": "slides/day3-morning-slides.html#factors-influencing-dividend-decisions-in-practice",
@@ -2048,28 +2076,21 @@
     "href": "slides/day3-morning-slides.html#stock-dividends-scrip-dividends-shares-instead-of-cash",
     "title": "Corporate Financial Management",
     "section": "Stock Dividends (Scrip Dividends): Shares Instead of Cash",
-    "text": "Stock Dividends (Scrip Dividends): Shares Instead of Cash\nHow It Works:\n\nCompany issues additional shares instead of cash payment\nShareholders receive more shares proportional to their holdings\nNo cash changes hands\n\nExample:\n\nOwn 100 shares\nCompany declares 5% stock dividend\nReceive 5 additional shares\nNow own 105 shares, but each is worth proportionally less\n\nWhen Used:\n\nCompany wants to preserve cash for investments\nShareholders prefer to increase their holdings\nTax advantages in some jurisdictions\n\nLimitation: Stock dividends don’t provide actual cash to shareholders who need income."
+    "text": "Stock Dividends (Scrip Dividends): Shares Instead of Cash\nHow It Works:\n\nCompany issues additional shares instead of cash payment\nShareholders receive more shares proportional to their holdings\nNo cash changes hands\n\nExample:\n\nOwn 100 shares\nCompany declares 5% stock dividend\nReceive 5 additional shares\nNow own 105 shares, but each is worth proportionally less\n\nWhen Used:\n\nCompany wants to preserve cash for investments\nShareholders prefer to increase their holdings\nTax advantages in some jurisdictions\n\nLimitation:\nStock dividends don’t provide actual cash to shareholders who need income."
   },
   {
-    "objectID": "slides/day3-morning-slides.html#legal-considerations-for-dividend-policy",
-    "href": "slides/day3-morning-slides.html#legal-considerations-for-dividend-policy",
+    "objectID": "slides/day3-morning-slides.html#practical-applications-for-financial-decision-makers",
+    "href": "slides/day3-morning-slides.html#practical-applications-for-financial-decision-makers",
     "title": "Corporate Financial Management",
-    "section": "Legal Considerations for Dividend Policy",
-    "text": "Legal Considerations for Dividend Policy\nKey Legal Constraints:\nDistributable Reserves:\n\nDividends can only be paid from accumulated profits\nCannot return shareholders’ original capital contributions\nMust maintain minimum capital requirements\n\nDirector Duties:\n\nFiduciary duty to act in company’s best interests\nConsider impact on creditors and different shareholder classes\nEnsure company remains solvent after dividend payment\n\nCreditor Protection:\n\nLoan agreements often restrict dividend payments\nMay require maintaining certain financial ratios\nSome loans prohibit dividends during default periods\n\nDisclosure Requirements:\n\nMust announce dividend decisions properly\nProvide adequate information to shareholders\nFollow stock exchange listing rules"
-  },
-  {
-    "objectID": "slides/day3-morning-slides.html#practical-applications-for-legal-advisors",
-    "href": "slides/day3-morning-slides.html#practical-applications-for-legal-advisors",
-    "title": "Corporate Financial Management",
-    "section": "Practical Applications for Legal Advisors",
-    "text": "Practical Applications for Legal Advisors\nDue Diligence in M&A:\n\nEvaluate target company’s dividend history and sustainability\nUnderstand how dividend policy affects valuation\nConsider post-acquisition dividend strategy\n\nCorporate Restructuring:\n\nAdvise on dividend implications of financial distress\nNavigate creditor restrictions on distributions\nConsider dividend policy in refinancing negotiations\n\nCorporate Governance:\n\nDraft dividend policies for board approval\nEnsure compliance with legal requirements\nBalance different shareholder interests\n\nTax Planning:\n\nUnderstand tax implications of different distribution methods\nAdvise on timing of dividend payments\nConsider international tax implications for multinational companies"
+    "section": "Practical Applications for Financial Decision-Makers",
+    "text": "Practical Applications for Financial Decision-Makers\nDue Diligence in M&A:\n\nEvaluate target company’s dividend history and sustainability\nUnderstand how dividend policy affects valuation\nConsider post-acquisition dividend strategy\n\nCorporate Restructuring:\n\nConsider dividend implications of financial distress\nNavigate creditor restrictions on distributions\nConsider dividend policy in refinancing negotiations\n\nCorporate Governance:\n\nDevelop dividend policies for board approval\nEnsure compliance with legal requirements\nBalance different shareholder interests\n\nTax Considerations:\n\nUnderstand tax implications of different distribution methods\nConsider timing of dividend payments\nEvaluate international tax implications for multinational companies"
   },
   {
     "objectID": "slides/day3-morning-slides.html#case-study-applying-dividend-theory",
     "href": "slides/day3-morning-slides.html#case-study-applying-dividend-theory",
     "title": "Corporate Financial Management",
     "section": "Case Study: Applying Dividend Theory",
-    "text": "Case Study: Applying Dividend Theory\nScenario: TechStart plc, a 10-year-old software company\nFinancial Position:\n\nAnnual profits: £20 million\nCurrent cash reserves: £50 million\nProfitable growth opportunities requiring: £15 million annually\n10 million shares outstanding\nCurrent share price: £25\n\nShareholder Base:\n\n40% institutional investors (pension funds, insurance companies)\n35% retail investors (mix of ages and income needs)\n25% employees and founders\n\nThe Dilemma:\nWhat dividend policy should TechStart adopt?"
+    "text": "Case Study: Applying Dividend Theory\nScenario:\nTechStart plc, a 10-year-old software company\nFinancial Position:\n\nAnnual profits: £20 million\nCurrent cash reserves: £50 million\nProfitable growth opportunities requiring: £15 million annually\n10 million shares outstanding\nCurrent share price: £25\n\nShareholder Base:\n\n40% institutional investors (pension funds, insurance companies)\n35% retail investors (mix of ages and income needs)\n25% employees and founders\n\nThe Dilemma:\nWhat dividend policy should TechStart adopt?"
   },
   {
     "objectID": "slides/day3-morning-slides.html#analysing-the-techstart-case",
@@ -2090,7 +2111,7 @@
     "href": "slides/day3-morning-slides.html#common-dividend-policy-mistakes",
     "title": "Corporate Financial Management",
     "section": "Common Dividend Policy Mistakes",
-    "text": "Common Dividend Policy Mistakes\nFor Companies:\n\nMaking dividend commitments they cannot sustain\nCutting dividends without adequate communication\nIgnoring shareholder composition and preferences\nFailing to consider tax implications for shareholders\n\nFor Advisors:\n\nFocusing only on absolute dividend amounts rather than sustainability\nIgnoring the signalling effects of dividend changes\nFailing to consider alternative distribution methods\nNot understanding client’s specific shareholder base\n\nBest Practices:\n\nDevelop clear, communicable dividend policy\nConsider total shareholder return, not just dividends\nMaintain flexibility for changing circumstances\nRegular review and adjustment as business evolves"
+    "text": "Common Dividend Policy Mistakes\nFor Companies:\n\nMaking dividend commitments they cannot sustain\nCutting dividends without adequate communication\nIgnoring shareholder composition and preferences\nFailing to consider tax implications for shareholders\n\nFor Decision-Makers:\n\nFocusing only on absolute dividend amounts rather than sustainability\nIgnoring the signalling effects of dividend changes\nFailing to consider alternative distribution methods\nNot understanding the specific shareholder base\n\nBest Practices:\n\nDevelop clear, communicable dividend policy\nConsider total shareholder return, not just dividends\nMaintain flexibility for changing circumstances\nRegular review and adjustment as business evolves"
   },
   {
     "objectID": "slides/day3-morning-slides.html#key-takeaways",
@@ -2111,7 +2132,7 @@
     "href": "slides/day3-morning-slides.html#additional-resources-for-dividend-policy",
     "title": "Corporate Financial Management",
     "section": "Additional Resources for Dividend Policy",
-    "text": "Additional Resources for Dividend Policy\nEssential Reading:\n\nAtrill (2019): Financial Management for Decision Makers - Chapter 12\nFinancial Times Guide to Corporate Finance by Glen Arnold\n“Catering Theory of Dividends” by Baker & Wurgler (academic paper)\nInvestopedia: Dividend Policy - comprehensive overview\n\nMarket Data and Analysis:\n\nS&P Dividend Aristocrats - Companies with 25+ years of consecutive increases\nFTSE UK Dividend Plus Index - UK dividend-focused tracking\nLondon Stock Exchange: Dividend Calendar - upcoming dividend dates\nMorningstar UK Dividend Research - dividend analysis and forecasts\n\nLegal and Regulatory Resources:\n\nCompanies Act 2006 - UK legal requirements (Part 23: Distributions)\nFCA Listing Rules - Public company disclosure requirements\nHMRC: Dividend Tax Guidance - Current tax treatment\nGov.UK Company Law - Latest regulatory updates\n\nProfessional Development:\n\nCFA Institute: Corporate Finance - Professional curriculum\nLaw Society: Corporate Law Updates - Legal developments\nFinancial Times - Daily corporate finance analysis\nHarvard Business Review: Finance - Strategic perspectives on dividend policy\n\nAcademic and Research Resources:\n\nSSRN Corporate Finance Papers - Latest academic research\nEuropean Central Bank: Corporate Finance Research - Policy implications\nBank of England: Financial Stability Reports - Macroeconomic context\n\nPractical Tools and Databases:\n\nYahoo Finance - Free dividend data and analysis\nBloomberg Professional - Comprehensive financial data (subscription)\nRefinitiv (formerly Thomson Reuters) - Professional financial data\nCompanies House - UK company filings and dividend declarations\n\nThis comprehensive resource list provides both theoretical foundations and practical tools for understanding dividend policy in legal and business contexts. The links are current as of 2024 and provide authoritative sources for continued learning and professional application.\n\n\n\nCorporate Financial Management - Day 3 Morning"
+    "text": "Additional Resources for Dividend Policy\nEssential Reading:\n\nAtrill (2019): Financial Management for Decision Makers - Chapter 12\nFinancial Times Guide to Corporate Finance by Glen Arnold\n“Catering Theory of Dividends” by Baker & Wurgler (academic paper)\nInvestopedia: Dividend Policy - comprehensive overview\n\nMarket Data and Analysis:\n\nS&P Dividend Aristocrats - Companies with 25+ years of consecutive increases\nFTSE UK Dividend Plus Index - UK dividend-focused tracking\nLondon Stock Exchange: Dividend Calendar - upcoming dividend dates\nMorningstar UK Dividend Research - dividend analysis and forecasts\n\nRegulatory Resources:\n\nCompanies Act 2006 - UK legal requirements (Part 23: Distributions)\nFCA Listing Rules - Public company disclosure requirements\nHMRC: Dividend Tax Guidance - Current tax treatment\nGov.UK Company Law - Latest regulatory updates\n\nProfessional Development:\n\nCFA Institute: Corporate Finance - Professional curriculum\nFinancial Times - Daily corporate finance analysis\nHarvard Business Review: Finance - Strategic perspectives on dividend policy\n\nAcademic and Research Resources:\n\nSSRN Corporate Finance Papers - Latest academic research\nEuropean Central Bank: Corporate Finance Research - Policy implications\nBank of England: Financial Stability Reports - Macroeconomic context\n\nPractical Tools and Databases:\n\nYahoo Finance - Free dividend data and analysis\nBloomberg Professional - Comprehensive financial data (subscription)\nRefinitiv (formerly Thomson Reuters) - Professional financial data\nCompanies House - UK company filings and dividend declarations\n\nThis comprehensive resource list provides both theoretical foundations and practical tools for understanding dividend policy in business contexts. The links are current as of 2024 and provide authoritative sources for continued learning and professional application.\n\n\n\nCorporate Financial Management - Day 3 Morning"
   },
   {
     "objectID": "slides/day4-session2-slides.html#session-2-overview",
