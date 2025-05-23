@@ -8,18 +8,20 @@ format:
     footer: "Day 4 Session 1: Strategic Analysis Framework"
     theme: default
     slide-number: true
-    chalkboard: true
 ---
 
 ## Welcome to Day 4: Assessment Preparation {.unnumbered}
 
-**Today's Journey:**
+### **Today's Journey:**
+
 - **Session 1 (9:30-11:00)**: Strategic Analysis for Coursework Case 1
 - **Session 2 (11:15-12:45)**: Advanced NPV with Inflation (Case 2)
 - **Session 3 (14:00-15:30)**: EU Sustainability Directive Deep Dive
 - **Session 4 (15:45-16:00)**: Exam Strategy and Final Prep
 
-**Our Goal:** Transform theoretical knowledge into practical assessment success
+### **Our Goal:** 
+
+Transform theoretical knowledge into practical assessment success
 
 ## Session 1 Objectives {.unnumbered}
 

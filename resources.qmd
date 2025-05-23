@@ -35,6 +35,7 @@ Detailed information about the coursework assignment including case studies, req
 :::
 :::
 
+
 ### 📚 Aligned Reading and Slide Materials
 
 This table links each topic area in the module with the relevant chapters from Atrill (2019), course presentation slides, and curated external resources.
@@ -46,7 +47,51 @@ This table links each topic area in the module with the relevant chapters from A
 | **Sources of Finance** | Chapters 3, 6–7 | [Slides](/slides/day2-morning-slides.html) / [PDF](/materials/day2-morning-slides.pdf) | [Damodaran: Corporate Finance](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/cf.html) <br> [Investopedia: Corporate Finance](https://www.investopedia.com/terms/c/corporatefinance.asp) |
 | **Cost of Capital & Capital Structure** | Chapters 5, 7–8 | [Slides](/slides/day2-afternoon-slides.html) / [PDF](/materials/day2-afternoon-slides.pdf) | [Damodaran: WACC Data](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html) <br> [YouTube: DCF Overview](https://www.youtube.com/watch?v=Pj19yJQgId8) |
 | **Dividend Policy** | Chapter 9 | [Slides](/slides/day3-morning-slides.html) / [PDF](/materials/day3-morning-slides.pdf) | [Damodaran: Dividend Policy](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dividends.html) <br> [Investopedia: Dividend Policy](https://www.investopedia.com/terms/d/dividend.asp) |
-| **Working Capital Management** | Chapter 10 | [Slides](/slides/day3-afternoon-slides.html) / [PDF](/materials/day3-afternoon-slides.pdf) | [CFI: Working Capital Guide](https://corporatefinanceinstitute.com/resources/working-capital/) <br> [Investopedia: Working Capital Management](https://www.investopedia.com/terms/w/workingcapital.asp) |
+| **Assessment Preparation & Integration** | All Chapters | [Day 4 Materials](/materials/day4-complete-materials.html) / [PDF](/materials/day4-complete-materials.pdf) | [EU Directive 2024/1760](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1760) <br> [Exam Preparation Guide](/resources/exam-solutions.html) |
+
+## Day 4: Assessment Preparation Workshop
+
+Comprehensive materials for the final day intensive revision and assessment preparation session.
+
+::: {.resource-card}
+### Session 1: Strategic Analysis Framework
+Materials for coursework Case 1 preparation with systematic frameworks for strategic decision-making.
+
+::: {.button-group}
+[View Slides](/slides/day4-session1-slides.html){.btn .btn-primary}
+[Download PDF](/materials/day4-session1-slides.pdf){.btn .btn-secondary}
+:::
+:::
+
+::: {.resource-card}
+### Session 2: Advanced NPV with Inflation
+Step-by-step guidance for coursework Case 2 including differential inflation analysis and sensitivity testing.
+
+::: {.button-group}
+[View Slides](/slides/day4-session2-slides.html){.btn .btn-primary}
+[Download PDF](/materials/day4-session2-slides.pdf){.btn .btn-secondary}
+:::
+:::
+
+::: {.resource-card}
+### Session 3: EU Sustainability Directive Analysis
+Comprehensive coverage of Directive 2024/1760 requirements and application to corporate decision-making (40% of coursework marks).
+
+::: {.button-group}
+[View Slides](/slides/day4-session3-slides.html){.btn .btn-primary}
+[Download PDF](/materials/day4-session3-slides.pdf){.btn .btn-secondary}
+:::
+:::
+
+::: {.resource-card}
+### Session 4: Exam Strategy and Integration
+Time management strategies, quick reference formulas, and integration of all course concepts for exam success.
+
+::: {.button-group}
+[View Slides](/slides/day4-session4-slides.html){.btn .btn-primary}
+[Download PDF](/materials/day4-session4-slides.pdf){.btn .btn-secondary}
+:::
+:::
 
 
 ### Creating PDF Handouts
@@ -117,6 +162,21 @@ A topic-by-topic companion to the workbook, providing learning prompts, worked e
 :::
 :::
 
+## Assessment Success Resources
+
+### Quick Reference Materials
+
+::: {.resource-card}
+### Formula Reference Sheet
+Comprehensive list of all essential formulas for exam success, organized by topic.
+
+::: {.button-group}
+[View Online](/resources/formula-reference-sheet.html){.btn .btn-primary}
+[Download PDF](/resources/formula-reference-sheet.pdf){.btn .btn-secondary}
+:::
+:::
+
+
 ## Recommended Readings
 
 ### Core Textbook
@@ -127,6 +187,11 @@ A topic-by-topic companion to the workbook, providing learning prompts, worked e
 - Arnold, G. and Lewis, D. (2019) *Corporate Financial Management*. 6th ed.
 - Brealey, R., Myers, S. and Allen, F. (2019) *The Principles of Corporate Finance*. 13th ed.
 - Watson, D. and Head, A. (2019) *Corporate Finance Principles and Practice*. 8th ed.
+
+### Legal and Regulatory Resources
+- [EU Corporate Sustainability Due Diligence Directive 2024/1760](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1760)
+- [UK Companies Act 2006](https://www.legislation.gov.uk/ukpga/2006/46/contents) - Relevant sections on dividend distributions
+- [FCA Listing Rules](https://www.handbook.fca.org.uk/handbook/LR/) - Corporate governance and disclosure requirements
 
 ## Online Resources
 
@@ -171,4 +236,4 @@ A topic-by-topic companion to the workbook, providing learning prompts, worked e
 **Module Coordinator**: Prof. Barry Quinn  
 **Email**: b.quinn1@ulster.ac.uk  
 **Office Hours**: By appointment during the block delivery  
-**Location**: Belfast Campus, Room MC-204 
+**Location**: Belfast Campus, Room MC-204

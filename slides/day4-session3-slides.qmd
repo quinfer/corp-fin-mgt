@@ -8,22 +8,25 @@ format:
     footer: "Day 4 Session 3: EU Sustainability Directive"
     theme: default
     slide-number: true
-    chalkboard: true
 ---
 
 ## Session 3 Overview {.unnumbered}
 
-**Focus**: EU Corporate Sustainability Due Diligence Directive 2024/1760
+**Focus**: EU Corporate Sustainability Due Diligence + Exam Success Strategy
 
-**Critical Importance**: **40% of coursework marks** - largest single component
+**Time**: 90 minutes (1:30-3:00 PM)
+
+**Critical Importance**: 
+- **40% of coursework marks** - largest single component
+- **Complete course integration** for exam success
 
 **Learning Objectives:**
 - Understand key provisions of the EU Directive
 - Apply requirements to Ribs Co's strategic options
 - Integrate legal compliance with financial decision-making
-- Develop practical implementation frameworks
+- **Master exam strategy and time management techniques**
 
-**Connection to Previous Sessions**: Regulatory compliance costs will impact our NPV analysis from Session 2
+**Connection to Previous Sessions**: Regulatory compliance costs impact our NPV analysis and connect to strategic decisions
 
 ## Why This Matters for Corporate Finance
 
@@ -382,36 +385,87 @@ format:
 
 **Professional Presentation**: Legal analysis integrated with business strategy
 
-## Key Takeaways for Assessment Success
+## Professional Success: Beyond Assessment
 
-**Technical Excellence**:
-- Demonstrate thorough understanding of directive requirements
-- Apply systematically to Ribs Co's strategic context
-- Integrate quantitative and qualitative analysis
+**Skills Developed Over Four Days:**
 
-**Professional Integration**:
-- Connect legal compliance to financial decision-making
-- Balance stakeholder interests and business objectives
-- Develop practical implementation recommendations
+**Technical Competence**:
+- Advanced financial analysis capabilities
+- Strategic decision-making frameworks
+- Regulatory compliance integration
+- Professional presentation standards
 
-**Strategic Thinking**:
-- Consider sustainability as competitive advantage
-- Integrate with Sessions 1-2 analysis coherently
-- Demonstrate forward-thinking professional perspective
+**Professional Application**:
+- Legal practice relevance throughout
+- Client advisory skills development
+- Corporate governance understanding
+- Risk assessment and management
 
-## Session 3 Wrap-Up
+**Integrated Thinking**:
+- Theory-to-practice application
+- Multi-stakeholder perspective
+- Long-term value creation focus
+- Ethical and sustainable business practices
 
-**What We've Accomplished**:
-- Mastered EU sustainability directive requirements
-- Applied to Ribs Co strategic options systematically
-- Integrated compliance costs with financial analysis
-- Developed professional implementation frameworks
+## Course Integration Summary
 
-**Final Session Preview**:
-- Exam preparation and strategy
-- Integration of all course content
-- Time management and success techniques
+**Complete Learning Journey:**
+1. **Investment Decisions**: How to evaluate opportunities (Day 1)
+2. **Financing Decisions**: What investments cost to fund (Day 2)  
+3. **Distribution Decisions**: How to return value to shareholders (Day 3)
+4. **Strategic Integration**: Assessment success and professional application (Day 4)
 
-**15-Minute Break**: Process this regulatory complexity and prepare for final exam preparation session
+**Professional Relevance**: These frameworks directly support legal advisory roles in M&A, corporate governance, and business strategy
 
-**Return at 3:45 PM for exam success strategies!**
+## Assessment Timeline and Final Reminders
+
+**Coursework Submission**:
+- **Deadline**: Monday 30th June 2025, 12:00 Noon
+- **Word Limit**: 2,000 words (±10%) - quality over quantity
+- **Focus**: Strategic analysis + NPV calculation + EU Directive (40%)
+
+**Final Exam Preparation**:
+- **Practice time management** with past papers
+- **Review formula sheets** and calculation methods
+- **Focus on integration** across all topics
+
+**Success Mindset**: You are thoroughly prepared with systematic frameworks and professional understanding
+
+## Final Encouragement and Next Steps
+
+**You Are Exceptionally Well Prepared:**
+- Four intensive days of comprehensive learning
+- Practical application throughout
+- Professional frameworks for ongoing use
+- Integration skills for complex business decisions
+
+**Continuing Professional Development:**
+- Apply frameworks to current business situations
+- Stay engaged with financial news and analysis
+- Consider advanced corporate finance study
+- Use these skills throughout your legal careers
+
+**Thank you for your engagement, professionalism, and commitment to learning!**
+
+## Course Conclusion
+
+**What We've Achieved Together:**
+- Transformed complex financial concepts into practical tools
+- Connected theory to real-world legal practice
+- Built confidence for assessment success
+- Developed skills for ongoing professional excellence
+
+**Beyond Assessment - Career Applications:**
+- M&A due diligence and valuation
+- Corporate governance advisory work
+- Business strategy evaluation
+- Client counsel on financial decisions
+
+**Best wishes for your assessment success and future careers in law!**
+
+---
+
+**END OF COURSE** 
+
+**Questions? Office hours available by appointment**  
+**Email: b.quinn1@ulster.ac.uk**

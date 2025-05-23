@@ -1,0 +1,146 @@
+/* Custom CSS for RevealJS slides */
+
+/* Font settings */
+.reveal {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4, 
+.reveal h5, 
+.reveal h6 {
+  font-family: 'Roboto Slab', serif;
+  color: #2c3e50;
+}
+
+/* Title slide styling */
+.reveal .title-slide h1 {
+  color: #003366;
+  font-weight: 700;
+}
+
+.reveal .title-slide h2 {
+  color: #4a6b8a;
+  font-weight: 600;
+}
+
+/* Code blocks */
+.reveal pre code {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+/* Tables */
+.reveal table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.reveal table th {
+  background-color: #003366;
+  color: white;
+  padding: 8px 12px;
+}
+
+.reveal table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+.reveal table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Callout blocks */
+.reveal .callout {
+  margin: 20px 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border-left: 5px solid #2c3e50;
+  background-color: #f8f9fa;
+}
+
+.reveal .callout-note {
+  border-left-color: #3498db;
+}
+
+.reveal .callout-tip {
+  border-left-color: #2ecc71;
+}
+
+.reveal .callout-important {
+  border-left-color: #e74c3c;
+}
+
+.reveal .callout-warning {
+  border-left-color: #f39c12;
+}
+
+/* Grid layout - similar to Bootstrap for flex layouts */
+.reveal .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reveal .g-col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 10px;
+}
+
+/* Unnumbered sections */
+.reveal .unnumbered::before {
+  content: none !important;
+}
+
+/* Math equations */
+.reveal .math {
+  font-size: 0.9em;
+}
+
+/* Mermaid diagrams */
+.reveal .mermaid {
+  margin: 0 auto;
+}
+
+/* Citations and references */
+.reveal .citation {
+  font-size: 0.8em;
+  color: #666;
+}
+
+/* Footer */
+.reveal .footer {
+  font-size: 14px;
+  color: #666666;
+  font-style: italic;
+}
+
+/* Slide number */
+.reveal .slide-number {
+  font-size: 18px;
+  color: #333333;
+}
+
+/* Image captions */
+.reveal figcaption {
+  font-size: 0.8em;
+  color: #666;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Print styles - for PDF export */
+@media print {
+  .reveal pre code {
+    font-size: 0.8em;
+  }
+  
+  .reveal table {
+    font-size: 0.8em;
+  }
+}

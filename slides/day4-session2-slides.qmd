@@ -8,7 +8,6 @@ format:
     footer: "Day 4 Session 2: Advanced NPV Analysis"
     theme: default
     slide-number: true
-    chalkboard: true
 ---
 
 ## Session 2 Overview {.unnumbered}

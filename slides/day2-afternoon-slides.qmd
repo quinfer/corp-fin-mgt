@@ -498,7 +498,7 @@ Any benefit from cheaper debt is exactly offset by shareholders demanding higher
 
 While perfect markets don't exist, the theory highlights that financing decisions should focus on operational performance and tax considerations rather than attempting to "trick" the market.
 
-## Practical Applications for Legal Professionals
+## Practical Applications for Non-Finance Professionals
 
 **Due Diligence in M&A:**
 
@@ -553,7 +553,7 @@ While perfect markets don't exist, the theory highlights that financing decision
 - **Apply contextually:**
   Every company, industry, and situation has unique factors that models can't fully capture
 
-**For Legal Professionals:**
+**For Non-Finance Professionals:**
 
 Your role isn't to become a financial modeller, but to understand these concepts well enough to:
 - Ask the right questions during due diligence

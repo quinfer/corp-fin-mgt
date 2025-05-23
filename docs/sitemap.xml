@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day1-morning-slides.html</loc>
-    <lastmod>2025-05-20T12:54:04.016Z</lastmod>
+    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day2-morning-slides.html</loc>
+    <lastmod>2025-05-20T12:54:04.020Z</lastmod>
   </url>
   <url>
-    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day1-afternoon-slides.html</loc>
-    <lastmod>2025-05-20T12:54:04.011Z</lastmod>
+    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day3-afternoon-slides.html</loc>
+    <lastmod>2025-05-23T12:51:54.989Z</lastmod>
   </url>
   <url>
     <loc>https://quinfer.github.io/corp-fin-mgt/slides/day2-afternoon-slides.html</loc>
-    <lastmod>2025-05-22T10:33:06.426Z</lastmod>
+    <lastmod>2025-05-23T12:34:16.201Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day4-session3-slides.html</loc>
+    <lastmod>2025-05-22T17:09:06.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day4-session1-slides.html</loc>
+    <lastmod>2025-05-23T16:42:48.370Z</lastmod>
   </url>
   <url>
     <loc>https://quinfer.github.io/corp-fin-mgt/resources/module-handbook.html</loc>
@@ -18,19 +26,23 @@
   </url>
   <url>
     <loc>https://quinfer.github.io/corp-fin-mgt/resources.html</loc>
-    <lastmod>2025-05-22T10:27:27.847Z</lastmod>
+    <lastmod>2025-05-22T17:52:26.082Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quinfer.github.io/corp-fin-mgt/materials/cost-of-capital-guide.html</loc>
+    <lastmod>2025-05-22T07:55:53.757Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quinfer.github.io/corp-fin-mgt/index.html</loc>
+    <lastmod>2025-05-22T16:18:50.237Z</lastmod>
   </url>
   <url>
     <loc>https://quinfer.github.io/corp-fin-mgt/materials/capitial-investment-decisions-guide.html</loc>
     <lastmod>2025-05-21T09:53:58.109Z</lastmod>
   </url>
   <url>
-    <loc>https://quinfer.github.io/corp-fin-mgt/index.html</loc>
-    <lastmod>2025-05-20T16:29:32.292Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quinfer.github.io/corp-fin-mgt/materials/cost-of-capital-guide.html</loc>
-    <lastmod>2025-05-22T07:55:53.757Z</lastmod>
+    <loc>https://quinfer.github.io/corp-fin-mgt/materials/formula-reference-sheet.html</loc>
+    <lastmod>2025-05-22T16:22:43.346Z</lastmod>
   </url>
   <url>
     <loc>https://quinfer.github.io/corp-fin-mgt/resources/coursework.html</loc>
@@ -38,14 +50,22 @@
   </url>
   <url>
     <loc>https://quinfer.github.io/corp-fin-mgt/slides/day3-morning-slides.html</loc>
-    <lastmod>2025-05-22T11:57:33.227Z</lastmod>
+    <lastmod>2025-05-23T12:57:58.381Z</lastmod>
   </url>
   <url>
-    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day3-afternoon-slides.html</loc>
-    <lastmod>2025-05-20T12:54:04.024Z</lastmod>
+    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day4-session2-slides.html</loc>
+    <lastmod>2025-05-22T17:09:00.644Z</lastmod>
   </url>
   <url>
-    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day2-morning-slides.html</loc>
-    <lastmod>2025-05-20T12:54:04.020Z</lastmod>
+    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day4-session4-slides.html</loc>
+    <lastmod>2025-05-22T17:14:55.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day1-morning-slides.html</loc>
+    <lastmod>2025-05-23T12:34:21.178Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quinfer.github.io/corp-fin-mgt/slides/day1-afternoon-slides.html</loc>
+    <lastmod>2025-05-20T12:54:04.011Z</lastmod>
   </url>
 </urlset>

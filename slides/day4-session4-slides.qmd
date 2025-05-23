@@ -8,7 +8,6 @@ format:
     footer: "Day 4 Session 4: Exam Success Strategy"
     theme: default
     slide-number: true
-    chalkboard: true
 ---
 
 ## Final Session Overview {.unnumbered}

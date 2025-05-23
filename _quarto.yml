@@ -26,11 +26,14 @@ format:
     embed-resources: true # This embeds all resources
     self-contained: true  # This ensures files are independent
     page-layout: full
+    css: _assets/css/styles.css
+    mainfont: "Arial, Helvetica, sans-serif"
   revealjs:
-    theme: simple
     slide-number: true
     footer: "Corporate Financial Management"
     embed-resources: true
     self-contained: true
     smaller: true
-    scrollable: true 
+    scrollable: true
+    css: _assets/css/slides.css
+    mainfont: "Arial, Helvetica, sans-serif" 
