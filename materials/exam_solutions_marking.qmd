@@ -1,0 +1,771 @@
+---
+title: "ACF838 Corporate Financial Management"
+subtitle: "Detailed Solutions and Marking Scheme"
+author: "Prof. Barry Quinn"
+date: "May 2025"
+format:
+  pdf:
+    documentclass: article
+    geometry: "margin=2.5cm"
+    fontsize: 11pt
+    linestretch: 1.3
+    toc: true
+    number-sections: true
+    include-in-header:
+      - text: |
+          \usepackage{fancyhdr}
+          \usepackage{xcolor}
+          \usepackage{framed}
+          \definecolor{markingcolor}{RGB}{0,102,204}
+          \newenvironment{marking}{\begin{leftbar}\color{markingcolor}\small}{\end{leftbar}}
+---
+
+\newpage
+
+# Overview of Marking Approach
+
+This document provides detailed solutions and comprehensive marking schemes for ACF838 Corporate Financial Management examination. The marking approach emphasizes:
+
+- **Partial credit** for correct methodologies even with computational errors
+- **Professional presentation** of workings and clear explanations
+- **Critical thinking** and application of theory to practical scenarios
+- **Integrated understanding** across different corporate finance topics
+
+## Grade Boundaries and Standards
+
+- **70%+**: Exceptional work demonstrating comprehensive understanding and insightful analysis
+- **60-69%**: Very good work with thorough understanding and solid application
+- **50-59%**: Satisfactory work with adequate understanding and basic application
+- **40-49%**: Basic work showing limited understanding with minimal analysis
+- **<40%**: Unsatisfactory work with significant gaps in understanding
+
+---
+
+# SECTION A SOLUTIONS
+
+## Question 1: Oakland Plc Investment Appraisal [30 marks]
+
+### Part (a): NPV Calculation [12 marks]
+
+**Step 1: Identify Relevant Cash Flows**
+
+*Initial Investment (Year 0):*
+- Plant and equipment: £900,000
+- Working capital: £900,000 × 10% = £90,000
+- **Total initial outlay: £990,000**
+
+::: {.marking}
+**Marking Note:** Award 1 mark for correctly identifying working capital requirement. Deduct marks if students forget this component.
+:::
+
+*Annual Operating Cash Flows:*
+
+| Year | Revenue | Maintenance | Marketing | Opportunity Cost | Net Cash Flow |
+|------|---------|-------------|-----------|-----------------|---------------|
+| 1 | £500,000 | (£60,000) | (£140,000) | (£100,000) | £200,000 |
+| 2 | £620,000 | (£60,000) | (£145,600) | (£100,000) | £314,400 |
+| 3 | £750,000 | (£60,000) | (£151,424) | (£100,000) | £438,576 |
+| 4 | £800,000 | (£60,000) | (£157,481) | (£100,000) | £482,519 |
+| 5 | £800,000 | (£60,000) | (£163,780) | (£100,000) | £476,220 |
+
+*Marketing expense growth: £140,000 × (1.04)^(year-1)*
+
+*Year 5 includes working capital recovery: £476,220 + £90,000 = £566,220*
+
+::: {.marking}
+**Marking Allocation:**
+- Correct identification of opportunity cost: 2 marks
+- Proper calculation of marketing expense growth: 2 marks  
+- Inclusion of working capital recovery in Year 5: 1 mark
+- Correct net cash flows for all years: 3 marks
+:::
+
+**Step 2: NPV Calculation at 9% Discount Rate**
+
+| Year | Cash Flow | Discount Factor (9%) | Present Value |
+|------|-----------|---------------------|---------------|
+| 0 | (£990,000) | 1.000 | (£990,000) |
+| 1 | £200,000 | 0.917 | £183,400 |
+| 2 | £314,400 | 0.842 | £264,725 |
+| 3 | £438,576 | 0.772 | £338,580 |
+| 4 | £482,519 | 0.708 | £341,624 |
+| 5 | £566,220 | 0.650 | £368,043 |
+
+**NPV = £506,372**
+
+::: {.marking}
+**Marking Allocation:**
+- Correct discount factors from tables: 1 mark
+- Accurate present value calculations: 2 marks
+- Correct NPV calculation: 1 mark
+:::
+
+**Decision:** Accept the project as NPV > 0, indicating it will add value to shareholders.
+
+---
+
+### Part (b): IRR Calculation [5 marks]
+
+**Method: Trial and Error with Interpolation**
+
+At 20% discount rate:
+NPV = -£990,000 + £200,000(0.833) + £314,400(0.694) + £438,576(0.579) + £482,519(0.482) + £566,220(0.402)
+NPV = -£990,000 + £166,600 + £218,194 + £253,935 + £232,574 + £227,632 = £108,935
+
+At 25% discount rate:
+NPV = -£990,000 + £200,000(0.800) + £314,400(0.640) + £438,576(0.512) + £482,519(0.410) + £566,220(0.328)
+NPV = -£990,000 + £160,000 + £201,216 + £224,551 + £197,833 + £185,724 = -£20,676
+
+**Interpolation:**
+IRR = 20% + [£108,935/(£108,935 - (-£20,676))] × (25% - 20%)
+IRR = 20% + [£108,935/£129,611] × 5% = 20% + 4.2% = **24.2%**
+
+::: {.marking}
+**Marking Allocation:**
+- Attempting two discount rates with one giving positive, one negative NPV: 2 marks
+- Correct interpolation formula application: 2 marks
+- Correct IRR calculation: 1 mark
+- Accept IRR between 24% and 25% with reasonable working
+:::
+
+**Decision:** Accept the project as IRR (24.2%) > Cost of Capital (9%).
+
+---
+
+### Part (c): Discounted Payback Period [5 marks]
+
+**Cumulative Discounted Cash Flows:**
+
+| Year | Discounted Cash Flow | Cumulative DCF |
+|------|---------------------|----------------|
+| 0 | (£990,000) | (£990,000) |
+| 1 | £183,400 | (£806,600) |
+| 2 | £264,725 | (£541,875) |
+| 3 | £338,580 | (£203,295) |
+| 4 | £341,624 | £138,329 |
+
+Recovery occurs in Year 4.
+
+Fraction of Year 4 needed = £203,295 ÷ £341,624 = 0.60
+
+**Discounted Payback Period = 3.60 years**
+
+::: {.marking}
+**Marking Allocation:**
+- Correct cumulative discounted cash flow calculations: 3 marks
+- Accurate interpolation within Year 4: 1 mark
+- Correct final DPP calculation: 1 mark
+:::
+
+**Decision:** Reject the project as DPP (3.60 years) > Company policy (3 years maximum).
+
+---
+
+### Part (d): Board Memo [8 marks]
+
+**MEMORANDUM**
+
+**TO:** Board of Directors, Oakland Plc  
+**FROM:** Financial Analysis Team  
+**DATE:** [Current Date]  
+**RE:** Investment Project Appraisal Results
+
+**Executive Summary**
+Our analysis of the proposed £990,000 investment project yields mixed signals across different appraisal methods, requiring careful consideration of our investment criteria and strategic objectives.
+
+**Financial Analysis Results**
+
+*Net Present Value: £506,372 (ACCEPT)*
+The project generates significant positive value, indicating returns exceed our 9% cost of capital requirement.
+
+*Internal Rate of Return: 24.2% (ACCEPT)*  
+The project's return substantially exceeds our hurdle rate, demonstrating strong profitability.
+
+*Discounted Payback Period: 3.60 years (REJECT)*
+The project exceeds our 3-year payback policy, indicating higher liquidity risk than preferred.
+
+**Recommendation**
+Despite failing our payback criteria, the strong NPV and IRR results suggest accepting this project would create substantial shareholder value. We recommend reviewing our rigid payback policy in light of these compelling financial returns.
+
+**Non-Financial Considerations**
+- **Strategic fit** with company's long-term objectives
+- **Market timing** and competitive positioning
+- **Resource availability** and implementation capacity  
+- **Technology risk** and obsolescence potential
+- **Regulatory environment** and compliance requirements
+- **Management bandwidth** for project oversight
+
+::: {.marking}
+**Marking Allocation:**
+- Professional memo format and clear communication: 2 marks
+- Accurate summary of all three methods: 3 marks
+- Logical recommendation with justification: 2 marks
+- Identification of relevant non-financial factors: 1 mark
+:::
+
+---
+
+## Question 2: Triglass Plc Capital Structure [30 marks]
+
+### Part (a): Debt vs Equity Financing [5 marks]
+
+**Debt Financing Characteristics:**
+- Fixed contractual obligations for interest and principal repayment
+- Tax-deductible interest payments reduce effective cost
+- Priority claim over equity in liquidation scenarios
+- Does not dilute existing shareholders' ownership
+- Increases financial risk through leverage
+
+**Equity Financing Characteristics:**
+- No fixed payment obligations - dividends discretionary
+- Permanent capital with no repayment requirement
+- Ownership dilution for existing shareholders
+- Higher cost due to residual claim nature
+- Provides financial flexibility during difficult periods
+
+**Capital Structure Definition:**
+The combination of debt and equity financing used to fund company operations and growth, expressed as proportions of total capitalization.
+
+::: {.marking}
+**Marking Allocation:**
+- Clear explanation of debt characteristics: 2 marks
+- Clear explanation of equity characteristics: 2 marks  
+- Accurate definition of capital structure: 1 mark
+:::
+
+---
+
+### Part (b): Beta and CAPM Assumptions [5 marks]
+
+**Beta Explanation:**
+Beta measures the systematic risk of an individual security relative to the market portfolio. A beta of 0.9 indicates Triglass shares are 10% less volatile than the overall market, moving 0.9% for every 1% market movement.
+
+**CAPM Assumptions:**
+1. **Efficient markets** - all investors have access to same information
+2. **Rational investors** - all seek to maximize utility for given risk level
+3. **Perfect capital markets** - no transaction costs or taxes
+4. **Homogeneous expectations** - all investors have identical forecasts
+5. **Single period focus** - all investors have same investment horizon
+6. **Risk-free borrowing/lending** - unlimited access at risk-free rate
+
+::: {.marking}
+**Marking Allocation:**
+- Clear explanation of beta concept with correct interpretation: 2 marks
+- Identification and explanation of CAPM assumptions: 3 marks
+- Accept 3-4 well-explained assumptions for full marks
+:::
+
+---
+
+### Part (c): WACC Calculation [15 marks]
+
+**Step 1: Calculate Market Values**
+
+*Ordinary Shares:*
+Market Value = 3.5 million × £12 = £42 million
+
+*Preference Shares:*
+Market Value = 2 million × £6.7 = £13.4 million
+
+*Debentures:*
+Market Value = £15 million × (£97/£100) = £14.55 million
+
+**Total Market Value = £69.95 million**
+
+::: {.marking}
+**Marking Note:** Award 3 marks for correct market value calculations. Common error: using book value for debentures instead of market value.
+:::
+
+**Step 2: Calculate Component Costs**
+
+*Cost of Ordinary Shares (CAPM):*
+Ke = 4.5% + 0.9(12% - 4.5%) = 4.5% + 6.75% = **11.25%**
+
+*Cost of Preference Shares:*
+Kp = (£1 × 65%)/£6.7 = £0.65/£6.7 = **9.70%**
+
+*Cost of Debentures:*
+Current yield approximation = £8/£97 = 8.25%
+After-tax cost = 8.25% × (1 - 0.30) = **5.78%**
+
+::: {.marking}
+**Marking Allocation:**
+- Correct CAPM calculation: 3 marks
+- Correct preference share cost: 2 marks  
+- Reasonable debenture cost calculation: 3 marks
+- Accept current yield approximation or more precise IRR calculation
+:::
+
+**Step 3: Calculate WACC**
+
+| Component | Market Value | Weight | Cost | Weighted Cost |
+|-----------|--------------|--------|------|---------------|
+| Ordinary Shares | £42.0m | 60.04% | 11.25% | 6.75% |
+| Preference Shares | £13.4m | 19.16% | 9.70% | 1.86% |
+| Debentures | £14.55m | 20.80% | 5.78% | 1.20% |
+
+**WACC = 6.75% + 1.86% + 1.20% = 9.81%**
+
+::: {.marking}
+**Marking Allocation:**
+- Correct weight calculations: 2 marks
+- Accurate WACC computation: 2 marks
+- Professional presentation of workings: 1 mark
+:::
+
+---
+
+### Part (d): Gearing Analysis [5 marks]
+
+**Current Gearing Ratio:**
+Debt = £14.55m (debentures market value)
+Equity = £42m + £13.4m = £55.4m
+Current Gearing = £14.55m / (£14.55m + £55.4m) = **20.8%**
+
+**Gearing with New Loan:**
+New Debt = £14.55m + £10m = £24.55m
+Gearing with loan = £24.55m / (£24.55m + £55.4m) = **30.7%**
+
+**Impact Analysis:**
+- **Financial Risk Increase:** Higher gearing increases financial leverage and earnings volatility
+- **Interest Cover Reduction:** Fixed interest obligations increase relative to earnings
+- **Share Price Impact:** May initially decline due to increased risk, but could improve if returns exceed cost of debt
+- **Future Flexibility:** Reduced capacity for additional debt financing
+
+::: {.marking}
+**Marking Allocation:**
+- Correct current gearing calculation: 1 mark
+- Correct gearing with loan: 1 mark
+- Thoughtful discussion of financial risk impact: 2 marks
+- Share price and flexibility considerations: 1 mark
+:::
+
+---
+
+# SECTION B SOLUTIONS
+
+## Question 3: Small Business Finance [20 marks]
+
+### Part (a): Small vs Large Firm Financing Challenges [10 marks]
+
+**Arguments Supporting the Statement:**
+
+**Information Asymmetry:**
+- Small firms often lack comprehensive financial records
+- Limited credit history makes risk assessment difficult
+- Absence of analyst coverage reduces market confidence
+
+**Scale Economics:**
+- High fixed costs of due diligence favor larger transactions
+- Small loan amounts offer poor risk-return ratios for lenders
+- Limited internal financial expertise in small firms
+
+**Collateral Constraints:**
+- Fewer tangible assets for security
+- Personal guarantees often required from owners
+- Asset specialization reduces liquidation values
+
+**Market Access Limitations:**
+- Excluded from public debt and equity markets
+- Reliance on relationship banking and local lenders
+- Limited access to sophisticated financial instruments
+
+**Counter-Arguments:**
+
+**Government Support Programs:**
+- Various schemes designed specifically for small business financing
+- Tax incentives and guarantee programs reduce lender risk
+- Development banks and agencies provide alternative funding
+
+**Relationship Banking:**
+- Close relationships with local banks can overcome information gaps
+- Personal relationships and community ties provide informal collateral
+- Flexible lending approaches for known customers
+
+::: {.marking}
+**Marking Allocation:**
+- Clear arguments supporting the statement: 4 marks
+- Recognition of counter-arguments or limitations: 3 marks
+- Use of specific examples or evidence: 2 marks
+- Logical structure and clear communication: 1 mark
+:::
+
+---
+
+### Part (b): Government Support Example [10 marks]
+
+**Start Up Loans Programme (Example)**
+
+**Programme Overview:**
+Government-backed loans of £500 to £25,000 for new businesses trading less than 24 months, delivered through accredited finance partners.
+
+**Key Features:**
+- **Interest Rate:** Fixed at 6% per annum
+- **Repayment Period:** 1-5 years with flexible terms
+- **Personal Guarantee:** Required but government backing reduces lender risk
+- **Mentoring Support:** 12 months free business mentoring included
+
+**Eligibility Criteria:**
+- Business trading for less than 24 months
+- Unable to access commercial funding
+- Viable business plan required
+- Must be UK resident aged 18+
+
+**Application Process:**
+1. Complete online application with business plan
+2. Assessment by accredited delivery partner
+3. Business mentoring assignment
+4. Loan approval and funds release
+
+**Benefits for Start-ups:**
+- Below-market interest rates
+- Accessible when commercial funding unavailable
+- Business support reduces failure probability
+- Builds credit history for future financing
+
+**Programme Impact:**
+- Over £623 million lent to 70,000+ businesses since 2012
+- 96% repayment rate demonstrating programme effectiveness
+- Average loan size £9,500 suitable for early-stage needs
+
+::: {.marking}
+**Marking Allocation:**
+- Accurate description of chosen programme: 4 marks
+- Explanation of key terms and eligibility: 3 marks
+- Discussion of benefits for target businesses: 2 marks
+- Evidence of programme effectiveness or impact: 1 mark
+- Accept other valid government programmes (Innovate UK, CBILS, etc.)
+:::
+
+---
+
+## Question 4: Dividend Policy [20 marks]
+
+### Part (a): Dividend Policy Factors [8 marks]
+
+**1. Legal and Regulatory Constraints**
+Companies can only pay dividends from distributable reserves (accumulated profits). Regulatory requirements and loan covenants may impose additional restrictions on dividend payments.
+
+**2. Cash Flow and Liquidity Position**  
+Dividend payments require actual cash, not just accounting profits. Companies must ensure sufficient liquidity for operations and obligations before committing to dividend payments.
+
+**3. Investment Opportunities and Capital Requirements**
+The residual dividend theory suggests companies should first fund all positive NPV projects before paying dividends. Growth companies typically retain more earnings for reinvestment.
+
+**4. Signalling Effects and Market Expectations**
+Dividend changes send powerful signals about management's confidence in future prospects. Markets often interpret dividend cuts as negative signals about company performance.
+
+**Additional Factors (award marks for any of these):**
+- **Shareholder Composition:** Income-focused vs growth-focused investors
+- **Tax Implications:** Different tax treatment of dividends vs capital gains
+- **Competitive Position:** Industry norms and peer company policies
+- **Economic Conditions:** Market volatility and uncertainty levels
+
+::: {.marking}
+**Marking Allocation:**
+- Each well-explained factor: 2 marks (maximum 4 factors)
+- Accept alternative valid factors with proper explanation
+- Award partial credit for identification without explanation
+:::
+
+---
+
+### Part (b): Anta Plc Options Analysis [12 marks]
+
+**Current Situation Analysis:**
+- Surplus earnings: £100,000 (current year)
+- Cash reserves: £500,000 (accumulated from failed acquisition)
+- Low return on cash: 2% (below likely cost of equity)
+- Established dividend policy with gradual increases
+- Volatile earnings pattern
+
+**Option 1: Maintain Current Dividend Policy**
+
+*Advantages:*
+- Preserves signalling consistency and market confidence
+- Maintains shareholder expectations and income streams
+- Provides flexibility for future acquisition opportunities
+
+*Disadvantages:*
+- Inefficient use of excess cash earning below-market returns
+- May signal lack of investment opportunities to market
+- Opportunity cost of 2% return vs shareholder alternatives
+
+**Option 2: Special Dividend Payment**
+
+*Advantages:*
+- Returns excess cash to shareholders immediately
+- Allows higher returns than 2% bank interest
+- One-time payment doesn't commit to higher ongoing dividends
+
+*Disadvantages:*
+- May signal lack of profitable investment opportunities
+- Could create expectations for future special dividends
+- Reduces financial flexibility for unexpected opportunities
+
+**Option 3: Share Buyback Programme**
+
+*Advantages:*
+- Tax-efficient return of cash (capital gains vs dividend taxation)
+- Increases earnings per share for remaining shareholders
+- Signals management confidence in share value
+- More flexible than committing to higher dividends
+
+*Disadvantages:*
+- May signal shares are undervalued (negative market perception)
+- Reduces permanent capital base
+- Requires regulatory compliance and disclosure
+
+**Option 4: Increase Regular Dividend**
+
+*Advantages:*
+- Continues established policy of gradual increases
+- Provides higher ongoing income to shareholders
+- Positive market signalling about future prospects
+
+*Disadvantages:*
+- Creates expectation of sustained higher payments
+- May be difficult to maintain if earnings decline
+- Uses volatile earnings to support permanent commitment
+
+**Recommendation:**
+Given the company's volatile earnings and substantial cash position, a combination approach would be optimal:
+1. **Special dividend** of £300,000 to return most excess cash
+2. **Modest increase** in regular dividend reflecting sustainable earnings growth
+3. **Retain** £200,000 for operational flexibility and future opportunities
+
+This approach returns excess cash efficiently while maintaining dividend policy consistency and preserving financial flexibility.
+
+::: {.marking}
+**Marking Allocation:**
+- Clear identification of available options: 3 marks
+- Analysis of advantages/disadvantages for each option: 6 marks
+- Logical recommendation with justification: 2 marks
+- Recognition of company's specific circumstances: 1 mark
+:::
+
+---
+
+## Question 5: Meridian Industries Advanced WACC [20 marks]
+
+### Part (a): Current WACC Calculation [12 marks]
+
+**Step 1: Calculate Market Values**
+
+*Ordinary Shares:*
+Market Value = 5 million × £8.50 = £42.5 million
+
+*Preference Shares:*  
+Market Value = 1 million × £1.85 = £1.85 million
+
+*Corporate Bonds:*
+Market Value = £20 million × 1.05 = £21 million
+
+*Bank Loan:*
+Market Value = £15 million (book value = market value)
+
+**Total Market Value = £80.35 million**
+
+::: {.marking}
+**Marking Allocation:**
+- Correct market value calculations: 3 marks
+- Proper treatment of bond premium: 1 mark
+:::
+
+**Step 2: Calculate Component Costs**
+
+*Cost of Ordinary Shares (CAPM):*
+Ke = 3.8% + 1.1(11.2% - 3.8%) = 3.8% + 8.14% = **11.94%**
+
+*Cost of Preference Shares:*
+Kp = (£2 × 6%)/£1.85 = £0.12/£1.85 = **6.49%**
+
+*Cost of Corporate Bonds (IRR Method):*
+Bond trading at £105, pays £7 annually, redeems at £100 in 4 years.
+
+Testing 5%: 
+PV = £7(3.546) + £100(0.823) = £24.82 + £82.30 = £107.12 (too high)
+
+Testing 6%:
+PV = £7(3.465) + £100(0.792) = £24.26 + £79.20 = £103.46 (too low)
+
+Interpolation: IRR ≈ 5% + [(£107.12-£105)/(£107.12-£103.46)] × 1% = **5.58%**
+
+After-tax cost = 5.58% × (1-0.25) = **4.19%**
+
+*Cost of Bank Loan:*
+Kd = 5.5% × (1-0.25) = **4.13%**
+
+::: {.marking}
+**Marking Allocation:**
+- Correct CAPM calculation: 2 marks
+- Correct preference share cost: 1 mark
+- Bond IRR calculation with interpolation: 3 marks
+- Correct tax adjustments: 1 mark
+:::
+
+**Step 3: Calculate WACC**
+
+| Component | Market Value | Weight | Cost | Weighted Cost |
+|-----------|--------------|--------|------|---------------|
+| Ordinary Shares | £42.5m | 52.89% | 11.94% | 6.31% |
+| Preference Shares | £1.85m | 2.30% | 6.49% | 0.15% |
+| Corporate Bonds | £21.0m | 26.13% | 4.19% | 1.09% |
+| Bank Loan | £15.0m | 18.68% | 4.13% | 0.77% |
+
+**WACC = 6.31% + 0.15% + 1.09% + 0.77% = 8.32%**
+
+::: {.marking}
+**Marking Allocation:**
+- Correct weight calculations: 1 mark
+- Accurate WACC computation: 1 mark
+:::
+
+---
+
+### Part (b): Critical Evaluation of Using Same WACC [5 marks]
+
+**Problems with Using Current WACC:**
+
+**Risk Profile Mismatch:**
+The current WACC reflects domestic operations with β = 1.1, while international expansion involves significantly higher business risk (β = 1.6-2.2). Using domestic WACC would underestimate required returns.
+
+**Country and Political Risks:**
+Emerging markets involve additional risks not captured in domestic WACC:
+- Currency volatility and exchange rate risk
+- Political instability and regulatory changes  
+- Different legal frameworks and enforcement
+- Economic instability and inflation risks
+
+**Market Risk Premium Differences:**
+Emerging markets typically require higher risk premiums than developed markets, suggesting the UK market risk premium understates international requirements.
+
+**Financing Cost Differences:**
+International operations may face different financing costs due to:
+- Limited access to local capital markets
+- Currency hedging requirements
+- Different credit ratings in foreign markets
+
+**Recommendation:**
+The finance director's approach is inappropriate. A risk-adjusted discount rate reflecting the higher systematic risk and additional country-specific risks should be applied to properly evaluate the international expansion.
+
+::: {.marking}
+**Marking Allocation:**
+- Recognition of risk profile differences: 2 marks
+- Identification of additional international risks: 2 marks
+- Clear recommendation with justification: 1 mark
+:::
+
+---
+
+### Part (c): Appropriate Cost of Capital Calculation [3 marks]
+
+**Risk-Adjusted Approach:**
+
+Using average beta for similar international operations: β = 1.8
+
+**Adjusted Cost of Equity:**
+Ke = 3.8% + 1.8(11.2% - 3.8%) = 3.8% + 13.32% = **17.12%**
+
+**Project Financing Costs:**
+- New debt cost (after-tax): 8% × (1-0.25) = 6%
+- New equity cost (including issue costs): 17.12% ÷ (1-0.04) = 17.83%
+
+**Project-Specific WACC:**
+Assuming proportional financing (60% equity, 40% debt):
+Project WACC = (0.6 × 17.83%) + (0.4 × 6%) = 10.70% + 2.40% = **13.10%**
+
+**Alternative Approach:**
+Add country risk premium of 3-5% to current WACC:
+Adjusted WACC = 8.32% + 4% = **12.32%**
+
+::: {.marking}
+**Marking Allocation:**
+- Logical approach to risk adjustment: 1 mark
+- Reasonable calculation methodology: 1 mark  
+- Appropriate final rate (accept 12-14% range): 1 mark
+- Accept alternative approaches with proper justification
+:::
+
+---
+
+# MARKING GUIDELINES AND COMMON ERRORS
+
+## General Marking Principles
+
+### Partial Credit Approach
+- Award marks for correct methodology even if computational errors occur
+- Give credit for logical approaches that demonstrate understanding
+- Recognize alternative valid methods where multiple approaches exist
+
+### Professional Presentation
+- Reward clear working and systematic approaches
+- Penalize poor presentation that obscures understanding
+- Value professional communication in written components
+
+### Integration and Application
+- Higher marks for demonstrating connections between concepts
+- Reward practical application and real-world awareness  
+- Value critical thinking and evaluation over mechanical calculation
+
+## Common Student Errors
+
+### Question 1 (Investment Appraisal)
+- **Forgetting working capital** in initial investment and recovery
+- **Ignoring opportunity costs** (rental income foregone)
+- **Incorrect growth calculations** for marketing expenses
+- **Poor interpolation technique** for IRR calculation
+- **Inadequate consideration** of non-financial factors
+
+### Question 2 (WACC Calculation)
+- **Using book values** instead of market values for bonds
+- **Forgetting tax shields** on debt costs
+- **Incorrect CAPM application** or risk-free rate identification
+- **Poor bond yield calculations** or oversimplified approaches
+- **Inadequate explanation** of capital structure concepts
+
+### Section B Questions
+- **Insufficient depth** in analysis and discussion
+- **Lack of practical examples** to support theoretical points
+- **Poor structure** in longer written responses
+- **Limited consideration** of alternative viewpoints
+- **Weak integration** of financial and strategic considerations
+
+## Grade Descriptors by Performance Level
+
+### First Class (70%+)
+- Exceptional technical accuracy with sophisticated understanding
+- Insightful analysis demonstrating advanced critical thinking
+- Professional presentation with clear logical flow
+- Integration of theory with practical application
+- Evidence of wider reading and current awareness
+
+### Upper Second (60-69%)
+- Good technical competence with solid understanding
+- Thoughtful analysis with reasonable critical evaluation
+- Well-organized presentation with clear explanations
+- Appropriate application of theory to practice
+- Some evidence of independent thinking
+
+### Lower Second (50-59%)
+- Adequate technical skills with basic understanding
+- Limited analysis but demonstrates core knowledge
+- Acceptable presentation with some organizational issues
+- Basic application of standard techniques
+- Follows standard approaches without innovation
+
+### Third Class (40-49%)
+- Weak technical execution with significant errors
+- Minimal analysis and limited understanding
+- Poor presentation affecting comprehension
+- Difficulty applying theory correctly
+- Relies heavily on memorization without understanding
+
+### Fail (<40%)
+- Major technical errors and fundamental misunderstandings
+- Absence of meaningful analysis
+- Very poor presentation and organization
+- Inability to apply basic concepts
+- Significant gaps in knowledge and understanding
+
+This comprehensive marking scheme ensures fair, consistent evaluation while rewarding students who demonstrate both technical competence and professional understanding of corporate financial management principles.
