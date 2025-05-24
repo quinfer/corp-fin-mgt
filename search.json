@@ -1012,7 +1012,14 @@
     "href": "slides/day4-session3-slides.html#step-by-step-financial-impact-calculation",
     "title": "Corporate Financial Management",
     "section": "Step-by-Step Financial Impact Calculation",
-    "text": "Step-by-Step Financial Impact Calculation\nStep 1: Determine Annual Compliance Costs\nOption 2 Annual Costs (Mid-range estimate):\n\nSupply chain monitoring: £75,000\nEnvironmental compliance: £60,000\nReporting and disclosure: £37,500\nContinuous improvement: £52,500\nTotal Annual Cost: £225,000\n\nKey Point: These are additional costs not included in original NPV calculation\nStep 2: Calculate Present Value Factor\nAnnuity Present Value Factor formula:\nPV Factor = [1 - (1 + r)^-n] / r\nWhere: - r = 8% (discount rate from Session 2) - n = 5 years (project life)\nCalculation:\nPV Factor = [1 - (1.08)^-5] / 0.08 PV Factor = [1 - 0.6806] / 0.08 PV Factor = 0.3194 / 0.08 = 3.993\nImportant Mathematical Clarification: Negative vs Fractional Exponents\nWhat we use in Present Value: (1 + r)^-n (negative exponent)\nWhat this means: (1.08)^-5 = 1/(1.08)^5 = 1/1.4693 = 0.6806\nNOT the same as: (1 + r)^(1/n) (fractional exponent)\nWhat this would mean: (1.08)^(1/5) = 5th root of 1.08 = 1.0154\nCritical Difference:\n\n(1.08)^-5 = 0.6806 ← This discounts future values to present value ✓\n(1.08)^(1/5) = 1.0154 ← This would be completely wrong for PV calculations ✗\n\nMemory Aid:\n\nNegative exponent (-n): “Negative” time = going backward from future to present\nFractional exponent (1/n): Used for finding equivalent rates over different periods (different concept entirely)"
+    "text": "Step-by-Step Financial Impact Calculation\nStep 1: Determine Annual Compliance Costs\nOption 2 Annual Costs (Mid-range estimate):\n\nSupply chain monitoring: £75,000\nEnvironmental compliance: £60,000\nReporting and disclosure: £37,500\nContinuous improvement: £52,500\nTotal Annual Cost: £225,000\n\nKey Point: These are additional costs not included in original NPV calculation"
+  },
+  {
+    "objectID": "slides/day4-session3-slides.html#step-2-calculate-present-value-factor",
+    "href": "slides/day4-session3-slides.html#step-2-calculate-present-value-factor",
+    "title": "Corporate Financial Management",
+    "section": "Step 2: Calculate Present Value Factor",
+    "text": "Step 2: Calculate Present Value Factor\nAnnuity Present Value Factor formula:\nPV Factor = [1 - (1 + r)^-n] / r\nWhere:\n\nr = 8% (discount rate from Session 2)\nn = 5 years (project life)\n\nCalculation:\nPV Factor = [1 - (1.08)^-5] / 0.08 PV Factor = [1 - 0.6806] / 0.08 PV Factor = 0.3194 / 0.08 = 3.993\nImportant Mathematical Clarification: Negative vs Fractional Exponents\nWhat we use in Present Value: (1 + r)^-n (negative exponent)\nWhat this means: (1.08)^-5 = 1/(1.08)^5 = 1/1.4693 = 0.6806\nNOT the same as: (1 + r)^(1/n) (fractional exponent)\nWhat this would mean: (1.08)^(1/5) = 5th root of 1.08 = 1.0154\nCritical Difference:\n\n(1.08)^-5 = 0.6806 ← This discounts future values to present value ✓\n(1.08)^(1/5) = 1.0154 ← This would be completely wrong for PV calculations ✗\n\nMemory Aid:\n\nNegative exponent (-n): “Negative” time = going backward from future to present\nFractional exponent (1/n): Used for finding equivalent rates over different periods (different concept entirely)"
   },
   {
     "objectID": "slides/day4-session3-slides.html#connecting-to-investment-appraisal-fundamentals",
@@ -2622,126 +2629,126 @@
     "href": "slides/day4-session4-slides.html#exam-structure-recap",
     "title": "Corporate Financial Management",
     "section": "Exam Structure Recap",
-    "text": "Exam Structure Recap\n\n\nSection A - Compulsory (60 marks, 90 minutes):\n\nQuestion 1: Investment appraisal (NPV, IRR, DPP) - 30 marks\nQuestion 2: WACC calculation and capital structure - 30 marks\n\nTotal Time: 3 hours (180 minutes)\n\n\nSection B - Choose 2 from 3 (40 marks, 90 minutes):\n\nQuestion 3: Small business finance - 20 marks\nQuestion 4: Dividend policy - 20 marks\n\nQuestion 5: Advanced cost of capital - 20 marks\n\nStrategy: Focus on strengths and time management"
+    "text": "Exam Structure Recap\nSection A - Compulsory (60 marks, 90 minutes):\n\nQuestion 1: Investment appraisal (NPV, IRR, DPP) - 30 marks\nQuestion 2: WACC calculation and capital structure - 30 marks\n\nTotal Time: 3 hours (180 minutes)\nSection B - Choose 2 from 3 (40 marks, 90 minutes):\n\nQuestion 3: Small business finance - 20 marks\nQuestion 4: Dividend policy - 20 marks\n\nQuestion 5: Advanced cost of capital - 20 marks\n\nStrategy: Focus on strengths and time management"
   },
   {
     "objectID": "slides/day4-session4-slides.html#time-management-strategy",
     "href": "slides/day4-session4-slides.html#time-management-strategy",
     "title": "Corporate Financial Management",
     "section": "Time Management Strategy",
-    "text": "Time Management Strategy\n\n\nSection A Time Allocation (90 minutes):\n\nReading and planning: 10 minutes total\nQuestion 1: 40 minutes (including 5 minutes checking)\nQuestion 2: 40 minutes (including 5 minutes checking)\n\nGolden Rule: Stick to time limits - partial answers better than no answers\n\n\nSection B Time Allocation (90 minutes):\n\nQuestion selection: 5 minutes maximum\nEach chosen question: 42.5 minutes\nFinal review: 5 minutes\n\nSuccess Strategy: Choose questions based on confidence and preparation level"
+    "text": "Time Management Strategy\nSection A Time Allocation (90 minutes):\n\nReading and planning: 10 minutes total\nQuestion 1: 40 minutes (including 5 minutes checking)\nQuestion 2: 40 minutes (including 5 minutes checking)\n\nGolden Rule: Stick to time limits - partial answers better than no answers\nSection B Time Allocation (90 minutes):\n\nQuestion selection: 5 minutes maximum\nEach chosen question: 42.5 minutes\nFinal review: 5 minutes\n\nSuccess Strategy: Choose questions based on confidence and preparation level"
   },
   {
     "objectID": "slides/day4-session4-slides.html#quick-formula-reference",
     "href": "slides/day4-session4-slides.html#quick-formula-reference",
     "title": "Corporate Financial Management",
     "section": "Quick Formula Reference",
-    "text": "Quick Formula Reference\n\n\nInvestment Appraisal Formulas:\n\nNPV = Σ[CF_t/(1+r)^t] - Initial Investment\nIRR interpolation: Rate₁ + [NPV₁/(NPV₁-NPV₂)] × (Rate₂-Rate₁)\n\nCost of Capital Formulas:\n\nCAPM: r_e = r_f + β(r_m - r_f)\nWACC = (E/V)×r_e + (D/V)×r_d×(1-T)\nDividend Model: r_e = (D₁/P₀) + g\n\n\n\nKey Ratio Formulas:\n\nGearing = Debt/(Debt + Equity)\nDividend Payout = Dividends/Earnings\n\nEssential for Memorization:\nThese formulas form the foundation for all calculations in Sections A and B\nProfessional Application: These same formulas are used in legal practice for M&A and corporate advisory work"
+    "text": "Quick Formula Reference\nInvestment Appraisal Formulas:\n\nNPV = Σ[CF_t/(1+r)^t] - Initial Investment\nIRR interpolation: Rate₁ + [NPV₁/(NPV₁-NPV₂)] × (Rate₂-Rate₁)\n\nCost of Capital Formulas:\n\nCAPM: r_e = r_f + β(r_m - r_f)\nWACC = (E/V)×r_e + (D/V)×r_d×(1-T)\nDividend Model: r_e = (D₁/P₀) + g\n\nKey Ratio Formulas:\n\nGearing = Debt/(Debt + Equity)\nDividend Payout = Dividends/Earnings\n\nEssential for Memorization:\nThese formulas form the foundation for all calculations in Sections A and B\nProfessional Application: These same formulas are used in legal practice for M&A and corporate advisory work"
   },
   {
     "objectID": "slides/day4-session4-slides.html#section-a-strategy-question-1-type",
     "href": "slides/day4-session4-slides.html#section-a-strategy-question-1-type",
     "title": "Corporate Financial Management",
     "section": "Section A Strategy: Question 1 Type",
-    "text": "Section A Strategy: Question 1 Type\n\n\nTypical Structure (Based on Oakland Plc example):\n\n(a) NPV calculation - 12 marks (20 minutes)\n(b) IRR evaluation - 5 marks (8 minutes)\n\n(c) DPP analysis - 5 marks (8 minutes)\n(d) Board memo with non-financial factors - 8 marks (12 minutes)\n\nInvestment Appraisal Connection: Use systematic approach from Session 1\n\n\nExcellence Strategies:\n\nShow all workings clearly\nState decision criteria explicitly\nConsider working capital and opportunity costs\nUse professional memo format for part (d)\n\nProfessional Standards: Write as if advising a client in legal practice"
+    "text": "Section A Strategy: Question 1 Type\nTypical Structure (Based on Oakland Plc example):\n\n(a) NPV calculation - 12 marks (20 minutes)\n(b) IRR evaluation - 5 marks (8 minutes)\n\n(c) DPP analysis - 5 marks (8 minutes)\n(d) Board memo with non-financial factors - 8 marks (12 minutes)\n\nInvestment Appraisal Connection: Use systematic approach from Session 1\nExcellence Strategies:\n\nShow all workings clearly\nState decision criteria explicitly\nConsider working capital and opportunity costs\nUse professional memo format for part (d)\n\nProfessional Standards: Write as if advising a client in legal practice"
   },
   {
     "objectID": "slides/day4-session4-slides.html#quick-npv-checklist",
     "href": "slides/day4-session4-slides.html#quick-npv-checklist",
     "title": "Corporate Financial Management",
     "section": "Quick NPV Checklist",
-    "text": "Quick NPV Checklist\n\n\n✓ Identify ALL relevant cash flows:\n\nInitial investment (including working capital)\nAnnual operating cash flows (incremental only)\nTerminal values (working capital recovery, asset disposal)\nOpportunity costs (foregone rental income, etc.)\n\n✓ Apply discount rate correctly:\n\nUse given cost of capital\nApply consistently to all cash flows\nConsider whether adjustments needed for project risk\n\n\n\n✓ Present calculations professionally:\n\nClear tabular format with years, cash flows, PV factors, present values\nShow NPV calculation and decision clearly\n\nSuccess Framework:\nThis systematic approach ensures comprehensive analysis and maximum marks\nProfessional Application: Same approach used in M&A due diligence"
+    "text": "Quick NPV Checklist\n✓ Identify ALL relevant cash flows:\n\nInitial investment (including working capital)\nAnnual operating cash flows (incremental only)\nTerminal values (working capital recovery, asset disposal)\nOpportunity costs (foregone rental income, etc.)\n\n✓ Apply discount rate correctly:\n\nUse given cost of capital\nApply consistently to all cash flows\nConsider whether adjustments needed for project risk\n\n✓ Present calculations professionally:\n\nClear tabular format with years, cash flows, PV factors, present values\nShow NPV calculation and decision clearly\n\nSuccess Framework:\nThis systematic approach ensures comprehensive analysis and maximum marks\nProfessional Application: Same approach used in M&A due diligence"
   },
   {
     "objectID": "slides/day4-session4-slides.html#section-a-strategy-question-2-type",
     "href": "slides/day4-session4-slides.html#section-a-strategy-question-2-type",
     "title": "Corporate Financial Management",
     "section": "Section A Strategy: Question 2 Type",
-    "text": "Section A Strategy: Question 2 Type\n\n\nTypical Structure (Based on Triglass Plc example):\n\n(a) Debt vs equity explanation - 5 marks (8 minutes)\n(b) Beta and CAPM concepts - 5 marks (8 minutes)\n(c) WACC calculation - 15 marks (20 minutes)\n(d) Gearing analysis - 5 marks (8 minutes)\n\nCost of Capital Connection: Apply systematic frameworks from Session 2\n\n\nExcellence Strategies:\n\nUse market values, not book values\nApply tax shields to debt only\nShow component calculations clearly\nExplain concepts in practical terms\n\nProfessional Application: Essential skills for corporate finance advisory work"
+    "text": "Section A Strategy: Question 2 Type\nTypical Structure (Based on Triglass Plc example):\n\n(a) Debt vs equity explanation - 5 marks (8 minutes)\n(b) Beta and CAPM concepts - 5 marks (8 minutes)\n(c) WACC calculation - 15 marks (20 minutes)\n(d) Gearing analysis - 5 marks (8 minutes)\n\nCost of Capital Connection: Apply systematic frameworks from Session 2\nExcellence Strategies:\n\nUse market values, not book values\nApply tax shields to debt only\nShow component calculations clearly\nExplain concepts in practical terms\n\nProfessional Application: Essential skills for corporate finance advisory work"
   },
   {
     "objectID": "slides/day4-session4-slides.html#quick-wacc-checklist",
     "href": "slides/day4-session4-slides.html#quick-wacc-checklist",
     "title": "Corporate Financial Management",
     "section": "Quick WACC Checklist",
-    "text": "Quick WACC Checklist\n\n\n✓ Calculate market values correctly:\n\nOrdinary shares: Number × Current market price\nPreference shares: Number × Current market price\nBonds: Book value × (Market price/Par value)\nBank loans: Book value = Market value\n\n✓ Calculate component costs:\n\nEquity: Use CAPM or dividend model\nPreference shares: Annual dividend/Market price\nDebt: Yield to maturity × (1 - Tax rate)\n\n\n\n✓ Apply weights correctly:\n\nUse market value weights\nEnsure weights sum to 100%\n\nProfessional Standards:\nThis systematic approach ensures accuracy and completeness\nSuccess Strategy: Practice these calculations for speed and confidence"
+    "text": "Quick WACC Checklist\n✓ Calculate market values correctly:\n\nOrdinary shares: Number × Current market price\nPreference shares: Number × Current market price\nBonds: Book value × (Market price/Par value)\nBank loans: Book value = Market value\n\n✓ Calculate component costs:\n\nEquity: Use CAPM or dividend model\nPreference shares: Annual dividend/Market price\nDebt: Yield to maturity × (1 - Tax rate)\n\n✓ Apply weights correctly:\n\nUse market value weights\nEnsure weights sum to 100%\n\nProfessional Standards:\nThis systematic approach ensures accuracy and completeness\nSuccess Strategy: Practice these calculations for speed and confidence"
   },
   {
     "objectID": "slides/day4-session4-slides.html#section-b-strategy-question-selection",
     "href": "slides/day4-session4-slides.html#section-b-strategy-question-selection",
     "title": "Corporate Financial Management",
     "section": "Section B Strategy: Question Selection",
-    "text": "Section B Strategy: Question Selection\n\n\nChoose Based on Strength and Time Requirements:\nQuestion 3 (Small Business Finance): - Heavy on discussion and explanation - Less calculation-intensive - Good if comfortable with descriptive analysis\nQuestion 4 (Dividend Policy): - Mix of theory and practical application - Dividend Policy Connection: Use frameworks from Session 3 - Moderate calculation requirements\n\n\nQuestion 5 (Advanced WACC): - High calculation content - International business context - Advanced Cost of Capital Connection: Risk-adjusted discount rates\nStrategic Selection:\nChoose questions where you can demonstrate strongest understanding and achieve highest marks"
+    "text": "Section B Strategy: Question Selection\nChoose Based on Strength and Time Requirements:\nQuestion 3 (Small Business Finance): - Heavy on discussion and explanation - Less calculation-intensive - Good if comfortable with descriptive analysis\nQuestion 4 (Dividend Policy): - Mix of theory and practical application - Dividend Policy Connection: Use frameworks from Session 3 - Moderate calculation requirements\nQuestion 5 (Advanced WACC): - High calculation content - International business context - Advanced Cost of Capital Connection: Risk-adjusted discount rates\nStrategic Selection:\nChoose questions where you can demonstrate strongest understanding and achieve highest marks"
   },
   {
     "objectID": "slides/day4-session4-slides.html#rapid-problem-solving-technique",
     "href": "slides/day4-session4-slides.html#rapid-problem-solving-technique",
     "title": "Corporate Financial Management",
     "section": "Rapid Problem-Solving Technique",
-    "text": "Rapid Problem-Solving Technique\n\n\nFor ANY Calculation Question:\n1. Read and understand (2 minutes) - What is being asked? - What data is provided? - What method should be used?\n2. Plan approach (1 minute)\n- Identify steps required - Note any assumptions needed - Consider time allocation\n\n\n3. Execute calculation (35 minutes) - Work systematically through steps - Show all workings clearly - Check reasonableness of answers\n4. Review and finalize (2 minutes) - Check arithmetic - Ensure all parts answered - Verify decision logic\nProfessional Efficiency: This systematic approach maximizes accuracy and time management"
+    "text": "Rapid Problem-Solving Technique\nFor ANY Calculation Question:\n1. Read and understand (2 minutes) - What is being asked? - What data is provided? - What method should be used?\n2. Plan approach (1 minute)\n- Identify steps required - Note any assumptions needed - Consider time allocation\n3. Execute calculation (35 minutes) - Work systematically through steps - Show all workings clearly - Check reasonableness of answers\n4. Review and finalize (2 minutes) - Check arithmetic - Ensure all parts answered - Verify decision logic\nProfessional Efficiency: This systematic approach maximizes accuracy and time management"
   },
   {
     "objectID": "slides/day4-session4-slides.html#integration-of-four-days-learning",
     "href": "slides/day4-session4-slides.html#integration-of-four-days-learning",
     "title": "Corporate Financial Management",
     "section": "Integration of Four Days Learning",
-    "text": "Integration of Four Days Learning\n\n\nInvestment Appraisal Foundations:\n\n✓ NPV, IRR, payback methods mastered\n✓ Cash flow identification and relevance\n✓ Decision criteria and risk assessment\n\nCost of Capital Applications:\n\n✓ WACC calculation with multiple sources\n✓ CAPM and dividend model applications\n✓ Risk adjustments and project-specific rates\n\n\n\nDividend Policy Integration:\n\n✓ Factors affecting dividend decisions\n✓ Alternative distribution methods\n✓ Stakeholder considerations\n\nAdvanced Strategic Applications:\n\n✓ Strategic analysis frameworks\n✓ Complex NPV with inflation\n✓ Regulatory compliance integration"
+    "text": "Integration of Four Days Learning\nInvestment Appraisal Foundations:\n\n✓ NPV, IRR, payback methods mastered\n✓ Cash flow identification and relevance\n✓ Decision criteria and risk assessment\n\nCost of Capital Applications:\n\n✓ WACC calculation with multiple sources\n✓ CAPM and dividend model applications\n✓ Risk adjustments and project-specific rates\n\nDividend Policy Integration:\n\n✓ Factors affecting dividend decisions\n✓ Alternative distribution methods\n✓ Stakeholder considerations\n\nAdvanced Strategic Applications:\n\n✓ Strategic analysis frameworks\n✓ Complex NPV with inflation\n✓ Regulatory compliance integration"
   },
   {
     "objectID": "slides/day4-session4-slides.html#quick-practice-investment-appraisal",
     "href": "slides/day4-session4-slides.html#quick-practice-investment-appraisal",
     "title": "Corporate Financial Management",
     "section": "Quick Practice: Investment Appraisal",
-    "text": "Quick Practice: Investment Appraisal\n\n\nRapid Calculation Exercise (2 minutes):\nProject costs £50,000, generates £15,000 annually for 5 years, 12% cost of capital.\nYour Answer:\n\nNPV = £15,000 × 3.605 - £50,000 = £4,075\nDecision: Accept (NPV &gt; 0)\n\n\n\nKey Learning:\nPractice standard calculations for speed and accuracy\nProfessional Application:\nThis type of rapid analysis is essential in client advisory situations\nConfidence Builder: Master these fundamentals for exam success"
+    "text": "Quick Practice: Investment Appraisal\nRapid Calculation Exercise (2 minutes):\nProject costs £50,000, generates £15,000 annually for 5 years, 12% cost of capital.\nYour Answer:\n\nNPV = £15,000 × 3.605 - £50,000 = £4,075\nDecision: Accept (NPV &gt; 0)\n\nKey Learning:\nPractice standard calculations for speed and accuracy\nProfessional Application:\nThis type of rapid analysis is essential in client advisory situations\nConfidence Builder: Master these fundamentals for exam success"
   },
   {
     "objectID": "slides/day4-session4-slides.html#quick-practice-wacc-calculation",
     "href": "slides/day4-session4-slides.html#quick-practice-wacc-calculation",
     "title": "Corporate Financial Management",
     "section": "Quick Practice: WACC Calculation",
-    "text": "Quick Practice: WACC Calculation\n\n\nRapid Calculation Exercise (2 minutes):\nCompany has: - £30m equity (cost 14%) - £20m debt (cost 8%, tax rate 25%)\nYour Answer:\n\nTotal value = £50m\nWACC = (30/50)×14% + (20/50)×8%×(1-0.25)\nWACC = 8.4% + 2.4% = 10.8%\n\n\n\nKey Learning:\nMaster the basic formula and apply consistently\nProfessional Application:\nWACC calculations are fundamental to corporate finance advisory work\nSuccess Strategy: Practice until these calculations become automatic"
+    "text": "Quick Practice: WACC Calculation\nRapid Calculation Exercise (2 minutes):\nCompany has: - £30m equity (cost 14%) - £20m debt (cost 8%, tax rate 25%)\nYour Answer:\n\nTotal value = £50m\nWACC = (30/50)×14% + (20/50)×8%×(1-0.25)\nWACC = 8.4% + 2.4% = 10.8%\n\nKey Learning:\nMaster the basic formula and apply consistently\nProfessional Application:\nWACC calculations are fundamental to corporate finance advisory work\nSuccess Strategy: Practice until these calculations become automatic"
   },
   {
     "objectID": "slides/day4-session4-slides.html#professional-writing-for-exams",
     "href": "slides/day4-session4-slides.html#professional-writing-for-exams",
     "title": "Corporate Financial Management",
     "section": "Professional Writing for Exams",
-    "text": "Professional Writing for Exams\n\n\nFor Discussion Questions:\nUse CLEAR Structure: - Claim: State your main point clearly - Logic: Explain the reasoning - Evidence: Provide supporting examples - Analysis: Discuss implications - Recommendation: Conclude with clear guidance\n\n\nProfessional Language:\n\nAvoid casual expressions\nUse precise financial terminology\nSupport arguments with specific evidence\nWrite as future legal advisors\n\nExcellence Standard: Demonstrate sophisticated understanding through professional presentation"
+    "text": "Professional Writing for Exams\nFor Discussion Questions:\nUse CLEAR Structure: - Claim: State your main point clearly - Logic: Explain the reasoning - Evidence: Provide supporting examples - Analysis: Discuss implications - Recommendation: Conclude with clear guidance\nProfessional Language:\n\nAvoid casual expressions\nUse precise financial terminology\nSupport arguments with specific evidence\nWrite as future legal advisors\n\nExcellence Standard: Demonstrate sophisticated understanding through professional presentation"
   },
   {
     "objectID": "slides/day4-session4-slides.html#guidance-for-excellence",
     "href": "slides/day4-session4-slides.html#guidance-for-excellence",
     "title": "Corporate Financial Management",
     "section": "Guidance for Excellence",
-    "text": "Guidance for Excellence\n\n\nTechnical Excellence Strategies:\n\nPractice mixing real and nominal discount rates correctly\nAlways use market values instead of book values\nRemember tax adjustments on debt costs\nMaster interpolation technique for IRR calculations\n\nTime Management Excellence:\n\nAllocate time proportionally to marks available\nMake strategic question selections in Section B\nReserve adequate time for checking answers\nEnsure completion of all required sections\n\n\n\nPresentation Excellence:\n\nStructure answers with clear headings and logical flow\nInclude appropriate units (£’000s, percentages)\nMaintain legible handwriting and clear formatting\nProvide complete answers to multi-part questions\n\nProfessional Standards: Present work suitable for client review"
+    "text": "Guidance for Excellence\nTechnical Excellence Strategies:\n\nPractice mixing real and nominal discount rates correctly\nAlways use market values instead of book values\nRemember tax adjustments on debt costs\nMaster interpolation technique for IRR calculations\n\nTime Management Excellence:\n\nAllocate time proportionally to marks available\nMake strategic question selections in Section B\nReserve adequate time for checking answers\nEnsure completion of all required sections\n\nPresentation Excellence:\n\nStructure answers with clear headings and logical flow\nInclude appropriate units (£’000s, percentages)\nMaintain legible handwriting and clear formatting\nProvide complete answers to multi-part questions\n\nProfessional Standards: Present work suitable for client review"
   },
   {
     "objectID": "slides/day4-session4-slides.html#final-success-tips",
     "href": "slides/day4-session4-slides.html#final-success-tips",
     "title": "Corporate Financial Management",
     "section": "Final Success Tips",
-    "text": "Final Success Tips\n\n\nBefore the Exam:\n\nReview formula sheet one final time\nEnsure calculator is working properly\nPlan your question selection strategy\nGet adequate rest and arrive early\n\nDuring the Exam:\n\nRead all questions before starting\nAllocate time proportionally to marks\nShow all workings clearly\nUse remaining time for checking\n\n\n\nAnswer Quality:\n\nStructure answers with clear headings\nSupport arguments with relevant examples\nDemonstrate integrated understanding\nWrite professionally throughout\n\nConfidence Approach: Focus on demonstrating what you know well rather than worrying about uncertainty"
+    "text": "Final Success Tips\nBefore the Exam:\n\nReview formula sheet one final time\nEnsure calculator is working properly\nPlan your question selection strategy\nGet adequate rest and arrive early\n\nDuring the Exam:\n\nRead all questions before starting\nAllocate time proportionally to marks\nShow all workings clearly\nUse remaining time for checking\n\nAnswer Quality:\n\nStructure answers with clear headings\nSupport arguments with relevant examples\nDemonstrate integrated understanding\nWrite professionally throughout\n\nConfidence Approach: Focus on demonstrating what you know well rather than worrying about uncertainty"
   },
   {
     "objectID": "slides/day4-session4-slides.html#professional-development-reflection",
     "href": "slides/day4-session4-slides.html#professional-development-reflection",
     "title": "Corporate Financial Management",
     "section": "Professional Development Reflection",
-    "text": "Professional Development Reflection\n\n\nTechnical Competence Developed:\n\nAdvanced financial analysis capabilities\nStrategic decision-making frameworks\nRegulatory compliance integration\nProfessional presentation standards\n\nProfessional Application:\n\nLegal practice relevance throughout\nClient advisory skills development\nCorporate governance understanding\nRisk assessment and management\n\n\n\nIntegrated Thinking:\n\nConnecting theory to practice\nMulti-stakeholder perspective\nLong-term value creation focus\nEthical and sustainable business practices\n\nCareer Foundation: These skills directly support legal advisory roles in M&A, corporate governance, and business strategy"
+    "text": "Professional Development Reflection\nTechnical Competence Developed:\n\nAdvanced financial analysis capabilities\nStrategic decision-making frameworks\nRegulatory compliance integration\nProfessional presentation standards\n\nProfessional Application:\n\nLegal practice relevance throughout\nClient advisory skills development\nCorporate governance understanding\nRisk assessment and management\n\nIntegrated Thinking:\n\nConnecting theory to practice\nMulti-stakeholder perspective\nLong-term value creation focus\nEthical and sustainable business practices\n\nCareer Foundation: These skills directly support legal advisory roles in M&A, corporate governance, and business strategy"
   },
   {
     "objectID": "slides/day4-session4-slides.html#course-integration-summary",
     "href": "slides/day4-session4-slides.html#course-integration-summary",
     "title": "Corporate Financial Management",
     "section": "Course Integration Summary",
-    "text": "Course Integration Summary\n\n\nInvestment Decisions:\nHow to evaluate opportunities systematically\n\n\nFinancing Decisions:\nWhat investments cost to fund effectively\n\n\nDistribution Decisions:\nHow to return value to shareholders appropriately\n\n\nStrategic Integration: Bringing all elements together for comprehensive business analysis\nProfessional Relevance: These skills directly support legal advisory roles in M&A, corporate governance, and business strategy"
+    "text": "Course Integration Summary\nInvestment Decisions:\nHow to evaluate opportunities systematically\nFinancing Decisions:\nWhat investments cost to fund effectively\nDistribution Decisions:\nHow to return value to shareholders appropriately\nStrategic Integration: Bringing all elements together for comprehensive business analysis\nProfessional Relevance: These skills directly support legal advisory roles in M&A, corporate governance, and business strategy"
   },
   {
     "objectID": "slides/day4-session4-slides.html#final-encouragement",
     "href": "slides/day4-session4-slides.html#final-encouragement",
     "title": "Corporate Financial Management",
     "section": "Final Encouragement",
-    "text": "Final Encouragement\n\n\nYou Are Well Prepared:\n\nFour days of comprehensive learning\nPractical application throughout\nProfessional presentation skills developed\nIntegration of theory and practice\n\nConfidence Builders:\n\nMaster calculation techniques practiced\nStrategic thinking frameworks applied\nProfessional writing standards established\nReal-world relevance demonstrated\n\n\n\nSuccess Mindset:\n\nFocus on what you know well\nApply systematic approaches\nPresent work professionally\nDemonstrate integrated understanding\n\nProfessional Foundation: You now have skills that will serve you throughout your legal careers"
+    "text": "Final Encouragement\nYou Are Well Prepared:\n\nFour days of comprehensive learning\nPractical application throughout\nProfessional presentation skills developed\nIntegration of theory and practice\n\nConfidence Builders:\n\nMaster calculation techniques practiced\nStrategic thinking frameworks applied\nProfessional writing standards established\nReal-world relevance demonstrated\n\nSuccess Mindset:\n\nFocus on what you know well\nApply systematic approaches\nPresent work professionally\nDemonstrate integrated understanding\n\nProfessional Foundation: You now have skills that will serve you throughout your legal careers"
   },
   {
     "objectID": "slides/day4-session4-slides.html#course-conclusion",
@@ -2755,14 +2762,14 @@
     "href": "slides/day4-session4-slides.html#assessment-timeline-reminder",
     "title": "Corporate Financial Management",
     "section": "Assessment Timeline Reminder",
-    "text": "Assessment Timeline Reminder\n\n\nCoursework Submission:\n\nDeadline: Monday 30th June 2025, 12:00 Noon\nSubmission: Blackboard Ultra electronic submission\nWord Limit: 2,000 words (±10%)\nFeedback: Available within two weeks\n\n\n\nFinal Exam:\n\nDate: [To be confirmed in exam timetable]\nDuration: 3 hours\nFormat: As practiced today\nPreparation: Continue reviewing and practicing"
+    "text": "Assessment Timeline Reminder\nCoursework Submission:\n\nDeadline: Monday 30th June 2025, 12:00 Noon\nSubmission: Blackboard Ultra electronic submission\nWord Limit: 2,000 words (±10%)\nFeedback: Available within two weeks\n\nFinal Exam:\n\nDate: [To be confirmed in exam timetable]\nDuration: 3 hours\nFormat: As practiced today\nPreparation: Continue reviewing and practicing"
   },
   {
     "objectID": "slides/day4-session4-slides.html#final-questions-and-support",
     "href": "slides/day4-session4-slides.html#final-questions-and-support",
     "title": "Corporate Financial Management",
     "section": "Final Questions and Support",
-    "text": "Final Questions and Support\n\n\nImmediate Questions:\nAny final clarifications needed?\nOngoing Support Available:\n\nOffice hours by appointment\nEmail support for technical questions\nDraft coursework consultation (if time permits)\nAdditional resources in course materials\n\n\n\nProfessional Development:\n\nContinue engaging with financial news and analysis\nApply frameworks to current business situations\nBuild Excel and analytical skills further\nConsider advanced corporate finance studies\n\nBest of luck with your assessments and future careers in law!"
+    "text": "Final Questions and Support\nImmediate Questions:\nAny final clarifications needed?\nOngoing Support Available:\n\nOffice hours by appointment\nEmail support for technical questions\nDraft coursework consultation (if time permits)\nAdditional resources in course materials\n\nProfessional Development:\n\nContinue engaging with financial news and analysis\nApply frameworks to current business situations\nBuild Excel and analytical skills further\nConsider advanced corporate finance studies\n\nBest of luck with your assessments and future careers in law!"
   },
   {
     "objectID": "slides/day1-morning-slides.html#welcome-to-corporate-financial-management",
