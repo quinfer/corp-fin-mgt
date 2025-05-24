@@ -2489,42 +2489,42 @@
     "href": "slides/day4-session2-slides.html#session-2-overview",
     "title": "Corporate Financial Management",
     "section": "Session 2 Overview",
-    "text": "Session 2 Overview\nFocus: Case 2 - Ribs Co Project NPV with Differential Inflation\nLearning Objectives: - Master NPV calculations with differential inflation rates - Apply sensitivity analysis techniques professionally - Present financial calculations with clarity and precision - Build on investment appraisal fundamentals with advanced applications\nConnection to Previous Learning: This extends investment appraisal concepts with real-world complexities"
+    "text": "Session 2 Overview\nFocus: Case 2 - Ribs Co Project NPV with Differential Inflation\nLearning Objectives:\n\nMaster NPV calculations with differential inflation rates\nApply sensitivity analysis techniques professionally\nPresent financial calculations with clarity and precision\nBuild on investment appraisal fundamentals with advanced applications\n\nConnection to Previous Learning: This extends investment appraisal concepts with real-world complexities"
   },
   {
     "objectID": "slides/day4-session2-slides.html#connecting-to-investment-appraisal-fundamentals",
     "href": "slides/day4-session2-slides.html#connecting-to-investment-appraisal-fundamentals",
     "title": "Corporate Financial Management",
     "section": "Connecting to Investment Appraisal Fundamentals",
-    "text": "Connecting to Investment Appraisal Fundamentals\n\n\nCore NPV Principles:\n\nIdentify relevant cash flows (incremental, future, after-tax)\nApply appropriate discount rate\nCalculate present value of all cash flows\nDecision rule: Accept if NPV &gt; 0\n\n\n\nToday’s Advanced Application:\n\nMultiple inflation rates affecting different cost categories\nReal vs nominal rate applications\nSensitivity analysis for risk assessment\nProfessional presentation of complex calculations\n\n\n\nKey Insight: Same principles, more sophisticated application"
+    "text": "Connecting to Investment Appraisal Fundamentals\nCore NPV Principles:\n\nIdentify relevant cash flows (incremental, future, after-tax)\nApply appropriate discount rate\nCalculate present value of all cash flows\nDecision rule: Accept if NPV &gt; 0\n\nToday’s Advanced Application:\n\nMultiple inflation rates affecting different cost categories\nReal vs nominal rate applications\nSensitivity analysis for risk assessment\nProfessional presentation of complex calculations\n\nKey Insight: Same principles, more sophisticated application"
   },
   {
     "objectID": "slides/day4-session2-slides.html#case-2-ribs-co-domestic-expansion",
     "href": "slides/day4-session2-slides.html#case-2-ribs-co-domestic-expansion",
     "title": "Corporate Financial Management",
     "section": "Case 2: Ribs Co Domestic Expansion",
-    "text": "Case 2: Ribs Co Domestic Expansion\n\n\nProject Details:\n\nNew machinery cost: £4.5 million (upfront)\nAnnual revenue increase: £2 million\nAnnual wage cost increase: £0.4 million\nAnnual maintenance cost: £0.3 million\nProject life: 5 years\nAll cash flows stated in real terms\n\n\n\nThe Inflation Challenge:\n\nRevenues: 0% inflation (fixed contracts)\nWages: 5% annual inflation\nMaintenance: 6% annual inflation\nGeneral inflation: 3.5%\nReal cost of capital: 8%\n\n\n\n\n\n\n\n\n\nImportant\n\n\nCoursework Connection - Case 2 Requirements\nThis session directly addresses:\nRequirement 1 (20 marks): “Determine the NPV of this project” Requirement 2 (10 marks): “Analyse the project’s sensitivity to annual revenue. What is the minimum revenue figure for the project to breakeven?”\nThese are exactly the specifications from your coursework assignment."
+    "text": "Case 2: Ribs Co Domestic Expansion\nProject Details:\n\nNew machinery cost: £4.5 million (upfront)\nAnnual revenue increase: £2 million\nAnnual wage cost increase: £0.4 million\nAnnual maintenance cost: £0.3 million\nProject life: 5 years\nAll cash flows stated in real terms\n\nThe Inflation Challenge:\n\nRevenues: 0% inflation (fixed contracts)\nWages: 5% annual inflation\nMaintenance: 6% annual inflation\nGeneral inflation: 3.5%\nReal cost of capital: 8%\n\nCoursework Connection - Case 2 Requirements\nThis session directly addresses:\nRequirement 1 (20 marks): “Determine the NPV of this project” Requirement 2 (10 marks): “Analyse the project’s sensitivity to annual revenue. What is the minimum revenue figure for the project to breakeven?”\nThese are exactly the specifications from your coursework assignment."
   },
   {
     "objectID": "slides/day4-session2-slides.html#investment-appraisal-review-what-are-relevant-cash-flows",
     "href": "slides/day4-session2-slides.html#investment-appraisal-review-what-are-relevant-cash-flows",
     "title": "Corporate Financial Management",
     "section": "Investment Appraisal Review: What Are Relevant Cash Flows?",
-    "text": "Investment Appraisal Review: What Are Relevant Cash Flows?\n\n\nCash Flow Criteria:\n\nIncremental: Only arising from this project\nFuture: Ignore sunk costs\nAfter-tax: Consider tax implications (ignore tax here)\n\n\n\nToday’s Application:\n\nRevenue increase: £2m additional sales ✓\nWage increase: £0.4m additional labour costs ✓\nMaintenance: £0.3m additional upkeep ✓\nInitial investment: £4.5m machinery ✓\n\n\n\nNote: No working capital mentioned, no tax considerations, no terminal value"
+    "text": "Investment Appraisal Review: What Are Relevant Cash Flows?\nCash Flow Criteria:\n\nIncremental: Only arising from this project\nFuture: Ignore sunk costs\nAfter-tax: Consider tax implications (ignore tax here)\n\nToday’s Application:\n\nRevenue increase: £2m additional sales ✓\nWage increase: £0.4m additional labour costs ✓\nMaintenance: £0.3m additional upkeep ✓\nInitial investment: £4.5m machinery ✓\n\nNote: No working capital mentioned, no tax considerations, no terminal value"
   },
   {
     "objectID": "slides/day4-session2-slides.html#understanding-inflation-impact",
     "href": "slides/day4-session2-slides.html#understanding-inflation-impact",
     "title": "Corporate Financial Management",
     "section": "Understanding Inflation Impact",
-    "text": "Understanding Inflation Impact\n\n\nKey Concepts:\nReal Terms: Purchasing power terms, inflation removed\nNominal Terms: Actual cash amounts including inflation\nToday’s Data: Given in real terms for Year 1, but each category inflates at different rates thereafter\n\n\nThe Challenge:\nYear 1 base amounts (real): - £2m revenue - £0.4m wages\n- £0.3m maintenance\nKey Question: How do we handle differential inflation rates properly?"
+    "text": "Understanding Inflation Impact\nKey Concepts:\nReal Terms: Purchasing power terms, inflation removed\nNominal Terms: Actual cash amounts including inflation\nToday’s Data: Given in real terms for Year 1, but each category inflates at different rates thereafter\nThe Challenge:\nYear 1 base amounts (real): - £2m revenue - £0.4m wages\n- £0.3m maintenance\nKey Question: How do we handle differential inflation rates properly?"
   },
   {
     "objectID": "slides/day4-session2-slides.html#method-1-real-cash-flows-real-discount-rate",
     "href": "slides/day4-session2-slides.html#method-1-real-cash-flows-real-discount-rate",
     "title": "Corporate Financial Management",
     "section": "Method 1: Real Cash Flows, Real Discount Rate",
-    "text": "Method 1: Real Cash Flows, Real Discount Rate\nApproach: Keep everything in real terms, use real discount rate\n\n\nYear 1 Base Amounts:\n\nRevenue: £2,000,000\nWages: £400,000\n\nMaintenance: £300,000\nNet cash flow: £1,300,000\n\n\n\nImportant Insight:\nReal cash flows decline over time because wages and maintenance inflate while revenue doesn’t!\nThis reflects the economic reality of cost pressures."
+    "text": "Method 1: Real Cash Flows, Real Discount Rate\nApproach: Keep everything in real terms, use real discount rate\nYear 1 Base Amounts:\n\nRevenue: £2,000,000\nWages: £400,000\n\nMaintenance: £300,000\nNet cash flow: £1,300,000\n\nImportant Insight:\nReal cash flows decline over time because wages and maintenance inflate while revenue doesn’t!\nThis reflects the economic reality of cost pressures."
   },
   {
     "objectID": "slides/day4-session2-slides.html#real-cash-flow-projections",
@@ -2538,14 +2538,14 @@
     "href": "slides/day4-session2-slides.html#npv-calculation-method-1",
     "title": "Corporate Financial Management",
     "section": "NPV Calculation: Method 1",
-    "text": "NPV Calculation: Method 1\nUsing Real Discount Rate (8%):\n\n\n\nYear\nCash Flow\nPV Factor (8%)\nPresent Value\n\n\n\n\n0\n(£4,500,000)\n1.000\n(£4,500,000)\n\n\n1\n£1,300,000\n0.926\n£1,203,800\n\n\n2\n£1,262,000\n0.857\n£1,081,534\n\n\n3\n£1,221,920\n0.794\n£970,604\n\n\n4\n£1,179,645\n0.735\n£867,039\n\n\n5\n£1,135,054\n0.681\n£772,772\n\n\n\nNPV = £395,749\nInvestment Decision: NPV &gt; 0, so accept the project!\n\n\n\n\n\n\nTip\n\n\nCoursework Application - Requirement 1\nThis calculation directly answers “Determine the NPV of this project” (20 marks). In your coursework, show: - Clear cash flow projections - Proper inflation adjustments - Step-by-step NPV calculation - Professional presentation"
+    "text": "NPV Calculation: Method 1\nUsing Real Discount Rate (8%):\n\n\n\nYear\nCash Flow\nPV Factor (8%)\nPresent Value\n\n\n\n\n0\n(£4,500,000)\n1.000\n(£4,500,000)\n\n\n1\n£1,300,000\n0.926\n£1,203,800\n\n\n2\n£1,262,000\n0.857\n£1,081,534\n\n\n3\n£1,221,920\n0.794\n£970,604\n\n\n4\n£1,179,645\n0.735\n£867,039\n\n\n5\n£1,135,054\n0.681\n£772,772\n\n\n\nNPV = £395,749\nInvestment Decision: NPV &gt; 0, so accept the project!\nCoursework Application - Requirement 1\nThis calculation directly answers “Determine the NPV of this project” (20 marks). In your coursework, show: - Clear cash flow projections - Proper inflation adjustments - Step-by-step NPV calculation - Professional presentation"
   },
   {
     "objectID": "slides/day4-session2-slides.html#method-2-nominal-cash-flows-nominal-discount-rate",
     "href": "slides/day4-session2-slides.html#method-2-nominal-cash-flows-nominal-discount-rate",
     "title": "Corporate Financial Management",
     "section": "Method 2: Nominal Cash Flows, Nominal Discount Rate",
-    "text": "Method 2: Nominal Cash Flows, Nominal Discount Rate\n\n\nStep 1: Calculate Nominal Discount Rate\nFisher Effect Formula:\nNominal = (1 + Real) × (1 + Inflation) - 1\nNominal rate = (1.08 × 1.035) - 1 = 11.78%\n\n\nStep 2: Convert to Nominal Cash Flows\nInflate each year’s real cash flow by general inflation (3.5%):\n\n\n\nYear\nReal CF\nInflation Factor\nNominal CF\n\n\n\n\n1\n£1,300,000\n1.035\n£1,345,500\n\n\n2\n£1,262,000\n1.071\n£1,351,602"
+    "text": "Method 2: Nominal Cash Flows, Nominal Discount Rate\nStep 1: Calculate Nominal Discount Rate\nFisher Effect Formula:\nNominal = (1 + Real) × (1 + Inflation) - 1\nNominal rate = (1.08 × 1.035) - 1 = 11.78%\nStep 2: Convert to Nominal Cash Flows\nInflate each year’s real cash flow by general inflation (3.5%):\n\n\n\nYear\nReal CF\nInflation Factor\nNominal CF\n\n\n\n\n1\n£1,300,000\n1.035\n£1,345,500\n\n\n2\n£1,262,000\n1.071\n£1,351,602"
   },
   {
     "objectID": "slides/day4-session2-slides.html#npv-calculation-method-2",
@@ -2559,21 +2559,21 @@
     "href": "slides/day4-session2-slides.html#key-learning-consistency-is-critical",
     "title": "Corporate Financial Management",
     "section": "Key Learning: Consistency Is Critical",
-    "text": "Key Learning: Consistency Is Critical\n\n\nBoth Methods Give Same Answer:\n\nMethod 1: Real cash flows with real discount rate\nMethod 2: Nominal cash flows with nominal discount rate\n\nCritical Success Factor: Choose one method and apply consistently throughout analysis\n\n\nImportant Warning:\nNever mix approaches - using real cash flows with nominal rates (or vice versa) will give incorrect results\nProfessional Practice: Consistency in assumptions is crucial for accurate investment appraisal"
+    "text": "Key Learning: Consistency Is Critical\nBoth Methods Give Same Answer:\n\nMethod 1: Real cash flows with real discount rate\nMethod 2: Nominal cash flows with nominal discount rate\n\nCritical Success Factor: Choose one method and apply consistently throughout analysis\nImportant Warning:\nNever mix approaches - using real cash flows with nominal rates (or vice versa) will give incorrect results\nProfessional Practice: Consistency in assumptions is crucial for accurate investment appraisal"
   },
   {
     "objectID": "slides/day4-session2-slides.html#building-on-investment-appraisal-sensitivity-analysis",
     "href": "slides/day4-session2-slides.html#building-on-investment-appraisal-sensitivity-analysis",
     "title": "Corporate Financial Management",
     "section": "Building on Investment Appraisal: Sensitivity Analysis",
-    "text": "Building on Investment Appraisal: Sensitivity Analysis\n\n\nCore Concept:\nTest how sensitive NPV is to key assumptions\nBusiness Question: How much can annual revenue decline before the project becomes unprofitable (NPV = 0)?\n\n\nMethod:\nSet NPV equation to zero and solve for revenue level\nProfessional Application: Provides management with risk assessment and confidence levels"
+    "text": "Building on Investment Appraisal: Sensitivity Analysis\nCore Concept:\nTest how sensitive NPV is to key assumptions\nBusiness Question: How much can annual revenue decline before the project becomes unprofitable (NPV = 0)?\nMethod:\nSet NPV equation to zero and solve for revenue level\nProfessional Application: Provides management with risk assessment and confidence levels"
   },
   {
     "objectID": "slides/day4-session2-slides.html#revenue-sensitivity-calculation",
     "href": "slides/day4-session2-slides.html#revenue-sensitivity-calculation",
     "title": "Corporate Financial Management",
     "section": "Revenue Sensitivity Calculation",
-    "text": "Revenue Sensitivity Calculation\nSetting Up the Analysis:\nLet R = annual revenue (currently £2,000,000) Other costs inflate as calculated previously\n\n\nSolution Process:\n\nExpress each year’s net cash flow as function of R\nCalculate present value of these cash flows\nSet total equal to £4,500,000\nSolve for R\n\n\n\nResults:\nBreakeven Revenue: £1,124,000 per year\nRisk Assessment: Revenue can decline by 43.8% before project becomes unprofitable\n\n\n\n\n\n\n\n\nTip\n\n\nCoursework Application - Requirement 2\nThis analysis directly answers “What is the minimum revenue figure for the project to breakeven?” (10 marks).\nYour Answer: £1,124,000 per year is the minimum revenue for NPV = 0."
+    "text": "Revenue Sensitivity Calculation\nSetting Up the Analysis:\nLet R = annual revenue (currently £2,000,000) Other costs inflate as calculated previously\nSolution Process:\n\nExpress each year’s net cash flow as function of R\nCalculate present value of these cash flows\nSet total equal to £4,500,000\nSolve for R\n\nResults:\nBreakeven Revenue: £1,124,000 per year\nRisk Assessment: Revenue can decline by 43.8% before project becomes unprofitable\nCoursework Application - Requirement 2\nThis analysis directly answers “What is the minimum revenue figure for the project to breakeven?” (10 marks).\nYour Answer: £1,124,000 per year is the minimum revenue for NPV = 0."
   },
   {
     "objectID": "slides/day4-session2-slides.html#sensitivity-analysis-results",
@@ -2587,56 +2587,56 @@
     "href": "slides/day4-session2-slides.html#connecting-to-cost-of-capital-principles",
     "title": "Corporate Financial Management",
     "section": "Connecting to Cost of Capital Principles",
-    "text": "Connecting to Cost of Capital Principles\n\n\nRisk Considerations:\n\nMarket development risk (entering export markets)\nCurrency exposure from international sales\nOperational risks from capacity expansion\n\nQuestion: Should we use the company’s current WACC?\n\n\nProfessional Practice:\nPotential Adjustment: May warrant risk premium above current WACC\nCost of Capital Theory: Discount rate should reflect project-specific risks, not just company average"
+    "text": "Connecting to Cost of Capital Principles\nRisk Considerations:\n\nMarket development risk (entering export markets)\nCurrency exposure from international sales\nOperational risks from capacity expansion\n\nQuestion: Should we use the company’s current WACC?\nProfessional Practice:\nPotential Adjustment: May warrant risk premium above current WACC\nCost of Capital Theory: Discount rate should reflect project-specific risks, not just company average"
   },
   {
     "objectID": "slides/day4-session2-slides.html#excel-modeling-best-practices",
     "href": "slides/day4-session2-slides.html#excel-modeling-best-practices",
     "title": "Corporate Financial Management",
     "section": "Excel Modeling Best Practices",
-    "text": "Excel Modeling Best Practices\n\n\nProfessional Model Structure:\n\nAssumptions Section: All key inputs clearly highlighted\nCalculation Section: Step-by-step cash flow development\n\nResults Section: NPV, IRR, sensitivity analysis\nCharts/Graphs: Visual representation of key relationships\n\n\n\nFormatting Standards:\n\nConsistent number formatting (£’000s or £millions)\nClear labeling and headers\nColor coding for inputs vs calculations\nProfessional appearance suitable for client presentation"
+    "text": "Excel Modeling Best Practices\nProfessional Model Structure:\n\nAssumptions Section: All key inputs clearly highlighted\nCalculation Section: Step-by-step cash flow development\n\nResults Section: NPV, IRR, sensitivity analysis\nCharts/Graphs: Visual representation of key relationships\n\nFormatting Standards:\n\nConsistent number formatting (£’000s or £millions)\nClear labeling and headers\nColor coding for inputs vs calculations\nProfessional appearance suitable for client presentation"
   },
   {
     "objectID": "slides/day4-session2-slides.html#multiple-appraisal-methods-integration",
     "href": "slides/day4-session2-slides.html#multiple-appraisal-methods-integration",
     "title": "Corporate Financial Management",
     "section": "Multiple Appraisal Methods Integration",
-    "text": "Multiple Appraisal Methods Integration\n\n\nNPV Analysis:\n£395,749 (Accept - creates value)\nAdditional Methods:\nIRR Calculation: Find rate where NPV = 0 - Expected Result: IRR &gt; 8% real cost of capital\nPayback Period: Time to recover initial investment - Calculation: Approximately 3.5-4 years\n\n\nInvestment Appraisal Principle:\nUse multiple methods for comprehensive evaluation, but NPV remains the primary decision criterion\nProfessional Standard: Triangulate results using different approaches for robust analysis"
+    "text": "Multiple Appraisal Methods Integration\nNPV Analysis:\n£395,749 (Accept - creates value)\nAdditional Methods:\nIRR Calculation: Find rate where NPV = 0 - Expected Result: IRR &gt; 8% real cost of capital\nPayback Period: Time to recover initial investment - Calculation: Approximately 3.5-4 years\nInvestment Appraisal Principle:\nUse multiple methods for comprehensive evaluation, but NPV remains the primary decision criterion\nProfessional Standard: Triangulate results using different approaches for robust analysis"
   },
   {
     "objectID": "slides/day4-session2-slides.html#professional-presentation-excellence",
     "href": "slides/day4-session2-slides.html#professional-presentation-excellence",
     "title": "Corporate Financial Management",
     "section": "Professional Presentation Excellence",
-    "text": "Professional Presentation Excellence\n\n\nCoursework Application:\nClear Executive Summary: - NPV result and recommendation - Key assumptions and sensitivity analysis - Major risks and mitigation strategies\nDetailed Workings: - Show all calculation steps - Explain inflation adjustments - Present sensitivity analysis professionally\n\n\nProfessional Communication:\n\nUse precise financial terminology\nSupport conclusions with specific evidence\nMaintain consistent formatting throughout\nStructure for logical flow and clarity\n\nStandard: Suitable for senior management presentation"
+    "text": "Professional Presentation Excellence\nCoursework Application:\nClear Executive Summary: - NPV result and recommendation - Key assumptions and sensitivity analysis - Major risks and mitigation strategies\nDetailed Workings: - Show all calculation steps - Explain inflation adjustments - Present sensitivity analysis professionally\nProfessional Communication:\n\nUse precise financial terminology\nSupport conclusions with specific evidence\nMaintain consistent formatting throughout\nStructure for logical flow and clarity\n\nStandard: Suitable for senior management presentation"
   },
   {
     "objectID": "slides/day4-session2-slides.html#guidance-for-technical-excellence",
     "href": "slides/day4-session2-slides.html#guidance-for-technical-excellence",
     "title": "Corporate Financial Management",
     "section": "Guidance for Technical Excellence",
-    "text": "Guidance for Technical Excellence\n\n\nTechnical Best Practices:\n\nMaintain consistency between real and nominal approaches\nApply inflation compounding correctly\nAdjust all cash flow components appropriately\nSet up sensitivity analysis systematically\n\n\n\nPresentation Excellence:\n\nUse clear formatting and logical structure\nProvide comprehensive methodology explanation\nInclude thorough sensitivity analysis\nIntegrate with strategic analysis effectively"
+    "text": "Guidance for Technical Excellence\nTechnical Best Practices:\n\nMaintain consistency between real and nominal approaches\nApply inflation compounding correctly\nAdjust all cash flow components appropriately\nSet up sensitivity analysis systematically\n\nPresentation Excellence:\n\nUse clear formatting and logical structure\nProvide comprehensive methodology explanation\nInclude thorough sensitivity analysis\nIntegrate with strategic analysis effectively"
   },
   {
     "objectID": "slides/day4-session2-slides.html#integration-with-strategic-analysis",
     "href": "slides/day4-session2-slides.html#integration-with-strategic-analysis",
     "title": "Corporate Financial Management",
     "section": "Integration with Strategic Analysis",
-    "text": "Integration with Strategic Analysis\n\n\nSession Integration:\nStrategic Analysis (Session 1): Option 2 provides growth and diversification\nFinancial Analysis (Session 2): NPV of £395,749 confirms value creation\nCombined Insight: Option 2 appears financially attractive AND strategically sound\n\n\nNext Question:\nHow do EU sustainability requirements affect this conclusion?\nSession 3 Preview: Regulatory compliance costs may impact NPV calculation\nProfessional Reality: Financial analysis must consider regulatory environment\n\n\n\n\n\n\n\n\nImportant\n\n\nCoursework Connection - Case 2 Requirement 3\nSession 3 will address the major 40-mark question:\n“On 25 July 2024, the Directive on Corporate Sustainability Due Diligence (Directive 2024/1760) entered into force. Briefly discuss how this Directive impacts Ribs Co’s operation if the firm decides to sell their tools in EU countries.”\nThis regulatory analysis builds on our financial foundation from today."
+    "text": "Integration with Strategic Analysis\nSession Integration:\nStrategic Analysis (Session 1): Option 2 provides growth and diversification\nFinancial Analysis (Session 2): NPV of £395,749 confirms value creation\nCombined Insight: Option 2 appears financially attractive AND strategically sound\nNext Question:\nHow do EU sustainability requirements affect this conclusion?\nSession 3 Preview: Regulatory compliance costs may impact NPV calculation\nProfessional Reality: Financial analysis must consider regulatory environment\nCoursework Connection - Case 2 Requirement 3\nSession 3 will address the major 40-mark question:\n“On 25 July 2024, the Directive on Corporate Sustainability Due Diligence (Directive 2024/1760) entered into force. Briefly discuss how this Directive impacts Ribs Co’s operation if the firm decides to sell their tools in EU countries.”\nThis regulatory analysis builds on our financial foundation from today."
   },
   {
     "objectID": "slides/day4-session2-slides.html#investment-appraisal-integration-summary",
     "href": "slides/day4-session2-slides.html#investment-appraisal-integration-summary",
     "title": "Corporate Financial Management",
     "section": "Investment Appraisal Integration Summary",
-    "text": "Investment Appraisal Integration Summary\n\n\nCore Concepts Applied:\nNPV Principles: ✓ Applied successfully to complex case Cost of Capital Theory: ✓ Recognized need for risk adjustments\nAdvanced Applications: ✓ Differential inflation handling mastered\n\n\nProfessional Development:\n\nAdvanced financial modeling capabilities\nSensitivity analysis and risk assessment\nProfessional presentation standards\nIntegration of multiple analytical approaches"
+    "text": "Investment Appraisal Integration Summary\nCore Concepts Applied:\nNPV Principles: ✓ Applied successfully to complex case Cost of Capital Theory: ✓ Recognized need for risk adjustments\nAdvanced Applications: ✓ Differential inflation handling mastered\nProfessional Development:\n\nAdvanced financial modeling capabilities\nSensitivity analysis and risk assessment\nProfessional presentation standards\nIntegration of multiple analytical approaches"
   },
   {
     "objectID": "slides/day4-session2-slides.html#key-success-strategies-for-coursework",
     "href": "slides/day4-session2-slides.html#key-success-strategies-for-coursework",
     "title": "Corporate Financial Management",
     "section": "Key Success Strategies for Coursework",
-    "text": "Key Success Strategies for Coursework\n\n\nTechnical Excellence:\n\nMaster both real and nominal approaches\nApply sensitivity analysis systematically\nPresent calculations clearly and professionally\n\nIntegration Skills:\n\nConnect financial analysis to strategic evaluation\nConsider cost of capital risk adjustments\nPrepare for regulatory impact analysis (Session 3)\n\n\n\nProfessional Standards:\n\nBuild models suitable for client presentation\nExplain methodology and assumptions clearly\nSupport recommendations with quantitative evidence\n\nAssessment Success:\nDemonstrate sophisticated understanding of investment appraisal in complex, real-world contexts\n\n\n\n\n\n\n\n\nNote\n\n\nCase 2 Coursework Strategy\nPart 1 (20 marks): Use today’s NPV methodology - show detailed calculations Part 2 (10 marks): Apply today’s sensitivity analysis - find breakeven revenue Part 3 (40 marks): Session 3 will provide regulatory analysis framework\nTotal weighting: Case 2 represents significant portion of your coursework marks."
+    "text": "Key Success Strategies for Coursework\nTechnical Excellence:\n\nMaster both real and nominal approaches\nApply sensitivity analysis systematically\nPresent calculations clearly and professionally\n\nIntegration Skills:\n\nConnect financial analysis to strategic evaluation\nConsider cost of capital risk adjustments\nPrepare for regulatory impact analysis (Session 3)\n\nProfessional Standards:\n\nBuild models suitable for client presentation\nExplain methodology and assumptions clearly\nSupport recommendations with quantitative evidence\n\nAssessment Success:\nDemonstrate sophisticated understanding of investment appraisal in complex, real-world contexts\nCase 2 Coursework Strategy\nPart 1 (20 marks): Use today’s NPV methodology - show detailed calculations Part 2 (10 marks): Apply today’s sensitivity analysis - find breakeven revenue Part 3 (40 marks): Session 3 will provide regulatory analysis framework\nTotal weighting: Case 2 represents significant portion of your coursework marks."
   },
   {
     "objectID": "slides/day4-session2-slides.html#session-2-wrap-up",
