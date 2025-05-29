@@ -73,6 +73,31 @@ This module is assessed through **two components**:
 - **Coursework (50%)**: Case study analysis due 9th June 2025 (12 noon)
 - **Examination (50%)**: 3-hour online take home exam (Released on 21st June 9:30am)
 
+## AI Tools Policy 🤖
+
+### Core Principle: LLM Premiums ≠ Premium Thinking
+
+While AI tools are part of the modern professional landscape, **paying for premium AI services does not generate premium thinking**. This module emphasizes developing your authentic analytical capabilities.
+
+#### **Permitted Uses:**
+- ✅ Research assistance and concept clarification
+- ✅ Grammar checking and calculation verification
+- ✅ Understanding complex financial formulas
+
+#### **Prohibited Uses:**
+- ❌ Content generation for assignments
+- ❌ AI-generated analysis or recommendations
+- ❌ Substituting AI judgment for your critical thinking
+
+#### **Key Warning:**
+AI tools are "verbosity maximizers" - they excel at generating lots of words but often sacrifice precision and insight. Your goal is the opposite: **maximum insight with minimum words**.
+
+:::{.callout-important}
+**Reality Check**: ChatGPT Plus, Claude Pro, and other premium AI tools are optimized for engagement and volume, not academic precision. Experienced markers can readily identify AI-generated analysis.
+:::
+
+[**Read the complete AI policy →**](resources/module-handbook.html#artificial-intelligence-ai-tools-policy)
+
 ## Key Resources
 
 ::: {.course-materials}

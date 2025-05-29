@@ -1,0 +1,239 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 4 Session 1a: Strategic Analysis Foundation"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    footer: "Day 4 Session 1a: Strategic Analysis Foundation"
+    slide-number: true
+---
+
+## Assessment Preparation {.unnumbered}
+
+#### **Today's Journey:**
+
+- **Session 1 (9:30-10:30)**: Strategic Analysis for Coursework Case 1
+- **Session 2 (11:00-12:30)**: Advanced NPV with Inflation (Case 2)
+- **Session 3 (13:30-15:00)**: EU Sustainability Directive Deep Dive
+- **Session 4 (Thursday 4pm-6pm on Teams)**: Exam Strategy and Final Prep
+
+#### **Our Goal:** 
+
+Transform theoretical knowledge into practical assessment success
+
+## Session 1 Objectives {.unnumbered}
+
+By the end of this session, you will be able to:
+
+- Apply systematic strategic analysis frameworks to business decisions
+- Distinguish between strategic and operational considerations
+- Evaluate stakeholder impacts in corporate decisions
+- Develop professional recommendations with clear justification
+- **Connect today's work to our investment appraisal framework**
+
+## Reality Check: 
+
+The Educator-Assessor Balance ⚖️
+
+#### **Let's Be Honest About This Dynamic**
+
+I occupy two roles simultaneously: 
+
+**your educator** and **your assessor**. 
+
+This creates an inherent tension that you need to understand.
+
+## **What I Can Give You:**
+- ✅ **Generic frameworks** and systematic approaches
+- ✅ **Conceptual guidance** on how to think about problems
+- ✅ **Quality standards** and expectations
+- ✅ **Key success strategies** and best practices
+- ✅ **Professional development** insights
+
+## **What I Cannot Give You:**
+- ❌ **Specific answers** to your coursework questions
+- ❌ **Detailed roadmaps** for your exact case analysis
+- ❌ **Model solutions** that you would might be tempted to replicate
+- ❌ **Assessment-specific hints** that would compromise fairness
+
+## **Why This Tension Exists:**
+- **Educational Integrity**: You need to develop independent analytical skills
+- **Assessment Fairness**: All students must have equal opportunity
+- **Professional Preparation**: Real-world decisions don't come with answer keys
+
+:::{.callout-note}
+**Student Learning Anxiety vs. Professional Reality**
+
+Your anxiety about "getting it right" is understandable but misses the point. In professional practice, there's rarely one "right" answer - there are well-reasoned arguments supported by evidence. That's exactly what we're developing here.
+:::
+
+## **How to Navigate This:**
+- Focus on **learning the frameworks** rather than seeking specific answers
+- Develop **your authentic analytical voice** rather than trying to guess mine
+- Use **evidence and reasoning** to support your arguments
+
+
+## Connecting to Our Learning Journey
+
+| Previous Learning Topic | Core Concepts | Today's Application |
+|-----|------------------|---------------------|
+| **Investment Appraisal** | NPV, IRR, and payback methods | Apply these tools to real strategic decisions |
+| **Cost of Capital** | WACC and cost components calculation | Use cost of capital in strategic evaluation |
+| **Dividend Policy** | Distribution strategies exploration | Consider how strategic choices affect shareholder returns |
+
+**Integration**: Strategic decisions must be financially sound AND strategically coherent
+
+## Case 1: Ribs Co Strategic Challenge
+
+::: {.problem-statement}
+**The Situation:**
+
+- UK garden tools manufacturer
+- High quality, domestic market only
+- Recent challenges: cheap foreign imports
+- Share price decline, shareholder displeasure
+- Two strategic options under consideration
+:::
+
+#### **The Decision Framework:**
+Both projects have **positive NPV** at current cost of capital - but which creates more value?
+
+:::{.callout-note}
+Remember from **Investment Appraisal**: NPV > 0 means accept, but when choosing between projects, select the one with higher NPV and better strategic fit.
+:::
+
+## Strategic Option 1: 
+
+- Offshore Production
+
+::: {.problem-statement}
+**Strategy Type: Cost Leadership**
+
+**Key Features:**
+
+- Close domestic factory
+- Move production to low-cost country
+- Labour costs reduced by 75%
+- Continue selling only in domestic market
+:::
+
+:::{.callout-important}
+**Coursework Connection - Project 1**
+
+*"This would involve closing the firm's domestic factory and switching production to a foreign country where labour rates are 1/4 of those in that domestic market. Sales will continue to be targeted exclusively as the domestic market."*
+:::
+
+#### **Investment Appraisal Connection:**
+This is fundamentally a **cost reduction project** - how would we evaluate it using NPV analysis?
+
+## Strategic Option 2: Domestic Expansion
+
+::: {.problem-statement}
+**Strategy Type: Differentiation + Market Development**
+
+**Key Features:**
+
+- £4.5 million investment in new machinery
+- 50% capacity increase
+- Export high-quality tools to foreign markets (positive cashflow potential)
+- Leverage quality reputation internationally
+:::
+
+:::{.callout-important}
+**Coursework Connection - Project 2**
+
+*"This would involve a new investment in machinery at the domestic factory to allow production to be increased by 50%. The extra tools would be exported and sold as high quality tools in foreign market places."*
+:::
+
+#### **Investment Appraisal Connection:**
+This is a **growth investment project** - requires detailed NPV analysis with market development risks
+
+## Strategic Analysis Framework
+
+::: {.grid}
+
+::: {.g-col-6}
+#### **Step 1: Situational Analysis**
+- Current competitive position
+- Market dynamics and trends
+- Internal capabilities and constraints
+- Stakeholder interests and pressures
+
+#### **Step 2: Strategic Option Evaluation**
+- Strategic coherence and fit
+- Financial attractiveness (NPV, IRR)
+- Risk assessment and mitigation
+- Implementation feasibility
+:::
+
+::: {.g-col-6}
+#### **Step 3: Stakeholder Impact Analysis**
+- Shareholders, employees, customers, community
+- Quantitative and qualitative impacts
+- Conflict resolution and trade-offs
+
+#### **Integration**
+- Connect financial and strategic analysis
+- Balance quantitative and qualitative factors
+- Develop evidence-based recommendations
+:::
+
+:::
+
+## Applying Investment Appraisal Concepts
+
+**From investment appraisal theory, we learned that good investment decisions require:**
+
+1. **Relevant Cash Flows**: Only incremental, future, after-tax flows
+2. **Appropriate Discount Rate**: Reflects project risk (using WACC principles)
+3. **Multiple Appraisal Methods**: NPV, IRR, payback for complete picture
+4. **Risk Assessment**: Sensitivity analysis and scenario planning
+5. **Non-Financial Factors**: Strategic fit, implementation challenges
+
+**Today's Application**: Use these principles for strategic choice between options
+
+## Strategic Analysis: Internal Assessment
+
+<!-- Slide rendering check -->
+
+::: {.grid}
+
+::: {.g-col-6}
+#### **Strengths:**
+- High-quality product reputation
+- Established domestic market presence
+- Manufacturing expertise and processes
+- Brand recognition in quality segment
+
+#### **Critical Question:**
+Which option better leverages strengths and addresses weaknesses?
+:::
+
+::: {.g-col-6}
+#### **Weaknesses:**
+- Limited geographic diversification
+- Higher cost structure than competitors
+- No export experience or capabilities
+- Potential over-reliance on domestic market
+:::
+
+:::
+
+## End of Session 1a
+
+#### **What We've Accomplished:**
+- Established the educator-assessor balance and learning approach
+- Introduced the Ribs Co strategic challenge and options
+- Developed systematic strategic analysis frameworks
+- Connected investment appraisal concepts to strategic decisions
+- Completed internal assessment of strengths and weaknesses
+
+#### **Next in Session 1b:**
+- External environment and competitive analysis
+- Financial evaluation framework application
+- Stakeholder impact assessment
+- Professional applications and assessment success strategies
+
+**Continue to Session 1b for the complete strategic analysis implementation!**
+

@@ -6,20 +6,19 @@ date: last-modified
 format:
   revealjs:
     footer: "Day 4 Session 1: Strategic Analysis Framework"
-    theme: default
     slide-number: true
 ---
 
-## Welcome to Day 4: Assessment Preparation {.unnumbered}
+## Assessment Preparation {.unnumbered}
 
-### **Today's Journey:**
+#### **Today's Journey:**
 
-- **Session 1 (9:30-11:00)**: Strategic Analysis for Coursework Case 1
-- **Session 2 (11:15-12:45)**: Advanced NPV with Inflation (Case 2)
-- **Session 3 (14:00-15:30)**: EU Sustainability Directive Deep Dive
-- **Session 4 (15:45-16:00)**: Exam Strategy and Final Prep
+- **Session 1 (9:30-10:30)**: Strategic Analysis for Coursework Case 1
+- **Session 2 (11:00-12:30)**: Advanced NPV with Inflation (Case 2)
+- **Session 3 (13:30-15:00)**: EU Sustainability Directive Deep Dive
+- **Session 4 (Thursday 4pm-6pm on Teams)**: Exam Strategy and Final Prep
 
-### **Our Goal:** 
+#### **Our Goal:** 
 
 Transform theoretical knowledge into practical assessment success
 
@@ -31,91 +30,163 @@ By the end of this session, you will be able to:
 - Distinguish between strategic and operational considerations
 - Evaluate stakeholder impacts in corporate decisions
 - Develop professional recommendations with clear justification
-- **Connect today's work to our Day 1 investment appraisal framework**
+- **Connect today's work to our investment appraisal framework**
+
+## Reality Check: 
+
+The Educator-Assessor Balance ⚖️
+
+#### **Let's Be Honest About This Dynamic**
+
+I occupy two roles simultaneously: 
+
+**your educator** and **your assessor**. 
+
+This creates an inherent tension that you need to understand.
+
+## **What I Can Give You:**
+- ✅ **Generic frameworks** and systematic approaches
+- ✅ **Conceptual guidance** on how to think about problems
+- ✅ **Quality standards** and expectations
+- ✅ **Key success strategies** and best practices
+- ✅ **Professional development** insights
+
+## **What I Cannot Give You:**
+- ❌ **Specific answers** to your coursework questions
+- ❌ **Detailed roadmaps** for your exact case analysis
+- ❌ **Model solutions** that you would might be tempted to replicate
+- ❌ **Assessment-specific hints** that would compromise fairness
+
+## **Why This Tension Exists:**
+- **Educational Integrity**: You need to develop independent analytical skills
+- **Assessment Fairness**: All students must have equal opportunity
+- **Professional Preparation**: Real-world decisions don't come with answer keys
+
+:::{.callout-note}
+**Student Learning Anxiety vs. Professional Reality**
+
+Your anxiety about "getting it right" is understandable but misses the point. In professional practice, there's rarely one "right" answer - there are well-reasoned arguments supported by evidence. That's exactly what we're developing here.
+:::
+
+## **How to Navigate This:**
+- Focus on **learning the frameworks** rather than seeking specific answers
+- Develop **your authentic analytical voice** rather than trying to guess mine
+- Use **evidence and reasoning** to support your arguments
+
 
 ## Connecting to Our Learning Journey
 
-**Day 1 Afternoon: Investment Appraisal**
-- We learned NPV, IRR, and payback methods
-- **Today**: Apply these tools to real strategic decisions
-
-**Day 2 Afternoon: Cost of Capital**
-- We calculated WACC and cost components
-- **Today**: Use cost of capital in strategic evaluation
-
-**Day 3 Morning: Dividend Policy**
-- We explored distribution strategies
-- **Today**: Consider how strategic choices affect shareholder returns
+| Previous Learning Topic | Core Concepts | Today's Application |
+|-----|------------------|---------------------|
+| **Investment Appraisal** | NPV, IRR, and payback methods | Apply these tools to real strategic decisions |
+| **Cost of Capital** | WACC and cost components calculation | Use cost of capital in strategic evaluation |
+| **Dividend Policy** | Distribution strategies exploration | Consider how strategic choices affect shareholder returns |
 
 **Integration**: Strategic decisions must be financially sound AND strategically coherent
 
 ## Case 1: Ribs Co Strategic Challenge
 
+::: {.problem-statement}
 **The Situation:**
+
 - UK garden tools manufacturer
 - High quality, domestic market only
 - Recent challenges: cheap foreign imports
 - Share price decline, shareholder displeasure
 - Two strategic options under consideration
+:::
 
-**The Decision Framework:**
+#### **The Decision Framework:**
 Both projects have **positive NPV** at current cost of capital - but which creates more value?
 
 :::{.callout-note}
-Remember from Day 1: NPV > 0 means accept, but when choosing between projects, select the one with higher NPV and better strategic fit.
+Remember from **Investment Appraisal**: NPV > 0 means accept, but when choosing between projects, select the one with higher NPV and better strategic fit.
 :::
 
-## Strategic Option 1: Offshore Production
+## Strategic Option 1: 
 
+- Offshore Production
+
+::: {.problem-statement}
 **Strategy Type: Cost Leadership**
 
 **Key Features:**
+
 - Close domestic factory
 - Move production to low-cost country
 - Labour costs reduced by 75%
 - Continue selling only in domestic market
+:::
 
-**Day 1 Connection:**
+:::{.callout-important}
+**Coursework Connection - Project 1**
+
+*"This would involve closing the firm's domestic factory and switching production to a foreign country where labour rates are 1/4 of those in that domestic market. Sales will continue to be targeted exclusively as the domestic market."*
+:::
+
+#### **Investment Appraisal Connection:**
 This is fundamentally a **cost reduction project** - how would we evaluate it using NPV analysis?
 
 ## Strategic Option 2: Domestic Expansion
 
+::: {.problem-statement}
 **Strategy Type: Differentiation + Market Development**
 
 **Key Features:**
+
 - £4.5 million investment in new machinery
 - 50% capacity increase
-- Export high-quality tools to foreign markets
+- Export high-quality tools to foreign markets (positive cashflow potential)
 - Leverage quality reputation internationally
+:::
 
-**Day 1 Connection:**
+:::{.callout-important}
+**Coursework Connection - Project 2**
+
+*"This would involve a new investment in machinery at the domestic factory to allow production to be increased by 50%. The extra tools would be exported and sold as high quality tools in foreign market places."*
+:::
+
+#### **Investment Appraisal Connection:**
 This is a **growth investment project** - requires detailed NPV analysis with market development risks
 
 ## Strategic Analysis Framework
 
-**Step 1: Situational Analysis**
+::: {.grid}
+
+::: {.g-col-6}
+#### **Step 1: Situational Analysis**
 - Current competitive position
 - Market dynamics and trends
 - Internal capabilities and constraints
 - Stakeholder interests and pressures
 
-**Step 2: Strategic Option Evaluation**
+#### **Step 2: Strategic Option Evaluation**
 - Strategic coherence and fit
 - Financial attractiveness (NPV, IRR)
 - Risk assessment and mitigation
 - Implementation feasibility
+:::
 
-**Step 3: Stakeholder Impact Analysis**
+::: {.g-col-6}
+#### **Step 3: Stakeholder Impact Analysis**
 - Shareholders, employees, customers, community
 - Quantitative and qualitative impacts
 - Conflict resolution and trade-offs
 
-## Applying Day 1 Investment Appraisal Concepts
+#### **Integration**
+- Connect financial and strategic analysis
+- Balance quantitative and qualitative factors
+- Develop evidence-based recommendations
+:::
 
-**From Day 1, we learned that good investment decisions require:**
+:::
+
+## Applying Investment Appraisal Concepts
+
+**From investment appraisal theory, we learned that good investment decisions require:**
 
 1. **Relevant Cash Flows**: Only incremental, future, after-tax flows
-2. **Appropriate Discount Rate**: Reflects project risk (from Day 2 WACC)
+2. **Appropriate Discount Rate**: Reflects project risk (using WACC principles)
 3. **Multiple Appraisal Methods**: NPV, IRR, payback for complete picture
 4. **Risk Assessment**: Sensitivity analysis and scenario planning
 5. **Non-Financial Factors**: Strategic fit, implementation challenges
@@ -124,173 +195,215 @@ This is a **growth investment project** - requires detailed NPV analysis with ma
 
 ## Strategic Analysis: Internal Assessment
 
-**Current Capabilities Evaluation:**
+<!-- Slide rendering check -->
 
-**Strengths:**
+::: {.grid}
+
+::: {.g-col-6}
+#### **Strengths:**
 - High-quality product reputation
 - Established domestic market presence
 - Manufacturing expertise and processes
 - Brand recognition in quality segment
 
-**Weaknesses:**
+#### **Critical Question:**
+Which option better leverages strengths and addresses weaknesses?
+:::
+
+::: {.g-col-6}
+#### **Weaknesses:**
 - Limited geographic diversification
 - Higher cost structure than competitors
 - No export experience or capabilities
 - Potential over-reliance on domestic market
+:::
 
-**Critical Question**: Which option better leverages strengths and addresses weaknesses?
+:::
 
 ## Strategic Analysis: External Environment
 
-**Market Dynamics:**
+::: {.grid}
+
+::: {.g-col-6}
+#### **Market Dynamics:**
 - Increasing price competition from imports
 - Growing demand for sustainable/quality products
 - Potential trade policy impacts (Brexit, tariffs)
 - Export market opportunities vs domestic saturation
+:::
 
-**Competitive Landscape:**
+::: {.g-col-6}
+#### **Competitive Landscape:**
 - Foreign low-cost producers gaining market share
 - Quality differentiation under pressure
 - Potential for premium positioning internationally
 
-**From Day 3 Dividend Policy**: How might each strategic choice affect the company's ability to maintain dividends?
+#### **Dividend Policy Connection:**
+How might each strategic choice affect the company's ability to maintain dividends?
+:::
+
+:::
 
 ## Financial Evaluation Framework
 
-**Using Day 1 & Day 2 Concepts:**
+::: {.grid}
 
-**Option 1 (Offshore Production):**
-- Initial investment: Factory closure costs, setup costs abroad
-- Annual cash flows: Labour cost savings vs additional logistics/quality costs
-- Terminal value: New production facility value
-- **Discount rate**: May need risk adjustment for foreign operations (Day 2 concepts)
+::: {.g-col-6}
+#### **Option 1 (Offshore Production):**
+- **Initial investment**: Factory closure costs, setup costs abroad
+- **Annual cash flows**: Labour cost savings vs additional logistics/quality costs
+- **Terminal value**: New production facility value
+- **Discount rate**: Country risk premium adjustment needed
+:::
 
-**Option 2 (Domestic Expansion):**
-- Initial investment: £4.5 million machinery (given)
-- Annual cash flows: Export revenue growth vs higher costs
-- Terminal value: Machinery residual value
-- **Discount rate**: Market development risk adjustment
+::: {.g-col-6}
+#### **Option 2 (Domestic Expansion):**
+- **Initial investment**: £4.5 million machinery (given)
+- **Annual cash flows**: Export revenue growth vs higher costs
+- **Terminal value**: Machinery residual value
+- **Discount rate**: Market development risk premium adjustment
+:::
 
-## Risk Assessment Matrix
-
-**Option 1: Offshore Production Risks**
-
-| Risk Category | Likelihood | Impact | Mitigation |
-|---------------|------------|--------|------------|
-| Quality control issues | Medium | High | Strict monitoring systems |
-| Currency fluctuation | High | Medium | Hedging strategies |
-| Political/regulatory | Low | High | Diversified supplier base |
-| Cultural/management | Medium | Medium | Local partnerships |
-
-**Option 2: Domestic Expansion Risks**
-
-| Risk Category | Likelihood | Impact | Mitigation |
-|---------------|------------|--------|------------|
-| Export market failure | Medium | High | Market research, phased entry |
-| Capacity utilization | Medium | Medium | Flexible production systems |
-| Competition response | High | Medium | Strong differentiation |
-| Regulatory barriers | Low | Medium | Compliance planning |
+:::
 
 ## Stakeholder Impact Analysis
 
-**Shareholders:**
-- **Option 1**: Potentially higher short-term returns, higher risk
-- **Option 2**: Growth strategy with longer payback, more sustainable
+::: {.grid}
 
-**Employees:**
-- **Option 1**: Significant job losses, community impact
-- **Option 2**: Job security, potential growth opportunities
+::: {.g-col-6}
+#### **Option 1: Offshore Production**
 
-**Customers:**
-- **Option 1**: Maintained domestic supply at competitive prices
-- **Option 2**: Continued quality focus, potential supply improvements
+**Shareholders:** Potentially higher short-term returns, higher risk
 
-**Community:**
-- **Option 1**: Loss of local employment and economic contribution
-- **Option 2**: Maintained local presence, potential growth
+**Employees:** Significant job losses, community impact
 
-## Day 2 Cost of Capital Relevance
+**Customers:** Maintained domestic supply at competitive prices
 
-**Discount Rate Considerations:**
+**Community:** Loss of local employment and economic contribution
+:::
 
-**Option 1 (Offshore):**
+::: {.g-col-6}
+#### **Option 2: Domestic Expansion**
+
+**Shareholders:** Growth strategy with longer payback, more sustainable
+
+**Employees:** Job security, potential growth opportunities
+
+**Customers:** Continued quality focus, potential supply improvements
+
+**Community:** Maintained local presence, potential growth
+:::
+
+:::
+
+## Cost of Capital Relevance
+
+::: {.grid}
+
+::: {.g-col-6}
+#### **Option 1 (Offshore):**
 - Higher business risk due to foreign operations
-- May require higher discount rate (remember beta adjustments from Day 2)
+- May require higher discount rate (country risk premium adjustments)
 - Currency and political risks not captured in domestic WACC
+:::
 
-**Option 2 (Domestic Expansion):**
+::: {.g-col-6}
+#### **Option 2 (Domestic Expansion):**
 - Market development risk
 - May warrant risk premium above current WACC
 - But lower operational risk than offshore option
 
-**From Day 2**: Remember that project-specific risk adjustments may be needed when projects differ significantly from current operations
+**Key Principle:** Project-specific risk adjustments may be needed when projects differ significantly from current operations
+:::
 
-## Interactive Exercise: Strategic Evaluation
-
-**Group Activity (25 minutes):**
-
-**Teams of 3-4 students**
-- **Team A & B**: Analyze Option 1 (Offshore Production)
-- **Team C & D**: Analyze Option 2 (Domestic Expansion)
-
-**Your Task:**
-1. Complete strategic analysis using our framework
-2. Identify 3 key financial considerations
-3. Assess 3 major risks and mitigation strategies
-4. Develop preliminary recommendation
-5. Prepare 5-minute presentation
-
-**Use Your Day 1-3 Knowledge**: Reference NPV concepts, cost of capital adjustments, and dividend policy implications
-
-## Group Presentation Format
-
-**5-Minute Presentation Structure:**
-
-1. **Strategic Summary** (1 minute)
-   - Option overview and strategic logic
-
-2. **Financial Analysis** (2 minutes)
-   - Key cash flow drivers and NPV considerations
-   - Cost of capital and risk adjustments
-
-3. **Risk Assessment** (1 minute)
-   - Top 3 risks and mitigation strategies
-
-4. **Recommendation** (1 minute)
-   - Clear recommendation with primary justification
-
-**Evaluation Criteria**: Integration of Days 1-3 concepts, clear reasoning, professional presentation
-
-## Synthesis: Bringing It All Together
-
-**Decision-Making Integration:**
-
-**From Day 1**: Both options may have positive NPV, but strategic considerations matter
-**From Day 2**: Project-specific risk adjustments are crucial for international projects
-**From Day 3**: Strategic choice affects future dividend capacity and shareholder expectations
-
-**Key Insight**: Financial analysis provides the foundation, but strategic analysis determines long-term success
+:::
 
 ## Professional Application for Legal Advisors
 
-**Due Diligence Applications:**
+::: {.grid}
+
+::: {.g-col-6}
+#### **Due Diligence Applications:**
 - Strategic analysis frameworks for M&A evaluation
 - Risk assessment methodologies for client advisement
 - Stakeholder impact evaluation for corporate transactions
 
-**Corporate Governance:**
+#### **Corporate Governance:**
 - Board decision-making processes
 - Fiduciary duty considerations
 - Stakeholder balancing requirements
+:::
 
-**Regulatory Compliance:**
+::: {.g-col-6}
+#### **Regulatory Compliance:**
 - Strategic decision documentation
 - Risk management frameworks
 - Disclosure requirements
 
+#### **Professional Skills Development:**
+- Business strategy evaluation
+- Financial and legal integration
+- Evidence-based decision making
+:::
+
+:::
+
+## Risk Assessment Matrix
+
+::: {.grid}
+
+::: {.g-col-6}
+#### **Option 1: Offshore Production Risks**
+
+| Risk Category | Likelihood | Impact |
+|---------------|------------|--------|
+| Quality control issues | Medium | High |
+| Currency fluctuation | High | Medium |
+| Political/regulatory | Low | High |
+| Cultural/management | Medium | Medium |
+:::
+
+::: {.g-col-6}
+#### **Option 2: Domestic Expansion Risks**
+
+| Risk Category | Likelihood | Impact |
+|---------------|------------|--------|
+| Export market failure | Medium | High |
+| Capacity utilization | Medium | Medium |
+| Competition response | High | Medium |
+| Regulatory barriers | Low | Medium |
+:::
+
+:::
+
+## Synthesis: Bringing It All Together
+
+#### **Decision-Making Integration:**
+
+::: {.grid}
+
+::: {.g-col-4}
+**From Investment Appraisal**: Both options may have positive NPV, but strategic considerations matter
+:::
+
+::: {.g-col-4}
+**From Cost of Capital Theory**: Project-specific risk adjustments are crucial for international projects
+:::
+
+::: {.g-col-4}
+**From Dividend Policy**: Strategic choice affects future dividend capacity and shareholder expectations
+:::
+
+:::
+
+**Key Insight**: Financial analysis provides the foundation, but strategic analysis determines long-term success
+
 ## Coursework Application Guidance
 
-**Case 1 Report Structure (Strategic Section):**
+::: {.grid}
+
+::: {.g-col-6}
+#### **Case 1 Report Structure:**
 
 1. **Executive Summary** (150 words)
    - Clear recommendation with key supporting points
@@ -300,61 +413,146 @@ This is a **growth investment project** - requires detailed NPV analysis with ma
    - Option evaluation using systematic framework
    - Risk assessment and mitigation strategies
    - Stakeholder impact evaluation
+:::
 
+::: {.g-col-6}
 3. **Integration with Financial Analysis** (200 words)
    - Connection to NPV calculations
    - Cost of capital considerations
    - Risk-adjusted returns assessment
 
-**Professional Writing Tips**: Use clear headings, bullet points for key findings, and specific evidence to support arguments
+#### **Professional Writing Tips:** 
+Use clear headings, bullet points for key findings, and specific evidence to support arguments
+:::
 
-## Common Mistakes to Avoid
+:::
 
-**Strategic Analysis Errors:**
-- Focusing only on financial numbers without strategic context
-- Ignoring stakeholder impacts and implementation challenges
-- Failing to connect analysis to competitive dynamics
-- Weak or unsupported recommendations
+## Academic Writing Quality: A Word on Word Counts ⚠️
 
-**Integration Failures:**
-- Not connecting Day 1 NPV concepts to strategic choice
-- Ignoring Day 2 cost of capital risk adjustments
-- Missing Day 3 dividend policy implications
+#### **Key Principle: Substance Over Length**
 
-**Presentation Issues:**
-- Poor structure and unclear arguments
-- Lack of specific evidence and examples
-- Inconsistent analysis across different sections
+The 2,000-word limit is precisely that—a **limit, not a target**. Think of it as academic headroom, not a volume to fill.
 
-## Key Takeaways for Success
+::: {.grid}
 
-**Strategic Analysis Excellence:**
+::: {.g-col-6}
+#### **What Successful Students Do:**
+- **Concise, well-reasoned arguments** over verbose padding
+- **Quality thinking expressed clearly** over stretched prose
+- **Authentic scholarly voice** over algorithm-generated content
+- **Critical analysis** over superficial coverage
+:::
+
+::: {.g-col-6}
+#### **Areas for Development:**
+- Dense text that could be more focused
+- Content that could be more specific to the case
+- Analysis that could integrate course concepts more clearly
+- Writing that could demonstrate clearer personal insights
+:::
+
+:::
+
+:::{.callout-tip}
+**Remember**: LLMs are essentially "verbosity maximizers" - they excel at generating lots of words but often sacrifice precision and insight. Your goal is the opposite: maximum insight with minimum words.
+:::
+
+:::{.callout-important}
+**AI Tools Guidance**
+
+Remember our module principle: **LLM Premiums ≠ Premium Thinking**. 
+
+While ChatGPT Plus, Claude Pro, and other premium AI tools can assist with research and grammar, your coursework success depends on *your* critical analysis and authentic insights.
+
+[See full AI policy →](../index.html#ai-tools-policy-)
+:::
+
+:::{.callout-important}
+**Professor's Perspective**
+
+The best academic writers are those who can distill complex ideas into crystal-clear insights.
+
+**"Some of the finest academic work I've assessed has come in well under the maximum word count. Remember that editing is as much a skill as writing. Substance over length, always.**
+
+**Write until you've made your point brilliantly—then stop."**
+
+*Every. Single. Word. Must. Earn. Its. Place.*
+:::
+
+## Guidance for Excellence
+
+::: {.grid}
+
+::: {.g-col-6}
+#### **Strategic Analysis Excellence:**
+- Focus on systematic frameworks for consistent evaluation
+- Integrate financial and strategic considerations effectively
+- Consider all stakeholder impacts comprehensively
+- Develop clear, evidence-based recommendations
+
+#### **Course Integration Success:**
+- Connect NPV concepts to strategic choice
+- Apply cost of capital risk adjustments appropriately
+- Consider dividend policy implications thoughtfully
+:::
+
+::: {.g-col-6}
+#### **Presentation Excellence:**
+- Use clear structure and logical arguments
+- Include specific evidence and relevant examples
+- Maintain consistent analysis across sections
+
+#### **Academic Writing Excellence:**
+- Focus on insight over word count
+- Emphasize authentic analysis over AI-generated content
+- Prioritize evidence-based reasoning over opinion
+:::
+
+:::
+
+## Key Success Strategies
+
+::: {.grid}
+
+::: {.g-col-6}
+#### **Strategic Analysis Approach:**
 - Use systematic frameworks for consistent evaluation
 - Integrate financial and strategic considerations
 - Consider all stakeholder impacts comprehensively
 - Develop clear, justified recommendations
 
-**Connection to Course Content:**
-- Apply Day 1 investment appraisal rigorously
-- Use Day 2 cost of capital concepts for risk adjustment
-- Consider Day 3 dividend policy implications
+#### **Connection to Course Content:**
+- Apply investment appraisal rigorously
+- Use cost of capital concepts for risk adjustment
+- Consider dividend policy implications
+:::
 
-**Professional Development:**
+::: {.g-col-6}
+#### **Professional Development:**
 - Develop skills directly applicable to legal practice
 - Build confidence in business strategy evaluation
 - Learn to integrate financial and legal considerations
 
+#### **Assessment Success:**
+- Focus on frameworks over specific answers
+- Develop authentic analytical voice
+- Use evidence and reasoning to support arguments
+- Remember: good process leads to good outcomes
+:::
+
+:::
+
 ## Session 1 Wrap-Up
 
-**What We've Accomplished:**
+#### **What We've Accomplished:**
 - Developed systematic strategic analysis approach
 - Connected strategic decisions to financial evaluation
 - Practiced professional presentation skills
 - Prepared framework for coursework success
 
-**Next Session Preview:**
+#### **Next Session Preview:**
 - Deep dive into Case 2 NPV calculations
 - Master inflation adjustments and sensitivity analysis
-- Build on Day 1 NPV concepts with advanced applications
+- Build on NPV concepts with advanced applications
 
 **Take a 15-minute break - return ready for advanced financial modeling!**

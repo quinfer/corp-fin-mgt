@@ -381,6 +381,110 @@ In recognition of the mathematically complex nature of some module content, the 
 
 # Module Policies
 
+## Artificial Intelligence (AI) Tools Policy
+
+### Philosophy: LLM Premiums ≠ Premium Thinking
+
+This module recognizes that AI tools are increasingly part of the professional landscape. However, we operate under the fundamental principle that **paying for premium AI services does not generate premium thinking**. The goal is to develop your authentic analytical capabilities, not to outsource them.
+
+### Appropriate Uses of AI Tools
+
+#### ✅ **Encouraged Uses:**
+- **Research assistance**: Finding relevant sources and academic materials
+- **Technical clarification**: Understanding financial formulas or concepts
+- **Writing mechanics**: Grammar checking and basic proofreading
+- **Calculation verification**: Double-checking mathematical computations
+- **Brainstorming**: Generating initial ideas for further development
+- **Translation**: Converting financial concepts between languages
+
+#### ⚠️ **Conditional Uses (Require Attribution):**
+- **Explanation requests**: Asking AI to explain complex financial theories
+- **Example generation**: Creating practice scenarios for learning
+- **Structure suggestions**: Getting framework ideas for reports
+
+*When using AI in these ways, you must clearly state: "AI assistance was used for [specific purpose]"*
+
+### Prohibited Uses
+
+#### ❌ **Strictly Forbidden:**
+- **Content generation**: Having AI write substantial portions of your assignments
+- **Analysis substitution**: Using AI to perform critical evaluation for you
+- **Argument development**: Letting AI construct your academic arguments
+- **Data interpretation**: Having AI analyze financial data on your behalf
+- **Recommendation formulation**: Using AI to develop business recommendations
+
+### The Premium AI Fallacy
+
+#### **Common Misconceptions:**
+- "ChatGPT Plus will write better assignments" ❌
+- "Claude Pro understands corporate finance" ❌
+- "Latest AI models = automatic academic success" ❌
+
+#### **Reality Check:**
+- **AI are verbosity maximizers**, optimized for volume, not insight
+- **Premium subscriptions** buy processing power, not critical thinking
+- **Latest models** are better at generating convincing-sounding content, making them more dangerous for academic work
+- **Experienced markers** can readily identify AI-generated analysis
+
+### Academic Integrity Standards
+
+#### **What We Expect:**
+1. **Your authentic voice** in all written work
+2. **Your critical analysis** of financial concepts and cases
+3. **Your synthesis** of course materials and external sources
+4. **Your professional judgment** in making business recommendations
+
+#### **Red Flags for Markers:**
+- Sudden changes in writing style or sophistication
+- Generic analysis lacking specific course content integration
+- Verbose explanations without focused insight
+- Perfect grammar with shallow reasoning
+- Repetitive phrase patterns common to AI output
+
+### Professional Development Rationale
+
+The restrictions exist because:
+
+1. **Employers value human judgment**: No organization wants managers who can't think critically without AI
+2. **Professional responsibility**: Future roles require authentic decision-making capabilities
+3. **Competitive advantage**: Your unique analytical skills differentiate you in the job market
+4. **Ethical obligations**: Business leaders must make independent judgments on complex issues
+
+### Practical Guidelines
+
+#### **Before Using Any AI Tool, Ask:**
+- "What am I trying to learn here?"
+- "How will using AI help or hinder my understanding?"
+- "Can I explain and defend the output as my own thinking?"
+- "Am I using AI as a crutch or as a legitimate tool?"
+
+#### **Best Practices:**
+- Use AI for understanding, not for doing
+- Always verify AI information against credible sources
+- Develop your ideas first, then use AI for refinement
+- Maintain a clear audit trail of your thinking process
+
+### Declaration Requirements
+
+For all assessments, include this statement:
+
+*"I declare that this work represents my own critical thinking and analysis. Any AI assistance used was limited to [specify: grammar checking/concept clarification/calculation verification] and did not substitute for my own intellectual contribution."*
+
+### Consequences of Violations
+
+- **Minor violations**: Opportunity to resubmit with guidance
+- **Substantial violations**: Academic misconduct proceedings
+- **Severe violations**: Module failure and program review
+
+### Support and Guidance
+
+If you're unsure about appropriate AI use:
+- Consult with the module coordinator before using AI tools
+- Attend workshops on academic integrity and AI
+- Use provided practice materials to develop skills independently
+
+Remember: The goal is to develop **your** expertise in corporate financial management, not to become proficient at prompting AI tools.
+
 ## Late Submissions
 
 Late submissions of the coursework will be penalized according to university policy:

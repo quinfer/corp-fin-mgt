@@ -47,74 +47,26 @@ This table links each topic area in the module with the relevant chapters from A
 | **Sources of Finance** | Chapters 3, 6–7 | [Slides](/slides/day2-morning-slides.html) / [PDF](/materials/day2-morning-slides.pdf) | [Damodaran: Corporate Finance](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/cf.html) <br> [Investopedia: Corporate Finance](https://www.investopedia.com/terms/c/corporatefinance.asp) |
 | **Cost of Capital & Capital Structure** | Chapters 5, 7–8 | [Slides](/slides/day2-afternoon-slides.html) / [PDF](/materials/day2-afternoon-slides.pdf) | [Damodaran: WACC Data](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html) <br> [YouTube: DCF Overview](https://www.youtube.com/watch?v=Pj19yJQgId8) |
 | **Dividend Policy** | Chapter 9 | [Slides](/slides/day3-morning-slides.html) / [PDF](/materials/day3-morning-slides.pdf) | [Damodaran: Dividend Policy](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dividends.html) <br> [Investopedia: Dividend Policy](https://www.investopedia.com/terms/d/dividend.asp) |
-| **Assessment Preparation & Integration** | All Chapters | [Day 4 Materials](/materials/day4-complete-materials.html) / [PDF](/materials/day4-complete-materials.pdf) | [EU Directive 2024/1760](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1760) <br> [Exam Preparation Guide](/resources/exam-solutions.html) |
+| **Strategic Analysis Foundation** | All Chapters | [Slides](/slides/day4-session1a-slides.html) / [PDF](/materials/day4-session1a-slides.pdf) | [Strategic Analysis Tools](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lecnotes/strategy.html) <br> [Coursework Case 1 Guidance](/resources/coursework.html) |
+| **Strategic Analysis Implementation** | All Chapters | [Slides](/slides/day4-session1b-slides.html) / [PDF](/materials/day4-session1b-slides.pdf) | [Risk Assessment Methods](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/risk.html) <br> [Professional Application Framework](/resources/coursework.html) |
+| **Advanced NPV with Inflation** | Chapters 4–5 | [Slides](/slides/day4-session2-slides.html) / [PDF](/materials/day4-session2-slides.pdf) | [Real vs Nominal Analysis](https://pages.stern.nyu.edu/~adamodar/pdfiles/eqnotes/dcfallOld.pdf) <br> [Coursework Case 2 Guidance](/resources/coursework.html) |
+| **EU Sustainability Directive Analysis** | All Chapters | [Slides](/slides/day4-session3-slides.html) / [PDF](/materials/day4-session3-slides.pdf) | [EU Directive 2024/1760](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1760) <br> [ESG in Corporate Finance](https://www.investopedia.com/terms/e/environmental-social-and-governance-esg-criteria.asp) |
+| **Exam Strategy & Integration** | All Chapters | [Slides](/slides/day4-session4-slides.html) / [PDF](/materials/day4-session4-slides.pdf) | [Exam Preparation Guide](/resources/exam-solutions.html) <br> [Formula Reference Sheet](/resources/formula-reference-sheet.html) |
 
-## Day 4: Assessment Preparation Workshop
+## Assessment Preparation Workshop
 
-Comprehensive materials for the final day intensive revision and assessment preparation session.
+The comprehensive Day 4 materials above provide intensive revision and assessment preparation covering:
+- **Session 1**: Strategic frameworks for coursework Case 1
+- **Session 2**: Advanced NPV calculations for coursework Case 2  
+- **Session 3**: EU Directive analysis (40% of coursework marks)
+- **Session 4**: Exam success strategies and course integration
 
-::: {.resource-card}
-### Session 1: Strategic Analysis Framework
-Materials for coursework Case 1 preparation with systematic frameworks for strategic decision-making.
+### Creating PDF Handouts from Slides
 
-::: {.button-group}
-[View Slides](/slides/day4-session1-slides.html){.btn .btn-primary}
-[Download PDF](/materials/day4-session1-slides.pdf){.btn .btn-secondary}
-:::
-:::
-
-::: {.resource-card}
-### Session 2: Advanced NPV with Inflation
-Step-by-step guidance for coursework Case 2 including differential inflation analysis and sensitivity testing.
-
-::: {.button-group}
-[View Slides](/slides/day4-session2-slides.html){.btn .btn-primary}
-[Download PDF](/materials/day4-session2-slides.pdf){.btn .btn-secondary}
-:::
-:::
-
-::: {.resource-card}
-### Session 3: EU Sustainability Directive Analysis
-Comprehensive coverage of Directive 2024/1760 requirements and application to corporate decision-making (40% of coursework marks).
-
-::: {.button-group}
-[View Slides](/slides/day4-session3-slides.html){.btn .btn-primary}
-[Download PDF](/materials/day4-session3-slides.pdf){.btn .btn-secondary}
-:::
-:::
-
-::: {.resource-card}
-### Session 4: Exam Strategy and Integration
-Time management strategies, quick reference formulas, and integration of all course concepts for exam success.
-
-::: {.button-group}
-[View Slides](/slides/day4-session4-slides.html){.btn .btn-primary}
-[Download PDF](/materials/day4-session4-slides.pdf){.btn .btn-secondary}
-:::
-:::
-
-
-### Creating PDF Handouts
-
-You can create PDF handouts directly from the RevealJS presentations:
-
-1. **Using the Print Function**:
-   - Open any presentation slides (e.g., slides/day1-morning-slides.html)
-   - Press "P" to enter print mode
-   - Use your browser's print function (Ctrl/Cmd+P)
-   - Select "Save as PDF" as the destination
-   - Configure as needed (landscape orientation recommended)
-   - Click "Save" or "Print"
-
-2. **Using Export Functions**:
-   - Press "E" to enter speaker view
-   - Look for the export options in the speaker notes panel
-   - Select "Export to PDF"
-
-3. **Customizing PDF Output**:
-   - For handouts with multiple slides per page, use print settings
-   - To include speaker notes, check "Include speaker notes" if available
-   - Adjust margins and scaling as needed
+You can create PDF handouts directly from any RevealJS presentation:
+- **Print Mode**: Press "P" in any slide presentation, then use browser's print function (Ctrl/Cmd+P) and "Save as PDF"
+- **Speaker View**: Press "E" for speaker view and look for export options
+- **Tip**: Use landscape orientation for best results
 
 ## Capital Investment Decisions Workbook and Guide
 
@@ -167,6 +119,16 @@ A topic-by-topic companion to the workbook, providing learning prompts, worked e
 ### Quick Reference Materials
 
 ::: {.resource-card}
+### Comprehensive Exam Preparation Pack
+Complete exam preparation guide for legal professionals including core concepts, step-by-step mathematical techniques, practice problems with detailed solutions, and strategic guidance.
+
+::: {.button-group}
+[View Online](/materials/finance-exam-prep-pack.html){.btn .btn-primary}
+[Download PDF](/materials/finance-exam-prep-pack.pdf){.btn .btn-secondary}
+:::
+:::
+
+::: {.resource-card}
 ### Formula Reference Sheet
 Comprehensive list of all essential formulas for exam success, organized by topic.
 
@@ -175,7 +137,6 @@ Comprehensive list of all essential formulas for exam success, organized by topi
 [Download PDF](/resources/formula-reference-sheet.pdf){.btn .btn-secondary}
 :::
 :::
-
 
 ## Recommended Readings
 

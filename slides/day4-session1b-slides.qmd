@@ -1,0 +1,267 @@
+---
+title: "Corporate Financial Management"
+subtitle: "Day 4 Session 1b: Strategic Analysis Implementation"
+author: "Barry Quinn"
+date: last-modified
+format:
+  revealjs:
+    footer: "Day 4 Session 1b: Strategic Analysis Implementation"
+    slide-number: true
+---
+
+## Session 1b Overview {.unnumbered}
+
+#### **Continuing Our Strategic Analysis Journey:**
+
+This presentation continues from Session 1a and covers:
+
+- **External Environment Analysis**: Market dynamics and competitive landscape
+- **Financial Evaluation Framework**: NPV and risk assessment integration
+- **Stakeholder Impact Analysis**: Comprehensive impact evaluation
+- **Professional Applications**: Legal and business advisory contexts
+- **Assessment Success Strategies**: Excellence frameworks and best practices
+
+#### **Our Focus:** 
+
+Transform strategic frameworks into practical implementation skills
+
+## Strategic Analysis: External Environment
+
+#### **Market Dynamics:**
+- Increasing price competition from imports
+- Growing demand for sustainable/quality products
+- Potential trade policy impacts (Brexit, tariffs)
+- Export market opportunities vs domestic saturation
+
+#### **Competitive Landscape:**
+- Foreign low-cost producers gaining market share
+- Quality differentiation under pressure
+- Potential for premium positioning internationally
+
+#### **Dividend Policy Connection:**
+How might each strategic choice affect the company's ability to maintain dividends?
+
+## Financial Evaluation Framework
+
+#### **Option 1 (Offshore Production):**
+- **Initial investment**: Factory closure costs, setup costs abroad
+- **Annual cash flows**: Labour cost savings vs additional logistics/quality costs
+- **Terminal value**: New production facility value
+- **Discount rate**: Country risk premium adjustment needed
+
+#### **Option 2 (Domestic Expansion):**
+- **Initial investment**: £4.5 million machinery (given)
+- **Annual cash flows**: Export revenue growth vs higher costs
+- **Terminal value**: Machinery residual value
+- **Discount rate**: Market development risk premium adjustment
+
+## Stakeholder Impact Analysis
+
+#### **Option 1: Offshore Production**
+
+**Shareholders:** Potentially higher short-term returns, higher risk
+
+**Employees:** Significant job losses, community impact
+
+**Customers:** Maintained domestic supply at competitive prices
+
+**Community:** Loss of local employment and economic contribution
+
+#### **Option 2: Domestic Expansion**
+
+**Shareholders:** Growth strategy with longer payback, more sustainable
+
+**Employees:** Job security, potential growth opportunities
+
+**Customers:** Continued quality focus, potential supply improvements
+
+**Community:** Maintained local presence, potential growth
+
+## Cost of Capital Relevance
+
+#### **Option 1 (Offshore):**
+- Higher business risk due to foreign operations
+- May require higher discount rate (country risk premium adjustments)
+- Currency and political risks not captured in domestic WACC
+
+#### **Option 2 (Domestic Expansion):**
+- Market development risk
+- May warrant risk premium above current WACC
+- But lower operational risk than offshore option
+
+**Key Principle:** Project-specific risk adjustments may be needed when projects differ significantly from current operations
+
+## Professional Application for Legal Advisors
+
+#### **Due Diligence Applications:**
+- Strategic analysis frameworks for M&A evaluation
+- Risk assessment methodologies for client advisement
+- Stakeholder impact evaluation for corporate transactions
+
+#### **Corporate Governance:**
+- Board decision-making processes
+- Fiduciary duty considerations
+- Stakeholder balancing requirements
+
+#### **Regulatory Compliance:**
+- Strategic decision documentation
+- Risk management frameworks
+- Disclosure requirements
+
+#### **Professional Skills Development:**
+- Business strategy evaluation
+- Financial and legal integration
+- Evidence-based decision making
+
+## Risk Assessment Matrix
+
+#### **Option 1: Offshore Production Risks**
+
+| Risk Category | Likelihood | Impact |
+|---------------|------------|--------|
+| Quality control issues | Medium | High |
+| Currency fluctuation | High | Medium |
+| Political/regulatory | Low | High |
+| Cultural/management | Medium | Medium |
+
+#### **Option 2: Domestic Expansion Risks**
+
+| Risk Category | Likelihood | Impact |
+|---------------|------------|--------|
+| Export market failure | Medium | High |
+| Capacity utilization | Medium | Medium |
+| Competition response | High | Medium |
+| Regulatory barriers | Low | Medium |
+
+## Synthesis: Bringing It All Together
+
+#### **Decision-Making Integration:**
+
+**From Investment Appraisal**: Both options may have positive NPV, but strategic considerations matter
+
+**From Cost of Capital Theory**: Project-specific risk adjustments are crucial for international projects
+
+**From Dividend Policy**: Strategic choice affects future dividend capacity and shareholder expectations
+
+**Key Insight**: Financial analysis provides the foundation, but strategic analysis determines long-term success
+
+## Coursework Application Guidance
+
+#### **Case 1 Report Structure:**
+
+1. **Executive Summary** (150 words)
+   - Clear recommendation with key supporting points
+
+2. **Strategic Analysis** (800 words)
+   - Situational analysis and competitive context
+   - Option evaluation using systematic framework
+   - Risk assessment and mitigation strategies
+   - Stakeholder impact evaluation
+
+3. **Integration with Financial Analysis** (200 words)
+   - Connection to NPV calculations
+   - Cost of capital considerations
+   - Risk-adjusted returns assessment
+
+#### **Professional Writing Tips:** 
+Use clear headings, bullet points for key findings, and specific evidence to support arguments
+
+## Academic Writing Quality: A Word on Word Counts ⚠️
+
+#### **Key Principle: Substance Over Length**
+
+The 2,000-word limit is precisely that—a **limit, not a target**. Think of it as academic headroom, not a volume to fill.
+
+#### **What Successful Students Do:**
+- **Concise, well-reasoned arguments** over verbose padding
+- **Quality thinking expressed clearly** over stretched prose
+- **Authentic scholarly voice** over algorithm-generated content
+- **Critical analysis** over superficial coverage
+
+#### **Areas for Development:**
+- Dense text that could be more focused
+- Content that could be more specific to the case
+- Analysis that could integrate course concepts more clearly
+- Writing that could demonstrate clearer personal insights
+
+**Remember**: LLMs are essentially "verbosity maximizers" - they excel at generating lots of words but often sacrifice precision and insight. Your goal is the opposite: maximum insight with minimum words.
+
+#### **AI Tools Guidance**
+
+Remember our module principle: **LLM Premiums ≠ Premium Thinking**. 
+
+While ChatGPT Plus, Claude Pro, and other premium AI tools can assist with research and grammar, your coursework success depends on *your* critical analysis and authentic insights.
+
+[See full AI policy →](../index.html#ai-tools-policy-)
+
+#### **Professor's Perspective**
+
+The best academic writers are those who can distill complex ideas into crystal-clear insights.
+
+**"Some of the finest academic work I've assessed has come in well under the maximum word count. Remember that editing is as much a skill as writing. Substance over length, always.**
+
+**Write until you've made your point brilliantly—then stop."**
+
+*Every. Single. Word. Must. Earn. Its. Place.*
+
+## Guidance for Excellence
+
+#### **Strategic Analysis Excellence:**
+- Focus on systematic frameworks for consistent evaluation
+- Integrate financial and strategic considerations effectively
+- Consider all stakeholder impacts comprehensively
+- Develop clear, evidence-based recommendations
+
+#### **Course Integration Success:**
+- Connect NPV concepts to strategic choice
+- Apply cost of capital risk adjustments appropriately
+- Consider dividend policy implications thoughtfully
+
+#### **Presentation Excellence:**
+- Use clear structure and logical arguments
+- Include specific evidence and relevant examples
+- Maintain consistent analysis across sections
+
+#### **Academic Writing Excellence:**
+- Focus on insight over word count
+- Emphasize authentic analysis over AI-generated content
+- Prioritize evidence-based reasoning over opinion
+
+## Key Success Strategies
+
+#### **Strategic Analysis Approach:**
+- Use systematic frameworks for consistent evaluation
+- Integrate financial and strategic considerations
+- Consider all stakeholder impacts comprehensively
+- Develop clear, justified recommendations
+
+#### **Connection to Course Content:**
+- Apply investment appraisal rigorously
+- Use cost of capital concepts for risk adjustment
+- Consider dividend policy implications
+
+#### **Professional Development:**
+- Develop skills directly applicable to legal practice
+- Build confidence in business strategy evaluation
+- Learn to integrate financial and legal considerations
+
+#### **Assessment Success:**
+- Focus on frameworks over specific answers
+- Develop authentic analytical voice
+- Use evidence and reasoning to support arguments
+- Remember: good process leads to good outcomes
+
+## Session 1 Wrap-Up
+
+#### **What We've Accomplished:**
+- Developed systematic strategic analysis approach
+- Connected strategic decisions to financial evaluation
+- Practiced professional presentation skills
+- Prepared framework for coursework success
+
+#### **Next Session Preview:**
+- Deep dive into Case 2 NPV calculations
+- Master inflation adjustments and sensitivity analysis
+- Build on NPV concepts with advanced applications
+
+**Take a 15-minute break - return ready for advanced financial modeling!**
