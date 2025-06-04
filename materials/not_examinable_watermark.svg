@@ -1,0 +1,36 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Semi-transparent background -->
+  <rect width="400" height="300" fill="white" opacity="0.1"/>
+  
+  <!-- Main watermark text -->
+  <text x="200" y="120" 
+        font-family="Arial, sans-serif" 
+        font-size="32" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="#FF6B6B" 
+        opacity="0.3"
+        transform="rotate(-25 200 120)">
+    NOT EXAMINABLE
+  </text>
+  
+  <!-- Secondary text -->
+  <text x="200" y="160" 
+        font-family="Arial, sans-serif" 
+        font-size="16" 
+        text-anchor="middle" 
+        fill="#666666" 
+        opacity="0.4"
+        transform="rotate(-25 200 160)">
+    Reference Material Only
+  </text>
+  
+  <!-- Decorative border elements -->
+  <rect x="50" y="50" width="300" height="200" 
+        fill="none" 
+        stroke="#FF6B6B" 
+        stroke-width="2" 
+        stroke-dasharray="10,5" 
+        opacity="0.2"
+        transform="rotate(-25 200 150)"/>
+</svg>

@@ -133,8 +133,17 @@ Complete exam preparation guide for legal professionals including core concepts,
 Comprehensive list of all essential formulas for exam success, organized by topic.
 
 ::: {.button-group}
-[View Online](/resources/formula-reference-sheet.html){.btn .btn-primary}
-[Download PDF](/resources/formula-reference-sheet.pdf){.btn .btn-secondary}
+[View Online](/materials/formula-reference-sheet.html){.btn .btn-primary}
+[Download PDF](/materials/formula-reference-sheet.pdf){.btn .btn-secondary}
+:::
+:::
+
+::: {.resource-card}
+### Sample Solution May 2024
+
+::: {.button-group}
+[Exam PDF](/materials/may-2024.pdf){.btn .btn-primary}
+[Solutions PDF](/materials/pedagogical_solutions_may_2024_exam.pdf){.btn .btn-secondary}
 :::
 :::
 

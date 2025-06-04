@@ -62,10 +62,15 @@ class CorporateFinanceExcelGenerator:
         
         ws = self.wb.create_sheet("Q1_Mylan_Contract")
         
-        # Title
+        # Title with important note
         ws['A1'] = "QUESTION 1: MYLAN CONTRACT ANALYSIS"
         ws['A1'].style = self.header_style
         ws.merge_cells('A1:H1')
+        
+        # Important correction note
+        ws['A2'] = "CORRECTED VERSION: NO TAX APPLIED (as question states 'Ignore tax')"
+        ws['A2'].font = Font(bold=True, color='FFFF0000')  # Red text for emphasis
+        ws.merge_cells('A2:H2')
         
         # Given Data Section
         ws['A3'] = "GIVEN DATA"
@@ -96,7 +101,7 @@ class CorporateFinanceExcelGenerator:
             cell = ws.cell(row=9, column=col_idx, value=header)
             cell.style = self.header_style
         
-        # Cash flow components
+        # Cash flow components (CORRECTED - NO TAX as question states "Ignore tax")
         cash_flows = [
             ('Contract Revenue', 0, 750, 900, 1500, 1500, 1500),
             ('Other Business Income', 0, 50, 150, 150, 200, 200),
@@ -139,8 +144,14 @@ class CorporateFinanceExcelGenerator:
         ws.cell(row=22, column=1, value="NPV OPTION 1").style = self.result_style
         ws.cell(row=22, column=2, value="=SUM(B20:G20)").style = self.result_style
         
-        # Option 2 Analysis (similar structure)
+        # Option 2 Analysis
         self._create_option2_analysis(ws, start_row=24)
+        
+        # Part (c) Sensitivity Analysis
+        self._create_sensitivity_analysis(ws, start_row=45)
+        
+        # Part (d) Payback Period Analysis
+        self._create_payback_analysis(ws, start_row=60)
         
         # Formatting
         self._format_worksheet(ws)
@@ -148,10 +159,11 @@ class CorporateFinanceExcelGenerator:
     def _create_option2_analysis(self, ws, start_row):
         """Create Option 2 analysis section"""
         ws.cell(row=start_row, column=1, value="OPTION 2 ANALYSIS").style = self.header_style
+        ws.cell(row=start_row, column=10, value="OPTION 2 ANALYSIS").style = self.header_style
         
-        # Headers
+        # Headers for Option 2 (columns J-P)
         headers = ['', 'Year 0', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5']
-        for col_idx, header in enumerate(headers, start=1):
+        for col_idx, header in enumerate(headers, start=10):
             ws.cell(row=start_row+1, column=col_idx, value=header).style = self.header_style
         
         # Cash flows for Option 2
@@ -165,11 +177,188 @@ class CorporateFinanceExcelGenerator:
         ]
         
         for row_idx, (label, *values) in enumerate(cash_flows_opt2, start=start_row+2):
-            ws.cell(row=row_idx, column=1, value=label).style = self.header_style
-            for col_idx, value in enumerate(values, start=2):
+            ws.cell(row=row_idx, column=10, value=label).style = self.header_style
+            for col_idx, value in enumerate(values, start=11):
                 cell = ws.cell(row=row_idx, column=col_idx, value=value)
                 if value < 0:
                     cell.font = Font(color=self.colors['negative'])
+                cell.style = self.input_style
+
+        # Initial investment for Option 2
+        ws.cell(row=start_row+8, column=10, value="Initial Investment").style = self.header_style
+        ws.cell(row=start_row+8, column=11, value=-1500)  # £1.5m upfront
+        ws.cell(row=start_row+8, column=11).font = Font(color=self.colors['negative'])
+        
+        # Net cash flow formula for Option 2
+        ws.cell(row=start_row+9, column=10, value="NET CASH FLOW").style = self.header_style
+        # Year 0: Initial investment
+        ws.cell(row=start_row+9, column=11, value=-1500)
+        # Years 1-5: Sum of cash flows
+        for col in range(12, 17):  # Columns L to P (Years 1-5)
+            col_letter = get_column_letter(col)
+            start_col_letter = get_column_letter(col)
+            formula = f"=SUM({col_letter}{start_row+2}:{col_letter}{start_row+7})"
+            ws.cell(row=start_row+9, column=col, value=formula)
+        
+        # Discount factors for Option 2
+        ws.cell(row=start_row+11, column=10, value="Discount Factor (10%)").style = self.header_style
+        discount_factors = [1.000, 0.909, 0.826, 0.751, 0.683, 0.621]
+        for col_idx, factor in enumerate(discount_factors, start=11):
+            ws.cell(row=start_row+11, column=col_idx, value=factor)
+        
+        # Present values for Option 2
+        ws.cell(row=start_row+12, column=10, value="Present Value").style = self.header_style
+        for col in range(11, 17):
+            col_letter = get_column_letter(col)
+            cf_row = start_row + 9
+            df_row = start_row + 11
+            formula = f"={col_letter}{cf_row}*{col_letter}{df_row}"
+            ws.cell(row=start_row+12, column=col, value=formula)
+        
+        # NPV calculation for Option 2
+        ws.cell(row=start_row+14, column=10, value="NPV OPTION 2").style = self.result_style
+        ws.cell(row=start_row+14, column=11, value="=SUM(K{0}:P{0})".format(start_row+12)).style = self.result_style
+        
+        # Recommendation
+        ws.cell(row=start_row+16, column=10, value="RECOMMENDATION").style = self.header_style
+        ws.cell(row=start_row+17, column=10, value="=IF(B22>K{0},\"Choose Option 1\",\"Choose Option 2\")".format(start_row+14))
+        ws.cell(row=start_row+17, column=10).style = self.result_style
+
+    def _create_sensitivity_analysis(self, ws, start_row):
+        """Create Part (c) Sensitivity Analysis section"""
+        ws.cell(row=start_row, column=1, value="PART (C): SENSITIVITY ANALYSIS").style = self.header_style
+        
+        # IRR Calculation using interpolation method
+        ws.cell(row=start_row+2, column=1, value="IRR Calculation (Option 1)").style = self.header_style
+        
+        # Trial 1: 10% discount rate
+        ws.cell(row=start_row+4, column=1, value="Trial 1 - Rate 1:")
+        ws.cell(row=start_row+4, column=2, value="10%").style = self.input_style
+        ws.cell(row=start_row+5, column=1, value="NPV at 10%:")
+        ws.cell(row=start_row+5, column=2, value="=B22").style = self.result_style  # Reference to Option 1 NPV
+        
+        # Trial 2: Higher discount rate
+        ws.cell(row=start_row+7, column=1, value="Trial 2 - Rate 2:")
+        ws.cell(row=start_row+7, column=2, value="20%").style = self.input_style
+        
+        # Calculate NPV at 20% for Option 1
+        ws.cell(row=start_row+8, column=1, value="NPV at 20%:")
+        # This requires recalculating with 20% discount factors
+        discount_20_factors = [1.000, 0.833, 0.694, 0.579, 0.482, 0.402]
+        
+        # Create calculation area for 20% NPV
+        ws.cell(row=start_row+10, column=1, value="Cash Flows (Option 1):")
+        opt1_cashflows = [-1200, -224, -24, 456, 1088, 1088]  # From correct analysis (no tax)
+        
+        for col_idx, cf in enumerate(opt1_cashflows, start=2):
+            ws.cell(row=start_row+10, column=col_idx, value=cf)
+            
+        ws.cell(row=start_row+11, column=1, value="Discount Factors (20%):")
+        for col_idx, df in enumerate(discount_20_factors, start=2):
+            ws.cell(row=start_row+11, column=col_idx, value=df)
+            
+        ws.cell(row=start_row+12, column=1, value="Present Values (20%):")
+        for col in range(2, 8):
+            col_letter = get_column_letter(col)
+            pv_formula = f"={col_letter}{start_row+10}*{col_letter}{start_row+11}"
+            ws.cell(row=start_row+12, column=col, value=pv_formula)
+            
+        # NPV at 20%
+        ws.cell(row=start_row+8, column=2, value="=SUM(B{0}:G{0})".format(start_row+12))
+        
+        # IRR Interpolation Formula
+        ws.cell(row=start_row+14, column=1, value="IRR Calculation:")
+        ws.cell(row=start_row+14, column=2, value="=B{0}+(B{1}*(B{2}-B{0}))/(B{1}-B{3})".format(
+            start_row+4, start_row+5, start_row+7, start_row+8
+        )).style = self.result_style
+        
+        # Interpretation
+        ws.cell(row=start_row+16, column=1, value="Sensitivity Interpretation:")
+        ws.cell(row=start_row+17, column=1, value="Project remains viable until cost of capital reaches:")
+        ws.cell(row=start_row+17, column=2, value="=B{0}".format(start_row+14)).style = self.result_style
+
+    def _create_payback_analysis(self, ws, start_row):
+        """Create Part (d) Payback Period Analysis section"""
+        ws.cell(row=start_row, column=1, value="PART (D): PAYBACK PERIOD ANALYSIS").style = self.header_style
+        
+        # Option 1 Payback
+        ws.cell(row=start_row+2, column=1, value="OPTION 1 PAYBACK PERIOD").style = self.header_style
+        
+        # Set up payback calculation table
+        payback_headers = ['Year', 'Annual Cash Flow', 'Cumulative Cash Flow']
+        for col_idx, header in enumerate(payback_headers, start=1):
+            ws.cell(row=start_row+4, column=col_idx, value=header).style = self.header_style
+        
+        # Payback data for Option 1 (correct cash flows without tax)
+        payback_data = [
+            (0, -1200, -1200),
+            (1, -224, "=C{0}+B{1}".format(start_row+5, start_row+6)),
+            (2, -24, "=C{0}+B{1}".format(start_row+6, start_row+7)),
+            (3, 456, "=C{0}+B{1}".format(start_row+7, start_row+8)),
+            (4, 1088, "=C{0}+B{1}".format(start_row+8, start_row+9)),
+            (5, 1088, "=C{0}+B{1}".format(start_row+9, start_row+10)),
+        ]
+        
+        for row_idx, (year, annual_cf, cumulative_cf) in enumerate(payback_data, start=start_row+5):
+            ws.cell(row=row_idx, column=1, value=year)
+            ws.cell(row=row_idx, column=2, value=annual_cf)
+            if isinstance(cumulative_cf, str):
+                ws.cell(row=row_idx, column=3, value=cumulative_cf)
+            else:
+                ws.cell(row=row_idx, column=3, value=cumulative_cf)
+        
+        # Payback period calculation
+        ws.cell(row=start_row+12, column=1, value="Payback Period (years):")
+        ws.cell(row=start_row+12, column=2, value="=3+ABS(C{0})/B{1}".format(start_row+8, start_row+9)).style = self.result_style
+        
+        # Option 2 Payback
+        ws.cell(row=start_row+15, column=1, value="OPTION 2 PAYBACK PERIOD").style = self.header_style
+        
+        # Set up payback calculation table for Option 2
+        for col_idx, header in enumerate(payback_headers, start=1):
+            ws.cell(row=start_row+17, column=col_idx, value=header).style = self.header_style
+        
+        # Payback data for Option 2 (correct cash flows without tax)
+        payback_data_opt2 = [
+            (0, -1500, -1500),
+            (1, 345, "=C{0}+B{1}".format(start_row+18, start_row+19)),
+            (2, 480, "=C{0}+B{1}".format(start_row+19, start_row+20)),
+            (3, 1020, "=C{0}+B{1}".format(start_row+20, start_row+21)),
+            (4, 1010, "=C{0}+B{1}".format(start_row+21, start_row+22)),
+            (5, 10, "=C{0}+B{1}".format(start_row+22, start_row+23)),
+        ]
+        
+        for row_idx, (year, annual_cf, cumulative_cf) in enumerate(payback_data_opt2, start=start_row+18):
+            ws.cell(row=row_idx, column=1, value=year)
+            ws.cell(row=row_idx, column=2, value=annual_cf)
+            if isinstance(cumulative_cf, str):
+                ws.cell(row=row_idx, column=3, value=cumulative_cf)
+            else:
+                ws.cell(row=row_idx, column=3, value=cumulative_cf)
+        
+        # Payback period calculation for Option 2
+        ws.cell(row=start_row+25, column=1, value="Payback Period (years):")
+        ws.cell(row=start_row+25, column=2, value="=2+ABS(C{0})/B{1}".format(start_row+20, start_row+21)).style = self.result_style
+        
+        # Payback comparison and explanation
+        ws.cell(row=start_row+28, column=1, value="PAYBACK PERIOD ANALYSIS").style = self.header_style
+        ws.cell(row=start_row+29, column=1, value="Option 1 Payback:")
+        ws.cell(row=start_row+29, column=2, value="=B{0}".format(start_row+12))
+        ws.cell(row=start_row+30, column=1, value="Option 2 Payback:")
+        ws.cell(row=start_row+30, column=2, value="=B{0}".format(start_row+25))
+        
+        # Explanation
+        ws.cell(row=start_row+32, column=1, value="Payback Method Explanation:")
+        explanations = [
+            "- Measures time to recover initial investment",
+            "- Simpler but ignores time value of money",
+            "- Option 2 has shorter payback period", 
+            "- But Option 1 has higher NPV (better long-term value)",
+            "- Use alongside NPV for complete evaluation"
+        ]
+        
+        for idx, explanation in enumerate(explanations, start=start_row+33):
+            ws.cell(row=idx, column=1, value=explanation)
 
     def create_q2_kendall_sheet(self):
         """Create Question 2: Kendall PLC WACC sheet"""
@@ -627,20 +816,77 @@ class CorporateFinanceExcelGenerator:
 
     def create_charts(self):
         """Create charts for visual analysis"""
-        # NPV Comparison Chart
+        # NPV Comparison Chart for Question 1
         if 'Q1_Mylan_Contract' in self.wb.sheetnames:
             ws = self.wb['Q1_Mylan_Contract']
+            
+            # Create data for NPV comparison chart - moved to column J to avoid merged cell conflicts
+            ws['J2'] = "NPV Comparison"
+            ws['J2'].style = self.header_style
+            ws['J3'] = "Option"
+            ws['J4'] = "Option 1"
+            ws['J5'] = "Option 2"
+            ws['K3'] = "NPV (£)"
+            ws['K4'] = "=B22"  # Option 1 NPV
+            ws['K5'] = "=K38"  # Option 2 NPV - updated to correct row reference
             
             # Create bar chart for NPV comparison
             chart = BarChart()
             chart.title = "NPV Comparison: Option 1 vs Option 2"
             chart.y_axis.title = "NPV (£)"
-            chart.x_axis.title = "Options"
+            chart.x_axis.title = "Investment Options"
             
-            # Add chart to worksheet (positioning)
-            ws.add_chart(chart, "I1")
+            # Set data range for the chart - updated column references
+            data = Reference(ws, min_col=11, min_row=3, max_col=11, max_row=5)  # Column K, rows 3-5
+            categories = Reference(ws, min_col=10, min_row=4, max_row=5)  # Column J, rows 4-5
+            
+            chart.add_data(data, titles_from_data=True)
+            chart.set_categories(categories)
+            
+            # Style the chart
+            chart.width = 15
+            chart.height = 10
+            
+            # Position chart on the worksheet - moved further right
+            ws.add_chart(chart, "L1")
+            
+            # Add sensitivity analysis chart - moved to avoid conflicts
+            ws['J7'] = "Sensitivity Data"
+            ws['J7'].style = self.header_style
+            ws['J8'] = "Discount Rate"
+            ws['K8'] = "NPV (£)"
+            
+            # Sample sensitivity data points
+            sensitivity_data = [
+                (0.05, "=NPV(0.05,C17:G17)+B17"),  # 5% rate
+                (0.08, "=NPV(0.08,C17:G17)+B17"),  # 8% rate  
+                (0.10, "=B22"),                     # 10% rate (base case)
+                (0.12, "=NPV(0.12,C17:G17)+B17"),  # 12% rate
+                (0.15, "=NPV(0.15,C17:G17)+B17"),  # 15% rate
+                (0.20, "=NPV(0.20,C17:G17)+B17"),  # 20% rate
+            ]
+            
+            for row_idx, (rate, npv_formula) in enumerate(sensitivity_data, start=9):
+                ws.cell(row=row_idx, column=10, value=rate)  # Column J
+                ws.cell(row=row_idx, column=11, value=npv_formula)  # Column K
+            
+            # Create line chart for sensitivity analysis
+            sens_chart = LineChart()
+            sens_chart.title = "NPV Sensitivity to Discount Rate"
+            sens_chart.y_axis.title = "NPV (£)"
+            sens_chart.x_axis.title = "Discount Rate"
+            
+            # Set data for sensitivity chart - updated column references
+            sens_data = Reference(ws, min_col=11, min_row=8, max_col=11, max_row=14)  # Column K
+            sens_cats = Reference(ws, min_col=10, min_row=9, max_row=14)  # Column J
+            
+            sens_chart.add_data(sens_data, titles_from_data=True)
+            sens_chart.set_categories(sens_cats)
+            
+            # Position sensitivity chart - moved further right
+            ws.add_chart(sens_chart, "L18")
         
-        # WACC Component Chart  
+        # WACC Component Chart for Question 2
         if 'Q2_Kendall_WACC' in self.wb.sheetnames:
             ws = self.wb['Q2_Kendall_WACC']
             
@@ -648,23 +894,84 @@ class CorporateFinanceExcelGenerator:
             chart = PieChart()
             chart.title = "WACC Components by Market Value"
             
-            # Set data range
+            # Set data range (market values)
             data = Reference(ws, min_col=2, min_row=37, max_col=2, max_row=39)
             labels = Reference(ws, min_col=1, min_row=37, max_row=39)
+            
             chart.add_data(data, titles_from_data=False)
             chart.set_categories(labels)
             
+            # Style the pie chart
+            chart.width = 15
+            chart.height = 10
+            
             ws.add_chart(chart, "G1")
+            
+        # EOQ Analysis Chart for Question 3
+        if 'Q3_Davison_Inventory' in self.wb.sheetnames:
+            ws = self.wb['Q3_Davison_Inventory']
+            
+            # Create cost comparison chart - moved to avoid merged cell conflicts
+            ws['G3'] = "Cost Comparison"
+            ws['G3'].style = self.header_style
+            ws['G4'] = "Option"
+            ws['H4'] = "Total Cost"
+            ws['G5'] = "EOQ"
+            ws['H5'] = "=B20"  # Reference to total cost
+            ws['G6'] = "3% Discount"  
+            ws['H6'] = "=B29"  # Reference to 3% discount total
+            ws['G7'] = "4% Discount"
+            ws['H7'] = "=B37"  # Reference to 4% discount total
+            
+            # Create bar chart
+            cost_chart = BarChart()
+            cost_chart.title = "Inventory Cost Comparison"
+            cost_chart.y_axis.title = "Annual Cost (£)"
+            cost_chart.x_axis.title = "Options"
+            
+            data = Reference(ws, min_col=8, min_row=4, max_col=8, max_row=7)  # Column H
+            categories = Reference(ws, min_col=7, min_row=5, max_row=7)  # Column G
+            
+            cost_chart.add_data(data, titles_from_data=True)
+            cost_chart.set_categories(categories)
+            
+            ws.add_chart(cost_chart, "I1")  # Moved further right
+            
+        # Ratio Analysis Dashboard for Question 4
+        if 'Q4_Vonn_Ratios' in self.wb.sheetnames:
+            ws = self.wb['Q4_Vonn_Ratios']
+            
+            # Create benchmark comparison chart - moved to avoid conflicts
+            ws['G3'] = "Ratio Performance vs Benchmarks"
+            ws['G3'].style = self.header_style
+            
+            # Create a simple comparison chart
+            perf_chart = BarChart()
+            perf_chart.title = "Vonn Ltd vs Industry Benchmarks"
+            perf_chart.y_axis.title = "Ratio Values"
+            perf_chart.x_axis.title = "Financial Ratios"
+            
+            # Use the benchmark comparison data
+            data = Reference(ws, min_col=2, min_row=30, max_col=4, max_row=34)
+            categories = Reference(ws, min_col=1, min_row=30, max_row=34)
+            
+            perf_chart.add_data(data, titles_from_data=False)
+            perf_chart.set_categories(categories)
+            
+            ws.add_chart(perf_chart, "G5")  # Positioned to avoid conflicts
 
     def _format_worksheet(self, ws):
         """Apply consistent formatting to worksheet"""
-        # Set column widths
-        for col in range(1, 10):
+        # Set column widths - extended to handle chart columns
+        for col in range(1, 15):  # Extended from 10 to 15 to handle chart columns
             col_letter = get_column_letter(col)
-            ws.column_dimensions[col_letter].width = 15
+            if col <= 8:  # Main data columns
+                ws.column_dimensions[col_letter].width = 15
+            else:  # Chart data columns
+                ws.column_dimensions[col_letter].width = 12
             
         # Set row heights
-        for row in range(1, 50):
+        for row in range(1, 80):  # Extended range to handle more content
             ws.row_dimensions[row].height = 20
             
         # Add borders
@@ -675,7 +982,7 @@ class CorporateFinanceExcelGenerator:
             bottom=Side(style='thin')
         )
         
-        for row in ws.iter_rows():
+        for row in ws.iter_rows(max_col=12):  # Limit border application to avoid chart areas
             for cell in row:
                 if cell.value is not None:
                     cell.border = thin_border
