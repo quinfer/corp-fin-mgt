@@ -2,7 +2,6 @@
 title: "Corporate Financial Management"
 subtitle: "Formula Reference Sheet"
 author: "Prof. Barry Quinn"
-date: "2025"
 format:
   pdf:
     documentclass: article
@@ -37,6 +36,7 @@ format:
 $$\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}$$
 
 **Where:**
+
 - CF~t~ = Cash flow in period t
 - r = Discount rate (cost of capital)
 - t = Time period
@@ -45,6 +45,7 @@ $$\text{NPV} = \sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t}$$
 **Decision Rule:** Accept if NPV > 0
 
 **Key Points:**
+
 - Use incremental cash flows only
 - Include working capital investment and recovery
 - Consider opportunity costs (e.g., foregone rental income)
@@ -62,6 +63,7 @@ $$\sum_{t=0}^{n} \frac{\text{Cash Flow}_t}{(1+r)^t} = 0$$
 $$\text{IRR} = r_1 + \frac{\text{NPV}_1}{\text{NPV}_1 - \text{NPV}_2} \times (r_2 - r_1)$$
 
 **Where:**
+
 - r~1~ = Lower discount rate (giving positive NPV)
 - r~2~ = Higher discount rate (giving negative NPV)
 - NPV~1~ = NPV at r~1~
@@ -89,6 +91,7 @@ $$\text{Discounted Payback} = \text{Time until } \sum_{t=1}^{n} \frac{\text{Cash
 $$\text{ARR} = \frac{\text{Average Annual Profit}}{\text{Average Investment}} \times 100\%$$
 
 **Where:**
+
 - Average Annual Profit = Total profit over project life ÷ Number of years
 - Average Investment = (Initial Investment + Residual Value) ÷ 2
 
@@ -104,6 +107,7 @@ $$\text{ARR} = \frac{\text{Average Annual Profit}}{\text{Average Investment}} \t
 $$r_e = r_f + \beta(r_m - r_f)$$
 
 **Where:**
+
 - r~e~ = Required return on equity (cost of equity)
 - r~f~ = Risk-free rate of return
 - β = Beta (systematic risk measure)
@@ -111,6 +115,7 @@ $$r_e = r_f + \beta(r_m - r_f)$$
 - (r~m~ - r~f~) = Market risk premium
 
 **Key Points:**
+
 - Beta = 1: Same risk as market
 - Beta > 1: Higher risk than market
 - Beta < 1: Lower risk than market
@@ -126,6 +131,7 @@ $$K_e = \frac{D}{P_0}$$
 $$K_e = \frac{D_1}{P_0} + g = \frac{D_0(1+g)}{P_0} + g$$
 
 **Where:**
+
 - K~e~ = Cost of equity
 - D = Annual dividend
 - D~0~ = Current dividend
@@ -144,11 +150,13 @@ $$g = \sqrt[n]{\frac{D_{current}}{D_{n \text{ years ago}}}} - 1$$
 $$K_d = i(1-T)$$
 
 **Where:**
+
 - K~d~ = After-tax cost of debt
 - i = Interest rate
 - T = Tax rate
 
 **Redeemable Bonds (Traded Debt):**
+
 Find the IRR where:
 $$\text{Current Market Price} = \sum_{t=1}^{n} \frac{\text{Interest}(1-T)}{(1+K_d)^t} + \frac{\text{Redemption Value}}{(1+K_d)^n}$$
 
@@ -160,6 +168,7 @@ $$\text{Current Market Price} = \sum_{t=1}^{n} \frac{\text{Interest}(1-T)}{(1+K_
 $$\text{WACC} = \frac{E}{V} \times K_e + \frac{D}{V} \times K_d \times (1-T)$$
 
 **Where:**
+
 - E = Market value of equity
 - D = Market value of debt
 - V = E + D (total market value)
@@ -168,6 +177,7 @@ $$\text{WACC} = \frac{E}{V} \times K_e + \frac{D}{V} \times K_d \times (1-T)$$
 - T = Tax rate
 
 **Key Points:**
+
 - Use market values, not book values
 - Tax shield applies to debt only
 - Include all sources of finance (ordinary shares, preference shares, all debt)
