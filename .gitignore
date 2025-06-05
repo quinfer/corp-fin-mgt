@@ -3,3 +3,6 @@ _freeze/
 .DS_Store
 .DS_Store
 docs/
+materials/final_exam.qmd
+materials/final_exam_BACKUP.qmd
+materials/*exam*.qmd
